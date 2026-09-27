@@ -8,8 +8,11 @@ import {
   LngLatBounds,
   type StyleSpecification,
 } from 'maplibre-gl';
+import { WifiOff } from 'lucide-vue-next';
 import type { Stamp } from '../types/stamp';
 import { CATEGORIES } from '../constants/categories';
+import { registerOfflineTileProtocol } from '../utils/offlineMap';
+import OfflineMapModal from './OfflineMapModal.vue';
 
 const props = defineProps<{
   stamps: Stamp[];
@@ -26,16 +29,44 @@ const currentBasemap = ref<'esri' | 'gsi_std' | 'gsi_pale'>('esri');
 let map: MapLibreMap | null = null;
 const markersMap = new Map<string, Marker>();
 
-// Available high-performance tile sources with NO API key requirements
+const isOfflineModalOpen = ref(false);
+const currentBounds = ref<{
+  minLat: number;
+  maxLat: number;
+  minLon: number;
+  maxLon: number;
+  zoom: number;
+} | null>(null);
+
+function updateCurrentBounds() {
+  if (!map) return;
+  try {
+    const b = map.getBounds();
+    currentBounds.value = {
+      minLat: b.getSouth(),
+      maxLat: b.getNorth(),
+      minLon: b.getWest(),
+      maxLon: b.getEast(),
+      zoom: map.getZoom(),
+    };
+  } catch {
+    // Map not ready or bounds unavailable
+  }
+}
+
+function openOfflineModal() {
+  updateCurrentBounds();
+  isOfflineModalOpen.value = true;
+}
+
+// Available high-performance tile sources with local offline caching & bundling
 const MAP_STYLES: Record<string, StyleSpecification> = {
   esri: {
     version: 8,
     sources: {
       'raster-tiles': {
         type: 'raster',
-        tiles: [
-          'https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}',
-        ],
+        tiles: ['stampu://esri/{z}/{y}/{x}'],
         tileSize: 256,
         attribution:
           'Tiles &copy; Esri &mdash; Sources: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, METI, TomTom',
@@ -57,7 +88,7 @@ const MAP_STYLES: Record<string, StyleSpecification> = {
     sources: {
       'raster-tiles': {
         type: 'raster',
-        tiles: ['https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png'],
+        tiles: ['stampu://gsi_std/{z}/{x}/{y}'],
         tileSize: 256,
         attribution:
           '&copy; <a href="https://maps.gsi.go.jp/development/ichiran.html">国土地理院 (GSI Japan)</a>',
@@ -79,7 +110,7 @@ const MAP_STYLES: Record<string, StyleSpecification> = {
     sources: {
       'raster-tiles': {
         type: 'raster',
-        tiles: ['https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png'],
+        tiles: ['stampu://gsi_pale/{z}/{x}/{y}'],
         tileSize: 256,
         attribution:
           '&copy; <a href="https://maps.gsi.go.jp/development/ichiran.html">国土地理院 (GSI Japan) 淡色地図</a>',
@@ -262,6 +293,8 @@ function fitAllStamps() {
 onMounted(() => {
   if (!mapContainerRef.value) return;
 
+  registerOfflineTileProtocol();
+
   map = new MapLibreMap({
     container: mapContainerRef.value,
     style: MAP_STYLES.esri,
@@ -291,6 +324,11 @@ onMounted(() => {
 
   map.on('load', () => {
     updateMarkers();
+    updateCurrentBounds();
+  });
+
+  map.on('moveend', () => {
+    updateCurrentBounds();
   });
 });
 
@@ -389,6 +427,16 @@ defineExpose({
       <div class="flex items-center gap-2">
         <button
           type="button"
+          @click="openOfflineModal"
+          class="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-slate-900/90 hover:bg-slate-800 text-slate-200 hover:text-white border border-slate-700/80 shadow-lg backdrop-blur-md text-xs font-semibold transition-all active:scale-95"
+          title="Manage offline map tiles and storage"
+        >
+          <WifiOff class="w-3.5 h-3.5 text-emerald-400" />
+          <span>Offline Maps</span>
+        </button>
+
+        <button
+          type="button"
           @click="resetJapanView"
           class="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-slate-900/90 hover:bg-slate-800 text-slate-200 hover:text-white border border-slate-700/80 shadow-lg backdrop-blur-md text-xs font-semibold transition-all active:scale-95"
           title="Reset view to whole Japan overview"
@@ -420,6 +468,13 @@ defineExpose({
         </button>
       </div>
     </div>
+
+    <!-- Offline Map Manager Modal -->
+    <OfflineMapModal
+      :isOpen="isOfflineModalOpen"
+      :currentBounds="currentBounds"
+      @close="isOfflineModalOpen = false"
+    />
   </div>
 </template>
 

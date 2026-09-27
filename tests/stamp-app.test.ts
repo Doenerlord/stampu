@@ -61,6 +61,8 @@ vi.mock('maplibre-gl', () => {
     LngLatBounds: class {
       extend() {}
     },
+    addProtocol: vi.fn(),
+    removeProtocol: vi.fn(),
   };
 });
 
