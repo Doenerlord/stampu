@@ -26,6 +26,13 @@ export interface VisitedRecord {
   rating?: number;
 }
 
+export interface WishlistRecord {
+  id?: number;
+  stampId: string;
+  addedAt: string;
+  notes?: string;
+}
+
 export interface CategoryMeta {
   id: StampCategory;
   name: string;

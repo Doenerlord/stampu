@@ -1,21 +1,29 @@
 <script setup lang="ts">
-import { ref, computed, onMounted } from 'vue';
+import { ref, computed, onMounted, nextTick } from 'vue';
 import type { Stamp, StampCategory } from './types/stamp';
-import { getVisitedStampIds, toggleVisitedStamp } from './db';
+import {
+  getVisitedStampIds,
+  toggleVisitedStamp,
+  getWishlistStampIds,
+  toggleWishlistStamp,
+} from './db';
 import MapContainer from './components/MapContainer.vue';
 import CategoryFilters from './components/CategoryFilters.vue';
 import StampDrawer from './components/StampDrawer.vue';
+import WishlistModal from './components/WishlistModal.vue';
 
 const allStamps = ref<Stamp[]>([]);
 const selectedCategory = ref<StampCategory | 'all'>('all');
-const visitedFilter = ref<'all' | 'visited' | 'unvisited'>('all');
+const visitedFilter = ref<'all' | 'visited' | 'unvisited' | 'wishlist'>('all');
 const searchQuery = ref<string>('');
 const selectedStamp = ref<Stamp | null>(null);
 const isDrawerOpen = ref<boolean>(false);
+const isWishlistModalOpen = ref<boolean>(false);
 const visitedStampIds = ref<Set<string>>(new Set());
+const wishlistStampIds = ref<Set<string>>(new Set());
 const mapContainerRef = ref<InstanceType<typeof MapContainer> | null>(null);
 
-// Load stamps from public data and visited stamps from Dexie
+// Load stamps from public data and visited & wishlist stamps from Dexie
 onMounted(async () => {
   try {
     const res = await fetch('/data/stamps.json');
@@ -28,8 +36,13 @@ onMounted(async () => {
     console.error('Error fetching stamps.json:', err);
   }
 
-  // Load visited from Dexie
-  visitedStampIds.value = await getVisitedStampIds();
+  // Load visited & wishlist from Dexie
+  const [visited, wishlist] = await Promise.all([
+    getVisitedStampIds(),
+    getWishlistStampIds(),
+  ]);
+  visitedStampIds.value = visited;
+  wishlistStampIds.value = wishlist;
 });
 
 // Category counts for badges
@@ -51,6 +64,11 @@ const categoryCounts = computed(() => {
   return counts;
 });
 
+// Wishlist stamps array for modal
+const wishlistStamps = computed(() => {
+  return allStamps.value.filter((stamp) => wishlistStampIds.value.has(stamp.id));
+});
+
 // Filtered stamps passed to map
 const filteredStamps = computed(() => {
   const query = searchQuery.value.trim().toLowerCase();
@@ -61,12 +79,17 @@ const filteredStamps = computed(() => {
       return false;
     }
 
-    // 2. Visited filter check
+    // 2. Status filter check
     const isVisited = visitedStampIds.value.has(stamp.id);
+    const isWishlist = wishlistStampIds.value.has(stamp.id);
+
     if (visitedFilter.value === 'visited' && !isVisited) {
       return false;
     }
     if (visitedFilter.value === 'unvisited' && isVisited) {
+      return false;
+    }
+    if (visitedFilter.value === 'wishlist' && !isWishlist) {
       return false;
     }
 
@@ -92,6 +115,13 @@ function handleSelectStamp(stamp: Stamp) {
   isDrawerOpen.value = true;
 }
 
+function handleSelectStampFromWishlist(stamp: Stamp) {
+  isWishlistModalOpen.value = false;
+  selectedStamp.value = stamp;
+  isDrawerOpen.value = true;
+  handleFocusMap(stamp.coordinates);
+}
+
 function handleCloseDrawer() {
   isDrawerOpen.value = false;
   // Keep selectedStamp for smooth exit animation, then clean up
@@ -107,8 +137,21 @@ async function handleToggleCollected(stampId: string) {
   visitedStampIds.value = await getVisitedStampIds();
 }
 
+async function handleToggleWishlist(stampId: string) {
+  await toggleWishlistStamp(stampId);
+  wishlistStampIds.value = await getWishlistStampIds();
+}
+
 function handleFocusMap(coordinates: [number, number]) {
   mapContainerRef.value?.focusCoordinates(coordinates, 13);
+}
+
+function handleFitWishlistOnMap() {
+  isWishlistModalOpen.value = false;
+  visitedFilter.value = 'wishlist';
+  nextTick(() => {
+    mapContainerRef.value?.fitAllStamps();
+  });
 }
 </script>
 
@@ -120,6 +163,7 @@ function handleFocusMap(coordinates: [number, number]) {
       :stamps="filteredStamps"
       :selected-stamp="selectedStamp"
       :visited-stamp-ids="visitedStampIds"
+      :wishlist-stamp-ids="wishlistStampIds"
       @select-stamp="handleSelectStamp"
     />
 
@@ -131,7 +175,9 @@ function handleFocusMap(coordinates: [number, number]) {
         v-model:search-query="searchQuery"
         :category-counts="categoryCounts"
         :visited-count="visitedStampIds.size"
+        :wishlist-count="wishlistStampIds.size"
         :total-count="allStamps.length"
+        @open-wishlist-modal="isWishlistModalOpen = true"
       />
     </div>
 
@@ -140,9 +186,23 @@ function handleFocusMap(coordinates: [number, number]) {
       :stamp="selectedStamp"
       :is-open="isDrawerOpen"
       :is-collected="selectedStamp ? visitedStampIds.has(selectedStamp.id) : false"
+      :is-wishlist="selectedStamp ? wishlistStampIds.has(selectedStamp.id) : false"
       @close="handleCloseDrawer"
       @toggle-collected="handleToggleCollected"
+      @toggle-wishlist="handleToggleWishlist"
       @focus-map="handleFocusMap"
+    />
+
+    <!-- Wishlist Modal -->
+    <WishlistModal
+      :is-open="isWishlistModalOpen"
+      :wishlist-stamps="wishlistStamps"
+      :visited-stamp-ids="visitedStampIds"
+      @close="isWishlistModalOpen = false"
+      @select-stamp="handleSelectStampFromWishlist"
+      @toggle-wishlist="handleToggleWishlist"
+      @toggle-collected="handleToggleCollected"
+      @fit-wishlist-on-map="handleFitWishlistOnMap"
     />
   </div>
 </template>

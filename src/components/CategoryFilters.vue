@@ -12,22 +12,25 @@ import {
   Search,
   X,
   CheckCircle2,
-  CircleDot
+  CircleDot,
+  Star,
 } from 'lucide-vue-next';
 
 const props = defineProps<{
   selectedCategory: StampCategory | 'all';
-  visitedFilter: 'all' | 'visited' | 'unvisited';
+  visitedFilter: 'all' | 'visited' | 'unvisited' | 'wishlist';
   searchQuery: string;
   categoryCounts: Record<string, number>;
   visitedCount: number;
+  wishlistCount: number;
   totalCount: number;
 }>();
 
 const emit = defineEmits<{
   (e: 'update:selectedCategory', value: StampCategory | 'all'): void;
-  (e: 'update:visitedFilter', value: 'all' | 'visited' | 'unvisited'): void;
+  (e: 'update:visitedFilter', value: 'all' | 'visited' | 'unvisited' | 'wishlist'): void;
   (e: 'update:searchQuery', value: string): void;
+  (e: 'openWishlistModal'): void;
 }>();
 
 const iconMap = {
@@ -47,7 +50,7 @@ function selectCategory(cat: StampCategory | 'all') {
   emit('update:selectedCategory', cat);
 }
 
-function selectVisited(filter: 'all' | 'visited' | 'unvisited') {
+function selectVisited(filter: 'all' | 'visited' | 'unvisited' | 'wishlist') {
   emit('update:visitedFilter', filter);
 }
 
@@ -71,8 +74,8 @@ function clearSearch() {
     <div
       class="flex flex-col sm:flex-row items-stretch sm:items-center gap-2 bg-slate-900/85 backdrop-blur-md border border-slate-700/60 shadow-xl rounded-2xl p-2.5 sm:px-4"
     >
-      <!-- Title & Stamp Counter Badge -->
-      <div class="flex items-center justify-between sm:justify-start gap-3">
+      <!-- Title, Stamp Counter & Wishlist Badge -->
+      <div class="flex items-center justify-between sm:justify-start gap-2.5">
         <div class="flex items-center gap-2">
           <div
             class="w-9 h-9 rounded-xl bg-gradient-to-tr from-red-600 via-rose-500 to-amber-500 flex items-center justify-center text-white shadow-md shadow-red-900/30"
@@ -88,16 +91,33 @@ function clearSearch() {
           </div>
         </div>
 
-        <!-- Progress Pill -->
-        <div
-          class="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-slate-800/90 border border-slate-700 text-xs"
-          :title="`${visitedCount} of ${totalCount} collected`"
-        >
-          <CheckCircle2 class="w-3.5 h-3.5 text-emerald-400" />
-          <span class="text-slate-300 font-medium">
-            <strong class="text-emerald-400">{{ visitedCount }}</strong> / {{ totalCount }}
-          </span>
-          <span class="text-[10px] text-slate-400 bg-slate-700/60 px-1 rounded-sm">{{ visitedPercentage }}%</span>
+        <div class="flex items-center gap-2">
+          <!-- Progress Pill -->
+          <div
+            class="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-slate-800/90 border border-slate-700 text-xs"
+            :title="`${visitedCount} of ${totalCount} collected`"
+          >
+            <CheckCircle2 class="w-3.5 h-3.5 text-emerald-400" />
+            <span class="text-slate-300 font-medium">
+              <strong class="text-emerald-400">{{ visitedCount }}</strong> / {{ totalCount }}
+            </span>
+            <span class="text-[10px] text-slate-400 bg-slate-700/60 px-1 rounded-sm">{{ visitedPercentage }}%</span>
+          </div>
+
+          <!-- Wishlist Modal Trigger Pill -->
+          <button
+            type="button"
+            @click="$emit('openWishlistModal')"
+            class="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-amber-500/15 hover:bg-amber-500/25 border border-amber-500/40 text-xs text-amber-300 font-semibold transition-all active:scale-95 shadow-xs"
+            title="Open Stamp Wishlist"
+            aria-label="Open Stamp Wishlist"
+          >
+            <Star class="w-3.5 h-3.5 fill-amber-400 text-amber-400" />
+            <span class="hidden sm:inline">Wishlist</span>
+            <span class="text-[10px] bg-amber-500/30 text-amber-200 px-1.5 py-0.2 rounded-full font-bold">
+              {{ wishlistCount }}
+            </span>
+          </button>
         </div>
       </div>
 
@@ -123,8 +143,8 @@ function clearSearch() {
         </button>
       </div>
 
-      <!-- Visited Status Quick Toggle -->
-      <div class="flex items-center gap-1 bg-slate-800/80 p-1 rounded-xl border border-slate-700/70 self-end sm:self-center">
+      <!-- Visited Status & Wishlist Quick Toggle -->
+      <div class="flex items-center gap-1 bg-slate-800/80 p-1 rounded-xl border border-slate-700/70 self-end sm:self-center overflow-x-auto no-scrollbar">
         <button
           type="button"
           @click="selectVisited('all')"
@@ -164,6 +184,29 @@ function clearSearch() {
         >
           <CircleDot class="w-3.5 h-3.5" />
           <span>To Find</span>
+        </button>
+        <button
+          type="button"
+          @click="selectVisited('wishlist')"
+          :class="[
+            'px-2 py-1 text-xs rounded-lg font-medium flex items-center gap-1 transition-all',
+            visitedFilter === 'wishlist'
+              ? 'bg-amber-500 text-slate-950 font-bold shadow-sm'
+              : 'text-slate-400 hover:text-amber-300'
+          ]"
+          title="Filter map to show wishlist target stamps"
+        >
+          <Star :class="['w-3.5 h-3.5', visitedFilter === 'wishlist' ? 'fill-slate-950 text-slate-950' : 'fill-amber-400 text-amber-400']" />
+          <span>Wishlist</span>
+          <span
+            v-if="wishlistCount > 0"
+            :class="[
+              'text-[9px] px-1 rounded-full font-bold ml-0.5',
+              visitedFilter === 'wishlist' ? 'bg-slate-950 text-amber-300' : 'bg-amber-500/30 text-amber-300'
+            ]"
+          >
+            {{ wishlistCount }}
+          </span>
         </button>
       </div>
     </div>

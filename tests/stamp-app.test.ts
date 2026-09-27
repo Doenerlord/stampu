@@ -69,9 +69,16 @@ vi.mock('maplibre-gl', () => {
 import StampDrawer from '../src/components/StampDrawer.vue';
 import CategoryFilters from '../src/components/CategoryFilters.vue';
 import MapContainer from '../src/components/MapContainer.vue';
+import WishlistModal from '../src/components/WishlistModal.vue';
 import App from '../src/App.vue';
 import type { Stamp } from '../src/types/stamp';
-import { db, toggleVisitedStamp, getVisitedStampIds } from '../src/db';
+import {
+  db,
+  toggleVisitedStamp,
+  getVisitedStampIds,
+  toggleWishlistStamp,
+  getWishlistStampIds,
+} from '../src/db';
 import { isImageBuffer } from '../src/utils/offlineMap';
 
 const sampleStamp: Stamp = {
@@ -168,6 +175,12 @@ describe('StampDrawer Component', () => {
     expect(collectBtn).toBeDefined();
     await collectBtn!.trigger('click');
     expect(wrapper.emitted('toggleCollected')?.[0]).toEqual(['eki-tokyo']);
+
+    // Verify Wishlist button emits toggleWishlist with stampId
+    const wishlistBtn = wrapper.find('button[aria-label="Toggle wishlist"]');
+    expect(wishlistBtn.exists()).toBe(true);
+    await wishlistBtn.trigger('click');
+    expect(wrapper.emitted('toggleWishlist')?.[0]).toEqual(['eki-tokyo']);
   });
 });
 
@@ -189,14 +202,16 @@ describe('CategoryFilters Component', () => {
         searchQuery: '',
         categoryCounts: counts,
         visitedCount: 2,
+        wishlistCount: 3,
         totalCount: 20,
       },
     });
 
-    // Check brand and counts
+    // Check brand, counts, and wishlist pill
     expect(wrapper.text()).toContain('STAMPU');
     expect(wrapper.text()).toContain('All Stamps');
     expect(wrapper.text()).toContain('Eki Stations');
+    expect(wrapper.text()).toContain('Wishlist');
 
     // Click on Eki Stations chip
     const ekiButton = wrapper
@@ -206,6 +221,14 @@ describe('CategoryFilters Component', () => {
     await ekiButton!.trigger('click');
 
     expect(wrapper.emitted('update:selectedCategory')?.[0]).toEqual(['eki']);
+
+    // Click on Wishlist filter button
+    const wishlistFilterBtn = wrapper
+      .findAll('button')
+      .find((b) => b.text().includes('Wishlist') && b.attributes('title')?.includes('wishlist target'));
+    expect(wishlistFilterBtn).toBeDefined();
+    await wishlistFilterBtn!.trigger('click');
+    expect(wrapper.emitted('update:visitedFilter')?.[0]).toEqual(['wishlist']);
   });
 });
 
@@ -268,6 +291,7 @@ describe('MapContainer & Marker Click -> Drawer Integration', () => {
 describe('Dexie Database Integration', () => {
   beforeEach(async () => {
     await db.visitedStamps.clear();
+    await db.wishlistStamps.clear();
   });
 
   it('tracks visited stamps correctly offline', async () => {
@@ -289,6 +313,67 @@ describe('Dexie Database Integration', () => {
     visited = await getVisitedStampIds();
     expect(visited.has('eki-tokyo')).toBe(false);
     expect(visited.size).toBe(0);
+  });
+
+  it('tracks wishlist target stamps correctly offline', async () => {
+    let wishlist = await getWishlistStampIds();
+    expect(wishlist.has('castle-himeji')).toBe(false);
+
+    // Toggle on
+    const isAdded = await toggleWishlistStamp('castle-himeji');
+    expect(isAdded).toBe(true);
+
+    wishlist = await getWishlistStampIds();
+    expect(wishlist.has('castle-himeji')).toBe(true);
+    expect(wishlist.size).toBe(1);
+
+    // Toggle off
+    const isRemoved = await toggleWishlistStamp('castle-himeji');
+    expect(isRemoved).toBe(false);
+
+    wishlist = await getWishlistStampIds();
+    expect(wishlist.has('castle-himeji')).toBe(false);
+    expect(wishlist.size).toBe(0);
+  });
+});
+
+describe('WishlistModal Component', () => {
+  it('renders wishlist modal with saved stamps and handles actions', async () => {
+    const wrapper = mount(WishlistModal, {
+      props: {
+        isOpen: true,
+        wishlistStamps: [sampleStamp],
+        visitedStampIds: new Set<string>(),
+      },
+    });
+
+    expect(wrapper.text()).toContain('Stamp Wishlist');
+    expect(wrapper.text()).toContain('Tokyo Station');
+    expect(wrapper.text()).toContain('東京駅');
+
+    // Click Details button
+    const detailsBtn = wrapper.findAll('button').find((b) => b.text().includes('Details'));
+    expect(detailsBtn).toBeDefined();
+    await detailsBtn!.trigger('click');
+    expect(wrapper.emitted('selectStamp')?.[0]).toEqual([sampleStamp]);
+
+    // Click Show All on Map button
+    const mapBtn = wrapper.findAll('button').find((b) => b.text().includes('Show All on Map'));
+    expect(mapBtn).toBeDefined();
+    await mapBtn!.trigger('click');
+    expect(wrapper.emitted('fitWishlistOnMap')).toBeTruthy();
+  });
+
+  it('shows friendly empty state when wishlist is empty', () => {
+    const wrapper = mount(WishlistModal, {
+      props: {
+        isOpen: true,
+        wishlistStamps: [],
+        visitedStampIds: new Set<string>(),
+      },
+    });
+
+    expect(wrapper.text()).toContain('No stamps on your wishlist yet');
   });
 });
 

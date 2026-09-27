@@ -15,17 +15,20 @@ import {
   Castle,
   Compass,
   Maximize2,
+  Star,
 } from 'lucide-vue-next';
 
 const props = defineProps<{
   stamp: Stamp | null;
   isOpen: boolean;
   isCollected: boolean;
+  isWishlist?: boolean;
 }>();
 
 const emit = defineEmits<{
   (e: 'close'): void;
   (e: 'toggleCollected', stampId: string): void;
+  (e: 'toggleWishlist', stampId: string): void;
   (e: 'focusMap', coordinates: [number, number]): void;
 }>();
 
@@ -132,6 +135,14 @@ watch(
               <CheckCircle2 class="w-3.5 h-3.5 text-emerald-400" />
               Collected
             </span>
+
+            <span
+              v-if="isWishlist"
+              class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-semibold bg-amber-950/80 text-amber-300 border border-amber-600/50"
+            >
+              <Star class="w-3.5 h-3.5 fill-amber-400 text-amber-400" />
+              Wishlist
+            </span>
           </div>
 
           <!-- Titles -->
@@ -145,16 +156,33 @@ watch(
           </div>
         </div>
 
-        <!-- Close Button -->
-        <button
-          type="button"
-          @click="$emit('close')"
-          class="p-2 -mr-2 -mt-1 text-slate-400 hover:text-white hover:bg-slate-800 rounded-full transition-colors"
-          title="Close drawer"
-          aria-label="Close drawer"
-        >
-          <X class="w-5 h-5" />
-        </button>
+        <!-- Header Actions: Wishlist and Close -->
+        <div class="flex items-center gap-1 -mr-2 -mt-1">
+          <button
+            type="button"
+            @click="$emit('toggleWishlist', stamp.id)"
+            :class="[
+              'p-2 rounded-full transition-all',
+              isWishlist
+                ? 'text-amber-400 bg-amber-500/20 hover:bg-amber-500/30 border border-amber-500/40 shadow-xs'
+                : 'text-slate-400 hover:text-amber-300 hover:bg-slate-800'
+            ]"
+            :title="isWishlist ? 'Remove from Wishlist' : 'Add to Wishlist (Auf die Wunschliste)'"
+            aria-label="Toggle wishlist"
+          >
+            <Star :class="['w-5 h-5', isWishlist ? 'fill-amber-400 text-amber-400' : '']" />
+          </button>
+
+          <button
+            type="button"
+            @click="$emit('close')"
+            class="p-2 text-slate-400 hover:text-white hover:bg-slate-800 rounded-full transition-colors"
+            title="Close drawer"
+            aria-label="Close drawer"
+          >
+            <X class="w-5 h-5" />
+          </button>
+        </div>
       </div>
 
       <!-- Scrollable Body -->
@@ -210,6 +238,21 @@ watch(
               >
                 <Compass class="w-3.5 h-3.5 text-rose-400" />
                 <span>Center on Map</span>
+              </button>
+
+              <button
+                type="button"
+                @click="$emit('toggleWishlist', stamp.id)"
+                :class="[
+                  'inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-xs font-medium border transition-colors active:scale-95',
+                  isWishlist
+                    ? 'bg-amber-500/20 text-amber-300 border-amber-500/40 hover:bg-amber-500/30 font-semibold'
+                    : 'bg-slate-700/80 hover:bg-slate-700 text-slate-300 hover:text-white border-slate-600/60'
+                ]"
+                :title="isWishlist ? 'Remove from Wishlist' : 'Add to Wishlist (Auf die Wunschliste)'"
+              >
+                <Star :class="['w-3.5 h-3.5', isWishlist ? 'fill-amber-400 text-amber-400' : 'text-slate-400']" />
+                <span>{{ isWishlist ? 'Wishlisted' : 'Wishlist' }}</span>
               </button>
 
               <button

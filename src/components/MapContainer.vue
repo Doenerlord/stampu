@@ -18,6 +18,7 @@ const props = defineProps<{
   stamps: Stamp[];
   selectedStamp: Stamp | null;
   visitedStampIds: Set<string>;
+  wishlistStampIds?: Set<string>;
 }>();
 
 const emit = defineEmits<{
@@ -140,6 +141,7 @@ const iconSvgs: Record<string, string> = {
 function renderMarkerContent(wrapper: HTMLElement, stamp: Stamp) {
   const cat = CATEGORIES[stamp.category] || CATEGORIES.eki;
   const isVisited = props.visitedStampIds.has(stamp.id);
+  const isWishlist = props.wishlistStampIds?.has(stamp.id) ?? false;
   const isSelected = props.selectedStamp?.id === stamp.id;
 
   wrapper.dataset.stampId = stamp.id;
@@ -154,6 +156,7 @@ function renderMarkerContent(wrapper: HTMLElement, stamp: Stamp) {
         <div class="bg-slate-900/95 text-white px-2.5 py-1 rounded-lg text-[11px] font-semibold tracking-wide whitespace-nowrap shadow-xl border border-slate-700/80 flex items-center gap-1.5">
           <span>${stamp.name}</span>
           <span class="text-slate-400 font-serif text-[10px]">${stamp.name_ja}</span>
+          ${isWishlist ? '<span class="text-amber-400 text-[10px]">★ Wishlist</span>' : ''}
         </div>
         <div class="w-2 h-2 bg-slate-900 rotate-45 -mt-1 border-r border-b border-slate-700"></div>
       </div>
@@ -163,9 +166,11 @@ function renderMarkerContent(wrapper: HTMLElement, stamp: Stamp) {
         class="marker-pin relative flex items-center justify-center w-8 h-8 rounded-full border-2 shadow-lg transition-transform duration-200 group-hover:scale-125 ${
           isSelected
             ? 'scale-125 ring-4 ring-white ring-offset-2 ring-offset-slate-900 z-20'
-            : 'z-10'
+            : isWishlist && !isVisited
+              ? 'ring-2 ring-amber-400 ring-offset-1 ring-offset-slate-950 z-15'
+              : 'z-10'
         }"
-        style="background-color: ${cat.hexColor}; border-color: #ffffff;"
+        style="background-color: ${cat.hexColor}; border-color: ${isWishlist && !isVisited ? '#fef08a' : '#ffffff'};"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -179,6 +184,19 @@ function renderMarkerContent(wrapper: HTMLElement, stamp: Stamp) {
         >
           ${iconSvgs[cat.iconName] || iconSvgs.Train}
         </svg>
+
+        <!-- Wishlist Star badge in corner -->
+        ${
+          isWishlist
+            ? `
+          <span class="absolute -top-1 -left-1 w-3.5 h-3.5 rounded-full bg-amber-400 border border-slate-900 flex items-center justify-center shadow-xs" title="Target on Wishlist">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#78350f" stroke="#78350f" stroke-width="1.5" class="w-2.5 h-2.5">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+            </svg>
+          </span>
+        `
+            : ''
+        }
 
         <!-- Collected checkmark badge in corner -->
         ${
@@ -350,9 +368,9 @@ onUnmounted(() => {
   }
 });
 
-// Watch for changes in stamps, selected stamp, or visited stamps
+// Watch for changes in stamps, selected stamp, visited stamps, or wishlist stamps
 watch(
-  () => [props.stamps, props.selectedStamp, props.visitedStampIds],
+  () => [props.stamps, props.selectedStamp, props.visitedStampIds, props.wishlistStampIds],
   () => {
     nextTick(() => {
       updateMarkers();
