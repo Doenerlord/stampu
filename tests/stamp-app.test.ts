@@ -406,3 +406,83 @@ describe('Image Buffer Validation (isImageBuffer)', () => {
   });
 });
 
+import PrefectureDownloadModal from '../src/components/PrefectureDownloadModal.vue';
+import { saveDownloadedPack, getDownloadedPackIds, deleteDownloadedPack } from '../src/db';
+import type { PrefecturePack } from '../src/types/stamp';
+
+describe('Prefectures Catalog & Offline Download Manager', () => {
+  it('public/data/prefectures.json contains all 47 prefectures with valid bounds and counts', () => {
+    const raw = fs.readFileSync(path.join(process.cwd(), 'public', 'data', 'prefectures.json'), 'utf-8');
+    const prefs: PrefecturePack[] = JSON.parse(raw);
+
+    expect(prefs.length).toBe(47);
+    for (const p of prefs) {
+      expect(p.id).toBeTruthy();
+      expect(p.name).toBeTruthy();
+      expect(p.name_ja).toBeTruthy();
+      expect(p.region).toBeTruthy();
+      expect(p.stampCount).toBeGreaterThan(0);
+      expect(p.bounds).toBeDefined();
+      expect(p.bounds?.minLat).toBeLessThan(p.bounds?.maxLat!);
+      expect(p.bounds?.minLon).toBeLessThan(p.bounds?.maxLon!);
+    }
+  });
+
+  it('renders PrefectureDownloadModal and filters by region and search query', async () => {
+    const samplePrefectures: PrefecturePack[] = [
+      {
+        id: 'tokyo',
+        name: 'Tokyo',
+        name_ja: '東京都',
+        region: 'Kanto',
+        stampCount: 65,
+        categories: { eki: 55, castle: 2 },
+        bounds: { minLat: 35.5, maxLat: 35.9, minLon: 139.1, maxLon: 139.9 },
+        estimatedSizeMB: 5.2,
+      },
+      {
+        id: 'hokkaido',
+        name: 'Hokkaido',
+        name_ja: '北海道',
+        region: 'Hokkaido',
+        stampCount: 133,
+        categories: { michinoeki: 128, castle: 5 },
+        bounds: { minLat: 41.3, maxLat: 45.6, minLon: 139.7, maxLon: 145.8 },
+        estimatedSizeMB: 10.6,
+      },
+    ];
+
+    const wrapper = mount(PrefectureDownloadModal, {
+      props: {
+        isOpen: true,
+        prefectures: samplePrefectures,
+        stamps: [sampleStamp],
+      },
+    });
+
+    expect(wrapper.text()).toContain('Prefecture Offline Packs');
+    expect(wrapper.text()).toContain('Tokyo');
+    expect(wrapper.text()).toContain('Hokkaido');
+
+    // Search filter
+    const input = wrapper.find('input');
+    await input.setValue('Tokyo');
+    const itemNames = wrapper.findAll('.font-bold.text-sm').map(el => el.text());
+    expect(itemNames).toContain('Tokyo');
+    expect(itemNames).not.toContain('Hokkaido');
+  });
+
+  it('Dexie database persists offline packs correctly', async () => {
+    let downloaded = await getDownloadedPackIds();
+    expect(downloaded.has('kyoto')).toBe(false);
+
+    await saveDownloadedPack('kyoto', 45, 3500000);
+    downloaded = await getDownloadedPackIds();
+    expect(downloaded.has('kyoto')).toBe(true);
+
+    await deleteDownloadedPack('kyoto');
+    downloaded = await getDownloadedPackIds();
+    expect(downloaded.has('kyoto')).toBe(false);
+  });
+});
+

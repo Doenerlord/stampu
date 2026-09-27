@@ -418,22 +418,32 @@ def scrape_railway_lines() -> List[Dict[str, Any]]:
 # 3. ROADSIDE STATIONS (Michi-no-Eki - 道の駅)
 # -------------------------------------------------------------
 def scrape_michi_no_eki() -> List[Dict[str, Any]]:
-    print("\n[Category: MICHI-NO-EKI] Scraping Roadside Rest Stations across Japan...")
+    print("\n[Category: MICHI-NO-EKI] Scraping Roadside Rest Stations across all 47 Prefectures of Japan...")
     target_prefs = [
-        ("tokyo", "Tokyo"),
-        ("kanagawa", "Kanagawa"),
-        ("chiba", "Chiba"),
-        ("saitama", "Saitama"),
-        ("shizuoka", "Shizuoka"),
-        ("gunma", "Gunma"),
-        ("tochigi", "Tochigi"),
-        ("yamanashi", "Yamanashi"),
-        ("nagano", "Nagano"),
-        ("kyoto", "Kyoto"),
-        ("hyogo", "Hyogo"),
+        # Hokkaido
         ("hokkaido", "Hokkaido"),
-        ("fukuoka", "Fukuoka"),
-        ("okinawa", "Okinawa"),
+        # Tohoku
+        ("aomori", "Aomori"), ("iwate", "Iwate"), ("miyagi", "Miyagi"),
+        ("akita", "Akita"), ("yamagata", "Yamagata"), ("fukushima", "Fukushima"),
+        # Kanto
+        ("ibaraki", "Ibaraki"), ("tochigi", "Tochigi"), ("gunma", "Gunma"),
+        ("saitama", "Saitama"), ("chiba", "Chiba"), ("tokyo", "Tokyo"), ("kanagawa", "Kanagawa"),
+        # Chubu / Hokuriku / Koshinetsu
+        ("niigata", "Niigata"), ("toyama", "Toyama"), ("ishikawa", "Ishikawa"),
+        ("fukui", "Fukui"), ("yamanashi", "Yamanashi"), ("nagano", "Nagano"),
+        ("gifu", "Gifu"), ("shizuoka", "Shizuoka"), ("aichi", "Aichi"),
+        # Kansai
+        ("mie", "Mie"), ("shiga", "Shiga"), ("kyoto", "Kyoto"),
+        ("osaka", "Osaka"), ("hyogo", "Hyogo"), ("nara", "Nara"), ("wakayama", "Wakayama"),
+        # Chugoku
+        ("tottori", "Tottori"), ("shimane", "Shimane"), ("okayama", "Okayama"),
+        ("hiroshima", "Hiroshima"), ("yamaguchi", "Yamaguchi"),
+        # Shikoku
+        ("tokushima", "Tokushima"), ("kagawa", "Kagawa"), ("ehime", "Ehime"), ("kochi", "Kochi"),
+        # Kyushu / Okinawa
+        ("fukuoka", "Fukuoka"), ("saga", "Saga"), ("nagasaki", "Nagasaki"),
+        ("kumamoto", "Kumamoto"), ("oita", "Oita"), ("miyazaki", "Miyazaki"),
+        ("kagoshima", "Kagoshima"), ("okinawa", "Okinawa")
     ]
 
     michi_links = []
@@ -776,6 +786,60 @@ def main():
         json.dump(all_stamps, f, ensure_ascii=False, indent=2)
 
     print(f"Successfully saved {len(all_stamps)} stamps to {OUTPUT_FILE}!")
+
+    # 6. Generate public/data/prefectures.json catalog for Per-Prefecture Offline Downloads
+    REGIONS = {
+        "Hokkaido": "Hokkaido",
+        "Aomori": "Tohoku", "Iwate": "Tohoku", "Miyagi": "Tohoku", "Akita": "Tohoku", "Yamagata": "Tohoku", "Fukushima": "Tohoku",
+        "Ibaraki": "Kanto", "Tochigi": "Kanto", "Gunma": "Kanto", "Saitama": "Kanto", "Chiba": "Kanto", "Tokyo": "Kanto", "Kanagawa": "Kanto",
+        "Niigata": "Chubu", "Toyama": "Chubu", "Ishikawa": "Chubu", "Fukui": "Chubu", "Yamanashi": "Chubu", "Nagano": "Chubu", "Gifu": "Chubu", "Shizuoka": "Chubu", "Aichi": "Chubu",
+        "Mie": "Kansai", "Shiga": "Kansai", "Kyoto": "Kansai", "Osaka": "Kansai", "Hyogo": "Kansai", "Nara": "Kansai", "Wakayama": "Kansai",
+        "Tottori": "Chugoku", "Shimane": "Chugoku", "Okayama": "Chugoku", "Hiroshima": "Chugoku", "Yamaguchi": "Chugoku",
+        "Tokushima": "Shikoku", "Kagawa": "Shikoku", "Ehime": "Shikoku", "Kochi": "Shikoku",
+        "Fukuoka": "Kyushu & Okinawa", "Saga": "Kyushu & Okinawa", "Nagasaki": "Kyushu & Okinawa", "Kumamoto": "Kyushu & Okinawa", "Oita": "Kyushu & Okinawa", "Miyazaki": "Kyushu & Okinawa", "Kagoshima": "Kyushu & Okinawa", "Okinawa": "Kyushu & Okinawa"
+    }
+
+    pref_catalog = []
+    for pref_en, pref_ja in PREF_EN_TO_JA.items():
+        pref_stamps = [s for s in all_stamps if s.get("prefecture") == pref_en]
+        count = len(pref_stamps)
+        cat_counts = {}
+        for s in pref_stamps:
+            c = s.get("category", "other")
+            cat_counts[c] = cat_counts.get(c, 0) + 1
+
+        lats = [s["coordinates"][1] for s in pref_stamps if s.get("coordinates")]
+        lons = [s["coordinates"][0] for s in pref_stamps if s.get("coordinates")]
+
+        bounds = None
+        if lats and lons:
+            bounds = {
+                "minLat": round(min(lats) - 0.05, 4),
+                "maxLat": round(max(lats) + 0.05, 4),
+                "minLon": round(min(lons) - 0.05, 4),
+                "maxLon": round(max(lons) + 0.05, 4),
+            }
+
+        pref_catalog.append({
+            "id": pref_en.lower().replace(" ", "-"),
+            "name": pref_en,
+            "name_ja": pref_ja,
+            "region": REGIONS.get(pref_en, "Japan"),
+            "stampCount": count,
+            "categories": cat_counts,
+            "bounds": bounds,
+            "estimatedSizeMB": round(count * 0.08, 1)
+        })
+
+    # Sort by region and name
+    region_order = ["Hokkaido", "Tohoku", "Kanto", "Chubu", "Kansai", "Chugoku", "Shikoku", "Kyushu & Okinawa"]
+    pref_catalog.sort(key=lambda p: (region_order.index(p["region"]) if p["region"] in region_order else 99, p["name"]))
+
+    pref_file = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "public", "data", "prefectures.json"))
+    with open(pref_file, "w", encoding="utf-8") as f:
+        json.dump(pref_catalog, f, ensure_ascii=False, indent=2)
+
+    print(f"Successfully generated {len(pref_catalog)} prefecture packs catalog to {pref_file}!")
 
 
 if __name__ == "__main__":

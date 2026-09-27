@@ -43,3 +43,27 @@ export interface CategoryMeta {
   badgeText: string;
   markerColor: string;
 }
+
+export interface PrefecturePack {
+  id: string; // e.g. "tokyo", "hokkaido"
+  name: string; // "Tokyo"
+  name_ja: string; // "東京都"
+  region: string; // "Kanto", "Tohoku", etc.
+  stampCount: number;
+  categories: Record<string, number>;
+  bounds: {
+    minLat: number;
+    maxLat: number;
+    minLon: number;
+    maxLon: number;
+  } | null;
+  estimatedSizeMB: number;
+}
+
+export interface OfflinePackRecord {
+  id?: number;
+  prefectureId: string;
+  downloadedAt: string;
+  stampCount: number;
+  sizeBytes: number;
+}

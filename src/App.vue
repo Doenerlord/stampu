@@ -1,48 +1,59 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, nextTick } from 'vue';
-import type { Stamp, StampCategory } from './types/stamp';
+import type { Stamp, StampCategory, PrefecturePack } from './types/stamp';
 import {
   getVisitedStampIds,
   toggleVisitedStamp,
   getWishlistStampIds,
   toggleWishlistStamp,
+  getDownloadedPackIds,
 } from './db';
 import MapContainer from './components/MapContainer.vue';
 import CategoryFilters from './components/CategoryFilters.vue';
 import StampDrawer from './components/StampDrawer.vue';
 import WishlistModal from './components/WishlistModal.vue';
+import PrefectureDownloadModal from './components/PrefectureDownloadModal.vue';
 
 const allStamps = ref<Stamp[]>([]);
+const prefectures = ref<PrefecturePack[]>([]);
 const selectedCategory = ref<StampCategory | 'all'>('all');
 const visitedFilter = ref<'all' | 'visited' | 'unvisited' | 'wishlist'>('all');
 const searchQuery = ref<string>('');
 const selectedStamp = ref<Stamp | null>(null);
 const isDrawerOpen = ref<boolean>(false);
 const isWishlistModalOpen = ref<boolean>(false);
+const isPacksModalOpen = ref<boolean>(false);
 const visitedStampIds = ref<Set<string>>(new Set());
 const wishlistStampIds = ref<Set<string>>(new Set());
+const downloadedPacksCount = ref<number>(0);
 const mapContainerRef = ref<InstanceType<typeof MapContainer> | null>(null);
 
-// Load stamps from public data and visited & wishlist stamps from Dexie
+// Load stamps & prefectures from public data and visited & wishlist stamps from Dexie
 onMounted(async () => {
   try {
-    const res = await fetch('/data/stamps.json');
-    if (res.ok) {
-      allStamps.value = await res.json();
-    } else {
-      console.error('Failed to load stamps.json:', res.statusText);
+    const [stampsRes, prefsRes] = await Promise.all([
+      fetch('/data/stamps.json'),
+      fetch('/data/prefectures.json'),
+    ]);
+    if (stampsRes.ok) {
+      allStamps.value = await stampsRes.json();
+    }
+    if (prefsRes.ok) {
+      prefectures.value = await prefsRes.json();
     }
   } catch (err) {
-    console.error('Error fetching stamps.json:', err);
+    console.error('Error fetching stamps or prefectures catalog:', err);
   }
 
-  // Load visited & wishlist from Dexie
-  const [visited, wishlist] = await Promise.all([
+  // Load visited, wishlist & offline packs from Dexie
+  const [visited, wishlist, downloaded] = await Promise.all([
     getVisitedStampIds(),
     getWishlistStampIds(),
+    getDownloadedPackIds(),
   ]);
   visitedStampIds.value = visited;
   wishlistStampIds.value = wishlist;
+  downloadedPacksCount.value = downloaded.size;
 });
 
 // Category counts for badges
@@ -153,6 +164,12 @@ function handleFitWishlistOnMap() {
     mapContainerRef.value?.fitAllStamps();
   });
 }
+
+async function handleClosePacksModal() {
+  isPacksModalOpen.value = false;
+  const downloaded = await getDownloadedPackIds();
+  downloadedPacksCount.value = downloaded.size;
+}
 </script>
 
 <template>
@@ -180,7 +197,9 @@ function handleFitWishlistOnMap() {
         :visited-count="visitedStampIds.size"
         :wishlist-count="wishlistStampIds.size"
         :total-count="allStamps.length"
+        :downloaded-packs-count="downloadedPacksCount"
         @open-wishlist-modal="isWishlistModalOpen = true"
+        @open-packs-modal="isPacksModalOpen = true"
       />
     </div>
 
@@ -206,6 +225,14 @@ function handleFitWishlistOnMap() {
       @toggle-wishlist="handleToggleWishlist"
       @toggle-collected="handleToggleCollected"
       @fit-wishlist-on-map="handleFitWishlistOnMap"
+    />
+
+    <!-- Prefecture Offline Packs Download Modal -->
+    <PrefectureDownloadModal
+      :is-open="isPacksModalOpen"
+      :prefectures="prefectures"
+      :stamps="allStamps"
+      @close="handleClosePacksModal"
     />
   </div>
 </template>

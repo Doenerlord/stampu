@@ -14,6 +14,7 @@ import {
   CheckCircle2,
   CircleDot,
   Star,
+  FolderDown,
 } from 'lucide-vue-next';
 
 const props = defineProps<{
@@ -24,6 +25,7 @@ const props = defineProps<{
   visitedCount: number;
   wishlistCount: number;
   totalCount: number;
+  downloadedPacksCount?: number;
 }>();
 
 const emit = defineEmits<{
@@ -31,6 +33,7 @@ const emit = defineEmits<{
   (e: 'update:visitedFilter', value: 'all' | 'visited' | 'unvisited' | 'wishlist'): void;
   (e: 'update:searchQuery', value: string): void;
   (e: 'openWishlistModal'): void;
+  (e: 'openPacksModal'): void;
 }>();
 
 const iconMap = {
@@ -117,6 +120,21 @@ function clearSearch() {
             <span class="hidden sm:inline">Wishlist</span>
             <span class="text-[10px] bg-amber-500/30 text-amber-200 px-1.5 py-0.2 rounded-full font-bold">
               {{ wishlistCount }}
+            </span>
+          </button>
+
+          <!-- Offline Packs Trigger Pill -->
+          <button
+            type="button"
+            @click="$emit('openPacksModal')"
+            class="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-blue-500/15 hover:bg-blue-500/25 border border-blue-500/40 text-xs text-blue-300 font-semibold transition-all active:scale-95 shadow-xs"
+            title="Manage Prefecture Offline Packs"
+            aria-label="Manage Prefecture Offline Packs"
+          >
+            <FolderDown class="w-3.5 h-3.5 text-blue-400" />
+            <span class="hidden sm:inline">Packs</span>
+            <span class="text-[10px] bg-blue-500/30 text-blue-200 px-1.5 py-0.2 rounded-full font-bold">
+              {{ downloadedPacksCount ?? 47 }}
             </span>
           </button>
         </div>
