@@ -1,99 +1,2454 @@
 [
   {
-    "id": "eki-tokyo",
+    "id": "eki-yamanote-shinagawa",
+    "name": "Shinagawa Station",
+    "name_ja": "JR品川駅",
+    "name_romaji": "Shinagawa-eki",
+    "category": "eki",
+    "prefecture": "Tokyo",
+    "city": "Minato City",
+    "address": "東京都港区高輪3-26-27",
+    "coordinates": [
+      139.737823,
+      35.629002
+    ],
+    "stampLocation": "JR品川駅中央改札外 みどりの窓口内",
+    "hours": "07:00 - 21:00 (Station / Ticket office hours)",
+    "operator": "JR East (JR東日本 - 山手線)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/shinagawa08.jpg",
+    "description": "JR Yamanote Line station stamp for Shinagawa Station. Commemorates local neighborhood heritage, architectural landmarks, and historic railway connections."
+  },
+  {
+    "id": "eki-yamanote-osaki",
+    "name": "Osaki Station",
+    "name_ja": "JR大崎駅",
+    "name_romaji": "Ōsaki-eki",
+    "category": "eki",
+    "prefecture": "Tokyo",
+    "city": "Shinagawa City",
+    "address": "東京都品川区大崎1-21-4",
+    "coordinates": [
+      139.728546,
+      35.62006
+    ],
+    "stampLocation": "JR大崎駅北口改札外",
+    "hours": "07:00 - 21:00 (Station / Ticket office hours)",
+    "operator": "JR East (JR東日本 - 山手線)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/osaki09.jpg",
+    "description": "JR Yamanote Line station stamp for Osaki Station. Commemorates local neighborhood heritage, architectural landmarks, and historic railway connections."
+  },
+  {
+    "id": "eki-yamanote-gotanda",
+    "name": "Gotanda Station",
+    "name_ja": "JR五反田駅",
+    "name_romaji": "Gotanda-eki",
+    "category": "eki",
+    "prefecture": "Tokyo",
+    "city": "Shinagawa City",
+    "address": "東京都品川区東五反田1-26-14",
+    "coordinates": [
+      139.723297,
+      35.626205
+    ],
+    "stampLocation": "JR五反田駅中央改札口外",
+    "hours": "07:00 - 21:00 (Station / Ticket office hours)",
+    "operator": "JR East (JR東日本 - 山手線)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/gotanda01.jpg",
+    "description": "JR Yamanote Line station stamp for Gotanda Station. Commemorates local neighborhood heritage, architectural landmarks, and historic railway connections."
+  },
+  {
+    "id": "eki-yamanote-meguro",
+    "name": "Meguro Station",
+    "name_ja": "JR目黒駅",
+    "name_romaji": "Meguro-eki",
+    "category": "eki",
+    "prefecture": "Tokyo",
+    "city": "Shinagawa City",
+    "address": "東京都品川区上大崎2-16-9",
+    "coordinates": [
+      139.71611,
+      35.634079
+    ],
+    "stampLocation": "JR目黒駅中央改札外",
+    "hours": "07:00 - 21:00 (Station / Ticket office hours)",
+    "operator": "JR East (JR東日本 - 山手線)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/meguro08.jpg",
+    "description": "JR Yamanote Line station stamp for Meguro Station. Commemorates local neighborhood heritage, architectural landmarks, and historic railway connections."
+  },
+  {
+    "id": "eki-yamanote-ebisu",
+    "name": "Ebisu Station",
+    "name_ja": "JR恵比寿駅",
+    "name_romaji": "Ebisu-eki",
+    "category": "eki",
+    "prefecture": "Tokyo",
+    "city": "Shibuya City",
+    "address": "東京都渋谷区恵比寿南1-5-5",
+    "coordinates": [
+      139.709305,
+      35.647175
+    ],
+    "stampLocation": "JR恵比寿駅西口改札外 みどりの窓口内",
+    "hours": "07:00 - 21:00 (Station / Ticket office hours)",
+    "operator": "JR East (JR東日本 - 山手線)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/ebisu09.jpg",
+    "description": "JR Yamanote Line station stamp for Ebisu Station. Commemorates local neighborhood heritage, architectural landmarks, and historic railway connections."
+  },
+  {
+    "id": "eki-yamanote-shibuya",
+    "name": "Shibuya Station",
+    "name_ja": "JR渋谷駅",
+    "name_romaji": "Shibuya-eki",
+    "category": "eki",
+    "prefecture": "Tokyo",
+    "city": "Shibuya City",
+    "address": "東京都渋谷区道玄坂1-1-1",
+    "coordinates": [
+      139.701797,
+      35.657715
+    ],
+    "stampLocation": "JR渋谷駅南口改札外 みどりの窓口内",
+    "hours": "07:00 - 21:00 (Station / Ticket office hours)",
+    "operator": "JR East (JR東日本 - 山手線)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/shibuya08.jpg",
+    "description": "JR Yamanote Line station stamp for Shibuya Station. Commemorates local neighborhood heritage, architectural landmarks, and historic railway connections."
+  },
+  {
+    "id": "eki-yamanote-harajuku",
+    "name": "Harajuku Station",
+    "name_ja": "JR原宿駅",
+    "name_romaji": "Harajuku-eki",
+    "category": "eki",
+    "prefecture": "Tokyo",
+    "city": "Shibuya City",
+    "address": "東京都渋谷区神宮前1-18-20",
+    "coordinates": [
+      139.702774,
+      35.6703
+    ],
+    "stampLocation": "JR原宿駅表参道口改札外",
+    "hours": "07:00 - 21:00 (Station / Ticket office hours)",
+    "operator": "JR East (JR東日本 - 山手線)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/harajuku09.jpg",
+    "description": "JR Yamanote Line station stamp for Harajuku Station. Commemorates local neighborhood heritage, architectural landmarks, and historic railway connections."
+  },
+  {
+    "id": "eki-yamanote-yoyogi",
+    "name": "Yoyogi Station",
+    "name_ja": "JR代々木駅",
+    "name_romaji": "Yoyogi-eki",
+    "category": "eki",
+    "prefecture": "Tokyo",
+    "city": "Shibuya City",
+    "address": "東京都渋谷区代々木1-34-1",
+    "coordinates": [
+      139.702179,
+      35.682919
+    ],
+    "stampLocation": "JR代々木駅西口改札外",
+    "hours": "07:00 - 21:00 (Station / Ticket office hours)",
+    "operator": "JR East (JR東日本 - 山手線)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/yoyogi09.jpg",
+    "description": "JR Yamanote Line station stamp for Yoyogi Station. Commemorates local neighborhood heritage, architectural landmarks, and historic railway connections."
+  },
+  {
+    "id": "eki-yamanote-shinjuku",
+    "name": "Shinjuku Station",
+    "name_ja": "JR新宿駅",
+    "name_romaji": "Shinjuku-eki",
+    "category": "eki",
+    "prefecture": "Tokyo",
+    "city": "Shinjuku City",
+    "address": "東京都新宿区新宿3-38-1",
+    "coordinates": [
+      139.700775,
+      35.691784
+    ],
+    "stampLocation": "JR新宿駅東口改札外 みどりの窓口内",
+    "hours": "07:00 - 21:00 (Station / Ticket office hours)",
+    "operator": "JR East (JR東日本 - 山手線)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/shinjuku02.jpg",
+    "description": "JR Yamanote Line station stamp for Shinjuku Station. Commemorates local neighborhood heritage, architectural landmarks, and historic railway connections."
+  },
+  {
+    "id": "eki-yamanote-shinokubo",
+    "name": "Shin-Okubo Station",
+    "name_ja": "JR新大久保駅",
+    "name_romaji": "Shin-Ōkubo-eki",
+    "category": "eki",
+    "prefecture": "Tokyo",
+    "city": "Shinjuku City",
+    "address": "東京都新宿区百人町1-10-15",
+    "coordinates": [
+      139.700073,
+      35.701405
+    ],
+    "stampLocation": "JR新大久保駅改札外",
+    "hours": "07:00 - 21:00 (Station / Ticket office hours)",
+    "operator": "JR East (JR東日本 - 山手線)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/shinokubo05.jpg",
+    "description": "JR Yamanote Line station stamp for Shin-Okubo Station. Commemorates local neighborhood heritage, architectural landmarks, and historic railway connections."
+  },
+  {
+    "id": "eki-yamanote-takadanobaba",
+    "name": "Takadanobaba Station",
+    "name_ja": "JR高田馬場駅",
+    "name_romaji": "Takadanobaba-eki",
+    "category": "eki",
+    "prefecture": "Tokyo",
+    "city": "Shinjuku City",
+    "address": "東京都新宿区高田馬場1-35-1",
+    "coordinates": [
+      139.703873,
+      35.712494
+    ],
+    "stampLocation": "JR高田馬場駅早稲田口改札外 みどりの窓口内",
+    "hours": "07:00 - 21:00 (Station / Ticket office hours)",
+    "operator": "JR East (JR東日本 - 山手線)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/takadanobaba08.jpg",
+    "description": "JR Yamanote Line station stamp for Takadanobaba Station. Commemorates local neighborhood heritage, architectural landmarks, and historic railway connections."
+  },
+  {
+    "id": "eki-yamanote-mejiro",
+    "name": "Mejiro Station",
+    "name_ja": "JR目白駅",
+    "name_romaji": "Mejiro-eki",
+    "category": "eki",
+    "prefecture": "Tokyo",
+    "city": "Toshima City",
+    "address": "東京都豊島区目白3-3-1",
+    "coordinates": [
+      139.70665,
+      35.721546
+    ],
+    "stampLocation": "JR目白駅改札外",
+    "hours": "07:00 - 21:00 (Station / Ticket office hours)",
+    "operator": "JR East (JR東日本 - 山手線)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/mejiro09.jpg",
+    "description": "JR Yamanote Line station stamp for Mejiro Station. Commemorates local neighborhood heritage, architectural landmarks, and historic railway connections."
+  },
+  {
+    "id": "eki-yamanote-ikebukuro",
+    "name": "Ikebukuro Station",
+    "name_ja": "JR池袋駅",
+    "name_romaji": "Ikebukuro-eki",
+    "category": "eki",
+    "prefecture": "Tokyo",
+    "city": "Toshima City",
+    "address": "東京都豊島区南池袋1-28-2",
+    "coordinates": [
+      139.710342,
+      35.727123
+    ],
+    "stampLocation": "JR池袋駅南口改札外",
+    "hours": "07:00 - 21:00 (Station / Ticket office hours)",
+    "operator": "JR East (JR東日本 - 山手線)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/ikebukuro28.jpg",
+    "description": "JR Yamanote Line station stamp for Ikebukuro Station. Commemorates local neighborhood heritage, architectural landmarks, and historic railway connections."
+  },
+  {
+    "id": "eki-yamanote-otsuka",
+    "name": "Otsuka Station",
+    "name_ja": "JR大塚駅",
+    "name_romaji": "Ōtsuka-eki",
+    "category": "eki",
+    "prefecture": "Tokyo",
+    "city": "Toshima City",
+    "address": "東京都豊島区南大塚3-33-1",
+    "coordinates": [
+      139.72908,
+      35.73135
+    ],
+    "stampLocation": "JR大塚駅改札外",
+    "hours": "07:00 - 21:00 (Station / Ticket office hours)",
+    "operator": "JR East (JR東日本 - 山手線)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/otsuka09.jpg",
+    "description": "JR Yamanote Line station stamp for Otsuka Station. Commemorates local neighborhood heritage, architectural landmarks, and historic railway connections."
+  },
+  {
+    "id": "eki-yamanote-sugamo",
+    "name": "Sugamo Station",
+    "name_ja": "JR巣鴨駅",
+    "name_romaji": "Sugamo-eki",
+    "category": "eki",
+    "prefecture": "Tokyo",
+    "city": "Toshima City",
+    "address": "東京都豊島区巣鴨1-16-1",
+    "coordinates": [
+      139.739334,
+      35.733135
+    ],
+    "stampLocation": "JR巣鴨駅改札外",
+    "hours": "07:00 - 21:00 (Station / Ticket office hours)",
+    "operator": "JR East (JR東日本 - 山手線)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/sugamo02.jpg",
+    "description": "JR Yamanote Line station stamp for Sugamo Station. Commemorates local neighborhood heritage, architectural landmarks, and historic railway connections."
+  },
+  {
+    "id": "eki-yamanote-komagome",
+    "name": "Komagome Station",
+    "name_ja": "JR駒込駅",
+    "name_romaji": "Komagome-eki",
+    "category": "eki",
+    "prefecture": "Tokyo",
+    "city": "Toshima City",
+    "address": "東京都豊島区駒込2-1-1",
+    "coordinates": [
+      139.747009,
+      35.736168
+    ],
+    "stampLocation": "JR駒込駅北口改札外",
+    "hours": "07:00 - 21:00 (Station / Ticket office hours)",
+    "operator": "JR East (JR東日本 - 山手線)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/komagome09.jpg",
+    "description": "JR Yamanote Line station stamp for Komagome Station. Commemorates local neighborhood heritage, architectural landmarks, and historic railway connections."
+  },
+  {
+    "id": "eki-yamanote-tabata",
+    "name": "Tabata Station",
+    "name_ja": "JR田端駅",
+    "name_romaji": "Tabata-eki",
+    "category": "eki",
+    "prefecture": "Tokyo",
+    "city": "Kita City",
+    "address": "東京都北区東田端1-17-1",
+    "coordinates": [
+      139.760391,
+      35.738293
+    ],
+    "stampLocation": "JR田端駅北口改札外",
+    "hours": "07:00 - 21:00 (Station / Ticket office hours)",
+    "operator": "JR East (JR東日本 - 山手線)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/tabata08.jpg",
+    "description": "JR Yamanote Line station stamp for Tabata Station. Commemorates local neighborhood heritage, architectural landmarks, and historic railway connections."
+  },
+  {
+    "id": "eki-yamanote-nishinippori",
+    "name": "Nishi-Nippori Station",
+    "name_ja": "JR西日暮里駅",
+    "name_romaji": "Nishi-Nippori-eki",
+    "category": "eki",
+    "prefecture": "Tokyo",
+    "city": "Arakawa City",
+    "address": "東京都荒川区西日暮里5-22-1",
+    "coordinates": [
+      139.767151,
+      35.731663
+    ],
+    "stampLocation": "JR西日暮里駅改札外",
+    "hours": "07:00 - 21:00 (Station / Ticket office hours)",
+    "operator": "JR East (JR東日本 - 山手線)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/nishinippori09.jpg",
+    "description": "JR Yamanote Line station stamp for Nishi-Nippori Station. Commemorates local neighborhood heritage, architectural landmarks, and historic railway connections."
+  },
+  {
+    "id": "eki-yamanote-nippori",
+    "name": "Nippori Station",
+    "name_ja": "JR日暮里駅",
+    "name_romaji": "Nippori-eki",
+    "category": "eki",
+    "prefecture": "Tokyo",
+    "city": "Arakawa City",
+    "address": "東京都荒川区西日暮里2-19-1",
+    "coordinates": [
+      139.770889,
+      35.72879
+    ],
+    "stampLocation": "JR日暮里駅北口改札外",
+    "hours": "07:00 - 21:00 (Station / Ticket office hours)",
+    "operator": "JR East (JR東日本 - 山手線)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/nippori09.jpg",
+    "description": "JR Yamanote Line station stamp for Nippori Station. Commemorates local neighborhood heritage, architectural landmarks, and historic railway connections."
+  },
+  {
+    "id": "eki-yamanote-uguisudani",
+    "name": "Uguisudani Station",
+    "name_ja": "JR鶯谷駅",
+    "name_romaji": "Uguisudani-eki",
+    "category": "eki",
+    "prefecture": "Tokyo",
+    "city": "Taito City",
+    "address": "東京都台東区根岸1-4-1",
+    "coordinates": [
+      139.779099,
+      35.720264
+    ],
+    "stampLocation": "JR鶯谷駅南口改札外",
+    "hours": "07:00 - 21:00 (Station / Ticket office hours)",
+    "operator": "JR East (JR東日本 - 山手線)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/uguisudani04.jpg",
+    "description": "JR Yamanote Line station stamp for Uguisudani Station. Commemorates local neighborhood heritage, architectural landmarks, and historic railway connections."
+  },
+  {
+    "id": "eki-yamanote-ueno",
+    "name": "Ueno Station",
+    "name_ja": "JR上野駅",
+    "name_romaji": "Ueno-eki",
+    "category": "eki",
+    "prefecture": "Tokyo",
+    "city": "Taito City",
+    "address": "東京都台東区上野7-1-1",
+    "coordinates": [
+      139.776917,
+      35.713696
+    ],
+    "stampLocation": "JR上野駅中央改札外",
+    "hours": "07:00 - 21:00 (Station / Ticket office hours)",
+    "operator": "JR East (JR東日本 - 山手線)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/ueno20.jpg",
+    "description": "JR Yamanote Line station stamp for Ueno Station. Commemorates local neighborhood heritage, architectural landmarks, and historic railway connections."
+  },
+  {
+    "id": "eki-yamanote-okachimachi",
+    "name": "Okachimachi Station",
+    "name_ja": "JR御徒町駅",
+    "name_romaji": "Okachimachi-eki",
+    "category": "eki",
+    "prefecture": "Tokyo",
+    "city": "Taito City",
+    "address": "東京都台東区上野5-27",
+    "coordinates": [
+      139.774765,
+      35.707333
+    ],
+    "stampLocation": "JR御徒町駅北口改札外",
+    "hours": "07:00 - 21:00 (Station / Ticket office hours)",
+    "operator": "JR East (JR東日本 - 山手線)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/okachimachi08.jpg",
+    "description": "JR Yamanote Line station stamp for Okachimachi Station. Commemorates local neighborhood heritage, architectural landmarks, and historic railway connections."
+  },
+  {
+    "id": "eki-yamanote-akihabara",
+    "name": "Akihabara Station",
+    "name_ja": "JR秋葉原駅",
+    "name_romaji": "Akihabara-eki",
+    "category": "eki",
+    "prefecture": "Tokyo",
+    "city": "Chiyoda City",
+    "address": "東京都千代田区外神田1-17-6",
+    "coordinates": [
+      139.772522,
+      35.698345
+    ],
+    "stampLocation": "JR秋葉原駅中央改札口外",
+    "hours": "07:00 - 21:00 (Station / Ticket office hours)",
+    "operator": "JR East (JR東日本 - 山手線)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/akihabara12.jpg",
+    "description": "JR Yamanote Line station stamp for Akihabara Station. Commemorates local neighborhood heritage, architectural landmarks, and historic railway connections."
+  },
+  {
+    "id": "eki-yamanote-kanda",
+    "name": "Kanda Station",
+    "name_ja": "JR神田駅",
+    "name_romaji": "Kanda-eki",
+    "category": "eki",
+    "prefecture": "Tokyo",
+    "city": "Chiyoda City",
+    "address": "東京都千代田区鍛冶町2-13-1",
+    "coordinates": [
+      139.770676,
+      35.69072
+    ],
+    "stampLocation": "JR神田駅南口改札外",
+    "hours": "07:00 - 21:00 (Station / Ticket office hours)",
+    "operator": "JR East (JR東日本 - 山手線)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/kanda09.jpg",
+    "description": "JR Yamanote Line station stamp for Kanda Station. Commemorates local neighborhood heritage, architectural landmarks, and historic railway connections."
+  },
+  {
+    "id": "eki-yamanote-tokyo",
     "name": "Tokyo Station",
-    "name_ja": "東京駅",
+    "name_ja": "JR東京駅",
     "name_romaji": "Tōkyō-eki",
     "category": "eki",
     "prefecture": "Tokyo",
-    "city": "Chiyoda-ku",
-    "address": "1-chome Marunouchi, Chiyoda City, Tokyo 100-0005",
-    "coordinates": [139.7671, 35.6812],
-    "stampLocation": "Marunouchi North Exit, outside ticket gate near the Visitor Center (改札外 丸の内北口JR東日本訪日旅行センター前)",
-    "hours": "07:30 - 20:30",
-    "operator": "JR East / JR Central / Tokyo Metro",
-    "imageUrl": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=600&q=80",
-    "description": "Featuring the iconic red-brick Marunouchi Station building designed by Tatsuno Kingo, completed in 1914. The stamp showcases the historic domed facade framed with cherry blossoms."
+    "city": "Chiyoda City",
+    "address": "東京都千代田区丸の内1-9-1",
+    "coordinates": [
+      139.767242,
+      35.681252
+    ],
+    "stampLocation": "JR東京駅丸ノ内南口改札外",
+    "hours": "07:00 - 21:00 (Station / Ticket office hours)",
+    "operator": "JR East (JR東日本 - 山手線)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/tokyo39.jpg",
+    "description": "JR Yamanote Line station stamp for Tokyo Station. Commemorates local neighborhood heritage, architectural landmarks, and historic railway connections."
   },
   {
-    "id": "eki-kyoto",
-    "name": "Kyoto Station",
-    "name_ja": "京都駅",
-    "name_romaji": "Kyōto-eki",
+    "id": "eki-yamanote-yurakucho",
+    "name": "Yurakucho Station",
+    "name_ja": "JR有楽町駅",
+    "name_romaji": "Yūrakuchō-eki",
     "category": "eki",
-    "prefecture": "Kyoto",
-    "city": "Shimogyo-ku",
-    "address": "Higashishiokojicho, Shimogyo Ward, Kyoto 600-8216",
-    "coordinates": [135.7588, 34.9858],
-    "stampLocation": "Central Gate (Karasuma), outside ticket gates near Midori no Madoguchi (改札外 中央口みどりの窓口横)",
-    "hours": "06:00 - 23:00",
-    "operator": "JR West / JR Central / Kintetsu / Kyoto Subway",
-    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=600&q=80",
-    "description": "The stamp depicts Kyoto Tower towering over the futuristic glass-and-steel atrium of Kyoto Station, with classical Five-Story Pagoda of To-ji in the background."
+    "prefecture": "Tokyo",
+    "city": "Chiyoda City",
+    "address": "東京都千代田区有楽町2-9-17",
+    "coordinates": [
+      139.763565,
+      35.674961
+    ],
+    "stampLocation": "JR有楽町駅銀座口改札外",
+    "hours": "07:00 - 21:00 (Station / Ticket office hours)",
+    "operator": "JR East (JR東日本 - 山手線)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/yurakucho10.jpg",
+    "description": "JR Yamanote Line station stamp for Yurakucho Station. Commemorates local neighborhood heritage, architectural landmarks, and historic railway connections."
   },
   {
-    "id": "eki-sapporo",
-    "name": "Sapporo Station",
-    "name_ja": "札幌駅",
-    "name_romaji": "Sapporo-eki",
+    "id": "eki-yamanote-shinbashi",
+    "name": "Shimbashi Station",
+    "name_ja": "JR新橋駅",
+    "name_romaji": "Shinbashi-eki",
     "category": "eki",
-    "prefecture": "Hokkaido",
-    "city": "Kita-ku",
-    "address": "Kita 6-jonishi, Kita Ward, Sapporo, Hokkaido 060-0806",
-    "coordinates": [141.3508, 43.0687],
-    "stampLocation": "West Concourse, outside ticket gate near the Tourist Information Center (改札外 西コンコース北海道さっぽろ観光案内所前)",
-    "hours": "08:30 - 20:00",
-    "operator": "JR Hokkaido / Sapporo Subway",
-    "imageUrl": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?auto=format&fit=crop&w=600&q=80",
-    "description": "The stamp highlights the historic Sapporo Clock Tower, Hokkaido red foxes, and the JR Tower standing prominently over the northern metropolis."
+    "prefecture": "Tokyo",
+    "city": "Minato City",
+    "address": "東京都港区新橋2-17",
+    "coordinates": [
+      139.758163,
+      35.667126
+    ],
+    "stampLocation": "JR新橋駅烏森口改札外",
+    "hours": "07:00 - 21:00 (Station / Ticket office hours)",
+    "operator": "JR East (JR東日本 - 山手線)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/shinbashi01.jpg",
+    "description": "JR Yamanote Line station stamp for Shimbashi Station. Commemorates local neighborhood heritage, architectural landmarks, and historic railway connections."
   },
   {
-    "id": "eki-osaka",
-    "name": "Osaka Station",
-    "name_ja": "大阪駅",
-    "name_romaji": "Ōsaka-eki",
+    "id": "eki-yamanote-hamamatucho",
+    "name": "Hamamatsucho Station",
+    "name_ja": "JR浜松町駅",
+    "name_romaji": "Hamamatsuchō-eki",
     "category": "eki",
-    "prefecture": "Osaka",
-    "city": "Kita-ku",
-    "address": "3-chome Umeda, Kita Ward, Osaka 530-0001",
-    "coordinates": [135.4959, 34.7024],
-    "stampLocation": "Bridge Gate Concourse, next to Information Desk (改札外 連絡橋口 案内所横スタンプ台)",
-    "hours": "07:00 - 22:30",
-    "operator": "JR West",
+    "prefecture": "Tokyo",
+    "city": "Minato City",
+    "address": "東京都港区海岸1-3-1",
+    "coordinates": [
+      139.758606,
+      35.655663
+    ],
+    "stampLocation": "JR浜松町駅南口改札外",
+    "hours": "07:00 - 21:00 (Station / Ticket office hours)",
+    "operator": "JR East (JR東日本 - 山手線)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/hamamatucho09.jpg",
+    "description": "JR Yamanote Line station stamp for Hamamatsucho Station. Commemorates local neighborhood heritage, architectural landmarks, and historic railway connections."
+  },
+  {
+    "id": "eki-yamanote-tamachi",
+    "name": "Tamachi Station",
+    "name_ja": "JR田町駅",
+    "name_romaji": "Tamachi-eki",
+    "category": "eki",
+    "prefecture": "Tokyo",
+    "city": "Minato City",
+    "address": "東京都港区芝5-33-36",
+    "coordinates": [
+      139.747559,
+      35.646549
+    ],
+    "stampLocation": "JR田町駅北改札口外",
+    "hours": "07:00 - 21:00 (Station / Ticket office hours)",
+    "operator": "JR East (JR東日本 - 山手線)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/tamachi12.jpg",
+    "description": "JR Yamanote Line station stamp for Tamachi Station. Commemorates local neighborhood heritage, architectural landmarks, and historic railway connections."
+  },
+  {
+    "id": "eki-yamanote-takanawagateway",
+    "name": "Takanawa Gateway Station",
+    "name_ja": "JR高輪ゲートウェイ駅",
+    "name_romaji": "Takanawa Gētowei-eki",
+    "category": "eki",
+    "prefecture": "Tokyo",
+    "city": "Minato City",
+    "address": "東京都港区港南2-10-145",
+    "coordinates": [
+      139.744659,
+      35.623913
+    ],
+    "stampLocation": "JR高輪ゲートウェイ駅改札外",
+    "hours": "07:00 - 21:00 (Station / Ticket office hours)",
+    "operator": "JR East (JR東日本 - 山手線)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/takanawagateway01.jpg",
+    "description": "JR Yamanote Line station stamp for Takanawa Gateway Station. Commemorates local neighborhood heritage, architectural landmarks, and historic railway connections."
+  },
+  {
+    "id": "castle-100-001",
+    "name": "根室半島チャシ跡群 Castle (No.1)",
+    "name_ja": "根室半島チャシ跡群 (日本100名城 No.1)",
+    "name_romaji": "根室半島チャシ跡群-jō",
+    "category": "castle",
+    "prefecture": "北海道",
+    "city": "根室市",
+    "address": "北海道根室市",
+    "coordinates": [
+      145.583466,
+      43.330105
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.1)",
     "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
-    "description": "Portrays Osaka Station City's dramatic diagonal roof, the Grand Front Osaka cityscape, and the energetic water clock plaza."
+    "description": "Registered historic castle site #1 in Japan's Top 100 Castles (日本100名城), located in 北海道根室市. Official collectible stamp authenticated by the Japan Castle Association."
   },
   {
-    "id": "eki-hakata",
-    "name": "Hakata Station",
-    "name_ja": "博多駅",
-    "name_romaji": "Hakata-eki",
-    "category": "eki",
-    "prefecture": "Fukuoka",
-    "city": "Hakata-ku",
-    "address": "Hakataekichuogai, Hakata Ward, Fukuoka 812-0012",
-    "coordinates": [130.4207, 33.5902],
-    "stampLocation": "Hakata Exit Concourse, inside General Information Center (改札外 博多口総合案内所内)",
-    "hours": "08:00 - 21:00",
-    "operator": "JR Kyushu / JR West / Fukuoka City Subway",
-    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=600&q=80",
-    "description": "Features the Hakata Gion Yamakasa festival float with Shinkansen bullet trains and traditional Hakata weaving motifs."
+    "id": "castle-100-002",
+    "name": "五稜郭 Castle (No.2)",
+    "name_ja": "五稜郭 (日本100名城 No.2)",
+    "name_romaji": "五稜郭-jō",
+    "category": "castle",
+    "prefecture": "北海道",
+    "city": "函館市",
+    "address": "北海道函館市五稜郭町44",
+    "coordinates": [
+      140.75737,
+      41.796803
+    ],
+    "stampLocation": "五稜郭公園箱館奉行所前売店前",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.2)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/goryoukakujo.jpg",
+    "description": "Registered historic castle site #2 in Japan's Top 100 Castles (日本100名城), located in 北海道函館市. Official collectible stamp authenticated by the Japan Castle Association."
   },
   {
-    "id": "eki-kamakura",
-    "name": "Kamakura Station",
-    "name_ja": "鎌倉駅",
-    "name_romaji": "Kamakura-eki",
-    "category": "eki",
-    "prefecture": "Kanagawa",
-    "city": "Kamakura",
-    "address": "1-chome Komachi, Kamakura, Kanagawa 248-0006",
-    "coordinates": [139.5503, 35.319],
-    "stampLocation": "East Exit ticket office window (改札外 東口みどりの窓口内)",
-    "hours": "07:00 - 20:00",
-    "operator": "JR East / Enoshima Electric Railway",
-    "imageUrl": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=600&q=80",
-    "description": "Depicts the Great Buddha of Kamakura (Kotoku-in) along with the charming retro Enoden coastal train line."
+    "id": "castle-100-003",
+    "name": "松前 Castle (No.3)",
+    "name_ja": "松前城 (日本100名城 No.3)",
+    "name_romaji": "松前城-jō",
+    "category": "castle",
+    "prefecture": "北海道",
+    "city": "松前郡松前町",
+    "address": "北海道松前郡松前町",
+    "coordinates": [
+      140.110367,
+      41.42997
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.3)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #3 in Japan's Top 100 Castles (日本100名城), located in 北海道松前郡松前町. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-004",
+    "name": "弘前 Castle (No.4)",
+    "name_ja": "弘前城 (日本100名城 No.4)",
+    "name_romaji": "弘前城-jō",
+    "category": "castle",
+    "prefecture": "青森県",
+    "city": "弘前市",
+    "address": "青森県弘前市下白銀町1-1",
+    "coordinates": [
+      140.466019,
+      40.606075
+    ],
+    "stampLocation": "弘前城史料館内",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.4)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/hirosakijou01.jpg",
+    "description": "Registered historic castle site #4 in Japan's Top 100 Castles (日本100名城), located in 青森県弘前市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-005",
+    "name": "根 Castle (No.5)",
+    "name_ja": "根城 (日本100名城 No.5)",
+    "name_romaji": "根城-jō",
+    "category": "castle",
+    "prefecture": "青森県",
+    "city": "八戸市",
+    "address": "青森県八戸市",
+    "coordinates": [
+      141.488449,
+      40.512302
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.5)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #5 in Japan's Top 100 Castles (日本100名城), located in 青森県八戸市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-006",
+    "name": "盛岡 Castle (No.6)",
+    "name_ja": "盛岡城 (日本100名城 No.6)",
+    "name_romaji": "盛岡城-jō",
+    "category": "castle",
+    "prefecture": "岩手県",
+    "city": "盛岡市",
+    "address": "岩手県盛岡市内丸1-37",
+    "coordinates": [
+      141.15152,
+      39.701927
+    ],
+    "stampLocation": "もりおか歴史文化館内",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.6)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/moriokajo.jpg",
+    "description": "Registered historic castle site #6 in Japan's Top 100 Castles (日本100名城), located in 岩手県盛岡市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-007",
+    "name": "多賀 Castle (No.7)",
+    "name_ja": "多賀城 (日本100名城 No.7)",
+    "name_romaji": "多賀城-jō",
+    "category": "castle",
+    "prefecture": "宮城県",
+    "city": "多賀城市",
+    "address": "宮城県多賀城市市川立石3-2",
+    "coordinates": [
+      140.989624,
+      38.302197
+    ],
+    "stampLocation": "多賀城跡ガイダンス施設内",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.7)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/tagajoshi.jpg",
+    "description": "Registered historic castle site #7 in Japan's Top 100 Castles (日本100名城), located in 宮城県多賀城市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-008",
+    "name": "仙台 Castle (No.8)",
+    "name_ja": "仙台城 (日本100名城 No.8)",
+    "name_romaji": "仙台城-jō",
+    "category": "castle",
+    "prefecture": "宮城県",
+    "city": "仙台市",
+    "address": "宮城県仙台市",
+    "coordinates": [
+      140.869507,
+      38.268162
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.8)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #8 in Japan's Top 100 Castles (日本100名城), located in 宮城県仙台市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-009",
+    "name": "久保田 Castle (No.9)",
+    "name_ja": "久保田城 (日本100名城 No.9)",
+    "name_romaji": "久保田城-jō",
+    "category": "castle",
+    "prefecture": "秋田県",
+    "city": "秋田市",
+    "address": "秋田県秋田市",
+    "coordinates": [
+      140.103516,
+      39.719959
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.9)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #9 in Japan's Top 100 Castles (日本100名城), located in 秋田県秋田市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-010",
+    "name": "山形 Castle (No.10)",
+    "name_ja": "山形城 (日本100名城 No.10)",
+    "name_romaji": "山形城-jō",
+    "category": "castle",
+    "prefecture": "山形県",
+    "city": "山形市",
+    "address": "山形県山形市",
+    "coordinates": [
+      140.339767,
+      38.255459
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.10)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #10 in Japan's Top 100 Castles (日本100名城), located in 山形県山形市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-011",
+    "name": "二本松 Castle (No.11)",
+    "name_ja": "二本松城 (日本100名城 No.11)",
+    "name_romaji": "二本松城-jō",
+    "category": "castle",
+    "prefecture": "福島県",
+    "city": "二本松市",
+    "address": "福島県二本松市",
+    "coordinates": [
+      140.431213,
+      37.584858
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.11)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #11 in Japan's Top 100 Castles (日本100名城), located in 福島県二本松市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-012",
+    "name": "会津若松 Castle (No.12)",
+    "name_ja": "会津若松城 (日本100名城 No.12)",
+    "name_romaji": "会津若松城-jō",
+    "category": "castle",
+    "prefecture": "福島県",
+    "city": "会津若松市",
+    "address": "福島県会津若松市追手町1-1",
+    "coordinates": [
+      139.930115,
+      37.486912
+    ],
+    "stampLocation": "鶴ヶ城内",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.12)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/tsurugajo.jpg",
+    "description": "Registered historic castle site #12 in Japan's Top 100 Castles (日本100名城), located in 福島県会津若松市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-013",
+    "name": "白河小峰 Castle (No.13)",
+    "name_ja": "白河小峰城 (日本100名城 No.13)",
+    "name_romaji": "白河小峰城-jō",
+    "category": "castle",
+    "prefecture": "福島県",
+    "city": "白河市",
+    "address": "福島県白河市郭内",
+    "coordinates": [
+      140.216171,
+      37.130962
+    ],
+    "stampLocation": "白河小峰城内",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.13)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/shirakawakominejo.jpg",
+    "description": "Registered historic castle site #13 in Japan's Top 100 Castles (日本100名城), located in 福島県白河市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-014",
+    "name": "水戸 Castle (No.14)",
+    "name_ja": "水戸城 (日本100名城 No.14)",
+    "name_romaji": "水戸城-jō",
+    "category": "castle",
+    "prefecture": "茨城県",
+    "city": "水戸市",
+    "address": "茨城県水戸市三の丸2-9",
+    "coordinates": [
+      140.480392,
+      36.375095
+    ],
+    "stampLocation": "弘道館内",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.14)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/mito_kodokan01.jpg",
+    "description": "Registered historic castle site #14 in Japan's Top 100 Castles (日本100名城), located in 茨城県水戸市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-015",
+    "name": "足利氏館 (No.15)",
+    "name_ja": "足利氏館 (日本100名城 No.15)",
+    "name_romaji": "足利氏館-jō",
+    "category": "castle",
+    "prefecture": "栃木県",
+    "city": "足利市",
+    "address": "栃木県足利市家富町2220",
+    "coordinates": [
+      139.452118,
+      36.337879
+    ],
+    "stampLocation": "鑁阿寺本殿脇",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.15)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/bannaji.jpg",
+    "description": "Registered historic castle site #15 in Japan's Top 100 Castles (日本100名城), located in 栃木県足利市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-016",
+    "name": "箕輪 Castle (No.16)",
+    "name_ja": "箕輪城 (日本100名城 No.16)",
+    "name_romaji": "箕輪城-jō",
+    "category": "castle",
+    "prefecture": "群馬県",
+    "city": "高崎市",
+    "address": "群馬県高崎市",
+    "coordinates": [
+      139.003281,
+      36.321964
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.16)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #16 in Japan's Top 100 Castles (日本100名城), located in 群馬県高崎市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-017",
+    "name": "金山 Castle (No.17)",
+    "name_ja": "金山城 (日本100名城 No.17)",
+    "name_romaji": "金山城-jō",
+    "category": "castle",
+    "prefecture": "群馬県",
+    "city": "太田市",
+    "address": "群馬県太田市金山町40-106",
+    "coordinates": [
+      139.373993,
+      36.313389
+    ],
+    "stampLocation": "金山城中島記念公園 休憩施設内",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.17)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/kanayamajo.jpg",
+    "description": "Registered historic castle site #17 in Japan's Top 100 Castles (日本100名城), located in 群馬県太田市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-018",
+    "name": "鉢形 Castle (No.18)",
+    "name_ja": "鉢形城 (日本100名城 No.18)",
+    "name_romaji": "鉢形城-jō",
+    "category": "castle",
+    "prefecture": "埼玉県",
+    "city": "大里郡寄居町",
+    "address": "埼玉県大里郡寄居町",
+    "coordinates": [
+      139.193054,
+      36.118332
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.18)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #18 in Japan's Top 100 Castles (日本100名城), located in 埼玉県大里郡寄居町. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-019",
+    "name": "川越 Castle (No.19)",
+    "name_ja": "川越城 (日本100名城 No.19)",
+    "name_romaji": "川越城-jō",
+    "category": "castle",
+    "prefecture": "埼玉県",
+    "city": "川越市",
+    "address": "埼玉県川越市郭町2-13-1",
+    "coordinates": [
+      139.491119,
+      35.923862
+    ],
+    "stampLocation": "川越城本丸御殿内（係員に依頼が必要）",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.19)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/kawagoejo.jpg",
+    "description": "Registered historic castle site #19 in Japan's Top 100 Castles (日本100名城), located in 埼玉県川越市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-020",
+    "name": "佐倉 Castle (No.20)",
+    "name_ja": "佐倉城 (日本100名城 No.20)",
+    "name_romaji": "佐倉城-jō",
+    "category": "castle",
+    "prefecture": "千葉県",
+    "city": "佐倉市",
+    "address": "千葉県佐倉市",
+    "coordinates": [
+      140.223969,
+      35.723492
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.20)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #20 in Japan's Top 100 Castles (日本100名城), located in 千葉県佐倉市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-021",
+    "name": "江戸 Castle (No.21)",
+    "name_ja": "江戸城 (日本100名城 No.21)",
+    "name_romaji": "江戸城-jō",
+    "category": "castle",
+    "prefecture": "東京都",
+    "city": "千代田区",
+    "address": "東京都千代田区千代田1-1",
+    "coordinates": [
+      139.754089,
+      35.683659
+    ],
+    "stampLocation": "皇居東御苑休憩所内",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.21)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/koukyohigashigyoen.jpg",
+    "description": "Registered historic castle site #21 in Japan's Top 100 Castles (日本100名城), located in 東京都千代田区. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-022",
+    "name": "八王子 Castle (No.22)",
+    "name_ja": "八王子城 (日本100名城 No.22)",
+    "name_romaji": "八王子城-jō",
+    "category": "castle",
+    "prefecture": "東京都",
+    "city": "八王子市",
+    "address": "東京都八王子市",
+    "coordinates": [
+      139.315842,
+      35.666668
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.22)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #22 in Japan's Top 100 Castles (日本100名城), located in 東京都八王子市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-023",
+    "name": "小田原 Castle (No.23)",
+    "name_ja": "小田原城 (日本100名城 No.23)",
+    "name_romaji": "小田原城-jō",
+    "category": "castle",
+    "prefecture": "神奈川県",
+    "city": "小田原市",
+    "address": "神奈川県小田原市城内",
+    "coordinates": [
+      139.154907,
+      35.25106
+    ],
+    "stampLocation": "小田原城内",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.23)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/odawarajou05.jpg",
+    "description": "Registered historic castle site #23 in Japan's Top 100 Castles (日本100名城), located in 神奈川県小田原市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-024",
+    "name": "武田氏館 (No.24)",
+    "name_ja": "武田氏館 (日本100名城 No.24)",
+    "name_romaji": "武田氏館-jō",
+    "category": "castle",
+    "prefecture": "山梨県",
+    "city": "甲府市",
+    "address": "山梨県甲府市古府中町2611",
+    "coordinates": [
+      138.576736,
+      35.68697
+    ],
+    "stampLocation": "武田神社宝物殿内",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.24)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/takedashiyakata.jpg",
+    "description": "Registered historic castle site #24 in Japan's Top 100 Castles (日本100名城), located in 山梨県甲府市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-025",
+    "name": "甲府 Castle (No.25)",
+    "name_ja": "甲府城 (日本100名城 No.25)",
+    "name_romaji": "甲府城-jō",
+    "category": "castle",
+    "prefecture": "山梨県",
+    "city": "甲府市",
+    "address": "山梨県甲府市丸の内1-5-4",
+    "coordinates": [
+      138.569717,
+      35.664619
+    ],
+    "stampLocation": "甲府市歴史公園 山手御門内",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.25)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/kofujyou.jpg",
+    "description": "Registered historic castle site #25 in Japan's Top 100 Castles (日本100名城), located in 山梨県甲府市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-026",
+    "name": "松代 Castle (No.26)",
+    "name_ja": "松代城 (日本100名城 No.26)",
+    "name_romaji": "松代城-jō",
+    "category": "castle",
+    "prefecture": "長野県",
+    "city": "長野市",
+    "address": "長野県長野市",
+    "coordinates": [
+      138.194824,
+      36.648537
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.26)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #26 in Japan's Top 100 Castles (日本100名城), located in 長野県長野市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-027",
+    "name": "上田 Castle (No.27)",
+    "name_ja": "上田城 (日本100名城 No.27)",
+    "name_romaji": "上田城-jō",
+    "category": "castle",
+    "prefecture": "長野県",
+    "city": "上田市",
+    "address": "長野県上田市二の丸6263-イ",
+    "coordinates": [
+      138.244675,
+      36.404179
+    ],
+    "stampLocation": "上田城櫓門付近案内所（係員に依頼が必要）",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.27)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/uedajou05.jpg",
+    "description": "Registered historic castle site #27 in Japan's Top 100 Castles (日本100名城), located in 長野県上田市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-028",
+    "name": "小諸 Castle (No.28)",
+    "name_ja": "小諸城 (日本100名城 No.28)",
+    "name_romaji": "小諸城-jō",
+    "category": "castle",
+    "prefecture": "長野県",
+    "city": "小諸市",
+    "address": "長野県小諸市丁311",
+    "coordinates": [
+      138.418182,
+      36.325184
+    ],
+    "stampLocation": "小諸城徴古館内",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.28)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/komorojo.jpg",
+    "description": "Registered historic castle site #28 in Japan's Top 100 Castles (日本100名城), located in 長野県小諸市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-029",
+    "name": "松本 Castle (No.29)",
+    "name_ja": "松本城 (日本100名城 No.29)",
+    "name_romaji": "松本城-jō",
+    "category": "castle",
+    "prefecture": "長野県",
+    "city": "松本市",
+    "address": "長野県松本市丸の内4-1",
+    "coordinates": [
+      137.969513,
+      36.238808
+    ],
+    "stampLocation": "松本城内",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.29)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/matsumotojo03.jpg",
+    "description": "Registered historic castle site #29 in Japan's Top 100 Castles (日本100名城), located in 長野県松本市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-030",
+    "name": "高遠 Castle (No.30)",
+    "name_ja": "高遠城 (日本100名城 No.30)",
+    "name_romaji": "高遠城-jō",
+    "category": "castle",
+    "prefecture": "長野県",
+    "city": "伊那市",
+    "address": "長野県伊那市",
+    "coordinates": [
+      137.953888,
+      35.827499
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.30)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #30 in Japan's Top 100 Castles (日本100名城), located in 長野県伊那市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-031",
+    "name": "新発田 Castle (No.31)",
+    "name_ja": "新発田城 (日本100名城 No.31)",
+    "name_romaji": "新発田城-jō",
+    "category": "castle",
+    "prefecture": "新潟県",
+    "city": "新発田市",
+    "address": "新潟県新発田市",
+    "coordinates": [
+      139.327103,
+      37.947952
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.31)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #31 in Japan's Top 100 Castles (日本100名城), located in 新潟県新発田市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-032",
+    "name": "春日山 Castle (No.32)",
+    "name_ja": "春日山城 (日本100名城 No.32)",
+    "name_romaji": "春日山城-jō",
+    "category": "castle",
+    "prefecture": "新潟県",
+    "city": "上越市",
+    "address": "新潟県上越市",
+    "coordinates": [
+      138.236099,
+      37.147865
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.32)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #32 in Japan's Top 100 Castles (日本100名城), located in 新潟県上越市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-033",
+    "name": "高岡 Castle (No.33)",
+    "name_ja": "高岡城 (日本100名城 No.33)",
+    "name_romaji": "高岡城-jō",
+    "category": "castle",
+    "prefecture": "富山県",
+    "city": "高岡市",
+    "address": "富山県高岡市古城1-5",
+    "coordinates": [
+      137.020691,
+      36.749287
+    ],
+    "stampLocation": "高岡市立博物館内",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.33)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/takaoka_history.jpg",
+    "description": "Registered historic castle site #33 in Japan's Top 100 Castles (日本100名城), located in 富山県高岡市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-034",
+    "name": "七尾 Castle (No.34)",
+    "name_ja": "七尾城 (日本100名城 No.34)",
+    "name_romaji": "七尾城-jō",
+    "category": "castle",
+    "prefecture": "石川県",
+    "city": "七尾市",
+    "address": "石川県七尾市",
+    "coordinates": [
+      136.967224,
+      37.043053
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.34)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #34 in Japan's Top 100 Castles (日本100名城), located in 石川県七尾市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-035",
+    "name": "金沢 Castle (No.35)",
+    "name_ja": "金沢城 (日本100名城 No.35)",
+    "name_romaji": "金沢城-jō",
+    "category": "castle",
+    "prefecture": "石川県",
+    "city": "金沢市",
+    "address": "石川県金沢市丸の内1-1",
+    "coordinates": [
+      136.659271,
+      36.56575
+    ],
+    "stampLocation": "金沢城公園施設内",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.35)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/kanazawajo.jpg",
+    "description": "Registered historic castle site #35 in Japan's Top 100 Castles (日本100名城), located in 石川県金沢市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-036",
+    "name": "丸岡 Castle (No.36)",
+    "name_ja": "丸岡城 (日本100名城 No.36)",
+    "name_romaji": "丸岡城-jō",
+    "category": "castle",
+    "prefecture": "福井県",
+    "city": "坂井市",
+    "address": "福井県坂井市",
+    "coordinates": [
+      136.231674,
+      36.166943
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.36)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #36 in Japan's Top 100 Castles (日本100名城), located in 福井県坂井市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-037",
+    "name": "一乗谷 Castle (No.37)",
+    "name_ja": "一乗谷城 (日本100名城 No.37)",
+    "name_romaji": "一乗谷城-jō",
+    "category": "castle",
+    "prefecture": "福井県",
+    "city": "福井市",
+    "address": "福井県福井市",
+    "coordinates": [
+      136.219589,
+      36.064075
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.37)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #37 in Japan's Top 100 Castles (日本100名城), located in 福井県福井市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-038",
+    "name": "岩村 Castle (No.38)",
+    "name_ja": "岩村城 (日本100名城 No.38)",
+    "name_romaji": "岩村城-jō",
+    "category": "castle",
+    "prefecture": "岐阜県",
+    "city": "恵那市",
+    "address": "岐阜県恵那市",
+    "coordinates": [
+      137.412811,
+      35.449322
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.38)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #38 in Japan's Top 100 Castles (日本100名城), located in 岐阜県恵那市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-039",
+    "name": "岐阜 Castle (No.39)",
+    "name_ja": "岐阜城 (日本100名城 No.39)",
+    "name_romaji": "岐阜城-jō",
+    "category": "castle",
+    "prefecture": "岐阜県",
+    "city": "岐阜市",
+    "address": "岐阜県岐阜市金華山天守閣18",
+    "coordinates": [
+      136.771988,
+      35.445999
+    ],
+    "stampLocation": "岐阜城内、岐阜城資料館内",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.39)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/gifujo04.jpg",
+    "description": "Registered historic castle site #39 in Japan's Top 100 Castles (日本100名城), located in 岐阜県岐阜市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-040",
+    "name": "山中 Castle (No.40)",
+    "name_ja": "山中城 (日本100名城 No.40)",
+    "name_romaji": "山中城-jō",
+    "category": "castle",
+    "prefecture": "静岡県",
+    "city": "三島市",
+    "address": "静岡県三島市山中新田",
+    "coordinates": [
+      138.991669,
+      35.151997
+    ],
+    "stampLocation": "山中城跡売店（係員に依頼が必要）",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.40)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/yamanakajo.jpg",
+    "description": "Registered historic castle site #40 in Japan's Top 100 Castles (日本100名城), located in 静岡県三島市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-041",
+    "name": "駿府 Castle (No.41)",
+    "name_ja": "駿府城 (日本100名城 No.41)",
+    "name_romaji": "駿府城-jō",
+    "category": "castle",
+    "prefecture": "静岡県",
+    "city": "静岡市",
+    "address": "静岡県静岡市葵区駿府城公園1-1",
+    "coordinates": [
+      138.385162,
+      34.977108
+    ],
+    "stampLocation": "駿府城東御門券売所内",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.41)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/sumpujo.jpg",
+    "description": "Registered historic castle site #41 in Japan's Top 100 Castles (日本100名城), located in 静岡県静岡市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-042",
+    "name": "掛川 Castle (No.42)",
+    "name_ja": "掛川城 (日本100名城 No.42)",
+    "name_romaji": "掛川城-jō",
+    "category": "castle",
+    "prefecture": "静岡県",
+    "city": "掛川市",
+    "address": "静岡県掛川市掛川1138-24",
+    "coordinates": [
+      138.014191,
+      34.775204
+    ],
+    "stampLocation": "掛川城御殿内",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.42)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/kakegawajo01.jpg",
+    "description": "Registered historic castle site #42 in Japan's Top 100 Castles (日本100名城), located in 静岡県掛川市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-043",
+    "name": "犬山 Castle (No.43)",
+    "name_ja": "犬山城 (日本100名城 No.43)",
+    "name_romaji": "犬山城-jō",
+    "category": "castle",
+    "prefecture": "愛知県",
+    "city": "犬山市",
+    "address": "愛知県犬山市犬山北古券65-2",
+    "coordinates": [
+      136.937271,
+      35.386322
+    ],
+    "stampLocation": "犬山城内",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.43)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/inuyamajo02.jpg",
+    "description": "Registered historic castle site #43 in Japan's Top 100 Castles (日本100名城), located in 愛知県犬山市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-044",
+    "name": "名古屋 Castle (No.44)",
+    "name_ja": "名古屋城 (日本100名城 No.44)",
+    "name_romaji": "名古屋城-jō",
+    "category": "castle",
+    "prefecture": "愛知県",
+    "city": "名古屋市",
+    "address": "愛知県名古屋市中区本丸1-1",
+    "coordinates": [
+      136.897583,
+      35.18449
+    ],
+    "stampLocation": "名古屋城総合案内所内（係員に依頼が必要）",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.44)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/nagoyajo.jpg",
+    "description": "Registered historic castle site #44 in Japan's Top 100 Castles (日本100名城), located in 愛知県名古屋市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-045",
+    "name": "岡崎 Castle (No.45)",
+    "name_ja": "岡崎城 (日本100名城 No.45)",
+    "name_romaji": "岡崎城-jō",
+    "category": "castle",
+    "prefecture": "愛知県",
+    "city": "岡崎市",
+    "address": "愛知県岡崎市",
+    "coordinates": [
+      137.173065,
+      34.954803
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.45)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #45 in Japan's Top 100 Castles (日本100名城), located in 愛知県岡崎市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-046",
+    "name": "長篠 Castle (No.46)",
+    "name_ja": "長篠城 (日本100名城 No.46)",
+    "name_romaji": "長篠城-jō",
+    "category": "castle",
+    "prefecture": "愛知県",
+    "city": "新城市",
+    "address": "愛知県新城市",
+    "coordinates": [
+      137.497757,
+      34.89893
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.46)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #46 in Japan's Top 100 Castles (日本100名城), located in 愛知県新城市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-047",
+    "name": "伊賀上野 Castle (No.47)",
+    "name_ja": "伊賀上野城 (日本100名城 No.47)",
+    "name_romaji": "伊賀上野城-jō",
+    "category": "castle",
+    "prefecture": "三重県",
+    "city": "伊賀市",
+    "address": "三重県伊賀市",
+    "coordinates": [
+      136.142258,
+      34.749832
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.47)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #47 in Japan's Top 100 Castles (日本100名城), located in 三重県伊賀市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-048",
+    "name": "松阪 Castle (No.48)",
+    "name_ja": "松阪城 (日本100名城 No.48)",
+    "name_romaji": "松阪城-jō",
+    "category": "castle",
+    "prefecture": "三重県",
+    "city": "松阪市",
+    "address": "三重県松阪市殿町",
+    "coordinates": [
+      136.526505,
+      34.574768
+    ],
+    "stampLocation": "松阪城歴史民俗資料館内",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.48)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/matsusakajo.jpg",
+    "description": "Registered historic castle site #48 in Japan's Top 100 Castles (日本100名城), located in 三重県松阪市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-049",
+    "name": "小谷 Castle (No.49)",
+    "name_ja": "小谷城 (日本100名城 No.49)",
+    "name_romaji": "小谷城-jō",
+    "category": "castle",
+    "prefecture": "滋賀県",
+    "city": "長浜市",
+    "address": "滋賀県長浜市",
+    "coordinates": [
+      136.278412,
+      35.380753
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.49)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #49 in Japan's Top 100 Castles (日本100名城), located in 滋賀県長浜市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-050",
+    "name": "彦根 Castle (No.50)",
+    "name_ja": "彦根城 (日本100名城 No.50)",
+    "name_romaji": "彦根城-jō",
+    "category": "castle",
+    "prefecture": "滋賀県",
+    "city": "彦根市",
+    "address": "滋賀県彦根市金亀町1-1",
+    "coordinates": [
+      136.252335,
+      35.276436
+    ],
+    "stampLocation": "彦根城入場券販売所前",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.50)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/hikonejo.jpg",
+    "description": "Registered historic castle site #50 in Japan's Top 100 Castles (日本100名城), located in 滋賀県彦根市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-051",
+    "name": "安土 Castle (No.51)",
+    "name_ja": "安土城 (日本100名城 No.51)",
+    "name_romaji": "安土城-jō",
+    "category": "castle",
+    "prefecture": "滋賀県",
+    "city": "近江八幡市",
+    "address": "滋賀県近江八幡市安土町小中700",
+    "coordinates": [
+      136.133453,
+      35.14201
+    ],
+    "stampLocation": "安土城郭資料館内",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.51)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/azuchi_jyoukakusiryoukan.jpg",
+    "description": "Registered historic castle site #51 in Japan's Top 100 Castles (日本100名城), located in 滋賀県近江八幡市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-052",
+    "name": "観音寺 Castle (No.52)",
+    "name_ja": "観音寺城 (日本100名城 No.52)",
+    "name_romaji": "観音寺城-jō",
+    "category": "castle",
+    "prefecture": "滋賀県",
+    "city": "近江八幡市",
+    "address": "滋賀県近江八幡市安土町石寺",
+    "coordinates": [
+      136.163635,
+      35.137733
+    ],
+    "stampLocation": "安土城郭資料館内",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.52)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/kannonjijo.jpg",
+    "description": "Registered historic castle site #52 in Japan's Top 100 Castles (日本100名城), located in 滋賀県近江八幡市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-053",
+    "name": "二条 Castle (No.53)",
+    "name_ja": "二条城 (日本100名城 No.53)",
+    "name_romaji": "二条城-jō",
+    "category": "castle",
+    "prefecture": "京都府",
+    "city": "京都市",
+    "address": "京都府京都市中京区二条城町541",
+    "coordinates": [
+      135.74765,
+      35.014027
+    ],
+    "stampLocation": "二条城大休憩所内",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.53)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/nijojo.jpg",
+    "description": "Registered historic castle site #53 in Japan's Top 100 Castles (日本100名城), located in 京都府京都市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-054",
+    "name": "大阪 Castle (No.54)",
+    "name_ja": "大阪城 (日本100名城 No.54)",
+    "name_romaji": "大阪城-jō",
+    "category": "castle",
+    "prefecture": "大阪府",
+    "city": "大阪市",
+    "address": "大阪府大阪市中央区大阪城1-1",
+    "coordinates": [
+      135.525696,
+      34.685196
+    ],
+    "stampLocation": "大阪城天守閣内",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.54)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/osakajou01.jpg",
+    "description": "Registered historic castle site #54 in Japan's Top 100 Castles (日本100名城), located in 大阪府大阪市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-055",
+    "name": "千早 Castle (No.55)",
+    "name_ja": "千早城 (日本100名城 No.55)",
+    "name_romaji": "千早城-jō",
+    "category": "castle",
+    "prefecture": "大阪府",
+    "city": "南河内郡千早赤阪村",
+    "address": "大阪府南河内郡千早赤阪村",
+    "coordinates": [
+      135.62262,
+      34.464573
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.55)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #55 in Japan's Top 100 Castles (日本100名城), located in 大阪府南河内郡千早赤阪村. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-056",
+    "name": "竹田 Castle (No.56)",
+    "name_ja": "竹田城 (日本100名城 No.56)",
+    "name_romaji": "竹田城-jō",
+    "category": "castle",
+    "prefecture": "兵庫県",
+    "city": "朝来市",
+    "address": "兵庫県朝来市",
+    "coordinates": [
+      134.852722,
+      35.339867
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.56)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #56 in Japan's Top 100 Castles (日本100名城), located in 兵庫県朝来市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-057",
+    "name": "篠山 Castle (No.57)",
+    "name_ja": "篠山城 (日本100名城 No.57)",
+    "name_romaji": "篠山城-jō",
+    "category": "castle",
+    "prefecture": "兵庫県",
+    "city": "丹波篠山市",
+    "address": "兵庫県丹波篠山市北新町2-3",
+    "coordinates": [
+      135.218323,
+      35.072681
+    ],
+    "stampLocation": "篠山城大書院内",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.57)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/sasayamajo.jpg",
+    "description": "Registered historic castle site #57 in Japan's Top 100 Castles (日本100名城), located in 兵庫県丹波篠山市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-058",
+    "name": "明石 Castle (No.58)",
+    "name_ja": "明石城 (日本100名城 No.58)",
+    "name_romaji": "明石城-jō",
+    "category": "castle",
+    "prefecture": "兵庫県",
+    "city": "明石市",
+    "address": "兵庫県明石市",
+    "coordinates": [
+      134.997604,
+      34.643131
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.58)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #58 in Japan's Top 100 Castles (日本100名城), located in 兵庫県明石市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-059",
+    "name": "姫路 Castle (No.59)",
+    "name_ja": "姫路城 (日本100名城 No.59)",
+    "name_romaji": "姫路城-jō",
+    "category": "castle",
+    "prefecture": "兵庫県",
+    "city": "姫路市",
+    "address": "兵庫県姫路市",
+    "coordinates": [
+      134.685562,
+      34.815277
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.59)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #59 in Japan's Top 100 Castles (日本100名城), located in 兵庫県姫路市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-060",
+    "name": "赤穂 Castle (No.60)",
+    "name_ja": "赤穂城 (日本100名城 No.60)",
+    "name_romaji": "赤穂城-jō",
+    "category": "castle",
+    "prefecture": "兵庫県",
+    "city": "赤穂市",
+    "address": "兵庫県赤穂市",
+    "coordinates": [
+      134.390274,
+      34.755001
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.60)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #60 in Japan's Top 100 Castles (日本100名城), located in 兵庫県赤穂市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-061",
+    "name": "高取 Castle (No.61)",
+    "name_ja": "高取城 (日本100名城 No.61)",
+    "name_romaji": "高取城-jō",
+    "category": "castle",
+    "prefecture": "奈良県",
+    "city": "高市郡高取町",
+    "address": "奈良県高市郡高取町",
+    "coordinates": [
+      135.79306,
+      34.449444
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.61)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #61 in Japan's Top 100 Castles (日本100名城), located in 奈良県高市郡高取町. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-062",
+    "name": "和歌山 Castle (No.62)",
+    "name_ja": "和歌山城 (日本100名城 No.62)",
+    "name_romaji": "和歌山城-jō",
+    "category": "castle",
+    "prefecture": "和歌山県",
+    "city": "和歌山市",
+    "address": "和歌山県和歌山市一番丁3",
+    "coordinates": [
+      135.172195,
+      34.227455
+    ],
+    "stampLocation": "和歌山城天守閣楠門受付",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.62)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/wakayamajo.jpg",
+    "description": "Registered historic castle site #62 in Japan's Top 100 Castles (日本100名城), located in 和歌山県和歌山市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-063",
+    "name": "鳥取 Castle (No.63)",
+    "name_ja": "鳥取城 (日本100名城 No.63)",
+    "name_romaji": "鳥取城-jō",
+    "category": "castle",
+    "prefecture": "鳥取県",
+    "city": "鳥取市",
+    "address": "鳥取県鳥取市東町2-121",
+    "coordinates": [
+      134.237244,
+      35.507023
+    ],
+    "stampLocation": "仁風閣内",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.63)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/tottorijou.jpg",
+    "description": "Registered historic castle site #63 in Japan's Top 100 Castles (日本100名城), located in 鳥取県鳥取市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-064",
+    "name": "松江 Castle (No.64)",
+    "name_ja": "松江城 (日本100名城 No.64)",
+    "name_romaji": "松江城-jō",
+    "category": "castle",
+    "prefecture": "島根県",
+    "city": "松江市",
+    "address": "島根県松江市殿町43",
+    "coordinates": [
+      133.053085,
+      35.470978
+    ],
+    "stampLocation": "松江城天守内",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.64)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/matsuejo.jpg",
+    "description": "Registered historic castle site #64 in Japan's Top 100 Castles (日本100名城), located in 島根県松江市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-065",
+    "name": "月山富田 Castle (No.65)",
+    "name_ja": "月山富田城 (日本100名城 No.65)",
+    "name_romaji": "月山富田城-jō",
+    "category": "castle",
+    "prefecture": "島根県",
+    "city": "安来市",
+    "address": "島根県安来市広瀬町町帳752",
+    "coordinates": [
+      133.180649,
+      35.368252
+    ],
+    "stampLocation": "安来市立歴史資料館内",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.65)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/gassantodajo.jpg",
+    "description": "Registered historic castle site #65 in Japan's Top 100 Castles (日本100名城), located in 島根県安来市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-066",
+    "name": "津和野 Castle (No.66)",
+    "name_ja": "津和野城 (日本100名城 No.66)",
+    "name_romaji": "津和野城-jō",
+    "category": "castle",
+    "prefecture": "島根県",
+    "city": "鹿足郡津和野町",
+    "address": "島根県鹿足郡津和野町後田409",
+    "coordinates": [
+      131.768967,
+      34.469631
+    ],
+    "stampLocation": "津和野城跡観光リフト内",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.66)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/tsuwanojo.jpg",
+    "description": "Registered historic castle site #66 in Japan's Top 100 Castles (日本100名城), located in 島根県鹿足郡津和野町. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-067",
+    "name": "津山 Castle (No.67)",
+    "name_ja": "津山城 (日本100名城 No.67)",
+    "name_romaji": "津山城-jō",
+    "category": "castle",
+    "prefecture": "岡山県",
+    "city": "津山市",
+    "address": "岡山県津山市",
+    "coordinates": [
+      134.004532,
+      35.069126
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.67)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #67 in Japan's Top 100 Castles (日本100名城), located in 岡山県津山市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-068",
+    "name": "備中松山 Castle (No.68)",
+    "name_ja": "備中松山城 (日本100名城 No.68)",
+    "name_romaji": "備中松山城-jō",
+    "category": "castle",
+    "prefecture": "岡山県",
+    "city": "高梁市",
+    "address": "岡山県高梁市",
+    "coordinates": [
+      133.616821,
+      34.790981
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.68)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #68 in Japan's Top 100 Castles (日本100名城), located in 岡山県高梁市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-069",
+    "name": "鬼ノ Castle (No.69)",
+    "name_ja": "鬼ノ城 (日本100名城 No.69)",
+    "name_romaji": "鬼ノ城-jō",
+    "category": "castle",
+    "prefecture": "岡山県",
+    "city": "総社市",
+    "address": "岡山県総社市",
+    "coordinates": [
+      133.746735,
+      34.67255
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.69)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #69 in Japan's Top 100 Castles (日本100名城), located in 岡山県総社市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-070",
+    "name": "岡山 Castle (No.70)",
+    "name_ja": "岡山城 (日本100名城 No.70)",
+    "name_romaji": "岡山城-jō",
+    "category": "castle",
+    "prefecture": "岡山県",
+    "city": "岡山市",
+    "address": "岡山県岡山市北区丸の内2-3-1",
+    "coordinates": [
+      133.935867,
+      34.664192
+    ],
+    "stampLocation": "岡山城天守閣内",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.70)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/okayamajou.jpg",
+    "description": "Registered historic castle site #70 in Japan's Top 100 Castles (日本100名城), located in 岡山県岡山市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-071",
+    "name": "福山 Castle (No.71)",
+    "name_ja": "福山城 (日本100名城 No.71)",
+    "name_romaji": "福山城-jō",
+    "category": "castle",
+    "prefecture": "広島県",
+    "city": "福山市",
+    "address": "広島県福山市丸之内1-8",
+    "coordinates": [
+      133.359985,
+      34.490913
+    ],
+    "stampLocation": "福山城博物館内",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.71)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/fukuyamajo.jpg",
+    "description": "Registered historic castle site #71 in Japan's Top 100 Castles (日本100名城), located in 広島県福山市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-072",
+    "name": "郡山 Castle (No.72)",
+    "name_ja": "郡山城 (日本100名城 No.72)",
+    "name_romaji": "郡山城-jō",
+    "category": "castle",
+    "prefecture": "広島県",
+    "city": "安芸高田市",
+    "address": "広島県安芸高田市",
+    "coordinates": [
+      132.703888,
+      34.666389
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.72)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #72 in Japan's Top 100 Castles (日本100名城), located in 広島県安芸高田市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-073",
+    "name": "広島 Castle (No.73)",
+    "name_ja": "広島城 (日本100名城 No.73)",
+    "name_romaji": "広島城-jō",
+    "category": "castle",
+    "prefecture": "広島県",
+    "city": "広島市",
+    "address": "広島県広島市中区基町21-1",
+    "coordinates": [
+      132.45932,
+      34.401283
+    ],
+    "stampLocation": "広島城天守閣内",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.73)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/hiroshimajou01.jpg",
+    "description": "Registered historic castle site #73 in Japan's Top 100 Castles (日本100名城), located in 広島県広島市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-074",
+    "name": "岩国 Castle (No.74)",
+    "name_ja": "岩国城 (日本100名城 No.74)",
+    "name_romaji": "岩国城-jō",
+    "category": "castle",
+    "prefecture": "山口県",
+    "city": "岩国市",
+    "address": "山口県岩国市",
+    "coordinates": [
+      132.218842,
+      34.166595
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.74)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #74 in Japan's Top 100 Castles (日本100名城), located in 山口県岩国市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-075",
+    "name": "萩 Castle (No.75)",
+    "name_ja": "萩城 (日本100名城 No.75)",
+    "name_romaji": "萩城-jō",
+    "category": "castle",
+    "prefecture": "山口県",
+    "city": "萩市",
+    "address": "山口県萩市",
+    "coordinates": [
+      131.39917,
+      34.408054
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.75)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #75 in Japan's Top 100 Castles (日本100名城), located in 山口県萩市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-076",
+    "name": "徳島 Castle (No.76)",
+    "name_ja": "徳島城 (日本100名城 No.76)",
+    "name_romaji": "徳島城-jō",
+    "category": "castle",
+    "prefecture": "徳島県",
+    "city": "徳島市",
+    "address": "徳島県徳島市徳島町1-8",
+    "coordinates": [
+      134.557343,
+      34.07106
+    ],
+    "stampLocation": "徳島市立徳島城博物館内",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.76)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/tokushimajo.jpg",
+    "description": "Registered historic castle site #76 in Japan's Top 100 Castles (日本100名城), located in 徳島県徳島市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-077",
+    "name": "高松 Castle (No.77)",
+    "name_ja": "高松城 (日本100名城 No.77)",
+    "name_romaji": "高松城-jō",
+    "category": "castle",
+    "prefecture": "香川県",
+    "city": "高松市",
+    "address": "香川県高松市玉藻町2-1",
+    "coordinates": [
+      134.051163,
+      34.35033
+    ],
+    "stampLocation": "高松城跡（玉藻公園）内",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.77)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/takamatsujo.jpg",
+    "description": "Registered historic castle site #77 in Japan's Top 100 Castles (日本100名城), located in 香川県高松市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-078",
+    "name": "丸亀 Castle (No.78)",
+    "name_ja": "丸亀城 (日本100名城 No.78)",
+    "name_romaji": "丸亀城-jō",
+    "category": "castle",
+    "prefecture": "香川県",
+    "city": "丸亀市",
+    "address": "香川県丸亀市",
+    "coordinates": [
+      133.798706,
+      34.289886
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.78)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #78 in Japan's Top 100 Castles (日本100名城), located in 香川県丸亀市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-079",
+    "name": "今治 Castle (No.79)",
+    "name_ja": "今治城 (日本100名城 No.79)",
+    "name_romaji": "今治城-jō",
+    "category": "castle",
+    "prefecture": "愛媛県",
+    "city": "今治市",
+    "address": "愛媛県今治市",
+    "coordinates": [
+      132.997757,
+      34.066212
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.79)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #79 in Japan's Top 100 Castles (日本100名城), located in 愛媛県今治市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-080",
+    "name": "湯築 Castle (No.80)",
+    "name_ja": "湯築城 (日本100名城 No.80)",
+    "name_romaji": "湯築城-jō",
+    "category": "castle",
+    "prefecture": "愛媛県",
+    "city": "松山市",
+    "address": "愛媛県松山市",
+    "coordinates": [
+      132.76564,
+      33.839165
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.80)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #80 in Japan's Top 100 Castles (日本100名城), located in 愛媛県松山市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-081",
+    "name": "松山 Castle (No.81)",
+    "name_ja": "松山城 (日本100名城 No.81)",
+    "name_romaji": "松山城-jō",
+    "category": "castle",
+    "prefecture": "愛媛県",
+    "city": "松山市",
+    "address": "愛媛県松山市",
+    "coordinates": [
+      132.76564,
+      33.839165
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.81)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #81 in Japan's Top 100 Castles (日本100名城), located in 愛媛県松山市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-082",
+    "name": "大洲 Castle (No.82)",
+    "name_ja": "大洲城 (日本100名城 No.82)",
+    "name_romaji": "大洲城-jō",
+    "category": "castle",
+    "prefecture": "愛媛県",
+    "city": "大洲市",
+    "address": "愛媛県大洲市",
+    "coordinates": [
+      132.544495,
+      33.50618
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.82)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #82 in Japan's Top 100 Castles (日本100名城), located in 愛媛県大洲市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-083",
+    "name": "宇和島 Castle (No.83)",
+    "name_ja": "宇和島城 (日本100名城 No.83)",
+    "name_romaji": "宇和島城-jō",
+    "category": "castle",
+    "prefecture": "愛媛県",
+    "city": "宇和島市",
+    "address": "愛媛県宇和島市",
+    "coordinates": [
+      132.560867,
+      33.223251
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.83)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #83 in Japan's Top 100 Castles (日本100名城), located in 愛媛県宇和島市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-084",
+    "name": "高知 Castle (No.84)",
+    "name_ja": "高知城 (日本100名城 No.84)",
+    "name_romaji": "高知城-jō",
+    "category": "castle",
+    "prefecture": "高知県",
+    "city": "高知市",
+    "address": "高知県高知市",
+    "coordinates": [
+      133.531097,
+      33.558723
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.84)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #84 in Japan's Top 100 Castles (日本100名城), located in 高知県高知市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-085",
+    "name": "福岡 Castle (No.85)",
+    "name_ja": "福岡城 (日本100名城 No.85)",
+    "name_romaji": "福岡城-jō",
+    "category": "castle",
+    "prefecture": "福岡県",
+    "city": "福岡市",
+    "address": "福岡県福岡市中央区城内1",
+    "coordinates": [
+      130.383011,
+      33.587425
+    ],
+    "stampLocation": "福岡城むかし探訪館内",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.85)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/fukuokajo.jpg",
+    "description": "Registered historic castle site #85 in Japan's Top 100 Castles (日本100名城), located in 福岡県福岡市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-086",
+    "name": "大野 Castle (No.86)",
+    "name_ja": "大野城 (日本100名城 No.86)",
+    "name_romaji": "大野城-jō",
+    "category": "castle",
+    "prefecture": "福岡県",
+    "city": "太宰府市、大野城市、糟屋郡宇美町",
+    "address": "福岡県大野城市曙町3-8-3",
+    "coordinates": [
+      130.48024,
+      33.534813
+    ],
+    "stampLocation": "大野城心のふるさと館内",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.86)",
+    "imageUrl": "https://www.funakiya.com/i/stamp/onojo.jpg",
+    "description": "Registered historic castle site #86 in Japan's Top 100 Castles (日本100名城), located in 福岡県太宰府市、大野城市、糟屋郡宇美町. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-087",
+    "name": "名護屋 Castle (No.87)",
+    "name_ja": "名護屋城 (日本100名城 No.87)",
+    "name_romaji": "名護屋城-jō",
+    "category": "castle",
+    "prefecture": "佐賀県",
+    "city": "唐津市",
+    "address": "佐賀県唐津市",
+    "coordinates": [
+      129.967682,
+      33.449802
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.87)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #87 in Japan's Top 100 Castles (日本100名城), located in 佐賀県唐津市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-088",
+    "name": "吉野ヶ里 Castle (No.88)",
+    "name_ja": "吉野ヶ里 (日本100名城 No.88)",
+    "name_romaji": "吉野ヶ里-jō",
+    "category": "castle",
+    "prefecture": "佐賀県",
+    "city": "神埼郡吉野ヶ里町",
+    "address": "佐賀県神埼郡吉野ヶ里町",
+    "coordinates": [
+      130.398895,
+      33.32111
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.88)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #88 in Japan's Top 100 Castles (日本100名城), located in 佐賀県神埼郡吉野ヶ里町. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-089",
+    "name": "佐賀 Castle (No.89)",
+    "name_ja": "佐賀城 (日本100名城 No.89)",
+    "name_romaji": "佐賀城-jō",
+    "category": "castle",
+    "prefecture": "佐賀県",
+    "city": "佐賀市",
+    "address": "佐賀県佐賀市",
+    "coordinates": [
+      130.300888,
+      33.263512
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.89)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #89 in Japan's Top 100 Castles (日本100名城), located in 佐賀県佐賀市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-091",
+    "name": "島原 Castle (No.91)",
+    "name_ja": "島原城 (日本100名城 No.91)",
+    "name_romaji": "島原城-jō",
+    "category": "castle",
+    "prefecture": "長崎県",
+    "city": "島原市",
+    "address": "長崎県島原市",
+    "coordinates": [
+      130.370178,
+      32.787956
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.91)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #91 in Japan's Top 100 Castles (日本100名城), located in 長崎県島原市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-092",
+    "name": "熊本 Castle (No.92)",
+    "name_ja": "熊本城 (日本100名城 No.92)",
+    "name_romaji": "熊本城-jō",
+    "category": "castle",
+    "prefecture": "熊本県",
+    "city": "熊本市",
+    "address": "熊本県熊本市",
+    "coordinates": [
+      130.708054,
+      32.803333
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.92)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #92 in Japan's Top 100 Castles (日本100名城), located in 熊本県熊本市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-093",
+    "name": "人吉 Castle (No.93)",
+    "name_ja": "人吉城 (日本100名城 No.93)",
+    "name_romaji": "人吉城-jō",
+    "category": "castle",
+    "prefecture": "熊本県",
+    "city": "人吉市",
+    "address": "熊本県人吉市",
+    "coordinates": [
+      130.760162,
+      32.205631
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.93)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #93 in Japan's Top 100 Castles (日本100名城), located in 熊本県人吉市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-094",
+    "name": "大分府内 Castle (No.94)",
+    "name_ja": "大分府内城 (日本100名城 No.94)",
+    "name_romaji": "大分府内城-jō",
+    "category": "castle",
+    "prefecture": "大分県",
+    "city": "大分市",
+    "address": "大分県大分市",
+    "coordinates": [
+      131.609726,
+      33.239445
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.94)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #94 in Japan's Top 100 Castles (日本100名城), located in 大分県大分市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-095",
+    "name": "岡 Castle (No.95)",
+    "name_ja": "岡城 (日本100名城 No.95)",
+    "name_romaji": "岡城-jō",
+    "category": "castle",
+    "prefecture": "大分県",
+    "city": "竹田市",
+    "address": "大分県竹田市",
+    "coordinates": [
+      131.398178,
+      32.973476
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.95)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #95 in Japan's Top 100 Castles (日本100名城), located in 大分県竹田市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-096",
+    "name": "飫肥 Castle (No.96)",
+    "name_ja": "飫肥城 (日本100名城 No.96)",
+    "name_romaji": "飫肥城-jō",
+    "category": "castle",
+    "prefecture": "宮崎県",
+    "city": "日南市",
+    "address": "宮崎県日南市",
+    "coordinates": [
+      131.378754,
+      31.60181
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.96)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #96 in Japan's Top 100 Castles (日本100名城), located in 宮崎県日南市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-097",
+    "name": "鹿児島 Castle (No.97)",
+    "name_ja": "鹿児島城 (日本100名城 No.97)",
+    "name_romaji": "鹿児島城-jō",
+    "category": "castle",
+    "prefecture": "鹿児島県",
+    "city": "鹿児島市",
+    "address": "鹿児島県鹿児島市",
+    "coordinates": [
+      130.557022,
+      31.596861
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.97)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #97 in Japan's Top 100 Castles (日本100名城), located in 鹿児島県鹿児島市. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-098",
+    "name": "今帰仁 Castle (No.98)",
+    "name_ja": "今帰仁城 (日本100名城 No.98)",
+    "name_romaji": "今帰仁城-jō",
+    "category": "castle",
+    "prefecture": "沖縄県",
+    "city": "国頭郡今帰仁村",
+    "address": "沖縄県国頭郡今帰仁村",
+    "coordinates": [
+      127.972916,
+      26.682795
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.98)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #98 in Japan's Top 100 Castles (日本100名城), located in 沖縄県国頭郡今帰仁村. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-099",
+    "name": "中 Castle Castle (No.99)",
+    "name_ja": "中城城 (日本100名城 No.99)",
+    "name_romaji": "中城城-jō",
+    "category": "castle",
+    "prefecture": "沖縄県",
+    "city": "中頭郡中城村",
+    "address": "沖縄県中頭郡中城村",
+    "coordinates": [
+      127.789619,
+      26.262011
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.99)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #99 in Japan's Top 100 Castles (日本100名城), located in 沖縄県中頭郡中城村. Official collectible stamp authenticated by the Japan Castle Association."
+  },
+  {
+    "id": "castle-100-100",
+    "name": "首里 Castle (No.100)",
+    "name_ja": "首里城 (日本100名城 No.100)",
+    "name_romaji": "首里城-jō",
+    "category": "castle",
+    "prefecture": "沖縄県",
+    "city": "那覇市",
+    "address": "沖縄県那覇市",
+    "coordinates": [
+      127.679108,
+      26.212374
+    ],
+    "stampLocation": "城内管理事務所・案内所 / 天守閣受付 (Castle Office / Main Gate)",
+    "hours": "09:00 - 17:00 (Castle grounds / Exhibition hours)",
+    "operator": "Japan Castle Association (日本城郭協会 100名城 No.100)",
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+    "description": "Registered historic castle site #100 in Japan's Top 100 Castles (日本100名城), located in 沖縄県那覇市. Official collectible stamp authenticated by the Japan Castle Association."
   },
   {
     "id": "michi-kyoda",
@@ -104,7 +2459,10 @@
     "prefecture": "Okinawa",
     "city": "Nago",
     "address": "17-1 Kyoda, Nago, Okinawa 905-0024",
-    "coordinates": [127.9715, 26.5458],
+    "coordinates": [
+      127.9715,
+      26.5458
+    ],
     "stampLocation": "Main Tourism & Product Hall, central stamp table (本館観光案内所・特産品売場中央スタンプコーナー)",
     "hours": "08:30 - 19:00",
     "operator": "Yanbaru Tourism Promotion Organization",
@@ -120,7 +2478,10 @@
     "prefecture": "Yamanashi",
     "city": "Fujikawa",
     "address": "1655-3 Aoyagi-machi, Fujikawa, Minamikoma District, Yamanashi 400-0501",
-    "coordinates": [138.4592, 35.5683],
+    "coordinates": [
+      138.4592,
+      35.5683
+    ],
     "stampLocation": "Entrance Lobby, next to Round Information Counter (正面玄関ロビー 情報発信コーナー)",
     "hours": "09:00 - 18:00",
     "operator": "Fujikawa Town Hall",
@@ -136,7 +2497,10 @@
     "prefecture": "Kumamoto",
     "city": "Aso",
     "address": "1440-1 Kurokawa, Aso, Kumamoto 869-2225",
-    "coordinates": [131.0772, 32.9372],
+    "coordinates": [
+      131.0772,
+      32.9372
+    ],
     "stampLocation": "Adjacent to JR Aso Station, inside Aso Den-en-kukan Information Desk (館内 総合案内デスク横)",
     "hours": "09:00 - 18:00",
     "operator": "NPO Aso Den-en-kukan",
@@ -152,7 +2516,10 @@
     "prefecture": "Hokkaido",
     "city": "Shari-cho",
     "address": "186-8 Utoronishi, Shari, Shari District, Hokkaido 099-4354",
-    "coordinates": [144.9922, 44.0664],
+    "coordinates": [
+      144.9922,
+      44.0664
+    ],
     "stampLocation": "Shiretoko UNESCO Nature Corner, entrance foyer (知床世界遺産案内カウンター前)",
     "hours": "08:30 - 17:30",
     "operator": "Shari Town Tourism Association",
@@ -168,7 +2535,10 @@
     "prefecture": "Kanagawa",
     "city": "Ebina",
     "address": "Otori, Ebina, Kanagawa 243-0418",
-    "coordinates": [139.3941, 35.4347],
+    "coordinates": [
+      139.3941,
+      35.4347
+    ],
     "stampLocation": "Highway Information Counter, Outbound & Inbound Building 1F (上下線 ハイウェイ情報ターミナル横)",
     "hours": "24 Hours (Staffed 08:00 - 20:00)",
     "operator": "NEXCO Central (中日本高速道路)",
@@ -184,7 +2554,10 @@
     "prefecture": "Shizuoka",
     "city": "Oyama-cho",
     "address": "Kuwagi, Oyama, Sunto District, Shizuoka 410-1315",
-    "coordinates": [138.9774, 35.3094],
+    "coordinates": [
+      138.9774,
+      35.3094
+    ],
     "stampLocation": "EXPASA Ashigara Inbound/Outbound Concierge Counter (コンシェルジュカウンター前)",
     "hours": "24 Hours (Stamp table open all day)",
     "operator": "NEXCO Central",
@@ -200,76 +2573,15 @@
     "prefecture": "Yamanashi",
     "city": "Uenohara",
     "address": "Noda, Uenohara, Yamanashi 409-0123",
-    "coordinates": [139.0668, 35.6268],
+    "coordinates": [
+      139.0668,
+      35.6268
+    ],
     "stampLocation": "Chuo Expressway Information Plaza (中央道ハイウェイ情報コーナー)",
     "hours": "24 Hours",
     "operator": "NEXCO Central",
     "imageUrl": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=600&q=80",
     "description": "A favorite mountain rest stop on the Chuo Expressway towards Nagano, celebrated for Hoto noodles, Koshu grapes, and seasonal peach specialties."
-  },
-  {
-    "id": "castle-himeji",
-    "name": "Himeji Castle",
-    "name_ja": "姫路城 (白鷺城)",
-    "name_romaji": "Himeji-jō",
-    "category": "castle",
-    "prefecture": "Hyogo",
-    "city": "Himeji",
-    "address": "68 Honmachi, Himeji, Hyogo 670-0012",
-    "coordinates": [134.6939, 34.8394],
-    "stampLocation": "Main Gate Ticket Booth & Himeji Castle Management Office (入城口改札横・管理事務所)",
-    "hours": "09:00 - 17:00 (Summer until 18:00)",
-    "operator": "Himeji City / Japan Castle Association (日本城郭協会 100名城 No.59)",
-    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
-    "description": "Known as the 'White Heron Castle' due to its brilliant white plaster walls. UNESCO World Heritage Site and Japan's finest surviving feudal castle complex."
-  },
-  {
-    "id": "castle-matsumoto",
-    "name": "Matsumoto Castle",
-    "name_ja": "松本城 (烏城)",
-    "name_romaji": "Matsumoto-jō",
-    "category": "castle",
-    "prefecture": "Nagano",
-    "city": "Matsumoto",
-    "address": "4-1 Marunouchi, Matsumoto, Nagano 390-0873",
-    "coordinates": [137.9691, 36.2388],
-    "stampLocation": "Honmaru Garden Kuromon Gate Ticket Office (本丸庭園内 黒門受付)",
-    "hours": "08:30 - 17:00",
-    "operator": "Matsumoto City / Japan Castle Association (日本城郭協会 100名城 No.29)",
-    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=600&q=80",
-    "description": "The striking 'Crow Castle' with a distinctive 5-tier black wooden keep, built in the late 16th century against the backdrop of the snowy Japanese Alps."
-  },
-  {
-    "id": "castle-osaka",
-    "name": "Osaka Castle",
-    "name_ja": "大阪城",
-    "name_romaji": "Ōsaka-jō",
-    "category": "castle",
-    "prefecture": "Osaka",
-    "city": "Chuo-ku",
-    "address": "1-1 Osakajo, Chuo Ward, Osaka 540-0002",
-    "coordinates": [135.5262, 34.6873],
-    "stampLocation": "Main Keep 1F Information Counter (天守閣1階 インフォメーションカウンター)",
-    "hours": "09:00 - 17:00",
-    "operator": "Osaka Castle Museum / Japan Castle Association (100名城 No.54)",
-    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
-    "description": "Built originally by Toyotomi Hideyoshi, with colossal stone moats and an ornate golden tiger and shachihoko-adorned main donjon."
-  },
-  {
-    "id": "castle-kumamoto",
-    "name": "Kumamoto Castle",
-    "name_ja": "熊本城 (銀杏城)",
-    "name_romaji": "Kumamoto-jō",
-    "category": "castle",
-    "prefecture": "Kumamoto",
-    "city": "Chuo-ku",
-    "address": "1-1 Honmaru, Chuo Ward, Kumamoto 860-0002",
-    "coordinates": [130.7058, 32.8062],
-    "stampLocation": "South Gate Ticket Office & Ninomaru Guide Desk (南口券売所・二の丸案内所)",
-    "hours": "09:00 - 17:00",
-    "operator": "Kumamoto Castle General Office (100名城 No.92)",
-    "imageUrl": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=600&q=80",
-    "description": "Constructed by master castle builder Kato Kiyomasa with famous curved stone walls (musha-gaeshi) designed to repel ninja invaders."
   },
   {
     "id": "temple-sensoji",
@@ -280,7 +2592,10 @@
     "prefecture": "Tokyo",
     "city": "Taito-ku",
     "address": "2-chome-3-1 Asakusa, Taito City, Tokyo 111-0032",
-    "coordinates": [139.7967, 35.7148],
+    "coordinates": [
+      139.7967,
+      35.7148
+    ],
     "stampLocation": "Shado Goshuin Office on the left side of the Main Hall (本堂左側 影向堂朱印所)",
     "hours": "08:00 - 17:00",
     "operator": "Sho-Kannon Sect (聖観音宗総本山)",
@@ -296,7 +2611,10 @@
     "prefecture": "Kyoto",
     "city": "Fushimi-ku",
     "address": "68 Fukakusa Yabunouchicho, Fushimi Ward, Kyoto 612-0882",
-    "coordinates": [135.7727, 34.9671],
+    "coordinates": [
+      135.7727,
+      34.9671
+    ],
     "stampLocation": "Main Shrine Office & Okusha Shaho Office (本殿授与所・奥社奉拝所)",
     "hours": "08:30 - 16:30 (Shrine grounds open 24h)",
     "operator": "Fushimi Inari Head Shrine",
@@ -312,7 +2630,10 @@
     "prefecture": "Hiroshima",
     "city": "Hatsukaichi",
     "address": "1-1 Miyajimacho, Hatsukaichi, Hiroshima 739-0588",
-    "coordinates": [132.3197, 34.2959],
+    "coordinates": [
+      132.3197,
+      34.2959
+    ],
     "stampLocation": "Shrine Exit corridor, Goshuin Office (昇殿口・出口朱印所)",
     "hours": "06:30 - 18:00 (Varies by season & high tide)",
     "operator": "Itsukushima Shrine Religious Corporation",
