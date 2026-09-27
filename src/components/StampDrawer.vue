@@ -14,7 +14,6 @@ import {
   Car,
   Castle,
   Compass,
-  Maximize2,
   Star,
 } from 'lucide-vue-next';
 
@@ -254,16 +253,6 @@ watch(
                 <Star :class="['w-3.5 h-3.5', isWishlist ? 'fill-amber-400 text-amber-400' : 'text-slate-400']" />
                 <span>{{ isWishlist ? 'Wishlisted' : 'Wishlist' }}</span>
               </button>
-
-              <button
-                v-if="stamp.imageUrl"
-                type="button"
-                @click="isImageModalOpen = true"
-                class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-700/80 hover:bg-slate-700 text-xs text-slate-300 hover:text-white font-medium border border-slate-600/60 transition-colors active:scale-95"
-              >
-                <Maximize2 class="w-3.5 h-3.5 text-slate-400" />
-                <span>Enlarge</span>
-              </button>
             </div>
           </div>
         </div>
@@ -313,7 +302,10 @@ watch(
       </div>
 
       <!-- Action Footer with Collect Toggle -->
-      <div class="px-5 py-3.5 bg-slate-950/80 border-t border-slate-800 flex items-center justify-between gap-3">
+      <div
+        class="px-5 py-3.5 bg-slate-950/80 border-t border-slate-800 flex items-center justify-between gap-3"
+        style="padding-bottom: calc(env(safe-area-inset-bottom, 0px) + 0.875rem);"
+      >
         <div class="text-xs text-slate-400 hidden sm:block">
           <span v-if="isCollected" class="text-emerald-400 font-semibold">Saved in local offline registry</span>
           <span v-else>Collect this stamp when you visit!</span>

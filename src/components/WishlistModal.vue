@@ -41,6 +41,7 @@ const sortedWishlistStamps = computed(() => {
   <div
     v-if="isOpen"
     class="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-slate-950/80 backdrop-blur-sm animate-in fade-in duration-200"
+    style="padding-top: calc(env(safe-area-inset-top, 0px) + 0.75rem); padding-bottom: calc(env(safe-area-inset-bottom, 0px) + 0.75rem);"
     role="dialog"
     aria-modal="true"
     aria-labelledby="wishlist-modal-title"

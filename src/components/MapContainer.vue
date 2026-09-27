@@ -402,11 +402,14 @@ defineExpose({
     <!-- MapLibre canvas container -->
     <div ref="mapContainerRef" class="w-full h-full absolute inset-0" />
 
-    <!-- Map Quick Action Controls (Floating bottom-left) -->
-    <div class="absolute bottom-6 left-4 z-20 flex flex-col gap-2 pointer-events-auto">
+    <!-- Map Quick Action Controls (Floating bottom) -->
+    <div
+      class="absolute bottom-3 sm:bottom-6 left-3 sm:left-4 z-20 flex flex-col gap-2 pointer-events-auto"
+      style="padding-bottom: env(safe-area-inset-bottom, 0px);"
+    >
       <!-- Basemap Style Selector -->
       <div
-        class="flex items-center gap-1 p-1 rounded-xl bg-slate-900/90 border border-slate-700/80 shadow-lg backdrop-blur-md"
+        class="w-fit flex items-center gap-1 p-1 rounded-xl bg-slate-900/90 border border-slate-700/80 shadow-lg backdrop-blur-md"
       >
         <button
           type="button"
@@ -449,31 +452,31 @@ defineExpose({
         </button>
       </div>
 
-      <div class="flex items-center gap-2 pointer-events-auto">
+      <div class="flex items-center gap-1.5 sm:gap-2 pointer-events-auto">
         <button
           type="button"
           @click="openOfflineModal"
-          class="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-slate-900/90 hover:bg-slate-800 text-slate-200 hover:text-white border border-slate-700/80 shadow-lg backdrop-blur-md text-xs font-semibold transition-all active:scale-95"
+          class="flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 sm:py-2 rounded-xl bg-slate-900/90 hover:bg-slate-800 text-slate-200 hover:text-white border border-slate-700/80 shadow-lg backdrop-blur-md text-xs font-semibold transition-all active:scale-95 whitespace-nowrap"
           title="Manage offline map tiles and storage"
         >
-          <WifiOff class="w-3.5 h-3.5 text-emerald-400" />
-          <span>Offline Maps</span>
+          <WifiOff class="w-3.5 h-3.5 text-emerald-400 shrink-0" />
+          <span>Offline<span class="hidden sm:inline"> Maps</span></span>
         </button>
 
         <button
           type="button"
           @click="resetJapanView"
-          class="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-slate-900/90 hover:bg-slate-800 text-slate-200 hover:text-white border border-slate-700/80 shadow-lg backdrop-blur-md text-xs font-semibold transition-all active:scale-95"
+          class="flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 sm:py-2 rounded-xl bg-slate-900/90 hover:bg-slate-800 text-slate-200 hover:text-white border border-slate-700/80 shadow-lg backdrop-blur-md text-xs font-semibold transition-all active:scale-95 whitespace-nowrap"
           title="Reset view to whole Japan overview"
         >
-          <span class="font-serif text-sm leading-none text-red-500 font-bold">日本</span>
-          <span>Japan Overview</span>
+          <span class="font-serif text-sm leading-none text-red-500 font-bold shrink-0">日本</span>
+          <span><span class="hidden sm:inline">Japan </span>Overview</span>
         </button>
 
         <button
           type="button"
           @click="fitAllStamps"
-          class="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-slate-900/90 hover:bg-slate-800 text-slate-200 hover:text-white border border-slate-700/80 shadow-lg backdrop-blur-md text-xs font-semibold transition-all active:scale-95"
+          class="flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 sm:py-2 rounded-xl bg-slate-900/90 hover:bg-slate-800 text-slate-200 hover:text-white border border-slate-700/80 shadow-lg backdrop-blur-md text-xs font-semibold transition-all active:scale-95 whitespace-nowrap"
           title="Fit all current filtered stamps into view"
         >
           <svg
@@ -482,14 +485,14 @@ defineExpose({
             fill="none"
             stroke="currentColor"
             stroke-width="2"
-            class="w-3.5 h-3.5 text-amber-400"
+            class="w-3.5 h-3.5 text-amber-400 shrink-0"
           >
             <path d="M3 7V5a2 2 0 0 1 2-2h2" />
             <path d="M17 3h2a2 2 0 0 1 2 2v2" />
             <path d="M21 17v2a2 2 0 0 1-2 2h-2" />
             <path d="M7 21H5a2 2 0 0 1-2-2v-2" />
           </svg>
-          <span>Fit Visible ({{ stamps.length }})</span>
+          <span>Fit<span class="hidden sm:inline"> Visible</span> ({{ stamps.length }})</span>
         </button>
       </div>
     </div>
@@ -505,6 +508,11 @@ defineExpose({
 
 <style>
 /* MapLibre Controls Styling for dark theme integration */
+.maplibregl-ctrl-bottom-right {
+  margin-bottom: calc(env(safe-area-inset-bottom, 0px) + 7.5rem) !important;
+  margin-right: 12px !important;
+}
+
 .maplibregl-ctrl-group {
   background-color: rgba(15, 23, 42, 0.9) !important;
   border: 1px solid rgba(51, 65, 85, 0.8) !important;

@@ -66,7 +66,8 @@ function clearSearch() {
 
 <template>
   <header
-    class="pointer-events-auto w-full max-w-4xl mx-auto flex flex-col gap-2.5 px-3 pt-3 md:pt-4 transition-all"
+    class="pointer-events-auto w-full max-w-4xl mx-auto flex flex-col gap-2.5 px-3 md:px-4 transition-all"
+    style="padding-top: calc(env(safe-area-inset-top, 0px) + 0.75rem);"
     role="region"
     aria-label="Filter and Search Controls"
   >

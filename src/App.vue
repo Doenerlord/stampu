@@ -167,6 +167,9 @@ function handleFitWishlistOnMap() {
       @select-stamp="handleSelectStamp"
     />
 
+    <!-- Top Status Bar Scrim for contrast -->
+    <div class="absolute top-0 left-0 right-0 h-14 bg-gradient-to-b from-slate-950/90 via-slate-950/40 to-transparent pointer-events-none z-20" />
+
     <!-- Floating Top Header & Filter Controls -->
     <div class="absolute top-0 left-0 right-0 z-30 pointer-events-none">
       <CategoryFilters
