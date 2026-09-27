@@ -5,11 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc -b && vite build",
+    "build": "vue-tsc -b && vite build && cp -f node_modules/maplibre-gl/dist/*.mjs dist/assets/ && cp -f node_modules/maplibre-gl/dist/*.mjs dist/",
     "preview": "vite preview",
     "test": "vitest run"
   },
   "dependencies": {
+    "@capacitor/android": "^8.5.2",
+    "@capacitor/core": "^8.5.2",
     "@lucide/vue": "^1.48.0",
     "@tailwindcss/vite": "^4.3.3",
     "dexie": "^4.4.6",
@@ -19,6 +21,7 @@
     "vue": "^3.5.42"
   },
   "devDependencies": {
+    "@capacitor/cli": "^8.5.2",
     "@types/node": "^24.13.3",
     "@vitejs/plugin-vue": "^6.0.8",
     "@vue/test-utils": "^2.5.1",
