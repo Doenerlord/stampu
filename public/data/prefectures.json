@@ -4,31 +4,33 @@
     "name": "Hokkaido",
     "name_ja": "北海道",
     "region": "Hokkaido",
-    "stampCount": 136,
+    "stampCount": 147,
     "categories": {
       "castle": 5,
-      "eki": 2,
+      "eki": 9,
       "michinoeki": 128,
-      "temple_shrine": 1
+      "temple_shrine": 5
     },
     "bounds": {
       "minLat": 41.3794,
-      "maxLat": 45.4664,
-      "minLon": 140.0462,
+      "maxLat": 45.4669,
+      "minLon": 139.4622,
       "maxLon": 145.6335
     },
-    "estimatedSizeMB": 10.0
+    "estimatedSizeMB": 10.7
   },
   {
     "id": "akita",
     "name": "Akita",
     "name_ja": "秋田県",
     "region": "Tohoku",
-    "stampCount": 38,
+    "stampCount": 41,
     "categories": {
       "castle": 3,
       "michinoeki": 34,
-      "highway": 1
+      "highway": 1,
+      "eki": 2,
+      "temple_shrine": 1
     },
     "bounds": {
       "minLat": 39.0115,
@@ -36,17 +38,17 @@
       "minLon": 139.7976,
       "maxLon": 140.8739
     },
-    "estimatedSizeMB": 4.1
+    "estimatedSizeMB": 4.4
   },
   {
     "id": "aomori",
     "name": "Aomori",
     "name_ja": "青森県",
     "region": "Tohoku",
-    "stampCount": 36,
+    "stampCount": 37,
     "categories": {
       "castle": 3,
-      "eki": 4,
+      "eki": 5,
       "michinoeki": 28,
       "highway": 1
     },
@@ -63,12 +65,13 @@
     "name": "Fukushima",
     "name_ja": "福島県",
     "region": "Tohoku",
-    "stampCount": 50,
+    "stampCount": 52,
     "categories": {
       "castle": 5,
-      "eki": 3,
+      "eki": 4,
       "michinoeki": 35,
-      "highway": 7
+      "highway": 7,
+      "temple_shrine": 1
     },
     "bounds": {
       "minLat": 37.0005,
@@ -76,7 +79,7 @@
       "minLon": 139.4728,
       "maxLon": 141.0475
     },
-    "estimatedSizeMB": 4.0
+    "estimatedSizeMB": 4.1
   },
   {
     "id": "iwate",
@@ -103,10 +106,10 @@
     "name": "Miyagi",
     "name_ja": "宮城県",
     "region": "Tohoku",
-    "stampCount": 30,
+    "stampCount": 31,
     "categories": {
       "castle": 3,
-      "eki": 4,
+      "eki": 5,
       "michinoeki": 19,
       "highway": 4
     },
@@ -116,7 +119,7 @@
       "minLon": 140.4178,
       "maxLon": 141.6163
     },
-    "estimatedSizeMB": 2.9
+    "estimatedSizeMB": 3.0
   },
   {
     "id": "yamagata",
@@ -141,40 +144,41 @@
     "name": "Chiba",
     "name_ja": "千葉県",
     "region": "Kanto",
-    "stampCount": 41,
+    "stampCount": 90,
     "categories": {
       "castle": 3,
-      "eki": 7,
+      "eki": 51,
       "michinoeki": 29,
-      "temple_shrine": 2
+      "temple_shrine": 7
     },
     "bounds": {
       "minLat": 34.8635,
-      "maxLat": 35.9472,
+      "maxLat": 35.9929,
       "minLon": 139.7947,
-      "maxLon": 140.5776
+      "maxLon": 140.9055
     },
-    "estimatedSizeMB": 4.2
+    "estimatedSizeMB": 7.0
   },
   {
     "id": "gunma",
     "name": "Gunma",
     "name_ja": "群馬県",
     "region": "Kanto",
-    "stampCount": 44,
+    "stampCount": 47,
     "categories": {
       "castle": 5,
-      "eki": 3,
+      "eki": 5,
       "michinoeki": 33,
-      "highway": 3
+      "highway": 3,
+      "temple_shrine": 1
     },
     "bounds": {
       "minLat": 36.0294,
       "maxLat": 36.8281,
       "minLon": 138.5401,
-      "maxLon": 139.4314
+      "maxLon": 139.6015
     },
-    "estimatedSizeMB": 4.5
+    "estimatedSizeMB": 4.9
   },
   {
     "id": "ibaraki",
@@ -200,52 +204,52 @@
     "name": "Kanagawa",
     "name_ja": "神奈川県",
     "region": "Kanto",
-    "stampCount": 23,
+    "stampCount": 100,
     "categories": {
       "castle": 3,
-      "eki": 5,
+      "eki": 79,
       "michinoeki": 5,
       "highway": 5,
-      "temple_shrine": 5
+      "temple_shrine": 8
     },
     "bounds": {
-      "minLat": 35.1368,
-      "maxLat": 35.6662,
+      "minLat": 35.1284,
+      "maxLat": 35.6708,
       "minLon": 138.9657,
-      "maxLon": 139.7469
+      "maxLon": 139.7971
     },
-    "estimatedSizeMB": 2.9
+    "estimatedSizeMB": 8.5
   },
   {
     "id": "saitama",
     "name": "Saitama",
     "name_ja": "埼玉県",
     "region": "Kanto",
-    "stampCount": 46,
+    "stampCount": 86,
     "categories": {
       "castle": 5,
-      "eki": 12,
+      "eki": 42,
       "michinoeki": 21,
       "highway": 7,
-      "temple_shrine": 1
+      "temple_shrine": 11
     },
     "bounds": {
-      "minLat": 35.7385,
+      "minLat": 35.7382,
       "maxLat": 36.3061,
       "minLon": 138.9554,
       "maxLon": 139.8448
     },
-    "estimatedSizeMB": 4.8
+    "estimatedSizeMB": 8.1
   },
   {
     "id": "tochigi",
     "name": "Tochigi",
     "name_ja": "栃木県",
     "region": "Kanto",
-    "stampCount": 38,
+    "stampCount": 47,
     "categories": {
       "castle": 2,
-      "eki": 3,
+      "eki": 12,
       "michinoeki": 25,
       "highway": 7,
       "temple_shrine": 1
@@ -253,62 +257,62 @@
     "bounds": {
       "minLat": 36.2467,
       "maxLat": 37.1059,
-      "minLon": 139.3998,
+      "minLon": 139.3983,
       "maxLon": 140.2263
     },
-    "estimatedSizeMB": 4.5
+    "estimatedSizeMB": 5.2
   },
   {
     "id": "tokyo",
     "name": "Tokyo",
     "name_ja": "東京都",
     "region": "Kanto",
-    "stampCount": 308,
+    "stampCount": 457,
     "categories": {
       "castle": 4,
-      "eki": 296,
+      "eki": 436,
       "michinoeki": 1,
       "highway": 1,
-      "temple_shrine": 6
+      "temple_shrine": 15
     },
     "bounds": {
-      "minLat": 35.5125,
-      "maxLat": 35.8419,
-      "minLon": 139.2319,
-      "maxLon": 139.9535
+      "minLat": 27.0443,
+      "maxLat": 35.8444,
+      "minLon": 139.0845,
+      "maxLon": 142.2419
     },
-    "estimatedSizeMB": 29.4
+    "estimatedSizeMB": 40.2
   },
   {
     "id": "aichi",
     "name": "Aichi",
     "name_ja": "愛知県",
     "region": "Chubu",
-    "stampCount": 40,
+    "stampCount": 84,
     "categories": {
       "castle": 7,
-      "eki": 3,
+      "eki": 46,
       "michinoeki": 19,
       "highway": 10,
-      "temple_shrine": 1
+      "temple_shrine": 2
     },
     "bounds": {
       "minLat": 34.5334,
       "maxLat": 35.4348,
-      "minLon": 136.7963,
+      "minLon": 136.7627,
       "maxLon": 137.7699
     },
-    "estimatedSizeMB": 3.7
+    "estimatedSizeMB": 6.7
   },
   {
     "id": "fukui",
     "name": "Fukui",
     "name_ja": "福井県",
     "region": "Chubu",
-    "stampCount": 31,
+    "stampCount": 32,
     "categories": {
       "castle": 6,
-      "eki": 4,
+      "eki": 5,
       "michinoeki": 20,
       "temple_shrine": 1
     },
@@ -318,27 +322,28 @@
       "minLon": 135.5439,
       "maxLon": 136.7124
     },
-    "estimatedSizeMB": 3.3
+    "estimatedSizeMB": 3.4
   },
   {
     "id": "gifu",
     "name": "Gifu",
     "name_ja": "岐阜県",
     "region": "Chubu",
-    "stampCount": 68,
+    "stampCount": 77,
     "categories": {
       "castle": 6,
-      "eki": 1,
+      "eki": 7,
       "michinoeki": 56,
-      "highway": 5
+      "highway": 5,
+      "temple_shrine": 3
     },
     "bounds": {
-      "minLat": 35.2658,
+      "minLat": 35.1296,
       "maxLat": 36.3293,
       "minLon": 136.4939,
       "maxLon": 137.5796
     },
-    "estimatedSizeMB": 4.2
+    "estimatedSizeMB": 4.9
   },
   {
     "id": "ishikawa",
@@ -364,13 +369,13 @@
     "name": "Nagano",
     "name_ja": "長野県",
     "region": "Chubu",
-    "stampCount": 73,
+    "stampCount": 74,
     "categories": {
       "castle": 7,
       "eki": 5,
       "michinoeki": 54,
       "highway": 6,
-      "temple_shrine": 1
+      "temple_shrine": 2
     },
     "bounds": {
       "minLat": 35.3939,
@@ -378,17 +383,17 @@
       "minLon": 137.6216,
       "maxLon": 138.6852
     },
-    "estimatedSizeMB": 4.8
+    "estimatedSizeMB": 4.9
   },
   {
     "id": "niigata",
     "name": "Niigata",
     "name_ja": "新潟県",
     "region": "Chubu",
-    "stampCount": 57,
+    "stampCount": 58,
     "categories": {
       "castle": 5,
-      "eki": 8,
+      "eki": 9,
       "michinoeki": 41,
       "highway": 3
     },
@@ -405,13 +410,13 @@
     "name": "Shizuoka",
     "name_ja": "静岡県",
     "region": "Chubu",
-    "stampCount": 57,
+    "stampCount": 58,
     "categories": {
       "castle": 7,
       "eki": 5,
       "michinoeki": 26,
       "highway": 18,
-      "temple_shrine": 1
+      "temple_shrine": 2
     },
     "bounds": {
       "minLat": 34.6001,
@@ -419,7 +424,7 @@
       "minLon": 137.4478,
       "maxLon": 139.1436
     },
-    "estimatedSizeMB": 5.4
+    "estimatedSizeMB": 5.6
   },
   {
     "id": "toyama",
@@ -445,11 +450,12 @@
     "name": "Yamanashi",
     "name_ja": "山梨県",
     "region": "Chubu",
-    "stampCount": 33,
+    "stampCount": 34,
     "categories": {
       "castle": 4,
       "michinoeki": 22,
-      "highway": 7
+      "highway": 7,
+      "temple_shrine": 1
     },
     "bounds": {
       "minLat": 35.4086,
@@ -457,116 +463,121 @@
       "minLon": 138.2178,
       "maxLon": 139.0957
     },
-    "estimatedSizeMB": 2.5
+    "estimatedSizeMB": 2.6
   },
   {
     "id": "hyogo",
     "name": "Hyogo",
     "name_ja": "兵庫県",
     "region": "Kansai",
-    "stampCount": 47,
+    "stampCount": 82,
     "categories": {
       "castle": 8,
-      "eki": 4,
-      "michinoeki": 35
+      "eki": 38,
+      "michinoeki": 35,
+      "temple_shrine": 1
     },
     "bounds": {
       "minLat": 34.2929,
       "maxLat": 35.6992,
       "minLon": 134.3403,
-      "maxLon": 135.2694
+      "maxLon": 135.4668
     },
-    "estimatedSizeMB": 3.2
+    "estimatedSizeMB": 5.3
   },
   {
     "id": "kyoto",
     "name": "Kyoto",
     "name_ja": "京都府",
     "region": "Kansai",
-    "stampCount": 36,
+    "stampCount": 58,
     "categories": {
       "castle": 2,
-      "eki": 6,
+      "eki": 26,
       "michinoeki": 18,
       "highway": 1,
-      "temple_shrine": 9
+      "temple_shrine": 11
     },
     "bounds": {
-      "minLat": 34.7282,
+      "minLat": 34.6843,
       "maxLat": 35.7921,
       "minLon": 134.879,
       "maxLon": 136.0559
     },
-    "estimatedSizeMB": 3.2
+    "estimatedSizeMB": 4.7
   },
   {
     "id": "mie",
     "name": "Mie",
     "name_ja": "三重県",
     "region": "Kansai",
-    "stampCount": 25,
+    "stampCount": 45,
     "categories": {
       "castle": 6,
       "michinoeki": 18,
-      "temple_shrine": 1
+      "temple_shrine": 2,
+      "eki": 19
     },
     "bounds": {
       "minLat": 33.7105,
-      "maxLat": 35.07,
+      "maxLat": 35.1469,
       "minLon": 135.9717,
       "maxLon": 136.8123
     },
-    "estimatedSizeMB": 2.3
+    "estimatedSizeMB": 3.7
   },
   {
     "id": "nara",
     "name": "Nara",
     "name_ja": "奈良県",
     "region": "Kansai",
-    "stampCount": 25,
+    "stampCount": 44,
     "categories": {
       "castle": 3,
       "michinoeki": 17,
-      "temple_shrine": 5
+      "temple_shrine": 5,
+      "eki": 19
     },
     "bounds": {
       "minLat": 33.9386,
-      "maxLat": 34.7361,
-      "minLon": 135.6524,
-      "maxLon": 136.0068
+      "maxLat": 34.7438,
+      "minLon": 135.6442,
+      "maxLon": 136.0607
     },
-    "estimatedSizeMB": 2.0
+    "estimatedSizeMB": 3.3
   },
   {
     "id": "osaka",
     "name": "Osaka",
     "name_ja": "大阪府",
     "region": "Kansai",
-    "stampCount": 154,
+    "stampCount": 207,
     "categories": {
       "castle": 5,
-      "eki": 138,
+      "eki": 190,
       "michinoeki": 10,
-      "highway": 1
+      "highway": 1,
+      "temple_shrine": 1
     },
     "bounds": {
-      "minLat": 34.3627,
-      "maxLat": 35.0065,
-      "minLon": 135.3051,
+      "minLat": 34.3096,
+      "maxLat": 35.0817,
+      "minLon": 134.1577,
       "maxLon": 135.7129
     },
-    "estimatedSizeMB": 12.5
+    "estimatedSizeMB": 16.6
   },
   {
     "id": "shiga",
     "name": "Shiga",
     "name_ja": "滋賀県",
     "region": "Kansai",
-    "stampCount": 32,
+    "stampCount": 35,
     "categories": {
       "castle": 6,
       "michinoeki": 20,
-      "highway": 6
+      "highway": 6,
+      "eki": 3
     },
     "bounds": {
       "minLat": 34.8783,
@@ -574,46 +585,47 @@
       "minLon": 135.8186,
       "maxLon": 136.4462
     },
-    "estimatedSizeMB": 3.3
+    "estimatedSizeMB": 3.5
   },
   {
     "id": "wakayama",
     "name": "Wakayama",
     "name_ja": "和歌山県",
     "region": "Kansai",
-    "stampCount": 42,
+    "stampCount": 58,
     "categories": {
       "castle": 2,
       "michinoeki": 36,
-      "temple_shrine": 4
+      "temple_shrine": 4,
+      "eki": 16
     },
     "bounds": {
       "minLat": 33.4337,
       "maxLat": 34.3741,
-      "minLon": 135.1175,
+      "minLon": 135.1164,
       "maxLon": 136.039
     },
-    "estimatedSizeMB": 3.1
+    "estimatedSizeMB": 4.4
   },
   {
     "id": "hiroshima",
     "name": "Hiroshima",
     "name_ja": "広島県",
     "region": "Chugoku",
-    "stampCount": 32,
+    "stampCount": 35,
     "categories": {
       "castle": 5,
-      "eki": 5,
+      "eki": 6,
       "michinoeki": 21,
-      "temple_shrine": 1
+      "temple_shrine": 3
     },
     "bounds": {
-      "minLat": 34.2226,
+      "minLat": 34.1987,
       "maxLat": 35.059,
       "minLon": 132.26,
       "maxLon": 133.4125
     },
-    "estimatedSizeMB": 3.3
+    "estimatedSizeMB": 3.6
   },
   {
     "id": "okayama",
@@ -658,48 +670,50 @@
     "name": "Tottori",
     "name_ja": "鳥取県",
     "region": "Chugoku",
-    "stampCount": 20,
+    "stampCount": 22,
     "categories": {
       "castle": 3,
-      "michinoeki": 17
+      "michinoeki": 17,
+      "temple_shrine": 2
     },
     "bounds": {
       "minLat": 35.2902,
-      "maxLat": 35.5608,
-      "minLon": 133.2809,
+      "maxLat": 35.5962,
+      "minLon": 133.1813,
       "maxLon": 134.451
     },
-    "estimatedSizeMB": 1.8
+    "estimatedSizeMB": 2.0
   },
   {
     "id": "yamaguchi",
     "name": "Yamaguchi",
     "name_ja": "山口県",
     "region": "Chugoku",
-    "stampCount": 33,
+    "stampCount": 36,
     "categories": {
       "castle": 3,
-      "eki": 5,
+      "eki": 6,
       "michinoeki": 24,
-      "temple_shrine": 1
+      "temple_shrine": 3
     },
     "bounds": {
       "minLat": 33.7808,
       "maxLat": 34.6984,
-      "minLon": 130.8987,
+      "minLon": 130.8804,
       "maxLon": 132.2297
     },
-    "estimatedSizeMB": 2.9
+    "estimatedSizeMB": 3.2
   },
   {
     "id": "ehime",
     "name": "Ehime",
     "name_ja": "愛媛県",
     "region": "Shikoku",
-    "stampCount": 35,
+    "stampCount": 36,
     "categories": {
       "castle": 7,
-      "michinoeki": 28
+      "michinoeki": 28,
+      "eki": 1
     },
     "bounds": {
       "minLat": 33.1659,
@@ -707,18 +721,19 @@
       "minLon": 132.2015,
       "maxLon": 133.3604
     },
-    "estimatedSizeMB": 2.7
+    "estimatedSizeMB": 2.8
   },
   {
     "id": "kagawa",
     "name": "Kagawa",
     "name_ja": "香川県",
     "region": "Shikoku",
-    "stampCount": 24,
+    "stampCount": 25,
     "categories": {
       "castle": 3,
       "michinoeki": 18,
-      "temple_shrine": 3
+      "temple_shrine": 3,
+      "eki": 1
     },
     "bounds": {
       "minLat": 33.9979,
@@ -726,7 +741,7 @@
       "minLon": 133.581,
       "maxLon": 134.4452
     },
-    "estimatedSizeMB": 2.5
+    "estimatedSizeMB": 2.6
   },
   {
     "id": "kochi",
@@ -770,40 +785,40 @@
     "name": "Fukuoka",
     "name_ja": "福岡県",
     "region": "Kyushu & Okinawa",
-    "stampCount": 29,
+    "stampCount": 49,
     "categories": {
       "castle": 5,
-      "eki": 6,
+      "eki": 24,
       "michinoeki": 17,
-      "temple_shrine": 1
+      "temple_shrine": 3
     },
     "bounds": {
-      "minLat": 33.0213,
-      "maxLat": 33.9367,
-      "minLon": 130.3517,
+      "minLat": 32.9804,
+      "maxLat": 33.9387,
+      "minLon": 130.3015,
       "maxLon": 131.18
     },
-    "estimatedSizeMB": 2.7
+    "estimatedSizeMB": 4.3
   },
   {
     "id": "kagoshima",
     "name": "Kagoshima",
     "name_ja": "鹿児島県",
     "region": "Kyushu & Okinawa",
-    "stampCount": 30,
+    "stampCount": 36,
     "categories": {
       "castle": 3,
-      "eki": 3,
+      "eki": 9,
       "michinoeki": 23,
       "temple_shrine": 1
     },
     "bounds": {
-      "minLat": 28.2669,
+      "minLat": 26.9874,
       "maxLat": 32.2492,
-      "minLon": 129.4438,
+      "minLon": 128.3644,
       "maxLon": 131.1263
     },
-    "estimatedSizeMB": 1.8
+    "estimatedSizeMB": 2.3
   },
   {
     "id": "kumamoto",
@@ -849,11 +864,12 @@
     "name": "Nagasaki",
     "name_ja": "長崎県",
     "region": "Kyushu & Okinawa",
-    "stampCount": 19,
+    "stampCount": 21,
     "categories": {
       "castle": 5,
-      "eki": 3,
-      "michinoeki": 11
+      "eki": 4,
+      "michinoeki": 11,
+      "temple_shrine": 1
     },
     "bounds": {
       "minLat": 32.6097,
@@ -861,17 +877,19 @@
       "minLon": 128.7969,
       "maxLon": 130.4202
     },
-    "estimatedSizeMB": 2.0
+    "estimatedSizeMB": 2.2
   },
   {
     "id": "oita",
     "name": "Oita",
     "name_ja": "大分県",
     "region": "Kyushu & Okinawa",
-    "stampCount": 31,
+    "stampCount": 33,
     "categories": {
       "castle": 6,
-      "michinoeki": 25
+      "michinoeki": 25,
+      "eki": 1,
+      "temple_shrine": 1
     },
     "bounds": {
       "minLat": 32.9098,
@@ -879,26 +897,27 @@
       "minLon": 131.1016,
       "maxLon": 131.95
     },
-    "estimatedSizeMB": 1.6
+    "estimatedSizeMB": 1.7
   },
   {
     "id": "okinawa",
     "name": "Okinawa",
     "name_ja": "沖縄県",
     "region": "Kyushu & Okinawa",
-    "stampCount": 16,
+    "stampCount": 23,
     "categories": {
       "castle": 5,
       "michinoeki": 10,
-      "temple_shrine": 1
+      "temple_shrine": 1,
+      "eki": 7
     },
     "bounds": {
-      "minLat": 26.1271,
+      "minLat": 24.0086,
       "maxLat": 26.738,
-      "minLon": 127.621,
-      "maxLon": 128.1523
+      "minLon": 122.9546,
+      "maxLon": 131.349
     },
-    "estimatedSizeMB": 1.9
+    "estimatedSizeMB": 2.4
   },
   {
     "id": "saga",
