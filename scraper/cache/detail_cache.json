@@ -1,0 +1,4143 @@
+{
+  "https://stamp.funakiya.com/jr-gotanda.html": {
+    "coords": [
+      139.723472,
+      35.626389
+    ],
+    "name_en": "JR Gotanda Station",
+    "addr": "東京都品川区東五反田1-26-14",
+    "stamp_loc": "JR五反田駅中央改札口外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-osaki.html": {
+    "coords": [
+      139.728556,
+      35.619722
+    ],
+    "name_en": "JR Ōsaki Station",
+    "addr": "東京都品川区大崎1-21-4",
+    "stamp_loc": "JR大崎駅北口改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-meguro.html": {
+    "coords": [
+      139.715833,
+      35.634028
+    ],
+    "name_en": "JR Meguro Station",
+    "addr": "東京都品川区上大崎2-16-9",
+    "stamp_loc": "JR目黒駅中央改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-harajuku.html": {
+    "coords": [
+      139.702667,
+      35.670222
+    ],
+    "name_en": "JR Harajuku Station",
+    "addr": "東京都渋谷区神宮前1-18-20",
+    "stamp_loc": "JR原宿駅表参道口改札外",
+    "hours": "7:00～21:00"
+  },
+  "https://stamp.funakiya.com/jr-ebisu.html": {
+    "coords": [
+      139.710139,
+      35.646667
+    ],
+    "name_en": "JR Ebisu Station",
+    "addr": "東京都渋谷区恵比寿南1-5-5",
+    "stamp_loc": "JR恵比寿駅西口改札外 みどりの窓口内",
+    "hours": "7:00～21:00"
+  },
+  "https://stamp.funakiya.com/jr-yoyogi.html": {
+    "coords": [
+      139.702083,
+      35.683056
+    ],
+    "name_en": "JR Yoyogi Station",
+    "addr": "東京都渋谷区代々木1-34-1",
+    "stamp_loc": "JR代々木駅西口改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-shibuya.html": {
+    "coords": [
+      139.701111,
+      35.658611
+    ],
+    "name_en": "JR Shibuya Station",
+    "addr": "東京都渋谷区道玄坂1-1-1",
+    "stamp_loc": "JR渋谷駅南口改札外 みどりの窓口内",
+    "hours": "5:30～23:00"
+  },
+  "https://stamp.funakiya.com/jr-shinagawa.html": {
+    "coords": [
+      139.738694,
+      35.628222
+    ],
+    "name_en": "JR Shinagawa Station",
+    "addr": "東京都港区高輪3-26-27",
+    "stamp_loc": "JR品川駅中央改札外 みどりの窓口内",
+    "hours": "6:00～22:00"
+  },
+  "https://stamp.funakiya.com/jr-shinokubo.html": {
+    "coords": [
+      139.700056,
+      35.701306
+    ],
+    "name_en": "JR Shin-Ōkubo Station",
+    "addr": "東京都新宿区百人町1-10-15",
+    "stamp_loc": "JR新大久保駅改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-takadanobaba.html": {
+    "coords": [
+      139.70375,
+      35.712222
+    ],
+    "name_en": "JR Takadanobaba Station",
+    "addr": "東京都新宿区高田馬場1-35-1",
+    "stamp_loc": "JR高田馬場駅早稲田口改札外 みどりの窓口内",
+    "hours": "7:00～21:00"
+  },
+  "https://stamp.funakiya.com/jr-mejiro.html": {
+    "coords": [
+      139.706583,
+      35.721194
+    ],
+    "name_en": "JR Mejiro Station",
+    "addr": "東京都豊島区目白3-3-1",
+    "stamp_loc": "JR目白駅改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-sugamo.html": {
+    "coords": [
+      139.739333,
+      35.733472
+    ],
+    "name_en": "JR Sugamo Station",
+    "addr": "東京都豊島区巣鴨1-16-1",
+    "stamp_loc": "JR巣鴨駅改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-komagome.html": {
+    "coords": [
+      139.746861,
+      35.736472
+    ],
+    "name_en": "JR Komagome Station",
+    "addr": "東京都豊島区駒込2-1-1",
+    "stamp_loc": "JR駒込駅北口改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-shinjuku.html": {
+    "coords": [
+      139.700278,
+      35.690833
+    ],
+    "name_en": "JR Shinjuku Station",
+    "addr": "東京都新宿区新宿3-38-1",
+    "stamp_loc": "JR新宿駅東口改札外 みどりの窓口内",
+    "hours": "5:30～23:00"
+  },
+  "https://stamp.funakiya.com/jr-otsuka.html": {
+    "coords": [
+      139.728056,
+      35.731833
+    ],
+    "name_en": "JR Ōtsuka Station",
+    "addr": "東京都豊島区南大塚3-33-1",
+    "stamp_loc": "JR大塚駅改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-ikebukuro.html": {
+    "coords": [
+      139.710861,
+      35.729722
+    ],
+    "name_en": "JR Ikebukuro Station",
+    "addr": "東京都豊島区南池袋1-28-2",
+    "stamp_loc": "JR池袋駅南口改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-tabata.html": {
+    "coords": [
+      139.760833,
+      35.738056
+    ],
+    "name_en": "JR Tabata Station",
+    "addr": "東京都北区東田端1-17-1",
+    "stamp_loc": "JR田端駅北口改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-uguisudani.html": {
+    "coords": [
+      139.7783,
+      35.7213
+    ],
+    "name_en": "JR Uguisudani Station",
+    "addr": "東京都台東区根岸1-4-1",
+    "stamp_loc": "JR鶯谷駅南口改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-nippori.html": {
+    "coords": [
+      139.770972,
+      35.727778
+    ],
+    "name_en": "JR Nippori Station",
+    "addr": "東京都荒川区西日暮里2-19-1",
+    "stamp_loc": "JR日暮里駅北口改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-nishinippori.html": {
+    "coords": [
+      139.766667,
+      35.732083
+    ],
+    "name_en": "JR Nishi-Nippori Station",
+    "addr": "東京都荒川区西日暮里5-22-1",
+    "stamp_loc": "JR西日暮里駅改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-okachimachi.html": {
+    "coords": [
+      139.774639,
+      35.707417
+    ],
+    "name_en": "JR Okachimachi Station",
+    "addr": "東京都台東区上野5-27",
+    "stamp_loc": "JR御徒町駅北口改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-kanda.html": {
+    "coords": [
+      139.770833,
+      35.691667
+    ],
+    "name_en": "JR Kanda Station",
+    "addr": "東京都千代田区鍛冶町2-13-1",
+    "stamp_loc": "JR神田駅南口改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-ueno.html": {
+    "coords": [
+      139.777222,
+      35.713889
+    ],
+    "name_en": "JR Ueno Station",
+    "addr": "東京都台東区上野7-1-1",
+    "stamp_loc": "JR上野駅中央改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-akihabara.html": {
+    "coords": [
+      139.773056,
+      35.698333
+    ],
+    "name_en": "JR Akihabara Station",
+    "addr": "東京都千代田区外神田1-17-6",
+    "stamp_loc": "JR秋葉原駅中央改札口外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-yurakucho.html": {
+    "coords": [
+      139.763333,
+      35.675056
+    ],
+    "name_en": "JR Yūrakuchō Station",
+    "addr": "東京都千代田区有楽町2-9-17",
+    "stamp_loc": "JR有楽町駅銀座口改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-hamamatucho.html": {
+    "coords": [
+      139.756944,
+      35.655
+    ],
+    "name_en": "JR Hamamatsuchō Station",
+    "addr": "東京都港区海岸1-3-1",
+    "stamp_loc": "JR浜松町駅南口改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-shinbashi.html": {
+    "coords": [
+      139.758056,
+      35.666389
+    ],
+    "name_en": "JR Shimbashi Station",
+    "addr": "東京都港区新橋2-17",
+    "stamp_loc": "JR新橋駅烏森口改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-tokyo.html": {
+    "coords": [
+      139.767136,
+      35.681471
+    ],
+    "name_en": "JR Tōkyō Station",
+    "addr": "東京都千代田区丸の内1-9-1",
+    "stamp_loc": "JR東京駅丸ノ内南口改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-tamachi.html": {
+    "coords": [
+      139.747583,
+      35.645722
+    ],
+    "name_en": "JR Tamachi Station",
+    "addr": "東京都港区芝5-33-36",
+    "stamp_loc": "JR田町駅北改札口外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-takanawagateway.html": {
+    "coords": [
+      139.7407,
+      35.6355
+    ],
+    "name_en": "JR Takanawa Gateway Station",
+    "addr": "東京都港区港南2-10-145",
+    "stamp_loc": "JR高輪ゲートウェイ駅改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-ochanomizu.html": {
+    "coords": [
+      139.763889,
+      35.699861
+    ],
+    "name_en": "JR Ochanomizu Station",
+    "addr": "東京都千代田区神田駿河台2-6-1",
+    "stamp_loc": "JR御茶ノ水駅御茶ノ水橋口改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-suidobashi.html": {
+    "coords": [
+      139.753611,
+      35.702
+    ],
+    "name_en": "JR Suidōbashi Station",
+    "addr": "東京都千代田区神田三崎町2-22-1",
+    "stamp_loc": "JR水道橋駅東口改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-iidabashi.html": {
+    "coords": [
+      139.745,
+      35.702056
+    ],
+    "name_en": "JR Iidabashi Station",
+    "addr": "東京都千代田区飯田橋4-10-2",
+    "stamp_loc": "JR飯田橋駅西口改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-yotsuya.html": {
+    "coords": [
+      139.730667,
+      35.686
+    ],
+    "name_en": "JR Yotsuya Station",
+    "addr": "東京都新宿区四谷1-5-25",
+    "stamp_loc": "JR四ツ谷駅四ツ谷口改札外 みどりの窓口内",
+    "hours": "8:00～20:00（平日）、8:00～19:00（土日祝）"
+  },
+  "https://stamp.funakiya.com/jr-ichigaya.html": {
+    "coords": [
+      139.735583,
+      35.691
+    ],
+    "name_en": "JR Ichigaya Station",
+    "addr": "東京都千代田区五番町2-1",
+    "stamp_loc": "JR市ケ谷駅改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-okubo.html": {
+    "coords": [
+      139.697361,
+      35.700722
+    ],
+    "name_en": "JR Ōkubo Station",
+    "addr": "東京都新宿区百人町1-17-1",
+    "stamp_loc": "JR大久保駅北口改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-sendagaya.html": {
+    "coords": [
+      139.711444,
+      35.681167
+    ],
+    "name_en": "JR Sendagaya Station",
+    "addr": "東京都渋谷区千駄ヶ谷1-35-10",
+    "stamp_loc": "JR千駄ケ谷駅改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-shinanomachi.html": {
+    "coords": [
+      139.72025,
+      35.680083
+    ],
+    "name_en": "JR Shinanomachi Station",
+    "addr": "東京都新宿区信濃町34",
+    "stamp_loc": "JR信濃町駅改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-higashinakano.html": {
+    "coords": [
+      139.685833,
+      35.706222
+    ],
+    "name_en": "JR Higashi-Nakano Station",
+    "addr": "東京都中野区東中野4-1-12",
+    "stamp_loc": "JR東中野駅西口改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-nakano.html": {
+    "coords": [
+      139.665556,
+      35.705833
+    ],
+    "name_en": "JR Nakano Station",
+    "addr": "東京都中野区中野5-31-1",
+    "stamp_loc": "JR中野駅南口改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-kouenji.html": {
+    "coords": [
+      139.649861,
+      35.705389
+    ],
+    "name_en": "JR Kōenji Station",
+    "addr": "東京都杉並区高円寺南4-48-2",
+    "stamp_loc": "JR高円寺駅改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-ogikubo.html": {
+    "coords": [
+      139.62,
+      35.704639
+    ],
+    "name_en": "JR Ogikubo Station",
+    "addr": "東京都杉並区上荻1-7-1",
+    "stamp_loc": "JR荻窪駅改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-musashisakai.html": {
+    "coords": [
+      139.544889,
+      35.702278
+    ],
+    "name_en": "JR Musashi-Sakai Station",
+    "addr": "東京都武蔵野市境1-1-2",
+    "stamp_loc": "JR武蔵境駅中央改札窓口（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-kichijoji.html": {
+    "coords": [
+      139.58,
+      35.703056
+    ],
+    "name_en": "JR Kichijōji Station",
+    "addr": "東京都武蔵野市吉祥寺南町1-1-24",
+    "stamp_loc": "JR吉祥寺駅中央改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-asagaya.html": {
+    "coords": [
+      139.635278,
+      35.704778
+    ],
+    "name_en": "JR Asagaya Station",
+    "addr": "東京都杉並区阿佐谷南3-36-2",
+    "stamp_loc": "JR阿佐ケ谷駅東口改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-nishiogikubo.html": {
+    "coords": [
+      139.599361,
+      35.703833
+    ],
+    "name_en": "JR Nishi-Ogikubo Station",
+    "addr": "東京都杉並区西荻南3-25-1",
+    "stamp_loc": "JR西荻窪駅改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-mitaka.html": {
+    "coords": [
+      139.560833,
+      35.702694
+    ],
+    "name_en": "JR Mitaka Station",
+    "addr": "東京都三鷹市下連雀3-46-1",
+    "stamp_loc": "JR三鷹駅中央改札外 窓口内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-higashikoganei.html": {
+    "coords": [
+      139.524833,
+      35.70175
+    ],
+    "name_en": "JR Higashi-Koganei Station",
+    "addr": "東京都小金井市梶野町5-1-1",
+    "stamp_loc": "JR東小金井駅中央改札窓口（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-musashikoganei.html": {
+    "coords": [
+      139.506444,
+      35.701333
+    ],
+    "name_en": "JR Musashi-Koganei Station",
+    "addr": "東京都小金井市本町6-14-29",
+    "stamp_loc": "JR武蔵小金井駅改札窓口（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-nishikokubunji.html": {
+    "coords": [
+      139.465722,
+      35.699778
+    ],
+    "name_en": "JR Nishi-Kokubunji Station",
+    "addr": "東京都国分寺市西恋ヶ窪2-1-18",
+    "stamp_loc": "JR西国分寺駅改札窓口（改札外側）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-hino.html": {
+    "coords": [
+      139.393997,
+      35.679247
+    ],
+    "name_en": "JR Hino Station",
+    "addr": "東京都日野市大坂上1-9-6",
+    "stamp_loc": "JR日野駅改札窓口（駅員に依頼が必要）",
+    "hours": "6:30～20:00 21:00～終電"
+  },
+  "https://stamp.funakiya.com/jr-kunitachi.html": {
+    "coords": [
+      139.446389,
+      35.699
+    ],
+    "name_en": "JR Kunitachi Station",
+    "addr": "東京都国立市北1-14-22",
+    "stamp_loc": "JR国立駅改札窓口（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-kokubunji.html": {
+    "coords": [
+      139.48025,
+      35.70025
+    ],
+    "name_en": "JR Kokubunji Station",
+    "addr": "東京都国分寺市本町2-1-23",
+    "stamp_loc": "JR国分寺駅改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-toyoda.html": {
+    "coords": [
+      139.381472,
+      35.6595
+    ],
+    "name_en": "JR Toyoda Station",
+    "addr": "東京都八王子市千人町2-21-1",
+    "stamp_loc": "JR豊田駅改札窓口（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-tachikawa.html": {
+    "coords": [
+      139.413944,
+      35.697889
+    ],
+    "name_en": "JR Tachikawa Station",
+    "addr": "東京都立川市曙町2-1-1",
+    "stamp_loc": "JR立川駅東改札窓口（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-hachioji.html": {
+    "coords": [
+      139.338889,
+      35.655556
+    ],
+    "name_en": "JR Hachiōji Station",
+    "addr": "東京都八王子市旭町1-1",
+    "stamp_loc": "JR八王子駅中央改札外 みどりの窓口前",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-nishihachioji.html": {
+    "coords": [
+      139.3125,
+      35.656778
+    ],
+    "name_en": "JR Nishi-Hachiōji Station",
+    "addr": "東京都八王子市千人町2-21-1",
+    "stamp_loc": "JR西八王子駅改札外",
+    "hours": "6:00～終電"
+  },
+  "https://stamp.funakiya.com/jr-yono.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "埼玉県さいたま市浦和区上木崎1-1-1",
+    "stamp_loc": "JR与野駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-saitamashintoshin.html": {
+    "coords": [
+      139.633558,
+      35.893925
+    ],
+    "name_en": "JR Saitama-Shintoshin Station",
+    "addr": "埼玉県さいたま市大宮区吉敷町4-261-1",
+    "stamp_loc": "JRさいたま新都心駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-kitaurawa.html": {
+    "coords": [
+      139.646197,
+      35.872156
+    ],
+    "name_en": "JR Kita-Urawa Station",
+    "addr": "埼玉県さいたま市浦和区北浦和3-3-5",
+    "stamp_loc": "JR北浦和駅改札外",
+    "hours": "7:00～21:00"
+  },
+  "https://stamp.funakiya.com/jr-takao.html": {
+    "coords": [
+      139.281944,
+      35.642222
+    ],
+    "name_en": "JR Takao Station",
+    "addr": "東京都八王子市高尾町1201-2",
+    "stamp_loc": "JR高尾駅北口改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-minamiurawa.html": {
+    "coords": [
+      139.66915,
+      35.847681
+    ],
+    "name_en": "JR Minami-Urawa Station",
+    "addr": "埼玉県さいたま市南区南浦和2-37-2",
+    "stamp_loc": "JR南浦和駅改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-urawa.html": {
+    "coords": [
+      139.657453,
+      35.858492
+    ],
+    "name_en": "JR Urawa Station",
+    "addr": "埼玉県さいたま市浦和区高砂1-16-12",
+    "stamp_loc": "JR浦和駅中央改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-omiya.html": {
+    "coords": [
+      139.623833,
+      35.906278
+    ],
+    "name_en": "JR Ōmiya Station",
+    "addr": "埼玉県さいたま市大宮区錦町630",
+    "stamp_loc": "JR大宮駅改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-warabi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "埼玉県蕨市中央1-23-1",
+    "stamp_loc": "JR蕨駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-kawaguchi.html": {
+    "coords": [
+      139.7175,
+      35.801944
+    ],
+    "name_en": "JR Kawaguchi Station",
+    "addr": "埼玉県川口市栄町3-1-21",
+    "stamp_loc": "JR川口駅改札外 みどりの窓口内",
+    "hours": "7:00～21:00"
+  },
+  "https://stamp.funakiya.com/jr-nishikawaguchi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "埼玉県川口市並木2-20-1",
+    "stamp_loc": "JR西川口駅改札窓口（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-kaminakazato.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都北区上中里1-47-31",
+    "stamp_loc": "JR上中里駅改札口外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-higashijujo.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都北区東十条3-18-51",
+    "stamp_loc": "JR東十条駅南口改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-oji.html": {
+    "coords": [
+      139.738111,
+      35.7525
+    ],
+    "name_en": "JR Ōji Station",
+    "addr": "東京都北区王子1-3",
+    "stamp_loc": "JR王子駅北口改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-akabane.html": {
+    "coords": [
+      139.720833,
+      35.778028
+    ],
+    "name_en": "JR Akabane Station",
+    "addr": "東京都北区赤羽1-1-1",
+    "stamp_loc": "JR赤羽駅北口みどりの窓口内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-oimachi.html": {
+    "coords": [
+      139.734861,
+      35.606222
+    ],
+    "name_en": "JR Ōimachi Station",
+    "addr": "東京都品川区大井1-2-1",
+    "stamp_loc": "JR大井町駅西口改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-omori.html": {
+    "coords": [
+      139.727917,
+      35.588444
+    ],
+    "name_en": "JR Ōmori Station",
+    "addr": "東京都大田区大森北1-6-16",
+    "stamp_loc": "JR大森駅中央改札外 みどりの窓口内",
+    "hours": "7:00～21:00"
+  },
+  "https://stamp.funakiya.com/jr-kamata.html": {
+    "coords": [
+      139.716056,
+      35.562472
+    ],
+    "name_en": "JR Kamata Station",
+    "addr": "東京都大田区蒲田5-13-1",
+    "stamp_loc": "JR蒲田駅中央改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-kawasaki.html": {
+    "coords": [
+      139.696944,
+      35.531389
+    ],
+    "name_en": "JR Kawasaki Station",
+    "addr": "神奈川県川崎市川崎区駅前本町26-1",
+    "stamp_loc": "JR川崎駅改札内6番線（南武線）駅事務室内",
+    "hours": "7:00～23:00"
+  },
+  "https://stamp.funakiya.com/jr-shinkoyasu.html": {
+    "coords": [
+      139.654778,
+      35.487083
+    ],
+    "name_en": "JR Shin-Koyasu Station",
+    "addr": "神奈川県横浜市神奈川区子安通2-259",
+    "stamp_loc": "JR新子安駅改札窓口（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-tsurumi.html": {
+    "coords": [
+      139.676,
+      35.508556
+    ],
+    "name_en": "JR Tsurumi Station",
+    "addr": "神奈川県横浜市鶴見区鶴見中央1-1-1",
+    "stamp_loc": "JR鶴見駅東口改札窓口（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-higashikanagawa.html": {
+    "coords": [
+      139.633333,
+      35.477917
+    ],
+    "name_en": "JR Higashi-Kanagawa Station",
+    "addr": "神奈川県横浜市神奈川区東神奈川1丁目",
+    "stamp_loc": "JR東神奈川駅改札窓口（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-yokohama.html": {
+    "coords": [
+      139.6225,
+      35.466111
+    ],
+    "name_en": "JR Yokohama Station",
+    "addr": "神奈川県横浜市西区高島2-16-1",
+    "stamp_loc": "JR横浜駅中央改札外 駅長室前",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-osaka.html": {
+    "coords": [
+      135.494972,
+      34.701889
+    ],
+    "name_en": "JR Ōsaka Station",
+    "addr": "大阪府大阪市北区梅田3-1-1",
+    "stamp_loc": "JR大阪駅中央改札外",
+    "hours": "5:30～23:00"
+  },
+  "https://stamp.funakiya.com/jrw-fukushima.html": {
+    "coords": [
+      135.486583,
+      34.697139
+    ],
+    "name_en": "JR Fukushima Station",
+    "addr": "大阪府大阪市福島区福島7-1-3",
+    "stamp_loc": "JR福島駅改札外or改札窓口（駅員に依頼が必要）",
+    "hours": "6:30～21:00"
+  },
+  "https://stamp.funakiya.com/jr-nishikujo.html": {
+    "coords": [
+      135.466789,
+      34.682664
+    ],
+    "name_en": "JR Nishikujō Station",
+    "addr": "大阪府大阪市此花区西九条1-32-18",
+    "stamp_loc": "JR西九条駅改札内or改札窓口（駅員に依頼が必要）",
+    "hours": "6:30～22:00"
+  },
+  "https://stamp.funakiya.com/jr-noda.html": {
+    "coords": [
+      135.474858,
+      34.688981
+    ],
+    "name_en": "JR Noda Station",
+    "addr": "大阪府大阪市福島区吉野3-1-12",
+    "stamp_loc": "JR野田駅改札内or改札窓口（駅員に依頼が必要）",
+    "hours": "6:30～21:00"
+  },
+  "https://stamp.funakiya.com/jr-bentencho.html": {
+    "coords": [
+      135.462231,
+      34.669697
+    ],
+    "name_en": "JR Bentenchō Station",
+    "addr": "大阪府大阪市港区波除3-11-6",
+    "stamp_loc": "JR弁天町駅北口改札内",
+    "hours": "6:30～21:00"
+  },
+  "https://stamp.funakiya.com/jr-taisho.html": {
+    "coords": [
+      135.479975,
+      34.665519
+    ],
+    "name_en": "JR Taishō Station",
+    "addr": "大阪府大阪市大正区三軒家東1-8-18",
+    "stamp_loc": "JR大正駅改札内or改札窓口（駅員に依頼が必要）",
+    "hours": "6:30～22:00"
+  },
+  "https://stamp.funakiya.com/jr-ashiharabashi.html": {
+    "coords": [
+      135.4889,
+      34.659206
+    ],
+    "name_en": "JR Ashiharabashi Station",
+    "addr": "大阪府大阪市浪速区浪速東1-3-22",
+    "stamp_loc": "JR芦原橋駅改札内or改札窓口（駅員に依頼が必要）",
+    "hours": "6:30～21:00"
+  },
+  "https://stamp.funakiya.com/jr-shinimamiya.html": {
+    "coords": [
+      135.500694,
+      34.650167
+    ],
+    "name_en": "JR Shin-Imamiya Station",
+    "addr": "大阪府大阪市浪速区恵美須西3-17-1",
+    "stamp_loc": "JR新今宮駅西口改札窓口（駅員に依頼が必要）",
+    "hours": "6:30～21:00"
+  },
+  "https://stamp.funakiya.com/jr-imamiya.html": {
+    "coords": [
+      135.493042,
+      34.654178
+    ],
+    "name_en": "JR Imamiya Station",
+    "addr": "大阪府大阪市浪速区大国3-13-13",
+    "stamp_loc": "JR今宮駅改札内or改札窓口（駅員に依頼が必要）",
+    "hours": "6:30～21:00"
+  },
+  "https://stamp.funakiya.com/jr-teradacho.html": {
+    "coords": [
+      135.523369,
+      34.647878
+    ],
+    "name_en": "JR Teradachō Station",
+    "addr": "大阪府大阪市天王寺区大道4-11-21",
+    "stamp_loc": "JR寺田町駅改札内or改札窓口（駅員に依頼が必要）",
+    "hours": "6:30～21:00"
+  },
+  "https://stamp.funakiya.com/jr-momodani.html": {
+    "coords": [
+      135.527892,
+      34.65855
+    ],
+    "name_en": "JR Momodani Station",
+    "addr": "大阪府大阪市天王寺区堂ケ芝1-8-27",
+    "stamp_loc": "JR桃谷駅改札内or改札窓口（駅員に依頼が必要）",
+    "hours": "6:30～21:00"
+  },
+  "https://stamp.funakiya.com/jr-tennoji.html": {
+    "coords": [
+      135.513939,
+      34.647322
+    ],
+    "name_en": "JR Tennōji Station",
+    "addr": "大阪府大阪市天王寺区悲田院町10-45",
+    "stamp_loc": "JR天王寺駅改札外 みどりの窓口内",
+    "hours": "5:30～23:00"
+  },
+  "https://stamp.funakiya.com/jr-tsuruhashi.html": {
+    "coords": [
+      135.529925,
+      34.665247
+    ],
+    "name_en": "JR Tsuruhashi Station",
+    "addr": "大阪府大阪市天王寺区下味原町1-1",
+    "stamp_loc": "JR鶴橋駅改札内",
+    "hours": "6:30～22:00"
+  },
+  "https://stamp.funakiya.com/jr-tamatsukuri.html": {
+    "coords": [
+      135.532828,
+      34.673525
+    ],
+    "name_en": "JR Tamatsukuri Station",
+    "addr": "大阪府大阪市天王寺区玉造元町1-40",
+    "stamp_loc": "JR玉造駅改札内",
+    "hours": "6:30～21:00"
+  },
+  "https://stamp.funakiya.com/jr-morinomiya.html": {
+    "coords": [
+      135.533844,
+      34.6811
+    ],
+    "name_en": "JR Morinomiya Station",
+    "addr": "大阪府大阪市中央区森ノ宮中央1-1-45",
+    "stamp_loc": "JR森ノ宮駅改札内or改札窓口（駅員に依頼が必要）",
+    "hours": "6:30～21:00"
+  },
+  "https://stamp.funakiya.com/jr-osakajou.html": {
+    "coords": [
+      135.534481,
+      34.688578
+    ],
+    "name_en": "JR Ōsakajōkōen Station",
+    "addr": "大阪府大阪市中央区大阪城3",
+    "stamp_loc": "JR大阪城公園駅改札窓口（駅員に依頼が必要）",
+    "hours": "6:30～21:00"
+  },
+  "https://stamp.funakiya.com/jr-kyobashi.html": {
+    "coords": [
+      135.5347,
+      34.695997
+    ],
+    "name_en": "JR Kyōbashi Station",
+    "addr": "大阪府大阪市城東区新喜多1-2-31",
+    "stamp_loc": "JR京橋駅北口改札窓口（駅員に依頼が必要）",
+    "hours": "5:30～23:00"
+  },
+  "https://stamp.funakiya.com/jr-sakuranomiya.html": {
+    "coords": [
+      135.520328,
+      34.704919
+    ],
+    "name_en": "JR Sakuranomiya Station",
+    "addr": "大阪府大阪市都島区中野町5-1-22",
+    "stamp_loc": "JR桜ノ宮駅西口改札外or西口改札窓口（駅員に依頼が必要）",
+    "hours": "6:30～23:00"
+  },
+  "https://stamp.funakiya.com/jr-temma.html": {
+    "coords": [
+      135.512136,
+      34.704933
+    ],
+    "name_en": "JR Temma Station",
+    "addr": "大阪府大阪市北区錦町1-20",
+    "stamp_loc": "JR天満駅改札外or改札窓口（駅員に依頼が必要）",
+    "hours": "6:30～21:00"
+  },
+  "https://stamp.funakiya.com/jr-nishioji.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "京都府京都市南区唐橋西平垣町19",
+    "stamp_loc": "JR西大路駅改札窓口（駅員に依頼が必要）",
+    "hours": "6:30～21:00"
+  },
+  "https://stamp.funakiya.com/jr-kyoto.html": {
+    "coords": [
+      135.757756,
+      34.985458
+    ],
+    "name_en": "JR Kyōto Station",
+    "addr": "京都府京都市下京区烏丸通塩小路下ル東塩小路町",
+    "stamp_loc": "JR京都駅在来線改札内",
+    "hours": "5:30～23:00"
+  },
+  "https://stamp.funakiya.com/jr-mukomachi.html": {
+    "coords": [
+      135.7096,
+      34.954936
+    ],
+    "name_en": "JR Mukōmachi Station",
+    "addr": "京都府向日市寺戸町久々相10",
+    "stamp_loc": "JR向日町駅改札窓口（駅員に依頼が必要）",
+    "hours": "7:00～20:00"
+  },
+  "https://stamp.funakiya.com/jr-katsuragawa.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "京都府京都市南区久世高田町6-7",
+    "stamp_loc": "JR桂川駅改札内",
+    "hours": "7:00～20:00"
+  },
+  "https://stamp.funakiya.com/jr-nagaokakyo.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "京都府長岡京市神足2-4-1",
+    "stamp_loc": "JR長岡京駅改札窓口（駅員に依頼が必要）",
+    "hours": "6:00～22:00"
+  },
+  "https://stamp.funakiya.com/jr-yamazaki.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "京都府乙訓郡大山崎町大山崎西谷24-1",
+    "stamp_loc": "JR山崎駅改札窓口（駅員に依頼が必要）",
+    "hours": "6:30～21:00"
+  },
+  "https://stamp.funakiya.com/jr-shimamoto.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府三島郡島本町桜井1-3-39",
+    "stamp_loc": "JR島本駅改札内",
+    "hours": "6:30～20:30"
+  },
+  "https://stamp.funakiya.com/jr-takatsuki.html": {
+    "coords": [
+      135.617681,
+      34.851714
+    ],
+    "name_en": "JR Takatsuki Station",
+    "addr": "大阪府高槻市白梅町1-1",
+    "stamp_loc": "JR高槻駅中央改札窓口（駅員に依頼が必要）",
+    "hours": "6:30～22:00"
+  },
+  "https://stamp.funakiya.com/jr-settsutonda.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府高槻市富田町1-1-18",
+    "stamp_loc": "JR摂津富田駅改札外",
+    "hours": "6:30～22:00"
+  },
+  "https://stamp.funakiya.com/jr-sojiji.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府茨木市庄1-28-55",
+    "stamp_loc": "JR総持寺駅改札内",
+    "hours": "5:30～23:00"
+  },
+  "https://stamp.funakiya.com/jr-ibaraki.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府茨木市駅前1-1-10",
+    "stamp_loc": "JR茨木駅改札外 みどりの窓口内",
+    "hours": "6:00～22:00"
+  },
+  "https://stamp.funakiya.com/jr-senrioka.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府摂津市千里丘1-1-1",
+    "stamp_loc": "JR千里丘駅改札外 みどりの窓口内",
+    "hours": "6:30～21:00"
+  },
+  "https://stamp.funakiya.com/jr-kishibe.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府吹田市岸部南1-16-1",
+    "stamp_loc": "JR岸辺駅改札窓口（駅員に依頼が必要）",
+    "hours": "6:30～21:00"
+  },
+  "https://stamp.funakiya.com/jr-suita.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府吹田市朝日町1-1",
+    "stamp_loc": "JR吹田駅中央改札窓口（駅員に依頼が必要）",
+    "hours": "6:00～22:00"
+  },
+  "https://stamp.funakiya.com/jr-higashiyodogawa.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市淀川区宮原2-3-17",
+    "stamp_loc": "JR東淀川駅改札窓口（駅員に依頼が必要）",
+    "hours": "6:30～7:00 7:30～8:45 9:30～11:00 15:30～16:30 17:30～20:30 22:30～終電"
+  },
+  "https://stamp.funakiya.com/jr-shinosaka.html": {
+    "coords": [
+      135.500114,
+      34.733483
+    ],
+    "name_en": "JR Shin-Ōsaka Station",
+    "addr": "大阪府大阪市淀川区西中島5-16-1",
+    "stamp_loc": "JR新大阪駅在来線東改札窓口（駅員に依頼が必要）or東口改札外 みどりの窓口内",
+    "hours": "5:30～23:30"
+  },
+  "https://stamp.funakiya.com/miti-chigasaki.html": {
+    "coords": [
+      139.377471,
+      35.320398
+    ],
+    "name_en": "Michinoeki Shonan Chigasaki",
+    "addr": "神奈川県茅ヶ崎市柳島1546-1",
+    "stamp_loc": "道の駅湘南ちがさき内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-kyonan.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "千葉県安房郡鋸南町吉浜516-1",
+    "stamp_loc": "道の駅きょなん内",
+    "hours": "9:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-tomiura.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "千葉県南房総市富浦町青木123-1",
+    "stamp_loc": "道の駅とみうら内",
+    "hours": "10:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-miyoshimura.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "千葉県南房総市川田82-2",
+    "stamp_loc": "道の駅三芳村内",
+    "hours": "9:00～18:00（3～9月）、9:00～17:00（10～2月）"
+  },
+  "https://stamp.funakiya.com/miti-kamogawa.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "千葉県鴨川市江見太夫崎22",
+    "stamp_loc": "道の駅鴨川オーシャンパーク内",
+    "hours": "9:00～18:00（4～10月）、9:00～17:00（11～3月）"
+  },
+  "https://stamp.funakiya.com/miti-hakonetoge.html": {
+    "coords": [
+      139.01566,
+      35.186755
+    ],
+    "name_en": "Michinoeki Hakone-toge",
+    "addr": "神奈川県足柄下郡箱根町箱根381-22",
+    "stamp_loc": "道の駅箱根峠内",
+    "hours": "9:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-hachiojitakiyama.html": {
+    "coords": [
+      139.341461,
+      35.68667
+    ],
+    "name_en": "Michinoeki Hachioji-takiyama",
+    "addr": "東京都八王子市滝山町1-592-2",
+    "stamp_loc": "道の駅八王子滝山内",
+    "hours": "8:00～19:00"
+  },
+  "https://stamp.funakiya.com/miti-kiyokawa.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "神奈川県愛甲郡清川村煤ヶ谷2129",
+    "stamp_loc": "道の駅清川内",
+    "hours": "10:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-yachiyo.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "千葉県八千代市4905-1",
+    "stamp_loc": "道の駅八千代ふるさとステーション内",
+    "hours": "9:00～19:00"
+  },
+  "https://stamp.funakiya.com/miti-tako.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "千葉県香取郡多古町多古1069-1",
+    "stamp_loc": "道の駅多古内",
+    "hours": "9:00～19:00（4～8月）、9:00～18:00（9～3月）"
+  },
+  "https://stamp.funakiya.com/miti-kimitsu.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "千葉県君津市笹椿1766-3",
+    "stamp_loc": "道の駅ふれあいパーク・きみつ内",
+    "hours": "9:00～18:00（4～9月）、9:00～17:30（10月）、9:00～17:00（11～3月）"
+  },
+  "https://stamp.funakiya.com/miti-kurimoto.html": {
+    "coords": [
+      140.470065,
+      35.805978
+    ],
+    "name_en": "Michinoeki Kurimoto",
+    "addr": "千葉県香取市沢1372-1",
+    "stamp_loc": "道の駅くりもと内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-syounan.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "千葉県柏市箕輪新田59-2",
+    "stamp_loc": "道の駅しょうなん内",
+    "hours": "9:00～19:00（4～9月）、9:30～18:00（10～3月）"
+  },
+  "https://stamp.funakiya.com/miti-rosemary.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "千葉県南房総市白子1501",
+    "stamp_loc": "道の駅ローズマリー公園内",
+    "hours": "9:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-chikura.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "千葉県南房総市千倉町千田1051",
+    "stamp_loc": "道の駅ちくら・潮風王国内",
+    "hours": "8:30～17:00"
+  },
+  "https://stamp.funakiya.com/miti-ootaki.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "千葉県夷隅郡大多喜町石神855",
+    "stamp_loc": "道の駅たけゆらの里おおたき内",
+    "hours": "9:00～18:00（3～11月）、9:00～17:30（12～2月）"
+  },
+  "https://stamp.funakiya.com/miti-ichihara.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "千葉県市原市浅井小向492-1",
+    "stamp_loc": "道の駅あずの里いちはら内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-tomiyama.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "千葉県南房総市二部1900",
+    "stamp_loc": "道の駅富楽里とみやま内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-otsunosato.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "千葉県南房総市富浦町大津320",
+    "stamp_loc": "道の駅おおつの里内",
+    "hours": "9:30～17:00"
+  },
+  "https://stamp.funakiya.com/miti-wadaura.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "千葉県南房総市和田町仁我浦243",
+    "stamp_loc": "道の駅和田浦 WA・O!内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-sawara.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "千葉県香取市佐原イ-3981-2",
+    "stamp_loc": "道の駅水の郷さわら内",
+    "hours": "9:00～19:00（4～10月）、9:00～18:00（11～3月）"
+  },
+  "https://stamp.funakiya.com/miti-hasunuma.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "千葉県山武市蓮沼ハ4826",
+    "stamp_loc": "道の駅オライはすぬま内",
+    "hours": "9:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-nagara.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "千葉県長生郡長柄町六地蔵138-1",
+    "stamp_loc": "道の駅ながら内",
+    "hours": "9:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-hotasho.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "千葉県安房郡鋸南町保田724",
+    "stamp_loc": "道の駅保田小学校内",
+    "hours": "9:30～17:30"
+  },
+  "https://stamp.funakiya.com/miti-kozaki.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "千葉県香取郡神崎町松崎855",
+    "stamp_loc": "道の駅発酵の里こうざき内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-shibayama.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "千葉県山武郡芝山町小池2568",
+    "stamp_loc": "道の駅風和里しばやま内",
+    "hours": "9:00～19:00（4～9月）、9:00～18:00（10～3月）"
+  },
+  "https://stamp.funakiya.com/miti-shirahamanojimazaki.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "千葉県南房総市白浜町滝口9240",
+    "stamp_loc": "道の駅白浜野島崎内",
+    "hours": "9:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-mutsuzawa.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "千葉県長生郡睦沢町上之郷2048-1",
+    "stamp_loc": "道の駅むつざわスマートウェルネスタウン・道の駅・つどいの郷内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-togane.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "千葉県東金市田間1300-3",
+    "stamp_loc": "道の駅みのりの郷東金内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-umakuta.html": {
+    "coords": [
+      140.052513,
+      35.360066
+    ],
+    "name_en": "Michinoeki Kisarazu Umakuta-no-sato",
+    "addr": "千葉県木更津市下郡1369-1",
+    "stamp_loc": "道の駅木更津うまくたの里内",
+    "hours": "9:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-ogawamachi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "埼玉県比企郡小川町小川1220",
+    "stamp_loc": "道の駅おがわまち内",
+    "hours": "9:30～17:00"
+  },
+  "https://stamp.funakiya.com/miti-okabe.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "埼玉県深谷市岡688-1",
+    "stamp_loc": "道の駅おかべ内",
+    "hours": "7:00～20:00"
+  },
+  "https://stamp.funakiya.com/miti-ryuuseikaikan.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "埼玉県秩父市吉田久長32",
+    "stamp_loc": "道の駅龍勢会館内",
+    "hours": "8:30～17:30"
+  },
+  "https://stamp.funakiya.com/miti-kawaguchi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "埼玉県川口市安行領家844-2",
+    "stamp_loc": "道の駅川口・あんぎょう内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-arakawa.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "埼玉県秩父市荒川日野538-1",
+    "stamp_loc": "道の駅あらかわ内",
+    "hours": "9:00～17:00（3～11月）、9:00～16:00（12～2月）"
+  },
+  "https://stamp.funakiya.com/miti-ichikawa.html": {
+    "coords": [
+      139.920019,
+      35.749951
+    ],
+    "name_en": "Michinoeki Ichikawa",
+    "addr": "千葉県市川市国分6-10-1",
+    "stamp_loc": "道の駅いちかわ内",
+    "hours": "9:00～20:00"
+  },
+  "https://stamp.funakiya.com/miti-ootone.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "埼玉県加須市佐波258-1",
+    "stamp_loc": "道の駅童謡のふる里おおとね内",
+    "hours": "9:30～18:00（5～8月）、9:30～17:30（9～4月）"
+  },
+  "https://stamp.funakiya.com/miti-hanazono.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "埼玉県深谷市小前田458-1",
+    "stamp_loc": "道の駅はなぞの内",
+    "hours": "9:00～19:00"
+  },
+  "https://stamp.funakiya.com/miti-kawamoto.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "埼玉県深谷市長在家1279-2",
+    "stamp_loc": "道の駅かわもと内",
+    "hours": "9:00～18:00（4～9月）、9:00～17:30（10～3月）"
+  },
+  "https://stamp.funakiya.com/miti-menuma.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "埼玉県熊谷市弥藤吾720",
+    "stamp_loc": "道の駅めぬま内",
+    "hours": "9:30～18:00（3～12月）、9:30～17:30（1～2月）"
+  },
+  "https://stamp.funakiya.com/miti-yumesugito.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "埼玉県北葛飾郡杉戸町才羽823-2",
+    "stamp_loc": "まちの駅・道の駅アグリパークゆめすぎと内",
+    "hours": "9:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-kitakawabe.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "埼玉県加須市小野袋1745",
+    "stamp_loc": "道の駅きたかわべ内",
+    "hours": "8:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-chichibu.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "埼玉県秩父市大宮4625",
+    "stamp_loc": "道の駅ちちぶ内",
+    "hours": "9:00～19:00"
+  },
+  "https://stamp.funakiya.com/miti-ichigonosatoyoshimi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "埼玉県比企郡吉見町久保田1737",
+    "stamp_loc": "道の駅いちごの里よしみ内",
+    "hours": "9:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-showa.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "埼玉県春日部市上柳995",
+    "stamp_loc": "道の駅庄和内",
+    "hours": "8:00～19:00"
+  },
+  "https://stamp.funakiya.com/miti-ashigakubo.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "埼玉県秩父郡横瀬町芦ヶ久保1915-6",
+    "stamp_loc": "道の駅果樹公園あしがくぼ内",
+    "hours": "8:30～18:00（3月～11月）、9:00～17:00（12月～2月）"
+  },
+  "https://stamp.funakiya.com/miti-hanyu.html": {
+    "coords": null,
+    "name_en": "Michinoeki Hanyu",
+    "addr": "埼玉県羽生市上新郷7066",
+    "stamp_loc": "道の駅はにゅう内",
+    "hours": "8:30～20:00"
+  },
+  "https://stamp.funakiya.com/miti-minano.html": {
+    "coords": [
+      139.109663,
+      36.076986
+    ],
+    "name_en": "Michinoeki Minamo",
+    "addr": "埼玉県秩父郡皆野町皆野3236-35",
+    "stamp_loc": "道の駅みなの内",
+    "hours": "9:30～17:00"
+  },
+  "https://stamp.funakiya.com/miti-higashichichibu.html": {
+    "coords": [
+      139.203298,
+      36.052609
+    ],
+    "name_en": "Michinoeki Washinosato Higashichichibu",
+    "addr": "埼玉県秩父郡東秩父村御堂441",
+    "stamp_loc": "道の駅和紙の里ひがしちちぶ内",
+    "hours": "9:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-okegawa.html": {
+    "coords": [
+      139.526992,
+      35.993021
+    ],
+    "name_en": "Michinoeki Benibananosato Okegawa",
+    "addr": "埼玉県桶川市川田谷4324-1",
+    "stamp_loc": "道の駅べに花の郷おけがわ内",
+    "hours": "9:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-izumatsuzaki.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "静岡県賀茂郡松崎町大澤20-1",
+    "stamp_loc": "道の駅花の三聖苑伊豆松崎内",
+    "hours": "9:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-okuoi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "静岡県榛原郡川根本町千頭1217-2",
+    "stamp_loc": "道の駅奥大井音戯の郷内",
+    "hours": "10:00～16:30"
+  },
+  "https://stamp.funakiya.com/miti-amagigoe.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "静岡県伊豆市湯ヶ島892-6",
+    "stamp_loc": "道の駅天城越え内",
+    "hours": "8:30～16:30"
+  },
+  "https://stamp.funakiya.com/miti-utsunoyatoge.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "静岡県静岡市駿河区宇津ノ谷82-2",
+    "stamp_loc": "道の駅宇津ノ谷峠（静岡市側）内",
+    "hours": "7:00～19:00（通常）、7:00～17:00（12/30～1/3）"
+  },
+  "https://stamp.funakiya.com/miti-ito.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "静岡県伊東市湯川571-19",
+    "stamp_loc": "道の駅伊東マリンタウン内",
+    "hours": "9:00～18:00（平日）、9:00～19:00（土日祝）"
+  },
+  "https://stamp.funakiya.com/miti-kawaneonsen.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "静岡県島田市川根町笹間渡411-2",
+    "stamp_loc": "道の駅川根温泉売店内",
+    "hours": "9:00～16:30"
+  },
+  "https://stamp.funakiya.com/miti-fuji.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "静岡県富士市五貫島669-1",
+    "stamp_loc": "道の駅富士内",
+    "hours": "10:00～20:00"
+  },
+  "https://stamp.funakiya.com/miti-shimoda.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "静岡県下田市外ケ岡1-1",
+    "stamp_loc": "道の駅開国下田みなと内",
+    "hours": "9:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-fujioyama.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "静岡県駿東郡小山町用沢72-2",
+    "stamp_loc": "道の駅ふじおやま内",
+    "hours": "7:00～20:00"
+  },
+  "https://stamp.funakiya.com/miti-shiomizaka.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "静岡県湖西市白須賀1896-2",
+    "stamp_loc": "道の駅潮見坂内",
+    "hours": "9:00～19:00"
+  },
+  "https://stamp.funakiya.com/miti-ueno.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "群馬県多野郡上野村勝山甲131",
+    "stamp_loc": "道の駅上野内",
+    "hours": "9:00～18:30"
+  },
+  "https://stamp.funakiya.com/miti-kururaheda.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "静岡県沼津市戸田1294-3",
+    "stamp_loc": "道の駅くるら戸田内",
+    "hours": "10:00～21:00"
+  },
+  "https://stamp.funakiya.com/miti-shimogamoonsen.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "静岡県賀茂郡南伊豆町下賀茂157-1",
+    "stamp_loc": "道の駅下賀茂温泉湯の花内",
+    "hours": "9:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-oogo.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "群馬県前橋市滝窪町1369-1",
+    "stamp_loc": "道の駅ぐりーんふらわー牧場・大胡内",
+    "hours": "10:30～16:30（3～9月）、10:30～15:30（10～2月）"
+  },
+  "https://stamp.funakiya.com/miti-izunoheso.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "静岡県伊豆の国市田京195-2",
+    "stamp_loc": "道の駅伊豆のへそ内",
+    "hours": "9:00～17:00（平日）、9:00～18:00（土日祝）"
+  },
+  "https://stamp.funakiya.com/miti-izugateway.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "静岡県田方郡函南町塚本887-1",
+    "stamp_loc": "道の駅伊豆ゲートウェイ函南内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-kuni.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "群馬県吾妻郡中之条町小雨22",
+    "stamp_loc": "道の駅六合内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-onoko.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "群馬県渋川市小野子1979-1",
+    "stamp_loc": "道の駅おのこ内",
+    "hours": "9:00～18:00（4～10月）、9:00～16:30（11～3月）"
+  },
+  "https://stamp.funakiya.com/miti-joshuonishi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "群馬県藤岡市譲原1089-2",
+    "stamp_loc": "道の駅上州おにし内",
+    "hours": "9:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-kawabadenenplaza.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "群馬県利根郡川場村萩室385",
+    "stamp_loc": "道の駅川場田園プラザ内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-shirasawa.html": {
+    "coords": [
+      139.119958,
+      36.662086
+    ],
+    "name_en": "Michinoeki Shirasawa",
+    "addr": "群馬県沼田市白沢町平出1297",
+    "stamp_loc": "道の駅白沢内",
+    "hours": "10:00～21:00"
+  },
+  "https://stamp.funakiya.com/miti-kurohone.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "群馬県桐生市黒保根町下田沢91-4",
+    "stamp_loc": "道の駅くろほね・やまびこ内",
+    "hours": "9:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-minakami.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "群馬県利根郡みなかみ町湯原1681-1",
+    "stamp_loc": "道の駅みなかみ水紀行館内",
+    "hours": "9:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-kusatsuonsen.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "群馬県吾妻郡草津町草津2-1",
+    "stamp_loc": "道の駅草津運動茶屋公園内",
+    "hours": "9:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-laranfujioka.html": {
+    "coords": [
+      139.072397,
+      36.272096
+    ],
+    "name_en": "Michinoeki Laran Fujioka",
+    "addr": "群馬県藤岡市中広町1131-8",
+    "stamp_loc": "道の駅ららん藤岡内",
+    "hours": "9:30～19:30"
+  },
+  "https://stamp.funakiya.com/miti-komochi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "群馬県渋川市白井2318-1",
+    "stamp_loc": "道の駅こもち内",
+    "hours": "9:00～19:00"
+  },
+  "https://stamp.funakiya.com/miti-tsukiyono.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "群馬県利根郡みなかみ町月夜野2936",
+    "stamp_loc": "道の駅月夜野矢瀬親水公園内",
+    "hours": "9:00～17:30"
+  },
+  "https://stamp.funakiya.com/miti-myogi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "群馬県富岡市妙義町岳322-7",
+    "stamp_loc": "道の駅みょうぎ内",
+    "hours": "9:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-manbanosato.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "群馬県多野郡神流町黒田坂井道下742-1",
+    "stamp_loc": "道の駅万葉の里内",
+    "hours": "10:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-shimonita.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "群馬県甘楽郡下仁田町馬山長割3766-11",
+    "stamp_loc": "道の駅しもにた内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-takeyama.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "群馬県吾妻郡中之条町五反田222-1",
+    "stamp_loc": "道の駅霊山たけやま内",
+    "hours": "9:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-kanra.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "群馬県甘楽郡甘楽町小幡444-1",
+    "stamp_loc": "道の駅甘楽内",
+    "hours": "9:00～19:00（3～9月）、9:00～18:00（10～2月）"
+  },
+  "https://stamp.funakiya.com/miti-akaginomegumi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "群馬県前橋市荻窪町437-11",
+    "stamp_loc": "道の駅赤城の恵内",
+    "hours": "10:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-tomihiro.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "群馬県みどり市東町草木86",
+    "stamp_loc": "道の駅富弘美術館 直売所内",
+    "hours": ""
+  },
+  "https://stamp.funakiya.com/miti-agurimushowa.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "群馬県利根郡昭和村森下2406-2",
+    "stamp_loc": "道の駅あぐりーむ昭和内",
+    "hours": "9:00～18:00（3～10月）、9:00～17:00（11～2月）"
+  },
+  "https://stamp.funakiya.com/miti-yoshiokaonsen.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "群馬県北群馬郡吉岡町漆原2004",
+    "stamp_loc": "道の駅よしおか温泉内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-nanmoku.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "群馬県甘楽郡南牧村千原3-1",
+    "stamp_loc": "道の駅オアシスなんもく内",
+    "hours": "10:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-fujimi-gumma.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "群馬県前橋市富士見町石井1569-1",
+    "stamp_loc": "道の駅ふじみ 富士見温泉見晴らしの湯ふれあい館内",
+    "hours": "9:00～18:00（3～10月）、9:00～17:00（11～2月）"
+  },
+  "https://stamp.funakiya.com/miti-ota.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "群馬県太田市粕川町701-1",
+    "stamp_loc": "道の駅おおた内",
+    "hours": "9:00～19:00"
+  },
+  "https://stamp.funakiya.com/miti-yamba.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "群馬県吾妻郡長野原町林1567-4",
+    "stamp_loc": "道の駅八ッ場ふるさと館内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-nakayamabonchi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "群馬県吾妻郡高山村中山2357-1",
+    "stamp_loc": "道の駅中山盆地内",
+    "hours": "9:00～18:00（4～10月）、9:30～17:30（11～3月）"
+  },
+  "https://stamp.funakiya.com/miti-kurabuchi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "群馬県高崎市倉渕町三ノ倉296-1",
+    "stamp_loc": "道の駅くらぶち小栗の里内",
+    "hours": "9:00～22:00"
+  },
+  "https://stamp.funakiya.com/miti-agatsuma.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "群馬県吾妻郡東吾妻町三島6441",
+    "stamp_loc": "道の駅あがつま峡内",
+    "hours": "9:00～18:00（通常）、9:00～19:00（7～9月）、9:00～17:00（12～3月）"
+  },
+  "https://stamp.funakiya.com/miti-ozekatashina.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "群馬県利根郡片品村鎌田3967-1",
+    "stamp_loc": "道の駅尾瀬かたしな内",
+    "hours": "9:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-motegi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "栃木県芳賀郡茂木町茂木1090-1",
+    "stamp_loc": "道の駅もてぎ内",
+    "hours": "10:00～19:00（4～9月）、10:00～18:00（10～3月）"
+  },
+  "https://stamp.funakiya.com/miti-tamamurajuku.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "群馬県佐波郡玉村町上新田604-1",
+    "stamp_loc": "道の駅玉村宿内",
+    "hours": "9:30～19:00"
+  },
+  "https://stamp.funakiya.com/miti-ninomiya.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "栃木県真岡市久下田2204-1",
+    "stamp_loc": "道の駅にのみや内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-shiobara.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "栃木県那須塩原市関谷442",
+    "stamp_loc": "道の駅湯の香しおばら内",
+    "hours": "9:00～19:00（3～11月）、9:00～16:00（12～2月）"
+  },
+  "https://stamp.funakiya.com/miti-meijinomori-kuroiso.html": {
+    "coords": [
+      139.984091,
+      37.000397
+    ],
+    "name_en": "Michinoeki Meiji no mori Kuroiso",
+    "addr": "栃木県那須塩原市青木27",
+    "stamp_loc": "道の駅明治の森・黒磯内",
+    "hours": "8:30～17:00（3～11月）、8:30～16:30（12～2月）"
+  },
+  "https://stamp.funakiya.com/miti-tosandoiono.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "栃木県那須郡那須町伊王野459",
+    "stamp_loc": "道の駅東山道伊王野内",
+    "hours": "8:30～17:00"
+  },
+  "https://stamp.funakiya.com/miti-bato.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "栃木県那須郡那珂川町北向田181-2",
+    "stamp_loc": "道の駅ばとう内",
+    "hours": "8:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-hagaroman.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "栃木県芳賀郡芳賀町祖母井842-1",
+    "stamp_loc": "道の駅はが内",
+    "hours": "9:00～18:00（3～9月）、9:00～17:00（10～2月）"
+  },
+  "https://stamp.funakiya.com/miti-kitsuregawa.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "栃木県さくら市喜連川4145-10",
+    "stamp_loc": "道の駅きつれがわ内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-tanuma.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "栃木県佐野市吉水町366-2",
+    "stamp_loc": "道の駅どまんなか たぬま内",
+    "hours": "9:30～19:00"
+  },
+  "https://stamp.funakiya.com/miti-nasunoyoichi.html": {
+    "coords": [
+      140.087669,
+      36.862255
+    ],
+    "name_en": "Michinoeki Nasuno Yoichi no Sato",
+    "addr": "栃木県大田原市南金丸1584-6",
+    "stamp_loc": "道の駅那須与一の郷内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-nasunogahara.html": {
+    "coords": [
+      139.968974,
+      36.899594
+    ],
+    "name_en": "Michinoeki Nasunogahara Museum",
+    "addr": "栃木県那須塩原市三島5-1",
+    "stamp_loc": "道の駅那須野が原博物館内",
+    "hours": "9:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-mikamo.html": {
+    "coords": [
+      139.625254,
+      36.296674
+    ],
+    "name_en": "Michinoeki Mikamo",
+    "addr": "栃木県栃木市藤岡町大田和678",
+    "stamp_loc": "道の駅みかも内",
+    "hours": "9:00～21:00"
+  },
+  "https://stamp.funakiya.com/miti-omoigawa.html": {
+    "coords": [
+      139.760442,
+      36.308241
+    ],
+    "name_en": "Michinoeki Omoigawa",
+    "addr": "栃木県小山市下国府塚25-1",
+    "stamp_loc": "道の駅思川内",
+    "hours": "9:00～19:00（3～10月）、9:00～18:30（11～2月）"
+  },
+  "https://stamp.funakiya.com/miti-yunishigawa.html": {
+    "coords": [
+      139.687139,
+      36.929902
+    ],
+    "name_en": "Michinoeki Yunishigawa",
+    "addr": "栃木県日光市西川478-1",
+    "stamp_loc": "道の駅湯西川内",
+    "hours": "9:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-mibu.html": {
+    "coords": [
+      139.806564,
+      36.455204
+    ],
+    "name_en": "Michinoeki Mibu",
+    "addr": "栃木県下都賀郡壬生町国谷1870-2",
+    "stamp_loc": "道の駅みぶ みぶハイウェーパーク内",
+    "hours": "9:00～19:00"
+  },
+  "https://stamp.funakiya.com/miti-nishikata.html": {
+    "coords": [
+      139.743141,
+      36.466611
+    ],
+    "name_en": "Michinoeki Nishikata",
+    "addr": "栃木県栃木市西方町元369-1",
+    "stamp_loc": "道の駅にしかた内",
+    "hours": "9:00～19:00"
+  },
+  "https://stamp.funakiya.com/miti-nikko.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "栃木県日光市今市719-1",
+    "stamp_loc": "道の駅日光内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-shioya.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "栃木県塩谷郡塩谷町船生3733-1",
+    "stamp_loc": "道の駅湧水の郷しおや内",
+    "hours": "9:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-utsunomiya.html": {
+    "coords": [
+      139.829153,
+      36.632804
+    ],
+    "name_en": "Michinoeki Utsunomiya Romanchikkumura",
+    "addr": "栃木県宇都宮市新里町丙254",
+    "stamp_loc": "道の駅うつのみや ろまんちっく村内",
+    "hours": "8:30～18:00"
+  },
+  "https://stamp.funakiya.com/miti-shimotsuke.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "栃木県下野市薬師寺3720-1",
+    "stamp_loc": "道の駅しもつけ内",
+    "hours": "9:00～19:00（6～9月）、9:00～18:00（10～5月）"
+  },
+  "https://stamp.funakiya.com/miti-ichikai.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "栃木県芳賀郡市貝町市塙1270",
+    "stamp_loc": "道の駅サシバの里いちかい内",
+    "hours": "9:00～18:00（通常）、9:00～17:00（冬季）"
+  },
+  "https://stamp.funakiya.com/miti-yaita.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "栃木県矢板市矢板114-1",
+    "stamp_loc": "道の駅やいた内",
+    "hours": "8:30～18:00（夏季）、8:30～17:00（冬季）"
+  },
+  "https://stamp.funakiya.com/miti-mashiko.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "栃木県芳賀郡益子町長堤2271",
+    "stamp_loc": "道の駅ましこ内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-kaiyamato.html": {
+    "coords": [
+      138.792833,
+      35.635916
+    ],
+    "name_en": "Michinoeki Kaiyamato",
+    "addr": "山梨県甲州市大和町初鹿野2248",
+    "stamp_loc": "道の駅甲斐大和内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-hakushu.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "山梨県北杜市白州町白須1308",
+    "stamp_loc": "道の駅はくしゅう内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-nirasaki.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "山梨県韮崎市中田町中條1795",
+    "stamp_loc": "道の駅にらさき内",
+    "hours": "9:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-shirane.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "山梨県南アルプス市在家塚595-1",
+    "stamp_loc": "道の駅しらね内",
+    "hours": "9:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-shinshushinmachi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "長野県長野市信州新町水内4619",
+    "stamp_loc": "道の駅信州新町内",
+    "hours": "8:30～19:00（4～9月）、8:30～18:00（10～3月）"
+  },
+  "https://stamp.funakiya.com/miti-fujiyoshida.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "山梨県富士吉田市新屋3-7-3",
+    "stamp_loc": "道の駅富士吉田内",
+    "hours": "9:00～17:00（平日）、9:00～18:00（土日祝）"
+  },
+  "https://stamp.funakiya.com/miti-sakae.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "長野県下水内郡栄村北信3746-1",
+    "stamp_loc": "道の駅信越さかえ内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-kobuchisawa.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "山梨県北杜市小淵沢町2968-1",
+    "stamp_loc": "道の駅こぶちさわ内",
+    "hours": "9:00～19:00（5～9月）、9:00～18:00（10～4月）"
+  },
+  "https://stamp.funakiya.com/miti-minamikiyosato.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "山梨県北杜市高根町長沢760",
+    "stamp_loc": "道の駅南きよさと内",
+    "hours": "9:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-osakadakoen.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "長野県塩尻市塩尻町1090",
+    "stamp_loc": "道の駅小坂田公園内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-naganoikeda.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "長野県北安曇郡池田町会染6330-1",
+    "stamp_loc": "道の駅池田内",
+    "hours": "9:00～18:00（4～10月）、9:00～17:00（11～3月）"
+  },
+  "https://stamp.funakiya.com/miti-hakuba.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "長野県北安曇郡白馬村神城21462",
+    "stamp_loc": "道の駅白馬内",
+    "hours": "9:00～19:00"
+  },
+  "https://stamp.funakiya.com/miti-nakajyo.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "長野県長野市中条住良木1704",
+    "stamp_loc": "道の駅中条内",
+    "hours": "9:00～19:00"
+  },
+  "https://stamp.funakiya.com/miti-azuminomatsukawa.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "長野県北安曇郡松川村5375-1",
+    "stamp_loc": "道の駅安曇野松川内",
+    "hours": "10:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-marmelonagato.html": {
+    "coords": [
+      138.257559,
+      36.273018
+    ],
+    "name_en": "Michinoeki Marumeronoeki Nagato",
+    "addr": "長野県小県郡長和町古町2424-19",
+    "stamp_loc": "道の駅マルメロの駅ながと内",
+    "hours": "8:30～17:00"
+  },
+  "https://stamp.funakiya.com/miti-yamanouchi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "長野県下高井郡山ノ内町佐野393-2",
+    "stamp_loc": "道の駅北信州やまのうち内",
+    "hours": "8:30～18:00"
+  },
+  "https://stamp.funakiya.com/miti-furusatotoyota.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "長野県中野市永江2136",
+    "stamp_loc": "道の駅ふるさと豊田内",
+    "hours": "9:00～18:30"
+  },
+  "https://stamp.funakiya.com/miti-alpsazumino.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "長野県安曇野市堀金烏川2696",
+    "stamp_loc": "道の駅アルプス安曇野ほりがねの里内",
+    "hours": "7:00～17:00（6～9月）、8:30～17:00（10～5月）"
+  },
+  "https://stamp.funakiya.com/miti-ueda.html": {
+    "coords": [
+      138.205389,
+      36.407079
+    ],
+    "name_en": "Michinoeki Ueda Road and River Station",
+    "addr": "長野県上田市小泉塩田川原2575-2",
+    "stamp_loc": "道の駅上田道と川の駅内",
+    "hours": "9:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-tsutakijuku.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "長野県諏訪郡富士見町落合1984-1",
+    "stamp_loc": "道の駅信州蔦木宿内",
+    "hours": "8:00～22:00"
+  },
+  "https://stamp.funakiya.com/miti-shinano.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "長野県上水内郡信濃町柏原1260-4",
+    "stamp_loc": "道の駅しなの内",
+    "hours": "9:00～19:00（平年）、8:30～18:30（冬期）"
+  },
+  "https://stamp.funakiya.com/miti-sakakita.html": {
+    "coords": [
+      138.012157,
+      36.426399
+    ],
+    "name_en": "Michinoeki Sakakita",
+    "addr": "長野県東筑摩郡筑北村坂北4340",
+    "stamp_loc": "道の駅さかきた内",
+    "hours": "11:00～15:00"
+  },
+  "https://stamp.funakiya.com/miti-pokapokamima.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "長野県大町市美麻16784",
+    "stamp_loc": "道の駅ぽかぽかランド美麻内",
+    "hours": "10:00～17:30"
+  },
+  "https://stamp.funakiya.com/miti-raiden.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "長野県東御市滋野乙4524-1",
+    "stamp_loc": "道の駅雷電くるみの里内",
+    "hours": "8:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-chikumagawa.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "長野県飯山市常盤7425",
+    "stamp_loc": "道の駅花の駅千曲川内",
+    "hours": "9:00～19:00（通常）、9:00～18:00（冬期）"
+  },
+  "https://stamp.funakiya.com/miti-oasisobuse.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "長野県上高井郡小布施町大島601",
+    "stamp_loc": "道の駅オアシスおぶせ内",
+    "hours": "9:00～20:00"
+  },
+  "https://stamp.funakiya.com/miti-ogawa.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "長野県上水内郡小川村高府1502-2",
+    "stamp_loc": "道の駅おがわ内",
+    "hours": "9:30～19:30"
+  },
+  "https://stamp.funakiya.com/miti-utsukushigahara.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "長野県上田市武石上本入2085-70",
+    "stamp_loc": "道の駅美ヶ原高原内",
+    "hours": "9:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-imaimegumi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "長野県松本市今井886-2",
+    "stamp_loc": "道の駅今井恵みの里内",
+    "hours": "8:00～17:00（4～6月）、8:00～18:00（7～9月）、8:30～17:00（10～3月）"
+  },
+  "https://stamp.funakiya.com/miti-kijimadaira.html": {
+    "coords": [
+      138.388423,
+      36.852183
+    ],
+    "name_en": "Michinoeki FARMUS Kijimadaira",
+    "addr": "長野県下高井郡木島平村上木島38-1",
+    "stamp_loc": "道の駅FARMUS木島平内",
+    "hours": "8:30～17:30"
+  },
+  "https://stamp.funakiya.com/miti-naraikiso.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "長野県塩尻市奈良井1346-3",
+    "stamp_loc": "道の駅奈良井木曽の大橋内",
+    "hours": "9:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-kisonarakawa.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "長野県塩尻市木曽平沢2272-7",
+    "stamp_loc": "道の駅木曽ならかわ内",
+    "hours": "9:00～17:00（平年）、10:00～16:00（冬期）"
+  },
+  "https://stamp.funakiya.com/miti-kisomura.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "長野県木曽郡木祖村薮原163-1",
+    "stamp_loc": "道の駅木曽川源流の里きそむら内",
+    "hours": "8:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-oshibakogen.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "長野県上伊那郡南箕輪村2358-5",
+    "stamp_loc": "道の駅大芝高原内",
+    "hours": "9:30～18:00"
+  },
+  "https://stamp.funakiya.com/miti-yachihokogen.html": {
+    "coords": [
+      138.465925,
+      36.128789
+    ],
+    "name_en": "Michinoeki Yachihokogen",
+    "addr": "長野県南佐久郡佐久穂町畑1190-1",
+    "stamp_loc": "道の駅八千穂高原内",
+    "hours": "8:15～17:00"
+  },
+  "https://stamp.funakiya.com/miti-silk-kaya.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "京都府与謝郡与謝野町滝98",
+    "stamp_loc": "道の駅シルクのまちかや内",
+    "hours": "9:00～15:00（平日）、9:00～17:00（土日祝）"
+  },
+  "https://stamp.funakiya.com/miti-funaya-ine.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "京都府与謝郡伊根町亀島459",
+    "stamp_loc": "道の駅舟屋の里 伊根内",
+    "hours": "9:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-tenkitenki-tango.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "京都府京丹後市丹後町竹野313-1",
+    "stamp_loc": "道の駅てんきてんき丹後内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-nagomi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "京都府船井郡京丹波町坂原上モジリ11",
+    "stamp_loc": "道の駅和内",
+    "hours": "9:30～18:00"
+  },
+  "https://stamp.funakiya.com/miti-yakuno.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "京都府福知山市夜久野町平野2150",
+    "stamp_loc": "道の駅農匠の郷やくの内",
+    "hours": "10:00～22:00"
+  },
+  "https://stamp.funakiya.com/miti-sarabiki.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "京都府船井郡京丹波町大朴休石10-1",
+    "stamp_loc": "道の駅瑞穂の里・さらびき内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-maizurukou.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "京都府舞鶴市下福井905",
+    "stamp_loc": "道の駅舞鶴港とれとれセンター内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-kumihama.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "京都府京丹後市久美浜町浦明1709",
+    "stamp_loc": "道の駅くみはまSANKAIKAN内",
+    "hours": "9:30～18:00（平日）、9:00～18:00（土日祝）"
+  },
+  "https://stamp.funakiya.com/miti-miyazu.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "京都府宮津市浜町3007",
+    "stamp_loc": "道の駅海の京都 宮津内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-kannabe.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "兵庫県豊岡市日高町栗栖野59-13",
+    "stamp_loc": "道の駅神鍋高原内",
+    "hours": "9:00～19:00（5～9月）、9:00～18:00（10～4月）"
+  },
+  "https://stamp.funakiya.com/miti-minamiyamashiro.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "京都府相楽郡南山城村北大河原殿田102",
+    "stamp_loc": "道の駅お茶の京都みなみやましろ村内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-muraoka-farm.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "兵庫県美方郡香美町村岡区大糠32-1",
+    "stamp_loc": "道の駅村岡ファームガーデン内",
+    "hours": "9:00～19:00"
+  },
+  "https://stamp.funakiya.com/miti-tajimarakuza.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "兵庫県養父市上野299",
+    "stamp_loc": "道の駅但馬楽座内",
+    "hours": "9:00～21:00"
+  },
+  "https://stamp.funakiya.com/miti-yabu.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "兵庫県養父市養父市場1294-77",
+    "stamp_loc": "道の駅やぶ内",
+    "hours": "10:00～18:30"
+  },
+  "https://stamp.funakiya.com/miti-hachikita.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "兵庫県美方郡香美町村岡区福岡608-1",
+    "stamp_loc": "道の駅ハチ北内",
+    "hours": "8:30～18:00"
+  },
+  "https://stamp.funakiya.com/miti-harimaichinomiya.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "兵庫県宍粟市一宮町須行名510-1",
+    "stamp_loc": "道の駅播磨いちのみや内",
+    "hours": "9:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-yadagawa.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "兵庫県美方郡香美町村岡区長瀬933-1",
+    "stamp_loc": "道の駅あゆの里矢田川内",
+    "hours": "9:00～18:00（通常）、9:00～17:00（冬季）"
+  },
+  "https://stamp.funakiya.com/miti-aioipeironjo.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "兵庫県相生市那波南本町8-55",
+    "stamp_loc": "道の駅あいおい白龍城内",
+    "hours": "10:30～22:00"
+  },
+  "https://stamp.funakiya.com/miti-kitaharima.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "兵庫県西脇市寺内517-1",
+    "stamp_loc": "道の駅北はりまエコミュージアム内",
+    "hours": "9:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-youkatajimanokura.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "兵庫県養父市八鹿町高柳241-1",
+    "stamp_loc": "道の駅ようか但馬蔵内",
+    "hours": "9:00～19:00"
+  },
+  "https://stamp.funakiya.com/miti-tajimanomahoroba.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "兵庫県朝来市山東町大月92-6",
+    "stamp_loc": "道の駅但馬のまほろば内",
+    "hours": "8:30～20:00"
+  },
+  "https://stamp.funakiya.com/miti-amarube.html": {
+    "coords": [
+      134.560069,
+      35.649171
+    ],
+    "name_en": "Michinoeki Amarube",
+    "addr": "兵庫県美方郡香美町香住区余部1723-4",
+    "stamp_loc": "道の駅あまるべ内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-fruitflowerparkozo.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "兵庫県神戸市北区大沢町上大沢2150",
+    "stamp_loc": "道の駅神戸フルーツフラワーパーク大沢内",
+    "hours": "10:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-mikasa.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道三笠市岡山1056-1",
+    "stamp_loc": "道の駅三笠内",
+    "hours": "8:30～17:00"
+  },
+  "https://stamp.funakiya.com/miti-ashibetsu.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道芦別市北4条東1-1",
+    "stamp_loc": "道の駅スタープラザ芦別内",
+    "hours": "9:00～18:00（4、10月）、9:00～19:00（5～9月）、9:00～17:00（11～3月）"
+  },
+  "https://stamp.funakiya.com/miti-shiranuka.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道白糠郡白糠町恋問3-2-1",
+    "stamp_loc": "道の駅しらぬか恋問内",
+    "hours": "9:00～19:00（5～8月）、9:00～18:30（9～4月）"
+  },
+  "https://stamp.funakiya.com/miti-bifuka.html": {
+    "coords": [
+      142.320213,
+      44.558988
+    ],
+    "name_en": "Michinoeki Bifuka Station",
+    "addr": "北海道中川郡美深町大手307-1",
+    "stamp_loc": "道の駅びふか内",
+    "hours": "9:00～18:00（5～10月）、9:00～17:30（11～4月）"
+  },
+  "https://stamp.funakiya.com/miti-esashi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道檜山郡江差町尾山町1-1",
+    "stamp_loc": "道の駅江差内",
+    "hours": "9:00～17:30（4～9月）、9:00～17:00（10月）、10:00～16:00（11～3月）"
+  },
+  "https://stamp.funakiya.com/miti-enbetsufujimi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道天塩郡遠別町富士見46-21",
+    "stamp_loc": "道の駅えんべつ富士見内",
+    "hours": "9:00～18:00（4～10月）、9:00～17:00（11～3月）"
+  },
+  "https://stamp.funakiya.com/miti-churui.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道中川郡幕別町忠類白銀町384-12",
+    "stamp_loc": "道の駅忠類 ナウマン温泉アルコ内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-otoineppu.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道中川郡音威子府村音威子府155",
+    "stamp_loc": "道の駅おといねっぷ内",
+    "hours": "9:30～17:00（4～9月）、9:30～16:00（10～3月）"
+  },
+  "https://stamp.funakiya.com/miti-masyu.html": {
+    "coords": [
+      144.447668,
+      43.492394
+    ],
+    "name_en": "Michinoeki Mashu Onsen Station",
+    "addr": "北海道川上郡弟子屈町湯の島3-5-5",
+    "stamp_loc": "道の駅摩周温泉内",
+    "hours": "8:00～18:00（5月～10月）、9:00～17:00（11月～4月）"
+  },
+  "https://stamp.funakiya.com/miti-akkeshi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道厚岸郡厚岸町住の江2-2",
+    "stamp_loc": "道の駅厚岸グルメパーク内",
+    "hours": "9:00～21:00（4～10月）、10:00～19:00（11～12月）、10:00～18:00（1～3月）"
+  },
+  "https://stamp.funakiya.com/miti-kamiyubetsu.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道紋別郡湧別町中湧別中町3020-1",
+    "stamp_loc": "道の駅かみゆうべつ温泉チューリップの湯内",
+    "hours": "10:00～22:00"
+  },
+  "https://stamp.funakiya.com/miti-sunflowerhokuryu.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道雨竜郡北竜町板谷163-2",
+    "stamp_loc": "道の駅サンフラワー北竜内",
+    "hours": "8:00～22:00"
+  },
+  "https://stamp.funakiya.com/miti-mitsuishi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道日高郡新ひだか町三石鳧舞161-2",
+    "stamp_loc": "道の駅みついし内",
+    "hours": "8:45～22:00（4～9月）、8:45～17:30（10～3月）"
+  },
+  "https://stamp.funakiya.com/miti-mori.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道茅部郡森町砂原2-358-1",
+    "stamp_loc": "道の駅YOU・遊・もり内",
+    "hours": "9:00～17:30（3/21～10/20）、9:00～17:00（10/21～3/20）"
+  },
+  "https://stamp.funakiya.com/miti-monbetsu.html": {
+    "coords": null,
+    "name_en": "Michinoeki Okhotsk Monbetsu Station",
+    "addr": "北海道紋別市元紋別11",
+    "stamp_loc": "道の駅オホーツク紋別内",
+    "hours": "9:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-229gennadai.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道爾志郡乙部町元和169",
+    "stamp_loc": "道の駅ルート229元和台内",
+    "hours": "8:30～18:00（4～10月）、9:00～16:00（11～3月）"
+  },
+  "https://stamp.funakiya.com/miti-onneyu.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道北見市留辺蘂町松山1-4",
+    "stamp_loc": "道の駅おんねゆ温泉内",
+    "hours": "8:30～17:00（4～10月）、9:00～16:30（11～3月）"
+  },
+  "https://stamp.funakiya.com/miti-naie.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道空知郡奈井江町奈井江28-1",
+    "stamp_loc": "道の駅ハウスヤルビ奈井江内",
+    "hours": "8:30～18:00"
+  },
+  "https://stamp.funakiya.com/miti-okoppe.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道紋別郡興部町興部1322-21",
+    "stamp_loc": "道の駅おこっぺ内",
+    "hours": "9:00～18:00（5月～10月）、9:00～17:00（11月～4月）"
+  },
+  "https://stamp.funakiya.com/miti-okajima.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道枝幸郡枝幸町岡島1978-13",
+    "stamp_loc": "道の駅マリーンアイランド岡島内",
+    "hours": "9:00～16:30（4月下旬～6月、10月）、9:00～17:00（7月～9月）、10:00～16:00（10月～4月下旬）"
+  },
+  "https://stamp.funakiya.com/miti-akan.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道釧路市阿寒町上阿寒23線36-1",
+    "stamp_loc": "道の駅阿寒丹頂の里内",
+    "hours": "9:00～18:00（5～9月）、9:00～17:00（10～4月）"
+  },
+  "https://stamp.funakiya.com/miti-otofuke.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道河東郡音更町なつぞら2",
+    "stamp_loc": "道の駅おとふけ内",
+    "hours": "9:30～18:30（5～9月）、9:30～17:30（10～4月）"
+  },
+  "https://stamp.funakiya.com/miti-assabu.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道檜山郡厚沢部町緑町72-1",
+    "stamp_loc": "道の駅あっさぶ内",
+    "hours": "8:30～18:00（5～10月）、9:00～17:00（11～4月）"
+  },
+  "https://stamp.funakiya.com/miti-pinneshiri.html": {
+    "coords": null,
+    "name_en": "Michinoeki Pinneshiri Station",
+    "addr": "北海道枝幸郡中頓別町敏音知72",
+    "stamp_loc": "道の駅ピンネシリ内",
+    "hours": "9:00～17:30"
+  },
+  "https://stamp.funakiya.com/miti-kaminokuni.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道檜山郡上ノ国町原歌3",
+    "stamp_loc": "道の駅上ノ国もんじゅ内",
+    "hours": "9:00～19:30（4～10月）、9:00～18:30（11～3月）"
+  },
+  "https://stamp.funakiya.com/miti-maoi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道夕張郡長沼町東10線南7",
+    "stamp_loc": "道の駅マオイの丘公園内",
+    "hours": "9:00～18:00（4月～10月）、10:00～17:00（11月～3月）"
+  },
+  "https://stamp.funakiya.com/miti-nakasatsunai.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道河西郡中札内村大通南7-14",
+    "stamp_loc": "道の駅なかさつない内",
+    "hours": "9:00～18:00（4～10月）、9:00～17:00（11～3月）"
+  },
+  "https://stamp.funakiya.com/miti-jukairoadhidaka.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道沙流郡日高町本町東1-298-1",
+    "stamp_loc": "道の駅樹海ロード日高内",
+    "hours": "9:00～20:00"
+  },
+  "https://stamp.funakiya.com/miti-sobetsu.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道有珠郡壮瞥町滝之町384-1",
+    "stamp_loc": "道の駅そうべつ情報館i内",
+    "hours": "9:00～17:30（4/1～11/15）、9:00～17:00（11/16～3/31）"
+  },
+  "https://stamp.funakiya.com/miti-niseko.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道虻田郡ニセコ町元町77-10",
+    "stamp_loc": "道の駅ニセコビュープラザ内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-shiriuchi.html": {
+    "coords": [
+      140.335802,
+      41.601225
+    ],
+    "name_en": "Michinoeki Shiriuchi Station",
+    "addr": "北海道上磯郡知内町湯の里48-13",
+    "stamp_loc": "道の駅しりうち内",
+    "hours": "8:00～18:00（3～11月）、9:00～17:00（12～2月）"
+  },
+  "https://stamp.funakiya.com/miti-fukushima.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道松前郡福島町福島143-1",
+    "stamp_loc": "道の駅横綱の里ふくしま内",
+    "hours": "9:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-niikappu.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道新冠郡新冠町中央町1-20",
+    "stamp_loc": "道の駅サラブレッドロード新冠内",
+    "hours": "9:00～18:00（GWおよび7～9月）、10:00～17:00（11～2月末日）、10:00～18:00（上記以外）"
+  },
+  "https://stamp.funakiya.com/miti-uryu.html": {
+    "coords": [
+      141.894095,
+      43.662282
+    ],
+    "name_en": "Michinoeki Den-en no sato Uryu Station",
+    "addr": "北海道雨竜郡雨竜町満寿28-3",
+    "stamp_loc": "道の駅田園の里うりゅう内",
+    "hours": "9:00～18:00（5月～10月）、9:00～16:00（11月～4月）"
+  },
+  "https://stamp.funakiya.com/miti-muroran.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道室蘭市祝津町4-16-15",
+    "stamp_loc": "道の駅みたら室蘭内",
+    "hours": "9:30～21:00（4～10月）、9:30～17:00（11～3月）"
+  },
+  "https://stamp.funakiya.com/miti-takinoue.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道紋別郡滝上町旭町",
+    "stamp_loc": "道の駅香りの里たきのうえ内",
+    "hours": "9:00～17:30"
+  },
+  "https://stamp.funakiya.com/miti-yoichi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道余市郡余市町黒川町6-4-1",
+    "stamp_loc": "道の駅スペース・アップルよいち内",
+    "hours": "9:00～18:00（4月中旬～11月上旬）、9:00～17:00（11月上旬～4月中旬）"
+  },
+  "https://stamp.funakiya.com/miti-toma.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道上川郡当麻町宇園別2区",
+    "stamp_loc": "道の駅とうま内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-saromako.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道常呂郡佐呂間町浪速121-3",
+    "stamp_loc": "道の駅サロマ湖内",
+    "hours": "9:00～18:00（4月中旬～10月中旬）、9:00～17:00（10月下旬～4月上旬）"
+  },
+  "https://stamp.funakiya.com/miti-haboro.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道苫前郡羽幌町北3条1-29",
+    "stamp_loc": "道の駅ほっと・はぼろ内",
+    "hours": "7:00～22:00"
+  },
+  "https://stamp.funakiya.com/miti-yubetsu.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道紋別郡湧別町志撫子6-2",
+    "stamp_loc": "道の駅愛ランド湧別内",
+    "hours": "8:30～18:00"
+  },
+  "https://stamp.funakiya.com/miti-oumu.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道紋別郡雄武町雄武1885-14",
+    "stamp_loc": "道の駅おうむ内",
+    "hours": "8:00～21:00（5月～10月）、8:00～20:00（11月～4月）"
+  },
+  "https://stamp.funakiya.com/miti-sarufutsu.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道宗谷郡猿払村浜鬼志別",
+    "stamp_loc": "道の駅さるふつ公園内",
+    "hours": "9:00～17:30"
+  },
+  "https://stamp.funakiya.com/miti-takikawa.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道滝川市江部乙町東11-13-3",
+    "stamp_loc": "道の駅たきかわ内",
+    "hours": "9:00～18:00（4～10月）、10:00～17:00（11～3月）"
+  },
+  "https://stamp.funakiya.com/miti-utashinai.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道歌志内市中村72-2",
+    "stamp_loc": "道の駅うたしないチロルの湯内",
+    "hours": "9:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-horokanai.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道雨竜郡幌加内町政和第一",
+    "stamp_loc": "道の駅森と湖の里 ほろかない内",
+    "hours": "10:00～21:00"
+  },
+  "https://stamp.funakiya.com/miti-nemuro.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道根室市酪陽1",
+    "stamp_loc": "道の駅スワン44ねむろ内",
+    "hours": "9:00～18:00（7～9月）、9:00～16:00（11～3月）、9:00～17:00（4～6月、10月）"
+  },
+  "https://stamp.funakiya.com/miti-tsurunuma.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道樺戸郡浦臼町キナウスナイ186-214",
+    "stamp_loc": "道の駅つるぬま内",
+    "hours": "10:00～18:00（4月下旬～9月）、10:00～17:00（10月～4月下旬）"
+  },
+  "https://stamp.funakiya.com/miti-natowaesan.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道函館市日ノ浜町31-2",
+    "stamp_loc": "道の駅なとわ・えさん内",
+    "hours": "9:00～18:00（4～9月）、9:00～17:00（10～3月）"
+  },
+  "https://stamp.funakiya.com/miti-tsudorusawara.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道茅部郡森町砂原2-358-1",
+    "stamp_loc": "道の駅つど～る・プラザ・さわら内",
+    "hours": "9:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-rausu.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道目梨郡羅臼町本町361-1",
+    "stamp_loc": "道の駅知床・らうす内",
+    "hours": "9:00～17:00（4～10月）、10:00～16:00（11～3月）"
+  },
+  "https://stamp.funakiya.com/miti-sarabetsu.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道河西郡更別村弘和464-1",
+    "stamp_loc": "道の駅さらべつ内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-datehistory.html": {
+    "coords": [
+      140.875472,
+      42.470504
+    ],
+    "name_en": "Michinoeki Date Rekishi no Mori Station",
+    "addr": "北海道伊達市松ヶ枝町34-1",
+    "stamp_loc": "道の駅だて歴史の杜内",
+    "hours": "9:00～18:00（4～10月）、10:00～17:00（11～3月）"
+  },
+  "https://stamp.funakiya.com/miti-rikubetsu.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道足寄郡陸別町大通",
+    "stamp_loc": "道の駅オーロラタウン93りくべつ内",
+    "hours": "8:00～18:00（4～10月）、9:00～17:00（11～3月）"
+  },
+  "https://stamp.funakiya.com/miti-asahikawa.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道旭川市神楽4条6-1-12",
+    "stamp_loc": "道の駅あさひかわ内",
+    "hours": "9:00～21:00"
+  },
+  "https://stamp.funakiya.com/miti-koshimizu.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道斜里郡小清水町浜小清水474-7",
+    "stamp_loc": "道の駅はなやか小清水内",
+    "hours": "9:00～19:00"
+  },
+  "https://stamp.funakiya.com/miti-nishiokoppe.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道紋別郡西興部村上興部37",
+    "stamp_loc": "道の駅にしおこっぺ花夢内",
+    "hours": "9:00～17:00（4～11月）、9:00～16:00（12～3月）"
+  },
+  "https://stamp.funakiya.com/miti-fukagawa.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道深川市音江町広里59-7",
+    "stamp_loc": "道の駅ライスランドふかがわ内",
+    "hours": "9:00～19:00（4～10月）、9:00～17:00（11～3月）"
+  },
+  "https://stamp.funakiya.com/miti-nakagawa.html": {
+    "coords": [
+      142.067104,
+      44.801595
+    ],
+    "name_en": "Michinoeki Nakagawa Station",
+    "addr": "北海道中川郡中川町誉498-1",
+    "stamp_loc": "道の駅なかがわ内",
+    "hours": "9:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-230rusutsu.html": {
+    "coords": null,
+    "name_en": "Michinoeki 230 Rusutsu Station",
+    "addr": "北海道虻田郡留寿都村留寿都127-191",
+    "stamp_loc": "道の駅230ルスツ内",
+    "hours": "9:00～18:00（4月下旬～10月）、9:00～17:00（11月～4月下旬）"
+  },
+  "https://stamp.funakiya.com/miti-teshio.html": {
+    "coords": null,
+    "name_en": "Michinoeki Teshio Station",
+    "addr": "北海道天塩郡天塩町新開通4-7227-2",
+    "stamp_loc": "道の駅てしお内",
+    "hours": "9:00～19:00（4～10月）、9:00～17:00（11～3月）"
+  },
+  "https://stamp.funakiya.com/miti-taiki.html": {
+    "coords": [
+      143.273363,
+      42.489858
+    ],
+    "name_en": "Michinoeki Cosmall Taiki Station",
+    "addr": "北海道広尾郡大樹町西本通98",
+    "stamp_loc": "道の駅コスモール大樹内、ショッピングセンター「コスモール」カウンター",
+    "hours": "9:30～18:00"
+  },
+  "https://stamp.funakiya.com/miti-toyoura.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道虻田郡豊浦町旭町65-8",
+    "stamp_loc": "道の駅とようら内",
+    "hours": "9:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-mukawa.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道勇払郡むかわ町美幸3-31",
+    "stamp_loc": "道の駅むかわ四季の館内",
+    "hours": "6:00～22:00"
+  },
+  "https://stamp.funakiya.com/miti-memanbetsu.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道網走郡大空町女満別昭和96-1",
+    "stamp_loc": "道の駅メルヘンの丘めまんべつ内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-aioi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道網走郡津別町相生",
+    "stamp_loc": "道の駅あいおい内",
+    "hours": "9:00～18:00（5～10月、火曜のみ17:00まで）、9:00～17:00（11～4月）"
+  },
+  "https://stamp.funakiya.com/miti-ashoro.html": {
+    "coords": [
+      143.546561,
+      43.24435
+    ],
+    "name_en": "Michinoeki Ashoro Gingahoru 21 Station",
+    "addr": "北海道足寄郡足寄町北1条1丁目",
+    "stamp_loc": "道の駅あしょろ銀河ホール21内",
+    "hours": "8:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-chitose.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道千歳市花園2-4-2",
+    "stamp_loc": "道の駅サーモンパーク千歳内",
+    "hours": "9:00～20:30"
+  },
+  "https://stamp.funakiya.com/miti-shirataki.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道紋別郡遠軽町奥白滝",
+    "stamp_loc": "道の駅しらたき内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-higashikawa.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道上川郡東川町東町1-1-15",
+    "stamp_loc": "道の駅ひがしかわ「道草館」内",
+    "hours": "8:30～19:00（4～10月）、9:00～18:00（11～3月）"
+  },
+  "https://stamp.funakiya.com/miti-eniwa.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道恵庭市南島松817-18",
+    "stamp_loc": "道の駅花ロードえにわ内",
+    "hours": "9:00～18:00（4～10月）、9:00～17:00（11～3月）"
+  },
+  "https://stamp.funakiya.com/miti-makkri.html": {
+    "coords": null,
+    "name_en": "Michinoeki Makkari Flower Center Station",
+    "addr": "北海道虻田郡真狩村光8-3",
+    "stamp_loc": "道の駅真狩フラワーセンター内",
+    "hours": "9:00～17:30（4月下旬～10月）、9:30～16:30（11月～4月下旬）"
+  },
+  "https://stamp.funakiya.com/miti-chippubetsu.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道雨竜郡秩父別町秩父別2085-1264",
+    "stamp_loc": "道の駅鐘のなるまち・ちっぷべつ内",
+    "hours": "9:00～17:00（4～10月）、9:00～16:00（11～3月）"
+  },
+  "https://stamp.funakiya.com/miti-tomamae.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道苫前郡苫前町苫前119-1",
+    "stamp_loc": "道の駅風Ｗとままえ 入浴受付横",
+    "hours": "7:00～22:00"
+  },
+  "https://stamp.funakiya.com/miti-kembuchi.html": {
+    "coords": [
+      142.39147,
+      44.093679
+    ],
+    "name_en": "Michinoeki Ehon no Sato Kenbuchi Station",
+    "addr": "北海道上川郡剣淵町東町2420",
+    "stamp_loc": "道の駅絵本の里けんぶち内",
+    "hours": "9:00～17:00（5～9月）、9:00～16:00（10～4月）"
+  },
+  "https://stamp.funakiya.com/miti-aputa.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道虻田郡洞爺湖町入江84-2",
+    "stamp_loc": "道の駅あぷた内",
+    "hours": "9:00～18:00（4～9月）、9:00～17:00（10～3月）"
+  },
+  "https://stamp.funakiya.com/miti-kyogoku.html": {
+    "coords": null,
+    "name_en": "Michinoeki Meisui no Sato Kyogoku Station",
+    "addr": "北海道虻田郡京極町川西45",
+    "stamp_loc": "道の駅名水の郷きょうごく内",
+    "hours": "9:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-biei.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道上川郡美瑛町本町1-9-21",
+    "stamp_loc": "道の駅びえい「丘のくら」内",
+    "hours": "9:00～18:00（6～8月）、9:00～17:00（9～5月）"
+  },
+  "https://stamp.funakiya.com/miti-shosanbetsu.html": {
+    "coords": null,
+    "name_en": "Michinoeki Romankaido Shosanbetsu Station",
+    "addr": "北海道苫前郡初山別村豊岬153-1",
+    "stamp_loc": "道の駅ロマン街道しょさんべつ内",
+    "hours": "10:00～21:00（4月～10月）、10:00～20:00（11月～3月）"
+  },
+  "https://stamp.funakiya.com/miti-utoro.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道斜里郡斜里町ウトロ西186-8",
+    "stamp_loc": "道の駅うとろ・シリエトク内",
+    "hours": "8:30～18:30（5～10月）、9:00～17:00（11～4月）"
+  },
+  "https://stamp.funakiya.com/miti-syari.html": {
+    "coords": null,
+    "name_en": "Michinoeki Shari Station",
+    "addr": "北海道斜里郡斜里町本町37",
+    "stamp_loc": "道の駅しゃり内",
+    "hours": "9:00～19:00"
+  },
+  "https://stamp.funakiya.com/miti-papaslandsatturu.html": {
+    "coords": null,
+    "name_en": "Michinoeki Papasu Land Satturu Station",
+    "addr": "北海道斜里郡清里町神威1071",
+    "stamp_loc": "道の駅パパスランドさっつる内",
+    "hours": "9:00～21:00"
+  },
+  "https://stamp.funakiya.com/miti-nayoro.html": {
+    "coords": [
+      142.413821,
+      44.2874
+    ],
+    "name_en": "Michinoeki Mochigome no Sato Nayoro Station",
+    "addr": "北海道名寄市風連町西町334-1",
+    "stamp_loc": "道の駅もち米の里☆なよろ内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-matsumae.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道松前郡松前町唐津379",
+    "stamp_loc": "道の駅北前船 松前内",
+    "hours": "9:00～18:00（4～10月）、9:00～17:00（11～3月）"
+  },
+  "https://stamp.funakiya.com/miti-honbetsu.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道中川郡本別町北3-1-1",
+    "stamp_loc": "道の駅ステラ★ほんべつ内",
+    "hours": "9:00～19:00（5月～9月）、9:00～18:00（10月～4月）"
+  },
+  "https://stamp.funakiya.com/miti-abashiri.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道網走市南3条東4丁目",
+    "stamp_loc": "道の駅流氷街道網走内",
+    "hours": "9:00～18:30"
+  },
+  "https://stamp.funakiya.com/miti-toyako.html": {
+    "coords": null,
+    "name_en": "Michinoeki Toyako Station",
+    "addr": "北海道虻田郡洞爺湖町香川9-4",
+    "stamp_loc": "道の駅とうや湖内",
+    "hours": "8:30～17:30（4～10月）、9:00～17:00（11～3月）"
+  },
+  "https://stamp.funakiya.com/miti-urahoro.html": {
+    "coords": [
+      143.663654,
+      42.813921
+    ],
+    "name_en": "Michinoeki Urahoro Station",
+    "addr": "北海道十勝郡浦幌町北町16-3",
+    "stamp_loc": "道の駅うらほろ内",
+    "hours": "9:00～18:30（4～10月）、9:00～17:00（11～3月）"
+  },
+  "https://stamp.funakiya.com/miti-utonaiko.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道苫小牧市植苗156-30",
+    "stamp_loc": "道の駅ウトナイ湖内",
+    "hours": "9:00～18:00（3～10月）、9:00～17:00（11～2月）"
+  },
+  "https://stamp.funakiya.com/miti-shinshinotsu.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道石狩郡新篠津村第45線北2番",
+    "stamp_loc": "道の駅しんしのつ内",
+    "hours": "10:00～22:00"
+  },
+  "https://stamp.funakiya.com/miti-yubari.html": {
+    "coords": null,
+    "name_en": "Michinoeki Yubari Meroad Station",
+    "addr": "北海道夕張市紅葉山526-19",
+    "stamp_loc": "JR夕張駅改札外 売店内",
+    "hours": "9:00～19:00（4/25～8/20）、10:00～18:00（8/21～4/23）"
+  },
+  "https://stamp.funakiya.com/miti-odaitou.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道野付郡別海町尾岱沼5-27",
+    "stamp_loc": "道の駅おだいとう内",
+    "hours": "9:00～17:00（5～10月）、9:00～16:00（11～4月）"
+  },
+  "https://stamp.funakiya.com/miti-minamikayabe.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道函館市臼尻町551-1",
+    "stamp_loc": "道の駅縄文ロマン南かやべ 函館市縄文文化交流センター内",
+    "hours": "9:00～17:00（4～10月）、9:00～16:30（11～3月）"
+  },
+  "https://stamp.funakiya.com/miti-wakkanai.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道稚内市開運2丁目",
+    "stamp_loc": "道の駅わっかない内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-kikonai.html": {
+    "coords": [
+      140.435377,
+      41.677831
+    ],
+    "name_en": "Michinoeki Misogi no Sato Kikonai Station",
+    "addr": "北海道上磯郡木古内町本町338-14",
+    "stamp_loc": "道の駅みそぎの郷きこない内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-ishikariatsuta.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道石狩市厚田区厚田98-2",
+    "stamp_loc": "道の駅石狩「あいろーど厚田」内",
+    "hours": "10:00～16:00"
+  },
+  "https://stamp.funakiya.com/miti-akaigawa.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道余市郡赤井川村都190-16",
+    "stamp_loc": "道の駅あかいがわ内",
+    "hours": "8:30～18:00（5～10月）、9:00～17:00（11～4月）"
+  },
+  "https://stamp.funakiya.com/miti-tobetsu.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道石狩郡当別町当別太774-11",
+    "stamp_loc": "北欧の風 道の駅とうべつ内",
+    "hours": "9:00～17:00（3～12月）、10:00～16:00（1～2月）"
+  },
+  "https://stamp.funakiya.com/miti-higashimokoto.html": {
+    "coords": null,
+    "name_en": "Michinoeki Nonky Land Higashimokoto Station",
+    "addr": "北海道網走郡大空町東藻琴100",
+    "stamp_loc": "道の駅ノンキーランド ひがしもこと内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-nanae.html": {
+    "coords": [
+      140.657221,
+      41.925996
+    ],
+    "name_en": "Michinoeki Nanairo・Nanae Station",
+    "addr": "北海道亀田郡七飯町峠下380-2",
+    "stamp_loc": "道の駅なないろ・ななえ内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-hamatonbetsu.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道枝幸郡浜頓別町中央北21-1",
+    "stamp_loc": "道の駅北オホーツクはまとんべつ内",
+    "hours": "9:00～19:00（4～10月）、9:00～18:00（11～3月）"
+  },
+  "https://stamp.funakiya.com/miti-abira.html": {
+    "coords": [
+      141.818652,
+      42.875871
+    ],
+    "name_en": "Michinoeki Abira D51 Station Station",
+    "addr": "北海道勇払郡安平町追分柏が丘49-1",
+    "stamp_loc": "道の駅あびらD51ステーション内",
+    "hours": "9:00～18:00（4月～10月）、9:00～17:00（11月～3月）"
+  },
+  "https://stamp.funakiya.com/miti-rumoi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道留萌市船場町2-114",
+    "stamp_loc": "道の駅るもい内",
+    "hours": "9:00～17:00"
+  },
+  "https://stamp.funakiya.com/miti-tokachigawaonsen.html": {
+    "coords": [
+      143.300912,
+      42.933487
+    ],
+    "name_en": "Michinoeki Garden Spa Tokachigawaonsen Station",
+    "addr": "北海道河東郡音更町十勝川温泉北14-1",
+    "stamp_loc": "道の駅ガーデンスパ十勝川温泉内",
+    "hours": "9:00～19:00（5～10月平日、11～4月）、9:00～21:00（5～10月土日祝）"
+  },
+  "https://stamp.funakiya.com/miti-hitsujishibetsu.html": {
+    "coords": [
+      142.39259,
+      44.176319
+    ],
+    "name_en": "Michinoeki Hitsuji no Machi Samurai・Shibetsu Station",
+    "addr": "北海道士別市大通東5-440-23",
+    "stamp_loc": "道の駅羊のまち 侍・しべつ内",
+    "hours": "9:00～18:00（5～10月）、10:00～17:00（11～4月）"
+  },
+  "https://stamp.funakiya.com/miti-275tsukigata.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "北海道樺戸郡月形町月形81-10",
+    "stamp_loc": "道の駅275つきがた内",
+    "hours": "9:00～21:00"
+  },
+  "https://stamp.funakiya.com/miti-kanyuusya.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "福岡県田川郡添田町野田1113-1",
+    "stamp_loc": "道の駅歓遊舎ひこさん内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-kawara.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "福岡県田川郡香春町鏡山1870-1",
+    "stamp_loc": "道の駅香春内",
+    "hours": "9:00～18:00（12/31 15:00まで）"
+  },
+  "https://stamp.funakiya.com/miti-otosakurakaido.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "福岡県田川郡大任町今任原1339",
+    "stamp_loc": "道の駅おおとう桜街道内",
+    "hours": "9:00～18:30（12/31 15:00まで）"
+  },
+  "https://stamp.funakiya.com/miti-itoda.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "福岡県田川郡糸田町162-4",
+    "stamp_loc": "道の駅いとだ内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-ogimi.html": {
+    "coords": [
+      128.10225,
+      26.660656
+    ],
+    "name_en": "Michinoeki Ogimi",
+    "addr": "沖縄県国頭郡大宜味村津波95",
+    "stamp_loc": "道の駅おおぎみ内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-kadena.html": {
+    "coords": [
+      127.774154,
+      26.368048
+    ],
+    "name_en": "Michinoeki Kadena",
+    "addr": "沖縄県中頭郡嘉手納町屋良1026-3",
+    "stamp_loc": "道の駅かでな内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-kinabanjo.html": {
+    "coords": [
+      127.75827,
+      26.399351
+    ],
+    "name_en": "Michinoeki Kina Banjo",
+    "addr": "沖縄県中頭郡読谷村喜名1-2",
+    "stamp_loc": "道の駅喜名番所内",
+    "hours": "9:00～18:00"
+  },
+  "https://stamp.funakiya.com/miti-ginoza.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "沖縄県国頭郡宜野座村漢那1633",
+    "stamp_loc": "道の駅ぎのざ内",
+    "hours": "9:15～18:00"
+  },
+  "https://stamp.funakiya.com/hw-ayuzawa.html": {
+    "coords": [
+      139.01598,
+      35.35565
+    ],
+    "name_en": "TOMEI EXPWY Ayuzawa Parking Area",
+    "addr": "神奈川県足柄上郡山北町谷峨唯沢925-2",
+    "stamp_loc": "東名高速道路鮎沢パーキングエリア内",
+    "hours": "上り：24時間、下り：7:00～19:30"
+  },
+  "https://stamp.funakiya.com/hw-komakado.html": {
+    "coords": [
+      138.909484,
+      35.252749
+    ],
+    "name_en": "TOMEI EXPWY Komakado Parking Area",
+    "addr": "静岡県御殿場市駒門621",
+    "stamp_loc": "東名高速道路駒門パーキングエリア内",
+    "hours": "上り：2022/10/10 売店閉鎖、下り：24時間"
+  },
+  "https://stamp.funakiya.com/hw-nakai.html": {
+    "coords": [
+      139.198477,
+      35.342112
+    ],
+    "name_en": "TOMEI EXPWY Nakai Parking Area",
+    "addr": "神奈川県足柄上郡中井町松本926-2",
+    "stamp_loc": "東名高速道路中井パーキングエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-kohoku.html": {
+    "coords": [
+      139.527398,
+      35.533194
+    ],
+    "name_en": "TOMEI EXPWY Kōhoku Parking Area",
+    "addr": "神奈川県横浜市緑区西八朔町1144",
+    "stamp_loc": "東名高速道路港北パーキングエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-ashigara.html": {
+    "coords": [
+      138.963442,
+      35.314636
+    ],
+    "name_en": "TOMEI EXPWY Ashigara Service Area",
+    "addr": "静岡県御殿場市深沢前野原1801-1",
+    "stamp_loc": "東名高速道路足柄サービスエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-fujikawa.html": {
+    "coords": [
+      138.617309,
+      35.160998
+    ],
+    "name_en": "TOMEI EXPWY Fujikawa Service Area",
+    "addr": "静岡県富士市木島780",
+    "stamp_loc": "東名高速道路富士川サービスエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-ashitaka.html": {
+    "coords": [
+      138.837059,
+      35.143074
+    ],
+    "name_en": "TOMEI EXPWY Ashitaka Parking Area",
+    "addr": "静岡県沼津市宮本元野49-27",
+    "stamp_loc": "東名高速道路愛鷹パーキングエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-ebina.html": {
+    "coords": [
+      139.398811,
+      35.432125
+    ],
+    "name_en": "TOMEI EXPWY Ebina Service Area",
+    "addr": "神奈川県海老名市大谷南5-1-2",
+    "stamp_loc": "東名高速道路海老名サービスエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-nihondaira.html": {
+    "coords": [
+      138.433015,
+      34.983303
+    ],
+    "name_en": "TOMEI EXPWY Nihondaira Parking Area",
+    "addr": "静岡県静岡市駿河区池田",
+    "stamp_loc": "東名高速道路日本平パーキングエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-makinohara.html": {
+    "coords": [
+      138.158587,
+      34.761097
+    ],
+    "name_en": "TOMEI EXPWY Makinohara Service Area",
+    "addr": "静岡県牧之原市静谷2559-3",
+    "stamp_loc": "東名高速道路牧之原サービスエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-ogasa.html": {
+    "coords": [
+      137.996939,
+      34.761295
+    ],
+    "name_en": "TOMEI EXPWY Ogasa Parking Area",
+    "addr": "静岡県掛川市長谷1319-9",
+    "stamp_loc": "東名高速道路小笠パーキングエリア内",
+    "hours": "7:00～24:00"
+  },
+  "https://stamp.funakiya.com/hw-enshutoyoda.html": {
+    "coords": [
+      137.839963,
+      34.74923
+    ],
+    "name_en": "TOMEI EXPWY Enshū-Toyoda Parking Area",
+    "addr": "静岡県磐田市高見丘896",
+    "stamp_loc": "東名高速道路遠州豊田パーキングエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-mikatagahara.html": {
+    "coords": [
+      137.738433,
+      34.757596
+    ],
+    "name_en": "TOMEI EXPWY Mikatagahara Parking Area",
+    "addr": "静岡県浜松市東区有玉西町地蔵平776-2",
+    "stamp_loc": "東名高速道路三方原パーキングエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-shinshiro.html": {
+    "coords": [
+      137.498825,
+      34.843909
+    ],
+    "name_en": "TOMEI EXPWY Shinshiro Parking Area",
+    "addr": "愛知県新城市富岡東川60-467",
+    "stamp_loc": "東名高速道路新城パーキングエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-hamanako.html": {
+    "coords": [
+      137.607314,
+      34.781376
+    ],
+    "name_en": "TOMEI EXPWY Hamanako Service Area",
+    "addr": "上下線共通：〒431-1401 静岡県浜松市北区三ヶ日町佐久米47-1",
+    "stamp_loc": "東名高速道路浜名湖サービスエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-nihonzaka.html": {
+    "coords": [
+      138.318532,
+      34.890118
+    ],
+    "name_en": "TOMEI EXPWY Nihonzaka Parking Area",
+    "addr": "静岡県焼津市石脇上96-1",
+    "stamp_loc": "東名高速道路日本坂パーキングエリア内",
+    "hours": "上り：24時間、下り：7:00～22:00"
+  },
+  "https://stamp.funakiya.com/hw-akatsuka.html": {
+    "coords": [
+      137.361288,
+      34.851442
+    ],
+    "name_en": "TOMEI EXPWY Akatsuka Parking Area",
+    "addr": "愛知県豊川市市田町北山7-28",
+    "stamp_loc": "東名高速道路赤塚パーキングエリア内",
+    "hours": "上り：7:00～22:00、下り：2017/8/31 売店閉鎖"
+  },
+  "https://stamp.funakiya.com/hw-miai.html": {
+    "coords": [
+      137.224554,
+      34.926609
+    ],
+    "name_en": "TOMEI EXPWY Miai Parking Area",
+    "addr": "愛知県岡崎市保母町上山ノ田4-2",
+    "stamp_loc": "東名高速道路美合パーキングエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-moriyama.html": {
+    "coords": [
+      137.01174,
+      35.241556
+    ],
+    "name_en": "TOMEI EXPWY Moriyama Parking Area",
+    "addr": "愛知県名古屋市守山区下志段味上東禅寺2503-4",
+    "stamp_loc": "東名高速道路守山パーキングエリア内",
+    "hours": "7:00～21:00"
+  },
+  "https://stamp.funakiya.com/hw-kamigo.html": {
+    "coords": [
+      137.135868,
+      35.033306
+    ],
+    "name_en": "TOMEI EXPWY Toyota-Kamigō Service Area",
+    "addr": "愛知県豊田市永覚町上長根6-256",
+    "stamp_loc": "東名高速道路豊田上郷サービスエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-shizuoka.html": {
+    "coords": [
+      138.292518,
+      34.979508
+    ],
+    "name_en": "SHIN-TOMEI EXPWY Shizuoka Service Area",
+    "addr": "静岡県静岡市葵区小瀬戸1544-3",
+    "stamp_loc": "新東名高速道路静岡サービスエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-surugawannumazu.html": {
+    "coords": [
+      138.806503,
+      35.154684
+    ],
+    "name_en": "SHIN-TOMEI EXPWY Surugawan-Numazu Service Area",
+    "addr": "静岡県沼津市井出銭神1392-7-73",
+    "stamp_loc": "新東名高速道路駿河湾沼津サービスエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-shimizu.html": {
+    "coords": [
+      138.512989,
+      35.131665
+    ],
+    "name_en": "SHIN-TOMEI EXPWY Shimizu Parking Area",
+    "addr": "上下線共通：〒424-0302 静岡県静岡市清水区小河内885-15",
+    "stamp_loc": "新東名高速道路清水パーキングエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-togo.html": {
+    "coords": [
+      137.084546,
+      35.131497
+    ],
+    "name_en": "TOMEI EXPWY Tōgō Parking Area",
+    "addr": "愛知県日進市米野木町南山978-12",
+    "stamp_loc": "東名高速道路東郷パーキングエリア内",
+    "hours": "7:00～21:00"
+  },
+  "https://stamp.funakiya.com/hw-fujieda.html": {
+    "coords": [
+      138.243687,
+      34.902289
+    ],
+    "name_en": "SHIN-TOMEI EXPWY Fujieda Parking Area",
+    "addr": "426-0213 静岡県藤枝市中ノ合衣原616-2-1",
+    "stamp_loc": "新東名高速道路藤枝パーキングエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-kakegawa.html": {
+    "coords": [
+      138.042143,
+      34.841572
+    ],
+    "name_en": "SHIN-TOMEI EXPWY Kakegawa Parking Area",
+    "addr": "静岡県掛川市倉真藪ノ上7507-1-1",
+    "stamp_loc": "新東名高速道路掛川パーキングエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-nagashinoshitaragahara.html": {
+    "coords": [
+      137.512718,
+      34.924998
+    ],
+    "name_en": "SHIN-TOMEI EXPWY Nagashino-Shitaragahara Parking Area",
+    "addr": "愛知県新城市矢部ユツリハ81-2",
+    "stamp_loc": "新東名高速道路長篠設楽原パーキングエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-hamamatsu.html": {
+    "coords": [
+      137.750396,
+      34.843287
+    ],
+    "name_en": "SHIN-TOMEI EXPWY Hamamatsu Service Area",
+    "addr": "静岡県浜松市浜北区大平36",
+    "stamp_loc": "新東名高速道路浜松サービスエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-fujino.html": {
+    "coords": [
+      139.158105,
+      35.616164
+    ],
+    "name_en": "CHUO EXPWY Fujino Parking Area",
+    "addr": "神奈川県相模原市緑区小渕2256",
+    "stamp_loc": "中央自動車道藤野パーキングエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-enshumorimachi.html": {
+    "coords": [
+      137.906512,
+      34.826572
+    ],
+    "name_en": "SHIN-TOMEI EXPWY Enshū-Morimachi Parking Area",
+    "addr": "静岡県周智郡森町円田903-4",
+    "stamp_loc": "新東名高速道路遠州森町パーキングエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-ishikawa.html": {
+    "coords": [
+      139.37444,
+      35.680076
+    ],
+    "name_en": "CHUO EXPWY Ishikawa Parking Area",
+    "addr": "東京都八王子市石川町956-2",
+    "stamp_loc": "中央自動車道石川パーキングエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-okazaki.html": {
+    "coords": [
+      137.222017,
+      35.034294
+    ],
+    "name_en": "SHIN-TOMEI EXPWY Okazaki Service Area",
+    "addr": "上下線共通：〒444-2109 愛知県岡崎市宮石町六ツ田10-4",
+    "stamp_loc": "新東名高速道路岡崎サービスエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-dangozaka.html": {
+    "coords": [
+      139.045671,
+      35.627988
+    ],
+    "name_en": "CHUO EXPWY Dangōzaka Service Area",
+    "addr": "山梨県上野原市大野4943",
+    "stamp_loc": "中央自動車道談合坂サービスエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-hatsukari.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "山梨県大月市初狩町1318",
+    "stamp_loc": "中央自動車道初狩パーキングエリア内",
+    "hours": "上り：7:00～22:00"
+  },
+  "https://stamp.funakiya.com/hw-ogurogawa.html": {
+    "coords": [
+      137.93204,
+      35.84129
+    ],
+    "name_en": "CHUO EXPWY Ogurogawa Parking Area",
+    "addr": "長野県伊那市伊那ますみが丘269",
+    "stamp_loc": "中央自動車道小黒川パーキングエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-suwako.html": {
+    "coords": [
+      138.07802,
+      36.026815
+    ],
+    "name_en": "CHUO EXPWY Suwako Service Area",
+    "addr": "長野県諏訪市豊田所久保3118",
+    "stamp_loc": "中央自動車道諏訪湖サービスエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-futaba.html": {
+    "coords": [
+      138.510699,
+      35.679933
+    ],
+    "name_en": "CHUO EXPWY Futaba Service Area",
+    "addr": "山梨県甲斐市龍地2395",
+    "stamp_loc": "中央自動車道双葉サービスエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-tatsuno.html": {
+    "coords": [
+      138.00313,
+      35.976268
+    ],
+    "name_en": "CHUO EXPWY Tatsuno Parking Area",
+    "addr": "長野県上伊那郡辰野町平出牧垣外2226-1",
+    "stamp_loc": "中央自動車道辰野パーキングエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-chuodohara.html": {
+    "coords": [
+      138.192877,
+      35.961449
+    ],
+    "name_en": "CHUO EXPWY Chūōdō-Hara Parking Area",
+    "addr": "長野県諏訪郡原村阿久9868、下り：〒391-0100 長野県諏訪郡原村大石10699",
+    "stamp_loc": "中央自動車道中央道原パーキングエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-komagatake.html": {
+    "coords": [
+      137.905855,
+      35.711198
+    ],
+    "name_en": "CHUO EXPWY Komagatake Service Area",
+    "addr": "長野県駒ヶ根市赤穂大徳原15-160",
+    "stamp_loc": "中央自動車道駒ヶ岳サービスエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-enakyo.html": {
+    "coords": [
+      137.428063,
+      35.455766
+    ],
+    "name_en": "CHUO EXPWY Enakyō Service Area",
+    "addr": "岐阜県恵那市大井町船山1120",
+    "stamp_loc": "中央自動車道恵那峡サービスエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-byobuzan.html": {
+    "coords": [
+      137.275351,
+      35.397131
+    ],
+    "name_en": "CHUO EXPWY Byōbuzan Parking Area",
+    "addr": "岐阜県瑞浪市土岐町安高3282-5",
+    "stamp_loc": "中央自動車道屏風山パーキングエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-miyoshi.html": {
+    "coords": [
+      139.504799,
+      35.842679
+    ],
+    "name_en": "KAN-ETSU EXPWY Miyoshi Parking Area",
+    "addr": "埼玉県入間郡三芳町上富2204",
+    "stamp_loc": "関越自動車道三芳パーキングエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-utsutsutoge.html": {
+    "coords": [
+      137.04304,
+      35.334517
+    ],
+    "name_en": "CHUO EXPWY Utsutsutōge Parking Area",
+    "addr": "愛知県春日井市西尾町1007-1",
+    "stamp_loc": "中央自動車道内津峠パーキングエリア内",
+    "hours": "上り：7:00～21:00、下り：7:30～20:30"
+  },
+  "https://stamp.funakiya.com/hw-takasaka.html": {
+    "coords": [
+      139.384949,
+      35.985442
+    ],
+    "name_en": "KAN-ETSU EXPWY Takasaka Service Area",
+    "addr": "埼玉県東松山市田木立野4-5",
+    "stamp_loc": "関越自動車道高坂サービスエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-ranzan.html": {
+    "coords": [
+      139.297639,
+      36.082871
+    ],
+    "name_en": "KAN-ETSU EXPWY Ranzan Parking Area",
+    "addr": "埼玉県比企郡嵐山町越畑十三間1854-1",
+    "stamp_loc": "関越自動車道嵐山パーキングエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-kamisato.html": {
+    "coords": [
+      139.120279,
+      36.256058
+    ],
+    "name_en": "KAN-ETSU EXPWY Kamisato Service Area",
+    "addr": "埼玉県児玉郡上里町五明若宮836-1",
+    "stamp_loc": "関越自動車道上里サービスエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-yorii.html": {
+    "coords": [
+      139.193762,
+      36.174931
+    ],
+    "name_en": "KAN-ETSU EXPWY Yorii Parking Area",
+    "addr": "埼玉県深谷市本郷北坂3064-4",
+    "stamp_loc": "関越自動車道寄居パーキングエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-komayose.html": {
+    "coords": [
+      139.015488,
+      36.431872
+    ],
+    "name_en": "KAN-ETSU EXPWY Komayose Parking Area",
+    "addr": "群馬県北群馬郡吉岡町大久保449",
+    "stamp_loc": "関越自動車道駒寄パーキングエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-akagikogen.html": {
+    "coords": [
+      139.063909,
+      36.601785
+    ],
+    "name_en": "KAN-ETSU EXPWY Akagi-kōgen Service Area",
+    "addr": "群馬県利根郡昭和村森下箱崎1650",
+    "stamp_loc": "関越自動車道赤城高原サービスエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-tanigawadake.html": {
+    "coords": [
+      138.945122,
+      36.778086
+    ],
+    "name_en": "KAN-ETSU EXPWY Tanigawadake Parking Area",
+    "addr": "群馬県利根郡みなかみ町阿能川1043",
+    "stamp_loc": "関越自動車道谷川岳パーキングエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-shiozawaishiuchi.html": {
+    "coords": [
+      138.812116,
+      36.980182
+    ],
+    "name_en": "KAN-ETSU EXPWY Shiozawa-Ishiuchi Service Area",
+    "addr": "新潟県南魚沼市関1511",
+    "stamp_loc": "関越自動車道塩沢石打サービスエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-echigokawaguchi.html": {
+    "coords": [
+      138.837944,
+      37.271717
+    ],
+    "name_en": "KAN-ETSU EXPWY Echigo-Kawaguchi Service Area",
+    "addr": "新潟県長岡市西川口沢入4420",
+    "stamp_loc": "関越自動車道越後川口サービスエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-yamaya.html": {
+    "coords": [
+      138.783018,
+      37.325497
+    ],
+    "name_en": "KAN-ETSU EXPWY Yamaya Parking Area",
+    "addr": "新潟県小千谷市山谷城之腰325-1",
+    "stamp_loc": "関越自動車道山谷パーキングエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-hanyu.html": {
+    "coords": [
+      139.588148,
+      36.181522
+    ],
+    "name_en": "TOHOKU EXPWY Hanyū Parking Area",
+    "addr": "埼玉県羽生市弥勒五軒1686",
+    "stamp_loc": "東北自動車道羽生パーキングエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-hasuda.html": {
+    "coords": [
+      139.666898,
+      35.978012
+    ],
+    "name_en": "TOHOKU EXPWY Hasuda Service Area",
+    "addr": "埼玉県蓮田市黒浜3517",
+    "stamp_loc": "東北自動車道蓮田サービスエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-sano.html": {
+    "coords": [
+      139.617453,
+      36.318162
+    ],
+    "name_en": "TOHOKU EXPWY Sano Service Area",
+    "addr": "栃木県佐野市黒袴町東山1010",
+    "stamp_loc": "東北自動車道佐野サービスエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-oya.html": {
+    "coords": [
+      139.844114,
+      36.599848
+    ],
+    "name_en": "TOHOKU EXPWY Ōya Parking Area",
+    "addr": "栃木県宇都宮市駒生町3019-3、〒320-0065 下り：栃木県宇都宮市駒生町3021-5",
+    "stamp_loc": "東北自動車道大谷パーキングエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-kamikawachi.html": {
+    "coords": [
+      139.892426,
+      36.691355
+    ],
+    "name_en": "TOHOKU EXPWY Kamikawachi Service Area",
+    "addr": "栃木県宇都宮市今里町中丸1145",
+    "stamp_loc": "東北自動車道上河内サービスエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-tsuganishikata.html": {
+    "coords": [
+      139.724527,
+      36.453629
+    ],
+    "name_en": "TOHOKU EXPWY Tsuganishikata Parking Area",
+    "addr": "栃木県栃木市都賀町富張1402-3",
+    "stamp_loc": "東北自動車道都賀西方パーキングエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-yaitakita.html": {
+    "coords": [
+      139.908812,
+      36.822928
+    ],
+    "name_en": "TOHOKU EXPWY Yaita-kita Parking Area",
+    "addr": "栃木県矢板市下太田松小屋664-2",
+    "stamp_loc": "東北自動車道矢板北パーキングエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-kuroiso.html": {
+    "coords": [
+      139.990804,
+      36.958791
+    ],
+    "name_en": "TOHOKU EXPWY Kuroiso Parking Area",
+    "addr": "栃木県那須塩原市鹿野崎向山57-2-3",
+    "stamp_loc": "東北自動車道黒磯パーキングエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-nasukogen.html": {
+    "coords": [
+      140.102553,
+      37.05588
+    ],
+    "name_en": "TOHOKU EXPWY Nasukōgen Service Area",
+    "addr": "栃木県那須郡那須町豊原丙4092-2",
+    "stamp_loc": "東北自動車道那須高原サービスエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-abukuma.html": {
+    "coords": [
+      140.24274,
+      37.150806
+    ],
+    "name_en": "TOHOKU EXPWY Abukuma Parking Area",
+    "addr": "福島県白河市泉田弁天山5-2",
+    "stamp_loc": "東北自動車道阿武隈パーキングエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-kagamiishi.html": {
+    "coords": [
+      140.336008,
+      37.255469
+    ],
+    "name_en": "TOHOKU EXPWY Kagamiishi Parking Area",
+    "addr": "福島県岩瀬郡鏡石町岡ノ内72-3",
+    "stamp_loc": "東北自動車道鏡石パーキングエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-adachitara.html": {
+    "coords": [
+      140.382753,
+      37.515734
+    ],
+    "name_en": "TOHOKU EXPWY Adatara Service Area",
+    "addr": "福島県本宮市本宮天ヶ221",
+    "stamp_loc": "東北自動車道安達太良サービスエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-asaka.html": {
+    "coords": [
+      140.323094,
+      37.353746
+    ],
+    "name_en": "TOHOKU EXPWY Asaka Parking Area",
+    "addr": "福島県郡山市三穂田町川田勝利ヶ岡30-1",
+    "stamp_loc": "東北自動車道安積パーキングエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-fukushimamatsukawa.html": {
+    "coords": [
+      140.444985,
+      37.661142
+    ],
+    "name_en": "TOHOKU EXPWY Fukushima-Matsukawa Parking Area",
+    "addr": "福島県福島市松川町下新田73",
+    "stamp_loc": "東北自動車道福島松川パーキングエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-kunimi.html": {
+    "coords": [
+      140.578742,
+      37.906765
+    ],
+    "name_en": "TOHOKU EXPWY Kunimi Service Area",
+    "addr": "福島県伊達郡国見町貝田神前",
+    "stamp_loc": "東北自動車道国見サービスエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-sugo.html": {
+    "coords": [
+      140.766268,
+      38.167114
+    ],
+    "name_en": "TOHOKU EXPWY Sugō Parking Area",
+    "addr": "上り：宮城県柴田郡村田町菅生新堀28",
+    "stamp_loc": "東北自動車道菅生パーキングエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-chojahara.html": {
+    "coords": [
+      140.961828,
+      38.636482
+    ],
+    "name_en": "TOHOKU EXPWY Chōjahara Service Area",
+    "addr": "宮城県大崎市古川川熊長者原24-61",
+    "stamp_loc": "東北自動車道長者原サービスエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-kannari.html": {
+    "coords": [
+      141.09646,
+      38.842088
+    ],
+    "name_en": "TOHOKU EXPWY Kannari Parking Area",
+    "addr": "宮城県栗原市金成藤渡戸的場167-1",
+    "stamp_loc": "東北自動車道金成パーキングエリア内",
+    "hours": "8:00～20:00"
+  },
+  "https://stamp.funakiya.com/hw-kitakamikanegasaki.html": {
+    "coords": [
+      141.08007,
+      39.241037
+    ],
+    "name_en": "TOHOKU EXPWY Kitakami-Kanegasaki Parking Area",
+    "addr": "岩手県北上市相去町中平沢7-4",
+    "stamp_loc": "東北自動車道北上金ヶ崎パーキングエリア内",
+    "hours": "7:30～19:30"
+  },
+  "https://stamp.funakiya.com/hw-maesawa.html": {
+    "coords": [
+      141.102402,
+      39.06804
+    ],
+    "name_en": "TOHOKU EXPWY Maesawa Service Area",
+    "addr": "岩手県奥州市前沢区裏新田29-13",
+    "stamp_loc": "東北自動車道前沢サービスエリア内",
+    "hours": "7:00～22:00"
+  },
+  "https://stamp.funakiya.com/hw-shiwa.html": {
+    "coords": [
+      141.103626,
+      39.51505
+    ],
+    "name_en": "TOHOKU EXPWY Shiwa Service Area",
+    "addr": "岩手県紫波郡紫波町片寄堤下52-2",
+    "stamp_loc": "東北自動車道紫波サービスエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-yahaba.html": {
+    "coords": [
+      141.130817,
+      39.618706
+    ],
+    "name_en": "TOHOKU EXPWY Yahaba Parking Area",
+    "addr": "岩手県紫波郡矢巾町上矢次3地割向井1-2",
+    "stamp_loc": "東北自動車道矢巾パーキングエリア内",
+    "hours": "8:00～20:00"
+  },
+  "https://stamp.funakiya.com/hw-takizawa.html": {
+    "coords": [
+      141.110278,
+      39.780392
+    ],
+    "name_en": "TOHOKU EXPWY Takizawa Parking Area",
+    "addr": "岩手県滝沢市卯遠坂340-10",
+    "stamp_loc": "東北自動車道滝沢パーキングエリア内",
+    "hours": "7:30～19:30"
+  },
+  "https://stamp.funakiya.com/hw-iwatesan.html": {
+    "coords": [
+      141.04645,
+      39.915451
+    ],
+    "name_en": "TOHOKU EXPWY Iwatesan Service Area",
+    "addr": "岩手県八幡平市平笠第2地割1-47",
+    "stamp_loc": "東北自動車道岩手山サービスエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-hanawa.html": {
+    "coords": [
+      140.801908,
+      40.183803
+    ],
+    "name_en": "TOHOKU EXPWY Hanawa Service Area",
+    "addr": "秋田県鹿角市花輪張渡11-24",
+    "stamp_loc": "東北自動車道花輪サービスエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-ibuki.html": {
+    "coords": [
+      136.396175,
+      35.334104
+    ],
+    "name_en": "MEISHIN EXPWY Ibuki Parking Area",
+    "addr": "上り：滋賀県米原市柏原3231",
+    "stamp_loc": "名神高速道路伊吹パーキングエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-owariichinomiya.html": {
+    "coords": [
+      136.846329,
+      35.278341
+    ],
+    "name_en": "MEISHIN EXPWY Owari-Ichinomiya Service Area",
+    "addr": "愛知県一宮市丹陽町三ツ井東金浦2709",
+    "stamp_loc": "名神高速道路尾張一宮パーキングエリア内",
+    "hours": "7:00～21:00"
+  },
+  "https://stamp.funakiya.com/hw-tsugaru.html": {
+    "coords": [
+      140.581314,
+      40.565412
+    ],
+    "name_en": "TOHOKU EXPWY Tsugaru Service Area",
+    "addr": "青森県平川市沖館比山館21-1",
+    "stamp_loc": "東北自動車道津軽サービスエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-yoro.html": {
+    "coords": [
+      136.54386,
+      35.322109
+    ],
+    "name_en": "MEISHIN EXPWY Yoro Service Area",
+    "addr": "岐阜県養老郡養老町橋爪南川原1475-1",
+    "stamp_loc": "名神高速道路養老サービスエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-kuromaru.html": {
+    "coords": [
+      136.191968,
+      35.07951
+    ],
+    "name_en": "MEISHIN EXPWY Kuromaru Parking Area",
+    "addr": "滋賀県東近江市蛇溝町1251",
+    "stamp_loc": "名神高速道路黒丸パーキングエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-bodaiji.html": {
+    "coords": [
+      136.059044,
+      35.043375
+    ],
+    "name_en": "MEISHIN EXPWY Bodaiji Parking Area",
+    "addr": "滋賀県湖南市菩提寺329-5",
+    "stamp_loc": "名神高速道路菩提寺パーキングエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-kusatsu.html": {
+    "coords": [
+      135.948046,
+      34.978364
+    ],
+    "name_en": "MEISHIN EXPWY Kusatsu Parking Area",
+    "addr": "滋賀県大津市月輪5-8-9",
+    "stamp_loc": "名神高速道路草津パーキングエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-biwakootsu.html": {
+    "coords": [
+      135.87006,
+      34.997443
+    ],
+    "name_en": "MEISHIN EXPWY Otsu Service Area",
+    "addr": "滋賀県大津市朝日が丘2-8-1",
+    "stamp_loc": "名神高速道路大津サービスエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-katsuragawa.html": {
+    "coords": [
+      135.720298,
+      34.944258
+    ],
+    "name_en": "MEISHIN EXPWY Katsuragawa Parking Area",
+    "addr": "京都府京都市南区久世東土川町400-1",
+    "stamp_loc": "名神高速道路桂川パーキングエリア内",
+    "hours": "24時間"
+  },
+  "https://stamp.funakiya.com/hw-suita.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府吹田市岸部北4-8-1",
+    "stamp_loc": "名神高速道路吹田サービスエリア内",
+    "hours": "24時間"
+  }
+}

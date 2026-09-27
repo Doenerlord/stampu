@@ -14,12 +14,21 @@ import re
 import sys
 import json
 import time
+import threading
 from typing import List, Dict, Any, Optional, Set
 import requests
 from bs4 import BeautifulSoup
-from concurrent.futures import ThreadPoolExecutor, as_completed
+from concurrent.futures import ThreadPoolExecutor
 
-from geocode_gsi import geocode_address, extract_prefecture, clean_query
+from geocode_gsi import (
+    geocode_address,
+    extract_prefecture,
+    extract_prefecture_en,
+    extract_city,
+    clean_query,
+    PREF_EN_TO_JA,
+    PREF_JA_TO_EN
+)
 
 HEADERS = {
     "User-Agent": (
@@ -33,15 +42,44 @@ BASE_URL = "https://stamp.funakiya.com"
 OUTPUT_FILE = os.path.abspath(
     os.path.join(os.path.dirname(__file__), "..", "public", "data", "stamps.json")
 )
+DETAIL_CACHE_FILE = os.path.join(os.path.dirname(__file__), "cache", "detail_cache.json")
+
+# In-memory and disk cache for detail pages
+_detail_cache: Dict[str, Dict[str, Any]] = {}
+_detail_lock = threading.Lock()
 
 
-def clean_html_text(text: str) -> str:
-    text = re.sub(r'<[^>]+>', '', text)
-    text = text.replace('&nbsp;', ' ').replace('&#160;', ' ')
-    return re.sub(r'\s+', ' ', text).strip()
+def _load_detail_cache():
+    global _detail_cache
+    with _detail_lock:
+        if os.path.exists(DETAIL_CACHE_FILE):
+            try:
+                with open(DETAIL_CACHE_FILE, "r", encoding="utf-8") as f:
+                    _detail_cache = json.load(f)
+            except Exception as e:
+                print(f"[scraper] Failed to load detail cache: {e}")
+                _detail_cache = {}
+        else:
+            _detail_cache = {}
+
+
+def _save_detail_cache():
+    os.makedirs(os.path.dirname(DETAIL_CACHE_FILE), exist_ok=True)
+    try:
+        with _detail_lock:
+            snap = dict(_detail_cache)
+        with open(DETAIL_CACHE_FILE, "w", encoding="utf-8") as f:
+            json.dump(snap, f, ensure_ascii=False, indent=2)
+    except Exception as e:
+        print(f"[scraper] Failed to save detail cache: {e}")
+
+
+_load_detail_cache()
 
 
 def fetch_url(url: str, max_retries: int = 3) -> Optional[str]:
+    if not url:
+        return None
     for attempt in range(max_retries):
         try:
             resp = requests.get(url, headers=HEADERS, timeout=12)
@@ -49,8 +87,60 @@ def fetch_url(url: str, max_retries: int = 3) -> Optional[str]:
                 resp.encoding = 'utf-8'
                 return resp.text
         except Exception:
-            time.sleep(0.5 * (attempt + 1))
+            time.sleep(0.3 * (attempt + 1))
     return None
+
+
+def fetch_detail_info(url: str) -> Dict[str, Any]:
+    if not url:
+        return {}
+    with _detail_lock:
+        if url in _detail_cache:
+            return _detail_cache[url]
+
+    html = fetch_url(url)
+    if not html:
+        return {}
+
+    soup = BeautifulSoup(html, "html.parser")
+    text = ""
+    for p in soup.find_all(["p", "div"]):
+        ptxt = p.get_text("\n")
+        if "Geo URI" in ptxt or "所在地" in ptxt:
+            text = ptxt
+            break
+
+    coords = None
+    geo_m = re.search(r"Geo URI[：:]\s*([0-9\.]+)\s*,\s*([0-9\.]+)", text)
+    if geo_m:
+        lat = round(float(geo_m.group(1)), 6)
+        lng = round(float(geo_m.group(2)), 6)
+        if 122.0 <= lng <= 154.0 and 20.0 <= lat <= 46.0:
+            coords = [lng, lat]
+
+    en_m = re.search(r"EN[：:]\s*([^\n]+)", text)
+    name_en = en_m.group(1).strip() if en_m else ""
+
+    addr_m = re.search(r"所在地[：:]\s*(?:上り[：:]\s*)?(?:〒\d{3}-\d{4}\s*)?([^\n]+)", text)
+    addr = addr_m.group(1).strip() if addr_m else ""
+
+    loc_m = re.search(r"設置場所[：:]\s*([^\n]+)", text)
+    stamp_loc = loc_m.group(1).strip() if loc_m else ""
+
+    hours_m = re.search(r"(?:営業時間|改札窓口営業時間)[：:]\s*([^\n]+)", text)
+    hours = hours_m.group(1).strip() if hours_m else ""
+
+    data = {
+        "coords": coords,
+        "name_en": name_en,
+        "addr": addr,
+        "stamp_loc": stamp_loc,
+        "hours": hours
+    }
+    with _detail_lock:
+        _detail_cache[url] = data
+    _save_detail_cache()
+    return data
 
 
 # -------------------------------------------------------------
@@ -71,7 +161,6 @@ def scrape_all_200_castles() -> List[Dict[str, Any]]:
                 name_ja = m.group(1).strip()
                 num = int(m.group(2))
                 loc = m.group(3).strip()
-                # Fix Funakiya typo: Hirado Castle was listed as No.89
                 if "平戸" in name_ja:
                     num = 90
                 a_tag = li.find("a")
@@ -109,7 +198,6 @@ def scrape_all_200_castles() -> List[Dict[str, Any]]:
                     "url": url
                 })
 
-    # Deduplicate by num
     seen_nums = set()
     unique_castles = []
     for c in castles:
@@ -128,8 +216,8 @@ def scrape_all_200_castles() -> List[Dict[str, Any]]:
         series = c["series"]
         series_label = "日本100名城" if series == 1 else "続日本100名城"
 
-        pref = extract_prefecture(loc_ja)
-        city = loc_ja.replace(pref, "").strip() if pref in loc_ja else loc_ja
+        pref = extract_prefecture_en(loc_ja)
+        city = extract_city(loc_ja) or pref
 
         name_en = name_ja
         if "城" in name_ja:
@@ -141,8 +229,7 @@ def scrape_all_200_castles() -> List[Dict[str, Any]]:
         else:
             name_en = f"{name_ja} Castle Site"
 
-        # Coordinates
-        coords = geocode_address(f"{loc_ja} {name_ja}", fallback_query=f"{pref} {name_ja}")
+        coords = geocode_address(f"{loc_ja} {name_ja}", fallback_query=loc_ja)
         if not coords:
             coords = (138.2529, 36.2048)
 
@@ -154,7 +241,7 @@ def scrape_all_200_castles() -> List[Dict[str, Any]]:
             "name_romaji": f"{name_ja}-jō",
             "category": "castle",
             "prefecture": pref,
-            "city": city or pref,
+            "city": city,
             "address": loc_ja,
             "coordinates": [coords[0], coords[1]],
             "stampLocation": f"{name_ja} 管理事務所・天守閣・観光案内所 (Castle Office / Main Gate)",
@@ -172,7 +259,7 @@ def scrape_all_200_castles() -> List[Dict[str, Any]]:
 # 2. RAILWAY STATIONS (Eki Stamps - 駅スタンプ)
 # -------------------------------------------------------------
 def scrape_railway_lines() -> List[Dict[str, Any]]:
-    print("\n[Category: EKI] Scraping Major Railway Lines...")
+    print("\n[Category: EKI] Scraping Major Railway Lines with verified coordinates...")
     lines_to_scrape = [
         ("jr-yamanote-line.html", "JR East (JR東日本 - 山手線)", "Yamanote Line"),
         ("jr-chuo-line.html", "JR East (JR東日本 - 中央線快速・緩行)", "Chūō Line"),
@@ -181,7 +268,8 @@ def scrape_railway_lines() -> List[Dict[str, Any]]:
         ("jr-kyoto-line.html", "JR West (JR西日本 - JR京都線)", "Kyoto Line"),
     ]
 
-    all_stations: Dict[str, Dict[str, Any]] = {}
+    station_links = []
+    seen_names = set()
 
     for line_file, operator, line_name in lines_to_scrape:
         url = f"{BASE_URL}/{line_file}"
@@ -194,76 +282,143 @@ def scrape_railway_lines() -> List[Dict[str, Any]]:
             href = a.get("href", "")
             text = a.get_text(strip=True)
             if "駅のスタンプ" in text and "設置あり" in text:
-                # Clean station name
-                station_name_ja = text.split("のスタンプ")[0].replace("JR", "").replace("東京メトロ", "").strip()
-                if not station_name_ja or station_name_ja in all_stations:
+                name_raw = text.split("のスタンプ")[0].replace("JR", "").replace("東京メトロ", "").strip()
+                if name_raw.endswith("駅"):
+                    name_raw = name_raw[:-1]
+                if not name_raw or name_raw in seen_names:
                     continue
+                seen_names.add(name_raw)
 
-                slug = re.search(r'(?:jr-|metro-)([a-zA-Z0-9\-]+)\.html', href)
-                slug_str = slug.group(1).lower() if slug else station_name_ja
+                clean_href = href.lstrip("/") if href else ""
+                full_url = href if (href and href.startswith("http")) else (f"{BASE_URL}/{clean_href}" if href else "")
+                slug = re.search(r'(?:jr-|metro-)([a-zA-Z0-9\-]+)\.html', href) if href else None
+                slug_str = slug.group(1).lower() if slug else name_raw
 
-                # Determine city / prefecture
-                pref = "Tokyo"
-                city = "Tokyo"
-                if "osaka" in line_file or station_name_ja in ["大阪", "天王寺", "京橋", "新今宮", "森ノ宮", "西九条"]:
-                    pref = "Osaka"
-                    city = "Osaka City"
-                elif "kyoto" in line_file or station_name_ja in ["京都", "山崎", "高槻"]:
-                    pref = "Kyoto" if station_name_ja == "京都" else "Osaka"
-                    city = f"{pref} Region"
-                elif station_name_ja in ["大宮", "浦和", "さいたま新都心", "川口", "蕨"]:
-                    pref = "Saitama"
-                    city = "Saitama City"
-                elif station_name_ja in ["横浜", "川崎", "鶴見", "大船", "鎌倉"]:
-                    pref = "Kanagawa"
-                    city = f"{station_name_ja} City"
+                # Clean non-ASCII slug
+                if slug_str == "福島駅" or "福島" in slug_str:
+                    slug_str = "fukushima"
+                slug_str = re.sub(r'[^a-z0-9\-]+', '', slug_str) or f"station-{len(station_links)}"
 
-                query = f"{pref} {station_name_ja}駅"
-                coords = geocode_address(query, fallback_query=f"{station_name_ja}駅")
-                if not coords:
-                    coords = (139.7671, 35.6812)
-
-                stamp_id = f"eki-yamanote-{slug_str}" if "yamanote" in line_file else f"eki-{slug_str}"
-                name_en = f"{station_name_ja.capitalize()} Station"
-                if station_name_ja == "東京": name_en = "Tokyo Station"
-                elif station_name_ja == "新宿": name_en = "Shinjuku Station"
-                elif station_name_ja == "渋谷": name_en = "Shibuya Station"
-                elif station_name_ja == "秋葉原": name_en = "Akihabara Station"
-                elif station_name_ja == "上野": name_en = "Ueno Station"
-                elif station_name_ja == "品川": name_en = "Shinagawa Station"
-                elif station_name_ja == "横浜": name_en = "Yokohama Station"
-                elif station_name_ja == "大宮": name_en = "Omiya Station"
-                elif station_name_ja == "京都": name_en = "Kyoto Station"
-                elif station_name_ja == "大阪": name_en = "Osaka Station"
-
-                all_stations[station_name_ja] = {
-                    "id": stamp_id,
-                    "name": name_en,
-                    "name_ja": f"JR{station_name_ja}駅",
-                    "name_romaji": f"{station_name_ja}-eki",
-                    "category": "eki",
-                    "prefecture": pref,
-                    "city": city,
-                    "address": f"{pref} {station_name_ja}駅構内",
-                    "coordinates": [coords[0], coords[1]],
-                    "stampLocation": f"JR{station_name_ja}駅 改札口・みどりの窓口付近 (Ticket Gate / Station Counter)",
-                    "hours": "07:00 - 21:00 (Station / Ticket office hours)",
+                station_links.append({
+                    "name_raw": name_raw,
+                    "url": full_url,
+                    "slug": slug_str,
+                    "line": line_name,
                     "operator": operator,
-                    "imageUrl": f"/images/stamps/{stamp_id}.jpg",
-                    "description": f"Official commemorative railway stamp for {name_en} ({line_name}). Depicts iconic neighborhood landmarks, railway heritage, and regional traditions."
-                }
+                    "line_file": line_file
+                })
 
-    station_list = list(all_stations.values())
-    print(f"-> Completed {len(station_list)} Railway Stations.")
-    return station_list
+    print(f"-> Total distinct stations found across lines: {len(station_links)}")
+
+    def fetch_station(item: Dict[str, Any]) -> Dict[str, Any]:
+        detail = fetch_detail_info(item["url"]) if item["url"] else {}
+        name_raw = item["name_raw"]
+        line_name = item["line"]
+        operator = item["operator"]
+        slug_str = item["slug"]
+
+        coords = detail.get("coords")
+        addr = detail.get("addr", "")
+        stamp_loc = detail.get("stamp_loc", "")
+        hours = detail.get("hours", "")
+        en_raw = detail.get("name_en", "")
+
+        # If coords missing, geocode Japanese address
+        if not coords and addr:
+            g = geocode_address(addr)
+            if g:
+                coords = [g[0], g[1]]
+
+        # Fallback prefecture determination
+        pref = extract_prefecture_en(addr)
+        if not pref or pref == "Japan":
+            if "osaka" in item["line_file"] or line_name == "Osaka Loop Line":
+                pref = "Osaka"
+            elif "kyoto" in item["line_file"] or line_name == "Kyoto Line":
+                pref = "Kyoto" if name_raw in ["京都", "西大路", "桂川", "向日町", "長岡京", "山崎"] else "Osaka"
+            elif name_raw in ["大宮", "さいたま新都心", "与野", "北浦和", "浦和", "南浦和", "蕨", "西川口", "川口"]:
+                pref = "Saitama"
+            elif name_raw in ["川崎", "鶴見", "新子安", "東神奈川", "横浜"]:
+                pref = "Kanagawa"
+            else:
+                pref = "Tokyo"
+
+        city = extract_city(addr)
+        if not city:
+            if pref == "Tokyo":
+                city = "Tokyo"
+            elif pref == "Osaka":
+                city = "Osaka City"
+            elif pref == "Kyoto":
+                city = "Kyoto City"
+            elif pref == "Saitama":
+                city = "Saitama City"
+            elif pref == "Kanagawa":
+                city = "Yokohama City" if name_raw in ["横浜", "鶴見", "新子安", "東神奈川"] else "Kawasaki City"
+
+        # Coords safety fallback if GSI failed
+        if not coords:
+            pref_ja = PREF_EN_TO_JA.get(pref, "")
+            g = geocode_address(f"{pref_ja} {name_raw}駅")
+            if g:
+                coords = [g[0], g[1]]
+            else:
+                # Conservative metropolitan fallbacks
+                if pref == "Tokyo": coords = [139.7671, 35.6812]
+                elif pref == "Osaka": coords = [135.4962, 34.7025]
+                elif pref == "Kyoto": coords = [135.7588, 34.9853]
+                elif pref == "Saitama": coords = [139.6243, 35.9064]
+                elif pref == "Kanagawa": coords = [139.6226, 35.4660]
+
+        # Station names formatting (Clean: no "駅 Station", no "駅駅")
+        # Format English name
+        if en_raw:
+            # Clean "JR Ōsaka Station" -> "Osaka Station" or "JR Osaka Station"
+            clean_en = en_raw.replace("JR ", "").replace("JR", "").strip()
+            if not clean_en.lower().endswith("station"):
+                clean_en = f"{clean_en} Station"
+            name_en = clean_en
+        else:
+            name_en = f"{name_raw} Station"
+
+        name_ja = f"JR{name_raw}駅"
+        name_romaji = f"{name_raw}-eki"
+        stamp_id = f"eki-yamanote-{slug_str}" if "yamanote" in item["line_file"] else f"eki-{slug_str}"
+
+        if not stamp_loc:
+            stamp_loc = f"{name_ja} 改札口・みどりの窓口付近 (Ticket Gate / Station Counter)"
+        if not hours:
+            hours = "07:00 - 21:00 (Station / Ticket office hours)"
+
+        return {
+            "id": stamp_id,
+            "name": name_en,
+            "name_ja": name_ja,
+            "name_romaji": name_romaji,
+            "category": "eki",
+            "prefecture": pref,
+            "city": city,
+            "address": addr or f"{pref} {name_raw}駅構内",
+            "coordinates": [coords[0], coords[1]],
+            "stampLocation": stamp_loc,
+            "hours": hours,
+            "operator": operator,
+            "imageUrl": f"/images/stamps/{stamp_id}.jpg",
+            "description": f"Official {operator.split(' (')[0]} commemorative railway stamp for {name_en} ({line_name}) in {city}, {pref}. Depicts iconic local landmarks, cultural heritage, and regional railway history."
+        }
+
+    with ThreadPoolExecutor(max_workers=8) as ex:
+        results = list(ex.map(fetch_station, station_links))
+
+    print(f"-> Completed {len(results)} Railway Stations with verified coordinates.")
+    return results
 
 
 # -------------------------------------------------------------
 # 3. ROADSIDE STATIONS (Michi-no-Eki - 道の駅)
 # -------------------------------------------------------------
 def scrape_michi_no_eki() -> List[Dict[str, Any]]:
-    print("\n[Category: MICHI-NO-EKI] Scraping Roadside Rest Stations...")
-    # Scrape key prefectures covering major tourist and travel routes
+    print("\n[Category: MICHI-NO-EKI] Scraping Roadside Rest Stations across Japan...")
     target_prefs = [
         ("tokyo", "Tokyo"),
         ("kanagawa", "Kanagawa"),
@@ -281,7 +436,7 @@ def scrape_michi_no_eki() -> List[Dict[str, Any]]:
         ("okinawa", "Okinawa"),
     ]
 
-    results: List[Dict[str, Any]] = []
+    michi_links = []
     seen_names = set()
 
     for pref_slug, pref_en in target_prefs:
@@ -295,37 +450,89 @@ def scrape_michi_no_eki() -> List[Dict[str, Any]]:
             href = a.get("href", "")
             text = a.get_text(strip=True)
             if "道の駅" in text and "設置あり" in text:
-                m = re.search(r'道の駅\s*([^\s≪]+)', text)
-                station_name = m.group(1).strip() if m else text.split("のスタンプ")[0].replace("道の駅", "").strip()
-                if not station_name or station_name in seen_names:
+                name_raw = text.split("のスタンプ")[0].replace("道の駅", "").strip()
+                name_raw = re.sub(r"[≪（\(].*$", "", name_raw).strip()
+                if not name_raw or name_raw in seen_names:
                     continue
-                seen_names.add(station_name)
+                seen_names.add(name_raw)
 
-                slug = re.search(r'miti-([a-zA-Z0-9\-]+)\.html', href)
-                slug_str = slug.group(1).lower() if slug else f"michi-{len(results)}"
+                clean_href = href.lstrip("/") if href else ""
+                full_url = href if (href and href.startswith("http")) else (f"{BASE_URL}/{clean_href}" if href else "")
+                slug = re.search(r"miti-([a-zA-Z0-9\-]+)\.html", href) if href else None
+                slug_str = slug.group(1).lower() if slug else f"michi-{len(michi_links)}"
 
-                address = f"{pref_en} 道の駅 {station_name}"
-                coords = geocode_address(f"道の駅{station_name} {pref_en}", fallback_query=f"道の駅 {station_name}")
-                if not coords:
-                    coords = (138.2529, 36.2048)
-
-                stamp_id = f"michi-{slug_str}"
-                results.append({
-                    "id": stamp_id,
-                    "name": f"Michi-no-Eki {station_name}",
-                    "name_ja": f"道の駅 {station_name}",
-                    "name_romaji": f"Michi-no-Eki {station_name}",
-                    "category": "michinoeki",
-                    "prefecture": pref_en,
-                    "city": f"{pref_en} Roadside",
-                    "address": address,
-                    "coordinates": [coords[0], coords[1]],
-                    "stampLocation": f"道の駅 {station_name} 観光案内所・物産館スタンプ台 (Main Hall / Information Desk)",
-                    "hours": "09:00 - 18:00 (Facility / Gift Shop hours)",
-                    "operator": f"National Roadside Station Association (全国道の駅連絡会 - {pref_en})",
-                    "imageUrl": f"/images/stamps/{stamp_id}.jpg",
-                    "description": f"Official Roadside Station stamp for Michi-no-Eki {station_name} in {pref_en}. Showcases regional specialty produce, scenic vistas, and road-trip hospitality."
+                michi_links.append({
+                    "name_raw": name_raw,
+                    "pref_en": pref_en,
+                    "pref_ja": PREF_EN_TO_JA.get(pref_en, pref_en),
+                    "url": full_url,
+                    "slug": slug_str
                 })
+
+    print(f"-> Total Michi-no-Eki found: {len(michi_links)}")
+
+    def fetch_michi(m: Dict[str, Any]) -> Dict[str, Any]:
+        detail = fetch_detail_info(m["url"]) if m["url"] else {}
+        st_name = m["name_raw"]
+        pref_en = m["pref_en"]
+        pref_ja = m["pref_ja"]
+        slug_str = m["slug"]
+
+        coords = detail.get("coords")
+        addr = detail.get("addr", "")
+        stamp_loc = detail.get("stamp_loc", "")
+        hours = detail.get("hours", "")
+        name_en = detail.get("name_en", "")
+
+        # If coords missing, geocode Japanese address
+        if not coords and addr:
+            g = geocode_address(addr)
+            if g:
+                coords = [g[0], g[1]]
+
+        # Fallback geocoding with Japanese prefecture and town name (never pass English words or 道の駅)
+        if not coords:
+            clean_name = re.sub(r"[・☆★0-9]+", " ", st_name).strip()
+            g = geocode_address(f"{pref_ja} {clean_name}")
+            if not g:
+                g = geocode_address(f"{pref_ja} {st_name}")
+            if not g:
+                g = geocode_address(pref_ja)
+            if g:
+                coords = [g[0], g[1]]
+            else:
+                coords = [138.2529, 36.2048]
+
+        city = extract_city(addr) or f"{pref_en} Roadside"
+        display_name = name_en if name_en else f"Michi-no-Eki {st_name}"
+        if not display_name.startswith("Michi-no-Eki") and not display_name.startswith("Michinoeki"):
+            display_name = f"Michi-no-Eki {display_name}"
+
+        stamp_id = f"michi-{slug_str}"
+        if not stamp_loc:
+            stamp_loc = f"道の駅 {st_name} 観光案内所・物産館スタンプ台 (Main Hall / Information Desk)"
+        if not hours:
+            hours = "09:00 - 18:00 (Facility / Gift Shop hours)"
+
+        return {
+            "id": stamp_id,
+            "name": display_name,
+            "name_ja": f"道の駅 {st_name}",
+            "name_romaji": f"Michi-no-Eki {st_name}",
+            "category": "michinoeki",
+            "prefecture": pref_en,
+            "city": city,
+            "address": addr or f"{pref_en} 道の駅 {st_name}",
+            "coordinates": [coords[0], coords[1]],
+            "stampLocation": stamp_loc,
+            "hours": hours,
+            "operator": f"National Roadside Station Association (全国道の駅連絡会 - {pref_en})",
+            "imageUrl": f"/images/stamps/{stamp_id}.jpg",
+            "description": f"Official Roadside Station stamp for Michi-no-Eki {st_name} in {city}, {pref_en}. Showcases regional specialty produce, scenic vistas, and road-trip hospitality."
+        }
+
+    with ThreadPoolExecutor(max_workers=10) as ex:
+        results = list(ex.map(fetch_michi, michi_links))
 
     print(f"-> Completed {len(results)} Michi-no-Eki Roadside Stations.")
     return results
@@ -335,7 +542,7 @@ def scrape_michi_no_eki() -> List[Dict[str, Any]]:
 # 4. HIGHWAY STAMPS (Expressway SA / PA - 高速道路)
 # -------------------------------------------------------------
 def scrape_highway_sapa() -> List[Dict[str, Any]]:
-    print("\n[Category: HIGHWAY] Scraping Expressway SA/PA Rest Stops...")
+    print("\n[Category: HIGHWAY] Scraping Expressway SA/PA Rest Stops with verified coordinates...")
     expressways = [
         ("tomei-expwy.html", "Tomei Expressway (東名高速道路)", "NEXCO Central"),
         ("shintomei-expwy.html", "Shin-Tomei Expressway (新東名高速道路)", "NEXCO Central"),
@@ -345,7 +552,7 @@ def scrape_highway_sapa() -> List[Dict[str, Any]]:
         ("meishin-expwy.html", "Meishin Expressway (名神高速道路)", "NEXCO West"),
     ]
 
-    results: List[Dict[str, Any]] = []
+    sapa_links = []
     seen_names = set()
 
     for exp_file, exp_name, operator in expressways:
@@ -365,40 +572,109 @@ def scrape_highway_sapa() -> List[Dict[str, Any]]:
                     continue
                 seen_names.add(sapa_name)
 
-                slug = re.search(r'hw-([a-zA-Z0-9\-]+)\.html', href)
-                slug_str = slug.group(1).lower() if slug else f"hw-{len(results)}"
+                clean_href = href.lstrip("/") if href else ""
+                full_url = href if (href and href.startswith("http")) else (f"{BASE_URL}/{clean_href}" if href else "")
+                slug = re.search(r'hw-([a-zA-Z0-9\-]+)\.html', href) if href else None
+                slug_str = slug.group(1).lower() if slug else sapa_name
+                slug_str = re.sub(r'[^a-z0-9\-]+', '', slug_str) or f"hw-{len(sapa_links)}"
 
-                pref = "Japan Expressway"
-                if any(k in sapa_name for k in ["港北", "海老名", "中井", "足柄"]): pref = "Kanagawa"
-                elif any(k in sapa_name for k in ["富士", "駿河湾", "静岡", "浜名湖", "浜松", "牧之原"]): pref = "Shizuoka"
-                elif any(k in sapa_name for k in ["談合坂", "初狩", "境川", "双葉", "八ヶ岳"]): pref = "Yamanashi"
-                elif any(k in sapa_name for k in ["三芳", "高坂", "嵐山", "寄居", "上里"]): pref = "Saitama"
-                elif any(k in sapa_name for k in ["蓮田", "羽生", "佐野", "那須高原"]): pref = "Tochigi"
-                elif any(k in sapa_name for k in ["多賀", "草津", "大津", "桂川"]): pref = "Shiga"
-
-                coords = geocode_address(f"{sapa_name} {exp_name}", fallback_query=f"{sapa_name}")
-                if not coords:
-                    coords = (138.2529, 36.2048)
-
-                stamp_id = f"hw-{slug_str}"
-                results.append({
-                    "id": stamp_id,
-                    "name": f"{sapa_name} ({exp_name.split(' (')[0]})",
-                    "name_ja": f"{sapa_name}（{exp_name.split(' (')[1].rstrip(')')}）",
-                    "name_romaji": f"{sapa_name}",
-                    "category": "highway",
-                    "prefecture": pref,
-                    "city": f"{exp_name.split(' (')[0]} Corridor",
-                    "address": f"{exp_name} {sapa_name}",
-                    "coordinates": [coords[0], coords[1]],
-                    "stampLocation": f"{sapa_name} サービスエリア・パーキングエリア コンシェルジュ / 案内所 (Information Desk)",
-                    "hours": "24 Hours (Service Area 24時間利用可能)",
-                    "operator": operator,
-                    "imageUrl": f"/images/stamps/{stamp_id}.jpg",
-                    "description": f"Collectible Highway Service Area stamp for {sapa_name} along the {exp_name}. Commemorates iconic local culinary specialties, highway journeys, and regional vistas."
+                sapa_links.append({
+                    "name_raw": sapa_name,
+                    "url": full_url,
+                    "slug": slug_str,
+                    "exp_name": exp_name,
+                    "operator": operator
                 })
 
-    print(f"-> Completed {len(results)} Highway SA/PA rest stops.")
+    print(f"-> Total Highway SA/PA found: {len(sapa_links)}")
+
+    def fetch_highway(hw: Dict[str, Any]) -> Dict[str, Any]:
+        detail = fetch_detail_info(hw["url"]) if hw["url"] else {}
+        sapa_name = hw["name_raw"]
+        exp_name = hw["exp_name"]
+        operator = hw["operator"]
+        slug_str = hw["slug"]
+
+        coords = detail.get("coords")
+        addr = detail.get("addr", "")
+        stamp_loc = detail.get("stamp_loc", "")
+        hours = detail.get("hours", "") or "24 Hours (Service Area 24時間利用可能)"
+        name_en = detail.get("name_en", "")
+
+        if not coords and addr:
+            g = geocode_address(addr)
+            if g:
+                coords = [g[0], g[1]]
+
+        # Determine real prefecture and city from address or route
+        pref = extract_prefecture_en(addr)
+        city = extract_city(addr)
+
+        if not pref or pref == "Japan":
+            if any(k in sapa_name for k in ["港北", "海老名", "中井", "鮎沢", "藤野"]): pref = "Kanagawa"
+            elif any(k in sapa_name for k in ["足柄", "富士", "駿河湾", "静岡", "藤枝", "掛川", "遠州森町", "浜松", "浜名湖", "牧之原"]): pref = "Shizuoka"
+            elif any(k in sapa_name for k in ["長篠設楽原", "岡崎", "尾張一宮"]): pref = "Aichi"
+            elif any(k in sapa_name for k in ["石川"]): pref = "Tokyo"
+            elif any(k in sapa_name for k in ["談合坂", "初狩", "釈迦堂", "境川", "双葉", "八ヶ岳", "谷村"]): pref = "Yamanashi"
+            elif any(k in sapa_name for k in ["中央道原", "諏訪湖", "辰野", "小黒川", "駒ヶ岳", "阿智"]): pref = "Nagano"
+            elif any(k in sapa_name for k in ["神坂", "恵那峡", "屏風山", "虎渓山", "内津峠", "養老", "伊吹"]): pref = "Gifu"
+            elif any(k in sapa_name for k in ["多賀", "黒丸", "菩提寺", "草津", "大津"]): pref = "Shiga"
+            elif any(k in sapa_name for k in ["桂川"]): pref = "Kyoto"
+            elif any(k in sapa_name for k in ["吹田"]): pref = "Osaka"
+            elif any(k in sapa_name for k in ["三芳", "高坂", "嵐山", "寄居", "上里", "蓮田", "羽生"]): pref = "Saitama"
+            elif any(k in sapa_name for k in ["佐野", "都賀西方", "大谷", "上河内", "矢板北", "黒磯", "那須高原"]): pref = "Tochigi"
+            elif any(k in sapa_name for k in ["駒寄", "赤城高原", "谷川岳"]): pref = "Gunma"
+            elif any(k in sapa_name for k in ["塩沢石打", "越後川口", "山谷"]): pref = "Niigata"
+            elif any(k in sapa_name for k in ["阿武隈", "鏡石", "安積", "安達太良", "福島松川", "吾妻", "国見"]): pref = "Fukushima"
+            elif any(k in sapa_name for k in ["菅生", "鶴巣", "長者原"]): pref = "Miyagi"
+            elif any(k in sapa_name for k in ["金成", "前沢", "北上金ヶ崎", "紫波", "矢巾", "滝沢", "岩手山"]): pref = "Iwate"
+            elif any(k in sapa_name for k in ["花輪"]): pref = "Akita"
+            elif any(k in sapa_name for k in ["津軽"]): pref = "Aomori"
+            else: pref = "Japan"
+
+        if not city:
+            city = f"{exp_name.split(' (')[0]} Corridor"
+
+        # Geocode fallback if coords still missing
+        if not coords:
+            pref_ja = PREF_EN_TO_JA.get(pref, "")
+            clean_sapa = re.sub(r'^(?:東名|新東名|中央|関越|東北|名神)(?:高速道路|自動車道)?', '', sapa_name)
+            clean_sapa = clean_sapa.replace("SA", "").replace("PA", "").strip()
+            g = geocode_address(f"{pref_ja} {clean_sapa}")
+            if not g:
+                g = geocode_address(pref_ja)
+            if g:
+                coords = [g[0], g[1]]
+            else:
+                coords = [138.2529, 36.2048]
+
+        display_name = name_en if name_en else f"{sapa_name} ({exp_name.split(' (')[0]})"
+        stamp_id = f"hw-{slug_str}"
+
+        if not stamp_loc:
+            stamp_loc = f"{sapa_name} サービスエリア・パーキングエリア コンシェルジュ / 案内所 (Information Desk)"
+
+        return {
+            "id": stamp_id,
+            "name": display_name,
+            "name_ja": f"{sapa_name}（{exp_name.split(' (')[1].rstrip(')')}）",
+            "name_romaji": sapa_name,
+            "category": "highway",
+            "prefecture": pref,
+            "city": city,
+            "address": addr or f"{exp_name} {sapa_name}",
+            "coordinates": [coords[0], coords[1]],
+            "stampLocation": stamp_loc,
+            "hours": hours,
+            "operator": operator,
+            "imageUrl": f"/images/stamps/{stamp_id}.jpg",
+            "description": f"Collectible Highway Service Area stamp for {sapa_name} along the {exp_name} in {city}, {pref}. Commemorates iconic local culinary specialties, highway journeys, and regional vistas."
+        }
+
+    with ThreadPoolExecutor(max_workers=8) as ex:
+        results = list(ex.map(fetch_highway, sapa_links))
+
+    print(f"-> Completed {len(results)} Highway SA/PA rest stops with verified coordinates.")
     return results
 
 
@@ -407,7 +683,6 @@ def scrape_highway_sapa() -> List[Dict[str, Any]]:
 # -------------------------------------------------------------
 def get_prominent_temples_and_shrines() -> List[Dict[str, Any]]:
     print("\n[Category: TEMPLE & SHRINE] Curating Iconic Spiritual Locations...")
-    # Curate major world-renowned and nationally registered shrines and temples across Japan
     spiritual_sites = [
         {"name": "Senso-ji Temple", "ja": "金龍山 浅草寺", "romaji": "Sensō-ji", "pref": "Tokyo", "city": "Taito City", "addr": "東京都台東区浅草2-3-1", "loc": "浅草寺 本堂・御朱印所 (Main Hall)", "desc": "Tokyo's oldest and most renowned Buddhist temple, dedicated to Bodhisattva Kannon."},
         {"name": "Meiji Jingu Shrine", "ja": "明治神宮", "romaji": "Meiji Jingū", "pref": "Tokyo", "city": "Shibuya City", "addr": "東京都渋谷区代々木神園町1-1", "loc": "明治神宮 神楽殿・社務所 (Kaguraden Office)", "desc": "Historic Shinto shrine nestled in an expansive sacred forest in Shibuya, dedicated to Emperor Meiji."},

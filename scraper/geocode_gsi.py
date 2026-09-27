@@ -13,32 +13,38 @@ import urllib.parse
 from typing import Optional, Tuple, Dict
 import requests
 
+import threading
+
 GSI_API_URL = "https://msearch.gsi.go.jp/address-search/AddressSearch"
 CACHE_DIR = os.path.join(os.path.dirname(__file__), "cache")
 CACHE_FILE = os.path.join(CACHE_DIR, "geocode_cache.json")
 
 # In-memory and disk cache
 _cache: Dict[str, Tuple[float, float]] = {}
+_cache_lock = threading.Lock()
 
 
 def _load_cache():
     global _cache
-    if os.path.exists(CACHE_FILE):
-        try:
-            with open(CACHE_FILE, "r", encoding="utf-8") as f:
-                _cache = json.load(f)
-        except Exception as e:
-            print(f"[geocode_gsi] Failed to load cache: {e}")
+    with _cache_lock:
+        if os.path.exists(CACHE_FILE):
+            try:
+                with open(CACHE_FILE, "r", encoding="utf-8") as f:
+                    _cache = json.load(f)
+            except Exception as e:
+                print(f"[geocode_gsi] Failed to load cache: {e}")
+                _cache = {}
+        else:
             _cache = {}
-    else:
-        _cache = {}
 
 
 def _save_cache():
     os.makedirs(CACHE_DIR, exist_ok=True)
     try:
+        with _cache_lock:
+            cache_snapshot = dict(_cache)
         with open(CACHE_FILE, "w", encoding="utf-8") as f:
-            json.dump(_cache, f, ensure_ascii=False, indent=2)
+            json.dump(cache_snapshot, f, ensure_ascii=False, indent=2)
     except Exception as e:
         print(f"[geocode_gsi] Failed to save cache: {e}")
 
@@ -56,19 +62,62 @@ PREFECTURES = [
     "熊本県", "大分県", "宮崎県", "鹿児島県", "沖縄県"
 ]
 
+PREF_JA_TO_EN: Dict[str, str] = {
+    "北海道": "Hokkaido", "青森県": "Aomori", "岩手県": "Iwate", "宮城県": "Miyagi", "秋田県": "Akita",
+    "山形県": "Yamagata", "福島県": "Fukushima", "茨城県": "Ibaraki", "栃木県": "Tochigi", "群馬県": "Gunma",
+    "埼玉県": "Saitama", "千葉県": "Chiba", "東京都": "Tokyo", "神奈川県": "Kanagawa", "新潟県": "Niigata",
+    "富山県": "Toyama", "石川県": "Ishikawa", "福井県": "Fukui", "山梨県": "Yamanashi", "長野県": "Nagano",
+    "岐阜県": "Gifu", "静岡県": "Shizuoka", "愛知県": "Aichi", "三重県": "Mie", "滋賀県": "Shiga",
+    "京都府": "Kyoto", "大阪府": "Osaka", "兵庫県": "Hyogo", "奈良県": "Nara", "和歌山県": "Wakayama",
+    "鳥取県": "Tottori", "島根県": "Shimane", "岡山県": "Okayama", "広島県": "Hiroshima", "山口県": "Yamaguchi",
+    "徳島県": "Tokushima", "香川県": "Kagawa", "愛媛県": "Ehime", "高知県": "Kochi", "福岡県": "Fukuoka",
+    "佐賀県": "Saga", "長崎県": "Nagasaki", "熊本県": "Kumamoto", "大分県": "Oita", "宮崎県": "Miyazaki",
+    "鹿児島県": "Kagoshima", "沖縄県": "Okinawa"
+}
+
+PREF_EN_TO_JA: Dict[str, str] = {v: k for k, v in PREF_JA_TO_EN.items()}
+
 
 def extract_prefecture(text: str) -> str:
-    """Extract prefecture name (e.g. 東京都, 北海道, 兵庫県) from address text."""
+    """Extract Japanese prefecture name (e.g. 東京都, 北海道, 兵庫県) from address text."""
     for pref in PREFECTURES:
         if pref in text:
-            # Strip trailing 都/道/府/県 for standard display if desired, or keep full
             return pref
-    return "Japan"
+    # Check short forms
+    for pref in PREFECTURES:
+        short = pref.rstrip("都道府縣県")
+        if len(short) >= 2 and short in text:
+            return pref
+    return "全国"
+
+
+def extract_prefecture_en(text: str) -> str:
+    """Extract English prefecture name (e.g. Tokyo, Hokkaido, Kanagawa) from address text."""
+    # Check English first
+    for pref_en in PREF_EN_TO_JA.keys():
+        if pref_en.lower() in text.lower():
+            return pref_en
+    # Check Japanese
+    pref_ja = extract_prefecture(text)
+    return PREF_JA_TO_EN.get(pref_ja, "Japan")
+
+
+def extract_city(text: str) -> str:
+    """Extract city, ward, or district name from Japanese address."""
+    m = re.search(r'(?:東京都|北海道|(?:京都|大阪)府|.{2,3}県)(.+?[市区町村郡])', text)
+    if m:
+        return m.group(1).strip()
+    return ""
 
 
 def clean_query(q: str) -> str:
-    """Strip extraneous text like notes in parentheses or floor indicators."""
+    """Strip extraneous text, parenthesis notes, and POI terms that confuse GSI address geocoding."""
+    # Remove parenthetical comments
     q = re.sub(r'\(.*?\)|（.*?）', '', q)
+    # Remove highway indicators and roadside station terms that break GSI municipal lookup
+    q = re.sub(r'道の駅|サービスエリア|パーキングエリア|\bSA\b|\bPA\b', ' ', q)
+    # Remove ASCII letters if mixed in
+    q = re.sub(r'[a-zA-Z]+', ' ', q)
     q = re.sub(r'\s+', ' ', q).strip()
     return q
 
@@ -86,8 +135,9 @@ def geocode_address(query: str, fallback_query: str = "") -> Optional[Tuple[floa
         return None
 
     # Check cache
-    if clean_q in _cache:
-        return _cache[clean_q]
+    with _cache_lock:
+        if clean_q in _cache:
+            return _cache[clean_q]
 
     headers = {
         "User-Agent": "Stampu-Explorer-Scraper/1.0 (Japan Stamp Collector app)"
@@ -129,7 +179,8 @@ def geocode_address(query: str, fallback_query: str = "") -> Optional[Tuple[floa
             time.sleep(0.15)
 
     if res:
-        _cache[clean_q] = res
+        with _cache_lock:
+            _cache[clean_q] = res
         _save_cache()
         return res
 
