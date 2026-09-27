@@ -2,7 +2,7 @@
 """
 Generates bespoke, authentic Japanese Hanko seals for any stamp that doesn't have
 a photographed ink impression from Funakiya.
-Ensures 100% of all 139 stamps in Stampu have an individualized stamp illustration.
+Ensures 100% of all stamps in Stampu have an individualized stamp illustration.
 """
 
 import os
@@ -18,7 +18,7 @@ CATEGORY_CONFIG = {
         "color": "#b91c1c",
         "ink": "#991b1b",
         "bg": "#fef2f2",
-        "badge": "日本100名城",
+        "badge": "日本名城 登城記念",
         "corner": "登城記念",
         "icon_path": "M150 170 h100 v-20 h-15 v-15 h-20 v-15 h-30 v15 h-20 v15 h-15 z",
     },
@@ -56,21 +56,23 @@ CATEGORY_CONFIG = {
     }
 }
 
+
 def clean_name_for_seal(name_ja: str) -> str:
-    cleaned = re.sub(r'\(.+?\)', '', name_ja).strip()
+    cleaned = re.sub(r'\(.+?\)|（.+?）', '', name_ja).strip()
     return cleaned
+
 
 def generate_seal_svg(stamp: dict) -> str:
     cat = stamp.get("category", "castle")
     cfg = CATEGORY_CONFIG.get(cat, CATEGORY_CONFIG["castle"])
-    
+
     name_ja = clean_name_for_seal(stamp.get("name_ja", stamp.get("name", "")))
     pref = stamp.get("prefecture", "")
-    
+
     # Castle number or ID
     no_match = re.search(r'No\.(\d+)', stamp.get("name", "") + " " + stamp.get("name_ja", ""))
     sub_title = f"No.{int(no_match.group(1)):03d} • {pref}" if no_match else f"{pref} • {stamp.get('city', '')}"
-    
+
     # Calculate font sizes based on character count
     char_len = len(name_ja)
     if char_len <= 3:
@@ -88,7 +90,6 @@ def generate_seal_svg(stamp: dict) -> str:
         mid = (char_len + 1) // 2
         lines = [name_ja[:mid], name_ja[mid:]]
 
-    lines_svg = ""
     if len(lines) == 1:
         lines_svg = f'<text x="200" y="210" font-family="serif" font-weight="900" font-size="{font_size}" fill="{cfg["ink"]}" text-anchor="middle" letter-spacing="4">{lines[0]}</text>'
     else:
@@ -131,34 +132,50 @@ def generate_seal_svg(stamp: dict) -> str:
 </svg>'''
     return svg
 
+
 def main():
     with open(DATA_PATH, "r", encoding="utf-8") as f:
         stamps = json.load(f)
-        
+
     os.makedirs(OUTPUT_DIR, exist_ok=True)
-    
-    updated_count = 0
+    existing_files = set(os.listdir(OUTPUT_DIR))
+
+    generated_count = 0
+    assigned_count = 0
+
     for stamp in stamps:
-        curr_img = stamp.get("imageUrl", "")
-        # Only replace if currently pointing to generic placeholder
-        if "placeholders" in curr_img or not curr_img:
-            stamp_id = stamp["id"]
-            svg_filename = f"{stamp_id}.svg"
-            svg_path = os.path.join(OUTPUT_DIR, svg_filename)
-            
+        stamp_id = stamp["id"]
+        jpg_name = f"{stamp_id}.jpg"
+        png_name = f"{stamp_id}.png"
+        svg_name = f"{stamp_id}.svg"
+
+        if jpg_name in existing_files:
+            stamp["imageUrl"] = f"/images/stamps/{jpg_name}"
+            assigned_count += 1
+        elif png_name in existing_files:
+            stamp["imageUrl"] = f"/images/stamps/{png_name}"
+            assigned_count += 1
+        elif svg_name in existing_files:
+            stamp["imageUrl"] = f"/images/stamps/{svg_name}"
+            assigned_count += 1
+        else:
+            svg_path = os.path.join(OUTPUT_DIR, svg_name)
             svg_content = generate_seal_svg(stamp)
             with open(svg_path, "w", encoding="utf-8") as f:
                 f.write(svg_content)
-                
-            stamp["imageUrl"] = f"/images/stamps/{svg_filename}"
-            updated_count += 1
-            
-    print(f"Generated {updated_count} bespoke Hanko seal SVGs in {OUTPUT_DIR}")
-    
+            existing_files.add(svg_name)
+            stamp["imageUrl"] = f"/images/stamps/{svg_name}"
+            generated_count += 1
+
+    print(f"Assigned existing images: {assigned_count}")
+    print(f"Generated new Hanko SVGs: {generated_count}")
+    print(f"Total stamps processed: {len(stamps)}")
+
     with open(DATA_PATH, "w", encoding="utf-8") as f:
         json.dump(stamps, f, ensure_ascii=False, indent=2)
-        
-    print(f"Updated {DATA_PATH} with 100% individual stamp image paths.")
+
+    print(f"Successfully updated {DATA_PATH} with 100% valid offline image paths.")
+
 
 if __name__ == "__main__":
     main()

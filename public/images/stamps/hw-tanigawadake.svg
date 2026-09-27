@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <!-- Traditional Japanese Rubber Stamp / Hanko Graphic -->
+  <defs>
+    <filter id="hanko-rough-hw-tanigawadake" x="0%" y="0%" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="3" result="noise" />
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="3" xChannelSelector="R" yChannelSelector="G" />
+    </filter>
+  </defs>
+
+  <g filter="url(#hanko-rough-hw-tanigawadake)">
+    <!-- Outer Decorative Stamp Border -->
+    <circle cx="200" cy="200" r="185" fill="none" stroke="#1e40af" stroke-width="8" stroke-dasharray="16 6" />
+    <circle cx="200" cy="200" r="172" fill="none" stroke="#1e40af" stroke-width="3" />
+    
+    <!-- Inner concentric ring -->
+    <circle cx="200" cy="200" r="148" fill="#eff6ff" stroke="#1e40af" stroke-width="2" stroke-dasharray="4 4" opacity="0.6"/>
+
+    <!-- Category Header Ribbon / Badge -->
+    <text x="200" y="85" font-family="serif" font-weight="bold" font-size="22" fill="#1e40af" text-anchor="middle" letter-spacing="6">ハイウェイスタンプ</text>
+    
+    <!-- Central Motif / Icon -->
+    <path d="M160 165 h80 M165 140 h70 l15 25 h-100 z" fill="none" stroke="#1e40af" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Stamp Japanese Name (Kanji) -->
+    <text x="200" y="195" font-family="serif" font-weight="900" font-size="24" fill="#1e40af" text-anchor="middle" letter-spacing="3">関越自動車道</text>
+  <text x="200" y="235" font-family="serif" font-weight="900" font-size="24" fill="#1e40af" text-anchor="middle" letter-spacing="3">谷川岳PA</text>
+
+    <!-- Registration Subtitle (Prefecture & Castle Number) -->
+    <text x="200" y="285" font-family="sans-serif" font-weight="bold" font-size="16" fill="#1e40af" text-anchor="middle" letter-spacing="2">Japan Expressway • Kan-Etsu Expressway Corridor</text>
+
+    <!-- Bottom Commemorative Seal Corner -->
+    <rect x="150" y="315" width="100" height="30" rx="6" fill="none" stroke="#1e40af" stroke-width="3" />
+    <text x="200" y="336" font-family="serif" font-weight="900" font-size="14" fill="#1e40af" text-anchor="middle" letter-spacing="4">休憩記念</text>
+  </g>
+</svg>

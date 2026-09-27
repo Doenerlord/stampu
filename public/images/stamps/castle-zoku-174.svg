@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <!-- Traditional Japanese Rubber Stamp / Hanko Graphic -->
+  <defs>
+    <filter id="hanko-rough-castle-zoku-174" x="0%" y="0%" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="3" result="noise" />
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="3" xChannelSelector="R" yChannelSelector="G" />
+    </filter>
+  </defs>
+
+  <g filter="url(#hanko-rough-castle-zoku-174)">
+    <!-- Outer Decorative Stamp Border -->
+    <circle cx="200" cy="200" r="185" fill="none" stroke="#991b1b" stroke-width="8" stroke-dasharray="16 6" />
+    <circle cx="200" cy="200" r="172" fill="none" stroke="#991b1b" stroke-width="3" />
+    
+    <!-- Inner concentric ring -->
+    <circle cx="200" cy="200" r="148" fill="#fef2f2" stroke="#991b1b" stroke-width="2" stroke-dasharray="4 4" opacity="0.6"/>
+
+    <!-- Category Header Ribbon / Badge -->
+    <text x="200" y="85" font-family="serif" font-weight="bold" font-size="22" fill="#991b1b" text-anchor="middle" letter-spacing="6">日本名城 登城記念</text>
+    
+    <!-- Central Motif / Icon -->
+    <path d="M150 170 h100 v-20 h-15 v-15 h-20 v-15 h-30 v15 h-20 v15 h-15 z" fill="none" stroke="#991b1b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Stamp Japanese Name (Kanji) -->
+    <text x="200" y="195" font-family="serif" font-weight="900" font-size="30" fill="#991b1b" text-anchor="middle" letter-spacing="3">大内氏館</text>
+  <text x="200" y="235" font-family="serif" font-weight="900" font-size="30" fill="#991b1b" text-anchor="middle" letter-spacing="3">・高嶺城</text>
+
+    <!-- Registration Subtitle (Prefecture & Castle Number) -->
+    <text x="200" y="285" font-family="sans-serif" font-weight="bold" font-size="16" fill="#991b1b" text-anchor="middle" letter-spacing="2">No.174 • 山口県</text>
+
+    <!-- Bottom Commemorative Seal Corner -->
+    <rect x="150" y="315" width="100" height="30" rx="6" fill="none" stroke="#991b1b" stroke-width="3" />
+    <text x="200" y="336" font-family="serif" font-weight="900" font-size="14" fill="#991b1b" text-anchor="middle" letter-spacing="4">登城記念</text>
+  </g>
+</svg>
