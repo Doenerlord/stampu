@@ -72,6 +72,7 @@ import MapContainer from '../src/components/MapContainer.vue';
 import App from '../src/App.vue';
 import type { Stamp } from '../src/types/stamp';
 import { db, toggleVisitedStamp, getVisitedStampIds } from '../src/db';
+import { isImageBuffer } from '../src/utils/offlineMap';
 
 const sampleStamp: Stamp = {
   id: 'eki-tokyo',
@@ -290,3 +291,33 @@ describe('Dexie Database Integration', () => {
     expect(visited.size).toBe(0);
   });
 });
+
+describe('Image Buffer Validation (isImageBuffer)', () => {
+  it('correctly identifies valid image formats and rejects HTML/text', () => {
+    // Valid JPEG (0xFF, 0xD8, 0xFF)
+    const jpeg = new Uint8Array([0xff, 0xd8, 0xff, 0xe0, 0x00, 0x10, 0x4a, 0x46]);
+    expect(isImageBuffer(jpeg.buffer)).toBe(true);
+
+    // Valid PNG (0x89, 0x50, 0x4E, 0x47)
+    const png = new Uint8Array([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a]);
+    expect(isImageBuffer(png.buffer)).toBe(true);
+
+    // Valid WebP (RIFF....WEBP)
+    const webp = new Uint8Array([0x52, 0x49, 0x46, 0x46, 0x20, 0x00, 0x00, 0x00]);
+    expect(isImageBuffer(webp.buffer)).toBe(true);
+
+    // HTML fallback (<!doctype html>)
+    const htmlBytes = new TextEncoder().encode('<!doctype html><html><body>Error</body></html>');
+    expect(isImageBuffer(htmlBytes.buffer)).toBe(false);
+
+    // Plain text
+    const textBytes = new TextEncoder().encode('Tile not found locally');
+    expect(isImageBuffer(textBytes.buffer)).toBe(false);
+
+    // Null/undefined/empty
+    expect(isImageBuffer(null)).toBe(false);
+    expect(isImageBuffer(undefined)).toBe(false);
+    expect(isImageBuffer(new ArrayBuffer(4))).toBe(false);
+  });
+});
+

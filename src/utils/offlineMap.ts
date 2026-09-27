@@ -1,8 +1,36 @@
 import { addProtocol } from 'maplibre-gl';
 
-const CACHE_NAME = 'stampu-tiles-cache-v1';
+const CACHE_NAME = 'stampu-tiles-cache-v2';
 
 let isProtocolRegistered = false;
+
+/**
+ * Verify whether an ArrayBuffer or TypedArray contains valid raster image header bytes
+ * (JPEG, PNG, WebP, GIF) to guard against SPA HTML fallbacks (e.g. index.html) or corrupted files.
+ */
+export function isImageBuffer(buffer: ArrayBuffer | ArrayBufferView | null | undefined): boolean {
+  if (!buffer) return false;
+  const byteLength = 'byteLength' in buffer ? buffer.byteLength : 0;
+  if (byteLength < 8) return false;
+
+  let u: Uint8Array;
+  if (ArrayBuffer.isView(buffer)) {
+    u = new Uint8Array(buffer.buffer, buffer.byteOffset, 8);
+  } else {
+    u = new Uint8Array(buffer, 0, 8);
+  }
+
+  // JPEG: 0xFF, 0xD8, 0xFF
+  if (u[0] === 0xff && u[1] === 0xd8 && u[2] === 0xff) return true;
+  // PNG: 0x89, 0x50, 0x4E, 0x47
+  if (u[0] === 0x89 && u[1] === 0x50 && u[2] === 0x4e && u[3] === 0x47) return true;
+  // WebP: 'RIFF'
+  if (u[0] === 0x52 && u[1] === 0x49 && u[2] === 0x46 && u[3] === 0x46) return true;
+  // GIF: 'GIF8'
+  if (u[0] === 0x47 && u[1] === 0x49 && u[2] === 0x46 && u[3] === 0x38) return true;
+
+  return false;
+}
 
 // Tile server mapping
 export const TILE_SOURCES: Record<string, {
@@ -43,6 +71,11 @@ export function registerOfflineTileProtocol() {
   if (isProtocolRegistered) return;
   isProtocolRegistered = true;
 
+  // Clean up legacy cache if present
+  if (typeof caches !== 'undefined') {
+    caches.delete('stampu-tiles-cache-v1').catch(() => {});
+  }
+
   addProtocol('stampu', async (params, abortController) => {
     // URL looks like: stampu://esri/4/5/13 or stampu://gsi_std/4/13/5
     const urlParts = params.url.replace(/^stampu:\/\//, '').split('/');
@@ -65,9 +98,11 @@ export function registerOfflineTileProtocol() {
         signal: abortController.signal,
         cache: 'no-cache',
       });
-      if (localRes.ok) {
+      const contentType = localRes.headers.get('content-type') || '';
+      // Vite and SPA servers return index.html (text/html) with 200 OK for missing files
+      if (localRes.ok && !contentType.includes('text/html')) {
         const data = await localRes.arrayBuffer();
-        if (data.byteLength > 200) {
+        if (isImageBuffer(data)) {
           return { data };
         }
       }
@@ -82,10 +117,15 @@ export function registerOfflineTileProtocol() {
         cache = await caches.open(CACHE_NAME);
         const cachedResponse = await cache.match(params.url);
         if (cachedResponse) {
-          const data = await cachedResponse.arrayBuffer();
-          if (data.byteLength > 200) {
-            return { data };
+          const contentType = cachedResponse.headers.get('content-type') || '';
+          if (!contentType.includes('text/html')) {
+            const data = await cachedResponse.arrayBuffer();
+            if (isImageBuffer(data)) {
+              return { data };
+            }
           }
+          // If cached data was invalid, purge it from cache
+          cache.delete(params.url).catch(() => {});
         }
       } catch (err) {
         console.warn('CacheStorage read error:', err);
@@ -98,13 +138,16 @@ export function registerOfflineTileProtocol() {
         signal: abortController.signal,
       });
 
-      if (networkRes.ok) {
+      const contentType = networkRes.headers.get('content-type') || '';
+      if (networkRes.ok && !contentType.includes('text/html')) {
         const data = await networkRes.clone().arrayBuffer();
-        if (cache && data.byteLength > 200) {
-          // Asynchronously save to cache under the stampu:// URL
-          cache.put(params.url, networkRes).catch(() => {});
+        if (isImageBuffer(data)) {
+          if (cache) {
+            // Asynchronously save to cache under the stampu:// URL
+            cache.put(params.url, networkRes).catch(() => {});
+          }
+          return { data };
         }
-        return { data };
       }
     } catch (netErr) {
       // Network failure (offline mode)
@@ -240,13 +283,26 @@ export async function precacheArea(
       try {
         // Check if already in cache
         const existing = await cache.match(item.url);
-        if (!existing) {
-          const resp = await fetch(item.remoteUrl, { mode: 'cors' });
-          if (resp.ok) {
+        if (existing) {
+          const existingBuf = await existing.clone().arrayBuffer();
+          if (isImageBuffer(existingBuf)) {
+            continue;
+          }
+          // Purge corrupt cache entry
+          await cache.delete(item.url);
+        }
+
+        const resp = await fetch(item.remoteUrl, { mode: 'cors' });
+        const ct = resp.headers.get('content-type') || '';
+        if (resp.ok && !ct.includes('text/html')) {
+          const buf = await resp.clone().arrayBuffer();
+          if (isImageBuffer(buf)) {
             await cache.put(item.url, resp);
           } else {
             failed++;
           }
+        } else {
+          failed++;
         }
       } catch {
         failed++;
