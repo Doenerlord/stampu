@@ -32,11 +32,13 @@ const emit = defineEmits<{
 }>();
 
 const isImageModalOpen = ref(false);
+const hasImageError = ref(false);
 
 watch(
   () => props.stamp,
   () => {
     isImageModalOpen.value = false;
+    hasImageError.value = false;
   }
 );
 
@@ -195,11 +197,12 @@ watch(
             title="Click to inspect stamp in high resolution"
           >
             <img
-              v-if="stamp.imageUrl"
+              v-if="stamp.imageUrl && !hasImageError"
               :src="stamp.imageUrl"
               :alt="stamp.name"
               class="w-full h-full object-contain filter drop-shadow-xs transition-transform duration-200 group-hover:scale-110 select-none"
               loading="eager"
+              @error="hasImageError = true"
             />
             <!-- Fallback Seal if no image -->
             <div

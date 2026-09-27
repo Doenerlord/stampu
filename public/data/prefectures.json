@@ -17,7 +17,7 @@
       "minLon": 140.0462,
       "maxLon": 145.6335
     },
-    "estimatedSizeMB": 10.9
+    "estimatedSizeMB": 10.0
   },
   {
     "id": "akita",
@@ -36,7 +36,7 @@
       "minLon": 139.7976,
       "maxLon": 140.8739
     },
-    "estimatedSizeMB": 3.0
+    "estimatedSizeMB": 4.1
   },
   {
     "id": "aomori",
@@ -56,7 +56,7 @@
       "minLon": 139.9597,
       "maxLon": 141.5056
     },
-    "estimatedSizeMB": 2.9
+    "estimatedSizeMB": 3.5
   },
   {
     "id": "fukushima",
@@ -96,7 +96,7 @@
       "minLon": 140.786,
       "maxLon": 141.9357
     },
-    "estimatedSizeMB": 4.3
+    "estimatedSizeMB": 3.9
   },
   {
     "id": "miyagi",
@@ -116,7 +116,7 @@
       "minLon": 140.4178,
       "maxLon": 141.6163
     },
-    "estimatedSizeMB": 2.4
+    "estimatedSizeMB": 2.9
   },
   {
     "id": "yamagata",
@@ -134,7 +134,7 @@
       "minLon": 139.5238,
       "maxLon": 140.437
     },
-    "estimatedSizeMB": 2.1
+    "estimatedSizeMB": 2.6
   },
   {
     "id": "chiba",
@@ -154,7 +154,7 @@
       "minLon": 139.7947,
       "maxLon": 140.5776
     },
-    "estimatedSizeMB": 3.3
+    "estimatedSizeMB": 4.2
   },
   {
     "id": "gunma",
@@ -174,7 +174,7 @@
       "minLon": 138.5401,
       "maxLon": 139.4314
     },
-    "estimatedSizeMB": 3.5
+    "estimatedSizeMB": 4.5
   },
   {
     "id": "ibaraki",
@@ -193,7 +193,7 @@
       "minLon": 139.7094,
       "maxLon": 140.6901
     },
-    "estimatedSizeMB": 1.6
+    "estimatedSizeMB": 2.9
   },
   {
     "id": "kanagawa",
@@ -214,7 +214,7 @@
       "minLon": 138.9657,
       "maxLon": 139.7469
     },
-    "estimatedSizeMB": 1.8
+    "estimatedSizeMB": 2.9
   },
   {
     "id": "saitama",
@@ -235,7 +235,7 @@
       "minLon": 138.9554,
       "maxLon": 139.8448
     },
-    "estimatedSizeMB": 3.7
+    "estimatedSizeMB": 4.8
   },
   {
     "id": "tochigi",
@@ -256,7 +256,7 @@
       "minLon": 139.3998,
       "maxLon": 140.2263
     },
-    "estimatedSizeMB": 3.0
+    "estimatedSizeMB": 4.5
   },
   {
     "id": "tokyo",
@@ -277,7 +277,7 @@
       "minLon": 139.2319,
       "maxLon": 139.9535
     },
-    "estimatedSizeMB": 24.6
+    "estimatedSizeMB": 29.4
   },
   {
     "id": "aichi",
@@ -298,7 +298,7 @@
       "minLon": 136.7963,
       "maxLon": 137.7699
     },
-    "estimatedSizeMB": 3.2
+    "estimatedSizeMB": 3.7
   },
   {
     "id": "fukui",
@@ -318,7 +318,7 @@
       "minLon": 135.5439,
       "maxLon": 136.7124
     },
-    "estimatedSizeMB": 2.5
+    "estimatedSizeMB": 3.3
   },
   {
     "id": "gifu",
@@ -338,7 +338,7 @@
       "minLon": 136.4939,
       "maxLon": 137.5796
     },
-    "estimatedSizeMB": 5.4
+    "estimatedSizeMB": 4.2
   },
   {
     "id": "ishikawa",
@@ -357,7 +357,7 @@
       "minLon": 136.3008,
       "maxLon": 137.3575
     },
-    "estimatedSizeMB": 2.6
+    "estimatedSizeMB": 3.6
   },
   {
     "id": "nagano",
@@ -378,7 +378,7 @@
       "minLon": 137.6216,
       "maxLon": 138.6852
     },
-    "estimatedSizeMB": 5.8
+    "estimatedSizeMB": 4.8
   },
   {
     "id": "niigata",
@@ -398,7 +398,7 @@
       "minLon": 137.6028,
       "maxLon": 139.6245
     },
-    "estimatedSizeMB": 4.6
+    "estimatedSizeMB": 4.8
   },
   {
     "id": "shizuoka",
@@ -419,7 +419,7 @@
       "minLon": 137.4478,
       "maxLon": 139.1436
     },
-    "estimatedSizeMB": 4.6
+    "estimatedSizeMB": 5.4
   },
   {
     "id": "toyama",
@@ -438,7 +438,7 @@
       "minLon": 136.8012,
       "maxLon": 137.5914
     },
-    "estimatedSizeMB": 1.8
+    "estimatedSizeMB": 3.5
   },
   {
     "id": "yamanashi",
@@ -457,7 +457,7 @@
       "minLon": 138.2178,
       "maxLon": 139.0957
     },
-    "estimatedSizeMB": 2.6
+    "estimatedSizeMB": 2.5
   },
   {
     "id": "hyogo",
@@ -476,7 +476,7 @@
       "minLon": 134.3403,
       "maxLon": 135.2694
     },
-    "estimatedSizeMB": 3.8
+    "estimatedSizeMB": 3.2
   },
   {
     "id": "kyoto",
@@ -497,7 +497,7 @@
       "minLon": 134.879,
       "maxLon": 136.0559
     },
-    "estimatedSizeMB": 2.9
+    "estimatedSizeMB": 3.2
   },
   {
     "id": "mie",
@@ -516,7 +516,7 @@
       "minLon": 135.9717,
       "maxLon": 136.8123
     },
-    "estimatedSizeMB": 2.0
+    "estimatedSizeMB": 2.3
   },
   {
     "id": "nara",
@@ -555,7 +555,7 @@
       "minLon": 135.3051,
       "maxLon": 135.7129
     },
-    "estimatedSizeMB": 12.3
+    "estimatedSizeMB": 12.5
   },
   {
     "id": "shiga",
@@ -574,7 +574,7 @@
       "minLon": 135.8186,
       "maxLon": 136.4462
     },
-    "estimatedSizeMB": 2.6
+    "estimatedSizeMB": 3.3
   },
   {
     "id": "wakayama",
@@ -593,7 +593,7 @@
       "minLon": 135.1175,
       "maxLon": 136.039
     },
-    "estimatedSizeMB": 3.4
+    "estimatedSizeMB": 3.1
   },
   {
     "id": "hiroshima",
@@ -613,7 +613,7 @@
       "minLon": 132.26,
       "maxLon": 133.4125
     },
-    "estimatedSizeMB": 2.6
+    "estimatedSizeMB": 3.3
   },
   {
     "id": "okayama",
@@ -632,7 +632,7 @@
       "minLon": 133.2882,
       "maxLon": 134.3723
     },
-    "estimatedSizeMB": 1.9
+    "estimatedSizeMB": 2.6
   },
   {
     "id": "shimane",
@@ -651,7 +651,7 @@
       "minLon": 131.7107,
       "maxLon": 133.3625
     },
-    "estimatedSizeMB": 2.7
+    "estimatedSizeMB": 3.3
   },
   {
     "id": "tottori",
@@ -669,7 +669,7 @@
       "minLon": 133.2809,
       "maxLon": 134.451
     },
-    "estimatedSizeMB": 1.6
+    "estimatedSizeMB": 1.8
   },
   {
     "id": "yamaguchi",
@@ -689,7 +689,7 @@
       "minLon": 130.8987,
       "maxLon": 132.2297
     },
-    "estimatedSizeMB": 2.6
+    "estimatedSizeMB": 2.9
   },
   {
     "id": "ehime",
@@ -707,7 +707,7 @@
       "minLon": 132.2015,
       "maxLon": 133.3604
     },
-    "estimatedSizeMB": 2.8
+    "estimatedSizeMB": 2.7
   },
   {
     "id": "kagawa",
@@ -726,7 +726,7 @@
       "minLon": 133.581,
       "maxLon": 134.4452
     },
-    "estimatedSizeMB": 1.9
+    "estimatedSizeMB": 2.5
   },
   {
     "id": "kochi",
@@ -744,7 +744,7 @@
       "minLon": 132.657,
       "maxLon": 134.3301
     },
-    "estimatedSizeMB": 2.2
+    "estimatedSizeMB": 2.7
   },
   {
     "id": "tokushima",
@@ -763,17 +763,17 @@
       "minLon": 133.7571,
       "maxLon": 134.7176
     },
-    "estimatedSizeMB": 1.8
+    "estimatedSizeMB": 2.0
   },
   {
     "id": "fukuoka",
     "name": "Fukuoka",
     "name_ja": "福岡県",
     "region": "Kyushu & Okinawa",
-    "stampCount": 30,
+    "stampCount": 29,
     "categories": {
       "castle": 5,
-      "eki": 7,
+      "eki": 6,
       "michinoeki": 17,
       "temple_shrine": 1
     },
@@ -783,7 +783,7 @@
       "minLon": 130.3517,
       "maxLon": 131.18
     },
-    "estimatedSizeMB": 2.4
+    "estimatedSizeMB": 2.7
   },
   {
     "id": "kagoshima",
@@ -803,7 +803,7 @@
       "minLon": 129.4438,
       "maxLon": 131.1263
     },
-    "estimatedSizeMB": 2.4
+    "estimatedSizeMB": 1.8
   },
   {
     "id": "kumamoto",
@@ -823,7 +823,7 @@
       "minLon": 130.1435,
       "maxLon": 131.1713
     },
-    "estimatedSizeMB": 3.4
+    "estimatedSizeMB": 2.0
   },
   {
     "id": "miyazaki",
@@ -842,7 +842,7 @@
       "minLon": 130.7611,
       "maxLon": 131.8575
     },
-    "estimatedSizeMB": 1.8
+    "estimatedSizeMB": 1.7
   },
   {
     "id": "nagasaki",
@@ -861,7 +861,7 @@
       "minLon": 128.7969,
       "maxLon": 130.4202
     },
-    "estimatedSizeMB": 1.5
+    "estimatedSizeMB": 2.0
   },
   {
     "id": "oita",
@@ -879,7 +879,7 @@
       "minLon": 131.1016,
       "maxLon": 131.95
     },
-    "estimatedSizeMB": 2.5
+    "estimatedSizeMB": 1.6
   },
   {
     "id": "okinawa",
@@ -898,7 +898,7 @@
       "minLon": 127.621,
       "maxLon": 128.1523
     },
-    "estimatedSizeMB": 1.3
+    "estimatedSizeMB": 1.9
   },
   {
     "id": "saga",
@@ -917,6 +917,6 @@
       "minLon": 129.8583,
       "maxLon": 130.5731
     },
-    "estimatedSizeMB": 1.5
+    "estimatedSizeMB": 2.2
   }
 ]

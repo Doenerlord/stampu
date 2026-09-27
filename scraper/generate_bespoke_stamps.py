@@ -8,6 +8,7 @@ Ensures 100% of all stamps in Stampu have an individualized stamp illustration.
 import os
 import json
 import re
+import zlib
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_PATH = os.path.join(BASE_DIR, "public", "data", "stamps.json")
@@ -15,65 +16,70 @@ OUTPUT_DIR = os.path.join(BASE_DIR, "public", "images", "stamps")
 
 CATEGORY_CONFIG = {
     "castle": {
-        "color": "#b91c1c",
         "ink": "#991b1b",
         "bg": "#fef2f2",
         "badge": "日本名城 登城記念",
         "corner": "登城記念",
-        "icon_path": "M150 170 h100 v-20 h-15 v-15 h-20 v-15 h-30 v15 h-20 v15 h-15 z",
     },
     "michinoeki": {
-        "color": "#b45309",
-        "ink": "#92400e",
-        "bg": "#fffbeb",
-        "badge": "道の駅 登録記念",
+        "ink": "#9a3412",
+        "bg": "#fff7ed",
+        "badge": "全国道の駅 登録記念",
         "corner": "来駅記念",
-        "icon_path": "M155 135 l45 -25 l45 25 v45 h-90 z",
     },
     "highway": {
-        "color": "#1d4ed8",
         "ink": "#1e40af",
         "bg": "#eff6ff",
-        "badge": "ハイウェイスタンプ",
-        "corner": "休憩記念",
-        "icon_path": "M160 165 h80 M165 140 h70 l15 25 h-100 z",
+        "badge": "ハイウェイ 休憩記念",
+        "corner": "交通安全",
     },
     "temple_shrine": {
-        "color": "#7e22ce",
-        "ink": "#6b21a8",
-        "bg": "#faf5ff",
-        "badge": "御朱印・参拝記念",
+        "ink": "#991b1b",
+        "bg": "#fef2f2",
+        "badge": "名刹古社 参拝記念",
         "corner": "奉拝",
-        "icon_path": "M140 125 h120 M150 140 h100 M170 140 v40 M230 140 v40",
     },
     "eki": {
-        "color": "#047857",
         "ink": "#065f46",
         "bg": "#ecfdf5",
-        "badge": "駅スタンプ",
+        "badge": "鉄道 記念スタンプ",
         "corner": "乗車記念",
-        "icon_path": "M155 110 h90 v60 h-90 z",
     }
 }
 
 
 def clean_name_for_seal(name_ja: str) -> str:
     cleaned = re.sub(r'\(.+?\)|（.+?）', '', name_ja).strip()
-    return cleaned
+    cleaned = cleaned.replace("道の駅", "").replace("JR", "").strip()
+    return cleaned or name_ja
+
+
+def get_stamp_rotation(stamp_id: str) -> float:
+    crc = zlib.crc32(stamp_id.encode("utf-8"))
+    return round(((crc % 100) / 100.0) * 4.4 - 2.2, 2)
 
 
 def generate_seal_svg(stamp: dict) -> str:
     cat = stamp.get("category", "castle")
     cfg = CATEGORY_CONFIG.get(cat, CATEGORY_CONFIG["castle"])
+    stamp_id = stamp["id"]
 
     name_ja = clean_name_for_seal(stamp.get("name_ja", stamp.get("name", "")))
     pref = stamp.get("prefecture", "")
+    city = stamp.get("city", "")
 
     # Castle number or ID
     no_match = re.search(r'No\.(\d+)', stamp.get("name", "") + " " + stamp.get("name_ja", ""))
-    sub_title = f"No.{int(no_match.group(1)):03d} • {pref}" if no_match else f"{pref} • {stamp.get('city', '')}"
+    if no_match:
+        sub_title = f"No.{int(no_match.group(1)):03d} • {pref}"
+    elif city:
+        sub_title = f"{pref} • {city}"
+    else:
+        sub_title = f"COLLECTION • {pref}"
 
-    # Calculate font sizes based on character count
+    rot = get_stamp_rotation(stamp_id)
+
+    # Calculate font sizes and layout based on character count
     char_len = len(name_ja)
     if char_len <= 3:
         font_size = 46
@@ -85,49 +91,67 @@ def generate_seal_svg(stamp: dict) -> str:
         font_size = 30
         mid = (char_len + 1) // 2
         lines = [name_ja[:mid], name_ja[mid:]]
-    else:
+    elif char_len <= 14:
         font_size = 24
+        mid = (char_len + 1) // 2
+        lines = [name_ja[:mid], name_ja[mid:]]
+    else:
+        font_size = 20
         mid = (char_len + 1) // 2
         lines = [name_ja[:mid], name_ja[mid:]]
 
     if len(lines) == 1:
-        lines_svg = f'<text x="200" y="210" font-family="serif" font-weight="900" font-size="{font_size}" fill="{cfg["ink"]}" text-anchor="middle" letter-spacing="4">{lines[0]}</text>'
+        lines_svg = f'<text x="200" y="195" font-family="\'Noto Serif JP\', \'Yu Mincho\', serif" font-weight="900" font-size="{font_size}" fill="{cfg["ink"]}" text-anchor="middle" letter-spacing="4">{lines[0]}</text>'
     else:
-        lines_svg = f'''<text x="200" y="195" font-family="serif" font-weight="900" font-size="{font_size}" fill="{cfg["ink"]}" text-anchor="middle" letter-spacing="3">{lines[0]}</text>
-  <text x="200" y="235" font-family="serif" font-weight="900" font-size="{font_size}" fill="{cfg["ink"]}" text-anchor="middle" letter-spacing="3">{lines[1]}</text>'''
+        lines_svg = f'''<text x="200" y="180" font-family="\'Noto Serif JP\', \'Yu Mincho\', serif" font-weight="900" font-size="{font_size}" fill="{cfg["ink"]}" text-anchor="middle" letter-spacing="3">{lines[0]}</text>
+    <text x="200" y="222" font-family="\'Noto Serif JP\', \'Yu Mincho\', serif" font-weight="900" font-size="{font_size}" fill="{cfg["ink"]}" text-anchor="middle" letter-spacing="3">{lines[1]}</text>'''
+
+    badge_text = cfg["badge"]
+    if cat == "castle":
+        if "zoku" in stamp_id or "続" in stamp.get("name_ja", ""):
+            badge_text = "続日本100名城 登城印"
+        else:
+            badge_text = "日本100名城 登城記念"
 
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
-  <!-- Traditional Japanese Rubber Stamp / Hanko Graphic -->
+  <!-- Traditional Japanese Hanko Commemorative Seal -->
   <defs>
-    <filter id="hanko-rough-{stamp['id']}" x="0%" y="0%" width="100%" height="100%">
+    <filter id="hanko-rough-{stamp_id}" x="-5%" y="-5%" width="110%" height="110%">
       <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="3" result="noise" />
-      <feDisplacementMap in="SourceGraphic" in2="noise" scale="3" xChannelSelector="R" yChannelSelector="G" />
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="2.5" xChannelSelector="R" yChannelSelector="G" />
     </filter>
   </defs>
 
-  <g filter="url(#hanko-rough-{stamp['id']})">
-    <!-- Outer Decorative Stamp Border -->
-    <circle cx="200" cy="200" r="185" fill="none" stroke="{cfg["ink"]}" stroke-width="8" stroke-dasharray="16 6" />
-    <circle cx="200" cy="200" r="172" fill="none" stroke="{cfg["ink"]}" stroke-width="3" />
-    
-    <!-- Inner concentric ring -->
-    <circle cx="200" cy="200" r="148" fill="{cfg["bg"]}" stroke="{cfg["ink"]}" stroke-width="2" stroke-dasharray="4 4" opacity="0.6"/>
+  <g filter="url(#hanko-rough-{stamp_id})" transform="rotate({rot} 200 200)">
+    <!-- Outer Decorative Concentric Rings -->
+    <circle cx="200" cy="200" r="185" fill="none" stroke="{cfg["ink"]}" stroke-width="7" stroke-dasharray="18 6" />
+    <circle cx="200" cy="200" r="172" fill="none" stroke="{cfg["ink"]}" stroke-width="2.5" />
+    <circle cx="200" cy="200" r="148" fill="{cfg["bg"]}" stroke="{cfg["ink"]}" stroke-width="1.5" stroke-dasharray="6 4" opacity="0.7"/>
 
-    <!-- Category Header Ribbon / Badge -->
-    <text x="200" y="85" font-family="serif" font-weight="bold" font-size="22" fill="{cfg["ink"]}" text-anchor="middle" letter-spacing="6">{cfg["badge"]}</text>
-    
-    <!-- Central Motif / Icon -->
-    <path d="{cfg["icon_path"]}" fill="none" stroke="{cfg["ink"]}" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- Category Header Ribbon -->
+    <text x="200" y="86" font-family="'Noto Serif JP', 'Yu Mincho', serif" font-weight="bold" font-size="20" fill="{cfg["ink"]}" text-anchor="middle" letter-spacing="5">{badge_text}</text>
 
-    <!-- Stamp Japanese Name (Kanji) -->
+    <!-- Top Traditional Divider Bar -->
+    <line x1="85" y1="108" x2="315" y2="108" stroke="{cfg["ink"]}" stroke-width="2.5" stroke-dasharray="8 4" />
+    <circle cx="200" cy="108" r="4" fill="{cfg["ink"]}" />
+
+    <!-- Flanking Decorative Brackets -->
+    <text x="75" y="198" font-family="'Noto Serif JP', serif" font-weight="bold" font-size="24" fill="{cfg["ink"]}" text-anchor="middle">〔</text>
+    <text x="325" y="198" font-family="'Noto Serif JP', serif" font-weight="bold" font-size="24" fill="{cfg["ink"]}" text-anchor="middle">〕</text>
+
+    <!-- Stamp Japanese Name (Kanji / Calligraphy) -->
     {lines_svg}
 
-    <!-- Registration Subtitle (Prefecture & Castle Number) -->
-    <text x="200" y="285" font-family="sans-serif" font-weight="bold" font-size="16" fill="{cfg["ink"]}" text-anchor="middle" letter-spacing="2">{sub_title}</text>
+    <!-- Bottom Traditional Divider Bar -->
+    <line x1="85" y1="262" x2="315" y2="262" stroke="{cfg["ink"]}" stroke-width="2.5" stroke-dasharray="8 4" />
+    <circle cx="200" cy="262" r="4" fill="{cfg["ink"]}" />
 
-    <!-- Bottom Commemorative Seal Corner -->
-    <rect x="150" y="315" width="100" height="30" rx="6" fill="none" stroke="{cfg["ink"]}" stroke-width="3" />
-    <text x="200" y="336" font-family="serif" font-weight="900" font-size="14" fill="{cfg["ink"]}" text-anchor="middle" letter-spacing="4">{cfg["corner"]}</text>
+    <!-- Subtitle (Prefecture & Location) -->
+    <text x="200" y="292" font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif" font-weight="bold" font-size="15" fill="{cfg["ink"]}" text-anchor="middle" letter-spacing="2">{sub_title}</text>
+
+    <!-- Bottom Commemorative Seal Cartouche -->
+    <rect x="135" y="318" width="130" height="32" rx="6" fill="{cfg["bg"]}" stroke="{cfg["ink"]}" stroke-width="2.5" />
+    <text x="200" y="340" font-family="'Noto Serif JP', 'Yu Mincho', serif" font-weight="900" font-size="15" fill="{cfg["ink"]}" text-anchor="middle" letter-spacing="5">{cfg["corner"]}</text>
   </g>
 </svg>'''
     return svg
@@ -140,41 +164,23 @@ def main():
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     existing_files = set(os.listdir(OUTPUT_DIR))
 
-    generated_count = 0
-    assigned_count = 0
+    regenerated_count = 0
 
     for stamp in stamps:
         stamp_id = stamp["id"]
-        jpg_name = f"{stamp_id}.jpg"
-        png_name = f"{stamp_id}.png"
-        svg_name = f"{stamp_id}.svg"
+        img_url = stamp.get("imageUrl", "")
 
-        if jpg_name in existing_files:
-            stamp["imageUrl"] = f"/images/stamps/{jpg_name}"
-            assigned_count += 1
-        elif png_name in existing_files:
-            stamp["imageUrl"] = f"/images/stamps/{png_name}"
-            assigned_count += 1
-        elif svg_name in existing_files:
-            stamp["imageUrl"] = f"/images/stamps/{svg_name}"
-            assigned_count += 1
-        else:
+        # If it uses an SVG, regenerate with the authentic Japanese Hanko design without generic clipart icon
+        if img_url.endswith(".svg"):
+            svg_name = f"{stamp_id}.svg"
             svg_path = os.path.join(OUTPUT_DIR, svg_name)
             svg_content = generate_seal_svg(stamp)
             with open(svg_path, "w", encoding="utf-8") as f:
                 f.write(svg_content)
-            existing_files.add(svg_name)
-            stamp["imageUrl"] = f"/images/stamps/{svg_name}"
-            generated_count += 1
+            regenerated_count += 1
 
-    print(f"Assigned existing images: {assigned_count}")
-    print(f"Generated new Hanko SVGs: {generated_count}")
-    print(f"Total stamps processed: {len(stamps)}")
-
-    with open(DATA_PATH, "w", encoding="utf-8") as f:
-        json.dump(stamps, f, ensure_ascii=False, indent=2)
-
-    print(f"Successfully updated {DATA_PATH} with 100% valid offline image paths.")
+    print(f"Total stamps: {len(stamps)}")
+    print(f"Regenerated authentic Hanko SVGs: {regenerated_count}")
 
 
 if __name__ == "__main__":
