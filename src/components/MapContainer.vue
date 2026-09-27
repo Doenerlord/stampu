@@ -228,10 +228,17 @@ function updateMarkers() {
       el.className = 'stampu-marker-root';
       renderMarkerContent(el, stamp);
 
-      el.addEventListener('click', (ev) => {
+      let lastTriggerTime = 0;
+      const triggerSelect = (ev: Event) => {
+        const now = Date.now();
+        if (now - lastTriggerTime < 300) return; // Prevent double trigger on mobile
+        lastTriggerTime = now;
         ev.stopPropagation();
         emit('selectStamp', stamp);
-      });
+      };
+
+      el.addEventListener('click', triggerSelect);
+      el.addEventListener('touchend', triggerSelect, { passive: true });
 
       const marker = new Marker({
         element: el,
@@ -424,7 +431,7 @@ defineExpose({
         </button>
       </div>
 
-      <div class="flex items-center gap-2">
+      <div class="flex items-center gap-2 pointer-events-auto">
         <button
           type="button"
           @click="openOfflineModal"

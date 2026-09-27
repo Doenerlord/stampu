@@ -87,6 +87,7 @@ const sampleStamp: Stamp = {
   hours: '07:30 - 20:30',
   operator: 'JR East',
   description: 'Featuring the iconic red-brick Marunouchi Station building.',
+  imageUrl: '/images/stamps/eki-yamanote-tokyo.jpg',
 };
 
 describe('Stamp Dataset (public/data/stamps.json)', () => {
@@ -148,6 +149,11 @@ describe('StampDrawer Component', () => {
     // Verify Stamp desk location callout
     expect(wrapper.text()).toContain('Marunouchi North Exit');
     expect(wrapper.text()).toContain('07:30 - 20:30');
+
+    // Verify Stamp image renders properly
+    const img = wrapper.find('img');
+    expect(img.exists()).toBe(true);
+    expect(img.attributes('src')).toBe('/images/stamps/eki-yamanote-tokyo.jpg');
 
     // Verify Close button emits close
     const closeBtn = wrapper.find('button[aria-label="Close drawer"]');

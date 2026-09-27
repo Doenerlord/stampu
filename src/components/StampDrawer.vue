@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, watch, onMounted, onUnmounted } from 'vue';
+import { ref, computed, watch, onMounted, onUnmounted } from 'vue';
 import type { Stamp } from '../types/stamp';
 import { CATEGORIES } from '../constants/categories';
 import {
@@ -13,7 +13,8 @@ import {
   Store,
   Car,
   Castle,
-  Compass
+  Compass,
+  Maximize2,
 } from 'lucide-vue-next';
 
 const props = defineProps<{
@@ -27,6 +28,15 @@ const emit = defineEmits<{
   (e: 'toggleCollected', stampId: string): void;
   (e: 'focusMap', coordinates: [number, number]): void;
 }>();
+
+const isImageModalOpen = ref(false);
+
+watch(
+  () => props.stamp,
+  () => {
+    isImageModalOpen.value = false;
+  }
+);
 
 const iconMap = {
   Train,
@@ -149,41 +159,67 @@ watch(
 
       <!-- Scrollable Body -->
       <div class="flex-1 overflow-y-auto px-5 py-4 space-y-4">
-        <!-- Visual Seal / Stamp Motif Banner -->
-        <div class="relative bg-gradient-to-br from-slate-800 to-slate-850 rounded-2xl p-4 border border-slate-700/70 flex items-center gap-4 overflow-hidden">
-          <!-- Traditional Japanese Seal Stamp Graphic -->
+        <!-- Stamp Showcase Card (Washi Paper Stamp-Chō Mount) -->
+        <div class="relative bg-slate-800/80 rounded-2xl p-4 border border-slate-700/80 flex items-center gap-4 overflow-hidden shadow-lg">
+          <!-- Stamp Paper Mount -->
           <div
-            :class="[
-              'relative flex-shrink-0 w-20 h-20 rounded-full border-4 flex flex-col items-center justify-center p-2 text-center transition-transform shadow-inner',
-              isCollected
-                ? 'border-emerald-500 bg-emerald-950/30 text-emerald-400 rotate-[-4deg] scale-105'
-                : 'border-red-600/90 bg-red-950/20 text-red-500 rotate-[-6deg]'
-            ]"
+            class="relative flex-shrink-0 w-24 h-24 sm:w-28 sm:h-28 bg-stone-50 rounded-2xl p-1.5 shadow-md border border-stone-200 flex items-center justify-center overflow-hidden cursor-pointer group hover:ring-2 hover:ring-rose-400 transition-all"
+            @click="stamp.imageUrl ? (isImageModalOpen = true) : null"
+            title="Click to inspect stamp in high resolution"
           >
-            <div class="w-full h-full border border-dashed rounded-full border-current flex flex-col items-center justify-center p-1">
-              <span class="text-[10px] tracking-widest font-serif leading-none uppercase">{{ stamp.prefecture }}</span>
-              <span class="text-base font-black font-serif my-0.5 leading-none">{{ stamp.name_ja.slice(0, 2) }}</span>
-              <span class="text-[9px] font-bold tracking-wider leading-none">記念印</span>
-            </div>
-            <!-- Red Hanko ink texture glow -->
-            <div
-              class="absolute inset-0 rounded-full opacity-20 pointer-events-none"
-              :class="isCollected ? 'bg-emerald-400' : 'bg-red-500'"
+            <img
+              v-if="stamp.imageUrl"
+              :src="stamp.imageUrl"
+              :alt="stamp.name"
+              class="w-full h-full object-contain filter drop-shadow-xs transition-transform duration-200 group-hover:scale-110 select-none"
+              loading="eager"
             />
+            <!-- Fallback Seal if no image -->
+            <div
+              v-else
+              :class="[
+                'w-full h-full rounded-xl border-2 border-dashed flex flex-col items-center justify-center p-1 text-center',
+                isCollected ? 'border-emerald-600 text-emerald-700' : 'border-red-600 text-red-600'
+              ]"
+            >
+              <span class="text-[9px] font-serif leading-none uppercase">{{ stamp.prefecture }}</span>
+              <span class="text-sm font-black font-serif my-0.5 leading-none">{{ stamp.name_ja.slice(0, 2) }}</span>
+              <span class="text-[8px] font-bold leading-none">記念印</span>
+            </div>
+
+            <!-- Collected "済" Stamp Seal Overlay -->
+            <div
+              v-if="isCollected"
+              class="absolute bottom-1 right-1 bg-emerald-600/95 text-white text-[9px] font-bold px-1.5 py-0.5 rounded shadow border border-white/80 rotate-[-12deg] tracking-wider font-serif flex items-center gap-0.5 pointer-events-none"
+            >
+              <span>済</span>
+              <span class="text-[7px]">COLLECTED</span>
+            </div>
           </div>
 
+          <!-- Description & Details -->
           <div class="flex-1 min-w-0">
-            <p class="text-xs text-slate-400 line-clamp-3 leading-relaxed">
+            <p class="text-xs text-slate-300 leading-relaxed line-clamp-3">
               {{ stamp.description }}
             </p>
-            <div class="mt-2 flex items-center gap-2">
+            <div class="mt-2.5 flex flex-wrap items-center gap-2">
               <button
                 type="button"
                 @click="$emit('focusMap', stamp.coordinates)"
-                class="inline-flex items-center gap-1 text-xs text-red-400 hover:text-red-300 font-semibold transition-colors"
+                class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-700/80 hover:bg-slate-700 text-xs text-rose-300 hover:text-white font-medium border border-slate-600/60 transition-colors active:scale-95"
               >
-                <Compass class="w-3.5 h-3.5" />
+                <Compass class="w-3.5 h-3.5 text-rose-400" />
                 <span>Center on Map</span>
+              </button>
+
+              <button
+                v-if="stamp.imageUrl"
+                type="button"
+                @click="isImageModalOpen = true"
+                class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-700/80 hover:bg-slate-700 text-xs text-slate-300 hover:text-white font-medium border border-slate-600/60 transition-colors active:scale-95"
+              >
+                <Maximize2 class="w-3.5 h-3.5 text-slate-400" />
+                <span>Enlarge</span>
               </button>
             </div>
           </div>
@@ -254,6 +290,47 @@ watch(
           <span v-else class="text-base font-serif leading-none">印</span>
           <span>{{ isCollected ? 'Collected! (Click to Undo)' : 'I Stamped This! (集めた)' }}</span>
         </button>
+      </div>
+    </div>
+
+    <!-- Fullscreen Stamp Image Lightbox Modal -->
+    <div
+      v-if="isImageModalOpen && stamp?.imageUrl"
+      class="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-slate-950/85 backdrop-blur-md animate-in fade-in duration-200"
+      @click="isImageModalOpen = false"
+    >
+      <div
+        class="relative max-w-sm sm:max-w-md w-full bg-stone-50 rounded-3xl p-6 shadow-2xl border-4 border-stone-200 flex flex-col items-center gap-4 animate-in zoom-in-95 duration-200 text-stone-900"
+        @click.stop
+      >
+        <button
+          type="button"
+          @click="isImageModalOpen = false"
+          class="absolute top-3 right-3 p-2 text-stone-500 hover:text-stone-900 bg-stone-200/80 hover:bg-stone-300 rounded-full transition-colors"
+          aria-label="Close image lightbox"
+        >
+          <X class="w-5 h-5" />
+        </button>
+
+        <div class="text-center">
+          <div class="text-[10px] uppercase tracking-widest font-bold text-stone-500">
+            {{ categoryInfo?.label }} ({{ categoryInfo?.labelJa }})
+          </div>
+          <h3 class="text-xl font-bold text-stone-900 mt-0.5">{{ stamp.name }}</h3>
+          <p class="text-sm font-serif text-stone-600">{{ stamp.name_ja }}</p>
+        </div>
+
+        <div class="w-64 h-64 sm:w-72 sm:h-72 bg-white rounded-2xl p-4 shadow-inner border border-stone-200 flex items-center justify-center">
+          <img
+            :src="stamp.imageUrl"
+            :alt="stamp.name"
+            class="max-w-full max-h-full object-contain filter drop-shadow-sm select-none"
+          />
+        </div>
+
+        <div class="text-center text-xs text-stone-500 max-w-xs">
+          {{ stamp.stampLocation }}
+        </div>
       </div>
     </div>
   </div>
