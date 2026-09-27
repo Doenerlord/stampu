@@ -1,6 +1,8 @@
 import { addProtocol } from 'maplibre-gl';
+import bundledTilesList from '../constants/bundledTiles.json';
 
 const CACHE_NAME = 'stampu-tiles-cache-v2';
+const BUNDLED_TILES_SET = new Set(bundledTilesList as string[]);
 
 let isProtocolRegistered = false;
 
@@ -92,25 +94,7 @@ export function registerOfflineTileProtocol() {
     const localUrl = sourceConfig.localPath(z, a, b);
     const remoteUrl = sourceConfig.remoteTemplate(z, a, b);
 
-    // 1. Check local bundled assets in /tiles/...
-    try {
-      const localRes = await fetch(localUrl, {
-        signal: abortController.signal,
-        cache: 'no-cache',
-      });
-      const contentType = localRes.headers.get('content-type') || '';
-      // Vite and SPA servers return index.html (text/html) with 200 OK for missing files
-      if (localRes.ok && !contentType.includes('text/html')) {
-        const data = await localRes.arrayBuffer();
-        if (isImageBuffer(data)) {
-          return { data };
-        }
-      }
-    } catch {
-      // Local bundled tile not found, continue to cache / network
-    }
-
-    // 2. Check CacheStorage
+    // 1. Check CacheStorage first (in-memory/IDB, zero HTTP requests)
     let cache: Cache | null = null;
     if (typeof caches !== 'undefined') {
       try {
@@ -129,6 +113,27 @@ export function registerOfflineTileProtocol() {
         }
       } catch (err) {
         console.warn('CacheStorage read error:', err);
+      }
+    }
+
+    // 2. Check local bundled assets in /tiles/... ONLY if present in bundledTiles manifest
+    // (Prevents spamming 404 HTTP requests for non-bundled tiles)
+    const bundledRelPath = `${sourceKey}/${z}/${a}/${b}.${sourceConfig.ext}`;
+    if (BUNDLED_TILES_SET.has(bundledRelPath)) {
+      try {
+        const localRes = await fetch(localUrl, {
+          signal: abortController.signal,
+          cache: 'no-cache',
+        });
+        const contentType = localRes.headers.get('content-type') || '';
+        if (localRes.ok && !contentType.includes('text/html')) {
+          const data = await localRes.arrayBuffer();
+          if (isImageBuffer(data)) {
+            return { data };
+          }
+        }
+      } catch {
+        // Fallback to remote network
       }
     }
 
