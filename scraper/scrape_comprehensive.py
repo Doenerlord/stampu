@@ -258,18 +258,60 @@ def scrape_all_200_castles() -> List[Dict[str, Any]]:
 # -------------------------------------------------------------
 # 2. RAILWAY STATIONS (Eki Stamps - 駅スタンプ)
 # -------------------------------------------------------------
+# 2. RAILWAY STATIONS (Eki Stamps - 駅スタンプ)
+# -------------------------------------------------------------
 def scrape_railway_lines() -> List[Dict[str, Any]]:
-    print("\n[Category: EKI] Scraping Major Railway Lines with verified coordinates...")
+    print("\n[Category: EKI] Scraping Major Railway Lines (Shinkansen, Metro, Toei, Osaka Metro, JR)...")
     lines_to_scrape = [
-        ("jr-yamanote-line.html", "JR East (JR東日本 - 山手線)", "Yamanote Line"),
-        ("jr-chuo-line.html", "JR East (JR東日本 - 中央線快速・緩行)", "Chūō Line"),
-        ("jr-keihintohoku-line.html", "JR East (JR東日本 - 京浜東北線)", "Keihin-Tohoku Line"),
-        ("jr-osaka-loop-line.html", "JR West (JR西日本 - 大阪環状線)", "Osaka Loop Line"),
-        ("jr-kyoto-line.html", "JR West (JR西日本 - JR京都線)", "Kyoto Line"),
+        # Major Metropolitan JR Commuter Lines
+        ("jr-yamanote-line.html", "JR East (JR東日本)", "Yamanote Line"),
+        ("jr-chuo-line.html", "JR East (JR東日本)", "Chūō Line"),
+        ("jr-keihintohoku-line.html", "JR East (JR東日本)", "Keihin-Tōhoku Line"),
+        ("jr-osaka-loop-line.html", "JR West (JR西日本)", "Osaka Loop Line"),
+        ("jr-kyoto-line.html", "JR West (JR西日本)", "Kyoto Line"),
+
+        # High-Speed Shinkansen Network
+        ("jr-tokaido-shinkansen-line.html", "JR Central (JR東海)", "Tōkaidō Shinkansen"),
+        ("sanyo-shinkansen-line.html", "JR West (JR西日本)", "San’yō Shinkansen"),
+        ("jr-tohoku-shinkansen-line.html", "JR East (JR東日本)", "Tōhoku Shinkansen"),
+        ("jr-joetsu-shinkansen.html", "JR East (JR東日本)", "Jōetsu Shinkansen"),
+        ("jr-naganoshinkansen-line.html", "JR East (JR東日本)", "Hokuriku Shinkansen"),
+        ("jr-hokurikushinkansen-line.html", "JR West (JR西日本)", "Hokuriku Shinkansen"),
+        ("jr-kyushushinkansen-line.html", "JR Kyushu (JR九州)", "Kyūshū Shinkansen"),
+        ("jr-nishikyushushinkansen-line.html", "JR Kyushu (JR九州)", "Nishi-Kyūshū Shinkansen"),
+        ("jr-hokkaido-shinkansen-line.html", "JR Hokkaido (JR北海道)", "Hokkaidō Shinkansen"),
+
+        # Tokyo Metro Network (all 9 lines)
+        ("tokyometro-ginza-line.html", "Tokyo Metro (東京メトロ)", "Ginza Line"),
+        ("tokyometro-marunouchi-line.html", "Tokyo Metro (東京メトロ)", "Marunouchi Line"),
+        ("tokyometro-hibiya-line.html", "Tokyo Metro (東京メトロ)", "Hibiya Line"),
+        ("tokyometro-tozai-line.html", "Tokyo Metro (東京メトロ)", "Tōzai Line"),
+        ("tokyometro-chiyoda-line.html", "Tokyo Metro (東京メトロ)", "Chiyoda Line"),
+        ("tokyometro-yurakucho-line.html", "Tokyo Metro (東京メトロ)", "Yūrakuchō Line"),
+        ("tokyometro-hanzomon-line.html", "Tokyo Metro (東京メトロ)", "Hanzōmon Line"),
+        ("tokyometro-nanboku-line.html", "Tokyo Metro (東京メトロ)", "Namboku Line"),
+        ("tokyometro-fukutoshin-line.html", "Tokyo Metro (東京メトロ)", "Fukutoshin Line"),
+
+        # Toei Subway Network (all 4 lines)
+        ("toei-asakusa-line.html", "Toei Subway (東京都交通局)", "Toei Asakusa Line"),
+        ("toei-mita-line.html", "Toei Subway (東京都交通局)", "Toei Mita Line"),
+        ("toei-shinjuku-line.html", "Toei Subway (東京都交通局)", "Toei Shinjuku Line"),
+        ("toei-oedo-line.html", "Toei Subway (東京都交通局)", "Toei Ōedo Line"),
+
+        # Osaka Metro Network (9 lines)
+        ("osakametro-midosuji-line.html", "Osaka Metro (大阪メトロ)", "Midōsuji Line"),
+        ("osakametro-tanimachi-line.html", "Osaka Metro (大阪メトロ)", "Tanimachi Line"),
+        ("osakametro-yotsubashi-line.html", "Osaka Metro (大阪メトロ)", "Yotsubashi Line"),
+        ("osakametro-chuo-line.html", "Osaka Metro (大阪メトロ)", "Chūō Line"),
+        ("osakametro-sennichimae-line.html", "Osaka Metro (大阪メトロ)", "Sennichimae Line"),
+        ("osakametro-sakaisuji-line.html", "Osaka Metro (大阪メトロ)", "Sakaisuji Line"),
+        ("osakametro-nagahoritsurumi-line.html", "Osaka Metro (大阪メトロ)", "Nagahori Tsurumi-ryokuchi Line"),
+        ("osakametro-imasatosuji-line.html", "Osaka Metro (大阪メトロ)", "Imazatosuji Line"),
+        ("osakametro-newtram-line.html", "Osaka Metro (大阪メトロ)", "Nankō Port Town Line"),
     ]
 
     station_links = []
-    seen_names = set()
+    seen_slugs = set()
 
     for line_file, operator, line_name in lines_to_scrape:
         url = f"{BASE_URL}/{line_file}"
@@ -278,26 +320,30 @@ def scrape_railway_lines() -> List[Dict[str, Any]]:
             continue
 
         soup = BeautifulSoup(html, "html.parser")
+        is_metro = "tokyometro" in line_file
         for a in soup.find_all("a"):
             href = a.get("href", "")
             text = a.get_text(strip=True)
-            if "駅のスタンプ" in text and "設置あり" in text:
-                name_raw = text.split("のスタンプ")[0].replace("JR", "").replace("東京メトロ", "").strip()
+            if ("駅のスタンプ" in text and "設置あり" in text) or (is_metro and "駅のスタンプ" in text):
+                raw = text.split("のスタンプ")[0]
+                raw = re.sub(r'（.*?）', '', raw)
+                raw = re.sub(r'\(.*?\)', '', raw)
+                name_raw = raw.replace("JR", "").replace("東京メトロ", "").replace("都営地下鉄", "").replace("Osaka Metro", "").strip()
                 if name_raw.endswith("駅"):
                     name_raw = name_raw[:-1]
-                if not name_raw or name_raw in seen_names:
+                if not name_raw:
                     continue
-                seen_names.add(name_raw)
 
                 clean_href = href.lstrip("/") if href else ""
                 full_url = href if (href and href.startswith("http")) else (f"{BASE_URL}/{clean_href}" if href else "")
-                slug = re.search(r'(?:jr-|metro-)([a-zA-Z0-9\-]+)\.html', href) if href else None
+                slug = re.search(r'([a-zA-Z0-9\-]+)\.html', href) if href else None
                 slug_str = slug.group(1).lower() if slug else name_raw
+                slug_str = re.sub(r'[^a-z0-9\-]+', '', slug_str)
 
-                # Clean non-ASCII slug
-                if slug_str == "福島駅" or "福島" in slug_str:
-                    slug_str = "fukushima"
-                slug_str = re.sub(r'[^a-z0-9\-]+', '', slug_str) or f"station-{len(station_links)}"
+                # Ensure slug uniqueness across lines
+                if slug_str in seen_slugs:
+                    continue
+                seen_slugs.add(slug_str)
 
                 station_links.append({
                     "name_raw": name_raw,
@@ -332,29 +378,82 @@ def scrape_railway_lines() -> List[Dict[str, Any]]:
         # Fallback prefecture determination
         pref = extract_prefecture_en(addr)
         if not pref or pref == "Japan":
-            if "osaka" in item["line_file"] or line_name == "Osaka Loop Line":
+            if "osaka" in item["line_file"] or "Osaka" in operator or line_name == "Osaka Loop Line":
                 pref = "Osaka"
             elif "kyoto" in item["line_file"] or line_name == "Kyoto Line":
                 pref = "Kyoto" if name_raw in ["京都", "西大路", "桂川", "向日町", "長岡京", "山崎"] else "Osaka"
-            elif name_raw in ["大宮", "さいたま新都心", "与野", "北浦和", "浦和", "南浦和", "蕨", "西川口", "川口"]:
+            elif "tokyometro" in item["line_file"] or "toei" in item["line_file"]:
+                if name_raw in ["和光市"]:
+                    pref = "Saitama"
+                elif name_raw in ["浦安", "南行徳", "行徳", "妙典", "原木中山", "西船橋"]:
+                    pref = "Chiba"
+                else:
+                    pref = "Tokyo"
+            elif name_raw in ["大宮", "さいたま新都心", "与野", "北浦和", "浦和", "南浦和", "蕨", "西川口", "川口", "熊谷", "本庄早稲田"]:
                 pref = "Saitama"
-            elif name_raw in ["川崎", "鶴見", "新子安", "東神奈川", "横浜"]:
+            elif name_raw in ["川崎", "鶴見", "新子安", "東神奈川", "横浜", "新横浜", "小田原"]:
                 pref = "Kanagawa"
+            elif name_raw in ["熱海", "三島", "新富士", "静岡", "掛川", "浜松"]:
+                pref = "Shizuoka"
+            elif name_raw in ["豊橋", "三河安城", "名古屋"]:
+                pref = "Aichi"
+            elif name_raw in ["岐阜羽島"]:
+                pref = "Gifu"
+            elif name_raw in ["米原"]:
+                pref = "Shiga"
+            elif name_raw in ["新神戸", "西明石", "姫路", "相生"]:
+                pref = "Hyogo"
+            elif name_raw in ["岡山", "新倉敷"]:
+                pref = "Okayama"
+            elif name_raw in ["福山", "新尾道", "三原", "東広島", "広島"]:
+                pref = "Hiroshima"
+            elif name_raw in ["新岩国", "徳山", "新山口", "厚狭", "新下関"]:
+                pref = "Yamaguchi"
+            elif name_raw in ["小倉", "博多", "久留米", "筑後船小屋"]:
+                pref = "Fukuoka"
+            elif name_raw in ["新鳥栖", "武雄温泉", "嬉野温泉"]:
+                pref = "Saga"
+            elif name_raw in ["新大村", "諫早", "長崎"]:
+                pref = "Nagasaki"
+            elif name_raw in ["新玉名", "熊本", "新八代", "新水俣"]:
+                pref = "Kumamoto"
+            elif name_raw in ["出水", "川内", "鹿児島中央"]:
+                pref = "Kagoshima"
+            elif name_raw in ["木古内", "新函館北斗"]:
+                pref = "Hokkaido"
+            elif name_raw in ["新青森", "七戸十和田", "八戸", "奥津軽いまべつ"]:
+                pref = "Aomori"
+            elif name_raw in ["二戸", "いわて沼宮内", "盛岡", "新花巻", "北上", "水沢江刺", "一ノ関"]:
+                pref = "Iwate"
+            elif name_raw in ["くりこま高原", "古川", "仙台", "白石蔵王"]:
+                pref = "Miyagi"
+            elif name_raw in ["福島", "郡山", "白河", "新白河"]:
+                pref = "Fukushima"
+            elif name_raw in ["那須塩原", "宇都宮", "小山"]:
+                pref = "Tochigi"
+            elif name_raw in ["高崎", "安中榛名"]:
+                pref = "Gunma"
+            elif name_raw in ["軽井沢", "佐久平", "上田", "長野", "飯山"]:
+                pref = "Nagano"
+            elif name_raw in ["上越妙高", "糸魚川", "越後湯沢", "浦佐", "長岡", "燕三条", "新潟"]:
+                pref = "Niigata"
+            elif name_raw in ["黒部宇奈月温泉", "富山", "新高岡"]:
+                pref = "Toyama"
+            elif name_raw in ["金沢", "小松", "加賀温泉"]:
+                pref = "Ishikawa"
+            elif name_raw in ["芦原温泉", "福井", "越前たけふ", "敦賀"]:
+                pref = "Fukui"
             else:
                 pref = "Tokyo"
 
         city = extract_city(addr)
         if not city:
-            if pref == "Tokyo":
-                city = "Tokyo"
-            elif pref == "Osaka":
-                city = "Osaka City"
-            elif pref == "Kyoto":
-                city = "Kyoto City"
-            elif pref == "Saitama":
-                city = "Saitama City"
-            elif pref == "Kanagawa":
-                city = "Yokohama City" if name_raw in ["横浜", "鶴見", "新子安", "東神奈川"] else "Kawasaki City"
+            if pref == "Tokyo": city = "Tokyo"
+            elif pref == "Osaka": city = "Osaka City"
+            elif pref == "Kyoto": city = "Kyoto City"
+            elif pref == "Saitama": city = "Saitama City"
+            elif pref == "Kanagawa": city = "Yokohama City" if name_raw in ["横浜", "鶴見", "新子安", "東神奈川", "新横浜"] else "Kawasaki City"
+            else: city = pref
 
         # Coords safety fallback if GSI failed
         if not coords:
@@ -363,32 +462,47 @@ def scrape_railway_lines() -> List[Dict[str, Any]]:
             if g:
                 coords = [g[0], g[1]]
             else:
-                # Conservative metropolitan fallbacks
                 if pref == "Tokyo": coords = [139.7671, 35.6812]
                 elif pref == "Osaka": coords = [135.4962, 34.7025]
                 elif pref == "Kyoto": coords = [135.7588, 34.9853]
                 elif pref == "Saitama": coords = [139.6243, 35.9064]
                 elif pref == "Kanagawa": coords = [139.6226, 35.4660]
+                else: coords = [138.2529, 36.2048]
 
-        # Station names formatting (Clean: no "駅 Station", no "駅駅")
-        # Format English name
+        # Station names formatting
         if en_raw:
-            # Clean "JR Ōsaka Station" -> "Osaka Station" or "JR Osaka Station"
-            clean_en = en_raw.replace("JR ", "").replace("JR", "").strip()
+            clean_en = en_raw.replace("JR ", "").replace("JR", "").replace("Tokyo Metro ", "").replace("Toei Subway ", "").strip()
             if not clean_en.lower().endswith("station"):
                 clean_en = f"{clean_en} Station"
             name_en = clean_en
         else:
             name_en = f"{name_raw} Station"
 
-        name_ja = f"JR{name_raw}駅"
+        if "tokyometro" in item["line_file"]:
+            name_ja = f"東京メトロ{name_raw}駅"
+            stamp_id = f"eki-metro-{slug_str.replace('metro-', '')}"
+        elif "toei" in item["line_file"]:
+            name_ja = f"都営地下鉄{name_raw}駅"
+            stamp_id = f"eki-toei-{slug_str.replace('toei-', '')}"
+        elif "osakametro" in item["line_file"]:
+            name_ja = f"Osaka Metro {name_raw}駅"
+            stamp_id = f"eki-om-{slug_str.replace('om-', '')}"
+        elif "yamanote" in item["line_file"]:
+            name_ja = f"JR{name_raw}駅"
+            stamp_id = f"eki-yamanote-{slug_str.replace('jr-', '')}"
+        elif "shinkansen" in item["line_file"]:
+            name_ja = f"JR{name_raw}駅（新幹線）"
+            stamp_id = f"eki-shinkansen-{slug_str.replace('jr-', '').replace('jrt-', '').replace('jrw-', '')}"
+        else:
+            name_ja = f"JR{name_raw}駅"
+            stamp_id = f"eki-{slug_str.replace('jr-', '')}"
+
         name_romaji = f"{name_raw}-eki"
-        stamp_id = f"eki-yamanote-{slug_str}" if "yamanote" in item["line_file"] else f"eki-{slug_str}"
 
         if not stamp_loc:
             stamp_loc = f"{name_ja} 改札口・みどりの窓口付近 (Ticket Gate / Station Counter)"
         if not hours:
-            hours = "07:00 - 21:00 (Station / Ticket office hours)"
+            hours = "06:00 - 23:30 (First train to last train / Station hours)"
 
         return {
             "id": stamp_id,
@@ -698,24 +812,55 @@ def get_prominent_temples_and_shrines() -> List[Dict[str, Any]]:
         {"name": "Meiji Jingu Shrine", "ja": "明治神宮", "romaji": "Meiji Jingū", "pref": "Tokyo", "city": "Shibuya City", "addr": "東京都渋谷区代々木神園町1-1", "loc": "明治神宮 神楽殿・社務所 (Kaguraden Office)", "desc": "Historic Shinto shrine nestled in an expansive sacred forest in Shibuya, dedicated to Emperor Meiji."},
         {"name": "Kanda Myojin Shrine", "ja": "神田明神（神田神社）", "romaji": "Kanda Myōjin", "pref": "Tokyo", "city": "Chiyoda City", "addr": "東京都千代田区外神田2-16-2", "loc": "神田明神 鳳凰殿・社務所 (Shrine Office)", "desc": "Historic Tokyo guardian shrine dating back nearly 1,300 years, protector of Edo/Tokyo and technology."},
         {"name": "Zojo-ji Temple", "ja": "三縁山 広度院 増上寺", "romaji": "Zōjō-ji", "pref": "Tokyo", "city": "Minato City", "addr": "東京都港区芝公園4-7-35", "loc": "増上寺 安国殿・寺務所 (Ankokuden Office)", "desc": "Head temple of the Jodo sect and family temple of the Tokugawa Shogunate, beneath Tokyo Tower."},
+        {"name": "Gotoku-ji Temple (Lucky Cat)", "ja": "大谿山 豪徳寺", "romaji": "Gōtoku-ji", "pref": "Tokyo", "city": "Setagaya City", "addr": "東京都世田谷区豪徳寺1-24-7", "loc": "豪徳寺 寺務所・招福殿 (Maneki-Neko Hall)", "desc": "Peaceful Setagaya Buddhist temple celebrated as the legendary historic birthplace of the Maneki-neko (lucky beckoning cat)."},
+        {"name": "Nezu Shrine", "ja": "根津神社", "romaji": "Nezu Jinja", "pref": "Tokyo", "city": "Bunkyo City", "addr": "東京都文京区根津1-28-9", "loc": "根津神社 社務所・授与所 (Shrine Office)", "desc": "One of Tokyo's oldest Shinto shrines founded in 1705, renowned for its picturesque Senbon Torii tunnel and spring azalea gardens."},
         {"name": "Tsurugaoka Hachimangu", "ja": "鶴岡八幡宮", "romaji": "Tsurugaoka Hachimangū", "pref": "Kanagawa", "city": "Kamakura City", "addr": "神奈川県鎌倉市雪ノ下2-1-31", "loc": "鶴岡八幡宮 舞殿・社務所 (Main Office)", "desc": "The most important Shinto shrine in Kamakura, founded by Minamoto no Yoritomo in 1180."},
         {"name": "Kotoku-in (Kamakura Daibutsu)", "ja": "高徳院（鎌倉大仏）", "romaji": "Kōtoku-in", "pref": "Kanagawa", "city": "Kamakura City", "addr": "神奈川県鎌倉市長谷4-2-28", "loc": "高徳院 拝観受付・朱印所 (Great Buddha Office)", "desc": "Famous Buddhist temple housing the monumental outdoor bronze statue of Amida Buddha (Kamakura Daibutsu)."},
         {"name": "Hasedera Temple", "ja": "海光山 慈照院 長谷寺", "romaji": "Hase-dera", "pref": "Kanagawa", "city": "Kamakura City", "addr": "神奈川県鎌倉市長谷3-11-2", "loc": "長谷寺 観音堂・寺務所 (Kannon Hall)", "desc": "Scenic Kamakura coastal temple renowned for its eleven-headed Kannon statue and blooming hydrangeas."},
+        {"name": "Hakone Shrine & Kuzuryu Shrine", "ja": "箱根神社（九頭龍神社）", "romaji": "Hakone Jinja", "pref": "Kanagawa", "city": "Ashigarashimo District", "addr": "神奈川県足柄下郡箱根町元箱根80-1", "loc": "箱根神社 社務所・平和の鳥居 (Heiwa no Torii Office)", "desc": "Mountain-lake sanctuary on Lake Ashi famous for its iconic vermilion Peace Torii gate standing directly in the water."},
+        {"name": "Kamakura Kencho-ji Temple", "ja": "巨福山 建長寺", "romaji": "Kenchō-ji", "pref": "Kanagawa", "city": "Kamakura City", "addr": "神奈川県鎌倉市山ノ内8", "loc": "建長寺 宗務本所・朱印所 (Main Office)", "desc": "First of Kamakura's Five Great Zen Temples and oldest Zen training monastery in Japan, founded in 1253."},
         {"name": "Nikko Toshogu Shrine", "ja": "日光東照宮", "romaji": "Nikkō Tōshōgū", "pref": "Tochigi", "city": "Nikko City", "addr": "栃木県日光市山内2301", "loc": "日光東照宮 陽明門・社務所 (Main Office)", "desc": "UNESCO World Heritage shrine lavishly decorated in gold leaf and intricate carvings, enshrining Tokugawa Ieyasu."},
         {"name": "Naritasan Shinsho-ji", "ja": "成田山 新勝寺", "romaji": "Naritasan Shinshō-ji", "pref": "Chiba", "city": "Narita City", "addr": "千葉県成田市成田1番地", "loc": "成田山 大本堂・総受付 (Great Main Hall)", "desc": "Famed Buddhist temple founded in 940 AD, renowned for fiery Goma prayers and historic omotesando street."},
+        {"name": "Katori Jingu Shrine", "ja": "香取神宮", "romaji": "Katori Jingū", "pref": "Chiba", "city": "Katori City", "addr": "千葉県香取市香取1699", "loc": "香取神宮 拝殿・社務所 (Main Office)", "desc": "Top-tier ancient Shinto grand shrine alongside Ise and Kashima, spiritual protector of martial arts and peace."},
+        {"name": "Musashi Ichinomiya Hikawa Shrine", "ja": "武蔵一宮 氷川神社", "romaji": "Hikawa Jinja", "pref": "Saitama", "city": "Saitama City", "addr": "埼玉県さいたま市大宮区高鼻町1-407", "loc": "氷川神社 拝殿・社務所 (Shrine Office)", "desc": "Ancient grand shrine with a 2-kilometer torii-lined approach avenue, spiritual anchor of Omiya and head of 280 Hikawa shrines."},
+        {"name": "Kashima Jingu Shrine", "ja": "鹿島神宮", "romaji": "Kashima Jingū", "pref": "Ibaraki", "city": "Kashima City", "addr": "茨城県鹿嶋市宮中2306-1", "loc": "鹿島神宮 本殿・社務所 (Main Shrine Office)", "desc": "One of Japan's most historic martial grand shrines, founded in 600 BC and dedicated to martial deity Takemikazuchi no Okami."},
         {"name": "Zenko-ji Temple", "ja": "信州 善光寺", "romaji": "Zenkō-ji", "pref": "Nagano", "city": "Nagano City", "addr": "長野県長野市元善町491", "loc": "善光寺 本堂内陣・授与所 (Main Sanctuary)", "desc": "Historic 7th-century non-denominational pilgrimage temple housing the first Buddhist statue brought to Japan."},
+        {"name": "Fujisan Hongu Sengen Taisha", "ja": "富士山本宮浅間大社", "romaji": "Fujisan Hongū Sengen Taisha", "pref": "Shizuoka", "city": "Fujinomiya City", "addr": "静岡県富士宮市宮町1-1", "loc": "浅間大社 祈祷受付・社務所 (Mount Fuji Shrine Office)", "desc": "Supreme head shrine of all 1,300 Sengen shrines across Japan, dedicated to the guardian deity of Mount Fuji."},
+        {"name": "Eihei-ji Temple", "ja": "大本山 永平寺", "romaji": "Eihei-ji", "pref": "Fukui", "city": "Yoshida District", "addr": "福井県吉田郡永平寺町志比5-15", "loc": "永平寺 吉祥閣・納経所 (Kisshokaku Office)", "desc": "Head temple of Soto Zen Buddhism founded by Master Dogen in 1244, nestled deeply amidst ancient cryptomeria cedar forests."},
         {"name": "Fushimi Inari Taisha", "ja": "伏見稲荷大社", "romaji": "Fushimi Inari Taisha", "pref": "Kyoto", "city": "Kyoto City", "addr": "京都府京都市伏見区深草藪之内町68", "loc": "伏見稲荷大社 本殿・集印所 (Main Sanctuary Office)", "desc": "Head shrine of all Inari Shinto shrines, famed for its thousands of vermilion Senbon Torii gates climbing Mount Inari."},
         {"name": "Kiyomizu-dera Temple", "ja": "音羽山 清水寺", "romaji": "Kiyomizu-dera", "pref": "Kyoto", "city": "Kyoto City", "addr": "京都府京都市東山区清水1-294", "loc": "清水寺 本堂・納経所 (Main Wooden Stage)", "desc": "Iconic UNESCO World Heritage temple perched on Mount Otowa, celebrated for its soaring wooden stage and Otowa Waterfall."},
         {"name": "Kinkaku-ji (Golden Pavilion)", "ja": "鹿苑寺（金閣寺）", "romaji": "Kinkaku-ji", "pref": "Kyoto", "city": "Kyoto City", "addr": "京都府京都市北区金閣寺町1", "loc": "金閣寺 拝観受付・朱印所 (Golden Pavilion Office)", "desc": "Zen Buddhist temple whose top two floors are completely covered in gleaming gold leaf, reflected in Kyoko-chi pond."},
         {"name": "Ginkaku-ji (Silver Pavilion)", "ja": "慈照寺（銀閣寺）", "romaji": "Ginkaku-ji", "pref": "Kyoto", "city": "Kyoto City", "addr": "京都府京都市左京区銀閣寺町2", "loc": "銀閣寺 朱印受付・寺務所 (Temple Office)", "desc": "Quintessential Higashiyama culture Zen temple celebrated for its dry-sand garden (Kogetsudai) and moss grounds."},
+        {"name": "Byodoin Temple (Phoenix Hall)", "ja": "平等院 鳳凰堂", "romaji": "Byōdō-in", "pref": "Kyoto", "city": "Uji City", "addr": "京都府宇治市宇治蓮華116", "loc": "平等院 集印所・鳳翔館 (Phoenix Hall Office)", "desc": "UNESCO World Heritage Pure Land Buddhist temple, immortalized on the Japanese 10 yen coin and 10,000 yen note."},
+        {"name": "Heian Jingu Shrine", "ja": "平安神宮", "romaji": "Heian Jingū", "pref": "Kyoto", "city": "Kyoto City", "addr": "京都府京都市左京区岡崎西天王町97", "loc": "平安神宮 社務所・大極殿 (Main Sanctuary Office)", "desc": "Majestic Kyoto imperial shrine commemorating the 1,100th anniversary of Heian-kyo, featuring a giant torii and classical stroll gardens."},
+        {"name": "Yasaka Shrine (Gion)", "ja": "八坂神社（祇園社）", "romaji": "Yasaka Jinja", "pref": "Kyoto", "city": "Kyoto City", "addr": "京都府京都市東山区祇園町北側625", "loc": "八坂神社 朱印所・本殿授与所 (Gion Shrine Office)", "desc": "Guardian shrine of the Gion geisha district and home to the legendary Gion Matsuri festival, one of Japan's big three festivals."},
+        {"name": "Ryoan-ji Temple", "ja": "大雲山 龍安寺", "romaji": "Ryōan-ji", "pref": "Kyoto", "city": "Kyoto City", "addr": "京都府京都市右京区龍安寺御陵下町13", "loc": "龍安寺 方丈・寺務所 (Temple Office)", "desc": "World-famous Zen temple featuring Japan's finest dry landscape rock garden (Karesansui) of fifteen mystical stones."},
+        {"name": "Tenryu-ji Temple", "ja": "霊亀山 天龍寺", "romaji": "Tenryū-ji", "pref": "Kyoto", "city": "Kyoto City", "addr": "京都府京都市右京区嵯峨天龍寺芒ノ馬場町68", "loc": "天龍寺 庫裏・納経所 (Kuri Hall Office)", "desc": "Ranked first among Kyoto's Five Mountain Zen temples, bordering Arashiyama bamboo grove with a 14th-century circular pond garden."},
         {"name": "Todai-ji Temple", "ja": "華厳宗大本山 東大寺", "romaji": "Tōdai-ji", "pref": "Nara", "city": "Nara City", "addr": "奈良県奈良市雑司町406-1", "loc": "東大寺 大仏殿内・納経所 (Great Buddha Hall)", "desc": "Monumental ancient Buddhist temple housing the world's largest bronze Buddha statue inside the Daibutsuden."},
         {"name": "Kasuga Taisha Shrine", "ja": "春日大社", "romaji": "Kasuga Taisha", "pref": "Nara", "city": "Nara City", "addr": "奈良県奈良市春日野町160", "loc": "春日大社 御本殿・社務所 (Main Sanctuary)", "desc": "Ancient Shinto shrine founded in 768 AD in Nara Park, famous for its thousands of bronze and stone lanterns."},
+        {"name": "Horyu-ji Temple", "ja": "法隆寺（斑鳩寺）", "romaji": "Hōryū-ji", "pref": "Nara", "city": "Ikoma District", "addr": "奈良県生駒郡斑鳩町法隆寺山内1-1", "loc": "法隆寺 聖霊院・納経所 (Shoryoin Office)", "desc": "Japan's first UNESCO World Heritage site, housing the world's oldest surviving wooden structures dating to 607 AD."},
+        {"name": "Yakushi-ji Temple", "ja": "薬師寺", "romaji": "Yakushi-ji", "pref": "Nara", "city": "Nara City", "addr": "奈良県奈良市西ノ京町457", "loc": "薬師寺 金堂・授与所 (Kondo Hall Office)", "desc": "Head temple of the Hosso Buddhist sect founded by Emperor Tenmu, famous for its surviving 8th-century East Pagoda."},
+        {"name": "Toshodai-ji Temple", "ja": "唐招提寺", "romaji": "Tōshōdai-ji", "pref": "Nara", "city": "Nara City", "addr": "奈良県奈良市五条町13-46", "loc": "唐招提寺 礼堂・納経所 (Reido Hall Office)", "desc": "Historic temple founded in 759 AD by the blind Chinese master monk Ganjin, featuring classical Nara period architecture."},
+        {"name": "Koyasan Kongobuji Temple", "ja": "高野山 金剛峯寺", "romaji": "Kōyasan Kongōbu-ji", "pref": "Wakayama", "city": "Ito District", "addr": "和歌山県伊都郡高野町高野山132", "loc": "金剛峯寺 本坊・納経所 (Head Temple Office)", "desc": "Head temple of Shingon Esoteric Buddhism on sacred Mount Koya, founded by Kobo Daishi Kukai in 816 AD."},
+        {"name": "Kumano Nachi Taisha & Seiganto-ji", "ja": "熊野那智大社・那智山青岸渡寺", "romaji": "Kumano Nachi Taisha", "pref": "Wakayama", "city": "Higashimuro District", "addr": "和歌山県東牟婁郡那智勝浦町那智山1", "loc": "熊野那智大社 社務所・三重塔 (Shrine Office / Pagoda)", "desc": "UNESCO Kumano Kodo pilgrimage shrine adjacent to Seiganto-ji's three-story pagoda and the 133-meter Nachi Falls."},
+        {"name": "Kumano Hongu Taisha", "ja": "熊野本宮大社", "romaji": "Kumano Hongū Taisha", "pref": "Wakayama", "city": "Tanabe City", "addr": "和歌山県田辺市本宮町本宮1110", "loc": "熊野本宮大社 授与所・社務所 (Main Shrine Office)", "desc": "The spiritual heart of the Kumano Sanzan pilgrimage network and the site of Oyunohara, Japan's tallest torii gate."},
+        {"name": "Kumano Hayatama Taisha", "ja": "熊野速玉大社", "romaji": "Kumano Hayatama Taisha", "pref": "Wakayama", "city": "Shingu City", "addr": "和歌山県新宮市新宮1番地", "loc": "熊野速玉大社 社務所 (Shrine Office)", "desc": "Vermilion sacred shrine of Kumano Sanzan on the Kumano River, enshrining a sacred 1,000-year-old Nagi tree."},
         {"name": "Ise Jingu (Naiku & Geku)", "ja": "伊勢神宮（内宮・外宮）", "romaji": "Ise Jingū", "pref": "Mie", "city": "Ise City", "addr": "三重県伊勢市宇治館町1", "loc": "伊勢神宮 内宮神楽殿・参集殿 (Kaguraden Hall)", "desc": "The most sacred Shinto shrine in all of Japan, dedicated to the sun goddess Amaterasu Omikami."},
         {"name": "Atsuta Jingu Shrine", "ja": "熱田神宮", "romaji": "Atsuta Jingū", "pref": "Aichi", "city": "Nagoya City", "addr": "愛知県名古屋市熱田区神宮1-1-1", "loc": "熱田神宮 授与所・本殿前 (Main Office)", "desc": "Ancient sacred shrine in Nagoya enshrining the legendary Kusanagi no Tsurugi sword, one of Japan's Imperial Regalia."},
         {"name": "Itsukushima Shrine", "ja": "嚴島神社（宮島）", "romaji": "Itsukushima Jinja", "pref": "Hiroshima", "city": "Hatsukaichi City", "addr": "広島県廿日市市宮島町1-1", "loc": "嚴島神社 廻廊内・授与所 (Floating Shrine Office)", "desc": "World-famous UNESCO World Heritage Shinto shrine on Miyajima island featuring the floating vermilion O-Torii gate in the sea."},
         {"name": "Izumo Taisha Grand Shrine", "ja": "出雲大社", "romaji": "Izumo Taisha", "pref": "Shimane", "city": "Izumo City", "addr": "島根県出雲市大社町杵築東195", "loc": "出雲大社 拝殿・神楽殿社務所 (Kaguraden Office)", "desc": "One of Japan's oldest and most prestigious Shinto grand shrines, renowned for marriage matchmaking and colossal shimenawa rope."},
+        {"name": "Motonosumi Shrine", "ja": "元乃隅神社", "romaji": "Motonosumi Jinja", "pref": "Yamaguchi", "city": "Nagato City", "addr": "山口県長門市油谷津黄498", "loc": "元乃隅神社 社頭・授与所 (Cliffside Torii Office)", "desc": "Spectacular seaside cliff shrine with 123 vermilion torii gates winding toward the Sea of Japan and the Ryugu no Shiofuki blowhole."},
+        {"name": "Ryozen-ji Temple (Shikoku Temple No. 1)", "ja": "竺和山 一乗院 霊山寺（四国第1番札所）", "romaji": "Ryōzen-ji", "pref": "Tokushima", "city": "Naruto City", "addr": "徳島県鳴門市大麻町板東塚鼻126", "loc": "霊山寺 納経所 (Henro Pilgrimage Office #1)", "desc": "Temple No. 1 and starting portal of the 1,400km Shikoku 88 Temple Henro pilgrimage, where pilgrims receive their white robes and walking staffs."},
+        {"name": "Zentsu-ji Temple (Shikoku Temple No. 75)", "ja": "五岳山 誕生院 善通寺（四国第75番札所）", "romaji": "Zentsū-ji", "pref": "Kagawa", "city": "Zentsuji City", "addr": "香川県善通寺市善通寺町3-3-1", "loc": "善通寺 御影堂・納経所 (Mieido Hall Office)", "desc": "Temple No. 75 on the Shikoku Henro pilgrimage, celebrated as the revered birthplace of Kobo Daishi Kukai."},
+        {"name": "Okubo-ji Temple (Shikoku Temple No. 88)", "ja": "医王山 遍照光院 大窪寺（四国第88番札所）", "romaji": "Ōkubo-ji", "pref": "Kagawa", "city": "Sanuki City", "addr": "香川県さぬき市多和兼割96", "loc": "大窪寺 本堂・納経所 (Henro Culmination Office #88)", "desc": "Temple No. 88 and final destination (Kechigan) of the 88 Temple Shikoku Henro, where pilgrims dedicate their walking staffs."},
         {"name": "Kotohira-gu Shrine (Konpira-san)", "ja": "金刀比羅宮（こんぴらさん）", "romaji": "Kotohira-gū", "pref": "Kagawa", "city": "Nakatado District", "addr": "香川県仲多度郡琴平町892-1", "loc": "金刀比羅宮 御本宮・社務所 (Main Shrine Office)", "desc": "Revered maritime pilgrimage shrine situated on Mount Zozu, famous for its 1,368 stone steps to the inner shrine."},
-        {"name": "Dazaifu Tenmangu Shrine", "ja": "太宰府天満宮", "romaji": "Dazaifu Tenmangū", "pref": "Fukuoka", "city": "Dazaifu City", "addr": "福岡県太宰府市宰府4-7-1", "loc": "太宰府天満宮 本殿・社務所 (Main Sanctuary Office)", "desc": "Supreme Shinto shrine dedicated to Sugawara no Michizane, patron deity of learning, scholarship, and calligraphy."}
+        {"name": "Dazaifu Tenmangu Shrine", "ja": "太宰府天満宮", "romaji": "Dazaifu Tenmangū", "pref": "Fukuoka", "city": "Dazaifu City", "addr": "福岡県太宰府市宰府4-7-1", "loc": "太宰府天満宮 本殿・社務所 (Main Sanctuary Office)", "desc": "Supreme Shinto shrine dedicated to Sugawara no Michizane, patron deity of learning, scholarship, and calligraphy."},
+        {"name": "Aso Shrine", "ja": "阿蘇神社", "romaji": "Aso Jinja", "pref": "Kumamoto", "city": "Aso City", "addr": "熊本県阿蘇市一の宮町宮地3083-1", "loc": "阿蘇神社 楼門・社務所 (Romon Gate Office)", "desc": "Ancient shrine with over 2,500 years of history nestled at the foot of Mount Aso volcano, dedicated to the volcanic deities."},
+        {"name": "Udo Jingu Shrine", "ja": "鵜戸神宮", "romaji": "Udo Jingū", "pref": "Miyazaki", "city": "Nichinan City", "addr": "宮崎県日南市大字宮浦3232", "loc": "鵜戸神宮 洞窟本殿・社務所 (Cave Sanctuary Office)", "desc": "Dramatic coastal cave shrine built inside a cavern facing the Pacific Ocean, famous for lucky Undama clay stone throwing."},
+        {"name": "Takachiho Shrine", "ja": "高千穂神社", "romaji": "Takachiho Jinja", "pref": "Miyazaki", "city": "Nishiusuki District", "addr": "宮崎県西臼杵郡高千穂町三田井1037", "loc": "高千穂神社 神楽殿・社務所 (Kaguraden Office)", "desc": "Mythological birthplace of Japan nestled near Takachiho Gorge, famous for nightly sacred Yokagura dance performances."},
+        {"name": "Kirishima Jingu Shrine", "ja": "霧島神宮", "romaji": "Kirishima Jingū", "pref": "Kagoshima", "city": "Kirishima City", "addr": "鹿児島県霧島市霧島田口2608-5", "loc": "霧島神宮 本殿・授与所 (Main Sanctuary Office)", "desc": "National Treasure shrine known as the 'Nikko of the West', set amidst volcanic pine forests where Ninigi no Mikoto descended to Earth."},
+        {"name": "Naminoue Shrine", "ja": "波上宮（なみのうえぐう）", "romaji": "Naminoue-gū", "pref": "Okinawa", "city": "Naha City", "addr": "沖縄県那覇市若狭1-25-11", "loc": "波上宮 本殿・社務所 (Cliff Shrine Office)", "desc": "Top-ranking Ryukyu Kingdom shrine perched on a dramatic coral cliff overlooking the emerald East China Sea in Naha."},
+        {"name": "Hokkaido Jingu Shrine", "ja": "北海道神宮", "romaji": "Hokkaidō Jingū", "pref": "Hokkaido", "city": "Sapporo City", "addr": "北海道札幌市中央区宮ケ丘474", "loc": "北海道神宮 社務所・授与所 (Main Office)", "desc": "Primary Shinto guardian shrine of Hokkaido, established in 1869 in Maruyama Park, surrounded by lush native wilderness."}
     ]
 
     results = []

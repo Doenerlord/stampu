@@ -6985,5 +6985,3993 @@
     "addr": "宮崎県延岡市北浦町古江3337-1",
     "stamp_loc": "道の駅北浦内",
     "hours": "9:00～17:00"
+  },
+  "https://stamp.funakiya.com/jr-shinaomori.html": {
+    "coords": [
+      140.693472,
+      40.8275
+    ],
+    "name_en": "JR Shin-Aomori Station",
+    "addr": "青森県青森市石江高間140-2",
+    "stamp_loc": "JR新青森駅改札外 みどりの窓口内",
+    "hours": "5:30～21:50"
+  },
+  "https://stamp.funakiya.com/jr-morioka.html": {
+    "coords": [
+      141.136361,
+      39.701667
+    ],
+    "name_en": "JR Morioka Station",
+    "addr": "岩手県盛岡市盛岡駅前通1-48",
+    "stamp_loc": "JR盛岡駅改札外",
+    "hours": "5:30～22:45"
+  },
+  "https://stamp.funakiya.com/jr-sendai.html": {
+    "coords": [
+      140.882222,
+      38.260278
+    ],
+    "name_en": "JR Sendai Station",
+    "addr": "宮城県仙台市青葉区中央1-1-1",
+    "stamp_loc": "JR仙台駅在来線改札内",
+    "hours": "5:30～22:30"
+  },
+  "https://stamp.funakiya.com/jr-niigata.html": {
+    "coords": [
+      139.061889,
+      37.912028
+    ],
+    "name_en": "JR Niigata Station",
+    "addr": "新潟県新潟市中央区花園1-1-1",
+    "stamp_loc": "JR新潟駅在来東改札外、在来西改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-nagano.html": {
+    "coords": [
+      138.188705,
+      36.643083
+    ],
+    "name_en": "JR Nagano Station",
+    "addr": "長野県長野市栗田1038",
+    "stamp_loc": "JR長野駅新幹線改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-kanazawa.html": {
+    "coords": [
+      136.648175,
+      36.578044
+    ],
+    "name_en": "JR Kanazawa Station",
+    "addr": "石川県金沢市木ノ新保町1-1",
+    "stamp_loc": "JR金沢駅改札外",
+    "hours": "4:40～23:30"
+  },
+  "https://stamp.funakiya.com/jr-nagoya.html": {
+    "coords": [
+      136.881637,
+      35.170694
+    ],
+    "name_en": "JR Nagoya Station",
+    "addr": "愛知県名古屋市中村区名駅1-1-4",
+    "stamp_loc": "JR名古屋駅内（現在なし）",
+    "hours": "4:50～23:20"
+  },
+  "https://stamp.funakiya.com/jr-hiroshima.html": {
+    "coords": [
+      132.475472,
+      34.39775
+    ],
+    "name_en": "JR Hiroshima Station",
+    "addr": "広島県広島市南区松原町2-37",
+    "stamp_loc": "JR広島駅中央改札窓口（駅員に依頼が必要）",
+    "hours": "5:30～23:00"
+  },
+  "https://stamp.funakiya.com/jrw-hakata.html": {
+    "coords": [
+      130.42094,
+      33.59002
+    ],
+    "name_en": "JR Hakata Station",
+    "addr": "福岡県福岡市博多区博多駅中央街1-1",
+    "stamp_loc": "JR博多駅改札内 新幹線中央乗換口2F清算所付近",
+    "hours": "5:30～23:00"
+  },
+  "https://stamp.funakiya.com/jr-kumamoto.html": {
+    "coords": [
+      130.688889,
+      32.79
+    ],
+    "name_en": "JR Kumamoto Station",
+    "addr": "熊本県熊本市西区春日3-15-1",
+    "stamp_loc": "JR熊本駅改札外 みどりの窓口内",
+    "hours": "7:00～21:00"
+  },
+  "https://stamp.funakiya.com/jr-kagoshimachuo.html": {
+    "coords": [
+      130.541722,
+      31.583667
+    ],
+    "name_en": "JR Kagoshima-chūō Station",
+    "addr": "鹿児島県鹿児島市中央町1-1",
+    "stamp_loc": "JR鹿児島中央駅在来線改札窓口（駅員に依頼が必要）",
+    "hours": "7:00～21:00"
+  },
+  "https://stamp.funakiya.com/metro-ginza.html": {
+    "coords": [
+      139.76325,
+      35.672833
+    ],
+    "name_en": "Tokyo Metro Ginza Station",
+    "addr": "東京都中央区銀座4-1-2",
+    "stamp_loc": "東京メトロ銀座駅改札外 駅事務所内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-omotesando.html": {
+    "coords": [
+      139.7125,
+      35.665278
+    ],
+    "name_en": "Tokyo Metro Omote-sando Station",
+    "addr": "東京都港区北青山3-6-12",
+    "stamp_loc": "東京メトロ表参道駅改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-roppongi.html": {
+    "coords": [
+      139.731389,
+      35.662778
+    ],
+    "name_en": "Tokyo Metro Roppongi Station",
+    "addr": "東京都港区六本木6-1-25",
+    "stamp_loc": "東京メトロ六本木駅改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-shinjuku.html": {
+    "coords": [
+      139.699139,
+      35.688694
+    ],
+    "name_en": "Toei Subway Shinjuku Station",
+    "addr": "東京都新宿区西新宿1-18",
+    "stamp_loc": "都営地下鉄新宿駅改札内（京王新線改札方面）、都営地下鉄新宿駅改札内（マインズタワー方面改札）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-roppongi.html": {
+    "coords": [
+      139.732111,
+      35.663333
+    ],
+    "name_en": "Toei Subway Roppongi Station",
+    "addr": "東京都港区赤坂9-7-39",
+    "stamp_loc": "都営地下鉄六本木駅改札内（東京ミッドタウン側改札横）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-umeda.html": {
+    "coords": [
+      135.497722,
+      34.702833
+    ],
+    "name_en": "Osaka Metro Umeda Station",
+    "addr": "大阪府大阪市北区角田町8-6",
+    "stamp_loc": "Osaka Metro梅田駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-namba.html": {
+    "coords": [
+      135.500314,
+      34.666317
+    ],
+    "name_en": "Osaka Metro Namba Station",
+    "addr": "大阪府大阪市中央区難波2丁目",
+    "stamp_loc": "Osaka Metro難波駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-kakegawa.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "静岡県掛川市南1-1-1",
+    "stamp_loc": "JR掛川駅南口改札外",
+    "hours": "5:35～12:20 12:40～23:40"
+  },
+  "https://stamp.funakiya.com/jr-gifuhashima.html": {
+    "coords": [
+      136.685556,
+      35.315833
+    ],
+    "name_en": "JR Gifu-Hashima Station",
+    "addr": "岐阜県羽島市福寿町平方645-1",
+    "stamp_loc": "JR岐阜羽島駅改札外",
+    "hours": "6:20～23:00"
+  },
+  "https://stamp.funakiya.com/jr-mikawaanjo.html": {
+    "coords": [
+      137.060662,
+      34.96897
+    ],
+    "name_en": "JR Mikawa-Anjō Station",
+    "addr": "愛知県安城市三河安城町1-18-2",
+    "stamp_loc": "JR三河安城駅新幹線改札窓口（駅員に依頼が必要）",
+    "hours": "6:20～23:00"
+  },
+  "https://stamp.funakiya.com/jr-toyohashi.html": {
+    "coords": [
+      137.381651,
+      34.762811
+    ],
+    "name_en": "JR Toyohashi Station",
+    "addr": "愛知県豊橋市花田町西宿",
+    "stamp_loc": "JR豊橋駅新幹線改札外（期間限定）",
+    "hours": "5:10～22:30"
+  },
+  "https://stamp.funakiya.com/jr-mishima.html": {
+    "coords": [
+      138.911164,
+      35.126339
+    ],
+    "name_en": "JR Mishima Station",
+    "addr": "静岡県三島市一番町16-1",
+    "stamp_loc": "JR三島駅改札窓口（駅員に依頼が必要）",
+    "hours": "4:50～22:30"
+  },
+  "https://stamp.funakiya.com/jr-shizuoka.html": {
+    "coords": [
+      138.388556,
+      34.971611
+    ],
+    "name_en": "JR Shizuoka Station",
+    "addr": "静岡県静岡市葵区黒金町50",
+    "stamp_loc": "JR静岡駅改札窓口（駅員に依頼が必要）",
+    "hours": "5:00～23:05"
+  },
+  "https://stamp.funakiya.com/jr-hamamatsu.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "静岡県浜松市中区砂山町6-2",
+    "stamp_loc": "JR浜松駅改札窓口（駅員に依頼が必要）（現在なし）",
+    "hours": "5:20～23:20"
+  },
+  "https://stamp.funakiya.com/jr-shinfuji.html": {
+    "coords": [
+      138.663361,
+      35.142
+    ],
+    "name_en": "JR Shin-Fuji Station",
+    "addr": "静岡県富士市川成島640",
+    "stamp_loc": "JR新富士駅改札外 みどりの窓口内",
+    "hours": "6:10～23:20"
+  },
+  "https://stamp.funakiya.com/jr-shinkobe.html": {
+    "coords": [
+      135.196222,
+      34.706722
+    ],
+    "name_en": "JR Shin-Kōbe Station",
+    "addr": "兵庫県神戸市中央区加納町1-3-1",
+    "stamp_loc": "JR新神戸駅改札外",
+    "hours": "5:30～23:00"
+  },
+  "https://stamp.funakiya.com/jr-nishiakashi.html": {
+    "coords": [
+      134.960539,
+      34.666853
+    ],
+    "name_en": "JR Nishi-Akashi Station",
+    "addr": "兵庫県明石市小久保2-7-20",
+    "stamp_loc": "JR西明石駅西口改札窓口（駅員に依頼が必要）",
+    "hours": "5:30～23:00"
+  },
+  "https://stamp.funakiya.com/jr-aioi.html": {
+    "coords": [
+      134.473944,
+      34.818067
+    ],
+    "name_en": "JR Aioi Station",
+    "addr": "兵庫県相生市本郷町1-10",
+    "stamp_loc": "JR相生駅改札内",
+    "hours": "6:00～21:00"
+  },
+  "https://stamp.funakiya.com/jr-himeji.html": {
+    "coords": [
+      134.690917,
+      34.82675
+    ],
+    "name_en": "JR Himeji Station",
+    "addr": "兵庫県姫路市駅前町188",
+    "stamp_loc": "JR姫路駅在来線中央改札内",
+    "hours": "5:30～23:00"
+  },
+  "https://stamp.funakiya.com/jr-okayama.html": {
+    "coords": [
+      133.918589,
+      34.666369
+    ],
+    "name_en": "JR Okayama Station",
+    "addr": "岡山県岡山市北区駅元町1-1",
+    "stamp_loc": "JR岡山駅改札窓口（駅員に依頼が必要）",
+    "hours": "5:00～23:30"
+  },
+  "https://stamp.funakiya.com/jr-shinkurashiki.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "岡山県倉敷市玉島爪崎390-4",
+    "stamp_loc": "JR新倉敷駅改札窓口（駅員に依頼が必要）",
+    "hours": "5:00～22:30"
+  },
+  "https://stamp.funakiya.com/jr-shinonomichi.html": {
+    "coords": [
+      133.190333,
+      34.430083
+    ],
+    "name_en": "JR Shin-Onomichi Station",
+    "addr": "広島県尾道市栗原町9381-4",
+    "stamp_loc": "JR新尾道駅改札外",
+    "hours": "6:00～22:30"
+  },
+  "https://stamp.funakiya.com/jr-fukuyama.html": {
+    "coords": [
+      133.361556,
+      34.489222
+    ],
+    "name_en": "JR Fukuyama Station",
+    "addr": "広島県福山市三之丸町30-1",
+    "stamp_loc": "JR福山駅改札窓口（駅員に依頼が必要）",
+    "hours": "5:30～23:00"
+  },
+  "https://stamp.funakiya.com/jr-mihara.html": {
+    "coords": [
+      133.083194,
+      34.400667
+    ],
+    "name_en": "JR Mihara Station",
+    "addr": "広島県三原市城町1-1-1",
+    "stamp_loc": "JR三原駅在来線改札内",
+    "hours": "5:20～23:00"
+  },
+  "https://stamp.funakiya.com/jr-tokuyama.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "山口県周南市御幸通2-28",
+    "stamp_loc": "JR徳山駅在来線改札外",
+    "hours": "5:30～23:00"
+  },
+  "https://stamp.funakiya.com/jr-shiniwakuni.html": {
+    "coords": [
+      132.149806,
+      34.165028
+    ],
+    "name_en": "JR Shin-Iwakuni Station",
+    "addr": "山口県岩国市御庄1055-1",
+    "stamp_loc": "JR新岩国駅改札外",
+    "hours": "5:50～23:30"
+  },
+  "https://stamp.funakiya.com/jr-shinyamaguchi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "山口県山口市小郡令和1-2-1",
+    "stamp_loc": "JR新山口駅新幹線改札外",
+    "hours": "5:30～23:00"
+  },
+  "https://stamp.funakiya.com/jr-higashihiroshima.html": {
+    "coords": [
+      132.759778,
+      34.389361
+    ],
+    "name_en": "JR Higashi-Hiroshima Station",
+    "addr": "広島県東広島市三永1-4-24",
+    "stamp_loc": "JR東広島駅改札内",
+    "hours": "6:00～23:00"
+  },
+  "https://stamp.funakiya.com/jr-asa.html": {
+    "coords": [
+      131.159806,
+      34.053278
+    ],
+    "name_en": "JR Asa Station",
+    "addr": "山口県山陽小野田市厚狭沖田8-3",
+    "stamp_loc": "JR厚狭駅在来線改札外",
+    "hours": "7:00～20:00"
+  },
+  "https://stamp.funakiya.com/jrw-kokura.html": {
+    "coords": [
+      130.882667,
+      33.88675
+    ],
+    "name_en": "JR Kokura Station",
+    "addr": "福岡県北九州市小倉北区浅野1-1-1",
+    "stamp_loc": "JR小倉駅新幹線口改札内 2F",
+    "hours": "5:30～23:00"
+  },
+  "https://stamp.funakiya.com/jr-shinshimonoseki.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "山口県下関市秋根南町1-11-1",
+    "stamp_loc": "JR新下関駅東口改札外 みどりの窓口内",
+    "hours": "5:30～23:00"
+  },
+  "https://stamp.funakiya.com/jr-hakataminami.html": {
+    "coords": [
+      130.436444,
+      33.518417
+    ],
+    "name_en": "JR Hakataminami Station",
+    "addr": "福岡県春日市上白水8-166",
+    "stamp_loc": "JR博多南駅改札外",
+    "hours": "5:50～20:30 20:40～22:50"
+  },
+  "https://stamp.funakiya.com/jr-nasushiobara.html": {
+    "coords": [
+      140.020628,
+      36.931847
+    ],
+    "name_en": "JR Nasushiobara Station",
+    "addr": "栃木県那須塩原市大原間555",
+    "stamp_loc": "JR那須塩原駅改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-shinshirakawa.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "福島県西白河郡西郷村道南東114",
+    "stamp_loc": "JR新白河駅（在来線）改札外",
+    "hours": "6:00～20:20"
+  },
+  "https://stamp.funakiya.com/jr-oyama.html": {
+    "coords": [
+      139.806539,
+      36.313608
+    ],
+    "name_en": "JR Oyama Station",
+    "addr": "栃木県小山市城山町3-3-22",
+    "stamp_loc": "JR小山駅改札内 在来線改札口近く",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-utsunomiya.html": {
+    "coords": [
+      139.898361,
+      36.558889
+    ],
+    "name_en": "JR Utsunomiya Station",
+    "addr": "栃木県宇都宮市川向町1-23",
+    "stamp_loc": "JR宇都宮駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-kooriyama.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "福島県郡山市燧田195",
+    "stamp_loc": "JR郡山駅改札外",
+    "hours": "5:20～23:00"
+  },
+  "https://stamp.funakiya.com/jr-shiroishizao.html": {
+    "coords": [
+      140.633086,
+      37.995544
+    ],
+    "name_en": "JR Shiroishi-Zaō Station",
+    "addr": "宮城県白石市大鷹沢三沢桜田11-1",
+    "stamp_loc": "JR白石蔵王駅改札外",
+    "hours": "6:00～21:20"
+  },
+  "https://stamp.funakiya.com/jr-fukushima.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "福島県福島市栄町1-1",
+    "stamp_loc": "JR福島駅新幹線改札内",
+    "hours": "5:40～23:00"
+  },
+  "https://stamp.funakiya.com/jr-furukawa.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "宮城県大崎市古川駅前大通1-7-35",
+    "stamp_loc": "JR古川駅改札外",
+    "hours": "6:10～21:20"
+  },
+  "https://stamp.funakiya.com/jr-kurikomakogen.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "宮城県栗原市志波姫新熊谷284",
+    "stamp_loc": "JRくりこま高原駅改札外",
+    "hours": "6:30～21:45"
+  },
+  "https://stamp.funakiya.com/jr-mizusawaesashi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "岩手県奥州市水沢羽田町駅前1-185",
+    "stamp_loc": "JR水沢江刺駅改札外",
+    "hours": "6:10～23:10"
+  },
+  "https://stamp.funakiya.com/jr-ichinoseki.html": {
+    "coords": [
+      141.137711,
+      38.926281
+    ],
+    "name_en": "JR Ichinoseki Station",
+    "addr": "岩手県一関市駅前67-1",
+    "stamp_loc": "JR一ノ関駅西口改札外",
+    "hours": "5:40～23:00"
+  },
+  "https://stamp.funakiya.com/jr-shinhanamaki.html": {
+    "coords": [
+      141.173592,
+      39.40605
+    ],
+    "name_en": "JR Shin-Hanamaki Station",
+    "addr": "岩手県花巻市矢沢10-87-7",
+    "stamp_loc": "JR新花巻駅改札外",
+    "hours": "5:50～22:20"
+  },
+  "https://stamp.funakiya.com/jr-kitakami.html": {
+    "coords": [
+      141.122228,
+      39.281833
+    ],
+    "name_en": "JR Kitakami Station",
+    "addr": "岩手県北上市大通り1-1-2",
+    "stamp_loc": "JR北上駅西口改札外",
+    "hours": "6:00～21:00"
+  },
+  "https://stamp.funakiya.com/jr-iwatenumakunai.html": {
+    "coords": [
+      141.217653,
+      39.960833
+    ],
+    "name_en": "JR Iwate-Numakunai Station",
+    "addr": "岩手県岩手郡岩手町江刈内7-9",
+    "stamp_loc": "JRいわて沼宮内駅改札外",
+    "hours": "7:00～10:30 10:40～11:50 12:40～14:10 14:30～16:10 16:20～18:00 18:50～19:55 20:55～21:45 21:55～22:50"
+  },
+  "https://stamp.funakiya.com/jr-ninohe.html": {
+    "coords": [
+      141.285639,
+      40.259861
+    ],
+    "name_en": "JR Ninohe Station",
+    "addr": "岩手県二戸市石切所森合63-68",
+    "stamp_loc": "JR二戸駅改札外",
+    "hours": "6:45～21:30"
+  },
+  "https://stamp.funakiya.com/jr-shichinohetowada.html": {
+    "coords": [
+      141.154028,
+      40.719861
+    ],
+    "name_en": "JR Shichinohe-Towada Station",
+    "addr": "青森県上北郡七戸町荒熊内67-46",
+    "stamp_loc": "JR七戸十和田駅改札外 みどりの窓口内",
+    "hours": "6:00～21:00"
+  },
+  "https://stamp.funakiya.com/jr-hachinohe.html": {
+    "coords": [
+      141.430833,
+      40.509444
+    ],
+    "name_en": "JR Hachinohe Station",
+    "addr": "青森県八戸市尻内町館田2-2",
+    "stamp_loc": "JR八戸駅改札外 みどりの窓口内",
+    "hours": "6:00～23:15"
+  },
+  "https://stamp.funakiya.com/jr-honjowaseda.html": {
+    "coords": [
+      139.1795,
+      36.218833
+    ],
+    "name_en": "JR Honjōwaseda Station",
+    "addr": "埼玉県本庄市早稲田の杜1-1-1",
+    "stamp_loc": "JR本庄早稲田駅改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-kumagaya.html": {
+    "coords": [
+      139.389917,
+      36.139694
+    ],
+    "name_en": "JR Kumagaya Station",
+    "addr": "埼玉県熊谷市筑波2-112",
+    "stamp_loc": "JR熊谷駅改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-jomokogen.html": {
+    "coords": [
+      138.977611,
+      36.693222
+    ],
+    "name_en": "JR Jōmō-Kōgen Station",
+    "addr": "群馬県利根郡みなかみ町月夜野1756",
+    "stamp_loc": "JR上毛高原駅改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-takasaki.html": {
+    "coords": [
+      139.012778,
+      36.322472
+    ],
+    "name_en": "JR Takasaki Station",
+    "addr": "群馬県高崎市八島町222",
+    "stamp_loc": "高崎駅在来線改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-urasa.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "新潟県南魚沼市浦佐719-2",
+    "stamp_loc": "JR浦佐駅改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-echigoyuzawa.html": {
+    "coords": [
+      138.809639,
+      36.935917
+    ],
+    "name_en": "JR Echigo-Yuzawa Station",
+    "addr": "新潟県南魚沼郡湯沢町湯沢主水2427-1",
+    "stamp_loc": "JR越後湯沢駅改札外 みどりの窓口内",
+    "hours": "5:45～22:30"
+  },
+  "https://stamp.funakiya.com/jr-nagaoka.html": {
+    "coords": [
+      138.853833,
+      37.447194
+    ],
+    "name_en": "JR Nagaoka Station",
+    "addr": "新潟県長岡市城内町2-794-4",
+    "stamp_loc": "JR長岡駅在来線改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-tsubamesanjo.html": {
+    "coords": [
+      138.939361,
+      37.649028
+    ],
+    "name_en": "JR Tsubamesanjō Station",
+    "addr": "新潟県三条市下須頃497",
+    "stamp_loc": "JR燕三条駅改札外",
+    "hours": "5:50～22:00"
+  },
+  "https://stamp.funakiya.com/jr-galayuzawa.html": {
+    "coords": [
+      138.799528,
+      36.950889
+    ],
+    "name_en": "JR Gala Yuzawa Station",
+    "addr": "新潟県南魚沼郡湯沢町湯沢1039-2",
+    "stamp_loc": "JRガーラ湯沢駅改札窓口（駅員に依頼が必要）",
+    "hours": "7:30～14:10 14:45～19:05"
+  },
+  "https://stamp.funakiya.com/jr-annakaharuna.html": {
+    "coords": [
+      138.849583,
+      36.362417
+    ],
+    "name_en": "JR Annakaharuna Station",
+    "addr": "群馬県安中市東上秋間2552-5",
+    "stamp_loc": "JR安中榛名駅改札内",
+    "hours": "6:30～22:30"
+  },
+  "https://stamp.funakiya.com/jr-sakudaira.html": {
+    "coords": [
+      138.464239,
+      36.277964
+    ],
+    "name_en": "JR Sakudaira Station",
+    "addr": "長野県佐久市佐久平駅東1-1",
+    "stamp_loc": "JR佐久平駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-karuizawa.html": {
+    "coords": [
+      138.635208,
+      36.342556
+    ],
+    "name_en": "JR Karuizawa Station",
+    "addr": "長野県北佐久郡軽井沢町軽井沢1178",
+    "stamp_loc": "JR軽井沢駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-ueda.html": {
+    "coords": [
+      138.249667,
+      36.396611
+    ],
+    "name_en": "JR Ueda Station",
+    "addr": "長野県上田市天神1-1-1",
+    "stamp_loc": "JR上田駅改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-iiyama.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "長野県飯山市飯山777-1",
+    "stamp_loc": "JR飯山駅改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-joetsumyoko.html": {
+    "coords": [
+      138.248472,
+      37.081333
+    ],
+    "name_en": "JR Jōetsumyōkō Station",
+    "addr": "新潟県上越市大和5-191-3",
+    "stamp_loc": "JR上越妙高駅改札窓口（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/jr-kurobeunazukionsen.html": {
+    "coords": [
+      137.481139,
+      36.874028
+    ],
+    "name_en": "JR Kurobe-Unazukionsen Station",
+    "addr": "富山県黒部市若栗3210-3",
+    "stamp_loc": "JR黒部宇奈月温泉駅改札窓口（駅員に依頼が必要）",
+    "hours": "6:20～23:00"
+  },
+  "https://stamp.funakiya.com/jr-itoigawa.html": {
+    "coords": [
+      137.861339,
+      37.043614
+    ],
+    "name_en": "JR Itoigawa Station",
+    "addr": "新潟県糸魚川市大町1-7-47",
+    "stamp_loc": "JR糸魚川駅改札窓口（駅員に依頼が必要）",
+    "hours": "8:30～19:30"
+  },
+  "https://stamp.funakiya.com/jr-toyama.html": {
+    "coords": [
+      137.213167,
+      36.701222
+    ],
+    "name_en": "JR Toyama Station",
+    "addr": "富山県富山市明輪町1-225",
+    "stamp_loc": "JR富山駅改札外 南口みどりの窓口内",
+    "hours": "5:40～23:30"
+  },
+  "https://stamp.funakiya.com/jr-shintakaoka.html": {
+    "coords": [
+      137.011389,
+      36.726944
+    ],
+    "name_en": "JR Shin-Takaoka Station",
+    "addr": "富山県高岡市下黒田1790-2",
+    "stamp_loc": "JR新高岡駅改札外",
+    "hours": "5:50～23:30"
+  },
+  "https://stamp.funakiya.com/jr-komatsu.html": {
+    "coords": [
+      136.453192,
+      36.402239
+    ],
+    "name_en": "JR Komatsu Station",
+    "addr": "石川県小松市土居原町466",
+    "stamp_loc": "JR小松駅新幹線改札外",
+    "hours": "5:00～23:00"
+  },
+  "https://stamp.funakiya.com/jr-kagaonsen.html": {
+    "coords": [
+      136.350792,
+      36.320206
+    ],
+    "name_en": "JR Kagaonsen Station",
+    "addr": "石川県加賀市作見町ヲ6-2",
+    "stamp_loc": "JR加賀温泉駅改札窓口（駅員に依頼が必要）",
+    "hours": "5:00～20:30"
+  },
+  "https://stamp.funakiya.com/jr-awaraonsen.html": {
+    "coords": [
+      136.235456,
+      36.215247
+    ],
+    "name_en": "JR Awaraonsen Station",
+    "addr": "福井県あわら市自由ヶ丘1-1613-1",
+    "stamp_loc": "JR芦原温泉駅改札窓口（駅員に依頼が必要）",
+    "hours": "5:15～22:30"
+  },
+  "https://stamp.funakiya.com/jr-echizentakefu.html": {
+    "coords": [
+      136.198889,
+      35.895667
+    ],
+    "name_en": "JR Echizen-Takefu Station",
+    "addr": "福井県越前市大屋町39東登リ内10-5",
+    "stamp_loc": "JR越前たけふ駅改札窓口（駅員に依頼が必要）",
+    "hours": "5:50～23:35"
+  },
+  "https://stamp.funakiya.com/jr-fukui.html": {
+    "coords": [
+      136.223333,
+      36.062083
+    ],
+    "name_en": "JR Fukui Station",
+    "addr": "福井県福井市中央1-3214",
+    "stamp_loc": "JR福井駅新幹線B改札外",
+    "hours": "4:35～23:00"
+  },
+  "https://stamp.funakiya.com/jr-funagoya.html": {
+    "coords": [
+      130.491528,
+      33.178056
+    ],
+    "name_en": "JR Chikugo-Funagoya Station",
+    "addr": "福岡県筑後市津島401",
+    "stamp_loc": "JR筑後船小屋駅改札窓口（駅員に依頼が必要）",
+    "hours": "7:30～19:00"
+  },
+  "https://stamp.funakiya.com/jr-kurume.html": {
+    "coords": [
+      130.501306,
+      33.320389
+    ],
+    "name_en": "JR Kurume Station",
+    "addr": "福岡県久留米市城南町2-21",
+    "stamp_loc": "JR久留米駅在来線改札窓口（駅員に依頼が必要）",
+    "hours": "7:00～21:00"
+  },
+  "https://stamp.funakiya.com/jr-shintosu.html": {
+    "coords": [
+      130.491194,
+      33.370194
+    ],
+    "name_en": "JR Shin-Tosu Station",
+    "addr": "佐賀県鳥栖市原古賀町220-2",
+    "stamp_loc": "JR新鳥栖駅改札外 みどりの窓口内",
+    "hours": "7:30～19:00"
+  },
+  "https://stamp.funakiya.com/jr-tsuruga.html": {
+    "coords": [
+      136.078064,
+      35.6451
+    ],
+    "name_en": "JR Tsuruga Station",
+    "addr": "福井県敦賀市津内109号南国広1-1",
+    "stamp_loc": "JR敦賀駅西口改札窓口（駅員に依頼が必要）",
+    "hours": "5:30～22:05"
+  },
+  "https://stamp.funakiya.com/jr-shinomuta.html": {
+    "coords": [
+      130.48875,
+      33.07125
+    ],
+    "name_en": "JR Shin-Ōmuta Station",
+    "addr": "福岡県大牟田市岩本2509-3",
+    "stamp_loc": "JR新大牟田駅改札窓口（駅員に依頼が必要）",
+    "hours": "7:30～12:40 13:10～13:40 14:10～16:45 17:20～17:40 18:20～19:00"
+  },
+  "https://stamp.funakiya.com/jr-shinminamata.html": {
+    "coords": [
+      130.429333,
+      32.211
+    ],
+    "name_en": "JR Shin-Minamata Station",
+    "addr": "熊本県水俣市初野305",
+    "stamp_loc": "JR新水俣駅改札外",
+    "hours": "7:00～10:40 11:10～11:50 12:20～13:20 14:00～16:40 17:20～19:00"
+  },
+  "https://stamp.funakiya.com/jr-shintamana.html": {
+    "coords": [
+      130.573556,
+      32.9425
+    ],
+    "name_en": "JR Shin-Tamana Station",
+    "addr": "熊本県玉名市玉名1229-3",
+    "stamp_loc": "JR新玉名駅改札窓口（駅員に依頼が必要）",
+    "hours": "7:30～11:30 12:20～13:00 14:00～15:20 15:50～17:40 18:20～19:00"
+  },
+  "https://stamp.funakiya.com/jrk-izumi.html": {
+    "coords": [
+      130.358389,
+      32.089586
+    ],
+    "name_en": "JR Izumi Station",
+    "addr": "鹿児島県出水市上鯖淵715-6",
+    "stamp_loc": "JR出水駅改札外",
+    "hours": "7:30～19:00"
+  },
+  "https://stamp.funakiya.com/jrk-sendai.html": {
+    "coords": [
+      130.312417,
+      31.813667
+    ],
+    "name_en": "JR Sendai Station",
+    "addr": "鹿児島県薩摩川内市鳥追町1-1",
+    "stamp_loc": "JR川内駅新幹線改札外",
+    "hours": "5:30～22:40"
+  },
+  "https://stamp.funakiya.com/jr-shinomura.html": {
+    "coords": [
+      129.956944,
+      32.932778
+    ],
+    "name_en": "JR Shin-Ōmura Station",
+    "addr": "長崎県大村市植松3-115-3",
+    "stamp_loc": "JR新大村駅改札外 みどりの窓口内",
+    "hours": "7:30～11:00 11:45～13:10 13:40～14:10 14:40～16:10 16:40～19:00"
+  },
+  "https://stamp.funakiya.com/jr-ureshinoonsen.html": {
+    "coords": [
+      129.998972,
+      33.106556
+    ],
+    "name_en": "JR Ureshino-Onsen Station",
+    "addr": "佐賀県嬉野市嬉野町下宿甲93-2",
+    "stamp_loc": "JR嬉野温泉駅改札外 みどりの窓口内",
+    "hours": "7:30～11:25 11:45～14:10 14:50～16:35 17:10～19:00"
+  },
+  "https://stamp.funakiya.com/jr-takeoonsen.html": {
+    "coords": [
+      130.022889,
+      33.196278
+    ],
+    "name_en": "JR Takeo-onsen Station",
+    "addr": "佐賀県武雄市武雄町富岡8260",
+    "stamp_loc": "JR武雄温泉駅北口改札外 みどりの窓口内",
+    "hours": "7:30～12:00 13:00～19:00"
+  },
+  "https://stamp.funakiya.com/jr-isahaya.html": {
+    "coords": [
+      130.041472,
+      32.851839
+    ],
+    "name_en": "JR Isahaya Station",
+    "addr": "長崎県諫早市永昌町1-1",
+    "stamp_loc": "JR諫早駅改札外 みどりの窓口内",
+    "hours": "8:00～18:30"
+  },
+  "https://stamp.funakiya.com/jr-nagasaki.html": {
+    "coords": [
+      129.869056,
+      32.75275
+    ],
+    "name_en": "JR Nagasaki Station",
+    "addr": "長崎県長崎市尾上町1-89",
+    "stamp_loc": "JR長崎駅改札外",
+    "hours": "7:00～21:00"
+  },
+  "https://stamp.funakiya.com/jr-okutsugaruimabetsu.html": {
+    "coords": [
+      140.515444,
+      41.145083
+    ],
+    "name_en": "JR Okutsugaru-Imabetsu Station",
+    "addr": "青森県東津軽郡今別町大川平清川91-1",
+    "stamp_loc": "JR奥津軽いまべつ駅改札窓口（駅員に依頼が必要）",
+    "hours": "6:20～22:45"
+  },
+  "https://stamp.funakiya.com/jr-kikonai.html": {
+    "coords": [
+      140.434111,
+      41.677722
+    ],
+    "name_en": "JR Kikonai Station",
+    "addr": "北海道上磯郡木古内町木古内206-3",
+    "stamp_loc": "JR木古内駅改札外",
+    "hours": "6:00～22:20"
+  },
+  "https://stamp.funakiya.com/jr-shinhakodatehokuto.html": {
+    "coords": [
+      140.648361,
+      41.904694
+    ],
+    "name_en": "JR Shin-Hakodate-Hokuto Station",
+    "addr": "北海道北斗市市渡1-1-1",
+    "stamp_loc": "JR新函館北斗駅改札外",
+    "hours": "6:00～22:00"
+  },
+  "https://stamp.funakiya.com/metro-aoyamaitchome.html": {
+    "coords": [
+      139.724417,
+      35.672444
+    ],
+    "name_en": "Tokyo Metro Aoyama-itchome Station",
+    "addr": "東京都港区南青山1-1-19",
+    "stamp_loc": "東京メトロ青山一丁目駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-gaiemmae.html": {
+    "coords": [
+      139.717861,
+      35.670556
+    ],
+    "name_en": "Tokyo Metro Gaiemmae Station",
+    "addr": "東京都港区北青山2-7-16",
+    "stamp_loc": "東京メトロ外苑前駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-akasakamitsuke.html": {
+    "coords": [
+      139.737056,
+      35.677
+    ],
+    "name_en": "Tokyo Metro Akasaka-mitsuke Station",
+    "addr": "東京都港区赤坂3-1-6",
+    "stamp_loc": "東京メトロ赤坂見附駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-shibuya.html": {
+    "coords": [
+      139.701944,
+      35.659444
+    ],
+    "name_en": "Tokyo Metro Shibuya Station",
+    "addr": "東京都渋谷区道玄坂2-1-1",
+    "stamp_loc": "東京メトロ渋谷駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-toranomon.html": {
+    "coords": [
+      139.75,
+      35.670139
+    ],
+    "name_en": "Tokyo Metro Toranomon Station",
+    "addr": "東京都港区虎ノ門1-1-21",
+    "stamp_loc": "東京メトロ虎ノ門駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-kyobashi.html": {
+    "coords": [
+      139.770139,
+      35.676833
+    ],
+    "name_en": "Tokyo Metro Kyobashi Station",
+    "addr": "東京都中央区京橋2-2-10",
+    "stamp_loc": "東京メトロ京橋駅銀座方面改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-nihonbashi.html": {
+    "coords": [
+      139.773694,
+      35.682528
+    ],
+    "name_en": "Tokyo Metro Nihombashi Station",
+    "addr": "東京都中央区日本橋1-3-11",
+    "stamp_loc": "東京メトロ日本橋駅銀座線改札外（B10出口付近）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-shinbashi.html": {
+    "coords": [
+      139.758472,
+      35.667417
+    ],
+    "name_en": "Tokyo Metro Shimbashi Station",
+    "addr": "東京都港区新橋2-17-5",
+    "stamp_loc": "東京メトロ新橋駅改札外定期券売り場内（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-suehirocho.html": {
+    "coords": [
+      139.771667,
+      35.702944
+    ],
+    "name_en": "Tokyo Metro Suehirocho Station",
+    "addr": "東京都千代田区外神田4-7-3",
+    "stamp_loc": "東京メトロ末広町駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-kanda.html": {
+    "coords": [
+      139.770889,
+      35.69375
+    ],
+    "name_en": "Tokyo Metro Kanda Station",
+    "addr": "東京都千代田区神田須田町1-16",
+    "stamp_loc": "東京メトロ神田駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-mitsukoshimae.html": {
+    "coords": [
+      139.774333,
+      35.685333
+    ],
+    "name_en": "Tokyo Metro Mitsukoshimae Station",
+    "addr": "東京都中央区日本橋室町2-2-1",
+    "stamp_loc": "東京メトロ三越前駅銀座線改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-tameikesanno.html": {
+    "coords": [
+      139.741389,
+      35.671944
+    ],
+    "name_en": "Tokyo Metro Tameike-sanno Station",
+    "addr": "東京都千代田区永田町2-11-1",
+    "stamp_loc": "東京メトロ溜池山王駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-uenohirokoji.html": {
+    "coords": [
+      139.772972,
+      35.707639
+    ],
+    "name_en": "Tokyo Metro Ueno-hirokoji Station",
+    "addr": "東京都台東区上野3-29-3",
+    "stamp_loc": "東京メトロ上野広小路駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-inaricho.html": {
+    "coords": [
+      139.782778,
+      35.711333
+    ],
+    "name_en": "Tokyo Metro Inaricho Station",
+    "addr": "東京都台東区東上野3-33-11",
+    "stamp_loc": "東京メトロ稲荷町駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-ueno.html": {
+    "coords": [
+      139.775972,
+      35.71175
+    ],
+    "name_en": "Tokyo Metro Ueno Station",
+    "addr": "東京都台東区東上野3-19-6",
+    "stamp_loc": "東京メトロ上野駅定期券売り場内（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-ogikubo.html": {
+    "coords": [
+      139.62,
+      35.704278
+    ],
+    "name_en": "Tokyo Metro Ogikubo Station",
+    "addr": "東京都杉並区荻窪5-31-7",
+    "stamp_loc": "東京メトロ荻窪駅改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-tawaramachi.html": {
+    "coords": [
+      139.790778,
+      35.709861
+    ],
+    "name_en": "Tokyo Metro Tawaramachi Station",
+    "addr": "東京都台東区西浅草1-1-18",
+    "stamp_loc": "東京メトロ田原町駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-minamiasagaya.html": {
+    "coords": [
+      139.635667,
+      35.699389
+    ],
+    "name_en": "Tokyo Metro Minami-asagaya Station",
+    "addr": "東京都杉並区阿佐谷南1-15-7",
+    "stamp_loc": "東京メトロ南阿佐ケ谷駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-asakusa.html": {
+    "coords": [
+      139.797833,
+      35.710833
+    ],
+    "name_en": "Tokyo Metro Asakusa Station",
+    "addr": "東京都台東区浅草1-1-3",
+    "stamp_loc": "東京メトロ浅草駅中央改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-shinkoenji.html": {
+    "coords": [
+      139.648056,
+      35.697778
+    ],
+    "name_en": "Tokyo Metro Shin-koenji Station",
+    "addr": "東京都杉並区高円寺南2-20-1",
+    "stamp_loc": "東京メトロ新高円寺駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-higashikoenji.html": {
+    "coords": [
+      139.657833,
+      35.698
+    ],
+    "name_en": "Tokyo Metro Higashi-koenji Station",
+    "addr": "東京都杉並区和田3-55-42",
+    "stamp_loc": "東京メトロ東高円寺駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-shinnakano.html": {
+    "coords": [
+      139.669028,
+      35.697472
+    ],
+    "name_en": "Tokyo Metro Shin-nakano Station",
+    "addr": "東京都中野区中央4-2-15",
+    "stamp_loc": "東京メトロ新中野駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-nakanosakaue.html": {
+    "coords": [
+      139.682778,
+      35.697
+    ],
+    "name_en": "Tokyo Metro Nakano-sakaue Station",
+    "addr": "東京都中野区本町2-48-2",
+    "stamp_loc": "東京メトロ中野坂上駅改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-nishishinjuku.html": {
+    "coords": [
+      139.692806,
+      35.694389
+    ],
+    "name_en": "Tokyo Metro Nishi-shinjuku Station",
+    "addr": "東京都新宿区西新宿6-7-51",
+    "stamp_loc": "東京メトロ西新宿駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-shinjukusanchome.html": {
+    "coords": [
+      139.704139,
+      35.691167
+    ],
+    "name_en": "Tokyo Metro Shinjuku-sanchome Station",
+    "addr": "東京都新宿区新宿5-18-22",
+    "stamp_loc": "東京メトロ新宿三丁目駅表参道交差点改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-shinjuku.html": {
+    "coords": [
+      139.700833,
+      35.692222
+    ],
+    "name_en": "Tokyo Metro Shinjuku Station",
+    "addr": "東京都新宿区西新宿一丁目 西口地下街1号",
+    "stamp_loc": "東京メトロ新宿駅定期券売り場内（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-shinjukugyoemmae.html": {
+    "coords": [
+      139.710694,
+      35.688583
+    ],
+    "name_en": "Tokyo Metro Shinjuku-gyoemmae Station",
+    "addr": "東京都新宿区新宿1-8-1",
+    "stamp_loc": "東京メトロ新宿御苑前駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-yotsuyasanchome.html": {
+    "coords": [
+      139.720083,
+      35.687944
+    ],
+    "name_en": "Tokyo Metro Yotsuya-sanchome Station",
+    "addr": "東京都新宿区四谷3-8",
+    "stamp_loc": "東京メトロ四谷三丁目駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-yotsuya.html": {
+    "coords": [
+      139.729861,
+      35.685
+    ],
+    "name_en": "Tokyo Metro Yotsuya Station",
+    "addr": "東京都新宿区四谷1-3",
+    "stamp_loc": "東京メトロ四ツ谷駅改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-kokkaigijidomae.html": {
+    "coords": [
+      139.745278,
+      35.674167
+    ],
+    "name_en": "Tokyo Metro Kokkai-gijidomae Station",
+    "addr": "東京都千代田区永田町1-7-1",
+    "stamp_loc": "東京メトロ国会議事堂前駅改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-kasumigaseki.html": {
+    "coords": [
+      139.750944,
+      35.673806
+    ],
+    "name_en": "Tokyo Metro Kasumigaseki Station",
+    "addr": "東京都千代田区霞が関2-1-2",
+    "stamp_loc": "東京メトロ霞ケ関駅改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-awajicho.html": {
+    "coords": [
+      139.767444,
+      35.695444
+    ],
+    "name_en": "Tokyo Metro Awajicho Station",
+    "addr": "東京都千代田区神田淡路町1-2",
+    "stamp_loc": "東京メトロ淡路町駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-tokyo.html": {
+    "coords": [
+      139.764833,
+      35.681667
+    ],
+    "name_en": "Tokyo Metro Tokyo Station",
+    "addr": "東京都千代田区丸の内1-6-5",
+    "stamp_loc": "東京メトロ東京駅改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-otemachi.html": {
+    "coords": [
+      139.765833,
+      35.684722
+    ],
+    "name_en": "Tokyo Metro Otemachi Station",
+    "addr": "東京都千代田区大手町1-6-1",
+    "stamp_loc": "東京メトロ大手町駅サンケイビル出口側改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-ochanomizu.html": {
+    "coords": [
+      139.764028,
+      35.700556
+    ],
+    "name_en": "Tokyo Metro Ochanomizu Station",
+    "addr": "東京都文京区湯島1-5-8",
+    "stamp_loc": "東京メトロ御茶ノ水駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-hongosanchome.html": {
+    "coords": [
+      139.76,
+      35.706667
+    ],
+    "name_en": "Tokyo Metro Hongo-sanchome Station",
+    "addr": "東京都文京区本郷2-39-1",
+    "stamp_loc": "東京メトロ本郷三丁目駅改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-myogadani.html": {
+    "coords": [
+      139.736806,
+      35.717361
+    ],
+    "name_en": "Tokyo Metro Myogadani Station",
+    "addr": "東京都文京区小日向4-6-15",
+    "stamp_loc": "東京メトロ茗荷谷駅改札内（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-korakuen.html": {
+    "coords": [
+      139.751111,
+      35.707361
+    ],
+    "name_en": "Tokyo Metro Korakuen Station",
+    "addr": "東京都文京区春日1-2-3",
+    "stamp_loc": "東京メトロ後楽園駅春日通方面改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-shinotsuka.html": {
+    "coords": [
+      139.729917,
+      35.725778
+    ],
+    "name_en": "Tokyo Metro Shin-otsuka Station",
+    "addr": "東京都文京区大塚4-51-5",
+    "stamp_loc": "東京メトロ新大塚駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-honancho.html": {
+    "coords": [
+      139.657167,
+      35.683417
+    ],
+    "name_en": "Tokyo Metro Honancho Station",
+    "addr": "東京都杉並区堀ノ内1-1-1",
+    "stamp_loc": "東京メトロ方南町駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-nakanofujimicho.html": {
+    "coords": [
+      139.666917,
+      35.6905
+    ],
+    "name_en": "Tokyo Metro Nakano-fujimicho Station",
+    "addr": "東京都中野区弥生町5-24-4",
+    "stamp_loc": "東京メトロ中野富士見町駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-ikebukuro.html": {
+    "coords": [
+      139.711944,
+      35.73
+    ],
+    "name_en": "Tokyo Metro Ikebukuro Station",
+    "addr": "東京都豊島区西池袋1-12-1",
+    "stamp_loc": "東京メトロ池袋駅定期券売り場内（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-ebisu.html": {
+    "coords": [
+      139.709028,
+      35.647361
+    ],
+    "name_en": "Tokyo Metro Ebisu Station",
+    "addr": "東京都渋谷区恵比寿南1-5-5",
+    "stamp_loc": "東京メトロ恵比寿駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-kamiyacho.html": {
+    "coords": [
+      139.745056,
+      35.662972
+    ],
+    "name_en": "Tokyo Metro Kamiyacho Station",
+    "addr": "東京都港区虎ノ門5-12-11",
+    "stamp_loc": "東京メトロ神谷町駅改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-hiroo.html": {
+    "coords": [
+      139.721889,
+      35.653194
+    ],
+    "name_en": "Tokyo Metro Hiro-o Station",
+    "addr": "東京都港区南麻布5-10-28",
+    "stamp_loc": "東京メトロ広尾駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-nakanoshimbashi.html": {
+    "coords": [
+      139.673944,
+      35.692222
+    ],
+    "name_en": "Tokyo Metro Nakano-shimbashi Station",
+    "addr": "東京都中野区弥生町2-26-8",
+    "stamp_loc": "東京メトロ中野新橋駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-nakameguro.html": {
+    "coords": [
+      139.699167,
+      35.644306
+    ],
+    "name_en": "Tokyo Metro Naka-meguro Station",
+    "addr": "東京都目黒区上目黒3-4-1",
+    "stamp_loc": "東京メトロ中目黒駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-higashiginza.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都中央区銀座4-12-15先",
+    "stamp_loc": "東京メトロ東銀座駅改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-hibiya.html": {
+    "coords": [
+      139.759611,
+      35.674889
+    ],
+    "name_en": "Tokyo Metro Hibiya Station",
+    "addr": "東京都千代田区有楽町1-5-1",
+    "stamp_loc": "東京メトロ日比谷駅改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-tsukiji.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都中央区築地3-15-1",
+    "stamp_loc": "東京メトロ築地駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-hatchobori.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都中央区八丁堀2-22-5",
+    "stamp_loc": "東京メトロ八丁堀駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-kayabacho.html": {
+    "coords": [
+      139.780139,
+      35.679944
+    ],
+    "name_en": "Tokyo Metro Kayabacho Station",
+    "addr": "東京都中央区日本橋茅場町1-4-6",
+    "stamp_loc": "東京メトロ茅場町駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-kodemmacho.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都中央区日本橋小伝馬町11-1",
+    "stamp_loc": "東京メトロ小伝馬町駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-ningyocho.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都中央区日本橋人形町2-6-5",
+    "stamp_loc": "東京メトロ人形町駅改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-nakaokachimachi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都台東区上野5-24-12",
+    "stamp_loc": "東京メトロ仲御徒町駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-iriya.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都台東区入谷1-6-4",
+    "stamp_loc": "東京メトロ入谷駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-minowa.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都台東区三ノ輪2-14-7",
+    "stamp_loc": "東京メトロ三ノ輪駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-minamisenju.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都荒川区南千住4-3-1",
+    "stamp_loc": "東京メトロ南千住駅改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-nakano.html": {
+    "coords": [
+      139.665556,
+      35.705833
+    ],
+    "name_en": "Tokyo Metro Nakano Station",
+    "addr": "東京都中野区中野5-31-1",
+    "stamp_loc": "東京メトロ中野駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-ochiai.html": {
+    "coords": [
+      139.686333,
+      35.71075
+    ],
+    "name_en": "Tokyo Metro Ochiai Station",
+    "addr": "東京都新宿区上落合2-13-7",
+    "stamp_loc": "東京メトロ落合駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-takadanobaba.html": {
+    "coords": [
+      139.704111,
+      35.713694
+    ],
+    "name_en": "Tokyo Metro Takadanobaba Station",
+    "addr": "東京都新宿区高田馬場1-35-2",
+    "stamp_loc": "東京メトロ高田馬場駅改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-kitasenju.html": {
+    "coords": [
+      139.804503,
+      35.749542
+    ],
+    "name_en": "Tokyo Metro Kita-senju Station",
+    "addr": "東京都足立区千住2-63",
+    "stamp_loc": "東京メトロ北千住駅改札外 定期券売り場内（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-waseda.html": {
+    "coords": [
+      139.721306,
+      35.705833
+    ],
+    "name_en": "Tokyo Metro Waseda Station",
+    "addr": "東京都新宿区早稲田南町12",
+    "stamp_loc": "東京メトロ早稲田駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-kagurazaka.html": {
+    "coords": [
+      139.734222,
+      35.703889
+    ],
+    "name_en": "Tokyo Metro Kagurazaka Station",
+    "addr": "東京都新宿区矢来町112",
+    "stamp_loc": "東京メトロ神楽坂駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-kudanshita.html": {
+    "coords": [
+      139.751278,
+      35.695917
+    ],
+    "name_en": "Tokyo Metro Kudanshita Station",
+    "addr": "東京都千代田区九段南1-6-1",
+    "stamp_loc": "東京メトロ九段下駅東西線改札外 駅事務室付近（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-takebashi.html": {
+    "coords": [
+      139.756861,
+      35.69075
+    ],
+    "name_en": "Tokyo Metro Takebashi Station",
+    "addr": "東京都千代田区一ツ橋1-1-1",
+    "stamp_loc": "東京メトロ竹橋駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-akihabara.html": {
+    "coords": [
+      139.7755,
+      35.698611
+    ],
+    "name_en": "Tokyo Metro Akihabara Station",
+    "addr": "東京都千代田区神田佐久間町1-21",
+    "stamp_loc": "東京メトロ秋葉原駅改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-iidabashi.html": {
+    "coords": [
+      139.745611,
+      35.701944
+    ],
+    "name_en": "Tokyo Metro Iidabashi Station",
+    "addr": "東京都千代田区飯田橋4-10-3",
+    "stamp_loc": "東京メトロ飯田橋駅定期券売り場内（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-monzennakacho.html": {
+    "coords": [
+      139.795778,
+      35.671972
+    ],
+    "name_en": "Tokyo Metro Monzen-nakacho Station",
+    "addr": "東京都江東区門前仲町1-4-8",
+    "stamp_loc": "東京メトロ門前仲町駅改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-kiba.html": {
+    "coords": [
+      139.806528,
+      35.669444
+    ],
+    "name_en": "Tokyo Metro Kiba Station",
+    "addr": "東京都江東区木場5-5-1",
+    "stamp_loc": "東京メトロ木場駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-toyocho.html": {
+    "coords": [
+      139.8175,
+      35.669583
+    ],
+    "name_en": "Tokyo Metro Toyocho Station",
+    "addr": "東京都江東区東陽4-2-1",
+    "stamp_loc": "東京メトロ東陽町駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-minamisunamachi.html": {
+    "coords": [
+      139.830667,
+      35.668833
+    ],
+    "name_en": "Tokyo Metro Minami-sunamachi Station",
+    "addr": "東京都江東区南砂3-11-85",
+    "stamp_loc": "東京メトロ南砂町駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-nishikasai.html": {
+    "coords": [
+      139.859361,
+      35.664583
+    ],
+    "name_en": "Tokyo Metro Nishi-kasai Station",
+    "addr": "東京都江戸川区西葛西6-14-1",
+    "stamp_loc": "東京メトロ西葛西駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-kasai.html": {
+    "coords": [
+      139.872694,
+      35.663611
+    ],
+    "name_en": "Tokyo Metro Kasai Station",
+    "addr": "東京都江戸川区中葛西5-43-11",
+    "stamp_loc": "東京メトロ葛西駅地下鉄博物館方面改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-minamigyotoku.html": {
+    "coords": [
+      139.902278,
+      35.672778
+    ],
+    "name_en": "Tokyo Metro Minami-gyotoku Station",
+    "addr": "千葉県市川市相之川4-17-1",
+    "stamp_loc": "東京メトロ南行徳駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-urayasu.html": {
+    "coords": [
+      139.892917,
+      35.665833
+    ],
+    "name_en": "Tokyo Metro Urayasu Station",
+    "addr": "千葉県浦安市北栄1-13-1",
+    "stamp_loc": "東京メトロ浦安駅改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-gyotoku.html": {
+    "coords": [
+      139.914167,
+      35.682639
+    ],
+    "name_en": "Tokyo Metro Gyotoku Station",
+    "addr": "千葉県市川市行徳駅前2-4-1",
+    "stamp_loc": "東京メトロ行徳駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-barakinakayama.html": {
+    "coords": [
+      139.941806,
+      35.70325
+    ],
+    "name_en": "Tokyo Metro Baraki-nakayama Station",
+    "addr": "千葉県船橋市本中山7-7-1",
+    "stamp_loc": "東京メトロ原木中山駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-myoden.html": {
+    "coords": [
+      139.925,
+      35.691611
+    ],
+    "name_en": "Tokyo Metro Myoden Station",
+    "addr": "千葉県市川市富浜1-2-10",
+    "stamp_loc": "東京メトロ妙典駅改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-nishifunabashi.html": {
+    "coords": [
+      139.958778,
+      35.707444
+    ],
+    "name_en": "Tokyo Metro Nishi-funabashi Station",
+    "addr": "千葉県船橋市西船4-27-7",
+    "stamp_loc": "東京メトロ西船橋駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-yoyogiuehara.html": {
+    "coords": [
+      139.679722,
+      35.669028
+    ],
+    "name_en": "Tokyo Metro Yoyogi-uehara Station",
+    "addr": "東京都渋谷区西原3-8-5",
+    "stamp_loc": "東京メトロ代々木上原駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-yoyogikoen.html": {
+    "coords": [
+      139.691306,
+      35.668944
+    ],
+    "name_en": "Tokyo Metro Yoyogi-koen Station",
+    "addr": "東京都渋谷区富ヶ谷1-3-9",
+    "stamp_loc": "東京メトロ代々木公園駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-nogizaka.html": {
+    "coords": [
+      139.726333,
+      35.666667
+    ],
+    "name_en": "Tokyo Metro Nogizaka Station",
+    "addr": "東京都港区南青山1-25-8",
+    "stamp_loc": "東京メトロ乃木坂駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-meijijingumae.html": {
+    "coords": [
+      139.704139,
+      35.669028
+    ],
+    "name_en": "Tokyo Metro Meiji-jingumae Station",
+    "addr": "東京都渋谷区神宮前1-18-22",
+    "stamp_loc": "東京メトロ明治神宮前駅定期券売り場内（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-akasaka.html": {
+    "coords": [
+      139.736528,
+      35.672361
+    ],
+    "name_en": "Tokyo Metro Akasaka Station",
+    "addr": "東京都港区赤坂5-4-5",
+    "stamp_loc": "東京メトロ赤坂駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-yushima.html": {
+    "coords": [
+      139.769889,
+      35.708222
+    ],
+    "name_en": "Tokyo Metro Yushima Station",
+    "addr": "東京都文京区湯島3-47-10",
+    "stamp_loc": "東京メトロ湯島駅天神下交差点方面改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-nijubashimae.html": {
+    "coords": [
+      139.761667,
+      35.680361
+    ],
+    "name_en": "Tokyo Metro Nijubashimae Station",
+    "addr": "東京都千代田区丸の内2-3-1",
+    "stamp_loc": "東京メトロ二重橋前駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-shinochanomizu.html": {
+    "coords": [
+      139.766,
+      35.698056
+    ],
+    "name_en": "Tokyo Metro Shin-ochanomizu Station",
+    "addr": "東京都千代田区神田駿河台三丁目先",
+    "stamp_loc": "東京メトロ新御茶ノ水駅小川町交差点方面改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-nezu.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都文京区根津1-3-5",
+    "stamp_loc": "東京メトロ根津駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-nishinippori.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都荒川区西日暮里5-14-1",
+    "stamp_loc": "東京メトロ西日暮里駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-machiya.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都荒川区町屋1-1-5",
+    "stamp_loc": "東京メトロ町屋駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-ayase.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都足立区綾瀬3-1-1",
+    "stamp_loc": "東京メトロ綾瀬駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/stampmetro-sendagi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都文京区千駄木2-32-5",
+    "stamp_loc": "東京メトロ千駄木駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-chikatetsunarimasu.html": {
+    "coords": [
+      139.631528,
+      35.776528
+    ],
+    "name_en": "Tokyo Metro Chikatetsu-narimasu Station",
+    "addr": "東京都板橋区成増2-11-3",
+    "stamp_loc": "東京メトロ地下鉄成増駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-chikatetsuakatsuka.html": {
+    "coords": [
+      139.644028,
+      35.769972
+    ],
+    "name_en": "Tokyo Metro Chikatetsu-akatsuka Station",
+    "addr": "東京都練馬区北町8-37-16",
+    "stamp_loc": "東京メトロ地下鉄赤塚駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-kitaayase.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都足立区谷中2-6-21",
+    "stamp_loc": "東京メトロ北綾瀬駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-wakoshi.html": {
+    "coords": [
+      139.6125,
+      35.788472
+    ],
+    "name_en": "Tokyo Metro Wakoshi Station",
+    "addr": "埼玉県和光市本町4-6",
+    "stamp_loc": "東京メトロ和光市駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-hikawadai.html": {
+    "coords": [
+      139.665,
+      35.749806
+    ],
+    "name_en": "Tokyo Metro Hikawadai Station",
+    "addr": "東京都練馬区氷川台3-38-18",
+    "stamp_loc": "東京メトロ氷川台駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-heiwadai.html": {
+    "coords": [
+      139.653778,
+      35.757861
+    ],
+    "name_en": "Tokyo Metro Heiwadai Station",
+    "addr": "東京都練馬区早宮2-17-48",
+    "stamp_loc": "東京メトロ平和台駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-kotakemukaihara.html": {
+    "coords": [
+      139.678639,
+      35.743944
+    ],
+    "name_en": "Tokyo Metro Kotake-mukaihara Station",
+    "addr": "東京都練馬区小竹町2-16-15",
+    "stamp_loc": "東京メトロ小竹向原駅改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-senkawa.html": {
+    "coords": [
+      139.689167,
+      35.738417
+    ],
+    "name_en": "Tokyo Metro Senkawa Station",
+    "addr": "東京都豊島区要町3-10-7",
+    "stamp_loc": "東京メトロ千川駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-kanamecho.html": {
+    "coords": [
+      139.698722,
+      35.733222
+    ],
+    "name_en": "Tokyo Metro Kanamecho Station",
+    "addr": "東京都豊島区要町1-1-10",
+    "stamp_loc": "東京メトロ要町駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-edogawabashi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都文京区関口1-19-6",
+    "stamp_loc": "東京メトロ江戸川橋駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-higashiikebukuro.html": {
+    "coords": [
+      139.7195,
+      35.725667
+    ],
+    "name_en": "Tokyo Metro Higashi-ikebukuro Station",
+    "addr": "東京都豊島区東池袋4-4-4",
+    "stamp_loc": "東京メトロ東池袋駅改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-ichigaya.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都新宿区市谷田町一丁目先",
+    "stamp_loc": "東京メトロ市ケ谷駅改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-kojimachi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都千代田区麹町3-2",
+    "stamp_loc": "東京メトロ麹町駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-nagatacho.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都千代田区永田町1-11-28先",
+    "stamp_loc": "東京メトロ永田町駅改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-sakuradamon.html": {
+    "coords": [
+      139.75175,
+      35.677361
+    ],
+    "name_en": "Tokyo Metro Sakuradamon Station",
+    "addr": "東京都千代田区霞が関2-1-1",
+    "stamp_loc": "東京メトロ桜田門駅改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-yurakucho.html": {
+    "coords": [
+      139.763333,
+      35.675694
+    ],
+    "name_en": "Tokyo Metro Yurakucho Station",
+    "addr": "東京都千代田区有楽町1-11-1",
+    "stamp_loc": "東京メトロ有楽町駅中央改札外 D4出口付近（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-ginzaitchome.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都中央区銀座1-7-12",
+    "stamp_loc": "東京メトロ銀座一丁目駅改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-shintomicho.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都中央区築地1-1-1",
+    "stamp_loc": "東京メトロ新富町駅改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-tsukishima.html": {
+    "coords": null,
+    "name_en": "Tokyo Metro Tsukishima Station",
+    "addr": "東京都中央区月島1-3-9",
+    "stamp_loc": "東京メトロ月島駅改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-tatsumi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都江東区辰巳1-1-44",
+    "stamp_loc": "東京メトロ辰巳駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-shinkiba.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都江東区新木場1-6",
+    "stamp_loc": "東京メトロ新木場駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-hanzomon.html": {
+    "coords": [
+      139.741667,
+      35.685694
+    ],
+    "name_en": "Tokyo Metro Hanzomon Station",
+    "addr": "東京都千代田区麹町1-6",
+    "stamp_loc": "東京メトロ半蔵門駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-gokokuji.html": {
+    "coords": [
+      139.7275,
+      35.719028
+    ],
+    "name_en": "Tokyo Metro Gokokuji Station",
+    "addr": "東京都文京区大塚5-40-8",
+    "stamp_loc": "東京メトロ護国寺駅改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-toyosu.html": {
+    "coords": [
+      139.796111,
+      35.655
+    ],
+    "name_en": "Tokyo Metro Toyosu Station",
+    "addr": "東京都江東区豊洲4-1-1",
+    "stamp_loc": "東京メトロ豊洲駅ららぽーと方面改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-jimbocho.html": {
+    "coords": [
+      139.756833,
+      35.695861
+    ],
+    "name_en": "Tokyo Metro Jimbocho Station",
+    "addr": "東京都千代田区神田神保町2-2",
+    "stamp_loc": "東京メトロ神保町駅改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-kiyosumishirakawa.html": {
+    "coords": [
+      139.800306,
+      35.682111
+    ],
+    "name_en": "Tokyo Metro Kiyosumi-shirakawa Station",
+    "addr": "東京都江東区白河1-6-13",
+    "stamp_loc": "東京メトロ清澄白河駅改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-suitengumae.html": {
+    "coords": [
+      139.786028,
+      35.682056
+    ],
+    "name_en": "Tokyo Metro Suitengumae Station",
+    "addr": "東京都中央区日本橋蛎殻町2-1-1",
+    "stamp_loc": "東京メトロ水天宮前駅シティエアターミナル方面改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-sumiyoshi.html": {
+    "coords": [
+      139.815667,
+      35.687333
+    ],
+    "name_en": "Tokyo Metro Sumiyoshi Station",
+    "addr": "東京都江東区猿江2-9-10",
+    "stamp_loc": "東京メトロ住吉駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-kinshicho.html": {
+    "coords": [
+      139.815,
+      35.696389
+    ],
+    "name_en": "Tokyo Metro Kinshicho Station",
+    "addr": "東京都墨田区江東橋3-14-6",
+    "stamp_loc": "東京メトロ錦糸町駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-oshiage.html": {
+    "coords": [
+      139.813389,
+      35.710139
+    ],
+    "name_en": "Tokyo Metro Oshiage Station",
+    "addr": "東京都墨田区押上1-1-65",
+    "stamp_loc": "東京メトロ半蔵門線押上駅改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-shirokanedai.html": {
+    "coords": [
+      139.726111,
+      35.637889
+    ],
+    "name_en": "Tokyo Metro Shirokanedai Station",
+    "addr": "東京都港区白金台4-5-10",
+    "stamp_loc": "東京メトロ白金台駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-shirokanetakanawa.html": {
+    "coords": [
+      139.734139,
+      35.642889
+    ],
+    "name_en": "Tokyo Metro Shirokane-takanawa Station",
+    "addr": "東京都港区高輪1-3-20先",
+    "stamp_loc": "東京メトロ白金高輪駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-azabujuban.html": {
+    "coords": [
+      139.736944,
+      35.654722
+    ],
+    "name_en": "Tokyo Metro Azabu-juban Station",
+    "addr": "東京都港区麻布十番4-4-9",
+    "stamp_loc": "東京メトロ麻布十番駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-meguro.html": {
+    "coords": [
+      139.71556,
+      35.63343
+    ],
+    "name_en": "Tokyo Metro Meguro Station",
+    "addr": "東京都品川区上大崎4-2-1",
+    "stamp_loc": "東京メトロ目黒駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-roppongi1tchome.html": {
+    "coords": [
+      139.739028,
+      35.665556
+    ],
+    "name_en": "Tokyo Metro Roppongi-itchome Station",
+    "addr": "東京都港区六本木1-4-1",
+    "stamp_loc": "東京メトロ六本木一丁目駅改札内（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-todaimae.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都文京区向丘1-19-2",
+    "stamp_loc": "東京メトロ東大前駅改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-honkomagome.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都文京区向丘2-37-1",
+    "stamp_loc": "東京メトロ本駒込駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-komagome.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都豊島区駒込2-1-40",
+    "stamp_loc": "東京メトロ駒込駅改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-nishigahara.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都北区西ヶ原2-3-8",
+    "stamp_loc": "東京メトロ西ケ原駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-ouji.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都北区王子1-10-18",
+    "stamp_loc": "東京メトロ王子駅改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-akabaneiwabuchi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都北区赤羽1-52-8",
+    "stamp_loc": "東京メトロ赤羽岩淵駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-zoshigaya.html": {
+    "coords": [
+      139.714778,
+      35.720167
+    ],
+    "name_en": "Tokyo Metro Zoshigaya Station",
+    "addr": "東京都豊島区雑司が谷2-6-1",
+    "stamp_loc": "東京メトロ雑司が谷駅改札窓口（駅員に依頼が必要）（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-ojikamiya.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都北区王子5-2-11",
+    "stamp_loc": "東京メトロ王子神谷駅改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-shimo.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都北区志茂2-1-18",
+    "stamp_loc": "東京メトロ志茂駅改札外（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-nishiwaseda.html": {
+    "coords": [
+      139.709028,
+      35.707944
+    ],
+    "name_en": "Tokyo Metro Nishi-waseda Station",
+    "addr": "東京都新宿区戸山3-18-2",
+    "stamp_loc": "東京メトロ西早稲田駅改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-higashishinjuku.html": {
+    "coords": [
+      139.707722,
+      35.6995
+    ],
+    "name_en": "Tokyo Metro Higashi-shinjuku Station",
+    "addr": "東京都新宿区新宿7-27-11",
+    "stamp_loc": "東京メトロ東新宿駅改札窓口（駅員に依頼が必要）（現在なし）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/metro-kitasando.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都渋谷区千駄ヶ谷4-7-11",
+    "stamp_loc": "東京メトロ北参道駅改札外（期間限定）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-nishimagome.html": {
+    "coords": [
+      139.705944,
+      35.586861
+    ],
+    "name_en": "Toei Subway Nishi-magome Station",
+    "addr": "東京都大田区西馬込2-1-6",
+    "stamp_loc": "都営地下鉄西馬込駅改札内（西口改札側）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-magome.html": {
+    "coords": [
+      139.711806,
+      35.596417
+    ],
+    "name_en": "Toei Subway Magome Station",
+    "addr": "東京都大田区北馬込2-31-9",
+    "stamp_loc": "都営地下鉄馬込駅改札内（東馬込方面改札側）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-nakanobu.html": {
+    "coords": [
+      139.713694,
+      35.605556
+    ],
+    "name_en": "Toei Subway Nakanobu Station",
+    "addr": "東京都品川区東中延2-9-12",
+    "stamp_loc": "都営地下鉄中延駅改札内（東急大井町線方面改札側）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-togoshi.html": {
+    "coords": [
+      139.716417,
+      35.614722
+    ],
+    "name_en": "Toei Subway Togoshi Station",
+    "addr": "東京都品川区戸越3-4-17",
+    "stamp_loc": "都営地下鉄戸越駅改札内（戸越銀座通り方面改札側）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-gotanda.html": {
+    "coords": [
+      139.724028,
+      35.626944
+    ],
+    "name_en": "Toei Subway Gotanda Station",
+    "addr": "東京都品川区東五反田1-26-2",
+    "stamp_loc": "都営地下鉄五反田駅改札内（JR五反田駅方面改札側）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-takanawadai.html": {
+    "coords": [
+      139.730278,
+      35.631667
+    ],
+    "name_en": "Toei Subway Takanawadai Station",
+    "addr": "東京都港区白金台2-26-7",
+    "stamp_loc": "都営地下鉄高輪台駅改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-sengakuji.html": {
+    "coords": [
+      139.74,
+      35.638694
+    ],
+    "name_en": "Toei Subway Sengakuji Station",
+    "addr": "東京都港区高輪2-16-34",
+    "stamp_loc": "都営地下鉄泉岳寺駅改札内（A1・A2出口方面改札側）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-mita.html": {
+    "coords": [
+      139.747222,
+      35.646889
+    ],
+    "name_en": "Toei Subway Mita Station",
+    "addr": "東京都港区芝5-34-10",
+    "stamp_loc": "都営地下鉄三田駅改札内（JR田町駅方面改札側）、都営地下鉄三田駅改札内（A8出口方面改札側）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-daimon.html": {
+    "coords": [
+      139.754639,
+      35.65675
+    ],
+    "name_en": "Toei Subway Daimon Station",
+    "addr": "東京都港区浜松町1-27-12",
+    "stamp_loc": "都営地下鉄大門駅改札外（A2出口方面改札側）、都営地下鉄大門駅改札内（JR浜松町駅方面改札側）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-shinbashi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都港区新橋2-21-1",
+    "stamp_loc": "都営地下鉄新橋駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-higashiginza.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都中央区銀座4-10-10",
+    "stamp_loc": "都営地下鉄東銀座駅改札外（押上方面）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-takaracho.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都中央区京橋2-13-11先",
+    "stamp_loc": "都営地下鉄宝町駅改札内（西馬込方面ホーム側）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-nihonbashi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都中央区日本橋1-13-1",
+    "stamp_loc": "都営地下鉄日本橋駅改札内 駅事務室内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-ningyocho.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都中央区日本橋人形町3-7-13",
+    "stamp_loc": "都営地下鉄人形町駅改札内（A1・A2出口側）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-asakusabashi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都台東区浅草橋1-18-11",
+    "stamp_loc": "都営地下鉄浅草橋駅改札外（蔵前方面側改札）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-higashinihonbashi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都中央区東日本橋3-11-8先",
+    "stamp_loc": "都営地下鉄東日本橋駅改札内 駅事務室内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-kuramae.html": {
+    "coords": [
+      139.790944,
+      35.703222
+    ],
+    "name_en": "Toei Subway Kuramae Station",
+    "addr": "東京都台東区蔵前2-3-1",
+    "stamp_loc": "都営地下鉄蔵前駅改札内（A1出口側改札）、都営地下鉄蔵前駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-honjoazumabashi.html": {
+    "coords": [
+      139.804611,
+      35.708583
+    ],
+    "name_en": "Toei Subway Honjo-azumabashi Station",
+    "addr": "東京都墨田区吾妻橋3-7-16",
+    "stamp_loc": "都営地下鉄本所吾妻橋駅改札内（西馬込方面ホーム側）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-asakusa.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都台東区駒形1-12-14",
+    "stamp_loc": "都営地下鉄浅草駅改札内（雷門方面改札）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/keisei-oshiage.html": {
+    "coords": [
+      139.812889,
+      35.71075
+    ],
+    "name_en": "Keisei Oshiage Station",
+    "addr": "東京都墨田区押上1-10-2",
+    "stamp_loc": "京成電鉄押上駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-onarimon.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都港区西新橋3-24-6",
+    "stamp_loc": "都営地下鉄御成門駅改札内（慈恵医大病院方面改札）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-uchisaiwaicho.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都千代田区内幸町2-2-3",
+    "stamp_loc": "都営地下鉄内幸町駅改札内（日比谷方面改札）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-otemachi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都千代田区丸の内1-3-1",
+    "stamp_loc": "都営地下鉄大手町駅改札内（行幸通り方面改札）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-hibiya.html": {
+    "coords": [
+      139.760222,
+      35.676361
+    ],
+    "name_en": "Toei Subway Hibiya Station",
+    "addr": "東京都千代田区有楽町1-13-1",
+    "stamp_loc": "都営地下鉄日比谷駅改札内（エレベーター付近）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-shibakoen.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都港区芝公園4-8-14",
+    "stamp_loc": "都営地下鉄芝公園駅改札内（芝公園方面改札）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-jimbocho.html": {
+    "coords": [
+      139.757667,
+      35.695944
+    ],
+    "name_en": "Toei Subway Jimbocho Station",
+    "addr": "東京都千代田区神田神保町2-7",
+    "stamp_loc": "都営地下鉄神保町駅改札内（A6方面改札側）、都営地下鉄神保町駅改札内（A7方面改札側）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-suidobashi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都文京区後楽1-3-42",
+    "stamp_loc": "都営地下鉄水道橋駅改札内（JR水道橋駅方面）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-kasuga.html": {
+    "coords": [
+      139.75325,
+      35.709639
+    ],
+    "name_en": "Toei Subway Kasuga Station",
+    "addr": "東京都文京区本郷4-15-16",
+    "stamp_loc": "都営地下鉄春日駅改札内（目黒方面ホーム側）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-hakusan.html": {
+    "coords": [
+      139.752083,
+      35.721333
+    ],
+    "name_en": "Toei Subway Hakusan Station",
+    "addr": "東京都文京区白山5-36-10",
+    "stamp_loc": "都営地下鉄白山駅改札外（A2出口側）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-sengoku.html": {
+    "coords": [
+      139.74475,
+      35.727917
+    ],
+    "name_en": "Toei Subway Sengoku Station",
+    "addr": "東京都文京区千石1-29-13",
+    "stamp_loc": "都営地下鉄千石駅改札内（千石駅前交差点方面）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-sugamo.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都豊島区巣鴨3-27-7",
+    "stamp_loc": "都営地下鉄巣鴨駅改札内（JR巣鴨駅側）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-nishisugamo.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都豊島区西巣鴨3-25-13",
+    "stamp_loc": "都営地下鉄西巣鴨駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-shinitabashi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都板橋区板橋1-53-17",
+    "stamp_loc": "都営地下鉄新板橋駅改札内（板橋一丁目方面）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-itabashikuyakushomae.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都板橋区板橋2-66-17",
+    "stamp_loc": "都営地下鉄板橋区役所前駅改札内（目黒方面ホーム側）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-itabashihoncho.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都板橋区大和町17-1",
+    "stamp_loc": "都営地下鉄板橋本町駅改札内（大和町方面改札側）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-motohasunuma.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都板橋区蓮沼町19-8",
+    "stamp_loc": "都営地下鉄本蓮沼駅改札外（目黒方面ホーム側）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-shimurasakaue.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都板橋区志村1-14-13",
+    "stamp_loc": "都営地下鉄志村坂上駅改札外（志村坂上方面）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-shimurasanchome.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都板橋区志村3-23-1",
+    "stamp_loc": "都営地下鉄志村三丁目駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-hasune.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都板橋区蓮根2-31-30",
+    "stamp_loc": "都営地下鉄蓮根駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-nishidai.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都板橋区高島平9-1-1",
+    "stamp_loc": "都営地下鉄西台駅改札内（東口）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-takashimadaira.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都板橋区高島平8-2-1",
+    "stamp_loc": "都営地下鉄高島平駅改札内（東口）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-shintakashimadaira.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都板橋区高島平7-1",
+    "stamp_loc": "都営地下鉄新高島平駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-akebonobashi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都新宿区住吉町7-1",
+    "stamp_loc": "曙橋駅改札内 新宿側改札付近",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-nishitakashimadaira.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都板橋区高島平6-1",
+    "stamp_loc": "都営地下鉄西高島平駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-shinjukusanchome.html": {
+    "coords": [
+      139.705833,
+      35.690639
+    ],
+    "name_en": "Toei Subway Shinjuku-sanchome Station",
+    "addr": "東京都新宿区新宿3-3-2",
+    "stamp_loc": "都営地下鉄新宿三丁目駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-ichigaya.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都千代田区九段南4-8-22",
+    "stamp_loc": "都営地下鉄市ヶ谷駅改札内（A1方面改札側）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-ogawamachi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都千代田区神田小川町1-6",
+    "stamp_loc": "都営地下鉄小川町駅改札内（千代田線側改札口）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-kudanshita.html": {
+    "coords": [
+      139.751083,
+      35.695417
+    ],
+    "name_en": "Toei Subway Kudanshita Station",
+    "addr": "東京都千代田区九段北1-13-19",
+    "stamp_loc": "都営地下鉄九段下駅改札内（靖国神社側改札口）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-iwamotocho.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都千代田区神田岩本町1",
+    "stamp_loc": "都営地下鉄岩本町駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-bakuroyokoyama.html": {
+    "coords": [
+      139.782778,
+      35.692111
+    ],
+    "name_en": "Toei Subway Bakuroyokoyama Station",
+    "addr": "東京都中央区日本橋横山町4-13",
+    "stamp_loc": "都営地下鉄馬喰横山駅改札内（東日本橋駅乗換改札側）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-hamacho.html": {
+    "coords": [
+      139.788139,
+      35.688472
+    ],
+    "name_en": "Toei Subway Hamacho Station",
+    "addr": "東京都中央区日本橋浜町2-59-3",
+    "stamp_loc": "都営地下鉄浜町駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-morishita.html": {
+    "coords": [
+      139.797028,
+      35.687972
+    ],
+    "name_en": "Toei Subway Morishita Station",
+    "addr": "東京都江東区森下1-13-10",
+    "stamp_loc": "都営地下鉄森下駅新宿線改札内 駅務室前、都営地下鉄森下駅大江戸線改札内裏手",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-kikukawa.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都墨田区菊川3-16-2",
+    "stamp_loc": "都営地下鉄菊川駅駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-nishioojima.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都江東区大島2-41-19",
+    "stamp_loc": "都営地下鉄西大島駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-sumiyoshi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都江東区住吉2-23-12",
+    "stamp_loc": "都営地下鉄新宿線住吉駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-oojima.html": {
+    "coords": [
+      139.835639,
+      35.689833
+    ],
+    "name_en": "Toei Subway Ojima Station",
+    "addr": "東京都江東区大島5-10-8",
+    "stamp_loc": "都営地下鉄大島駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-higashioojima.html": {
+    "coords": [
+      139.847806,
+      35.689722
+    ],
+    "name_en": "Toei Subway Higashi-ojima Station",
+    "addr": "東京都江東区大島9-3-14",
+    "stamp_loc": "都営地下鉄大島駅改札内（大島口側）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-funabori.html": {
+    "coords": [
+      139.864306,
+      35.683806
+    ],
+    "name_en": "Toei Subway Funabori Station",
+    "addr": "東京都江戸川区船堀3-6-1",
+    "stamp_loc": "都営地下鉄船堀駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-ichinoe.html": {
+    "coords": [
+      139.882944,
+      35.686
+    ],
+    "name_en": "Toei Subway Ichinoe Station",
+    "addr": "東京都江戸川区一之江8-14-1",
+    "stamp_loc": "都営地下鉄一之江駅改札外 切符売場横",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-mizue.html": {
+    "coords": [
+      139.897694,
+      35.69325
+    ],
+    "name_en": "Toei Subway Mizue Station",
+    "addr": "東京都江戸川区瑞江2-2-1",
+    "stamp_loc": "都営地下鉄瑞江駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-shinozaki.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都江戸川区篠崎町7-27-1",
+    "stamp_loc": "都営地下鉄篠崎駅改札窓口（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-motoyawata.html": {
+    "coords": [
+      139.926667,
+      35.723056
+    ],
+    "name_en": "Toei Subway Motoyawata Station",
+    "addr": "千葉県市川市八幡2-16-13",
+    "stamp_loc": "都営地下鉄本八幡駅改札外 駅事務所内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-shinjukunishiguchi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都新宿区西新宿1-3-17",
+    "stamp_loc": "都営地下鉄新宿西口駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-wakamatsukawada.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都新宿区河田町10-10",
+    "stamp_loc": "都営地下鉄若松河田駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-higashishinjuku.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都新宿区新宿7-27-3",
+    "stamp_loc": "都営地下鉄東新宿駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-ushigomeyanagicho.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都新宿区原町2-32",
+    "stamp_loc": "都営地下鉄牛込柳町駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-ushigomekagurazaka.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都新宿区箪笥町15",
+    "stamp_loc": "都営地下鉄牛込神楽坂駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-iidabashi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都文京区後楽1-9-5",
+    "stamp_loc": "都営地下鉄飯田橋駅改札外（C2・C3方面改札）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-hongosanchome.html": {
+    "coords": [
+      139.760417,
+      35.7075
+    ],
+    "name_en": "Toei Subway Hongo-sanchome Station",
+    "addr": "東京都文京区本郷2-40-8",
+    "stamp_loc": "都営地下鉄本郷三丁目駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-uokachimachi.html": {
+    "coords": [
+      139.774333,
+      35.707889
+    ],
+    "name_en": "Toei Subway Ueno-okachimachi Station",
+    "addr": "東京都台東区上野5-26-6",
+    "stamp_loc": "都営地下鉄上野御徒町駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-shinokachimachi.html": {
+    "coords": [
+      139.782778,
+      35.706889
+    ],
+    "name_en": "Toei Subway Shin-okachimachi Station",
+    "addr": "東京都台東区元浅草1-5-2",
+    "stamp_loc": "都営地下鉄新御徒町駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-monzennakacho.html": {
+    "coords": [
+      139.795083,
+      35.67275
+    ],
+    "name_en": "Toei Subway Monzen-nakacho Station",
+    "addr": "東京都江東区門前仲町2-5-2",
+    "stamp_loc": "都営地下鉄門前仲町駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-ryougoku.html": {
+    "coords": [
+      139.797444,
+      35.696861
+    ],
+    "name_en": "Toei Subway Ryogoku Station",
+    "addr": "東京都墨田区横網1-4-29",
+    "stamp_loc": "都営地下鉄両国駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-tsukishima.html": {
+    "coords": [
+      139.784639,
+      35.664278
+    ],
+    "name_en": "Toei Subway Tsukishima Station",
+    "addr": "東京都中央区月島1-5-4",
+    "stamp_loc": "都営地下鉄月島駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-shiodome.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都港区東新橋1-9-1",
+    "stamp_loc": "都営地下鉄汐留駅改札内（ゆりかもめ汐留駅改札方面）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-kachidoki.html": {
+    "coords": [
+      139.776472,
+      35.658472
+    ],
+    "name_en": "Toei Subway Kachidoki Station",
+    "addr": "東京都中央区勝どき2-10-15",
+    "stamp_loc": "都営地下鉄勝どき駅改札外（A3・A4出口方面）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-tsukijishijo.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都中央区築地5-1-2",
+    "stamp_loc": "都営地下鉄築地市場駅改札内（A3・A4出口方面）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-kiyosumishirakawa.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都江東区白河1-7-14",
+    "stamp_loc": "都営地下鉄清澄白河駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-akabanebashi.html": {
+    "coords": [
+      139.743611,
+      35.655
+    ],
+    "name_en": "Toei Subway Akabanebashi Station",
+    "addr": "東京都港区東麻布1-28-13",
+    "stamp_loc": "都営地下鉄赤羽橋駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-azabu-juban.html": {
+    "coords": [
+      139.736111,
+      35.6565
+    ],
+    "name_en": "Toei Subway Azabu-juban Station",
+    "addr": "東京都港区麻布十番1-4-6",
+    "stamp_loc": "都営地下鉄麻布十番駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-aoyamaitchome.html": {
+    "coords": [
+      139.72384,
+      35.67297
+    ],
+    "name_en": "Toei Subway Aoyama-itchome Station",
+    "addr": "東京都港区北青山1-2-4",
+    "stamp_loc": "都営地下鉄青山一丁目駅改札内（北青山方面改札方面）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-kokuritsukyogijo.html": {
+    "coords": [
+      139.714111,
+      35.680056
+    ],
+    "name_en": "Toei Subway Kokuritsu-kyogijo Station",
+    "addr": "東京都新宿区霞ヶ丘町10-3",
+    "stamp_loc": "都営地下鉄国立競技場駅改札内（国立競技場方面改札方面）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-yoyogi.html": {
+    "coords": [
+      139.701722,
+      35.683
+    ],
+    "name_en": "Toei Subway Yoyogi Station",
+    "addr": "東京都渋谷区代々木1-35-5",
+    "stamp_loc": "都営地下鉄代々木駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-tochomae.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都新宿区西新宿2-8-1",
+    "stamp_loc": "都営地下鉄都庁前駅改札外 駅務室前",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-nishishinjuku5.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都新宿区西新宿5-25-9",
+    "stamp_loc": "都営地下鉄西新宿五丁目駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-nakanosakaue.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都中野区中央2-2-28",
+    "stamp_loc": "都営地下鉄中野坂上駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-higashinakano.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都中野区東中野3-8-16",
+    "stamp_loc": "都営地下鉄東中野駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-ochiaiminaminagasaki.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都新宿区西落合3-1-18",
+    "stamp_loc": "都営地下鉄落合南長崎駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-nakai.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都新宿区上落合2-20-8",
+    "stamp_loc": "都営地下鉄中井駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-shinegota.html": {
+    "coords": [
+      139.670639,
+      35.7325
+    ],
+    "name_en": "Toei Subway Shin-egota Station",
+    "addr": "東京都中野区江原町2-29-3",
+    "stamp_loc": "都営地下鉄新江古田駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-nerima.html": {
+    "coords": [
+      139.653611,
+      35.737222
+    ],
+    "name_en": "Toei Subway Nerima Station",
+    "addr": "東京都練馬区豊玉北5-17-12",
+    "stamp_loc": "都営地下鉄練馬駅改札外",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-toshimaen.html": {
+    "coords": [
+      139.649111,
+      35.742056
+    ],
+    "name_en": "Toei Subway Toshimaen Station",
+    "addr": "東京都練馬区練馬4-14-17",
+    "stamp_loc": "都営地下鉄豊島園駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-nerimakasugacho.html": {
+    "coords": [
+      139.641056,
+      35.751111
+    ],
+    "name_en": "Toei Subway Nerima-kasugacho Station",
+    "addr": "東京都練馬区春日町3-29-25",
+    "stamp_loc": "都営地下鉄練馬春日町駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/toei-hikarigaoka.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "東京都練馬区光が丘2-9-5",
+    "stamp_loc": "都営地下鉄光が丘駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-esaka.html": {
+    "coords": [
+      135.497019,
+      34.757903
+    ],
+    "name_en": "Osaka Metro Esaka Station",
+    "addr": "大阪府吹田市豊津町9",
+    "stamp_loc": "Osaka Metro江坂駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-shinosaka.html": {
+    "coords": [
+      135.498536,
+      34.733475
+    ],
+    "name_en": "Osaka Metro Shin-Ōsaka Station",
+    "addr": "大阪府大阪市淀川区西中島5-15-5",
+    "stamp_loc": "Osaka Metro新大阪駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-higashimikuni.html": {
+    "coords": [
+      135.498511,
+      34.741033
+    ],
+    "name_en": "Osaka Metro Higashi-Mikuni Station",
+    "addr": "大阪府大阪市淀川区東三国1-33-6",
+    "stamp_loc": "Osaka Metro東三国駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-nishinakajima.html": {
+    "coords": [
+      135.498575,
+      34.726478
+    ],
+    "name_en": "Osaka Metro Nishinakajima-Minamigata Station",
+    "addr": "大阪府大阪市淀川区西中島1-12-10",
+    "stamp_loc": "Osaka Metro西中島南方駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-nakatsu.html": {
+    "coords": [
+      135.496911,
+      34.711028
+    ],
+    "name_en": "Osaka Metro Nakatsu Station",
+    "addr": "大阪府大阪市北区中津1-13-19",
+    "stamp_loc": "Osaka Metro中津駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-yodoyabashi.html": {
+    "coords": [
+      135.500994,
+      34.69235
+    ],
+    "name_en": "Osaka Metro Yodoyabashi Station",
+    "addr": "大阪府大阪市中央区北浜3-6-14",
+    "stamp_loc": "Osaka Metro淀屋橋駅駅長室前",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-hommachi.html": {
+    "coords": [
+      135.498983,
+      34.681936
+    ],
+    "name_en": "Osaka Metro Hommachi Station",
+    "addr": "大阪府大阪市中央区船場中央4丁目",
+    "stamp_loc": "Osaka Metro本町駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-shinsaibashi.html": {
+    "coords": [
+      135.500328,
+      34.675011
+    ],
+    "name_en": "Osaka Metro Shinsaibashi Station",
+    "addr": "大阪府大阪市中央区心斎橋筋1-8-16",
+    "stamp_loc": "Osaka Metro心斎橋駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-dobutsuenmae.html": {
+    "coords": [
+      135.504411,
+      34.648814
+    ],
+    "name_en": "Osaka Metro Dōbutsuen-mae Station",
+    "addr": "大阪府大阪市西成区太子1-6-12",
+    "stamp_loc": "Osaka Metro動物園前駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-daikokucho.html": {
+    "coords": [
+      135.497803,
+      34.656072
+    ],
+    "name_en": "Osaka Metro Daikokuchō Station",
+    "addr": "大阪府大阪市浪速区敷津東3丁目",
+    "stamp_loc": "Osaka Metro大国町駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-tennoji.html": {
+    "coords": [
+      135.513761,
+      34.646553
+    ],
+    "name_en": "Osaka Metro Tennōji Station",
+    "addr": "大阪府大阪市阿倍野区阿倍野筋1-1-48",
+    "stamp_loc": "Osaka Metro天王寺駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-showacho.html": {
+    "coords": [
+      135.516964,
+      34.633558
+    ],
+    "name_en": "Osaka Metro Shōwachō Station",
+    "addr": "大阪府大阪市阿倍野区昭和町1-9-26",
+    "stamp_loc": "Osaka Metro昭和町駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-nishitanabe.html": {
+    "coords": [
+      135.51515,
+      34.621625
+    ],
+    "name_en": "Osaka Metro Nishitanabe Station",
+    "addr": "大阪府大阪市阿倍野区西田辺町1-1-25",
+    "stamp_loc": "Osaka Metro西田辺駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-nagai.html": {
+    "coords": [
+      135.513714,
+      34.609542
+    ],
+    "name_en": "Osaka Metro Nagai Station",
+    "addr": "大阪府大阪市住吉区長居東4-6-5",
+    "stamp_loc": "Osaka Metro長居駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-abiko.html": {
+    "coords": [
+      135.512778,
+      34.599167
+    ],
+    "name_en": "Osaka Metro Abiko Station",
+    "addr": "大阪府大阪市住吉区苅田7-12-21",
+    "stamp_loc": "Osaka Metro我孫子駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-kitahanada.html": {
+    "coords": [
+      135.516389,
+      34.5825
+    ],
+    "name_en": "Osaka Metro Kitahanada Station",
+    "addr": "大阪府堺市北区北花田町2-14-3",
+    "stamp_loc": "Osaka Metro北花田駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-shinkanaoka.html": {
+    "coords": [
+      135.515,
+      34.567778
+    ],
+    "name_en": "Osaka Metro Shinkanaoka Station",
+    "addr": "大阪府堺市北区新金岡町1-7-2",
+    "stamp_loc": "Osaka Metro新金岡駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-nakamozu.html": {
+    "coords": [
+      135.506008,
+      34.556253
+    ],
+    "name_en": "Osaka Metro Nakamozu Station",
+    "addr": "大阪府堺市北区中百舌鳥町2-240-1",
+    "stamp_loc": "Osaka Metro中百舌鳥駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-dainichi.html": {
+    "coords": [
+      135.578275,
+      34.749406
+    ],
+    "name_en": "Osaka Metro Dainichi Station",
+    "addr": "大阪府守口市大日町2-1-1",
+    "stamp_loc": "Osaka Metro大日駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-moriguchi.html": {
+    "coords": [
+      135.563778,
+      34.738075
+    ],
+    "name_en": "Osaka Metro Moriguchi Station",
+    "addr": "大阪府守口市京阪本通2-2",
+    "stamp_loc": "Osaka Metro守口駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-taishibashiimaichi.html": {
+    "coords": [
+      135.554936,
+      34.731381
+    ],
+    "name_en": "Osaka Metro Taishibashi-Imaichi Station",
+    "addr": "大阪府大阪市旭区太子橋1-4",
+    "stamp_loc": "Osaka Metro太子橋今市駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-sembayashiomiya.html": {
+    "coords": [
+      135.549128,
+      34.723806
+    ],
+    "name_en": "Osaka Metro Sembayashi-Omiya Station",
+    "addr": "大阪府大阪市旭区森小路2-6",
+    "stamp_loc": "Osaka Metro千林大宮駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-sekimetakadono.html": {
+    "coords": [
+      135.545794,
+      34.715194
+    ],
+    "name_en": "Osaka Metro Sekime-Takadono Station",
+    "addr": "大阪府大阪市旭区高殿4-22",
+    "stamp_loc": "Osaka Metro関目高殿駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-noeuchindai.html": {
+    "coords": [
+      135.538136,
+      34.70895
+    ],
+    "name_en": "Osaka Metro Noe-Uchindai Station",
+    "addr": "大阪府大阪市都島区内代町1-8",
+    "stamp_loc": "Osaka Metro野江内代駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-tenjimbashisuji6chome.html": {
+    "coords": [
+      135.510783,
+      34.710603
+    ],
+    "name_en": "Osaka Metro Tenjimbashisuji Rokuchōme Station",
+    "addr": "大阪府大阪市北区浪花町14-28",
+    "stamp_loc": "Osaka Metro天神橋筋六丁目駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-nakazakicho.html": {
+    "coords": [
+      135.505244,
+      34.706864
+    ],
+    "name_en": "Osaka Metro Nakazakichō Station",
+    "addr": "大阪府大阪市北区中崎1-6-16",
+    "stamp_loc": "Osaka Metro中崎町駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-miyakojima.html": {
+    "coords": [
+      135.525967,
+      34.708958
+    ],
+    "name_en": "Osaka Metro Miyakojima Station",
+    "addr": "大阪府大阪市都島区都島本通3-3",
+    "stamp_loc": "Osaka Metro都島駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-higashiumeda.html": {
+    "coords": [
+      135.499556,
+      34.700972
+    ],
+    "name_en": "Osaka Metro Higashi-Umeda Station",
+    "addr": "大阪府大阪市北区曽根崎2-11-11",
+    "stamp_loc": "Osaka Metro東梅田駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-minamimorimachi.html": {
+    "coords": [
+      135.511019,
+      34.697697
+    ],
+    "name_en": "Osaka Metro Minami-morimachi Station",
+    "addr": "大阪府大阪市北区南森町2-1-4",
+    "stamp_loc": "Osaka Metro南森町駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-temmabashi.html": {
+    "coords": [
+      135.516631,
+      34.690197
+    ],
+    "name_en": "Osaka Metro Temmabashi Station",
+    "addr": "大阪府大阪市中央区天満橋京町1-1",
+    "stamp_loc": "Osaka Metro天満橋駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-tanimachi4chome.html": {
+    "coords": [
+      135.517286,
+      34.681914
+    ],
+    "name_en": "Osaka Metro Tanimachi Yonchōme Station",
+    "addr": "大阪府大阪市中央区谷町4-4-21",
+    "stamp_loc": "Osaka Metro谷町四丁目駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-tanimachi6chome.html": {
+    "coords": [
+      135.516958,
+      34.674917
+    ],
+    "name_en": "Osaka Metro Tanimachi Rokuchome Station",
+    "addr": "大阪府大阪市中央区谷町6-9-1",
+    "stamp_loc": "Osaka Metro谷町六丁目駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-tanimachi9chome.html": {
+    "coords": [
+      135.515842,
+      34.667144
+    ],
+    "name_en": "Osaka Metro Tanimachi Kyūchōme Station",
+    "addr": "大阪府大阪市天王寺区生玉前町1-24",
+    "stamp_loc": "Osaka Metro谷町九丁目駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-fuminosato.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市阿倍野区昭和町1-1",
+    "stamp_loc": "Osaka Metro文の里駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-shitennojimae.html": {
+    "coords": [
+      135.514133,
+      34.658536
+    ],
+    "name_en": "Osaka Metro Shitennōji-mae Yūhigaoka Station",
+    "addr": "大阪府大阪市天王寺区夕陽丘町3-2",
+    "stamp_loc": "Osaka Metro四天王寺前夕陽ヶ丘駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-abeno.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市阿倍野区阿倍野筋2-4",
+    "stamp_loc": "Osaka Metro阿倍野駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-tanabe.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市東住吉区田辺1-4-4",
+    "stamp_loc": "Osaka Metro田辺駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-hirano.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市平野区平野西5-2",
+    "stamp_loc": "Osaka Metro平野駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-komagawanakano.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市東住吉区針中野1-1-1",
+    "stamp_loc": "Osaka Metro駒川中野駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-deto.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市平野区長吉長原西1-1-10",
+    "stamp_loc": "Osaka Metro出戸駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-nagahara.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市平野区長吉長原東2-2",
+    "stamp_loc": "Osaka Metro長原駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-kireuriwari.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市平野区喜連2-5",
+    "stamp_loc": "Osaka Metro喜連瓜破駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-yaominami.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府八尾市若林町1-36",
+    "stamp_loc": "Osaka Metro八尾南駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-nishiumeda.html": {
+    "coords": [
+      135.495667,
+      34.699583
+    ],
+    "name_en": "Osaka Metro Nishi-Umeda Station",
+    "addr": "大阪府大阪市北区梅田2-2-25",
+    "stamp_loc": "Osaka Metro西梅田駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-higobashi.html": {
+    "coords": [
+      135.496386,
+      34.691353
+    ],
+    "name_en": "Osaka Metro Higobashi Station",
+    "addr": "大阪府大阪市西区江戸堀1-13-18",
+    "stamp_loc": "Osaka Metro肥後橋駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-yotsubashi.html": {
+    "coords": [
+      135.496781,
+      34.674111
+    ],
+    "name_en": "Osaka Metro Yotsubashi Station",
+    "addr": "大阪府大阪市西区北堀江1-1-29",
+    "stamp_loc": "Osaka Metro四ツ橋駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-hanazonocho.html": {
+    "coords": [
+      135.496636,
+      34.644369
+    ],
+    "name_en": "Osaka Metro Hanazonochō Station",
+    "addr": "大阪府大阪市西成区旭1-5-2",
+    "stamp_loc": "Osaka Metro花園町駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-kishinosato.html": {
+    "coords": [
+      135.493858,
+      34.634369
+    ],
+    "name_en": "Osaka Metro Kishinosato Station",
+    "addr": "大阪府大阪市西成区岸里1-5-15",
+    "stamp_loc": "Osaka Metro岸里駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-tamade.html": {
+    "coords": [
+      135.490361,
+      34.623619
+    ],
+    "name_en": "Osaka Metro Tamade Station",
+    "addr": "大阪府大阪市住之江区粉浜西1-1-1",
+    "stamp_loc": "Osaka Metro玉出駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-suminoekoen.html": {
+    "coords": [
+      135.473056,
+      34.609167
+    ],
+    "name_en": "Osaka Metro Suminoekōen Station",
+    "addr": "大阪府大阪市住之江区泉1-1-52",
+    "stamp_loc": "Osaka Metro住之江公園駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-kitakagaya.html": {
+    "coords": [
+      135.479464,
+      34.621364
+    ],
+    "name_en": "Osaka Metro Kitakagaya Station",
+    "addr": "大阪府大阪市住之江区北加賀屋2-11-2",
+    "stamp_loc": "Osaka Metro北加賀屋駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-yumeshima.html": {
+    "coords": [
+      135.38972,
+      34.65193
+    ],
+    "name_en": "Osaka Metro Yumeshima Station",
+    "addr": "大阪府大阪市此花区夢洲中1丁目",
+    "stamp_loc": "Osaka Metro夢洲駅改札内",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-cosmosquare.html": {
+    "coords": [
+      135.412197,
+      34.642608
+    ],
+    "name_en": "Osaka Metro Cosmosquare Station",
+    "addr": "大阪府大阪市住之江区南港北1-30-21",
+    "stamp_loc": "Osaka Metroコスモスクエア駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-asashiobashi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市港区田中3-1-4",
+    "stamp_loc": "Osaka Metro朝潮橋駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-bentencho.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市港区波除3-11-6",
+    "stamp_loc": "Osaka Metro弁天町駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-kujo.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市西区九条2-3-2",
+    "stamp_loc": "Osaka Metro九条駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-osakako.html": {
+    "coords": [
+      135.434361,
+      34.653892
+    ],
+    "name_en": "Osaka Metro Ōsakakō Station",
+    "addr": "大阪府大阪市港区築港3-5-9",
+    "stamp_loc": "Osaka Metro大阪港駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-morinomiya.html": {
+    "coords": [
+      135.533844,
+      34.681456
+    ],
+    "name_en": "Osaka Metro Morinomiya Station",
+    "addr": "大阪府大阪市中央区森ノ宮中央1-1-43",
+    "stamp_loc": "Osaka Metro森ノ宮駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-sakaisujihommachi.html": {
+    "coords": [
+      135.506519,
+      34.681847
+    ],
+    "name_en": "Osaka Metro Sakaisuji-Hommachi Station",
+    "addr": "大阪府大阪市中央区船場中央1-4-16",
+    "stamp_loc": "Osaka Metro堺筋本町駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-midoribashi.html": {
+    "coords": [
+      135.544581,
+      34.68075
+    ],
+    "name_en": "Osaka Metro Midoribashi Station",
+    "addr": "大阪府大阪市東成区東中本1-14-17",
+    "stamp_loc": "Osaka Metro緑橋駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-fukaebashi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市東成区深江北1-1-21",
+    "stamp_loc": "Osaka Metro深江橋駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-takaida.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府東大阪市川俣1-1-45",
+    "stamp_loc": "Osaka Metro高井田駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-nagata.html": {
+    "coords": [
+      135.591911,
+      34.678764
+    ],
+    "name_en": "Osaka Metro Nagata Station",
+    "addr": "大阪府東大阪市長田中2-21-2",
+    "stamp_loc": "Osaka Metro長田駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-tamagawa.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市福島区吉野3-1-5",
+    "stamp_loc": "Osaka Metro玉川駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-nodahanshin.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市福島区大開1-14-18",
+    "stamp_loc": "Osaka Metro野田阪神駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-awaza.html": {
+    "coords": [
+      135.486361,
+      34.681444
+    ],
+    "name_en": "Osaka Metro Awaza Station",
+    "addr": "大阪府大阪市西区西本町3-1-23",
+    "stamp_loc": "Osaka Metro阿波座駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-nishinagahori.html": {
+    "coords": [
+      135.487222,
+      34.675256
+    ],
+    "name_en": "Osaka Metro Nishi-Nagahori Station",
+    "addr": "大阪府大阪市西区北堀江3-12-20",
+    "stamp_loc": "Osaka Metro西長堀駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-sakuragawa.html": {
+    "coords": [
+      135.488839,
+      34.66845
+    ],
+    "name_en": "Osaka Metro Sakuragawa Station",
+    "addr": "大阪府大阪市浪速区桜川2-3-7",
+    "stamp_loc": "Osaka Metro桜川駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-nippombashi.html": {
+    "coords": [
+      135.506636,
+      34.667147
+    ],
+    "name_en": "Osaka Metro Nippombashi Station",
+    "addr": "大阪府大阪市中央区日本橋1-5-12",
+    "stamp_loc": "Osaka Metro日本橋駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-tsuruhashi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市天王寺区下味原町1-24",
+    "stamp_loc": "Osaka Metro鶴橋駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-imazato.html": {
+    "coords": [
+      135.544289,
+      34.668658
+    ],
+    "name_en": "Osaka Metro Imazato Station",
+    "addr": "大阪府大阪市東成区大今里3-15-18",
+    "stamp_loc": "Osaka Metro今里駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-shinfukae.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市東成区神路4-12-16",
+    "stamp_loc": "Osaka Metro新深江駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-shoji.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市生野区小路東2-11-14",
+    "stamp_loc": "Osaka Metro小路駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-kitatatsumi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市生野区巽東1-1-39",
+    "stamp_loc": "Osaka Metro北巽駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-minamitatsumi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市生野区巽東2-19-27",
+    "stamp_loc": "Osaka Metro南巽駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-ogimachi.html": {
+    "coords": [
+      135.510833,
+      34.703808
+    ],
+    "name_en": "Osaka Metro Ōgimachi Station",
+    "addr": "大阪府大阪市北区天神橋4-8-3",
+    "stamp_loc": "Osaka Metro扇町駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-kitahama.html": {
+    "coords": [
+      135.506617,
+      34.691586
+    ],
+    "name_en": "Osaka Metro Kitahama Station",
+    "addr": "大阪府大阪市中央区北浜1-8-16",
+    "stamp_loc": "Osaka Metro北浜駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-nagahoribashi.html": {
+    "coords": [
+      135.506322,
+      34.674647
+    ],
+    "name_en": "Osaka Metro Nagahoribashi Station",
+    "addr": "大阪府大阪市中央区島之内1-18-9",
+    "stamp_loc": "Osaka Metro長堀橋駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-ebisucho.html": {
+    "coords": [
+      135.505639,
+      34.656244
+    ],
+    "name_en": "Osaka Metro Ebisuchō Station",
+    "addr": "大阪府大阪市浪速区日本橋5-5-15",
+    "stamp_loc": "Osaka Metro恵美須町駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-tengachaya.html": {
+    "coords": [
+      135.49675,
+      34.637194
+    ],
+    "name_en": "Osaka Metro Tengachaya Station",
+    "addr": "大阪府大阪市西成区岸里1-1",
+    "stamp_loc": "Osaka Metro天下茶屋駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-taisho.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市大正区三軒家西1-2-1",
+    "stamp_loc": "Osaka Metro大正駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-domemaechiyozaki.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市西区千代崎3-2-8",
+    "stamp_loc": "Osaka Metroドーム前千代崎駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-nishiohashi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市西区新町1-28-11",
+    "stamp_loc": "Osaka Metro西大橋駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-matsuyamachi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市中央区松屋町3-27",
+    "stamp_loc": "Osaka Metro松屋町駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-tamatsukuri.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市天王寺区玉造本町1-2",
+    "stamp_loc": "Osaka Metro玉造駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-osakabusinesspark.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市中央区城見1-3-13",
+    "stamp_loc": "Osaka Metro大阪ビジネスパーク駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-kyobashi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市都島区東野田町2-6-18",
+    "stamp_loc": "Osaka Metro京橋駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-gamo4chome.html": {
+    "coords": [
+      135.547708,
+      34.700367
+    ],
+    "name_en": "Osaka Metro Gamō-yonchōme Station",
+    "addr": "大阪府大阪市城東区今福西3-1-35",
+    "stamp_loc": "Osaka Metro蒲生四丁目駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-imafukutsurumi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市城東区今福東2-14-15",
+    "stamp_loc": "Osaka Metro今福鶴見駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-yokozutsumi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市鶴見区横堤5-3-31",
+    "stamp_loc": "Osaka Metro横堤駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-tsurumiryokuchi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市鶴見区緑地公園1-55",
+    "stamp_loc": "Osaka Metro鶴見緑地駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-kadomaminami.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府門真市三ツ島3-6",
+    "stamp_loc": "Osaka Metro門真南駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-itakano.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市東淀川区北江口4-20-3",
+    "stamp_loc": "Osaka Metro井高野駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-zuiko4chome.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市東淀川区瑞光4-9-4",
+    "stamp_loc": "Osaka Metro瑞光四丁目駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-daidotoyosato.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市東淀川区大桐1-1-7",
+    "stamp_loc": "Osaka Metroだいどう豊里駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-shimizu.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市旭区清水4丁目",
+    "stamp_loc": "Osaka Metro清水駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-shimmorifuruichi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市旭区新森4-2-27",
+    "stamp_loc": "Osaka Metro新森古市駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-sekimeseiiku.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市城東区関目5丁目",
+    "stamp_loc": "Osaka Metro関目成育駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-shigino.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市城東区鴫野東1-13-12",
+    "stamp_loc": "Osaka Metro鴫野駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-nakafuto.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市住之江区南港中5-3-48",
+    "stamp_loc": "Osaka Metro中ふ頭駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-tradecentermae.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市住之江区南港北1-14-72",
+    "stamp_loc": "Osaka Metroトレードセンター前駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-porttownhigashi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市住之江区南港中2-1-14",
+    "stamp_loc": "Osaka Metroポートタウン東駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-porttownnishi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市住之江区南港中3-2-68",
+    "stamp_loc": "Osaka Metroポートタウン西駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-ferryterminal.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市住之江区南港東4-8-52",
+    "stamp_loc": "Osaka Metroフェリーターミナル駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-nankohigashi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市住之江区南港東2-4-52",
+    "stamp_loc": "Osaka Metro南港東駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-nankoguchi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市住之江区南港東1-7-69",
+    "stamp_loc": "Osaka Metro南港口駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
+  },
+  "https://stamp.funakiya.com/om-hirabayashi.html": {
+    "coords": null,
+    "name_en": "",
+    "addr": "大阪府大阪市住之江区平林南1-2",
+    "stamp_loc": "Osaka Metro平林駅駅長室内（駅員に依頼が必要）",
+    "hours": "始発～終電"
   }
 }
