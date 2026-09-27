@@ -8,4 +8,7 @@ export default defineConfig({
     vue(),
     tailwindcss(),
   ],
+  optimizeDeps: {
+    exclude: ['maplibre-gl'],
+  },
 })
