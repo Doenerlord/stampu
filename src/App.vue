@@ -145,6 +145,7 @@ const filteredStamps = computed(() => {
 function handleSelectStamp(stamp: Stamp) {
   selectedStamp.value = stamp;
   isDrawerOpen.value = true;
+  handleFocusMap(stamp.coordinates);
 }
 
 function handleSelectStampFromWishlist(stamp: Stamp) {
@@ -221,22 +222,30 @@ async function handleClosePacksModal() {
     <!-- Top Status Bar Scrim for contrast -->
     <div class="absolute top-0 left-0 right-0 h-14 bg-gradient-to-b from-slate-950/90 via-slate-950/40 to-transparent pointer-events-none z-20" />
 
-    <!-- Floating Top Header & Filter Controls -->
-    <div class="absolute top-0 left-0 right-0 z-30 pointer-events-none">
-      <CategoryFilters
-        v-model:selected-category="selectedCategory"
-        v-model:visited-filter="visitedFilter"
-        v-model:search-query="searchQuery"
-        :category-counts="categoryCounts"
-        :visited-count="visitedStampIds.size"
-        :wishlist-count="wishlistStampIds.size"
-        :total-count="allStamps.length"
-        :downloaded-packs-count="downloadedPacksCount"
-        @open-wishlist-modal="isWishlistModalOpen = true"
-        @open-packs-modal="isPacksModalOpen = true"
-        @open-nearby-modal="handleOpenNearbyModal"
-      />
-    </div>
+    <!-- Floating Top Header & Filter Controls (Desktop Sidebar + Mobile M3 Expressive) -->
+    <CategoryFilters
+      v-model:selected-category="selectedCategory"
+      v-model:visited-filter="visitedFilter"
+      v-model:search-query="searchQuery"
+      :category-counts="categoryCounts"
+      :visited-count="visitedStampIds.size"
+      :wishlist-count="wishlistStampIds.size"
+      :total-count="allStamps.length"
+      :downloaded-packs-count="downloadedPacksCount"
+      :selected-stamp="selectedStamp"
+      :stamps="filteredStamps"
+      :visited-stamp-ids="visitedStampIds"
+      :wishlist-stamp-ids="wishlistStampIds"
+      :user-location="userLocation"
+      @select-stamp="handleSelectStamp"
+      @close-selected-stamp="handleCloseDrawer"
+      @toggle-collected="handleToggleCollected"
+      @toggle-wishlist="handleToggleWishlist"
+      @focus-map="handleFocusMap"
+      @open-wishlist-modal="isWishlistModalOpen = true"
+      @open-packs-modal="isPacksModalOpen = true"
+      @open-nearby-modal="handleOpenNearbyModal"
+    />
 
     <!-- Stamp Detail Drawer (Bottom Sheet) -->
     <StampDrawer

@@ -62,3 +62,44 @@ body,
 .stampu-marker-root {
   pointer-events: auto !important;
 }
+
+/* Custom Sleek Scrollbar for M3 Expressive surfaces */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.35);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Safe-area insets helpers */
+.safe-top {
+  padding-top: max(env(safe-area-inset-top, 0px), 0.75rem);
+}
+.safe-bottom {
+  padding-bottom: max(env(safe-area-inset-bottom, 0px), 1rem);
+}
+
+/* Position MapLibre controls safely above mobile bottom dock */
+@media (max-width: 767px) {
+  .maplibregl-ctrl-bottom-right {
+    bottom: calc(env(safe-area-inset-bottom, 0px) + 5.5rem) !important;
+    right: 0.75rem !important;
+  }
+}
+

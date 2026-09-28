@@ -475,9 +475,13 @@ function switchBasemap(styleKey: 'esri' | 'gsi_std' | 'gsi_pale') {
 
 function focusCoordinates(coordinates: [number, number], zoom = 12) {
   if (!map) return;
+  const isDesktop = typeof window !== 'undefined' && window.innerWidth >= 768;
   map.easeTo({
     center: coordinates,
     zoom,
+    padding: isDesktop
+      ? { left: 420, top: 0, right: 0, bottom: 0 }
+      : { left: 0, top: 0, right: 0, bottom: 120 },
     duration: 1000,
     essential: true,
   });

@@ -99,7 +99,7 @@ watch(
 <template>
   <div
     v-if="isOpen && stamp"
-    class="fixed inset-0 z-50 flex flex-col justify-end sm:items-center sm:justify-end pointer-events-auto"
+    class="fixed inset-0 z-50 flex flex-col justify-end sm:items-center sm:justify-end pointer-events-auto md:hidden"
     role="dialog"
     aria-modal="true"
     aria-labelledby="stamp-title"
@@ -111,14 +111,14 @@ watch(
       aria-hidden="true"
     />
 
-    <!-- Bottom Sheet Content -->
+    <!-- Material 3 Expressive Bottom Sheet Content -->
     <div
-      class="relative z-10 w-full sm:max-w-xl max-h-[85vh] sm:max-h-[80vh] flex flex-col bg-slate-900 border-t sm:border border-slate-700/80 rounded-t-3xl sm:rounded-3xl sm:mb-4 shadow-2xl overflow-hidden animate-in slide-in-from-bottom duration-300 transition-all text-slate-100"
+      class="relative z-10 w-full sm:max-w-xl max-h-[88dvh] flex flex-col bg-slate-900 border-t sm:border border-slate-700/80 rounded-t-[32px] sm:rounded-t-[32px] shadow-2xl overflow-hidden animate-in slide-in-from-bottom duration-300 transition-all text-slate-100"
       @click.stop
     >
       <!-- Mobile Drag / Grab Handle -->
-      <div class="flex justify-center pt-2.5 pb-1 sm:hidden cursor-grab" @click="$emit('close')">
-        <div class="w-12 h-1.5 bg-slate-700 rounded-full" />
+      <div class="flex justify-center pt-3 pb-1 cursor-grab" @click="$emit('close')">
+        <div class="w-12 h-1.5 bg-slate-600 rounded-full" />
       </div>
 
       <!-- Header with Close Button -->
@@ -335,8 +335,8 @@ watch(
 
       <!-- Action Footer with Collect Toggle -->
       <div
-        class="px-5 py-3.5 bg-slate-950/80 border-t border-slate-800 flex items-center justify-between gap-3"
-        style="padding-bottom: calc(env(safe-area-inset-bottom, 0px) + 0.875rem);"
+        class="px-5 py-3.5 bg-slate-950/90 border-t border-slate-800 flex items-center justify-between gap-3"
+        style="padding-bottom: max(env(safe-area-inset-bottom, 0px), 1.25rem);"
       >
         <div class="text-xs text-slate-400 hidden sm:block">
           <span v-if="isCollected" class="text-emerald-400 font-semibold">Saved in local offline registry</span>
