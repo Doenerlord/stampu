@@ -16,7 +16,11 @@ import {
   Radio,
   Compass,
   Star,
+  Languages,
+  ExternalLink,
 } from 'lucide-vue-next';
+import AskStaffModal from './AskStaffModal.vue';
+import { openInGoogleMaps } from '../utils/geo';
 
 const props = defineProps<{
   stamp: Stamp | null;
@@ -34,12 +38,14 @@ const emit = defineEmits<{
 
 const isImageModalOpen = ref(false);
 const hasImageError = ref(false);
+const isAskStaffOpen = ref(false);
 
 watch(
   () => props.stamp,
   () => {
     isImageModalOpen.value = false;
     hasImageError.value = false;
+    isAskStaffOpen.value = false;
   }
 );
 
@@ -246,6 +252,16 @@ watch(
 
               <button
                 type="button"
+                @click="openInGoogleMaps(stamp.coordinates[1], stamp.coordinates[0], stamp.name)"
+                class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-blue-600/20 hover:bg-blue-600/30 text-xs text-blue-300 hover:text-white font-medium border border-blue-500/40 transition-colors active:scale-95 shadow-xs"
+                title="Open directions in Google Maps"
+              >
+                <ExternalLink class="w-3.5 h-3.5 text-blue-400" />
+                <span>Google Maps</span>
+              </button>
+
+              <button
+                type="button"
                 @click="$emit('toggleWishlist', stamp.id)"
                 :class="[
                   'inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-xs font-medium border transition-colors active:scale-95',
@@ -262,11 +278,22 @@ watch(
           </div>
         </div>
 
-        <!-- STAMP LOCATION (設置場所) - Highlighted Callout -->
+        <!-- STAMP LOCATION (設置場所) - Highlighted Callout with Ask Staff Trigger -->
         <div class="bg-amber-950/30 border border-amber-500/40 rounded-2xl p-3.5">
-          <div class="flex items-center gap-2 text-amber-400 text-xs font-bold uppercase tracking-wider mb-1.5">
-            <MapPin class="w-4 h-4 flex-shrink-0" />
-            <span>Stamp Desk Location (設置場所)</span>
+          <div class="flex items-center justify-between mb-1.5">
+            <div class="flex items-center gap-2 text-amber-400 text-xs font-bold uppercase tracking-wider">
+              <MapPin class="w-4 h-4 flex-shrink-0" />
+              <span>Stamp Desk Location (設置場所)</span>
+            </div>
+            <button
+              type="button"
+              @click="isAskStaffOpen = true"
+              class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-xl bg-gradient-to-r from-amber-500 to-rose-500 hover:from-amber-400 hover:to-rose-400 text-slate-950 font-bold text-[11px] shadow-sm transition-all active:scale-95"
+              title="Show Japanese inquiry flashcard to station or shop staff"
+            >
+              <Languages class="w-3.5 h-3.5" />
+              <span>Ask Staff (日本で尋ねる)</span>
+            </button>
           </div>
           <p class="text-sm text-amber-100 font-medium leading-snug">
             {{ stamp.stampLocation }}
@@ -373,5 +400,12 @@ watch(
         </div>
       </div>
     </div>
+
+    <!-- Ask Staff Japanese Inquiry Flashcard Modal -->
+    <AskStaffModal
+      :is-open="isAskStaffOpen"
+      :stamp="stamp"
+      @close="isAskStaffOpen = false"
+    />
   </div>
 </template>

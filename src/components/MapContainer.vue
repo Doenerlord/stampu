@@ -29,6 +29,7 @@ const props = defineProps<{
 
 const emit = defineEmits<{
   (e: 'selectStamp', stamp: Stamp): void;
+  (e: 'userLocationUpdate', location: { lat: number; lng: number }): void;
 }>();
 
 const mapContainerRef = ref<HTMLDivElement | null>(null);
@@ -144,6 +145,7 @@ const iconSvgs: Record<string, string> = {
   Car: '<path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/>',
   Castle: '<path d="M22 20v-9H2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2Z"/><path d="M18 11V4H6v7"/><path d="M15 22v-4a3 3 0 0 0-6 0v4"/><path d="M22 11V9"/><path d="M2 11V9"/><path d="M6 4V2"/><path d="M18 4V2"/><path d="M10 4V2"/><path d="M14 4V2"/>',
   Sparkles: '<path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/>',
+  Radio: '<path d="M4.9 19.1C1 15.2 1 8.8 4.9 4.9"/><path d="M7.8 16.2c-2.3-2.3-2.3-6.1 0-8.5"/><circle cx="12" cy="12" r="2"/><path d="M16.2 7.8c2.3 2.3 2.3 6.1 0 8.5"/><path d="M19.1 4.9C23 8.8 23 15.1 19.1 19"/>',
 };
 
 function renderMarkerContent(wrapper: HTMLElement, stamp: Stamp) {
@@ -530,13 +532,22 @@ onMounted(() => {
     'bottom-right'
   );
 
-  map.addControl(
-    new GeolocateControl({
-      positionOptions: { enableHighAccuracy: true },
-      trackUserLocation: true,
-    }),
-    'bottom-right'
-  );
+  const geolocateCtrl = new GeolocateControl({
+    positionOptions: { enableHighAccuracy: true },
+    trackUserLocation: true,
+  });
+  map.addControl(geolocateCtrl, 'bottom-right');
+
+  if (typeof geolocateCtrl.on === 'function') {
+    geolocateCtrl.on('geolocate', (e: any) => {
+      if (e && e.coords) {
+        emit('userLocationUpdate', {
+          lat: e.coords.latitude,
+          lng: e.coords.longitude,
+        });
+      }
+    });
+  }
 
   map.on('load', () => {
     updateMarkers();

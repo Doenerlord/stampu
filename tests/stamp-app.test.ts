@@ -53,10 +53,14 @@ vi.mock('maplibre-gl', () => {
     }
   }
 
+  class MockGeolocateControl {
+    on() {}
+  }
+
   return {
     Map: MockMap,
     NavigationControl: vi.fn(),
-    GeolocateControl: vi.fn(),
+    GeolocateControl: MockGeolocateControl,
     Marker: MockMarker,
     LngLatBounds: class {
       extend() {}
@@ -514,4 +518,111 @@ describe('Prefectures Catalog & Offline Download Manager', () => {
     expect(downloaded.has('kyoto')).toBe(false);
   });
 });
+
+import AskStaffModal from '../src/components/AskStaffModal.vue';
+import NearbyModal from '../src/components/NearbyModal.vue';
+import { calculateDistanceKm, formatDistance, openInGoogleMaps } from '../src/utils/geo';
+
+describe('Geo Utility Functions (geo.ts)', () => {
+  it('calculates Haversine distance correctly between coordinates', () => {
+    // Tokyo Station: [139.7671, 35.6812]
+    // Kyoto Station: [135.7588, 34.9858]
+    const distanceToKyoto = calculateDistanceKm(
+      35.6812,
+      139.7671,
+      34.9858,
+      135.7588
+    );
+    // Great circle distance is ~371 km
+    expect(distanceToKyoto).toBeGreaterThan(360);
+    expect(distanceToKyoto).toBeLessThan(380);
+
+    // Distance to self is 0
+    const distanceToSelf = calculateDistanceKm(
+      35.6812,
+      139.7671,
+      35.6812,
+      139.7671
+    );
+    expect(distanceToSelf).toBe(0);
+  });
+
+  it('formats distance in meters when < 1km and in kilometers when >= 1km', () => {
+    expect(formatDistance(0.05)).toBe('50 m');
+    expect(formatDistance(0.45)).toBe('450 m');
+    expect(formatDistance(1.23)).toBe('1.2 km');
+    expect(formatDistance(24.8)).toBe('25 km');
+    expect(formatDistance(120)).toBe('120 km');
+  });
+
+  it('generates valid Google Maps navigation link', () => {
+    const url = openInGoogleMaps(35.6812, 139.7671, 'Tokyo Station');
+    expect(url).toContain('https://www.google.com/maps/dir/?api=1');
+    expect(url).toContain('destination=35.6812,139.7671');
+    expect(url).toContain('destination_name=Tokyo%20Station');
+  });
+});
+
+describe('AskStaffModal Component', () => {
+  it('renders Japanese polite inquiry, target stamp name, and behind-counter request', () => {
+    mount(AskStaffModal, {
+      props: {
+        isOpen: true,
+        stamp: {
+          ...sampleStamp,
+          stampLocation: '改札窓口（駅員に依頼が必要）/ Gate window (Ask station staff)',
+        },
+      },
+      attachTo: document.body,
+    });
+
+    expect(document.body.textContent).toContain('すみません、記念スタンプを押したいのですが、どこにありますか？');
+    expect(document.body.textContent).toContain('Sumimasen, kinen sutanpu o oshitai no desu ga, doko ni arimasu ka?');
+    expect(document.body.textContent).toContain('Tokyo Station');
+    expect(document.body.textContent).toContain('東京駅');
+    expect(document.body.textContent).toContain('スタンプを出していただけますでしょうか。');
+    expect(document.body.textContent).toContain('Sutanpu o dashite itadakemasu deshō ka?');
+  });
+});
+
+describe('NearbyModal Component', () => {
+  it('renders stamps sorted by distance and filters by radius and category', async () => {
+    const kyotoStamp: Stamp = {
+      ...sampleStamp,
+      id: 'eki-kyoto',
+      name: 'Kyoto Station',
+      name_ja: '京都駅',
+      coordinates: [135.7588, 34.9858],
+      category: 'eki',
+    };
+
+    mount(NearbyModal, {
+      props: {
+        isOpen: true,
+        stamps: [sampleStamp, kyotoStamp],
+        visitedStampIds: new Set(),
+        wishlistStampIds: new Set(),
+        userLocation: { lat: 35.6812, lng: 139.7671 }, // At Tokyo Station
+      },
+      attachTo: document.body,
+    });
+
+    expect(document.body.textContent).toContain('Nearby Stamp Radar');
+    expect(document.body.textContent).toContain('Tokyo Station');
+    // Tokyo Station is 0 m away
+    expect(document.body.textContent).toContain('0 m');
+
+    // Filter < 5km should include Tokyo but exclude Kyoto (~370km away)
+    const fiveKmBtn = Array.from(document.body.querySelectorAll('button')).find((b) =>
+      b.textContent?.includes('< 5 km')
+    );
+    expect(fiveKmBtn).toBeDefined();
+    fiveKmBtn?.click();
+    await new Promise((r) => setTimeout(r, 20));
+
+    expect(document.body.textContent).toContain('Tokyo Station');
+    expect(document.body.textContent).not.toContain('Kyoto Station');
+  });
+});
+
 

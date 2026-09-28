@@ -16,6 +16,7 @@ import {
   CircleDot,
   Star,
   FolderDown,
+  Navigation,
 } from 'lucide-vue-next';
 
 const props = defineProps<{
@@ -35,6 +36,7 @@ const emit = defineEmits<{
   (e: 'update:searchQuery', value: string): void;
   (e: 'openWishlistModal'): void;
   (e: 'openPacksModal'): void;
+  (e: 'openNearbyModal'): void;
 }>();
 
 const iconMap = {
@@ -109,6 +111,18 @@ function clearSearch() {
             </span>
             <span class="text-[10px] text-slate-400 bg-slate-700/60 px-1 rounded-sm">{{ visitedPercentage }}%</span>
           </div>
+
+          <!-- Nearby Radar Trigger Pill -->
+          <button
+            type="button"
+            @click="$emit('openNearbyModal')"
+            class="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-teal-500/15 hover:bg-teal-500/25 border border-teal-500/40 text-xs text-teal-300 font-semibold transition-all active:scale-95 shadow-xs"
+            title="Nearby Stamp Radar (In der Nähe)"
+            aria-label="Nearby Stamp Radar"
+          >
+            <Navigation class="w-3.5 h-3.5 text-teal-400" />
+            <span class="hidden sm:inline">Radar</span>
+          </button>
 
           <!-- Wishlist Modal Trigger Pill -->
           <button

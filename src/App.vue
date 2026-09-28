@@ -13,6 +13,7 @@ import CategoryFilters from './components/CategoryFilters.vue';
 import StampDrawer from './components/StampDrawer.vue';
 import WishlistModal from './components/WishlistModal.vue';
 import PrefectureDownloadModal from './components/PrefectureDownloadModal.vue';
+import NearbyModal from './components/NearbyModal.vue';
 
 const allStamps = ref<Stamp[]>([]);
 const prefectures = ref<PrefecturePack[]>([]);
@@ -23,10 +24,29 @@ const selectedStamp = ref<Stamp | null>(null);
 const isDrawerOpen = ref<boolean>(false);
 const isWishlistModalOpen = ref<boolean>(false);
 const isPacksModalOpen = ref<boolean>(false);
+const isNearbyModalOpen = ref<boolean>(false);
+const userLocation = ref<{ lat: number; lng: number } | null>(null);
 const visitedStampIds = ref<Set<string>>(new Set());
 const wishlistStampIds = ref<Set<string>>(new Set());
 const downloadedPacksCount = ref<number>(0);
 const mapContainerRef = ref<InstanceType<typeof MapContainer> | null>(null);
+
+function requestUserLocation() {
+  if (typeof navigator !== 'undefined' && 'geolocation' in navigator) {
+    navigator.geolocation.getCurrentPosition(
+      (pos) => {
+        userLocation.value = {
+          lat: pos.coords.latitude,
+          lng: pos.coords.longitude,
+        };
+      },
+      (err) => {
+        console.warn('Geolocation failed or permission denied:', err);
+      },
+      { enableHighAccuracy: true, timeout: 10000 }
+    );
+  }
+}
 
 // Load stamps & prefectures from public data and visited & wishlist stamps from Dexie
 onMounted(async () => {
@@ -134,6 +154,18 @@ function handleSelectStampFromWishlist(stamp: Stamp) {
   handleFocusMap(stamp.coordinates);
 }
 
+function handleOpenNearbyModal() {
+  isNearbyModalOpen.value = true;
+  requestUserLocation();
+}
+
+function handleSelectStampFromNearby(stamp: Stamp) {
+  isNearbyModalOpen.value = false;
+  selectedStamp.value = stamp;
+  isDrawerOpen.value = true;
+  handleFocusMap(stamp.coordinates);
+}
+
 function handleCloseDrawer() {
   isDrawerOpen.value = false;
   // Keep selectedStamp for smooth exit animation, then clean up
@@ -183,6 +215,7 @@ async function handleClosePacksModal() {
       :visited-stamp-ids="visitedStampIds"
       :wishlist-stamp-ids="wishlistStampIds"
       @select-stamp="handleSelectStamp"
+      @user-location-update="(loc) => (userLocation = loc)"
     />
 
     <!-- Top Status Bar Scrim for contrast -->
@@ -201,6 +234,7 @@ async function handleClosePacksModal() {
         :downloaded-packs-count="downloadedPacksCount"
         @open-wishlist-modal="isWishlistModalOpen = true"
         @open-packs-modal="isPacksModalOpen = true"
+        @open-nearby-modal="handleOpenNearbyModal"
       />
     </div>
 
@@ -234,6 +268,20 @@ async function handleClosePacksModal() {
       :prefectures="prefectures"
       :stamps="allStamps"
       @close="handleClosePacksModal"
+    />
+
+    <!-- Nearby Stamp Radar Modal -->
+    <NearbyModal
+      :is-open="isNearbyModalOpen"
+      :stamps="allStamps"
+      :visited-stamp-ids="visitedStampIds"
+      :wishlist-stamp-ids="wishlistStampIds"
+      :user-location="userLocation"
+      @close="isNearbyModalOpen = false"
+      @select-stamp="handleSelectStampFromNearby"
+      @toggle-collected="handleToggleCollected"
+      @toggle-wishlist="handleToggleWishlist"
+      @request-location="requestUserLocation"
     />
   </div>
 </template>
