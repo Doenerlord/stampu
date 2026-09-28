@@ -99,7 +99,7 @@ const sampleStamp: Stamp = {
 };
 
 describe('Stamp Dataset (public/data/stamps.json)', () => {
-  it('contains valid stamps spanning all 5 categories', () => {
+  it('contains valid stamps spanning all 6 categories', () => {
     const raw = fs.readFileSync(path.resolve(__dirname, '../public/data/stamps.json'), 'utf-8');
     const stamps: Stamp[] = JSON.parse(raw);
 
@@ -111,6 +111,7 @@ describe('Stamp Dataset (public/data/stamps.json)', () => {
     expect(categories.has('highway')).toBe(true);
     expect(categories.has('castle')).toBe(true);
     expect(categories.has('temple_shrine')).toBe(true);
+    expect(categories.has('tower')).toBe(true);
 
     for (const stamp of stamps) {
       expect(stamp.id).toBeTruthy();

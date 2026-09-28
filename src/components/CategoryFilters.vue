@@ -8,6 +8,7 @@ import {
   Car,
   Castle,
   Sparkles,
+  Radio,
   Layers,
   Search,
   X,
@@ -42,6 +43,7 @@ const iconMap = {
   Car,
   Castle,
   Sparkles,
+  Radio,
 };
 
 const visitedPercentage = computed(() => {

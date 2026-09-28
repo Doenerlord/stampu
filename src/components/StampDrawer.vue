@@ -13,6 +13,7 @@ import {
   Store,
   Car,
   Castle,
+  Radio,
   Compass,
   Star,
 } from 'lucide-vue-next';
@@ -48,6 +49,7 @@ const iconMap = {
   Car,
   Castle,
   Sparkles,
+  Radio,
 };
 
 const categoryInfo = computed(() => {

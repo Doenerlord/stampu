@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <filter id="f-shrine-ichinomiya-33" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="3" result="noise" />
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="2.5" xChannelSelector="R" yChannelSelector="G" />
+    </filter>
+  </defs>
+
+  <g transform="rotate(0.22 200 200)" filter="url(#f-shrine-ichinomiya-33)">
+    <!-- Outer Octagon / Double Ring Seal -->
+    <circle cx="200" cy="200" r="186" fill="#fff1f2" stroke="#dc2626" stroke-width="7" />
+    <circle cx="200" cy="200" r="174" fill="none" stroke="#dc2626" stroke-width="2.2" stroke-dasharray="8 3" />
+    <circle cx="200" cy="200" r="136" fill="none" stroke="#dc2626" stroke-width="1.8" />
+
+    <!-- Top Arch / Circuit Banner -->
+    <path id="arch-top-shrine-ichinomiya-33" d="M 50,200 A 150,150 0 0,1 350,200" fill="none" />
+    <text font-family="Hiragino Mincho ProN, Yu Mincho, serif" font-size="19" font-weight="bold" fill="#dc2626" letter-spacing="5">
+      <textPath href="#arch-top-shrine-ichinomiya-33" startOffset="50%" text-anchor="middle">
+        ★ 諸国一の宮 巡拝記念 ★
+      </textPath>
+    </text>
+
+    <!-- Bottom Arch / Location -->
+    <path id="arch-bot-shrine-ichinomiya-33" d="M 350,200 A 150,150 0 0,1 50,200" fill="none" />
+    <text font-family="Hiragino Mincho ProN, Yu Mincho, serif" font-size="15" font-weight="bold" fill="#dc2626" letter-spacing="4">
+      <textPath href="#arch-bot-shrine-ichinomiya-33" startOffset="50%" text-anchor="middle">
+        Yamagata • 飽海郡
+      </textPath>
+    </text>
+
+    <!-- Center Shrine/Temple Seal -->
+    <g>
+      <text x="200" y="195" font-family="Hiragino Mincho ProN, Yu Mincho, serif" font-size="28" font-weight="900" fill="#dc2626" text-anchor="middle" letter-spacing="3">鳥海山大</text>
+      <text x="200" y="240" font-family="Hiragino Mincho ProN, Yu Mincho, serif" font-size="28" font-weight="900" fill="#dc2626" text-anchor="middle" letter-spacing="3">物忌神社</text>
+    </g>
+
+    <!-- Spiritual Corner Emblem / Kan'in Box -->
+    <g transform="translate(160, 276)">
+      <rect x="0" y="0" width="80" height="26" rx="5" fill="none" stroke="#dc2626" stroke-width="2" />
+      <text x="40" y="18" font-family="Hiragino Mincho ProN, Yu Mincho, serif" font-size="13" font-weight="bold" fill="#dc2626" text-anchor="middle" letter-spacing="4">一之宮</text>
+    </g>
+  </g>
+</svg>

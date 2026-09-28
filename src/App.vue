@@ -65,6 +65,7 @@ const categoryCounts = computed(() => {
     highway: 0,
     castle: 0,
     temple_shrine: 0,
+    tower: 0,
   };
 
   for (const s of allStamps.value) {
