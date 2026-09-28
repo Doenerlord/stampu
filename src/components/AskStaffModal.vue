@@ -57,7 +57,8 @@ function copyFullText() {
         @click.self="$emit('close')"
       >
         <div
-          class="relative w-full max-w-lg bg-slate-900 border-2 border-amber-500/60 rounded-3xl shadow-2xl overflow-hidden my-auto animate-in fade-in zoom-in-95 duration-200"
+          class="relative w-full max-w-lg rounded-3xl shadow-2xl overflow-hidden my-auto animate-in fade-in zoom-in-95 duration-200"
+          style="background: var(--m3-surface-elevated, #162720); border: 2px solid var(--m3-border, rgba(245, 158, 11, 0.6)); box-shadow: 0 20px 50px rgba(0,0,0,0.7), 0 0 30px var(--m3-glow-subtle, transparent);"
         >
           <!-- Top Bar -->
           <div class="px-5 py-3.5 bg-gradient-to-r from-amber-600 via-amber-500 to-rose-600 text-slate-950 flex items-center justify-between">

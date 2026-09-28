@@ -96,7 +96,8 @@ body,
   --m3-surface-tint: #0b1310;
   --m3-surface-container: #0f1d18;
   --m3-surface-elevated: #162720;
-  --m3-surface-card: rgba(15, 23, 42, 0.92);
+  --m3-surface-highlight: #1e332a;
+  --m3-surface-card: #14241d;
   --m3-border: rgba(16, 185, 129, 0.4);
   --m3-border-subtle: rgba(16, 185, 129, 0.22);
   --m3-glow: rgba(16, 185, 129, 0.45);

@@ -154,14 +154,16 @@ const currentNearbyPrefecture = computed(() => findCurrentPrefecture());
 <template>
   <div
     v-if="isOpen"
-    class="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-slate-900/60 backdrop-blur-sm transition-opacity"
+    class="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-slate-950/80 backdrop-blur-md transition-opacity"
   >
     <div
-      class="bg-white dark:bg-slate-900 w-full max-w-2xl rounded-2xl shadow-2xl border border-slate-200 dark:border-slate-800 flex flex-col max-h-[90vh] overflow-hidden animate-in fade-in zoom-in-95 duration-200"
+      class="w-full max-w-2xl rounded-3xl shadow-2xl flex flex-col max-h-[90vh] overflow-hidden animate-in fade-in zoom-in-95 duration-200 text-slate-100"
+      style="background: var(--m3-surface-elevated, #162720); border: 1px solid var(--m3-border, #334155); box-shadow: 0 20px 50px rgba(0,0,0,0.7), 0 0 30px var(--m3-glow-subtle, transparent);"
     >
       <!-- Header -->
       <div
-        class="flex items-center justify-between px-5 py-4 border-b border-slate-100 dark:border-slate-800"
+        class="flex items-center justify-between px-5 py-4 border-b"
+        style="background: var(--m3-surface-container, #0f1d18); border-color: var(--m3-border-subtle, #334155);"
       >
         <div class="flex items-center gap-2.5">
           <div

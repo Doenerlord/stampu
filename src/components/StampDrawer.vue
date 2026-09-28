@@ -113,16 +113,20 @@ watch(
 
     <!-- Material 3 Expressive Bottom Sheet Content -->
     <div
-      class="relative z-10 w-full sm:max-w-xl max-h-[88dvh] flex flex-col bg-slate-900 border-t sm:border border-slate-700/80 rounded-t-[32px] sm:rounded-t-[32px] shadow-2xl overflow-hidden animate-in slide-in-from-bottom duration-300 transition-all text-slate-100"
+      class="relative z-10 w-full sm:max-w-xl max-h-[88dvh] flex flex-col rounded-t-[32px] sm:rounded-t-[32px] shadow-2xl overflow-hidden animate-in slide-in-from-bottom duration-300 transition-all text-slate-100"
+      style="background: var(--m3-surface-elevated, #162720); border-top: 1px solid var(--m3-border, #334155); box-shadow: 0 -10px 40px rgba(0,0,0,0.6), 0 0 30px var(--m3-glow-subtle, transparent);"
       @click.stop
     >
       <!-- Mobile Drag / Grab Handle -->
       <div class="flex justify-center pt-3 pb-1 cursor-grab" @click="$emit('close')">
-        <div class="w-12 h-1.5 bg-slate-600 rounded-full" />
+        <div class="w-12 h-1.5 rounded-full" style="background: var(--m3-border-subtle, #475569);" />
       </div>
 
       <!-- Header with Close Button -->
-      <div class="flex items-start justify-between px-5 pt-3 pb-2 sm:pt-5 border-b border-slate-800">
+      <div
+        class="flex items-start justify-between px-5 pt-3 pb-2 sm:pt-5 border-b"
+        style="border-color: var(--m3-border-subtle, #334155);"
+      >
         <div class="flex flex-col gap-1">
           <!-- Category Badge -->
           <div v-if="categoryInfo" class="flex items-center gap-2">
@@ -174,7 +178,7 @@ watch(
               'p-2 rounded-full transition-all',
               isWishlist
                 ? 'text-amber-400 bg-amber-500/20 hover:bg-amber-500/30 border border-amber-500/40 shadow-xs'
-                : 'text-slate-400 hover:text-amber-300 hover:bg-slate-800'
+                : 'text-slate-400 hover:text-amber-300 hover:bg-white/5'
             ]"
             :title="isWishlist ? 'Remove from Wishlist' : 'Add to Wishlist (Auf die Wunschliste)'"
             aria-label="Toggle wishlist"
@@ -185,7 +189,7 @@ watch(
           <button
             type="button"
             @click="$emit('close')"
-            class="p-2 text-slate-400 hover:text-white hover:bg-slate-800 rounded-full transition-colors"
+            class="p-2 text-slate-400 hover:text-white hover:bg-white/10 rounded-full transition-colors"
             title="Close drawer"
             aria-label="Close drawer"
           >
@@ -197,7 +201,10 @@ watch(
       <!-- Scrollable Body -->
       <div class="flex-1 overflow-y-auto px-5 py-4 space-y-4">
         <!-- Stamp Showcase Card (Washi Paper Stamp-Chō Mount) -->
-        <div class="relative bg-slate-800/80 rounded-2xl p-4 border border-slate-700/80 flex items-center gap-4 overflow-hidden shadow-lg">
+        <div
+          class="relative rounded-2xl p-4 border flex items-center gap-4 overflow-hidden shadow-lg transition-all"
+          style="background: var(--m3-surface-highlight, #1e332a); border-color: var(--m3-border-subtle, #334155);"
+        >
           <!-- Stamp Paper Mount -->
           <div
             class="relative flex-shrink-0 w-24 h-24 sm:w-28 sm:h-28 bg-stone-50 rounded-2xl p-1.5 shadow-md border border-stone-200 flex items-center justify-center overflow-hidden cursor-pointer group hover:ring-2 hover:ring-rose-400 transition-all"
@@ -303,7 +310,10 @@ watch(
         <!-- Information Grid -->
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
           <!-- Operating Hours -->
-          <div class="bg-slate-800/60 border border-slate-700/60 rounded-xl p-3 flex items-start gap-2.5">
+          <div
+            class="rounded-xl p-3 flex items-start gap-2.5 border transition-all"
+            style="background: var(--m3-surface-container, #0f1d18); border-color: var(--m3-border-subtle, #334155);"
+          >
             <Clock class="w-4 h-4 text-slate-400 mt-0.5 flex-shrink-0" />
             <div>
               <div class="text-slate-400 font-medium">Availability (利用時間)</div>
@@ -312,7 +322,11 @@ watch(
           </div>
 
           <!-- Operator / Line -->
-          <div v-if="stamp.operator" class="bg-slate-800/60 border border-slate-700/60 rounded-xl p-3 flex items-start gap-2.5">
+          <div
+            v-if="stamp.operator"
+            class="rounded-xl p-3 flex items-start gap-2.5 border transition-all"
+            style="background: var(--m3-surface-container, #0f1d18); border-color: var(--m3-border-subtle, #334155);"
+          >
             <Navigation class="w-4 h-4 text-slate-400 mt-0.5 flex-shrink-0" />
             <div>
               <div class="text-slate-400 font-medium">Operator / Railway</div>
@@ -321,7 +335,10 @@ watch(
           </div>
 
           <!-- Address & Region -->
-          <div class="bg-slate-800/60 border border-slate-700/60 rounded-xl p-3 sm:col-span-2 flex items-start gap-2.5">
+          <div
+            class="rounded-xl p-3 sm:col-span-2 flex items-start gap-2.5 border transition-all"
+            style="background: var(--m3-surface-container, #0f1d18); border-color: var(--m3-border-subtle, #334155);"
+          >
             <MapPin class="w-4 h-4 text-slate-400 mt-0.5 flex-shrink-0" />
             <div>
               <div class="text-slate-400 font-medium">Address & Prefecture</div>
@@ -335,8 +352,8 @@ watch(
 
       <!-- Action Footer with Collect Toggle -->
       <div
-        class="px-5 py-3.5 bg-slate-950/90 border-t border-slate-800 flex items-center justify-between gap-3"
-        style="padding-bottom: max(env(safe-area-inset-bottom, 0px), 1.25rem);"
+        class="px-5 py-3.5 border-t flex items-center justify-between gap-3 transition-all"
+        style="background: var(--m3-surface-elevated, #162720); border-color: var(--m3-border-subtle, #334155); padding-bottom: max(env(safe-area-inset-bottom, 0px), 1.25rem);"
       >
         <div class="text-xs text-slate-400 hidden sm:block">
           <span v-if="isCollected" class="text-emerald-400 font-semibold">Saved in local offline registry</span>
@@ -346,12 +363,10 @@ watch(
         <button
           type="button"
           @click="$emit('toggleCollected', stamp.id)"
-          :class="[
-            'w-full sm:w-auto px-5 py-2.5 rounded-xl font-bold text-sm flex items-center justify-center gap-2 transition-all shadow-lg active:scale-95',
-            isCollected
-              ? 'bg-emerald-600 hover:bg-emerald-500 text-white shadow-emerald-950/50'
-              : 'bg-gradient-to-r from-red-600 to-rose-600 hover:from-red-500 hover:to-rose-500 text-white shadow-red-950/50'
-          ]"
+          class="w-full sm:w-auto px-5 py-2.5 rounded-xl font-bold text-sm flex items-center justify-center gap-2 transition-all shadow-lg active:scale-95 text-white"
+          :style="isCollected
+            ? { background: '#059669', boxShadow: '0 4px 14px rgba(5, 150, 105, 0.4)' }
+            : { background: 'var(--m3-primary)', boxShadow: '0 4px 16px var(--m3-glow)' }"
         >
           <CheckCircle2 v-if="isCollected" class="w-4 h-4" />
           <span v-else class="text-base font-serif leading-none">印</span>

@@ -97,12 +97,14 @@ export function generateM3Tokens(seedHex: string) {
   const rgb = hexToRgb(seedHex);
   const [r, g, b] = rgb;
 
-  // Rich container and surface blends
+  // Rich container and surface blends with distinct theme tint
   const primaryContainer = rgbToHex(...mixRgb(rgb, [15, 23, 42], 0.28));
   const onPrimaryContainer = rgbToHex(...mixRgb(rgb, [255, 255, 255], 0.88));
-  const surfaceTint = rgbToHex(...mixRgb(rgb, [9, 13, 22], 0.08));
-  const surfaceContainer = rgbToHex(...mixRgb(rgb, [15, 23, 42], 0.14));
-  const surfaceElevated = rgbToHex(...mixRgb(rgb, [30, 41, 59], 0.20));
+  const surfaceTint = rgbToHex(...mixRgb(rgb, [9, 13, 22], 0.10));
+  const surfaceContainer = rgbToHex(...mixRgb(rgb, [15, 23, 42], 0.16));
+  const surfaceElevated = rgbToHex(...mixRgb(rgb, [20, 30, 50], 0.22));
+  const surfaceHighlight = rgbToHex(...mixRgb(rgb, [28, 40, 64], 0.28));
+  const surfaceCard = rgbToHex(...mixRgb(rgb, [18, 27, 45], 0.22));
 
   return {
     primary: seedHex,
@@ -112,11 +114,12 @@ export function generateM3Tokens(seedHex: string) {
     surfaceTint,
     surfaceContainer,
     surfaceElevated,
-    surfaceCard: `rgba(15, 23, 42, 0.92)`,
-    border: `rgba(${r}, ${g}, ${b}, 0.40)`,
+    surfaceHighlight,
+    surfaceCard,
+    border: `rgba(${r}, ${g}, ${b}, 0.38)`,
     borderSubtle: `rgba(${r}, ${g}, ${b}, 0.22)`,
-    glow: `rgba(${r}, ${g}, ${b}, 0.50)`,
-    glowSubtle: `rgba(${r}, ${g}, ${b}, 0.25)`,
+    glow: `rgba(${r}, ${g}, ${b}, 0.45)`,
+    glowSubtle: `rgba(${r}, ${g}, ${b}, 0.22)`,
     badgeBg: `rgba(${r}, ${g}, ${b}, 0.22)`,
     badgeText: `rgba(${r}, ${g}, ${b}, 0.95)`,
   };
@@ -178,6 +181,7 @@ export function applyMonetPalette(paletteId: string) {
   root.style.setProperty('--m3-surface-tint', tokens.surfaceTint);
   root.style.setProperty('--m3-surface-container', tokens.surfaceContainer);
   root.style.setProperty('--m3-surface-elevated', tokens.surfaceElevated);
+  root.style.setProperty('--m3-surface-highlight', tokens.surfaceHighlight);
   root.style.setProperty('--m3-surface-card', tokens.surfaceCard);
   root.style.setProperty('--m3-border', tokens.border);
   root.style.setProperty('--m3-border-subtle', tokens.borderSubtle);

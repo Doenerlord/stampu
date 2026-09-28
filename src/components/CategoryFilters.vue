@@ -424,7 +424,10 @@ onUnmounted(() => {
           </div>
 
           <!-- Stamp Showcase Card -->
-          <div class="relative bg-slate-800/80 rounded-2xl p-3 border border-slate-700/80 flex items-center gap-3">
+          <div
+            class="relative rounded-2xl p-3 border flex items-center gap-3 transition-all"
+            style="background: var(--m3-surface-highlight, #1e332a); border-color: var(--m3-border-subtle, #334155);"
+          >
             <div
               class="relative flex-shrink-0 w-20 h-20 bg-stone-50 rounded-xl p-1 shadow-md border border-stone-200 flex items-center justify-center overflow-hidden cursor-pointer group hover:ring-2 hover:ring-rose-400 transition-all"
               @click="selectedStamp.imageUrl ? (isImageModalOpen = true) : null"
@@ -494,7 +497,10 @@ onUnmounted(() => {
 
           <!-- Info Details -->
           <div class="space-y-2 text-xs">
-            <div class="bg-slate-800/60 border border-slate-700/60 rounded-xl p-2.5 flex items-start gap-2">
+            <div
+              class="border rounded-xl p-2.5 flex items-start gap-2 transition-all"
+              style="background: var(--m3-surface-container, #0f1d18); border-color: var(--m3-border-subtle, #334155);"
+            >
               <Clock class="w-3.5 h-3.5 text-slate-400 mt-0.5 flex-shrink-0" />
               <div>
                 <span class="text-slate-400">Hours: </span>
@@ -502,7 +508,11 @@ onUnmounted(() => {
               </div>
             </div>
 
-            <div v-if="selectedStamp.operator" class="bg-slate-800/60 border border-slate-700/60 rounded-xl p-2.5 flex items-start gap-2">
+            <div
+              v-if="selectedStamp.operator"
+              class="border rounded-xl p-2.5 flex items-start gap-2 transition-all"
+              style="background: var(--m3-surface-container, #0f1d18); border-color: var(--m3-border-subtle, #334155);"
+            >
               <Navigation class="w-3.5 h-3.5 text-slate-400 mt-0.5 flex-shrink-0" />
               <div>
                 <span class="text-slate-400">Operator: </span>
@@ -510,7 +520,10 @@ onUnmounted(() => {
               </div>
             </div>
 
-            <div class="bg-slate-800/60 border border-slate-700/60 rounded-xl p-2.5 flex items-start gap-2">
+            <div
+              class="border rounded-xl p-2.5 flex items-start gap-2 transition-all"
+              style="background: var(--m3-surface-container, #0f1d18); border-color: var(--m3-border-subtle, #334155);"
+            >
               <MapPin class="w-3.5 h-3.5 text-slate-400 mt-0.5 flex-shrink-0" />
               <div>
                 <span class="text-slate-400">Address: </span>
@@ -624,7 +637,8 @@ onUnmounted(() => {
                 :key="s.id"
                 type="button"
                 @click="$emit('selectStamp', s)"
-                class="w-full flex items-center justify-between p-2 rounded-xl bg-slate-800/50 hover:bg-slate-800 border border-slate-700/50 transition-all text-left group"
+                class="w-full flex items-center justify-between p-2 rounded-xl transition-all text-left group hover:brightness-110 active:scale-98"
+                style="background: var(--m3-surface-container, #0f1d18); border: 1px solid var(--m3-border-subtle, #334155);"
               >
                 <div class="min-w-0 flex-1 pr-2">
                   <div class="text-xs font-bold text-slate-200 truncate group-hover:text-red-400 transition-colors">

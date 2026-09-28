@@ -47,11 +47,15 @@ const sortedWishlistStamps = computed(() => {
     aria-labelledby="wishlist-modal-title"
   >
     <div
-      class="relative w-full max-w-lg max-h-[85vh] flex flex-col bg-slate-900 border border-slate-700/80 rounded-3xl shadow-2xl overflow-hidden animate-in zoom-in-95 duration-200 text-slate-100"
+      class="relative w-full max-w-lg max-h-[85vh] flex flex-col rounded-3xl shadow-2xl overflow-hidden animate-in zoom-in-95 duration-200 text-slate-100"
+      style="background: var(--m3-surface-elevated, #162720); border: 1px solid var(--m3-border, #334155); box-shadow: 0 20px 50px rgba(0,0,0,0.7), 0 0 30px var(--m3-glow-subtle, transparent);"
       @click.stop
     >
       <!-- Header -->
-      <div class="flex items-center justify-between px-5 py-4 border-b border-slate-800 bg-slate-900/90">
+      <div
+        class="flex items-center justify-between px-5 py-4 border-b"
+        style="background: var(--m3-surface-container, #0f1d18); border-color: var(--m3-border-subtle, #334155);"
+      >
         <div class="flex items-center gap-2.5">
           <div class="w-9 h-9 rounded-xl bg-amber-500/20 border border-amber-500/40 flex items-center justify-center text-amber-400">
             <Star class="w-5 h-5 fill-amber-400" />
@@ -115,7 +119,8 @@ const sortedWishlistStamps = computed(() => {
         <div
           v-for="stamp in sortedWishlistStamps"
           :key="stamp.id"
-          class="bg-slate-800/70 hover:bg-slate-800 border border-slate-700/70 hover:border-slate-600 rounded-2xl p-3.5 transition-all flex items-start gap-3.5 group"
+          class="rounded-2xl p-3.5 transition-all flex items-start gap-3.5 group hover:brightness-110"
+          style="background: var(--m3-surface-container, #0f1d18); border: 1px solid var(--m3-border-subtle, #334155);"
         >
           <!-- Stamp Artwork Thumbnail -->
           <div
