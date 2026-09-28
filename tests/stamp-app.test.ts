@@ -255,6 +255,34 @@ describe('MapContainer & Marker Click -> Drawer Integration', () => {
     expect(wrapper.emitted('selectStamp')?.[0]).toEqual([sampleStamp]);
   });
 
+  it('clusters nearby stamps when zoomed out', async () => {
+    const stampA: Stamp = {
+      ...sampleStamp,
+      id: 'eki-cluster-a',
+      coordinates: [139.767, 35.681],
+    };
+    const stampB: Stamp = {
+      ...sampleStamp,
+      id: 'eki-cluster-b',
+      coordinates: [139.7672, 35.6812],
+    };
+
+    mount(MapContainer, {
+      props: {
+        stamps: [stampA, stampB],
+        selectedStamp: null,
+        visitedStampIds: new Set(),
+      },
+    });
+
+    await new Promise((r) => setTimeout(r, 25));
+
+    const clusterEl = document.querySelector('.stampu-cluster-root');
+    expect(clusterEl).toBeTruthy();
+    expect(clusterEl?.textContent).toContain('2');
+    expect(clusterEl?.textContent).toContain('印');
+  });
+
   it('in App.vue, clicking a marker opens StampDrawer with the clicked stamp details', async () => {
     // Mock global fetch to return sample stamp
     global.fetch = vi.fn().mockResolvedValue({

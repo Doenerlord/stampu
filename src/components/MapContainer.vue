@@ -8,11 +8,17 @@ import {
   LngLatBounds,
   type StyleSpecification,
 } from 'maplibre-gl';
+import Supercluster, { type AnyProps, type ClusterProperties } from 'supercluster';
 import { WifiOff } from 'lucide-vue-next';
 import type { Stamp } from '../types/stamp';
 import { CATEGORIES } from '../constants/categories';
 import { registerOfflineTileProtocol } from '../utils/offlineMap';
 import OfflineMapModal from './OfflineMapModal.vue';
+
+interface StampProperties {
+  stampId: string;
+  stamp: Stamp;
+}
 
 const props = defineProps<{
   stamps: Stamp[];
@@ -29,6 +35,8 @@ const mapContainerRef = ref<HTMLDivElement | null>(null);
 const currentBasemap = ref<'esri' | 'gsi_std' | 'gsi_pale'>('esri');
 let map: MapLibreMap | null = null;
 const markersMap = new Map<string, Marker>();
+let clusterIndex: Supercluster<StampProperties, AnyProps> | null = null;
+let moveDebounceTimer: ReturnType<typeof setTimeout> | null = null;
 
 const isOfflineModalOpen = ref(false);
 const currentBounds = ref<{
@@ -221,51 +229,213 @@ function renderMarkerContent(wrapper: HTMLElement, stamp: Stamp) {
   `;
 }
 
+function rebuildClusterIndex() {
+  clusterIndex = new Supercluster<StampProperties, AnyProps>({
+    radius: 45,
+    maxZoom: 13,
+    minPoints: 2,
+  });
+
+  const features: Array<GeoJSON.Feature<GeoJSON.Point, StampProperties>> = props.stamps.map(
+    (stamp) => ({
+      type: 'Feature',
+      properties: {
+        stampId: stamp.id,
+        stamp: stamp,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: stamp.coordinates,
+      },
+    })
+  );
+
+  clusterIndex.load(features);
+}
+
+function getViewportBbox(): [number, number, number, number] {
+  if (!map) return [120, 20, 155, 50];
+  try {
+    const b = map.getBounds();
+    if (b && typeof b.getWest === 'function') {
+      const west = b.getWest();
+      const south = b.getSouth();
+      const east = b.getEast();
+      const north = b.getNorth();
+      // 20% margin buffer around viewport so panning doesn't pop markers right at the edge
+      const lonBuffer = Math.abs(east - west) * 0.2;
+      const latBuffer = Math.abs(north - south) * 0.2;
+      return [
+        Math.max(-180, west - lonBuffer),
+        Math.max(-85, south - latBuffer),
+        Math.min(180, east + lonBuffer),
+        Math.min(85, north + latBuffer),
+      ];
+    }
+  } catch {
+    // fallback if map not loaded or mocked in unit test
+  }
+  return [120, 20, 155, 50];
+}
+
+function renderClusterContent(wrapper: HTMLElement, count: number) {
+  wrapper.className = 'stampu-cluster-root';
+  wrapper.setAttribute('role', 'button');
+  wrapper.setAttribute('tabindex', '0');
+  wrapper.setAttribute('aria-label', `Cluster of ${count} stamps`);
+
+  let sizeClass = 'w-9 h-9 text-xs';
+  let badgeClass = 'bg-rose-700/90 border-rose-200 text-white shadow-lg ring-2 ring-rose-500/30';
+  if (count >= 50) {
+    sizeClass = 'w-12 h-12 text-sm font-black';
+    badgeClass = 'bg-rose-900/95 border-amber-300 text-amber-200 shadow-2xl ring-4 ring-rose-600/40';
+  } else if (count >= 15) {
+    sizeClass = 'w-10 h-10 text-xs font-bold';
+    badgeClass = 'bg-rose-800/90 border-rose-100 text-white shadow-xl ring-2 ring-rose-500/40';
+  }
+
+  wrapper.innerHTML = `
+    <div class="relative group select-none flex items-center justify-center cursor-pointer transition-transform duration-200 hover:scale-110 active:scale-95" style="pointer-events: auto;">
+      <!-- Tooltip -->
+      <div class="pointer-events-none absolute bottom-full mb-1.5 hidden group-hover:flex flex-col items-center z-30 transition-all opacity-0 group-hover:opacity-100">
+        <div class="bg-slate-900/95 text-white px-2.5 py-1 rounded-lg text-[11px] font-semibold tracking-wide whitespace-nowrap shadow-xl border border-slate-700/80">
+          <span>${count} Stempel in diesem Gebiet</span>
+        </div>
+        <div class="w-2 h-2 bg-slate-900 rotate-45 -mt-1 border-r border-b border-slate-700"></div>
+      </div>
+
+      <!-- Circular Seal Badge -->
+      <div class="rounded-full border-2 flex flex-col items-center justify-center shadow-lg backdrop-blur-xs font-sans tracking-tight ${sizeClass} ${badgeClass}">
+        <span class="font-extrabold leading-none">${count}</span>
+        <span class="text-[7px] uppercase tracking-tighter opacity-80 leading-none mt-0.5">印</span>
+      </div>
+    </div>
+  `;
+}
+
+function onClusterClick(clusterId: number, coordinates: [number, number], ev: Event) {
+  ev.stopPropagation();
+  if (!map || !clusterIndex) return;
+  try {
+    const expansionZoom = clusterIndex.getClusterExpansionZoom(clusterId);
+    map.easeTo({
+      center: coordinates,
+      zoom: Math.min(expansionZoom, 16),
+      duration: 500,
+      essential: true,
+    });
+  } catch {
+    map.easeTo({
+      center: coordinates,
+      zoom: Math.min((map.getZoom() || 10) + 2.5, 16),
+      duration: 500,
+      essential: true,
+    });
+  }
+}
+
+function debouncedUpdateMarkers() {
+  if (moveDebounceTimer) clearTimeout(moveDebounceTimer);
+  moveDebounceTimer = setTimeout(() => {
+    updateMarkers();
+  }, 80);
+}
+
 function updateMarkers() {
   if (!map) return;
+  if (!clusterIndex) {
+    rebuildClusterIndex();
+  }
+  if (!clusterIndex) return;
 
-  const currentIds = new Set(props.stamps.map((s) => s.id));
+  const bbox = getViewportBbox();
+  const currentZoom = Math.floor(map.getZoom() || 6);
+  const clustersAndPoints = clusterIndex.getClusters(bbox, currentZoom);
 
-  // 1. Remove markers no longer in current stamps
-  for (const [id, marker] of markersMap.entries()) {
-    if (!currentIds.has(id)) {
-      marker.remove();
-      markersMap.delete(id);
+  const activeKeys = new Set<string>();
+
+  for (const feature of clustersAndPoints) {
+    const isCluster = 'cluster' in feature.properties && Boolean(feature.properties.cluster);
+    const coords = feature.geometry.coordinates as [number, number];
+
+    if (isCluster) {
+      const clusterProps = feature.properties as ClusterProperties;
+      const clusterId = clusterProps.cluster_id;
+      const count = clusterProps.point_count;
+      const key = `cluster-${clusterId}`;
+      activeKeys.add(key);
+
+      const existing = markersMap.get(key);
+      if (existing) {
+        renderClusterContent(existing.getElement(), count);
+        existing.setLngLat(coords);
+      } else {
+        const el = document.createElement('div');
+        renderClusterContent(el, count);
+
+        let lastClusterTouch = 0;
+        const handleClusterAction = (ev: Event) => {
+          const now = Date.now();
+          if (now - lastClusterTouch < 300) return;
+          lastClusterTouch = now;
+          onClusterClick(clusterId, coords, ev);
+        };
+        el.addEventListener('click', handleClusterAction);
+        el.addEventListener('touchend', handleClusterAction, { passive: true });
+
+        const marker = new Marker({
+          element: el,
+          anchor: 'center',
+        })
+          .setLngLat(coords)
+          .addTo(map);
+
+        markersMap.set(key, marker);
+      }
+    } else {
+      const stampProps = feature.properties as StampProperties;
+      const stamp = stampProps.stamp;
+      const key = stamp.id;
+      activeKeys.add(key);
+
+      const existing = markersMap.get(key);
+      if (existing) {
+        renderMarkerContent(existing.getElement(), stamp);
+        existing.setLngLat(coords);
+      } else {
+        const el = document.createElement('div');
+        el.className = 'stampu-marker-root';
+        renderMarkerContent(el, stamp);
+
+        let lastTriggerTime = 0;
+        const triggerSelect = (ev: Event) => {
+          const now = Date.now();
+          if (now - lastTriggerTime < 300) return;
+          lastTriggerTime = now;
+          ev.stopPropagation();
+          emit('selectStamp', stamp);
+        };
+
+        el.addEventListener('click', triggerSelect);
+        el.addEventListener('touchend', triggerSelect, { passive: true });
+
+        const marker = new Marker({
+          element: el,
+          anchor: 'bottom',
+        })
+          .setLngLat(coords)
+          .addTo(map);
+
+        markersMap.set(key, marker);
+      }
     }
   }
 
-  // 2. Update existing or create new markers
-  for (const stamp of props.stamps) {
-    const existing = markersMap.get(stamp.id);
-    if (existing) {
-      // Safely update inner content without detaching element from MapLibre
-      renderMarkerContent(existing.getElement(), stamp);
-      existing.setLngLat(stamp.coordinates);
-    } else {
-      const el = document.createElement('div');
-      el.className = 'stampu-marker-root';
-      renderMarkerContent(el, stamp);
-
-      let lastTriggerTime = 0;
-      const triggerSelect = (ev: Event) => {
-        const now = Date.now();
-        if (now - lastTriggerTime < 300) return; // Prevent double trigger on mobile
-        lastTriggerTime = now;
-        ev.stopPropagation();
-        emit('selectStamp', stamp);
-      };
-
-      el.addEventListener('click', triggerSelect);
-      el.addEventListener('touchend', triggerSelect, { passive: true });
-
-      const marker = new Marker({
-        element: el,
-        anchor: 'bottom',
-      })
-        .setLngLat(stamp.coordinates)
-        .addTo(map);
-
-      markersMap.set(stamp.id, marker);
+  // Remove markers outside the viewport or collapsed into a cluster
+  for (const [key, marker] of markersMap.entries()) {
+    if (!activeKeys.has(key)) {
+      marker.remove();
+      markersMap.delete(key);
     }
   }
 }
@@ -352,12 +522,27 @@ onMounted(() => {
     updateCurrentBounds();
   });
 
+  map.on('move', debouncedUpdateMarkers);
+
   map.on('moveend', () => {
+    if (moveDebounceTimer) clearTimeout(moveDebounceTimer);
+    updateMarkers();
+    updateCurrentBounds();
+  });
+
+  map.on('zoomend', () => {
+    if (moveDebounceTimer) clearTimeout(moveDebounceTimer);
+    updateMarkers();
     updateCurrentBounds();
   });
 });
 
 onUnmounted(() => {
+  if (moveDebounceTimer) {
+    clearTimeout(moveDebounceTimer);
+    moveDebounceTimer = null;
+  }
+  clusterIndex = null;
   for (const marker of markersMap.values()) {
     marker.remove();
   }
@@ -368,9 +553,20 @@ onUnmounted(() => {
   }
 });
 
-// Watch for changes in stamps, selected stamp, visited stamps, or wishlist stamps
+// Watch for stamps list changes and rebuild cluster index
 watch(
-  () => [props.stamps, props.selectedStamp, props.visitedStampIds, props.wishlistStampIds],
+  () => props.stamps,
+  () => {
+    rebuildClusterIndex();
+    nextTick(() => {
+      updateMarkers();
+    });
+  }
+);
+
+// Watch for selection, visited or wishlist state changes to update markers
+watch(
+  () => [props.selectedStamp, props.visitedStampIds, props.wishlistStampIds],
   () => {
     nextTick(() => {
       updateMarkers();
@@ -379,12 +575,12 @@ watch(
   { deep: true }
 );
 
-// If selected stamp changes, gently center on it
+// If selected stamp changes, gently center on it and expand if clustered
 watch(
   () => props.selectedStamp,
   (newStamp) => {
     if (newStamp && map) {
-      focusCoordinates(newStamp.coordinates, Math.max(map.getZoom(), 11));
+      focusCoordinates(newStamp.coordinates, Math.max(map.getZoom(), 15));
     }
   }
 );
