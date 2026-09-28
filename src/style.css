@@ -89,12 +89,20 @@ body,
 
 :root {
   /* Material 3 Expressive Dynamic Monet Theme Tokens */
-  --m3-primary: AccentColor;
-  --m3-primary-container: color-mix(in srgb, AccentColor 22%, rgba(15, 23, 42, 0.95));
-  --m3-on-primary-container: color-mix(in srgb, AccentColor 85%, white);
-  --m3-surface-tint: color-mix(in srgb, AccentColor 8%, #090d16);
-  --m3-border-tint: color-mix(in srgb, AccentColor 30%, #334155);
-  --m3-glow: color-mix(in srgb, AccentColor 35%, transparent);
+  --m3-primary: #10b981;
+  --m3-on-primary: #ffffff;
+  --m3-primary-container: #17382c;
+  --m3-on-primary-container: #86efac;
+  --m3-surface-tint: #0b1310;
+  --m3-surface-container: #0f1d18;
+  --m3-surface-elevated: #162720;
+  --m3-surface-card: rgba(15, 23, 42, 0.92);
+  --m3-border: rgba(16, 185, 129, 0.4);
+  --m3-border-subtle: rgba(16, 185, 129, 0.22);
+  --m3-glow: rgba(16, 185, 129, 0.45);
+  --m3-glow-subtle: rgba(16, 185, 129, 0.25);
+  --m3-badge-bg: rgba(16, 185, 129, 0.22);
+  --m3-badge-text: rgba(16, 185, 129, 0.95);
 }
 
 /* Safe-area insets helpers */

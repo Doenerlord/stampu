@@ -28,16 +28,26 @@ import {
 } from 'lucide-vue-next';
 import AskStaffModal from './AskStaffModal.vue';
 import { openInGoogleMaps, calculateDistanceKm, formatDistance } from '../utils/geo';
-import { PRESET_PALETTES, applyMonetPalette } from '../utils/theme';
+import { PRESET_PALETTES, applyMonetPalette, getDetectedMonetHex } from '../utils/theme';
 
 const isThemeMenuOpen = ref(false);
 const currentPaletteId = ref(
   (typeof localStorage !== 'undefined' && localStorage.getItem('stampu_theme_palette')) || 'monet'
 );
+const detectedMonetColor = ref(getDetectedMonetHex());
+
+const activeThemeHex = computed(() => {
+  if (currentPaletteId.value === 'monet') {
+    return detectedMonetColor.value;
+  }
+  const found = PRESET_PALETTES.find((p) => p.id === currentPaletteId.value);
+  return found ? found.seedHex : detectedMonetColor.value;
+});
 
 function selectPalette(id: string) {
   currentPaletteId.value = id;
   applyMonetPalette(id);
+  detectedMonetColor.value = getDetectedMonetHex();
   isThemeMenuOpen.value = false;
 }
 
@@ -151,12 +161,18 @@ function handleKeyDown(e: KeyboardEvent) {
   }
 }
 
+function onMonetColorDetected() {
+  detectedMonetColor.value = getDetectedMonetHex();
+}
+
 onMounted(() => {
   window.addEventListener('keydown', handleKeyDown);
+  window.addEventListener('monet-color-detected', onMonetColorDetected);
 });
 
 onUnmounted(() => {
   window.removeEventListener('keydown', handleKeyDown);
+  window.removeEventListener('monet-color-detected', onMonetColorDetected);
 });
 </script>
 
@@ -166,22 +182,29 @@ onUnmounted(() => {
     <!-- DESKTOP ADAPTIVE SIDEBAR (Hidden on mobile < md, visible md:flex)        -->
     <!-- ========================================================================= -->
     <aside
-      class="hidden md:flex fixed top-3 left-3 bottom-3 w-[390px] xl:w-[420px] z-30 flex-col bg-slate-900/95 backdrop-blur-2xl border border-slate-700/60 shadow-2xl rounded-[28px] overflow-hidden pointer-events-auto text-slate-100 transition-all duration-300"
+      class="hidden md:flex fixed top-3 left-3 bottom-3 w-[390px] xl:w-[420px] z-30 flex-col backdrop-blur-2xl shadow-2xl rounded-[28px] overflow-hidden pointer-events-auto text-slate-100 transition-all duration-300"
+      style="background: var(--m3-surface-card, rgba(15, 23, 42, 0.95)); border: 1px solid var(--m3-border, rgba(51, 65, 85, 0.6)); box-shadow: 0 20px 50px rgba(0,0,0,0.5), 0 0 25px var(--m3-glow-subtle, transparent);"
     >
       <!-- Sidebar Header -->
-      <div class="p-4 border-b border-slate-800 flex flex-col gap-3">
+      <div class="p-4 border-b border-slate-800/80 flex flex-col gap-3">
         <!-- Top Row: Brand & Progress Badge -->
         <div class="flex items-center justify-between gap-2">
           <div class="flex items-center gap-2.5">
             <div
-              class="w-9 h-9 rounded-2xl bg-gradient-to-tr from-red-600 via-rose-500 to-amber-500 flex items-center justify-center text-white shadow-md shadow-red-900/30 flex-shrink-0"
+              class="w-9 h-9 rounded-2xl flex items-center justify-center text-white shadow-md flex-shrink-0 cursor-pointer active:scale-95 transition-transform"
+              style="background: var(--m3-primary); box-shadow: 0 4px 14px var(--m3-glow);"
+              @click="isThemeMenuOpen = true"
+              title="Change Theme Palette (Monet)"
             >
               <span class="font-bold text-lg leading-none font-serif">印</span>
             </div>
             <div>
               <h1 class="text-sm font-bold text-slate-100 leading-tight tracking-wide flex items-center gap-1.5">
                 STAMPU
-                <span class="text-[10px] font-normal px-1.5 py-0.5 rounded bg-red-950 text-red-300 border border-red-800/40">スタンプ</span>
+                <span
+                  class="text-[10px] font-normal px-1.5 py-0.5 rounded border"
+                  style="background: var(--m3-badge-bg); color: var(--m3-on-primary-container); border-color: var(--m3-border-subtle);"
+                >スタンプ</span>
               </h1>
               <p class="text-[11px] text-slate-400">Japan Explorer</p>
             </div>
@@ -192,22 +215,24 @@ onUnmounted(() => {
             <button
               type="button"
               @click="isThemeMenuOpen = true"
-              class="p-1.5 text-slate-400 hover:text-white hover:bg-slate-800 rounded-xl transition-colors"
+              class="p-1.5 rounded-xl transition-colors hover:bg-white/10"
+              style="color: var(--m3-primary);"
               title="Change Theme Palette (Monet)"
             >
-              <Palette class="w-4 h-4 text-slate-300" />
+              <Palette class="w-4 h-4" />
             </button>
 
             <!-- Progress Pill -->
             <div
-              class="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-slate-800/90 border border-slate-700 text-xs flex-shrink-0"
+              class="flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs flex-shrink-0 border"
+              style="background: var(--m3-badge-bg); border-color: var(--m3-border-subtle); color: var(--m3-on-primary-container);"
               :title="`${visitedCount} of ${totalCount} collected`"
             >
               <CheckCircle2 class="w-3.5 h-3.5 text-emerald-400" />
-              <span class="text-slate-300 font-medium">
+              <span class="font-medium">
                 <strong class="text-emerald-400">{{ visitedCount }}</strong> / {{ totalCount }}
               </span>
-              <span class="text-[10px] text-slate-400 bg-slate-700/60 px-1 rounded-sm">{{ visitedPercentage }}%</span>
+              <span class="text-[10px] bg-black/30 px-1 rounded-sm">{{ visitedPercentage }}%</span>
             </div>
           </div>
         </div>
@@ -289,9 +314,10 @@ onUnmounted(() => {
             :class="[
               'py-1 rounded-lg font-medium transition-all text-center',
               visitedFilter === 'all'
-                ? 'bg-slate-700 text-white shadow-xs font-semibold'
+                ? 'text-white shadow-xs font-semibold'
                 : 'text-slate-400 hover:text-slate-200'
             ]"
+            :style="visitedFilter === 'all' ? { background: 'var(--m3-primary)', boxShadow: '0 2px 8px var(--m3-glow)' } : {}"
           >
             All
           </button>
@@ -543,9 +569,10 @@ onUnmounted(() => {
               :class="[
                 'flex items-center justify-between p-2.5 rounded-2xl border text-xs font-semibold transition-all col-span-2 shadow-xs active:scale-95',
                 selectedCategory === 'all'
-                  ? 'bg-slate-700 text-white border-slate-500 ring-2 ring-slate-400/40'
+                  ? 'text-white border-transparent'
                   : 'bg-slate-800/70 text-slate-300 border-slate-700/80 hover:bg-slate-800'
               ]"
+              :style="selectedCategory === 'all' ? { background: 'var(--m3-primary)', boxShadow: '0 4px 14px var(--m3-glow)' } : {}"
             >
               <div class="flex items-center gap-2">
                 <Layers class="w-4 h-4 text-slate-300" />
@@ -643,12 +670,13 @@ onUnmounted(() => {
       style="padding-top: calc(max(env(safe-area-inset-top, 0px), 2.75rem) + 0.25rem);"
     >
       <div
-        class="pointer-events-auto flex items-center gap-2 bg-slate-900/90 backdrop-blur-xl border border-slate-700/70 shadow-2xl rounded-full px-3 py-1.5 mx-auto max-w-lg"
+        class="pointer-events-auto flex items-center gap-2 backdrop-blur-xl shadow-2xl rounded-full px-3 py-1.5 mx-auto max-w-lg transition-all"
+        style="background: var(--m3-surface-card, rgba(15, 23, 42, 0.92)); border: 1px solid var(--m3-border, rgba(51, 65, 85, 0.7)); box-shadow: 0 10px 30px rgba(0,0,0,0.5), 0 0 20px var(--m3-glow-subtle, transparent);"
       >
         <!-- Brand Icon Seal with Monet primary color -->
         <div
           class="w-8 h-8 rounded-full flex items-center justify-center text-white shadow-md flex-shrink-0 cursor-pointer active:scale-95 transition-all"
-          style="background: var(--m3-primary, linear-gradient(135deg, #e11d48, #f43f5e)); box-shadow: 0 4px 14px var(--m3-glow, rgba(225, 29, 72, 0.4));"
+          style="background: var(--m3-primary); box-shadow: 0 4px 14px var(--m3-glow);"
           @click="isThemeMenuOpen = true"
           title="Change Theme Palette (Monet)"
         >
@@ -679,19 +707,21 @@ onUnmounted(() => {
         <button
           type="button"
           @click="isThemeMenuOpen = true"
-          class="p-1.5 text-slate-400 hover:text-white rounded-full flex-shrink-0 transition-colors"
+          class="p-1.5 rounded-full flex-shrink-0 transition-colors hover:bg-white/10"
+          style="color: var(--m3-primary);"
           title="Monet Theme Colors"
         >
-          <Palette class="w-4 h-4 text-slate-300" />
+          <Palette class="w-4 h-4" />
         </button>
 
         <!-- Progress Mini Pill -->
         <div
-          class="flex items-center gap-1 px-2.5 py-1 rounded-full bg-slate-800/90 border border-slate-700 text-xs flex-shrink-0"
+          class="flex items-center gap-1 px-2.5 py-1 rounded-full text-xs flex-shrink-0 transition-all border"
+          style="background: var(--m3-badge-bg); border-color: var(--m3-border-subtle); color: var(--m3-on-primary-container);"
           :title="`${visitedCount} of ${totalCount} collected`"
         >
           <CheckCircle2 class="w-3 h-3 text-emerald-400" />
-          <span class="text-slate-300 font-semibold text-[11px]">{{ visitedPercentage }}%</span>
+          <span class="font-semibold text-[11px]">{{ visitedPercentage }}%</span>
         </div>
       </div>
     </div>
@@ -709,16 +739,17 @@ onUnmounted(() => {
         <button
           type="button"
           @click="selectCategory('all')"
-          :class="[
-            'flex-shrink-0 flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold border transition-all shadow-md active:scale-95',
-            selectedCategory === 'all'
-              ? 'bg-slate-700 text-white border-slate-500 shadow-slate-900/50'
-              : 'bg-slate-900/90 text-slate-300 border-slate-700/80 hover:bg-slate-800'
-          ]"
+          class="flex-shrink-0 flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold transition-all shadow-md active:scale-95"
+          :style="selectedCategory === 'all'
+            ? { background: 'var(--m3-primary)', color: 'white', border: '1px solid transparent', boxShadow: '0 4px 16px var(--m3-glow)' }
+            : { background: 'var(--m3-surface-card)', color: '#cbd5e1', border: '1px solid var(--m3-border-subtle)' }"
         >
-          <Layers class="w-3.5 h-3.5 text-slate-300" />
+          <Layers class="w-3.5 h-3.5" />
           <span>All Stamps</span>
-          <span class="text-[10px] px-1.5 py-0.2 rounded-full font-bold bg-slate-800 text-slate-300">
+          <span
+            class="text-[10px] px-1.5 py-0.2 rounded-full font-bold"
+            :style="selectedCategory === 'all' ? { background: 'rgba(0,0,0,0.25)', color: 'white' } : { background: 'rgba(255,255,255,0.1)', color: '#94a3b8' }"
+          >
             {{ categoryCounts.all }}
           </span>
         </button>
@@ -729,12 +760,11 @@ onUnmounted(() => {
           :key="cat.id"
           type="button"
           @click="selectCategory(cat.id)"
-          :class="[
-            'flex-shrink-0 flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold border transition-all shadow-md active:scale-95',
-            selectedCategory === cat.id
-              ? cat.activeClass
-              : 'bg-slate-900/90 text-slate-300 border-slate-700/80 hover:bg-slate-800'
-          ]"
+          class="flex-shrink-0 flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold border transition-all shadow-md active:scale-95"
+          :class="selectedCategory === cat.id ? cat.activeClass : 'text-slate-300 hover:bg-slate-800'"
+          :style="selectedCategory === cat.id
+            ? { borderColor: 'var(--m3-primary)', boxShadow: '0 4px 14px var(--m3-glow)' }
+            : { background: 'var(--m3-surface-card)', borderColor: 'var(--m3-border-subtle)' }"
         >
           <component :is="iconMap[cat.iconName]" class="w-3.5 h-3.5" />
           <span>{{ cat.label }}</span>
@@ -746,23 +776,16 @@ onUnmounted(() => {
 
       <!-- M3 Expressive Floating Navigation Dock -->
       <nav
-        class="pointer-events-auto mx-auto max-w-sm w-[calc(100%-1.5rem)] bg-slate-900/92 backdrop-blur-xl border border-slate-700/80 shadow-2xl rounded-full p-1.5 flex items-center justify-around"
+        class="pointer-events-auto mx-auto max-w-sm w-[calc(100%-1.5rem)] backdrop-blur-xl shadow-2xl rounded-full p-1.5 flex items-center justify-around transition-all"
+        style="background: var(--m3-surface-card, rgba(15, 23, 42, 0.92)); border: 1px solid var(--m3-border, rgba(51, 65, 85, 0.8)); box-shadow: 0 8px 32px rgba(0,0,0,0.5), 0 0 20px var(--m3-glow-subtle, transparent);"
         aria-label="Mobile Navigation Dock"
       >
         <!-- Tab 1: Status Filter Cycle Button -->
         <button
           type="button"
           @click="cycleMobileStatusFilter"
-          :class="[
-            'flex-1 flex flex-col items-center justify-center py-1 px-1 rounded-full transition-all active:scale-95 text-[10px] font-semibold',
-            visitedFilter === 'visited'
-              ? 'text-emerald-400 bg-emerald-500/15'
-              : visitedFilter === 'unvisited'
-                ? 'text-slate-300 bg-slate-800'
-                : visitedFilter === 'wishlist'
-                  ? 'text-amber-400 bg-amber-500/15'
-                  : 'text-slate-400 hover:text-slate-200'
-          ]"
+          class="flex-1 flex flex-col items-center justify-center py-1 px-1 rounded-full transition-all active:scale-95 text-[10px] font-semibold"
+          :style="visitedFilter !== 'all' ? { background: 'var(--m3-badge-bg)', color: 'var(--m3-on-primary-container)' } : { color: '#94a3b8' }"
           :title="`Current filter: ${visitedFilter}. Click to cycle.`"
         >
           <CheckCircle2 v-if="visitedFilter === 'visited'" class="w-4 h-4 text-emerald-400" />
@@ -829,15 +852,16 @@ onUnmounted(() => {
     <!-- Theme Palette Selector Modal -->
     <div
       v-if="isThemeMenuOpen"
-      class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/75 backdrop-blur-sm pointer-events-auto"
+      class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/80 backdrop-blur-md pointer-events-auto"
       @click.self="isThemeMenuOpen = false"
     >
       <div
-        class="w-full max-w-xs bg-slate-900/95 border border-slate-700/80 rounded-3xl shadow-2xl p-4 space-y-3 animate-in zoom-in-95 duration-150 text-slate-100"
+        class="w-full max-w-xs border rounded-3xl shadow-2xl p-4 space-y-3 animate-in zoom-in-95 duration-150 text-slate-100"
+        style="background: var(--m3-surface-elevated, #1e293b); border-color: var(--m3-border, #475569); box-shadow: 0 20px 50px rgba(0,0,0,0.7), 0 0 30px var(--m3-glow, transparent);"
       >
         <div class="flex items-center justify-between pb-2 border-b border-slate-800">
-          <div class="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-slate-300">
-            <Palette class="w-4 h-4 text-rose-400" />
+          <div class="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-slate-200">
+            <Palette class="w-4 h-4" style="color: var(--m3-primary);" />
             <span>Theme Colors (テーマ)</span>
           </div>
           <button
@@ -854,27 +878,41 @@ onUnmounted(() => {
           Wähle dein bevorzugtes Farbschema. Auf Android passt sich <strong>Monet</strong> automatisch deinen Wallpaper-Farben an.
         </p>
 
-        <div class="space-y-1.5 max-h-[60vh] overflow-y-auto pr-1">
+        <!-- Dynamic Monet Status Pill -->
+        <div
+          class="flex items-center justify-between p-2 rounded-xl text-[11px] border"
+          style="background: var(--m3-badge-bg); border-color: var(--m3-border-subtle); color: var(--m3-on-primary-container);"
+        >
+          <span class="flex items-center gap-1.5 font-medium">
+            <span class="w-2.5 h-2.5 rounded-full" :style="{ backgroundColor: activeThemeHex }" />
+            Aktives Farbschema:
+          </span>
+          <span class="font-mono font-bold uppercase px-1.5 py-0.5 rounded text-[10px]" style="background: rgba(0,0,0,0.35);">
+            {{ activeThemeHex }}
+          </span>
+        </div>
+
+        <div class="space-y-1.5 max-h-[50vh] overflow-y-auto pr-1">
           <button
             v-for="p in PRESET_PALETTES"
             :key="p.id"
             type="button"
             @click="selectPalette(p.id)"
-            :class="[
-              'w-full flex items-center justify-between p-2.5 rounded-2xl border text-xs font-semibold transition-all active:scale-95 text-left',
-              currentPaletteId === p.id
-                ? 'bg-slate-800 text-white border-white/40 ring-2 ring-white/20'
-                : 'bg-slate-800/40 text-slate-300 border-slate-700/60 hover:bg-slate-800'
-            ]"
+            class="w-full flex items-center justify-between p-2.5 rounded-2xl border text-xs font-semibold transition-all active:scale-95 text-left"
+            :style="currentPaletteId === p.id
+              ? { background: 'var(--m3-primary)', color: 'white', borderColor: 'transparent', boxShadow: '0 4px 14px var(--m3-glow)' }
+              : { background: 'rgba(15, 23, 42, 0.6)', color: '#cbd5e1', borderColor: 'var(--m3-border-subtle)' }"
           >
             <div class="flex items-center gap-2.5">
               <span
                 class="w-5 h-5 rounded-full border border-white/20 shadow-xs flex items-center justify-center text-[10px] flex-shrink-0"
-                :style="{ backgroundColor: p.id === 'monet' ? 'AccentColor' : p.seedHex }"
+                :style="{ backgroundColor: p.id === 'monet' ? detectedMonetColor : p.seedHex }"
               />
-              <span class="truncate">{{ p.label }}</span>
+              <span class="truncate">
+                {{ p.id === 'monet' ? `📱 System Monet (${detectedMonetColor.toUpperCase()})` : p.label }}
+              </span>
             </div>
-            <span v-if="currentPaletteId === p.id" class="text-xs text-emerald-400 font-bold ml-1">✓</span>
+            <span v-if="currentPaletteId === p.id" class="text-xs text-white font-bold ml-1">✓</span>
           </button>
         </div>
       </div>

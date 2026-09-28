@@ -642,7 +642,8 @@ defineExpose({
     >
       <!-- Basemap Style Selector -->
       <div
-        class="w-fit flex items-center gap-1 p-1 rounded-xl bg-slate-900/90 border border-slate-700/80 shadow-lg backdrop-blur-md"
+        class="w-fit flex items-center gap-1 p-1 rounded-xl shadow-lg backdrop-blur-md transition-all"
+        style="background: var(--m3-surface-card, rgba(15, 23, 42, 0.9)); border: 1px solid var(--m3-border, rgba(51, 65, 85, 0.8));"
       >
         <button
           type="button"
@@ -650,9 +651,10 @@ defineExpose({
           :class="[
             'px-2 py-1 text-[11px] font-semibold rounded-lg transition-all',
             currentBasemap === 'esri'
-              ? 'bg-blue-600 text-white shadow-sm'
+              ? 'text-white shadow-sm'
               : 'text-slate-400 hover:text-white',
           ]"
+          :style="currentBasemap === 'esri' ? { background: 'var(--m3-primary)', boxShadow: '0 2px 8px var(--m3-glow)' } : {}"
           title="ESRI World Street Map (Bilingual English/Japanese)"
         >
           Street
@@ -663,9 +665,10 @@ defineExpose({
           :class="[
             'px-2 py-1 text-[11px] font-semibold rounded-lg transition-all',
             currentBasemap === 'gsi_std'
-              ? 'bg-blue-600 text-white shadow-sm'
+              ? 'text-white shadow-sm'
               : 'text-slate-400 hover:text-white',
           ]"
+          :style="currentBasemap === 'gsi_std' ? { background: 'var(--m3-primary)', boxShadow: '0 2px 8px var(--m3-glow)' } : {}"
           title="GSI Japan Standard Map (国土地理院)"
         >
           Japan GSI
@@ -676,9 +679,10 @@ defineExpose({
           :class="[
             'px-2 py-1 text-[11px] font-semibold rounded-lg transition-all',
             currentBasemap === 'gsi_pale'
-              ? 'bg-blue-600 text-white shadow-sm'
+              ? 'text-white shadow-sm'
               : 'text-slate-400 hover:text-white',
           ]"
+          :style="currentBasemap === 'gsi_pale' ? { background: 'var(--m3-primary)', boxShadow: '0 2px 8px var(--m3-glow)' } : {}"
           title="GSI Japan Pale Map (淡色地図)"
         >
           Pale
@@ -739,22 +743,21 @@ defineExpose({
       <button
         type="button"
         @click="isLayersMenuOpen = !isLayersMenuOpen"
-        :class="[
-          'w-10 h-10 rounded-full flex items-center justify-center border shadow-xl backdrop-blur-xl transition-all active:scale-95',
-          isLayersMenuOpen
-            ? 'bg-slate-800 text-white border-white/40 ring-2 ring-white/20'
-            : 'bg-slate-900/90 text-slate-200 hover:text-white border-slate-700/80'
-        ]"
+        class="w-10 h-10 rounded-full flex items-center justify-center shadow-xl backdrop-blur-xl transition-all active:scale-95"
+        :style="isLayersMenuOpen
+          ? { background: 'var(--m3-primary)', color: 'white', border: '1px solid transparent', boxShadow: '0 4px 16px var(--m3-glow)' }
+          : { background: 'var(--m3-surface-card, rgba(15, 23, 42, 0.92))', color: 'var(--m3-primary)', border: '1px solid var(--m3-border, rgba(51, 65, 85, 0.8))', boxShadow: '0 4px 14px var(--m3-glow-subtle, transparent)' }"
         title="Map layers and view options"
         aria-label="Map layers and view options"
       >
-        <component :is="isLayersMenuOpen ? X : Layers" class="w-5 h-5 text-slate-100" />
+        <component :is="isLayersMenuOpen ? X : Layers" class="w-5 h-5" />
       </button>
 
       <!-- Expressive M3 Popover Menu -->
       <div
         v-if="isLayersMenuOpen"
-        class="absolute right-0 top-12 w-64 p-3 bg-slate-900/95 backdrop-blur-2xl border border-slate-700/80 rounded-2xl shadow-2xl space-y-3 animate-in fade-in zoom-in-95 duration-150 text-slate-100 text-xs"
+        class="absolute right-0 top-12 w-64 p-3 backdrop-blur-2xl rounded-2xl shadow-2xl space-y-3 animate-in fade-in zoom-in-95 duration-150 text-slate-100 text-xs"
+        style="background: var(--m3-surface-elevated, rgba(15, 23, 42, 0.95)); border: 1px solid var(--m3-border, rgba(51, 65, 85, 0.8)); box-shadow: 0 15px 40px rgba(0,0,0,0.7), 0 0 25px var(--m3-glow, transparent);"
       >
         <div class="font-bold text-slate-300 text-[11px] uppercase tracking-wider">
           Basemap (地図レイヤー)
@@ -765,8 +768,9 @@ defineExpose({
             @click="switchBasemap('esri'); isLayersMenuOpen = false;"
             :class="[
               'py-1.5 text-center font-semibold rounded-lg transition-all',
-              currentBasemap === 'esri' ? 'bg-blue-600 text-white shadow-xs' : 'text-slate-400'
+              currentBasemap === 'esri' ? 'text-white shadow-xs' : 'text-slate-400'
             ]"
+            :style="currentBasemap === 'esri' ? { background: 'var(--m3-primary)', boxShadow: '0 2px 8px var(--m3-glow)' } : {}"
           >
             Street
           </button>
@@ -775,8 +779,9 @@ defineExpose({
             @click="switchBasemap('gsi_std'); isLayersMenuOpen = false;"
             :class="[
               'py-1.5 text-center font-semibold rounded-lg transition-all',
-              currentBasemap === 'gsi_std' ? 'bg-blue-600 text-white shadow-xs' : 'text-slate-400'
+              currentBasemap === 'gsi_std' ? 'text-white shadow-xs' : 'text-slate-400'
             ]"
+            :style="currentBasemap === 'gsi_std' ? { background: 'var(--m3-primary)', boxShadow: '0 2px 8px var(--m3-glow)' } : {}"
           >
             GSI
           </button>
@@ -785,8 +790,9 @@ defineExpose({
             @click="switchBasemap('gsi_pale'); isLayersMenuOpen = false;"
             :class="[
               'py-1.5 text-center font-semibold rounded-lg transition-all',
-              currentBasemap === 'gsi_pale' ? 'bg-blue-600 text-white shadow-xs' : 'text-slate-400'
+              currentBasemap === 'gsi_pale' ? 'text-white shadow-xs' : 'text-slate-400'
             ]"
+            :style="currentBasemap === 'gsi_pale' ? { background: 'var(--m3-primary)', boxShadow: '0 2px 8px var(--m3-glow)' } : {}"
           >
             Pale
           </button>
