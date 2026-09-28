@@ -24,9 +24,22 @@ import {
   ExternalLink,
   ChevronLeft,
   SlidersHorizontal,
+  Palette,
 } from 'lucide-vue-next';
 import AskStaffModal from './AskStaffModal.vue';
 import { openInGoogleMaps, calculateDistanceKm, formatDistance } from '../utils/geo';
+import { PRESET_PALETTES, applyMonetPalette } from '../utils/theme';
+
+const isThemeMenuOpen = ref(false);
+const currentPaletteId = ref(
+  (typeof localStorage !== 'undefined' && localStorage.getItem('stampu_theme_palette')) || 'monet'
+);
+
+function selectPalette(id: string) {
+  currentPaletteId.value = id;
+  applyMonetPalette(id);
+  isThemeMenuOpen.value = false;
+}
 
 const props = defineProps<{
   selectedCategory: StampCategory | 'all';
@@ -174,16 +187,28 @@ onUnmounted(() => {
             </div>
           </div>
 
-          <!-- Progress Pill -->
-          <div
-            class="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-slate-800/90 border border-slate-700 text-xs flex-shrink-0"
-            :title="`${visitedCount} of ${totalCount} collected`"
-          >
-            <CheckCircle2 class="w-3.5 h-3.5 text-emerald-400" />
-            <span class="text-slate-300 font-medium">
-              <strong class="text-emerald-400">{{ visitedCount }}</strong> / {{ totalCount }}
-            </span>
-            <span class="text-[10px] text-slate-400 bg-slate-700/60 px-1 rounded-sm">{{ visitedPercentage }}%</span>
+          <div class="flex items-center gap-2">
+            <!-- Palette Selector Trigger -->
+            <button
+              type="button"
+              @click="isThemeMenuOpen = true"
+              class="p-1.5 text-slate-400 hover:text-white hover:bg-slate-800 rounded-xl transition-colors"
+              title="Change Theme Palette (Monet)"
+            >
+              <Palette class="w-4 h-4 text-slate-300" />
+            </button>
+
+            <!-- Progress Pill -->
+            <div
+              class="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-slate-800/90 border border-slate-700 text-xs flex-shrink-0"
+              :title="`${visitedCount} of ${totalCount} collected`"
+            >
+              <CheckCircle2 class="w-3.5 h-3.5 text-emerald-400" />
+              <span class="text-slate-300 font-medium">
+                <strong class="text-emerald-400">{{ visitedCount }}</strong> / {{ totalCount }}
+              </span>
+              <span class="text-[10px] text-slate-400 bg-slate-700/60 px-1 rounded-sm">{{ visitedPercentage }}%</span>
+            </div>
           </div>
         </div>
 
@@ -614,15 +639,18 @@ onUnmounted(() => {
 
     <!-- Mobile Top Bar: Sleek Material 3 Expressive Search Anchor -->
     <div
-      class="md:hidden fixed top-0 inset-x-0 z-30 pointer-events-none px-3 pt-safe transition-all"
+      class="md:hidden fixed top-0 inset-x-0 z-30 pointer-events-none px-3 transition-all"
+      style="padding-top: calc(max(env(safe-area-inset-top, 0px), 2.75rem) + 0.25rem);"
     >
       <div
         class="pointer-events-auto flex items-center gap-2 bg-slate-900/90 backdrop-blur-xl border border-slate-700/70 shadow-2xl rounded-full px-3 py-1.5 mx-auto max-w-lg"
       >
-        <!-- Brand Icon Seal -->
+        <!-- Brand Icon Seal with Monet primary color -->
         <div
-          class="w-8 h-8 rounded-full bg-gradient-to-tr from-red-600 via-rose-500 to-amber-500 flex items-center justify-center text-white shadow-md shadow-red-900/30 flex-shrink-0"
-          title="STAMPU Japan Explorer"
+          class="w-8 h-8 rounded-full flex items-center justify-center text-white shadow-md flex-shrink-0 cursor-pointer active:scale-95 transition-all"
+          style="background: var(--m3-primary, linear-gradient(135deg, #e11d48, #f43f5e)); box-shadow: 0 4px 14px var(--m3-glow, rgba(225, 29, 72, 0.4));"
+          @click="isThemeMenuOpen = true"
+          title="Change Theme Palette (Monet)"
         >
           <span class="font-bold text-sm leading-none font-serif">印</span>
         </div>
@@ -646,6 +674,16 @@ onUnmounted(() => {
             <X class="w-3.5 h-3.5" />
           </button>
         </div>
+
+        <!-- Palette Theme Selector Button -->
+        <button
+          type="button"
+          @click="isThemeMenuOpen = true"
+          class="p-1.5 text-slate-400 hover:text-white rounded-full flex-shrink-0 transition-colors"
+          title="Monet Theme Colors"
+        >
+          <Palette class="w-4 h-4 text-slate-300" />
+        </button>
 
         <!-- Progress Mini Pill -->
         <div
@@ -787,5 +825,59 @@ onUnmounted(() => {
       :stamp="selectedStamp"
       @close="isAskStaffOpen = false"
     />
+
+    <!-- Theme Palette Selector Modal -->
+    <div
+      v-if="isThemeMenuOpen"
+      class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/75 backdrop-blur-sm pointer-events-auto"
+      @click.self="isThemeMenuOpen = false"
+    >
+      <div
+        class="w-full max-w-xs bg-slate-900/95 border border-slate-700/80 rounded-3xl shadow-2xl p-4 space-y-3 animate-in zoom-in-95 duration-150 text-slate-100"
+      >
+        <div class="flex items-center justify-between pb-2 border-b border-slate-800">
+          <div class="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-slate-300">
+            <Palette class="w-4 h-4 text-rose-400" />
+            <span>Theme Colors (テーマ)</span>
+          </div>
+          <button
+            type="button"
+            @click="isThemeMenuOpen = false"
+            class="p-1 text-slate-400 hover:text-white rounded-full"
+            aria-label="Close theme menu"
+          >
+            <X class="w-4 h-4" />
+          </button>
+        </div>
+
+        <p class="text-[11px] text-slate-400 leading-relaxed">
+          Wähle dein bevorzugtes Farbschema. Auf Android passt sich <strong>Monet</strong> automatisch deinen Wallpaper-Farben an.
+        </p>
+
+        <div class="space-y-1.5 max-h-[60vh] overflow-y-auto pr-1">
+          <button
+            v-for="p in PRESET_PALETTES"
+            :key="p.id"
+            type="button"
+            @click="selectPalette(p.id)"
+            :class="[
+              'w-full flex items-center justify-between p-2.5 rounded-2xl border text-xs font-semibold transition-all active:scale-95 text-left',
+              currentPaletteId === p.id
+                ? 'bg-slate-800 text-white border-white/40 ring-2 ring-white/20'
+                : 'bg-slate-800/40 text-slate-300 border-slate-700/60 hover:bg-slate-800'
+            ]"
+          >
+            <div class="flex items-center gap-2.5">
+              <span
+                class="w-5 h-5 rounded-full border border-white/20 shadow-xs flex items-center justify-center text-[10px] flex-shrink-0"
+                :style="{ backgroundColor: p.id === 'monet' ? 'AccentColor' : p.seedHex }"
+              />
+              <span class="truncate">{{ p.label }}</span>
+            </div>
+            <span v-if="currentPaletteId === p.id" class="text-xs text-emerald-400 font-bold ml-1">✓</span>
+          </button>
+        </div>
+      </div>
+    </div>
   </header>
 </template>

@@ -14,6 +14,7 @@ import StampDrawer from './components/StampDrawer.vue';
 import WishlistModal from './components/WishlistModal.vue';
 import PrefectureDownloadModal from './components/PrefectureDownloadModal.vue';
 import NearbyModal from './components/NearbyModal.vue';
+import { initMonetTheming } from './utils/theme';
 
 const allStamps = ref<Stamp[]>([]);
 const prefectures = ref<PrefecturePack[]>([]);
@@ -50,6 +51,7 @@ function requestUserLocation() {
 
 // Load stamps & prefectures from public data and visited & wishlist stamps from Dexie
 onMounted(async () => {
+  initMonetTheming();
   try {
     const [stampsRes, prefsRes] = await Promise.all([
       fetch('/data/stamps.json'),

@@ -87,19 +87,39 @@ body,
   scrollbar-width: none;
 }
 
-/* Safe-area insets helpers */
-.safe-top {
-  padding-top: max(env(safe-area-inset-top, 0px), 0.75rem);
-}
-.safe-bottom {
-  padding-bottom: max(env(safe-area-inset-bottom, 0px), 1rem);
+:root {
+  /* Material 3 Expressive Dynamic Monet Theme Tokens */
+  --m3-primary: AccentColor;
+  --m3-primary-container: color-mix(in srgb, AccentColor 22%, rgba(15, 23, 42, 0.95));
+  --m3-on-primary-container: color-mix(in srgb, AccentColor 85%, white);
+  --m3-surface-tint: color-mix(in srgb, AccentColor 8%, #090d16);
+  --m3-border-tint: color-mix(in srgb, AccentColor 30%, #334155);
+  --m3-glow: color-mix(in srgb, AccentColor 35%, transparent);
 }
 
-/* Position MapLibre controls safely above mobile bottom dock */
+/* Safe-area insets helpers */
+.safe-top, .pt-safe {
+  padding-top: calc(max(env(safe-area-inset-top, 0px), 2.75rem) + 0.25rem) !important;
+}
+.safe-bottom, .pb-safe {
+  padding-bottom: max(env(safe-area-inset-bottom, 0px), 1rem) !important;
+}
+
+/* Precise MapLibre navigation controls positioning */
+.maplibregl-ctrl-bottom-right {
+  margin: 0 !important;
+}
 @media (max-width: 767px) {
   .maplibregl-ctrl-bottom-right {
-    bottom: calc(env(safe-area-inset-bottom, 0px) + 5.5rem) !important;
+    bottom: calc(max(env(safe-area-inset-bottom, 0px), 8px) + 6rem) !important;
     right: 0.75rem !important;
   }
 }
+@media (min-width: 768px) {
+  .maplibregl-ctrl-bottom-right {
+    bottom: 1.5rem !important;
+    right: 1.5rem !important;
+  }
+}
+
 

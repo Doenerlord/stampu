@@ -9,11 +9,13 @@ import {
   type StyleSpecification,
 } from 'maplibre-gl';
 import Supercluster, { type AnyProps, type ClusterProperties } from 'supercluster';
-import { WifiOff } from 'lucide-vue-next';
+import { WifiOff, Layers, X } from 'lucide-vue-next';
 import type { Stamp } from '../types/stamp';
 import { CATEGORIES } from '../constants/categories';
 import { registerOfflineTileProtocol } from '../utils/offlineMap';
 import OfflineMapModal from './OfflineMapModal.vue';
+
+const isLayersMenuOpen = ref(false);
 
 interface StampProperties {
   stampId: string;
@@ -634,10 +636,9 @@ defineExpose({
     <!-- MapLibre canvas container -->
     <div ref="mapContainerRef" class="w-full h-full absolute inset-0" />
 
-    <!-- Map Quick Action Controls (Floating bottom) -->
+    <!-- DESKTOP MAP QUICK ACTIONS (Floating bottom, next to 420px sidebar) -->
     <div
-      class="absolute bottom-3 sm:bottom-6 left-3 sm:left-4 z-20 flex flex-col gap-2 pointer-events-auto"
-      style="padding-bottom: env(safe-area-inset-bottom, 0px);"
+      class="hidden md:flex fixed bottom-4 left-[410px] lg:left-[440px] z-20 flex-col gap-2 pointer-events-auto"
     >
       <!-- Basemap Style Selector -->
       <div
@@ -692,7 +693,7 @@ defineExpose({
           title="Manage offline map tiles and storage"
         >
           <WifiOff class="w-3.5 h-3.5 text-emerald-400 shrink-0" />
-          <span>Offline<span class="hidden sm:inline"> Maps</span></span>
+          <span>Offline Maps</span>
         </button>
 
         <button
@@ -702,7 +703,7 @@ defineExpose({
           title="Reset view to whole Japan overview"
         >
           <span class="font-serif text-sm leading-none text-red-500 font-bold shrink-0">日本</span>
-          <span><span class="hidden sm:inline">Japan </span>Overview</span>
+          <span>Japan Overview</span>
         </button>
 
         <button
@@ -724,8 +725,101 @@ defineExpose({
             <path d="M21 17v2a2 2 0 0 1-2 2h-2" />
             <path d="M7 21H5a2 2 0 0 1-2-2v-2" />
           </svg>
-          <span>Fit<span class="hidden sm:inline"> Visible</span> ({{ stamps.length }})</span>
+          <span>Fit Visible ({{ stamps.length }})</span>
         </button>
+      </div>
+    </div>
+
+    <!-- MOBILE M3 MAP LAYERS FAB & POPOVER (Top-right, under mobile search bar) -->
+    <div
+      class="md:hidden fixed z-30 pointer-events-auto"
+      style="top: calc(max(env(safe-area-inset-top, 0px), 2.75rem) + 3.25rem); right: 0.75rem;"
+    >
+      <!-- Layers FAB Button -->
+      <button
+        type="button"
+        @click="isLayersMenuOpen = !isLayersMenuOpen"
+        :class="[
+          'w-10 h-10 rounded-full flex items-center justify-center border shadow-xl backdrop-blur-xl transition-all active:scale-95',
+          isLayersMenuOpen
+            ? 'bg-slate-800 text-white border-white/40 ring-2 ring-white/20'
+            : 'bg-slate-900/90 text-slate-200 hover:text-white border-slate-700/80'
+        ]"
+        title="Map layers and view options"
+        aria-label="Map layers and view options"
+      >
+        <component :is="isLayersMenuOpen ? X : Layers" class="w-5 h-5 text-slate-100" />
+      </button>
+
+      <!-- Expressive M3 Popover Menu -->
+      <div
+        v-if="isLayersMenuOpen"
+        class="absolute right-0 top-12 w-64 p-3 bg-slate-900/95 backdrop-blur-2xl border border-slate-700/80 rounded-2xl shadow-2xl space-y-3 animate-in fade-in zoom-in-95 duration-150 text-slate-100 text-xs"
+      >
+        <div class="font-bold text-slate-300 text-[11px] uppercase tracking-wider">
+          Basemap (地図レイヤー)
+        </div>
+        <div class="grid grid-cols-3 gap-1 bg-slate-800/80 p-1 rounded-xl border border-slate-700/60">
+          <button
+            type="button"
+            @click="switchBasemap('esri'); isLayersMenuOpen = false;"
+            :class="[
+              'py-1.5 text-center font-semibold rounded-lg transition-all',
+              currentBasemap === 'esri' ? 'bg-blue-600 text-white shadow-xs' : 'text-slate-400'
+            ]"
+          >
+            Street
+          </button>
+          <button
+            type="button"
+            @click="switchBasemap('gsi_std'); isLayersMenuOpen = false;"
+            :class="[
+              'py-1.5 text-center font-semibold rounded-lg transition-all',
+              currentBasemap === 'gsi_std' ? 'bg-blue-600 text-white shadow-xs' : 'text-slate-400'
+            ]"
+          >
+            GSI
+          </button>
+          <button
+            type="button"
+            @click="switchBasemap('gsi_pale'); isLayersMenuOpen = false;"
+            :class="[
+              'py-1.5 text-center font-semibold rounded-lg transition-all',
+              currentBasemap === 'gsi_pale' ? 'bg-blue-600 text-white shadow-xs' : 'text-slate-400'
+            ]"
+          >
+            Pale
+          </button>
+        </div>
+
+        <div class="pt-2 border-t border-slate-800 space-y-1.5">
+          <button
+            type="button"
+            @click="resetJapanView(); isLayersMenuOpen = false;"
+            class="w-full flex items-center gap-2 px-2.5 py-2 rounded-xl bg-slate-800/70 hover:bg-slate-800 text-slate-200 font-medium active:scale-95 transition-transform"
+          >
+            <span class="font-serif text-red-500 font-bold">日本</span>
+            <span>Whole Japan Overview</span>
+          </button>
+
+          <button
+            type="button"
+            @click="fitAllStamps(); isLayersMenuOpen = false;"
+            class="w-full flex items-center gap-2 px-2.5 py-2 rounded-xl bg-slate-800/70 hover:bg-slate-800 text-slate-200 font-medium active:scale-95 transition-transform"
+          >
+            <span class="text-amber-400">🔍</span>
+            <span>Fit Visible ({{ stamps.length }})</span>
+          </button>
+
+          <button
+            type="button"
+            @click="openOfflineModal(); isLayersMenuOpen = false;"
+            class="w-full flex items-center gap-2 px-2.5 py-2 rounded-xl bg-slate-800/70 hover:bg-slate-800 text-slate-200 font-medium active:scale-95 transition-transform"
+          >
+            <WifiOff class="w-3.5 h-3.5 text-emerald-400" />
+            <span>Offline Maps Manager</span>
+          </button>
+        </div>
       </div>
     </div>
 
@@ -740,11 +834,6 @@ defineExpose({
 
 <style>
 /* MapLibre Controls Styling for dark theme integration */
-.maplibregl-ctrl-bottom-right {
-  margin-bottom: calc(env(safe-area-inset-bottom, 0px) + 7.5rem) !important;
-  margin-right: 12px !important;
-}
-
 .maplibregl-ctrl-group {
   background-color: rgba(15, 23, 42, 0.9) !important;
   border: 1px solid rgba(51, 65, 85, 0.8) !important;
