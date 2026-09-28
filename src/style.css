@@ -40,7 +40,9 @@ body,
   height: 100% !important;
 }
 
-.maplibregl-marker {
+.maplibregl-marker,
+.stampu-marker-root,
+.stampu-cluster-root {
   position: absolute !important;
   top: 0 !important;
   left: 0 !important;
@@ -48,6 +50,13 @@ body,
   pointer-events: auto !important;
   cursor: pointer;
   user-select: none;
+}
+
+.stampu-cluster-root {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  box-sizing: border-box;
 }
 
 .stampu-marker-root {

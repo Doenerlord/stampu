@@ -147,6 +147,7 @@ const iconSvgs: Record<string, string> = {
 };
 
 function renderMarkerContent(wrapper: HTMLElement, stamp: Stamp) {
+  wrapper.classList.add('maplibregl-marker', 'maplibregl-marker-anchor-bottom', 'stampu-marker-root');
   const cat = CATEGORIES[stamp.category] || CATEGORIES.eki;
   const isVisited = props.visitedStampIds.has(stamp.id);
   const isWishlist = props.wishlistStampIds?.has(stamp.id) ?? false;
@@ -279,23 +280,27 @@ function getViewportBbox(): [number, number, number, number] {
 }
 
 function renderClusterContent(wrapper: HTMLElement, count: number) {
-  wrapper.className = 'stampu-cluster-root';
+  wrapper.classList.add('maplibregl-marker', 'maplibregl-marker-anchor-center', 'stampu-cluster-root');
   wrapper.setAttribute('role', 'button');
   wrapper.setAttribute('tabindex', '0');
   wrapper.setAttribute('aria-label', `Cluster of ${count} stamps`);
 
-  let sizeClass = 'w-9 h-9 text-xs';
-  let badgeClass = 'bg-rose-700/90 border-rose-200 text-white shadow-lg ring-2 ring-rose-500/30';
+  let pixelSize = 36;
+  let badgeClass = 'bg-rose-700/90 border-rose-200 text-white shadow-lg ring-2 ring-rose-500/30 text-xs font-bold';
   if (count >= 50) {
-    sizeClass = 'w-12 h-12 text-sm font-black';
-    badgeClass = 'bg-rose-900/95 border-amber-300 text-amber-200 shadow-2xl ring-4 ring-rose-600/40';
+    pixelSize = 46;
+    badgeClass = 'bg-rose-900/95 border-amber-300 text-amber-200 shadow-2xl ring-4 ring-rose-600/40 text-sm font-black';
   } else if (count >= 15) {
-    sizeClass = 'w-10 h-10 text-xs font-bold';
-    badgeClass = 'bg-rose-800/90 border-rose-100 text-white shadow-xl ring-2 ring-rose-500/40';
+    pixelSize = 40;
+    badgeClass = 'bg-rose-800/90 border-rose-100 text-white shadow-xl ring-2 ring-rose-500/40 text-xs font-bold';
   }
 
+  // Explicit width & height matching the badge so anchor translate(-50%, -50%) centers precisely on coordinates
+  wrapper.style.width = `${pixelSize}px`;
+  wrapper.style.height = `${pixelSize}px`;
+
   wrapper.innerHTML = `
-    <div class="relative group select-none flex items-center justify-center cursor-pointer transition-transform duration-200 hover:scale-110 active:scale-95" style="pointer-events: auto;">
+    <div class="relative group select-none flex items-center justify-center cursor-pointer transition-transform duration-200 hover:scale-110 active:scale-95 w-full h-full" style="pointer-events: auto;">
       <!-- Tooltip -->
       <div class="pointer-events-none absolute bottom-full mb-1.5 hidden group-hover:flex flex-col items-center z-30 transition-all opacity-0 group-hover:opacity-100">
         <div class="bg-slate-900/95 text-white px-2.5 py-1 rounded-lg text-[11px] font-semibold tracking-wide whitespace-nowrap shadow-xl border border-slate-700/80">
@@ -305,7 +310,7 @@ function renderClusterContent(wrapper: HTMLElement, count: number) {
       </div>
 
       <!-- Circular Seal Badge -->
-      <div class="rounded-full border-2 flex flex-col items-center justify-center shadow-lg backdrop-blur-xs font-sans tracking-tight ${sizeClass} ${badgeClass}">
+      <div class="rounded-full border-2 flex flex-col items-center justify-center shadow-lg backdrop-blur-xs font-sans tracking-tight w-full h-full ${badgeClass}">
         <span class="font-extrabold leading-none">${count}</span>
         <span class="text-[7px] uppercase tracking-tighter opacity-80 leading-none mt-0.5">印</span>
       </div>
@@ -316,18 +321,20 @@ function renderClusterContent(wrapper: HTMLElement, count: number) {
 function onClusterClick(clusterId: number, coordinates: [number, number], ev: Event) {
   ev.stopPropagation();
   if (!map || !clusterIndex) return;
+  const currentZoom = map.getZoom() || 6;
   try {
     const expansionZoom = clusterIndex.getClusterExpansionZoom(clusterId);
+    const targetZoom = Math.max(expansionZoom, currentZoom + 2);
     map.easeTo({
       center: coordinates,
-      zoom: Math.min(expansionZoom, 16),
+      zoom: Math.min(targetZoom, 16),
       duration: 500,
       essential: true,
     });
   } catch {
     map.easeTo({
       center: coordinates,
-      zoom: Math.min((map.getZoom() || 10) + 2.5, 16),
+      zoom: Math.min(currentZoom + 2.5, 16),
       duration: 500,
       essential: true,
     });
@@ -367,10 +374,21 @@ function updateMarkers() {
 
       const existing = markersMap.get(key);
       if (existing) {
-        renderClusterContent(existing.getElement(), count);
+        const el = existing.getElement() as HTMLElement & {
+          _clusterCoords?: [number, number];
+          _clusterId?: number;
+        };
+        el._clusterCoords = coords;
+        el._clusterId = clusterId;
+        renderClusterContent(el, count);
         existing.setLngLat(coords);
       } else {
-        const el = document.createElement('div');
+        const el = document.createElement('div') as HTMLElement & {
+          _clusterCoords?: [number, number];
+          _clusterId?: number;
+        };
+        el._clusterCoords = coords;
+        el._clusterId = clusterId;
         renderClusterContent(el, count);
 
         let lastClusterTouch = 0;
@@ -378,7 +396,10 @@ function updateMarkers() {
           const now = Date.now();
           if (now - lastClusterTouch < 300) return;
           lastClusterTouch = now;
-          onClusterClick(clusterId, coords, ev);
+          const target = ev.currentTarget as typeof el;
+          const currentCoords = target._clusterCoords || coords;
+          const currentId = target._clusterId ?? clusterId;
+          onClusterClick(currentId, currentCoords, ev);
         };
         el.addEventListener('click', handleClusterAction);
         el.addEventListener('touchend', handleClusterAction, { passive: true });
