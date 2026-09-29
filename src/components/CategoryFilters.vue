@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed, onMounted, onUnmounted } from 'vue';
+import { ref, computed, watch, onMounted, onUnmounted } from 'vue';
 import type { Stamp, StampCategory } from '../types/stamp';
 import { CATEGORIES, ALL_CATEGORIES } from '../constants/categories';
 import {
@@ -23,10 +23,15 @@ import {
   Languages,
   ExternalLink,
   ChevronLeft,
+  ChevronRight,
   SlidersHorizontal,
   Palette,
+  Info,
+  ZoomIn,
+  ShieldCheck,
 } from 'lucide-vue-next';
 import AskStaffModal from './AskStaffModal.vue';
+import StampSourceModal from './StampSourceModal.vue';
 import { openInGoogleMaps, calculateDistanceKm, formatDistance } from '../utils/geo';
 import { PRESET_PALETTES, applyMonetPalette, getDetectedMonetHex } from '../utils/theme';
 
@@ -93,7 +98,18 @@ const iconMap = {
 const searchInputRef = ref<HTMLInputElement | null>(null);
 const isAskStaffOpen = ref(false);
 const isImageModalOpen = ref(false);
+const isSourceModalOpen = ref(false);
 const hasImageError = ref(false);
+
+watch(
+  () => props.selectedStamp,
+  () => {
+    isImageModalOpen.value = false;
+    isSourceModalOpen.value = false;
+    hasImageError.value = false;
+    isAskStaffOpen.value = false;
+  }
+);
 
 const visitedPercentage = computed(() => {
   if (props.totalCount === 0) return 0;
@@ -154,6 +170,24 @@ function getStampDistance(coords: [number, number]): string | null {
 }
 
 function handleKeyDown(e: KeyboardEvent) {
+  if (e.key === 'Escape') {
+    if (isImageModalOpen.value) {
+      isImageModalOpen.value = false;
+      return;
+    }
+    if (isSourceModalOpen.value) {
+      isSourceModalOpen.value = false;
+      return;
+    }
+    if (isThemeMenuOpen.value) {
+      isThemeMenuOpen.value = false;
+      return;
+    }
+    if (isAskStaffOpen.value) {
+      isAskStaffOpen.value = false;
+      return;
+    }
+  }
   // Command+K / Ctrl+K to focus search
   if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
     e.preventDefault();
@@ -411,16 +445,30 @@ onUnmounted(() => {
             </div>
           </div>
 
-          <!-- Titles -->
-          <div>
-            <h2 class="text-xl font-bold tracking-tight text-white leading-tight">
-              {{ selectedStamp.name }}
-            </h2>
-            <div class="flex items-center gap-2 text-xs text-slate-400 font-medium mt-1">
-              <span class="text-base text-slate-200 font-serif">{{ selectedStamp.name_ja }}</span>
-              <span>•</span>
-              <span class="italic text-slate-300">{{ selectedStamp.name_romaji }}</span>
+          <!-- Titles & Source Info Trigger -->
+          <div class="flex items-start justify-between gap-2">
+            <div>
+              <h2 class="text-xl font-bold tracking-tight text-white leading-tight">
+                {{ selectedStamp.name }}
+              </h2>
+              <div class="flex items-center gap-2 text-xs text-slate-400 font-medium mt-1">
+                <span class="text-base text-slate-200 font-serif">{{ selectedStamp.name_ja }}</span>
+                <span>•</span>
+                <span class="italic text-slate-300">{{ selectedStamp.name_romaji }}</span>
+              </div>
             </div>
+
+            <!-- Data Source & Verification Info Trigger Icon -->
+            <button
+              type="button"
+              @click="isSourceModalOpen = true"
+              class="p-2 rounded-xl border border-slate-700/80 bg-slate-800/80 hover:bg-slate-700 text-slate-400 hover:text-emerald-300 hover:border-emerald-500/40 transition-all flex-shrink-0 flex items-center gap-1 active:scale-95 shadow-xs"
+              title="Stamp Data Sources & Verification (Datenquellen & Nachweise)"
+              aria-label="Stamp sources and verification info"
+            >
+              <Info class="w-4 h-4 text-emerald-400" />
+              <span class="text-[10px] font-semibold text-slate-300 hidden xl:inline">Quellen</span>
+            </button>
           </div>
 
           <!-- Stamp Showcase Card -->
@@ -431,7 +479,7 @@ onUnmounted(() => {
             <div
               class="relative flex-shrink-0 w-20 h-20 bg-stone-50 rounded-xl p-1 shadow-md border border-stone-200 flex items-center justify-center overflow-hidden cursor-pointer group hover:ring-2 hover:ring-rose-400 transition-all"
               @click="selectedStamp.imageUrl ? (isImageModalOpen = true) : null"
-              title="Inspect stamp in high resolution"
+              title="Klicken zum Vergrößern (Click to enlarge stamp image)"
             >
               <img
                 v-if="selectedStamp.imageUrl && !hasImageError"
@@ -447,13 +495,31 @@ onUnmounted(() => {
               >
                 <span>記念印</span>
               </div>
+
+              <!-- Zoom Overlay on Hover -->
+              <div
+                v-if="selectedStamp.imageUrl && !hasImageError"
+                class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity rounded-lg"
+              >
+                <ZoomIn class="w-5 h-5 text-white filter drop-shadow-md" />
+              </div>
             </div>
 
             <div class="flex-1 min-w-0">
               <p class="text-xs text-slate-300 leading-relaxed line-clamp-3">
                 {{ selectedStamp.description }}
               </p>
-              <div class="mt-2 flex items-center gap-1.5">
+              <div class="mt-2 flex items-center gap-1.5 flex-wrap">
+                <button
+                  v-if="selectedStamp.imageUrl"
+                  type="button"
+                  @click="isImageModalOpen = true"
+                  class="inline-flex items-center gap-1 px-2 py-0.5 rounded-lg bg-slate-700/80 hover:bg-slate-700 text-xs text-slate-200 hover:text-white font-medium border border-slate-600/60 transition-colors"
+                  title="Enlarge stamp image"
+                >
+                  <ZoomIn class="w-3 h-3 text-slate-300" />
+                  <span>Zoom</span>
+                </button>
                 <button
                   type="button"
                   @click="$emit('focusMap', selectedStamp.coordinates)"
@@ -529,6 +595,25 @@ onUnmounted(() => {
                 <span class="text-slate-400">Address: </span>
                 <span class="text-slate-200 font-medium">{{ selectedStamp.address }} ({{ selectedStamp.city }}, {{ selectedStamp.prefecture }})</span>
               </div>
+            </div>
+
+            <!-- Data Source & Registry Trigger Card -->
+            <div
+              class="border rounded-xl p-2.5 flex items-center justify-between gap-2 transition-all cursor-pointer hover:border-emerald-500/50 hover:brightness-110 active:scale-[0.99]"
+              style="background: var(--m3-surface-container, #0f1d18); border-color: var(--m3-border-subtle, #334155);"
+              @click="isSourceModalOpen = true"
+              title="Datenquellen & Offizielle Nachweise öffnen"
+            >
+              <div class="flex items-center gap-2 min-w-0">
+                <ShieldCheck class="w-3.5 h-3.5 text-emerald-400 mt-0.5 flex-shrink-0" />
+                <div class="truncate text-[11px]">
+                  <span class="text-slate-400">Quelle: </span>
+                  <span class="text-slate-200 font-semibold">{{ selectedStamp.source || selectedStamp.operator || 'Offizielles Register' }}</span>
+                </div>
+              </div>
+              <span class="text-[10px] text-emerald-400 font-bold flex items-center gap-0.5 flex-shrink-0">
+                Info <ChevronRight class="w-3 h-3" />
+              </span>
             </div>
           </div>
 
@@ -931,5 +1016,55 @@ onUnmounted(() => {
         </div>
       </div>
     </div>
+
+    <!-- Desktop Fullscreen Stamp Image Lightbox Modal -->
+    <div
+      v-if="isImageModalOpen && selectedStamp?.imageUrl"
+      class="fixed inset-0 z-[110] flex items-center justify-center p-4 bg-slate-950/85 backdrop-blur-md animate-in fade-in duration-200 pointer-events-auto"
+      @click="isImageModalOpen = false"
+    >
+      <div
+        class="relative max-w-lg w-full bg-stone-50 rounded-3xl p-6 shadow-2xl border-4 border-stone-200 flex flex-col items-center gap-4 animate-in zoom-in-95 duration-200 text-stone-900"
+        @click.stop
+      >
+        <button
+          type="button"
+          @click="isImageModalOpen = false"
+          class="absolute top-3 right-3 p-2 text-stone-500 hover:text-stone-900 bg-stone-200/80 hover:bg-stone-300 rounded-full transition-colors"
+          aria-label="Close image lightbox"
+        >
+          <X class="w-5 h-5" />
+        </button>
+
+        <div class="text-center">
+          <div class="text-[10px] uppercase tracking-widest font-bold text-stone-500">
+            {{ selectedStampCategoryInfo?.label }} ({{ selectedStampCategoryInfo?.labelJa }})
+          </div>
+          <h3 class="text-xl font-bold text-stone-900 mt-0.5">{{ selectedStamp.name }}</h3>
+          <p class="text-sm font-serif text-stone-600">{{ selectedStamp.name_ja }}</p>
+        </div>
+
+        <div class="w-72 h-72 sm:w-80 sm:h-80 bg-white rounded-2xl p-4 shadow-inner border border-stone-200 flex items-center justify-center overflow-hidden">
+          <img
+            :src="selectedStamp.imageUrl"
+            :alt="selectedStamp.name"
+            class="max-w-full max-h-full object-contain filter drop-shadow-sm select-none transition-transform hover:scale-125 duration-300 cursor-zoom-in"
+            title="Inspect stamp in detail"
+          />
+        </div>
+
+        <div class="text-center text-xs text-stone-500 max-w-xs">
+          {{ selectedStamp.stampLocation }}
+        </div>
+      </div>
+    </div>
+
+    <!-- Stamp Source & Registry Modal for Desktop Sidebar trigger -->
+    <StampSourceModal
+      v-if="selectedStamp"
+      :is-open="isSourceModalOpen"
+      :stamp="selectedStamp"
+      @close="isSourceModalOpen = false"
+    />
   </header>
 </template>

@@ -72,10 +72,12 @@ vi.mock('maplibre-gl', () => {
 
 import StampDrawer from '../src/components/StampDrawer.vue';
 import CategoryFilters from '../src/components/CategoryFilters.vue';
+import StampSourceModal from '../src/components/StampSourceModal.vue';
 import MapContainer from '../src/components/MapContainer.vue';
 import WishlistModal from '../src/components/WishlistModal.vue';
 import App from '../src/App.vue';
 import type { Stamp } from '../src/types/stamp';
+import { getStampSourceDetails } from '../src/utils/source';
 import {
   db,
   toggleVisitedStamp,
@@ -187,6 +189,118 @@ describe('StampDrawer Component', () => {
     await wishlistBtn.trigger('click');
     expect(wrapper.emitted('toggleWishlist')?.[0]).toEqual(['eki-tokyo']);
   });
+
+  it('closes when handlebar is tapped or clicked', async () => {
+    const wrapper = mount(StampDrawer, {
+      props: {
+        stamp: sampleStamp,
+        isOpen: true,
+        isCollected: false,
+      },
+    });
+
+    const handle = wrapper.find('[title="Nach unten wischen zum Schließen"]');
+    expect(handle.exists()).toBe(true);
+    await handle.trigger('click');
+    expect(wrapper.emitted('close')).toBeTruthy();
+  });
+
+  it('emits close when swiped down past threshold', async () => {
+    vi.useFakeTimers();
+    const wrapper = mount(StampDrawer, {
+      props: {
+        stamp: sampleStamp,
+        isOpen: true,
+        isCollected: false,
+      },
+    });
+
+    const gestureZone = wrapper.find('.touch-none');
+    expect(gestureZone.exists()).toBe(true);
+
+    // Simulate pointer drag down 200px
+    await gestureZone.trigger('pointerdown', { clientY: 100, pointerId: 1 });
+    await gestureZone.trigger('pointermove', { clientY: 300, pointerId: 1 });
+    await gestureZone.trigger('pointerup', { clientY: 300, pointerId: 1 });
+
+    vi.advanceTimersByTime(300);
+    expect(wrapper.emitted('close')).toBeTruthy();
+    vi.useRealTimers();
+  });
+
+  it('does not emit close when swiped down only slightly and snaps back', async () => {
+    vi.useFakeTimers();
+    const wrapper = mount(StampDrawer, {
+      props: {
+        stamp: sampleStamp,
+        isOpen: true,
+        isCollected: false,
+      },
+    });
+
+    const gestureZone = wrapper.find('.touch-none');
+    await gestureZone.trigger('pointerdown', { clientY: 100, pointerId: 1 });
+    await gestureZone.trigger('pointermove', { clientY: 110, pointerId: 1 });
+    await gestureZone.trigger('pointerup', { clientY: 110, pointerId: 1 });
+
+    vi.advanceTimersByTime(300);
+    expect(wrapper.emitted('close')).toBeFalsy();
+    vi.useRealTimers();
+  });
+
+  it('opens image lightbox when stamp image thumbnail or zoom button is clicked', async () => {
+    const wrapper = mount(StampDrawer, {
+      props: {
+        stamp: sampleStamp,
+        isOpen: true,
+        isCollected: false,
+      },
+    });
+
+    expect(wrapper.find('button[aria-label="Close image lightbox"]').exists()).toBe(false);
+
+    // Click on thumbnail container
+    const thumbnail = wrapper.find('[title="Click to inspect stamp in high resolution"]');
+    expect(thumbnail.exists()).toBe(true);
+    await thumbnail.trigger('click');
+
+    const lightboxClose = wrapper.find('button[aria-label="Close image lightbox"]');
+    expect(lightboxClose.exists()).toBe(true);
+    expect(wrapper.text()).toContain('Tokyo Station');
+
+    // Close lightbox
+    await lightboxClose.trigger('click');
+    expect(wrapper.find('button[aria-label="Close image lightbox"]').exists()).toBe(false);
+  });
+
+  it('opens stamp source provenance modal when Info button or Source card is clicked', async () => {
+    const wrapper = mount(StampDrawer, {
+      props: {
+        stamp: sampleStamp,
+        isOpen: true,
+        isCollected: false,
+      },
+    });
+
+    // Modal initially closed in document.body
+    expect(document.body.querySelector('[aria-label="Close source info"]')).toBeNull();
+
+    // Click on Info button in mobile header
+    const infoBtn = wrapper.find('button[aria-label="Stamp sources and verification info"]');
+    expect(infoBtn.exists()).toBe(true);
+    await infoBtn.trigger('click');
+
+    // Source modal should be open via Teleport in document.body
+    const closeBtn = document.body.querySelector('[aria-label="Close source info"]') as HTMLButtonElement;
+    expect(closeBtn).toBeTruthy();
+    expect(document.body.textContent).toContain('Stamp Data Source');
+    expect(document.body.textContent).toContain('Tokyo Station');
+
+    // Close modal
+    closeBtn.click();
+    await wrapper.vm.$nextTick();
+    expect(document.body.querySelector('[aria-label="Close source info"]')).toBeNull();
+  });
 });
 
 describe('CategoryFilters Component', () => {
@@ -234,6 +348,108 @@ describe('CategoryFilters Component', () => {
     expect(wishlistFilterBtn).toBeDefined();
     await wishlistFilterBtn!.trigger('click');
     expect(wrapper.emitted('update:visitedFilter')?.[0]).toEqual(['wishlist']);
+  });
+
+  it('renders desktop stamp detail mode with image zoom lightbox and source info modal', async () => {
+    const counts = {
+      all: 20,
+      eki: 6,
+      michinoeki: 4,
+      highway: 3,
+      castle: 4,
+      temple_shrine: 3,
+    };
+
+    const wrapper = mount(CategoryFilters, {
+      props: {
+        selectedCategory: 'all',
+        visitedFilter: 'all',
+        searchQuery: '',
+        categoryCounts: counts,
+        visitedCount: 2,
+        wishlistCount: 3,
+        totalCount: 20,
+        selectedStamp: sampleStamp,
+      },
+    });
+
+    // Verify stamp detail header exists in desktop sidebar
+    expect(wrapper.text()).toContain('Tokyo Station');
+    expect(wrapper.text()).toContain('Tōkyō-eki');
+
+    // Desktop Lightbox initially closed
+    expect(wrapper.find('button[aria-label="Close image lightbox"]').exists()).toBe(false);
+
+    // Click desktop zoom button
+    const zoomBtn = wrapper.find('button[title="Enlarge stamp image"]');
+    expect(zoomBtn.exists()).toBe(true);
+    await zoomBtn.trigger('click');
+
+    // Lightbox modal should be open
+    const lightboxClose = wrapper.find('button[aria-label="Close image lightbox"]');
+    expect(lightboxClose.exists()).toBe(true);
+    await lightboxClose.trigger('click');
+    expect(wrapper.find('button[aria-label="Close image lightbox"]').exists()).toBe(false);
+
+    // Click Source info button
+    expect(document.body.querySelector('[aria-label="Close source info"]')).toBeNull();
+    const infoBtn = wrapper.find('button[aria-label="Stamp sources and verification info"]');
+    expect(infoBtn.exists()).toBe(true);
+    await infoBtn.trigger('click');
+
+    // StampSourceModal should be open in document.body
+    const closeSourceBtn = document.body.querySelector('[aria-label="Close source info"]') as HTMLButtonElement;
+    expect(closeSourceBtn).toBeTruthy();
+    expect(document.body.textContent).toContain('Stamp Data Source');
+    expect(document.body.textContent).toContain('Tokyo Station');
+
+    closeSourceBtn.click();
+    await wrapper.vm.$nextTick();
+    expect(document.body.querySelector('[aria-label="Close source info"]')).toBeNull();
+  });
+});
+
+describe('Stamp Provenance & Source Details (source.ts & StampSourceModal)', () => {
+  it('resolves correct registry and authority for castle, michinoeki, and eki', () => {
+    const castleStamp: Stamp = {
+      ...sampleStamp,
+      id: 'castle-himeji',
+      name: 'Himeji Castle',
+      category: 'castle',
+      operator: 'Himeji City',
+    };
+    const castleDetails = getStampSourceDetails(castleStamp);
+    expect(castleDetails.authority).toContain('日本城郭協会');
+    expect(castleDetails.sourceUrl).toBe('https://jokaku.jp/');
+    expect(castleDetails.verificationStatus).toContain('日本城郭協会認定');
+
+    const michiStamp: Stamp = {
+      ...sampleStamp,
+      id: 'michi-fujikawa',
+      name: 'Michi-no-Eki Fujikawa',
+      category: 'michinoeki',
+    };
+    const michiDetails = getStampSourceDetails(michiStamp);
+    expect(michiDetails.authority).toContain('国土交通省');
+    expect(michiDetails.sourceUrl).toBe('https://www.michi-no-eki.jp/');
+
+    const ekiDetails = getStampSourceDetails(sampleStamp);
+    expect(ekiDetails.registry).toContain('Funakiya');
+    expect(ekiDetails.operator).toBe('JR East');
+  });
+
+  it('renders StampSourceModal with external link and provenance details', () => {
+    const wrapper = mount(StampSourceModal, {
+      props: {
+        isOpen: true,
+        stamp: sampleStamp,
+      },
+    });
+
+    expect(document.body.textContent).toContain('Tokyo Station');
+    expect(document.body.textContent).toContain('Stamp Data Source');
+    expect(document.body.textContent).toContain('JR East');
+    expect(document.body.querySelector('a[href="https://stamp.funakiya.com/"]')).toBeTruthy();
   });
 });
 

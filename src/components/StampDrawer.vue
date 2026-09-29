@@ -18,8 +18,13 @@ import {
   Star,
   Languages,
   ExternalLink,
+  Info,
+  ShieldCheck,
+  ChevronRight,
+  ZoomIn,
 } from 'lucide-vue-next';
 import AskStaffModal from './AskStaffModal.vue';
+import StampSourceModal from './StampSourceModal.vue';
 import { openInGoogleMaps } from '../utils/geo';
 
 const props = defineProps<{
@@ -37,6 +42,7 @@ const emit = defineEmits<{
 }>();
 
 const isImageModalOpen = ref(false);
+const isSourceModalOpen = ref(false);
 const hasImageError = ref(false);
 const isAskStaffOpen = ref(false);
 
@@ -44,10 +50,191 @@ watch(
   () => props.stamp,
   () => {
     isImageModalOpen.value = false;
+    isSourceModalOpen.value = false;
     hasImageError.value = false;
     isAskStaffOpen.value = false;
   }
 );
+
+// Swipe down to dismiss state & physics
+const sheetRef = ref<HTMLElement | null>(null);
+const contentRef = ref<HTMLElement | null>(null);
+const dragY = ref(0);
+const isDragging = ref(false);
+const isClosing = ref(false);
+
+let startY = 0;
+let lastY = 0;
+let lastTime = 0;
+let velocityY = 0;
+let isPointerActive = false;
+let dragTargetEl: HTMLElement | null = null;
+let contentTouchStartY = 0;
+let isContentTracking = false;
+
+function startDrag(clientY: number) {
+  isDragging.value = true;
+  isClosing.value = false;
+  startY = clientY;
+  lastY = clientY;
+  lastTime = performance.now();
+  velocityY = 0;
+}
+
+function updateDrag(clientY: number) {
+  if (!isDragging.value) return;
+  const now = performance.now();
+  const dt = now - lastTime;
+  const dy = clientY - lastY;
+  if (dt > 8) {
+    velocityY = dy / dt;
+    lastY = clientY;
+    lastTime = now;
+  }
+
+  const rawDelta = clientY - startY;
+  if (rawDelta < 0) {
+    // Resistance when pulling up
+    dragY.value = Math.max(-40, rawDelta * 0.2);
+  } else {
+    // Direct 1:1 downward drag
+    dragY.value = rawDelta;
+  }
+}
+
+function endDrag() {
+  if (!isDragging.value) return;
+  isDragging.value = false;
+
+  const currentDrag = dragY.value;
+  const sheetHeight = sheetRef.value?.offsetHeight || 500;
+  const dismissDistance = Math.min(100, sheetHeight * 0.2);
+
+  // Dismiss if pulled past threshold or flicked down with velocity
+  const isDismiss = currentDrag > dismissDistance || (currentDrag > 25 && velocityY > 0.3);
+
+  if (isDismiss) {
+    isClosing.value = true;
+    dragY.value = sheetHeight + 60;
+    setTimeout(() => {
+      emit('close');
+      dragY.value = 0;
+      isClosing.value = false;
+    }, 220);
+  } else {
+    // Snap back
+    dragY.value = 0;
+  }
+}
+
+function onHeaderTouchStart(e: TouchEvent) {
+  const target = e.target as HTMLElement | null;
+  if (target?.closest('button, a, input, select, textarea')) {
+    return;
+  }
+  if (e.touches.length !== 1) return;
+  startDrag(e.touches[0].clientY);
+}
+
+function onHeaderTouchMove(e: TouchEvent) {
+  if (!isDragging.value || e.touches.length !== 1) return;
+  updateDrag(e.touches[0].clientY);
+  if (e.cancelable) {
+    e.preventDefault();
+  }
+}
+
+function onHeaderTouchEnd() {
+  if (isDragging.value) {
+    endDrag();
+  }
+}
+
+function onPointerDown(e: PointerEvent) {
+  // If touch is active/handling it, ignore touch pointer event
+  if (e.pointerType === 'touch') return;
+  const target = e.target as HTMLElement | null;
+  if (target?.closest('button, a, input, select, textarea')) {
+    return;
+  }
+
+  isPointerActive = true;
+  dragTargetEl = e.currentTarget as HTMLElement;
+  try {
+    dragTargetEl.setPointerCapture(e.pointerId);
+  } catch {
+    // Ignore in jsdom or environments lacking pointer capture
+  }
+  startDrag(e.clientY);
+}
+
+function onPointerMove(e: PointerEvent) {
+  if (!isPointerActive || !isDragging.value) return;
+  updateDrag(e.clientY);
+}
+
+function onPointerUp(e: PointerEvent) {
+  if (!isPointerActive) return;
+  isPointerActive = false;
+  if (dragTargetEl) {
+    try {
+      dragTargetEl.releasePointerCapture(e.pointerId);
+    } catch {}
+    dragTargetEl = null;
+  }
+  endDrag();
+}
+
+function onPointerCancel(_e: PointerEvent) {
+  if (!isPointerActive) return;
+  isPointerActive = false;
+  dragTargetEl = null;
+  endDrag();
+}
+
+function onHandlebarClick() {
+  if (Math.abs(dragY.value) < 6) {
+    emit('close');
+  }
+}
+
+function onContentTouchStart(e: TouchEvent) {
+  if (e.touches.length !== 1) return;
+  contentTouchStartY = e.touches[0].clientY;
+  isContentTracking = true;
+}
+
+function onContentTouchMove(e: TouchEvent) {
+  if (!isContentTracking || !contentRef.value || e.touches.length !== 1) return;
+  const currentY = e.touches[0].clientY;
+  const deltaY = currentY - contentTouchStartY;
+
+  if (contentRef.value.scrollTop <= 0 && deltaY > 0) {
+    if (!isDragging.value) {
+      startDrag(contentTouchStartY);
+    }
+    updateDrag(currentY);
+    if (e.cancelable) {
+      e.preventDefault();
+    }
+  }
+}
+
+function onContentTouchEnd() {
+  if (isContentTracking) {
+    isContentTracking = false;
+    if (isDragging.value) {
+      endDrag();
+    }
+  }
+}
+
+const backdropOpacity = computed(() => {
+  if (dragY.value <= 0) return 1;
+  const sheetHeight = sheetRef.value?.offsetHeight || 500;
+  const progress = Math.min(1, dragY.value / (sheetHeight * 0.7));
+  return Math.max(0, 1 - progress);
+});
 
 const iconMap = {
   Train,
@@ -86,6 +273,9 @@ onUnmounted(() => {
 watch(
   () => props.isOpen,
   (open) => {
+    dragY.value = 0;
+    isDragging.value = false;
+    isClosing.value = false;
     if (open) {
       // Prevent body scrolling when sheet is open on small mobile devices
       document.body.style.overflow = 'hidden';
@@ -106,27 +296,61 @@ watch(
   >
     <!-- Scrim / Backdrop with smooth fade -->
     <div
-      class="fixed inset-0 bg-black/60 backdrop-blur-xs transition-opacity duration-300"
+      class="fixed inset-0 bg-black/60 backdrop-blur-xs transition-opacity"
+      :style="{
+        opacity: backdropOpacity,
+        transition: isDragging ? 'none' : 'opacity 0.25s ease',
+      }"
       @click="handleBackdropClick"
       aria-hidden="true"
     />
 
     <!-- Material 3 Expressive Bottom Sheet Content -->
     <div
-      class="relative z-10 w-full sm:max-w-xl max-h-[88dvh] flex flex-col rounded-t-[32px] sm:rounded-t-[32px] shadow-2xl overflow-hidden animate-in slide-in-from-bottom duration-300 transition-all text-slate-100"
-      style="background: var(--m3-surface-elevated, #162720); border-top: 1px solid var(--m3-border, #334155); box-shadow: 0 -10px 40px rgba(0,0,0,0.6), 0 0 30px var(--m3-glow-subtle, transparent);"
+      ref="sheetRef"
+      class="relative z-10 w-full sm:max-w-xl max-h-[88dvh] flex flex-col rounded-t-[32px] sm:rounded-t-[32px] shadow-2xl overflow-hidden animate-in slide-in-from-bottom duration-300 text-slate-100 will-change-transform"
+      :style="{
+        background: 'var(--m3-surface-elevated, #162720)',
+        borderTop: '1px solid var(--m3-border, #334155)',
+        boxShadow: '0 -10px 40px rgba(0,0,0,0.6), 0 0 30px var(--m3-glow-subtle, transparent)',
+        transform: isDragging || isClosing || dragY !== 0 ? `translate3d(0, ${dragY}px, 0)` : undefined,
+        transition: isDragging ? 'none' : isClosing ? 'transform 0.22s cubic-bezier(0.4, 0, 1, 1)' : dragY !== 0 ? 'transform 0.28s cubic-bezier(0.16, 1, 0.3, 1)' : undefined,
+      }"
       @click.stop
     >
-      <!-- Mobile Drag / Grab Handle -->
-      <div class="flex justify-center pt-3 pb-1 cursor-grab" @click="$emit('close')">
-        <div class="w-12 h-1.5 rounded-full" style="background: var(--m3-border-subtle, #475569);" />
-      </div>
-
-      <!-- Header with Close Button -->
+      <!-- Mobile Drag & Header Gesture Zone -->
       <div
-        class="flex items-start justify-between px-5 pt-3 pb-2 sm:pt-5 border-b"
-        style="border-color: var(--m3-border-subtle, #334155);"
+        class="touch-none select-none"
+        @touchstart="onHeaderTouchStart"
+        @touchmove="onHeaderTouchMove"
+        @touchend="onHeaderTouchEnd"
+        @touchcancel="onHeaderTouchEnd"
+        @pointerdown="onPointerDown"
+        @pointermove="onPointerMove"
+        @pointerup="onPointerUp"
+        @pointercancel="onPointerCancel"
       >
+        <!-- Mobile Drag / Grab Handle -->
+        <div
+          class="flex flex-col items-center pt-3 pb-1 cursor-grab active:cursor-grabbing"
+          @click="onHandlebarClick"
+          title="Nach unten wischen zum Schließen"
+        >
+          <div
+            class="h-1.5 rounded-full transition-all duration-150"
+            :class="isDragging ? 'w-16 scale-y-125' : 'w-12'"
+            :style="{
+              background: isDragging ? 'var(--m3-primary)' : 'var(--m3-border-subtle, #475569)',
+              boxShadow: isDragging ? '0 0 12px var(--m3-glow)' : 'none'
+            }"
+          />
+        </div>
+
+        <!-- Header with Close Button -->
+        <div
+          class="flex items-start justify-between px-5 pt-1 pb-2 sm:pt-3 border-b"
+          style="border-color: var(--m3-border-subtle, #334155);"
+        >
         <div class="flex flex-col gap-1">
           <!-- Category Badge -->
           <div v-if="categoryInfo" class="flex items-center gap-2">
@@ -169,8 +393,18 @@ watch(
           </div>
         </div>
 
-        <!-- Header Actions: Wishlist and Close -->
+        <!-- Header Actions: Info, Wishlist and Close -->
         <div class="flex items-center gap-1 -mr-2 -mt-1">
+          <button
+            type="button"
+            @click="isSourceModalOpen = true"
+            class="p-2 rounded-full text-slate-400 hover:text-emerald-300 hover:bg-white/10 transition-colors"
+            title="Stamp Data Sources & Verification (Quellen & Nachweise)"
+            aria-label="Stamp sources and verification info"
+          >
+            <Info class="w-5 h-5 text-emerald-400" />
+          </button>
+
           <button
             type="button"
             @click="$emit('toggleWishlist', stamp.id)"
@@ -197,9 +431,18 @@ watch(
           </button>
         </div>
       </div>
+      </div>
 
       <!-- Scrollable Body -->
-      <div class="flex-1 overflow-y-auto px-5 py-4 space-y-4">
+      <div
+        ref="contentRef"
+        class="flex-1 overflow-y-auto px-5 py-4 space-y-4"
+        style="-webkit-overflow-scrolling: touch;"
+        @touchstart.passive="onContentTouchStart"
+        @touchmove="onContentTouchMove"
+        @touchend="onContentTouchEnd"
+        @touchcancel="onContentTouchEnd"
+      >
         <!-- Stamp Showcase Card (Washi Paper Stamp-Chō Mount) -->
         <div
           class="relative rounded-2xl p-4 border flex items-center gap-4 overflow-hidden shadow-lg transition-all"
@@ -232,6 +475,14 @@ watch(
               <span class="text-[8px] font-bold leading-none">記念印</span>
             </div>
 
+            <!-- Zoom Overlay on Hover -->
+            <div
+              v-if="stamp.imageUrl && !hasImageError"
+              class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity rounded-2xl pointer-events-none"
+            >
+              <ZoomIn class="w-6 h-6 text-white filter drop-shadow-md" />
+            </div>
+
             <!-- Collected "済" Stamp Seal Overlay -->
             <div
               v-if="isCollected"
@@ -248,6 +499,17 @@ watch(
               {{ stamp.description }}
             </p>
             <div class="mt-2.5 flex flex-wrap items-center gap-2">
+              <button
+                v-if="stamp.imageUrl"
+                type="button"
+                @click="isImageModalOpen = true"
+                class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-700/80 hover:bg-slate-700 text-xs text-slate-200 hover:text-white font-medium border border-slate-600/60 transition-colors active:scale-95"
+                title="Enlarge stamp image"
+              >
+                <ZoomIn class="w-3.5 h-3.5 text-slate-300" />
+                <span>Zoom</span>
+              </button>
+
               <button
                 type="button"
                 @click="$emit('focusMap', stamp.coordinates)"
@@ -347,6 +609,25 @@ watch(
               </div>
             </div>
           </div>
+
+          <!-- Data Source & Registry Trigger Card -->
+          <div
+            class="rounded-xl p-3 sm:col-span-2 flex items-center justify-between gap-2 border transition-all cursor-pointer hover:border-emerald-500/50 hover:brightness-110 active:scale-[0.99]"
+            style="background: var(--m3-surface-container, #0f1d18); border-color: var(--m3-border-subtle, #334155);"
+            @click="isSourceModalOpen = true"
+            title="Datenquellen & Offizielle Nachweise öffnen"
+          >
+            <div class="flex items-center gap-2.5 min-w-0">
+              <ShieldCheck class="w-4 h-4 text-emerald-400 flex-shrink-0" />
+              <div class="truncate text-xs">
+                <span class="text-slate-400">Quelle & Register: </span>
+                <span class="text-slate-200 font-semibold">{{ stamp.source || stamp.operator || 'Offizielles Register' }}</span>
+              </div>
+            </div>
+            <span class="text-xs text-emerald-400 font-bold flex items-center gap-0.5 flex-shrink-0">
+              Info <ChevronRight class="w-3.5 h-3.5" />
+            </span>
+          </div>
         </div>
       </div>
 
@@ -421,6 +702,14 @@ watch(
       :is-open="isAskStaffOpen"
       :stamp="stamp"
       @close="isAskStaffOpen = false"
+    />
+
+    <!-- Stamp Source & Registry Modal -->
+    <StampSourceModal
+      v-if="stamp"
+      :is-open="isSourceModalOpen"
+      :stamp="stamp"
+      @close="isSourceModalOpen = false"
     />
   </div>
 </template>

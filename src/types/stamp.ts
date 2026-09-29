@@ -16,6 +16,8 @@ export interface Stamp {
   description: string;
   imageUrl?: string;
   visited?: boolean;
+  source?: string;
+  sourceUrl?: string;
 }
 
 export interface VisitedRecord {
