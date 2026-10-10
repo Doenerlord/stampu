@@ -4,7 +4,7 @@
     "name": "Hokkaido",
     "name_ja": "北海道",
     "region": "Hokkaido",
-    "stampCount": 196,
+    "stampCount": 199,
     "categories": {
       "castle": 5,
       "eki": 9,
@@ -249,7 +249,7 @@
     "name": "Kanagawa",
     "name_ja": "神奈川県",
     "region": "Kanto",
-    "stampCount": 121,
+    "stampCount": 124,
     "categories": {
       "castle": 3,
       "eki": 79,
@@ -322,7 +322,7 @@
     "name": "Tokyo",
     "name_ja": "東京都",
     "region": "Kanto",
-    "stampCount": 506,
+    "stampCount": 511,
     "categories": {
       "castle": 4,
       "eki": 436,
@@ -564,7 +564,7 @@
     "name": "Hyogo",
     "name_ja": "兵庫県",
     "region": "Kansai",
-    "stampCount": 116,
+    "stampCount": 119,
     "categories": {
       "castle": 8,
       "eki": 38,
@@ -589,7 +589,7 @@
     "name": "Kyoto",
     "name_ja": "京都府",
     "region": "Kansai",
-    "stampCount": 81,
+    "stampCount": 83,
     "categories": {
       "castle": 2,
       "eki": 26,
@@ -661,7 +661,7 @@
     "name": "Osaka",
     "name_ja": "大阪府",
     "region": "Kansai",
-    "stampCount": 221,
+    "stampCount": 223,
     "categories": {
       "castle": 5,
       "eki": 190,

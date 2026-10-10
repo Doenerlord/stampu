@@ -168,6 +168,134 @@ TARGET_CANDIDATES = [
         "id": "museum-kachidoki-bridge-archive",
         "name_en": "Kachidoki Bridge Archive Museum",
         "operator": "Tokyo Metropolitan Government Construction Bureau"
+    },
+
+    # --- BATCH 2: REGIONAL & KANSAI / HOKKAIDO EXPANSION ---
+    {
+        "url": "https://stamp.funakiya.com/keikyu-museum.html",
+        "category": "museum",
+        "id": "museum-keikyu-railway",
+        "name_en": "Keikyu Railway Museum",
+        "operator": "Keikyu Corporation"
+    },
+    {
+        "url": "https://stamp.funakiya.com/chinatown80.html",
+        "category": "tourist_info",
+        "id": "info-chinatown80-yokohama",
+        "name_en": "Yokohama Chinatown Information Center (ChinaTown80)",
+        "operator": "Yokohama Chinatown Development Association"
+    },
+    {
+        "url": "https://stamp.funakiya.com/mitsubishi-minatomiraimuseum.html",
+        "category": "museum",
+        "id": "museum-mitsubishi-minatomirai",
+        "name_en": "Mitsubishi Minatomirai Industrial Museum",
+        "operator": "Mitsubishi Heavy Industries"
+    },
+    {
+        "url": "https://stamp.funakiya.com/osaka-kanko.html",
+        "category": "tourist_info",
+        "id": "info-osaka-tourist-center",
+        "name_en": "Osaka Tourist Information Center (JR Osaka Station)",
+        "operator": "Osaka Convention & Tourism Bureau"
+    },
+    {
+        "url": "https://stamp.funakiya.com/tsutenkaku.html",
+        "category": "tower",
+        "id": "tower-tsutenkaku-osaka",
+        "name_en": "Tsutenkaku Observatory Tower (通天閣)",
+        "operator": "Tsutenkaku Kanko Co., Ltd."
+    },
+    {
+        "url": "https://stamp.funakiya.com/kyoto-kanko.html",
+        "category": "tourist_info",
+        "id": "info-kyoto-kyo-navi",
+        "name_en": "Kyoto General Tourist Information Center (Kyo Navi)",
+        "operator": "Kyoto City Tourism Association / JNTO"
+    },
+    {
+        "url": "https://stamp.funakiya.com/nishioyatsuhashi-kyotohachijo.html",
+        "category": "shop",
+        "id": "shop-nishio-yatsuhashi-kyoto",
+        "name_en": "Honke Nishio Yatsuhashi Kyoto Hachijoguchi",
+        "operator": "Honke Nishio Yatsuhashi (Established 1689)"
+    },
+    {
+        "url": "https://stamp.funakiya.com/shinkobe-kanko.html",
+        "category": "tourist_info",
+        "id": "info-shinkobe-station-tourist",
+        "name_en": "Shin-Kobe Station Tourist Information Center",
+        "operator": "Kobe Tourism Bureau"
+    },
+    {
+        "url": "https://stamp.funakiya.com/kitanoijinkan-kazamidori.html",
+        "category": "museum",
+        "id": "museum-kobe-weathercock-house",
+        "name_en": "Kobe Kitano Weathercock House Museum (風見鶏の館)",
+        "operator": "Kobe City Culture Promotion Foundation"
+    },
+    {
+        "url": "https://stamp.funakiya.com/kitanoijinkan-moegi.html",
+        "category": "museum",
+        "id": "museum-kobe-moegi-house",
+        "name_en": "Kobe Kitano Moegi House Museum (萌黄の館)",
+        "operator": "Kobe City Culture Promotion Foundation"
+    },
+    {
+        "url": "https://stamp.funakiya.com/shinhakodatehokuto-kanko.html",
+        "category": "tourist_info",
+        "id": "info-shinhakodatehokuto-desk",
+        "name_en": "Shin-Hakodate-Hokuto Station Tourist Information Center",
+        "operator": "Hokuto City Tourism Association"
+    },
+    {
+        "url": "https://stamp.funakiya.com/onuma-kanko.html",
+        "category": "tourist_info",
+        "id": "info-onuma-park-tourist-desk",
+        "name_en": "Onuma Quasi-National Park Tourist Information Center",
+        "operator": "Nanae Town Tourism Association"
+    },
+    {
+        "url": "https://stamp.funakiya.com/oshamanbe-kanko.html",
+        "category": "tourist_info",
+        "id": "info-oshamanbe-kanko-desk",
+        "name_en": "Oshamambe Tourism Association Information Desk",
+        "operator": "Oshamambe Tourism Association"
+    },
+    {
+        "url": "https://stamp.funakiya.com/kishomusemu.html",
+        "category": "museum",
+        "id": "museum-kishomuseum-tokyo",
+        "name_en": "Japan Meteorological Museum",
+        "operator": "Japan Meteorological Agency (気象庁)"
+    },
+    {
+        "url": "https://stamp.funakiya.com/aidamitsuo-museum.html",
+        "category": "museum",
+        "id": "museum-aidamitsuo-tokyo",
+        "name_en": "Mitsuo Aida Museum",
+        "operator": "Mitsuo Aida Museum Foundation"
+    },
+    {
+        "url": "https://stamp.funakiya.com/kahaku-nature.html",
+        "category": "museum",
+        "id": "museum-kahaku-nature-garden",
+        "name_en": "National Museum of Nature and Science Institute for Nature Study",
+        "operator": "National Museum of Nature and Science (国立科学博物館)"
+    },
+    {
+        "url": "https://stamp.funakiya.com/sousuiko-museum.html",
+        "category": "museum",
+        "id": "museum-sousuiko-tokyo",
+        "name_en": "Tokyo Fire Hydrant Museum (送水口博物館)",
+        "operator": "Murakami Waterworks & Architectural Heritage"
+    },
+    {
+        "url": "https://stamp.funakiya.com/kigumi-museum.html",
+        "category": "museum",
+        "id": "museum-kigumi-tokyo",
+        "name_en": "Kigumi Museum of Traditional Timber Architecture",
+        "operator": "Kigumi Museum NPO"
     }
 ]
 
@@ -244,17 +372,25 @@ def process_stamp(item: Dict[str, Any]) -> Optional[Dict[str, Any]]:
         pref_en = extract_prefecture_en(pref) or "Tokyo"
         city = extract_city(address) or ""
 
-        # Description
+        # Description & Romaji
         if item["category"] == "tourist_info":
             desc = f"Official commemorative tourism stamp for {item['name_en']} ({title_ja}) located in {city}, {pref_en}. Available at the information counter for travelers."
+            romaji = f"{title_ja}-annaijo"
+        elif item["category"] == "tower":
+            desc = f"Official commemorative observation tower stamp for {item['name_en']} ({title_ja}) in {city}, {pref_en}. Depicts panoramic skyline views and regional architecture."
+            romaji = f"{title_ja}-tower"
+        elif item["category"] == "shop":
+            desc = f"Official commemorative artisan atelier stamp for {item['name_en']} ({title_ja}) in {city}, {pref_en}. Bespoke collection seal celebrating traditional craftsmanship."
+            romaji = f"{title_ja}-shop"
         else:
             desc = f"Official commemorative cultural stamp for {item['name_en']} ({title_ja}) in {city}, {pref_en}. Depicts the institution's collection, historical heritage, and regional architecture."
+            romaji = f"{title_ja}-museum"
 
         stamp = {
             "id": item["id"],
             "name": item["name_en"],
             "name_ja": title_ja,
-            "name_romaji": f"{title_ja}-annaijo" if item["category"] == "tourist_info" else f"{title_ja}-museum",
+            "name_romaji": romaji,
             "category": item["category"],
             "prefecture": pref_en,
             "city": city,

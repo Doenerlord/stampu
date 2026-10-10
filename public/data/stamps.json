@@ -74908,5 +74908,383 @@
     "description": "Official commemorative cultural stamp for Kachidoki Bridge Archive Museum (かちどき橋の資料館) in 中央区, Tokyo. Depicts the institution's collection, historical heritage, and regional architecture.",
     "source": "Funakiya Stamp Notebook (旅のスタンプ帳)",
     "sourceUrl": "https://stamp.funakiya.com/kachidoki-bridge-museum.html"
+  },
+  {
+    "id": "museum-keikyu-railway",
+    "name": "Keikyu Railway Museum",
+    "name_ja": "京急ミュージアム",
+    "name_romaji": "京急ミュージアム-museum",
+    "category": "museum",
+    "prefecture": "Kanagawa",
+    "city": "横浜市",
+    "address": "神奈川県横浜市西区高島1-2-8 京急グループ本社1F",
+    "coordinates": [
+      139.62532,
+      35.461727
+    ],
+    "stampLocation": "京急ミュージアム内",
+    "hours": "10:00～16:00",
+    "operator": "Keikyu Corporation",
+    "imageUrl": "/images/stamps/museum-keikyu-railway.jpg",
+    "description": "Official commemorative cultural stamp for Keikyu Railway Museum (京急ミュージアム) in 横浜市, Kanagawa. Depicts the institution's collection, historical heritage, and regional architecture.",
+    "source": "Funakiya Stamp Notebook (旅のスタンプ帳)",
+    "sourceUrl": "https://stamp.funakiya.com/keikyu-museum.html"
+  },
+  {
+    "id": "info-chinatown80-yokohama",
+    "name": "Yokohama Chinatown Information Center (ChinaTown80)",
+    "name_ja": "ChinaTown80",
+    "name_romaji": "ChinaTown80-annaijo",
+    "category": "tourist_info",
+    "prefecture": "Kanagawa",
+    "city": "横浜市",
+    "address": "神奈川県横浜市中区山下町80",
+    "coordinates": [
+      139.648193,
+      35.443638
+    ],
+    "stampLocation": "ChinaTown80内",
+    "hours": "10:00～19:00（日～木）、10:00～20:00（金土祝前日）",
+    "operator": "Yokohama Chinatown Development Association",
+    "imageUrl": "/images/stamps/info-chinatown80-yokohama.jpg",
+    "description": "Official commemorative tourism stamp for Yokohama Chinatown Information Center (ChinaTown80) (ChinaTown80) located in 横浜市, Kanagawa. Available at the information counter for travelers.",
+    "source": "Funakiya Stamp Notebook (旅のスタンプ帳)",
+    "sourceUrl": "https://stamp.funakiya.com/chinatown80.html"
+  },
+  {
+    "id": "museum-mitsubishi-minatomirai",
+    "name": "Mitsubishi Minatomirai Industrial Museum",
+    "name_ja": "三菱みなとみらい技術館",
+    "name_romaji": "三菱みなとみらい技術館-museum",
+    "category": "museum",
+    "prefecture": "Kanagawa",
+    "city": "横浜市",
+    "address": "神奈川県横浜市西区みなとみらい3-3-1 三菱重工横浜ビル",
+    "coordinates": [
+      139.629608,
+      35.455715
+    ],
+    "stampLocation": "三菱みなとみらい技術館内",
+    "hours": "10:00～15:00（平日）、10:00～16:00（土日祝）",
+    "operator": "Mitsubishi Heavy Industries",
+    "imageUrl": "/images/stamps/museum-mitsubishi-minatomirai.jpg",
+    "description": "Official commemorative cultural stamp for Mitsubishi Minatomirai Industrial Museum (三菱みなとみらい技術館) in 横浜市, Kanagawa. Depicts the institution's collection, historical heritage, and regional architecture.",
+    "source": "Funakiya Stamp Notebook (旅のスタンプ帳)",
+    "sourceUrl": "https://stamp.funakiya.com/mitsubishi-minatomiraimuseum.html"
+  },
+  {
+    "id": "info-osaka-tourist-center",
+    "name": "Osaka Tourist Information Center (JR Osaka Station)",
+    "name_ja": "大阪観光案内所",
+    "name_romaji": "大阪観光案内所-annaijo",
+    "category": "tourist_info",
+    "prefecture": "Osaka",
+    "city": "大阪市",
+    "address": "大阪府大阪市北区梅田3-1-1",
+    "coordinates": [
+      135.496338,
+      34.701881
+    ],
+    "stampLocation": "大阪観光案内所内",
+    "hours": "7:00～22:00",
+    "operator": "Osaka Convention & Tourism Bureau",
+    "imageUrl": "/images/stamps/info-osaka-tourist-center.jpg",
+    "description": "Official commemorative tourism stamp for Osaka Tourist Information Center (JR Osaka Station) (大阪観光案内所) located in 大阪市, Osaka. Available at the information counter for travelers.",
+    "source": "Funakiya Stamp Notebook (旅のスタンプ帳)",
+    "sourceUrl": "https://stamp.funakiya.com/osaka-kanko.html"
+  },
+  {
+    "id": "tower-tsutenkaku-osaka",
+    "name": "Tsutenkaku Observatory Tower (通天閣)",
+    "name_ja": "通天閣",
+    "name_romaji": "通天閣-tower",
+    "category": "tower",
+    "prefecture": "Osaka",
+    "city": "大阪市",
+    "address": "大阪府大阪市浪速区恵美須東1-18-6",
+    "coordinates": [
+      135.506393,
+      34.65239
+    ],
+    "stampLocation": "通天閣内（現在なし）",
+    "hours": "9:00～21:00",
+    "operator": "Tsutenkaku Kanko Co., Ltd.",
+    "imageUrl": "/images/stamps/tower-tsutenkaku-osaka.jpg",
+    "description": "Official commemorative observation tower stamp for Tsutenkaku Observatory Tower (通天閣) (通天閣) in 大阪市, Osaka. Depicts panoramic skyline views and regional architecture.",
+    "source": "Funakiya Stamp Notebook (旅のスタンプ帳)",
+    "sourceUrl": "https://stamp.funakiya.com/tsutenkaku.html"
+  },
+  {
+    "id": "info-kyoto-kyo-navi",
+    "name": "Kyoto General Tourist Information Center (Kyo Navi)",
+    "name_ja": "京都総合観光案内所",
+    "name_romaji": "京都総合観光案内所-annaijo",
+    "category": "tourist_info",
+    "prefecture": "Kyoto",
+    "city": "京都市",
+    "address": "京都府京都市下京区烏丸塩小路下東塩小路 京都駅ビル2F",
+    "coordinates": [
+      135.759583,
+      34.992943
+    ],
+    "stampLocation": "京都総合観光案内所内",
+    "hours": "8:30～19:00",
+    "operator": "Kyoto City Tourism Association / JNTO",
+    "imageUrl": "/images/stamps/info-kyoto-kyo-navi.jpg",
+    "description": "Official commemorative tourism stamp for Kyoto General Tourist Information Center (Kyo Navi) (京都総合観光案内所) located in 京都市, Kyoto. Available at the information counter for travelers.",
+    "source": "Funakiya Stamp Notebook (旅のスタンプ帳)",
+    "sourceUrl": "https://stamp.funakiya.com/kyoto-kanko.html"
+  },
+  {
+    "id": "shop-nishio-yatsuhashi-kyoto",
+    "name": "Honke Nishio Yatsuhashi Kyoto Hachijoguchi",
+    "name_ja": "本家西尾八ッ橋 八条口店",
+    "name_romaji": "本家西尾八ッ橋 八条口店-shop",
+    "category": "shop",
+    "prefecture": "Kyoto",
+    "city": "京都市",
+    "address": "京都府京都市下京区東塩小路高倉町8-3 JR京都駅 アスティロード内1F",
+    "coordinates": [
+      135.761215,
+      34.985142
+    ],
+    "stampLocation": "本家西尾八ッ橋 八条口店内",
+    "hours": "9:00～21:00",
+    "operator": "Honke Nishio Yatsuhashi (Established 1689)",
+    "imageUrl": "/images/stamps/shop-nishio-yatsuhashi-kyoto.jpg",
+    "description": "Official commemorative artisan atelier stamp for Honke Nishio Yatsuhashi Kyoto Hachijoguchi (本家西尾八ッ橋 八条口店) in 京都市, Kyoto. Bespoke collection seal celebrating traditional craftsmanship.",
+    "source": "Funakiya Stamp Notebook (旅のスタンプ帳)",
+    "sourceUrl": "https://stamp.funakiya.com/nishioyatsuhashi-kyotohachijo.html"
+  },
+  {
+    "id": "info-shinkobe-station-tourist",
+    "name": "Shin-Kobe Station Tourist Information Center",
+    "name_ja": "新神戸駅観光案内所",
+    "name_romaji": "新神戸駅観光案内所-annaijo",
+    "category": "tourist_info",
+    "prefecture": "Hyogo",
+    "city": "神戸市",
+    "address": "兵庫県神戸市中央区葺合町布引山3-1",
+    "coordinates": [
+      135.194366,
+      34.72076
+    ],
+    "stampLocation": "新神戸駅観光案内所内",
+    "hours": "9:00～17:00",
+    "operator": "Kobe Tourism Bureau",
+    "imageUrl": "/images/stamps/info-shinkobe-station-tourist.jpg",
+    "description": "Official commemorative tourism stamp for Shin-Kobe Station Tourist Information Center (新神戸駅観光案内所) located in 神戸市, Hyogo. Available at the information counter for travelers.",
+    "source": "Funakiya Stamp Notebook (旅のスタンプ帳)",
+    "sourceUrl": "https://stamp.funakiya.com/shinkobe-kanko.html"
+  },
+  {
+    "id": "museum-kobe-weathercock-house",
+    "name": "Kobe Kitano Weathercock House Museum (風見鶏の館)",
+    "name_ja": "風見鶏の館",
+    "name_romaji": "風見鶏の館-museum",
+    "category": "museum",
+    "prefecture": "Hyogo",
+    "city": "神戸市",
+    "address": "兵庫県神戸市中央区北野町3-13-3",
+    "coordinates": [
+      135.189499,
+      34.701508
+    ],
+    "stampLocation": "風見鶏の館内（係員に依頼が必要）",
+    "hours": "9:00～18:00",
+    "operator": "Kobe City Culture Promotion Foundation",
+    "imageUrl": "/images/stamps/museum-kobe-weathercock-house.jpg",
+    "description": "Official commemorative cultural stamp for Kobe Kitano Weathercock House Museum (風見鶏の館) (風見鶏の館) in 神戸市, Hyogo. Depicts the institution's collection, historical heritage, and regional architecture.",
+    "source": "Funakiya Stamp Notebook (旅のスタンプ帳)",
+    "sourceUrl": "https://stamp.funakiya.com/kitanoijinkan-kazamidori.html"
+  },
+  {
+    "id": "museum-kobe-moegi-house",
+    "name": "Kobe Kitano Moegi House Museum (萌黄の館)",
+    "name_ja": "萌黄の館",
+    "name_romaji": "萌黄の館-museum",
+    "category": "museum",
+    "prefecture": "Hyogo",
+    "city": "神戸市",
+    "address": "兵庫県神戸市中央区北野町3-10-11",
+    "coordinates": [
+      135.189011,
+      34.700954
+    ],
+    "stampLocation": "萌黄の館内（係員に依頼が必要）",
+    "hours": "9:00～18:00",
+    "operator": "Kobe City Culture Promotion Foundation",
+    "imageUrl": "/images/stamps/museum-kobe-moegi-house.jpg",
+    "description": "Official commemorative cultural stamp for Kobe Kitano Moegi House Museum (萌黄の館) (萌黄の館) in 神戸市, Hyogo. Depicts the institution's collection, historical heritage, and regional architecture.",
+    "source": "Funakiya Stamp Notebook (旅のスタンプ帳)",
+    "sourceUrl": "https://stamp.funakiya.com/kitanoijinkan-moegi.html"
+  },
+  {
+    "id": "info-shinhakodatehokuto-desk",
+    "name": "Shin-Hakodate-Hokuto Station Tourist Information Center",
+    "name_ja": "北斗市観光案内所",
+    "name_romaji": "北斗市観光案内所-annaijo",
+    "category": "tourist_info",
+    "prefecture": "Hokkaido",
+    "city": "北斗市",
+    "address": "北海道北斗市市渡1-1-1",
+    "coordinates": [
+      140.647171,
+      41.905224
+    ],
+    "stampLocation": "北斗市観光案内所前",
+    "hours": "9:00～18:00",
+    "operator": "Hokuto City Tourism Association",
+    "imageUrl": "/images/stamps/info-shinhakodatehokuto-desk.jpg",
+    "description": "Official commemorative tourism stamp for Shin-Hakodate-Hokuto Station Tourist Information Center (北斗市観光案内所) located in 北斗市, Hokkaido. Available at the information counter for travelers.",
+    "source": "Funakiya Stamp Notebook (旅のスタンプ帳)",
+    "sourceUrl": "https://stamp.funakiya.com/shinhakodatehokuto-kanko.html"
+  },
+  {
+    "id": "info-onuma-park-tourist-desk",
+    "name": "Onuma Quasi-National Park Tourist Information Center",
+    "name_ja": "大沼観光案内所",
+    "name_romaji": "大沼観光案内所-annaijo",
+    "category": "tourist_info",
+    "prefecture": "Hokkaido",
+    "city": "亀田郡",
+    "address": "北海道亀田郡七飯町大沼町85-15",
+    "coordinates": [
+      140.67981,
+      41.969452
+    ],
+    "stampLocation": "大沼観光案内所内",
+    "hours": "8:30～17:30",
+    "operator": "Nanae Town Tourism Association",
+    "imageUrl": "/images/stamps/info-onuma-park-tourist-desk.jpg",
+    "description": "Official commemorative tourism stamp for Onuma Quasi-National Park Tourist Information Center (大沼観光案内所) located in 亀田郡, Hokkaido. Available at the information counter for travelers.",
+    "source": "Funakiya Stamp Notebook (旅のスタンプ帳)",
+    "sourceUrl": "https://stamp.funakiya.com/onuma-kanko.html"
+  },
+  {
+    "id": "info-oshamanbe-kanko-desk",
+    "name": "Oshamambe Tourism Association Information Desk",
+    "name_ja": "長万部観光協会",
+    "name_romaji": "長万部観光協会-annaijo",
+    "category": "tourist_info",
+    "prefecture": "Hokkaido",
+    "city": "山越郡",
+    "address": "北海道山越郡長万部町長万部228-7",
+    "coordinates": [
+      140.375488,
+      42.514221
+    ],
+    "stampLocation": "JR長万部駅改札外 長万部観光協会レジ前",
+    "hours": "9:15～17:00",
+    "operator": "Oshamambe Tourism Association",
+    "imageUrl": "/images/stamps/info-oshamanbe-kanko-desk.jpg",
+    "description": "Official commemorative tourism stamp for Oshamambe Tourism Association Information Desk (長万部観光協会) located in 山越郡, Hokkaido. Available at the information counter for travelers.",
+    "source": "Funakiya Stamp Notebook (旅のスタンプ帳)",
+    "sourceUrl": "https://stamp.funakiya.com/oshamanbe-kanko.html"
+  },
+  {
+    "id": "museum-kishomuseum-tokyo",
+    "name": "Japan Meteorological Museum",
+    "name_ja": "気象科学館",
+    "name_romaji": "気象科学館-museum",
+    "category": "museum",
+    "prefecture": "Tokyo",
+    "city": "港区",
+    "address": "東京都港区虎ノ門3-6-9",
+    "coordinates": [
+      139.745758,
+      35.666004
+    ],
+    "stampLocation": "気象庁気象科学館内",
+    "hours": "10:00～16:00",
+    "operator": "Japan Meteorological Agency (気象庁)",
+    "imageUrl": "/images/stamps/museum-kishomuseum-tokyo.jpg",
+    "description": "Official commemorative cultural stamp for Japan Meteorological Museum (気象科学館) in 港区, Tokyo. Depicts the institution's collection, historical heritage, and regional architecture.",
+    "source": "Funakiya Stamp Notebook (旅のスタンプ帳)",
+    "sourceUrl": "https://stamp.funakiya.com/kishomusemu.html"
+  },
+  {
+    "id": "museum-aidamitsuo-tokyo",
+    "name": "Mitsuo Aida Museum",
+    "name_ja": "相田みつを美術館",
+    "name_romaji": "相田みつを美術館-museum",
+    "category": "museum",
+    "prefecture": "Tokyo",
+    "city": "千代田区",
+    "address": "東京都千代田区丸の内3-5-1 東京国際フォーラムB1F",
+    "coordinates": [
+      139.76387,
+      35.676849
+    ],
+    "stampLocation": "相田みつを美術館内",
+    "hours": "10:00 - 17:00",
+    "operator": "Mitsuo Aida Museum Foundation",
+    "imageUrl": "/images/stamps/museum-aidamitsuo-tokyo.jpg",
+    "description": "Official commemorative cultural stamp for Mitsuo Aida Museum (相田みつを美術館) in 千代田区, Tokyo. Depicts the institution's collection, historical heritage, and regional architecture.",
+    "source": "Funakiya Stamp Notebook (旅のスタンプ帳)",
+    "sourceUrl": "https://stamp.funakiya.com/aidamitsuo-museum.html"
+  },
+  {
+    "id": "museum-kahaku-nature-garden",
+    "name": "National Museum of Nature and Science Institute for Nature Study",
+    "name_ja": "国立科学博物館 附属自然教育園",
+    "name_romaji": "国立科学博物館 附属自然教育園-museum",
+    "category": "museum",
+    "prefecture": "Tokyo",
+    "city": "港区",
+    "address": "東京都港区白金台5-21-5",
+    "coordinates": [
+      139.719666,
+      35.636604
+    ],
+    "stampLocation": "国立科学博物館 附属自然教育園サービスセンター内",
+    "hours": "9:00～17:00",
+    "operator": "National Museum of Nature and Science (国立科学博物館)",
+    "imageUrl": "/images/stamps/museum-kahaku-nature-garden.jpg",
+    "description": "Official commemorative cultural stamp for National Museum of Nature and Science Institute for Nature Study (国立科学博物館 附属自然教育園) in 港区, Tokyo. Depicts the institution's collection, historical heritage, and regional architecture.",
+    "source": "Funakiya Stamp Notebook (旅のスタンプ帳)",
+    "sourceUrl": "https://stamp.funakiya.com/kahaku-nature.html"
+  },
+  {
+    "id": "museum-sousuiko-tokyo",
+    "name": "Tokyo Fire Hydrant Museum (送水口博物館)",
+    "name_ja": "送水口博物館",
+    "name_romaji": "送水口博物館-museum",
+    "category": "museum",
+    "prefecture": "Tokyo",
+    "city": "港区",
+    "address": "東京都港区新橋2-11-1 村上建物ビル5F",
+    "coordinates": [
+      139.755371,
+      35.667263
+    ],
+    "stampLocation": "送水口博物館内",
+    "hours": "14:00～19:00",
+    "operator": "Murakami Waterworks & Architectural Heritage",
+    "imageUrl": "/images/stamps/museum-sousuiko-tokyo.jpg",
+    "description": "Official commemorative cultural stamp for Tokyo Fire Hydrant Museum (送水口博物館) (送水口博物館) in 港区, Tokyo. Depicts the institution's collection, historical heritage, and regional architecture.",
+    "source": "Funakiya Stamp Notebook (旅のスタンプ帳)",
+    "sourceUrl": "https://stamp.funakiya.com/sousuiko-museum.html"
+  },
+  {
+    "id": "museum-kigumi-tokyo",
+    "name": "Kigumi Museum of Traditional Timber Architecture",
+    "name_ja": "木組み博物館",
+    "name_romaji": "木組み博物館-museum",
+    "category": "museum",
+    "prefecture": "Tokyo",
+    "city": "新宿区",
+    "address": "東京都新宿区西早稲田2-3-26 3F",
+    "coordinates": [
+      139.717422,
+      35.707947
+    ],
+    "stampLocation": "木組み博物館内",
+    "hours": "10:00～16:00",
+    "operator": "Kigumi Museum NPO",
+    "imageUrl": "/images/stamps/museum-kigumi-tokyo.jpg",
+    "description": "Official commemorative cultural stamp for Kigumi Museum of Traditional Timber Architecture (木組み博物館) in 新宿区, Tokyo. Depicts the institution's collection, historical heritage, and regional architecture.",
+    "source": "Funakiya Stamp Notebook (旅のスタンプ帳)",
+    "sourceUrl": "https://stamp.funakiya.com/kigumi-museum.html"
   }
 ]
