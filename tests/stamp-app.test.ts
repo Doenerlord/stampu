@@ -105,7 +105,7 @@ const sampleStamp: Stamp = {
 };
 
 describe('Stamp Dataset (public/data/stamps.json)', () => {
-  it('contains valid stamps spanning all 7 categories', () => {
+  it('contains valid stamps spanning all 9 categories', () => {
     const raw = fs.readFileSync(path.resolve(__dirname, '../public/data/stamps.json'), 'utf-8');
     const stamps: Stamp[] = JSON.parse(raw);
 
@@ -119,6 +119,8 @@ describe('Stamp Dataset (public/data/stamps.json)', () => {
     expect(categories.has('temple_shrine')).toBe(true);
     expect(categories.has('tower')).toBe(true);
     expect(categories.has('onsen')).toBe(true);
+    expect(categories.has('ferry')).toBe(true);
+    expect(categories.has('airport')).toBe(true);
 
     for (const stamp of stamps) {
       expect(stamp.id).toBeTruthy();
@@ -465,6 +467,34 @@ describe('Stamp Provenance & Source Details (source.ts & StampSourceModal)', () 
     expect(hitoDetails.authority).toContain('日本秘湯を守る会');
     expect(hitoDetails.sourceUrl).toBe('https://www.hitou.or.jp/');
     expect(hitoDetails.verificationStatus).toContain('認定会員宿');
+
+    // Ferry / Gosen-in source resolution
+    const ferryStamp: Stamp = {
+      ...sampleStamp,
+      id: 'ferry-tokyo-wan',
+      name: 'Tokyo Wan Ferry Kurihama Port',
+      category: 'ferry',
+      operator: 'Tokyo Wan Ferry',
+    };
+    const ferryDetails = getStampSourceDetails(ferryStamp);
+    expect(ferryDetails.registry).toContain('御船印');
+    expect(ferryDetails.sourceName).toContain('Gosen-in');
+    expect(ferryDetails.sourceUrl).toBe('https://gosen-in.jp/');
+    expect(ferryDetails.authority).toContain('日本旅客船協会');
+
+    // Airport / Gosho-in source resolution
+    const airportStamp: Stamp = {
+      ...sampleStamp,
+      id: 'airport-hnd-tokyo-haneda',
+      name: 'Tokyo Haneda Airport (HND)',
+      category: 'airport',
+      operator: 'Japan Airport Terminal / Tokyo International Air Terminal',
+    };
+    const airportDetails = getStampSourceDetails(airportStamp);
+    expect(airportDetails.registry).toContain('御翔印');
+    expect(airportDetails.sourceName).toContain('Gosho-in');
+    expect(airportDetails.sourceUrl).toBe('https://jalplaza-airport.jalux.com/');
+    expect(airportDetails.authority).toContain('JAL');
   });
 
   it('renders StampSourceModal with external link and provenance details', () => {

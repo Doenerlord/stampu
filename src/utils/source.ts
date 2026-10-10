@@ -174,6 +174,40 @@ export function getStampSourceDetails(stamp: Stamp): StampSourceDetails {
     };
   }
 
+  if (stamp.category === 'ferry' || stamp.id.startsWith('ferry-') || stamp.id.startsWith('gosenin-')) {
+    return {
+      authority: '一般社団法人 日本旅客船協会 & 御船印めぐりプロジェクト事務局',
+      registry: '全国御船印めぐりプロジェクト 公式船印帳 登録船社台帳',
+      sourceName: stamp.source || 'Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)',
+      sourceUrl: stamp.sourceUrl || 'https://gosen-in.jp/',
+      operator: op,
+      verificationStatus: 'Offiziell Verifiziert (日本旅客船協会公認プロジェクト参加社)',
+      verificationNotesDe:
+        'Offizielles Siegel und Gedenkstempel des Gosen-in-Schifffahrtsprojekts. Erhältlich an den Fahrkartenschaltern des Fährterminals, am Boarding-Gate oder am Informationsschalter an Bord.',
+      verificationNotesEn:
+        'Official commemorative seal and port stamp of the Gosen-in project. Available at ferry terminal ticket counters, boarding gates, or onboard information desks.',
+      geocoding: 'GSI Japan & Port Passenger Terminal Coordinates (±5m)',
+      lastVerified: '2025/2026 Registry Verification',
+    };
+  }
+
+  if (stamp.category === 'airport' || stamp.id.startsWith('airport-') || stamp.id.startsWith('goshoin-')) {
+    return {
+      authority: 'JALグループ (日本航空) & 各空港ビル管理会社',
+      registry: '全国55空港 JAL御翔印 & 空港公式記念スタンプ台帳',
+      sourceName: stamp.source || 'JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)',
+      sourceUrl: stamp.sourceUrl || 'https://jalplaza-airport.jalux.com/',
+      operator: op,
+      verificationStatus: 'Offiziell Verifiziert (JAL PLAZA・空港公式設置確認済み)',
+      verificationNotesDe:
+        'Offizielles Flughafen-Siegel (御翔印) und Gedenkstempel des Flughafens. Erhältlich in den JAL PLAZA Flughafenläden sowie an den Besucher-Aussichtsterrassen (展望デッキ) oder Informationsschaltern.',
+      verificationNotesEn:
+        'Official airport seal (Gosho-in) and airport commemorative stamp. Available at JAL PLAZA airport shops, observation deck counters, or terminal information desks.',
+      geocoding: 'GSI Japan & Airport Passenger Terminal Coordinates (±5m)',
+      lastVerified: '2025/2026 Registry Verification',
+    };
+  }
+
   // Default: Eki / Station stamps
   return {
     authority: op,

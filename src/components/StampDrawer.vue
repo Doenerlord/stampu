@@ -23,6 +23,8 @@ import {
   ChevronRight,
   ZoomIn,
   Bath,
+  Ship,
+  Plane,
 } from 'lucide-vue-next';
 import AskStaffModal from './AskStaffModal.vue';
 import StampSourceModal from './StampSourceModal.vue';
@@ -245,6 +247,8 @@ const iconMap = {
   Sparkles,
   Radio,
   Bath,
+  Ship,
+  Plane,
 };
 
 const categoryInfo = computed(() => {

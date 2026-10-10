@@ -1,4 +1,4 @@
-export type StampCategory = 'eki' | 'michinoeki' | 'highway' | 'castle' | 'temple_shrine' | 'tower' | 'onsen';
+export type StampCategory = 'eki' | 'michinoeki' | 'highway' | 'castle' | 'temple_shrine' | 'tower' | 'onsen' | 'ferry' | 'airport';
 
 export interface Stamp {
   id: string;

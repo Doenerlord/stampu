@@ -4,7 +4,7 @@ export interface CategoryInfo {
   id: StampCategory;
   label: string;
   labelJa: string;
-  iconName: 'Train' | 'Store' | 'Car' | 'Castle' | 'Sparkles' | 'Radio' | 'Bath';
+  iconName: 'Train' | 'Store' | 'Car' | 'Castle' | 'Sparkles' | 'Radio' | 'Bath' | 'Ship' | 'Plane';
   hexColor: string;
   badgeClass: string;
   activeClass: string;
@@ -73,6 +73,24 @@ export const CATEGORIES: Record<StampCategory, CategoryInfo> = {
     hexColor: '#ea580c', // orange-600
     badgeClass: 'bg-orange-950/80 text-orange-300 border-orange-700/50',
     activeClass: 'bg-orange-600 text-white border-orange-500 shadow-orange-900/40',
+  },
+  ferry: {
+    id: 'ferry',
+    label: 'Ferry & Port',
+    labelJa: 'フェリー・御船印',
+    iconName: 'Ship',
+    hexColor: '#0891b2', // cyan-600
+    badgeClass: 'bg-cyan-950/80 text-cyan-300 border-cyan-700/50',
+    activeClass: 'bg-cyan-600 text-white border-cyan-500 shadow-cyan-900/40',
+  },
+  airport: {
+    id: 'airport',
+    label: 'Airports',
+    labelJa: '空港・御翔印',
+    iconName: 'Plane',
+    hexColor: '#4f46e5', // indigo-600
+    badgeClass: 'bg-indigo-950/80 text-indigo-300 border-indigo-700/50',
+    activeClass: 'bg-indigo-600 text-white border-indigo-500 shadow-indigo-900/40',
   },
 };
 

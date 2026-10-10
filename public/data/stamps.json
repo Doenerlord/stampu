@@ -67947,5 +67947,1885 @@
     "description": "Berühmt für sein monumentales 14-Quellen-Hallenbad mit 14 Millionen Litern täglichem Schüttungsvolumen. Sakamoto Ryoma und seine Braut Oryo verbrachten hier 1866 Japans erste Flitterwochen.",
     "source": "Kirishima City Tourism Association",
     "sourceUrl": "https://www.kirishima-hotel.jp/"
+  },
+  {
+    "id": "airport-new-chitose",
+    "name": "New Chitose Airport (CTS)",
+    "name_ja": "新千歳空港 (JAL御翔印)",
+    "name_romaji": "Shin-Chitose Kūkō",
+    "category": "airport",
+    "prefecture": "Hokkaido",
+    "city": "Chitose",
+    "address": "Bibi, Chitose, Hokkaido 066-0012",
+    "coordinates": [
+      141.6923,
+      42.7752
+    ],
+    "stampLocation": "JAL PLAZA 出発ロビー店 (2階中央) & 展望デッキ案内所",
+    "hours": "07:00 - 20:30",
+    "operator": "JALグループ / 北海道エアポート",
+    "description": "Größter Flughafen Hokkaidos und Luftdrehkreuz des Nordens. Offizieller JAL 御翔印 (Gosho-in) Stempel mit der Kalligrafie der New Chitose Station und Silhouette der B737 vor den Bergen von Shikotsu-Toya.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-hakodate",
+    "name": "Hakodate Airport (HKD)",
+    "name_ja": "函館空港 (JAL御翔印)",
+    "name_romaji": "Hakodate Kūkō",
+    "category": "airport",
+    "prefecture": "Hokkaido",
+    "city": "Hakodate",
+    "address": "511 Takamatsucho, Hakodate, Hokkaido 042-0952",
+    "coordinates": [
+      140.8222,
+      41.77
+    ],
+    "stampLocation": "JAL PLAZA 空港売店 (2階出発ロビー)",
+    "hours": "07:30 - 19:30",
+    "operator": "JALグループ / 北海道エアポート",
+    "description": "Flughafen an der Tsugaru-Straße im Süden Hokkaidos mit Aussicht auf den Berg Hakodate und die Festung Goryokaku.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-asahikawa",
+    "name": "Asahikawa Airport (AKJ)",
+    "name_ja": "旭川空港 (JAL御翔印)",
+    "name_romaji": "Asahikawa Kūkō",
+    "category": "airport",
+    "prefecture": "Hokkaido",
+    "city": "Higashikagura",
+    "address": "Higashikagura, Kamikawa District, Hokkaido 071-1562",
+    "coordinates": [
+      142.4475,
+      43.6708
+    ],
+    "stampLocation": "JAL PLAZA 出発ロビー店 (2階)",
+    "hours": "07:45 - 20:00",
+    "operator": "JALグループ / 北海道エアポート",
+    "description": "Tor zum Daisetsuzan-Nationalpark und den Blumenfeldern von Furano und Biei. Herausragende Winterzuverlässigkeit mit über 99% Landequote.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-kushiro",
+    "name": "Kushiro Airport (KUH)",
+    "name_ja": "たんちょう釧路空港 (JAL御翔印)",
+    "name_romaji": "Tancho Kushiro Kūkō",
+    "category": "airport",
+    "prefecture": "Hokkaido",
+    "city": "Kushiro",
+    "address": "2-Tsuruoka, Kushiro, Hokkaido 084-0926",
+    "coordinates": [
+      144.1925,
+      43.0408
+    ],
+    "stampLocation": "JAL PLAZA (2階ロビー売店)",
+    "hours": "08:30 - 19:30",
+    "operator": "JALグループ / 北海道エアポート",
+    "description": "Benannt nach dem heiligen Mandschurenkranich (Tancho) inmitten der Feuchtgebiete des Kushiro-Shitsugen-Nationalparks.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-obihiro",
+    "name": "Tokachi-Obihiro Airport (OBO)",
+    "name_ja": "とかち帯広空港 (JAL御翔印)",
+    "name_romaji": "Tokachi-Obihiro Kūkō",
+    "category": "airport",
+    "prefecture": "Hokkaido",
+    "city": "Obihiro",
+    "address": "Izumicho Nishi 9 Sen, Obihiro, Hokkaido 089-1245",
+    "coordinates": [
+      143.2172,
+      42.7333
+    ],
+    "stampLocation": "JAL PLAZA (2階出発ロビー)",
+    "hours": "08:30 - 19:30",
+    "operator": "JALグループ / 北海道エアポート",
+    "description": "Flughafen der fruchtbaren Tokachi-Ebene, berühmt für Milchwirtschaft, Weizenfelder und Ban'ei-Pferderennen.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-memanbetsu",
+    "name": "Memanbetsu Airport (MMB)",
+    "name_ja": "女満別空港 (JAL御翔印)",
+    "name_romaji": "Memanbetsu Kūkō",
+    "category": "airport",
+    "prefecture": "Hokkaido",
+    "city": "Ozora",
+    "address": "201-3 Memanbetsu Chuo, Ozora, Abashiri District, Hokkaido 099-2371",
+    "coordinates": [
+      144.1642,
+      43.8806
+    ],
+    "stampLocation": "JAL PLAZA (2階出発ロビー)",
+    "hours": "08:30 - 19:30",
+    "operator": "JALグループ / 北海道エアポート",
+    "description": "Zugang zum Shiretoko-Weltnaturerbe und dem Ochotskischen Meer mit seinen winterlichen Treibeisfeldern (Ryuhyo).",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-wakkanai",
+    "name": "Wakkanai Airport (WKJ)",
+    "name_ja": "稚内空港 (JAL御翔印)",
+    "name_romaji": "Wakkanai Kūkō",
+    "category": "airport",
+    "prefecture": "Hokkaido",
+    "city": "Wakkanai",
+    "address": "6744 Koetoi, Wakkanai, Hokkaido 098-6642",
+    "coordinates": [
+      141.8047,
+      45.4042
+    ],
+    "stampLocation": "Flughafen-Information & Terminal-Kiosk (1階案内所・売店)",
+    "hours": "08:30 - 17:30",
+    "operator": "JALグループ / 北海道エアポート",
+    "description": "Nördlichster Flughafen Japans am Kap Soya mit Blick auf das Soya-Kliff und die Insel Sachalin an klaren Tagen.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-okushiri",
+    "name": "Okushiri Airport (OIR)",
+    "name_ja": "奥尻空港 (JAL御翔印)",
+    "name_romaji": "Okushiri Kūkō",
+    "category": "airport",
+    "prefecture": "Hokkaido",
+    "city": "Okushiri",
+    "address": "Tsurikake, Okushiri, Okushiri District, Hokkaido 043-1522",
+    "coordinates": [
+      139.4328,
+      42.0717
+    ],
+    "stampLocation": "Fluggastgebäude Schalter (旅客ターミナル出納窓口)",
+    "hours": "09:00 - 16:30",
+    "operator": "HAC (北海道エアシステム / JALグループ)",
+    "description": "Inselflughafen vor der Südwestküste Hokkaidos im Japanischen Meer, berühmt für 'Okushiri Blue' Meereswasser und Seeigel.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-rishiri",
+    "name": "Rishiri Airport (RIS)",
+    "name_ja": "利尻空港 (JAL御翔印)",
+    "name_romaji": "Rishiri Kūkō",
+    "category": "airport",
+    "prefecture": "Hokkaido",
+    "city": "Rishirifuji",
+    "address": "Fujino, Rishirifuji, Rishiri District, Hokkaido 097-0101",
+    "coordinates": [
+      141.1861,
+      45.2417
+    ],
+    "stampLocation": "Terminal-Verkaufsschalter (ターミナル売店窓口)",
+    "hours": "08:30 - 16:30",
+    "operator": "HAC (北海道エアシステム / JALグループ)",
+    "description": "Direkt am Fuße des majestätischen Vulkanbergs Rishiri-Fuji (1.721m) im nördlichen Eismeer.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-aomori",
+    "name": "Aomori Airport (AOJ)",
+    "name_ja": "青森空港 (JAL御翔印)",
+    "name_romaji": "Aomori Kūkō",
+    "category": "airport",
+    "prefecture": "Aomori",
+    "city": "Aomori",
+    "address": "Oya Otani, Aomori, 030-0155",
+    "coordinates": [
+      140.6903,
+      40.7347
+    ],
+    "stampLocation": "JAL PLAZA 出発ロビー店 (2階)",
+    "hours": "07:00 - 20:00",
+    "operator": "JALグループ / 青森空港ビル",
+    "description": "Flughafen der Präfektur Aomori, berühmt für das weltklasse Winterräumteam 'White Impuls'.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-misawa",
+    "name": "Misawa Airport (MSJ)",
+    "name_ja": "三沢空港 (JAL御翔印)",
+    "name_romaji": "Misawa Kūkō",
+    "category": "airport",
+    "prefecture": "Aomori",
+    "city": "Misawa",
+    "address": "Misawa, Aomori 033-0012",
+    "coordinates": [
+      141.3683,
+      40.7033
+    ],
+    "stampLocation": "JAL PLAZA (2階ロビー売店)",
+    "hours": "08:30 - 19:30",
+    "operator": "JALグループ / 三沢空港ターミナル",
+    "description": "Zivil-militärisch genutzter Flughafen am Pazifik und Tor zum Ogawara-See und der Shimokita-Halbinsel.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-hanamaki",
+    "name": "Iwate Hanamaki Airport (HNA)",
+    "name_ja": "いわて花巻空港 (JAL御翔印)",
+    "name_romaji": "Iwate Hanamaki Kūkō",
+    "category": "airport",
+    "prefecture": "Iwate",
+    "city": "Hanamaki",
+    "address": "Kitanari, Hanamaki, Iwate 025-0003",
+    "coordinates": [
+      141.1353,
+      39.4286
+    ],
+    "stampLocation": "JAL PLAZA (2階出発ロビー)",
+    "hours": "07:30 - 19:00",
+    "operator": "JALグループ / 岩手県空港ターミナルビル",
+    "description": "Flughafen der Heimat von Kenji Miyazawa, Tor zu den Onsen-Bädern des Hanamaki-Tals.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-sendai",
+    "name": "Sendai Airport (SDJ)",
+    "name_ja": "仙台空港 (JAL御翔印)",
+    "name_romaji": "Sendai Kūkō",
+    "category": "airport",
+    "prefecture": "Miyagi",
+    "city": "Natori",
+    "address": "Minamiharada, Shimonogou, Natori, Miyagi 989-2401",
+    "coordinates": [
+      140.9239,
+      38.1397
+    ],
+    "stampLocation": "JAL PLAZA (2階中央ロビー)",
+    "hours": "06:45 - 20:30",
+    "operator": "JALグループ / 仙台国際空港",
+    "description": "Größter internationaler Flughafen der Tohoku-Region, per Bahn direkt mit dem Hauptbahnhof Sendai verbunden.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-akita",
+    "name": "Akita Airport (AXT)",
+    "name_ja": "秋田空港 (JAL御翔印)",
+    "name_romaji": "Akita Kūkō",
+    "category": "airport",
+    "prefecture": "Akita",
+    "city": "Akita",
+    "address": "Tsubakigawa, Yuwa, Akita, 010-1211",
+    "coordinates": [
+      140.2186,
+      39.6156
+    ],
+    "stampLocation": "JAL PLAZA (2階出発ロビー売店)",
+    "hours": "07:30 - 20:00",
+    "operator": "JALグループ / 秋田空港ターミナルビル",
+    "description": "Eingangstor zu den Kanto-Festivalen und der Heimat der Akita-Hunde und Namahage-Traditionen.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-yamagata",
+    "name": "Yamagata Airport (GAJ)",
+    "name_ja": "山形空港 (おいしい山形空港・JAL御翔印)",
+    "name_romaji": "Yamagata Kūkō",
+    "category": "airport",
+    "prefecture": "Yamagata",
+    "city": "Higashine",
+    "address": "Hanyū, Higashine, Yamagata 999-3776",
+    "coordinates": [
+      140.3714,
+      38.4119
+    ],
+    "stampLocation": "JAL PLAZA (2階ロビー売店)",
+    "hours": "07:45 - 19:30",
+    "operator": "JALグループ / 山形空港ビル",
+    "description": "Liebevoll 'Oishii Yamagata Airport' genannt, im Zentrum der japanischen Kirschen- und Rindfleisch-Hochburg.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-fukushima",
+    "name": "Fukushima Airport (FKS)",
+    "name_ja": "福島空港 (JAL御翔印)",
+    "name_romaji": "Fukushima Kūkō",
+    "category": "airport",
+    "prefecture": "Fukushima",
+    "city": "Tamakawa",
+    "address": "Kitaasagawa, Tamakawa, Ishikawa District, Fukushima 963-6304",
+    "coordinates": [
+      140.4344,
+      37.2275
+    ],
+    "stampLocation": "Terminal-Info & Kiosk (2階売店・案内所)",
+    "hours": "08:00 - 19:00",
+    "operator": "JALグループ / 福島空港ビル",
+    "description": "Zentraler Flughafen der Präfektur Fukushima, Geburtsregion von Ultraman-Schöpfer Eiji Tsuburaya.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-tokyo-haneda",
+    "name": "Tokyo Haneda Airport (HND)",
+    "name_ja": "東京国際空港 羽田 (JAL御翔印)",
+    "name_romaji": "Tōkyō Haneda Kūkō",
+    "category": "airport",
+    "prefecture": "Tokyo",
+    "city": "Ota-ku",
+    "address": "Hanedakuko, Ota City, Tokyo 144-0041",
+    "coordinates": [
+      139.7798,
+      35.5494
+    ],
+    "stampLocation": "JAL PLAZA 第1ターミナル出発ロビー各店 & 展望デッキ案内所",
+    "hours": "06:00 - 20:30",
+    "operator": "JALグループ / 日本空港ビルデング",
+    "description": "Japans verkehrsreichster Flughafen direkt an der Bucht von Tokio. Das Herzstück der JAL Gosho-in Kollektion im historischen Terminal 1.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-tokyo-narita",
+    "name": "Tokyo Narita Airport (NRT)",
+    "name_ja": "成田国際空港 (JAL御翔印)",
+    "name_romaji": "Narita Kokusai Kūkō",
+    "category": "airport",
+    "prefecture": "Chiba",
+    "city": "Narita",
+    "address": "1-1 Furugome, Narita, Chiba 282-0004",
+    "coordinates": [
+      140.3929,
+      35.772
+    ],
+    "stampLocation": "JAL PLAZA 第2ターミナル出発ロビー店",
+    "hours": "07:00 - 21:00",
+    "operator": "JALグループ / 成田国際空港株式会社",
+    "description": "Japans primäres internationales Drehkreuz im Terminal 2, Ausgangspunkt transkontinentaler Fernflüge.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-izu-oshima",
+    "name": "Oshima Airport (OIM)",
+    "name_ja": "大島空港 (JAL御翔印)",
+    "name_romaji": "Ōshima Kūkō",
+    "category": "airport",
+    "prefecture": "Tokyo",
+    "city": "Oshima",
+    "address": "Kitano, Motomachi, Oshima, Tokyo 100-0101",
+    "coordinates": [
+      139.3603,
+      34.7822
+    ],
+    "stampLocation": "Terminal-Verkaufsschalter (旅客ターミナル売店窓口)",
+    "hours": "08:30 - 16:30",
+    "operator": "JALグループ / 東邦航空 / 東京都港湾局",
+    "description": "Inselflughafen auf Izu Oshima vor den Toren Tokios, im Schatten des aktiven Vulkans Mt. Mihara.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-hachijojima",
+    "name": "Hachijojima Airport (HAC)",
+    "name_ja": "八丈島空港 (JAL御翔印)",
+    "name_romaji": "Hachijōjima Kūkō",
+    "category": "airport",
+    "prefecture": "Tokyo",
+    "city": "Hachijo",
+    "address": "2839-2 Okago, Hachijo Town, Tokyo 100-1401",
+    "coordinates": [
+      139.7858,
+      33.115
+    ],
+    "stampLocation": "Terminal-Kiosk & Info (1階案内所・売店)",
+    "hours": "08:30 - 17:00",
+    "operator": "JALグループ / 東京都港湾局",
+    "description": "Subtropischer Inselflughafen 287 km südlich von Tokio zwischen Hachijo-Fuji und Mt. Mihara.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-chubu-centrair",
+    "name": "Chubu Centrair International Airport (NGO)",
+    "name_ja": "中部国際空港 セントレア (JAL御翔印)",
+    "name_romaji": "Chūbu Kokusai Kūkō Centrair",
+    "category": "airport",
+    "prefecture": "Aichi",
+    "city": "Tokoname",
+    "address": "1-1 Centrair, Tokoname, Aichi 479-0881",
+    "coordinates": [
+      136.8053,
+      34.8583
+    ],
+    "stampLocation": "JAL PLAZA (第1ターミナル3階出発ロビー) & スカイデッキ案内所",
+    "hours": "06:30 - 20:30",
+    "operator": "JALグループ / 中部国際空港株式会社",
+    "description": "Künstliche Insel in der Ise-Bucht bei Nagoya, berühmt für die 300m lange Freiluft-Aussichtsplattform Sky Deck.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-komatsu",
+    "name": "Komatsu Airport (KMQ)",
+    "name_ja": "小松空港 (JAL御翔印)",
+    "name_romaji": "Komatsu Kūkō",
+    "category": "airport",
+    "prefecture": "Ishikawa",
+    "city": "Komatsu",
+    "address": "Yo-50 Mishimamachi, Komatsu, Ishikawa 923-0994",
+    "coordinates": [
+      136.4075,
+      36.3947
+    ],
+    "stampLocation": "JAL PLAZA (2階ロビー売店)",
+    "hours": "07:00 - 19:30",
+    "operator": "JALグループ / 北陸エアターミナルビル",
+    "description": "Hauptflughafen der Hokuriku-Region für Kanazawa und Kaga Onsen, mit Blick auf den heiligen Berg Hakusan.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-niigata",
+    "name": "Niigata Airport (KIJ)",
+    "name_ja": "新潟空港 (JAL御翔印)",
+    "name_romaji": "Niigata Kūkō",
+    "category": "airport",
+    "prefecture": "Niigata",
+    "city": "Niigata",
+    "address": "3710 Matsuhamacho, Higashi Ward, Niigata, 950-0001",
+    "coordinates": [
+      139.1108,
+      37.9558
+    ],
+    "stampLocation": "JAL PLAZA (2階出発ロビー)",
+    "hours": "07:15 - 20:00",
+    "operator": "JALグループ / 新潟空港ビルディング",
+    "description": "Tor zum Japanischen Meer und den Reisfeldern von Echigo, Ausgangspunkt für Flüge nach Sado.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-matsumoto",
+    "name": "Shinshu Matsumoto Airport (MMJ)",
+    "name_ja": "信州まつもと空港 (JAL御翔印)",
+    "name_romaji": "Shinshū Matsumoto Kūkō",
+    "category": "airport",
+    "prefecture": "Nagano",
+    "city": "Matsumoto",
+    "address": "8909 Kuko-Higashi, Matsumoto, Nagano 390-1132",
+    "coordinates": [
+      137.9228,
+      36.1667
+    ],
+    "stampLocation": "Terminal-Info & Kiosk (1階案内所・売店)",
+    "hours": "08:30 - 17:00",
+    "operator": "JALグループ (FDAコードシェア) / 長野県",
+    "description": "Höchstgelegener Verkehrsflughafen Japans auf 657m Höhe, umgeben von den 3.000m hohen Gipfeln der Japanischen Alpen.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-shizuoka",
+    "name": "Mt. Fuji Shizuoka Airport (FSZ)",
+    "name_ja": "富士山静岡空港 (JAL御翔印)",
+    "name_romaji": "Fujisan Shizuoka Kūkō",
+    "category": "airport",
+    "prefecture": "Shizuoka",
+    "city": "Makinohara",
+    "address": "3336-4 Sakaguchi, Makinohara, Shizuoka 421-0411",
+    "coordinates": [
+      138.1894,
+      34.7961
+    ],
+    "stampLocation": "Terminal-Info & Kiosk (2階出発フロア案内所)",
+    "hours": "08:00 - 19:30",
+    "operator": "JALグループ / 富士山静岡空港株式会社",
+    "description": "Flughafen inmitten der weitläufigen Teefelder von Makinohara mit spektakulärem Blick auf den Mt. Fuji.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-osaka-itami",
+    "name": "Osaka Itami Airport (ITM)",
+    "name_ja": "大阪国際空港 伊丹 (JAL御翔印)",
+    "name_romaji": "Ōsaka Itami Kūkō",
+    "category": "airport",
+    "prefecture": "Osaka",
+    "city": "Toyonaka",
+    "address": "3-555 Hotarugaike Nishimachi, Toyonaka, Osaka 560-0036",
+    "coordinates": [
+      135.4389,
+      34.7856
+    ],
+    "stampLocation": "JAL PLAZA (北ターミナル2階出発ロビー中央店)",
+    "hours": "06:30 - 20:30",
+    "operator": "JALグループ / 関西エアポート",
+    "description": "Das traditionsreiche Inlandsdrehkreuz im Herzen der Metropolregion Kansai, nur 20 Minuten von Osaka-Umeda entfernt.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-kansai",
+    "name": "Kansai International Airport (KIX)",
+    "name_ja": "関西国際空港 (JAL御翔印)",
+    "name_romaji": "Kansai Kokusai Kūkō",
+    "category": "airport",
+    "prefecture": "Osaka",
+    "city": "Izumisano",
+    "address": "Senshukukonaka, Tajiri, Sennan District, Osaka 549-0011",
+    "coordinates": [
+      135.2328,
+      34.4347
+    ],
+    "stampLocation": "JAL PLAZA (第1ターミナル2階国内線ロビー)",
+    "hours": "06:30 - 21:00",
+    "operator": "JALグループ / 関西エアポート",
+    "description": "Architektonisches Meisterwerk auf einer künstlichen Insel in der Bucht von Osaka, entworfen von Renzo Piano.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-kobe",
+    "name": "Kobe Airport (UKB)",
+    "name_ja": "神戸空港 (JAL御翔印)",
+    "name_romaji": "Kōbe Kūkō",
+    "category": "airport",
+    "prefecture": "Hyogo",
+    "city": "Kobe",
+    "address": "1 Kuko-jima, Chuo Ward, Kobe, Hyogo 650-0048",
+    "coordinates": [
+      135.2239,
+      34.6328
+    ],
+    "stampLocation": "Terminal-Info & Kiosk (2階出発ロビー案内所)",
+    "hours": "06:30 - 21:00",
+    "operator": "JALグループ (FDAコードシェア) / 関西エアポート神戸",
+    "description": "Inselflughafen direkt vor dem Hafen von Kobe, per Port Liner Schwebebahn an Sannomiya angebunden.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-nanki-shirahama",
+    "name": "Nanki-Shirahama Airport (SHM)",
+    "name_ja": "南紀白浜空港 (JAL御翔印)",
+    "name_romaji": "Nanki-Shirahama Kūkō",
+    "category": "airport",
+    "prefecture": "Wakayama",
+    "city": "Shirahama",
+    "address": "1622-42 Shirahama, Nishimuro District, Wakayama 649-2211",
+    "coordinates": [
+      135.3622,
+      33.6622
+    ],
+    "stampLocation": "JAL PLAZA (2階ロビー売店)",
+    "hours": "08:30 - 19:30",
+    "operator": "JALグループ / 南紀白浜エアポート",
+    "description": "Tor zum UNESCO-Weltkulturerbe Kumano Kodo und den berühmten heißen Quellen von Shirahama.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-tajima",
+    "name": "Tajima Airport (TJH)",
+    "name_ja": "コウノトリ但馬空港 (JAL御翔印)",
+    "name_romaji": "Kōnotori Tajima Kūkō",
+    "category": "airport",
+    "prefecture": "Hyogo",
+    "city": "Toyooka",
+    "address": "Iwai, Toyooka, Hyogo 668-0081",
+    "coordinates": [
+      134.7869,
+      35.5133
+    ],
+    "stampLocation": "Terminal-Kiosk & Info (1階案内所・売店)",
+    "hours": "08:30 - 18:00",
+    "operator": "JAC (日本エアコミューター / JALグループ)",
+    "description": "Benannt nach dem Weißstorch (Konotori), Tor zum Onsen-Paradies Kinosaki und der Burg Takeda.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-hiroshima",
+    "name": "Hiroshima Airport (HIJ)",
+    "name_ja": "広島空港 (JAL御翔印)",
+    "name_romaji": "Hiroshima Kūkō",
+    "category": "airport",
+    "prefecture": "Hiroshima",
+    "city": "Mihara",
+    "address": "64-31 Hongocho Zennyuji, Mihara, Hiroshima 729-0416",
+    "coordinates": [
+      132.9194,
+      34.4361
+    ],
+    "stampLocation": "JAL PLAZA (2階出発ロビー店)",
+    "hours": "07:00 - 20:30",
+    "operator": "JALグループ / 広島国際空港株式会社",
+    "description": "Flughafen der Seto-Inlandsee Region, Tor zum Friedenspark in Hiroshima und dem schwimmenden Torii von Miyajima.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-okayama",
+    "name": "Okayama Momotaro Airport (OKJ)",
+    "name_ja": "岡山桃太郎空港 (JAL御翔印)",
+    "name_romaji": "Okayama Momotarō Kūkō",
+    "category": "airport",
+    "prefecture": "Okayama",
+    "city": "Okayama",
+    "address": "1277 Nichiyo, Kita Ward, Okayama, 701-1131",
+    "coordinates": [
+      133.8553,
+      34.7578
+    ],
+    "stampLocation": "JAL PLAZA (2階ロビー売店)",
+    "hours": "07:15 - 20:00",
+    "operator": "JALグループ / 岡山県空港振興協議会",
+    "description": "Benannt nach der Legendenfigur Momotaro, Tor zum historischen Kurashiki-Kanalviertel und Korakuen-Garten.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-izumo",
+    "name": "Izumo Enmusubi Airport (IZO)",
+    "name_ja": "出雲縁結び空港 (JAL御翔印)",
+    "name_romaji": "Izumo Enmusubi Kūkō",
+    "category": "airport",
+    "prefecture": "Shimane",
+    "city": "Izumo",
+    "address": "2633-4 Hikawa-cho Okinoshima, Izumo, Shimane 699-0556",
+    "coordinates": [
+      132.8897,
+      35.4136
+    ],
+    "stampLocation": "JAL PLAZA (2階出発ロビー店)",
+    "hours": "07:00 - 19:45",
+    "operator": "JALグループ / 出雲空港ターミナルビル",
+    "description": "Am Shinji-See gelegen, benannt nach 'Enmusubi' (göttliche Schicksalsbande) des großen Izumo Taisha Schreins.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-yamaguchi-ube",
+    "name": "Yamaguchi Ube Airport (UBJ)",
+    "name_ja": "山口宇部空港 (JAL御翔印)",
+    "name_romaji": "Yamaguchi Ube Kūkō",
+    "category": "airport",
+    "prefecture": "Yamaguchi",
+    "city": "Ube",
+    "address": "Okiube, Ube, Yamaguchi 755-0001",
+    "coordinates": [
+      131.2786,
+      33.93
+    ],
+    "stampLocation": "JAL PLAZA (2階出発ロビー)",
+    "hours": "07:15 - 20:00",
+    "operator": "JALグループ / 山口宇部空港ビル",
+    "description": "Kompakter Küstenflughafen am Seto-Binnenmeer, Tor zur Tsunoshima-Brücke und den Akiyoshidai-Karsthöhlen.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-tottori",
+    "name": "Tottori Sand Dunes Conan Airport (TTJ)",
+    "name_ja": "鳥取砂丘コナン空港 (JAL御翔印)",
+    "name_romaji": "Tottori Sakyū Conan Kūkō",
+    "category": "airport",
+    "prefecture": "Tottori",
+    "city": "Tottori",
+    "address": "4-110-5 Koyamacho Nishi, Tottori, 680-0947",
+    "coordinates": [
+      134.1658,
+      35.53
+    ],
+    "stampLocation": "Terminal-Info & Kiosk (1階案内所・売店)",
+    "hours": "07:30 - 19:30",
+    "operator": "JALグループ / 鳥取空港ビル",
+    "description": "Direkt an den berühmten Tottori-Sanddünen gelegen und der Manga-Serie 'Detektiv Conan' gewidmet.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-yonago",
+    "name": "Yonago Kitaro Airport (YGJ)",
+    "name_ja": "米子鬼太郎空港 (JAL御翔印)",
+    "name_romaji": "Yonago Kitarō Kūkō",
+    "category": "airport",
+    "prefecture": "Tottori",
+    "city": "Sakaiminato",
+    "address": "1634 Saimyoji, Sakaiminato, Tottori 684-0055",
+    "coordinates": [
+      133.2367,
+      35.4925
+    ],
+    "stampLocation": "Terminal-Info & Kiosk (2階出発ロビー売店)",
+    "hours": "07:30 - 19:30",
+    "operator": "JALグループ / 米子空港ビル",
+    "description": "Benannt nach der Yokai-Kultfigur 'GeGeGe no Kitaro' im Heimathafen von Manga-Meister Shigeru Mizuki.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-oki",
+    "name": "Oki Airport (OKI)",
+    "name_ja": "隠岐空港 (隠岐世界ジオパーク空港・JAL御翔印)",
+    "name_romaji": "Oki Kūkō",
+    "category": "airport",
+    "prefecture": "Shimane",
+    "city": "Okinoshima",
+    "address": "Misaki, Okinoshima, Oki District, Shimane 685-0021",
+    "coordinates": [
+      133.3242,
+      36.1808
+    ],
+    "stampLocation": "Terminal-Schalter (1階案内所・売店)",
+    "hours": "08:30 - 17:30",
+    "operator": "JAC (日本エアコミューター / JALグループ)",
+    "description": "Inselflughafen des UNESCO-Weltgeoparks Oki-Inseln mit spektakulären Klippen und Bullenringen (Ushi-tsuki).",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-tokushima",
+    "name": "Tokushima Awaodori Airport (TKS)",
+    "name_ja": "徳島阿波おどり空港 (JAL御翔印)",
+    "name_romaji": "Tokushima Awaodori Kūkō",
+    "category": "airport",
+    "prefecture": "Tokushima",
+    "city": "Matsushige",
+    "address": "Toyohisa, Matsushige, Itano District, Tokushima 771-0213",
+    "coordinates": [
+      134.6067,
+      34.1328
+    ],
+    "stampLocation": "JAL PLAZA (3階ロビー売店)",
+    "hours": "07:00 - 20:00",
+    "operator": "JALグループ / 徳島空港ビル",
+    "description": "Benannt nach dem legendären Tanzfestival Awa Odori und Tor zu den Meeresstrudeln von Naruto.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-takamatsu",
+    "name": "Takamatsu Airport (TAK)",
+    "name_ja": "高松空港 (JAL御翔印)",
+    "name_romaji": "Takamatsu Kūkō",
+    "category": "airport",
+    "prefecture": "Kagawa",
+    "city": "Takamatsu",
+    "address": "1314-1 Konanchokaoka, Takamatsu, Kagawa 761-1401",
+    "coordinates": [
+      134.0156,
+      34.2142
+    ],
+    "stampLocation": "JAL PLAZA (2階ロビー売店)",
+    "hours": "07:00 - 20:30",
+    "operator": "JALグループ / 高松空港株式会社",
+    "description": "Tor zur 'Sanuki Udon'-Präfektur und den Kunstinseln der Setouchi-Triennale (Naoshima & Teshima).",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-matsuyama",
+    "name": "Matsuyama Airport (MYJ)",
+    "name_ja": "松山空港 (JAL御翔印)",
+    "name_romaji": "Matsuyama Kūkō",
+    "category": "airport",
+    "prefecture": "Ehime",
+    "city": "Matsuyama",
+    "address": "Minamiyoshidacho, Matsuyama, Ehime 791-8059",
+    "coordinates": [
+      132.6997,
+      33.8272
+    ],
+    "stampLocation": "JAL PLAZA (2階出発ロビー店)",
+    "hours": "07:00 - 20:00",
+    "operator": "JALグループ / 松山空港ビル",
+    "description": "Größter Flughafen Shikokus, direkt an der Küste vor Dōgo Onsen und Burg Matsuyama gelegen.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-kochi",
+    "name": "Kochi Ryoma Airport (KCZ)",
+    "name_ja": "高知龍馬空港 (JAL御翔印)",
+    "name_romaji": "Kōchi Ryōma Kūkō",
+    "category": "airport",
+    "prefecture": "Kochi",
+    "city": "Nankoku",
+    "address": "Kuko, Maehamatome, Nankoku, Kochi 783-0096",
+    "coordinates": [
+      133.6694,
+      33.5461
+    ],
+    "stampLocation": "JAL PLAZA (2階出発ロビー)",
+    "hours": "07:00 - 19:45",
+    "operator": "JALグループ / 高知空港ビル",
+    "description": "Benannt nach Samurai-Reformer Sakamoto Ryoma, an der Pazifikküste von Tosa gelegen.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-fukuoka",
+    "name": "Fukuoka Airport (FUK)",
+    "name_ja": "福岡空港 (JAL御翔印)",
+    "name_romaji": "Fukuoka Kūkō",
+    "category": "airport",
+    "prefecture": "Fukuoka",
+    "city": "Fukuoka",
+    "address": "778-1 Shimousui, Hakata Ward, Fukuoka, 812-0003",
+    "coordinates": [
+      130.4508,
+      33.5858
+    ],
+    "stampLocation": "JAL PLAZA (国内線旅客ターミナル2階出発ロビー店)",
+    "hours": "06:30 - 21:00",
+    "operator": "JALグループ / 福岡国際空港株式会社",
+    "description": "Eines der weltweit am stärksten genutzten Einstrecken-Drehkreuze, nur 5 U-Bahn-Minuten vom Bahnhof Hakata entfernt.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-kitakyushu",
+    "name": "Kitakyushu Airport (KKJ)",
+    "name_ja": "北九州空港 (JAL御翔印)",
+    "name_romaji": "Kitakyūshū Kūkō",
+    "category": "airport",
+    "prefecture": "Fukuoka",
+    "city": "Kitakyushu",
+    "address": "Kuko-kitamachi, Kokuraminami Ward, Kitakyushu, Fukuoka 800-0301",
+    "coordinates": [
+      131.0347,
+      33.8458
+    ],
+    "stampLocation": "JAL PLAZA (2階ロビー売店)",
+    "hours": "07:00 - 21:30",
+    "operator": "JALグループ / 北九州エアターミナル",
+    "description": "Künstliche Insel in der Suo-Bucht, rund um die Uhr geöffnet für Fracht- und Passagierverkehr.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-oita",
+    "name": "Oita Airport (OIT)",
+    "name_ja": "大分空港 (宇宙港・JAL御翔印)",
+    "name_romaji": "Ōita Kūkō",
+    "category": "airport",
+    "prefecture": "Oita",
+    "city": "Kunisaki",
+    "address": "Aki-machi Shimomura, Kunisaki, Oita 873-0421",
+    "coordinates": [
+      131.7372,
+      33.4794
+    ],
+    "stampLocation": "JAL PLAZA (2階ロビー売店)",
+    "hours": "07:00 - 20:00",
+    "operator": "JALグループ / 大分航空ターミナル",
+    "description": "An der Spitze der Kunisaki-Halbinsel, berühmt für das Thermal-Fußbad im Terminal und seine Rolle als Weltraumbahnhof (Spaceport).",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-nagasaki",
+    "name": "Nagasaki Airport (NGS)",
+    "name_ja": "長崎空港 (JAL御翔印)",
+    "name_romaji": "Nagasaki Kūkō",
+    "category": "airport",
+    "prefecture": "Nagasaki",
+    "city": "Omura",
+    "address": "Mishima-machi, Omura, Nagasaki 856-0816",
+    "coordinates": [
+      129.9136,
+      32.9169
+    ],
+    "stampLocation": "JAL PLAZA (2階ロビー売店)",
+    "hours": "06:45 - 20:30",
+    "operator": "JALグループ / 長崎空港ビルディング",
+    "description": "Weltweit erster voll funktionsfähiger Meeresinsel-Flughafen, 1975 in der Omura-Bucht eröffnet.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-kumamoto",
+    "name": "Aso Kumamoto Airport (KMJ)",
+    "name_ja": "阿蘇くまもと空港 (JAL御翔印)",
+    "name_romaji": "Aso Kumamoto Kūkō",
+    "category": "airport",
+    "prefecture": "Kumamoto",
+    "city": "Mashiki",
+    "address": "1802-2 Oyatsu, Mashiki, Kamimashiki District, Kumamoto 861-2204",
+    "coordinates": [
+      130.8553,
+      32.8372
+    ],
+    "stampLocation": "JAL PLAZA (新旅客ターミナル出発ロビー)",
+    "hours": "06:30 - 20:30",
+    "operator": "JALグループ / 熊本国際空港株式会社",
+    "description": "2023 komplett neu eröffnetes Erdbeben-resilientes Holzterminal am Fuße des mächtigen Vulkans Aso.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-miyazaki",
+    "name": "Miyazaki Bougainvillea Airport (KMI)",
+    "name_ja": "宮崎ブーゲンビリア空港 (JAL御翔印)",
+    "name_romaji": "Miyazaki Bougainvillea Kūkō",
+    "category": "airport",
+    "prefecture": "Miyazaki",
+    "city": "Miyazaki",
+    "address": "Akae, Miyazaki, 880-0912",
+    "coordinates": [
+      131.4486,
+      31.8772
+    ],
+    "stampLocation": "JAL PLAZA (2階ロビー売店)",
+    "hours": "07:00 - 20:00",
+    "operator": "JALグループ / 宮崎空港ビル",
+    "description": "Sonniger Palmenflughafen an der Nichinan-Küste, benannt nach den leuchtenden Bougainvillea-Blüten.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-kagoshima",
+    "name": "Kagoshima Airport (KOJ)",
+    "name_ja": "鹿児島空港 (JAL御翔印)",
+    "name_romaji": "Kagoshima Kūkō",
+    "category": "airport",
+    "prefecture": "Kagoshima",
+    "city": "Kirishima",
+    "address": "Fumoto, Mizobe-cho, Kirishima, Kagoshima 899-6404",
+    "coordinates": [
+      130.7194,
+      31.8033
+    ],
+    "stampLocation": "JAL PLAZA (2階ロビー売店) & 展望デッキ案内所",
+    "hours": "06:40 - 20:30",
+    "operator": "JALグループ / 鹿児島空港ビルディング",
+    "description": "Das wichtigste Drehkreuz für die südlichen Nansei-Inseln, berühmt für das Thermal-Fußbad 'Oyattosa' im Terminal.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-amami",
+    "name": "Amami Oshima Airport (ASJ)",
+    "name_ja": "奄美空港 (JAL御翔印)",
+    "name_romaji": "Amami Kūkō",
+    "category": "airport",
+    "prefecture": "Kagoshima",
+    "city": "Amami",
+    "address": "Kasari-cho Kasari, Amami, Kagoshima 894-0503",
+    "coordinates": [
+      129.7125,
+      28.4306
+    ],
+    "stampLocation": "JAL PLAZA (2階出発ロビー店)",
+    "hours": "08:00 - 19:00",
+    "operator": "JALグループ / 奄美空港ビル",
+    "description": "Tor zum UNESCO-Weltnaturerbe Amami Oshima mit seinen Mangrovenwäldern und dem seltenen Amami-Kaninchen.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-tokunoshima",
+    "name": "Tokunoshima Airport (TKN)",
+    "name_ja": "徳之島空港 (徳之島子宝空港・JAL御翔印)",
+    "name_romaji": "Tokunoshima Kūkō",
+    "category": "airport",
+    "prefecture": "Kagoshima",
+    "city": "Amagi",
+    "address": "Asama, Amagi, Oshima District, Kagoshima 891-7605",
+    "coordinates": [
+      128.8833,
+      27.8364
+    ],
+    "stampLocation": "Terminal-Verkaufsschalter (1階案内所・売店)",
+    "hours": "08:30 - 17:30",
+    "operator": "JAC (日本エアコミューター / JALグループ)",
+    "description": "UNESCO-Weltnaturerbe-Insel, berühmt für traditionelle Tōgyū-Stierkämpfe und Korallenriffe.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-yakushima",
+    "name": "Yakushima Airport (KUM)",
+    "name_ja": "屋久島空港 (JAL御翔印)",
+    "name_romaji": "Yakushima Kūkō",
+    "category": "airport",
+    "prefecture": "Kagoshima",
+    "city": "Yakushima",
+    "address": "Koseda, Yakushima, Kumage District, Kagoshima 891-4207",
+    "coordinates": [
+      130.6592,
+      30.3853
+    ],
+    "stampLocation": "Terminal-Info & Kiosk (1階ロビー案内所)",
+    "hours": "08:30 - 17:30",
+    "operator": "JAC (日本エアコミューター / JALグループ)",
+    "description": "Tor zum UNESCO-Urwald von Yakushima mit seinen Jahrtausende alten Jomon-Sugi-Riesenzedern.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-tanegashima",
+    "name": "New Tanegashima Airport (TNE)",
+    "name_ja": "種子島空港 (コスモポート種子島・JAL御翔印)",
+    "name_romaji": "Tanegashima Kūkō",
+    "category": "airport",
+    "prefecture": "Kagoshima",
+    "city": "Nakatane",
+    "address": "Masuda, Nakatane, Kumage District, Kagoshima 891-3603",
+    "coordinates": [
+      130.9947,
+      30.6094
+    ],
+    "stampLocation": "Terminal-Info & Kiosk (1階案内所・売店)",
+    "hours": "08:30 - 18:00",
+    "operator": "JAC (日本エアコミューター / JALグループ)",
+    "description": "Flughafen der japanischen Raketenstartinsel Tanegashima (JAXA Space Center).",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-kikai",
+    "name": "Kikai Airport (KKX)",
+    "name_ja": "喜界空港 (JAL御翔印)",
+    "name_romaji": "Kikai Kūkō",
+    "category": "airport",
+    "prefecture": "Kagoshima",
+    "city": "Kikai",
+    "address": "Nakazato, Kikai, Oshima District, Kagoshima 891-6203",
+    "coordinates": [
+      129.9281,
+      28.3189
+    ],
+    "stampLocation": "Terminal-Schalter (1階出納窓口)",
+    "hours": "08:30 - 17:00",
+    "operator": "JAC (日本エアコミューター / JALグループ)",
+    "description": "Inselflughafen auf der gehobenen Koralleninsel Kikaijima im subtropischen Amami-Archipel.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-okinoerabu",
+    "name": "Okinoerabu Airport (OKE)",
+    "name_ja": "沖永良部空港 (えらぶゆりの島空港・JAL御翔印)",
+    "name_romaji": "Okinoerabu Kūkō",
+    "category": "airport",
+    "prefecture": "Kagoshima",
+    "city": "Wadomari",
+    "address": "Kunigami, Wadomari, Oshima District, Kagoshima 891-9111",
+    "coordinates": [
+      128.7011,
+      27.4361
+    ],
+    "stampLocation": "Terminal-Info & Kiosk (1階案内所)",
+    "hours": "08:30 - 17:30",
+    "operator": "JAC (日本エアコミューター / JALグループ)",
+    "description": "Bekannt als 'Insel der Osterlilien' mit spektakulären Kalksteinhöhlen (Shoryudo).",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-yoron",
+    "name": "Yoron Airport (RNJ)",
+    "name_ja": "与論空港 (JAL御翔印)",
+    "name_romaji": "Yoron Kūkō",
+    "category": "airport",
+    "prefecture": "Kagoshima",
+    "city": "Yoron",
+    "address": "Ritsuchou, Yoron, Oshima District, Kagoshima 891-9307",
+    "coordinates": [
+      128.4011,
+      27.0439
+    ],
+    "stampLocation": "Terminal-Schalter (1階案内所)",
+    "hours": "09:00 - 16:30",
+    "operator": "JAC (日本エアコミューター / JALグループ)",
+    "description": "Südlichste Insel der Präfektur Kagoshima, weltberühmt für den temporär auftauchenden Sandstrand Yurigahama.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-okinawa-naha",
+    "name": "Naha Airport (OKA)",
+    "name_ja": "那覇空港 (JAL御翔印)",
+    "name_romaji": "Naha Kūkō",
+    "category": "airport",
+    "prefecture": "Okinawa",
+    "city": "Naha",
+    "address": "150 Kagamizu, Naha, Okinawa 901-0142",
+    "coordinates": [
+      127.6458,
+      26.1958
+    ],
+    "stampLocation": "JAL PLAZA (2階出発ロビー店) & 展望デッキ案内所",
+    "hours": "06:30 - 20:30",
+    "operator": "JALグループ / 那覇空港ビルディング",
+    "description": "Das lebendige Hauptdrehkreuz der Ryukyu-Inseln mit Monorail-Anbindung zur Burg Shuri.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-ishigaki",
+    "name": "New Ishigaki Painushima Airport (ISG)",
+    "name_ja": "新石垣空港 南ぬ島 (JAL御翔印)",
+    "name_romaji": "Shin-Ishigaki Painushima Kūkō",
+    "category": "airport",
+    "prefecture": "Okinawa",
+    "city": "Ishigaki",
+    "address": "1960-104-1 Shiraho, Ishigaki, Okinawa 907-0242",
+    "coordinates": [
+      124.245,
+      24.3964
+    ],
+    "stampLocation": "JAL PLAZA (1階出発ロビー店)",
+    "hours": "07:30 - 20:00",
+    "operator": "JALグループ / 石垣空港ターミナル",
+    "description": "Tor zu den Yaeyama-Inseln (Iriomote, Taketomi, Kohama, Hateruma) mit Korallenriffen und Mantarochen.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-miyako",
+    "name": "Miyako Airport (MMY)",
+    "name_ja": "宮古空港 (JAL御翔印)",
+    "name_romaji": "Miyako Kūkō",
+    "category": "airport",
+    "prefecture": "Okinawa",
+    "city": "Miyakojima",
+    "address": "1657-128 Hirara Shimozato, Miyakojima, Okinawa 906-0013",
+    "coordinates": [
+      125.2953,
+      24.7828
+    ],
+    "stampLocation": "JAL PLAZA (2階出発ロビー店)",
+    "hours": "07:30 - 19:45",
+    "operator": "JTA (日本トランスオーシャン航空 / JALグループ)",
+    "description": "Im Herzen von Miyakojima, berühmt für das kristallklare 'Miyako Blue' Wasser und die Yonaha Maehama Strände.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-shimojishima",
+    "name": "Shimojishima Airport (SHI)",
+    "name_ja": "下地島空港 (みやこ下地島空港・JAL御翔印)",
+    "name_romaji": "Shimojishima Kūkō",
+    "category": "airport",
+    "prefecture": "Okinawa",
+    "city": "Miyakojima",
+    "address": "1727 Irabu Sawada, Miyakojima, Okinawa 906-0507",
+    "coordinates": [
+      125.1447,
+      24.8267
+    ],
+    "stampLocation": "Terminal-Info & Kiosk (旅客ターミナル売店)",
+    "hours": "09:00 - 19:00",
+    "operator": "JALグループ / 下地島エアポートマネジメント",
+    "description": "Ehemalige Pilotentrainingsbasis, heute modernes Resort-Terminal direkt am legendären '17END'-Strandriff.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-kumejima",
+    "name": "Kumejima Airport (UEO)",
+    "name_ja": "久米島空港 (JAL御翔印)",
+    "name_romaji": "Kumejima Kūkō",
+    "category": "airport",
+    "prefecture": "Okinawa",
+    "city": "Kumejima",
+    "address": "569-1 Kitahara, Kumejima, Shimajiri District, Okinawa 901-3133",
+    "coordinates": [
+      126.7139,
+      26.3639
+    ],
+    "stampLocation": "JAL PLAZA (2階ロビー売店)",
+    "hours": "08:00 - 18:30",
+    "operator": "RAC (琉球エアーコミューター / JALグループ)",
+    "description": "Westlichste Hauptinsel Okinawas, berühmt für die 7 km lange weiße Sandbank Hatenohama.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "airport-yonaguni",
+    "name": "Yonaguni Airport (OGN)",
+    "name_ja": "与那国空港 (JAL御翔印)",
+    "name_romaji": "Yonaguni Kūkō",
+    "category": "airport",
+    "prefecture": "Okinawa",
+    "city": "Yonaguni",
+    "address": "Yonaguni, Yaeyama District, Okinawa 907-1801",
+    "coordinates": [
+      122.9781,
+      24.4672
+    ],
+    "stampLocation": "Terminal-Verkaufsschalter (1階案内所・売店)",
+    "hours": "08:30 - 18:00",
+    "operator": "RAC (琉球エアーコミューター / JALグループ)",
+    "description": "Westlichster Flughafen ganz Japans, nur 111 km vor der Küste Taiwans, bekannt für Unterwasser-Monumente und Wildpferde.",
+    "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
+    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+  },
+  {
+    "id": "ferry-tokai-kisen-takeshiba",
+    "name": "Tokai Kisen (Tokyo Takeshiba Terminal)",
+    "name_ja": "東海汽船 竹芝客船ターミナル (第十七番社)",
+    "name_romaji": "Tōkai Kisen Takeshiba Kyakusen Terminal",
+    "category": "ferry",
+    "prefecture": "Tokyo",
+    "city": "Minato-ku",
+    "address": "1-16-1 Kaigan, Minato City, Tokyo 105-0022",
+    "coordinates": [
+      139.7619,
+      35.6542
+    ],
+    "stampLocation": "Takeshiba Terminal Ticket Counter & Shop (竹芝客船ターミナル発券所・売店)",
+    "hours": "07:30 - 22:00",
+    "operator": "東海汽船 (Tokai Kisen Co., Ltd.)",
+    "description": "Haupthafen für die Izu-Inseln (Oshima, Toshima, Niijima, Shikinejima, Kozushima, Miyakejima, Hachijojima) mit Jetfoil-Tragflächenbooten und Passagierschiffen.",
+    "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=17"
+  },
+  {
+    "id": "ferry-ogasawara-kaiun",
+    "name": "Ogasawara Kaiun (Ogasawara-maru)",
+    "name_ja": "小笠原海運 おがさわら丸 (第六番社)",
+    "name_romaji": "Ogasawara Kaiun Ogasawara-maru",
+    "category": "ferry",
+    "prefecture": "Tokyo",
+    "city": "Minato-ku",
+    "address": "1-16-1 Kaigan, Minato City, Tokyo 105-0022",
+    "coordinates": [
+      139.7625,
+      35.6547
+    ],
+    "stampLocation": "Takeshiba Ticket Counter & Ogasawara-maru Shop an Bord (船内売店)",
+    "hours": "09:00 - 17:00",
+    "operator": "小笠原海運 (Ogasawara Kaiun)",
+    "description": "Die legendäre 24-Stunden-Pazifikpassage von Tokio zu den subtropischen Ogasawara-Inseln (Chichijima), einem UNESCO-Weltnaturerbe.",
+    "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=6"
+  },
+  {
+    "id": "ferry-tokyo-wan-kurihama",
+    "name": "Tokyo Wan Ferry (Kurihama Port)",
+    "name_ja": "東京湾フェリー 久里浜港 (第六五番社)",
+    "name_romaji": "Tōkyō-wan Ferry Kurihama-kō",
+    "category": "ferry",
+    "prefecture": "Kanagawa",
+    "city": "Yokosuka",
+    "address": "8-17-20 Kurihama, Yokosuka, Kanagawa 239-0831",
+    "coordinates": [
+      139.7153,
+      35.2158
+    ],
+    "stampLocation": "Kurihama Terminal Ticket Counter (久里浜港フェリーターミナル出札窓口)",
+    "hours": "06:00 - 19:30",
+    "operator": "東京湾フェリー (Tokyo Wan Ferry)",
+    "description": "Verbindet in 40 Minuten die Halbinsel Miura (Kanagawa) mit der Halbinsel Boso (Chiba) quer über die Bucht von Tokio.",
+    "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=65"
+  },
+  {
+    "id": "ferry-sado-kisen-ryotsu",
+    "name": "Sado Kisen (Ryotsu Terminal / Sado Island)",
+    "name_ja": "佐渡汽船 両津ターミナル (第一五番社)",
+    "name_romaji": "Sado Kisen Ryōtsu Terminal",
+    "category": "ferry",
+    "prefecture": "Niigata",
+    "city": "Sado",
+    "address": "353 Ryotsuminato, Sado, Niigata 952-0014",
+    "coordinates": [
+      138.4382,
+      38.0818
+    ],
+    "stampLocation": "Ryotsu Terminal Souvenir Shop & Fährbüro (両津ターミナル売店窓口)",
+    "hours": "08:30 - 16:00",
+    "operator": "佐渡汽船 (Sado Kisen)",
+    "description": "Lebensader zur historischen Goldinsel Sado im Japanischen Meer mit Jetfoils und Autofähren (Okesa-maru, Tokiwa-maru).",
+    "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=15"
+  },
+  {
+    "id": "ferry-sado-kisen-niigata",
+    "name": "Sado Kisen (Niigata Port Terminal)",
+    "name_ja": "佐渡汽船 新潟港ターミナル (第一五番社)",
+    "name_romaji": "Sado Kisen Niigata-kō Terminal",
+    "category": "ferry",
+    "prefecture": "Niigata",
+    "city": "Niigata",
+    "address": "9-1 Bandaijima, Chuo Ward, Niigata, 950-0078",
+    "coordinates": [
+      139.0658,
+      37.9289
+    ],
+    "stampLocation": "Niigata Terminal Ticket Counter (新潟港総合案内所)",
+    "hours": "06:00 - 19:30",
+    "operator": "佐渡汽船 (Sado Kisen)",
+    "description": "Hauptablegestelle in Niigata-Stadt für Überfahrten nach Ryotsu auf Sado.",
+    "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=15"
+  },
+  {
+    "id": "ferry-tsugaru-kaikyo-hakodate",
+    "name": "Tsugaru Kaikyo Ferry (Hakodate Terminal)",
+    "name_ja": "津軽海峡フェリー 函館ターミナル (第三六番社)",
+    "name_romaji": "Tsugaru Kaikyō Ferry Hakodate Terminal",
+    "category": "ferry",
+    "prefecture": "Hokkaido",
+    "city": "Hakodate",
+    "address": "3-1 Minatocho, Hakodate, Hokkaido 041-0821",
+    "coordinates": [
+      140.7108,
+      41.8089
+    ],
+    "stampLocation": "Hakodate Terminal 1F Ticket Counter & Smart Check-in (総合受付窓口)",
+    "hours": "24 Stunden",
+    "operator": "津軽海峡フェリー",
+    "description": "Verbindet Honshu (Aomori und Oma) mit Hokkaido (Hakodate) über die stürmische Tsugaru-Straße.",
+    "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=36"
+  },
+  {
+    "id": "ferry-tsugaru-kaikyo-aomori",
+    "name": "Tsugaru Kaikyo Ferry (Aomori Terminal)",
+    "name_ja": "津軽海峡フェリー 青森ターミナル (第三六番社)",
+    "name_romaji": "Tsugaru Kaikyō Ferry Aomori Terminal",
+    "category": "ferry",
+    "prefecture": "Aomori",
+    "city": "Aomori",
+    "address": "113-4 Okidate, Aomori, 038-0002",
+    "coordinates": [
+      140.7208,
+      40.8353
+    ],
+    "stampLocation": "Aomori Terminal Ticket Counter (総合案内窓口)",
+    "hours": "24 Stunden",
+    "operator": "津軽海峡フェリー",
+    "description": "Fährhafen Aomori für die Passage nordwärts nach Hakodate.",
+    "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=36"
+  },
+  {
+    "id": "ferry-heartland-wakkanai",
+    "name": "Heart Land Ferry (Wakkanai Terminal)",
+    "name_ja": "ハートランドフェリー 稚内ターミナル (第四五番社)",
+    "name_romaji": "Heart Land Ferry Wakkanai Terminal",
+    "category": "ferry",
+    "prefecture": "Hokkaido",
+    "city": "Wakkanai",
+    "address": "Kaiun 2-chome, Wakkanai, Hokkaido 097-0023",
+    "coordinates": [
+      141.6853,
+      45.4158
+    ],
+    "stampLocation": "Wakkanai Port Ticket Office (稚内フェリーターミナル出札窓口)",
+    "hours": "06:00 - 17:30",
+    "operator": "ハートランドフェリー",
+    "description": "Ausgangspunkt zu den nördlichen Naturinseln Rishiri (Rishiri-Fuji) und Rebun (Blumeninsel).",
+    "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=45"
+  },
+  {
+    "id": "ferry-taiheiyo-nagoya",
+    "name": "Taiheiyo Ferry (Nagoya Port)",
+    "name_ja": "太平洋フェリー 名古屋港 (第三二番社)",
+    "name_romaji": "Taiheiyō Ferry Nagoya-kō",
+    "category": "ferry",
+    "prefecture": "Aichi",
+    "city": "Nagoya",
+    "address": "Shiomicho, Minato Ward, Nagoya, Aichi 455-0848",
+    "coordinates": [
+      136.8528,
+      35.0475
+    ],
+    "stampLocation": "Nagoya Ferry Terminal 2F Ticket Office & Shop an Bord (いしかり・きそ・きたかみ)",
+    "hours": "09:00 - 19:00",
+    "operator": "太平洋フェリー (Taiheiyo Ferry)",
+    "description": "Preisgekrönte Kreuzfahrt-Fähre auf der 40-stündigen Pazifikroute Nagoya – Sendai – Tomakomai (Hokkaido).",
+    "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=32"
+  },
+  {
+    "id": "ferry-shin-nihonkai-otaru",
+    "name": "Shin Nihonkai Ferry (Otaru Port)",
+    "name_ja": "新日本海フェリー 小樽港 (第二七番社)",
+    "name_romaji": "Shin Nihonkai Ferry Otaru-kō",
+    "category": "ferry",
+    "prefecture": "Hokkaido",
+    "city": "Otaru",
+    "address": "Chikko, Otaru, Hokkaido 047-0008",
+    "coordinates": [
+      141.0267,
+      43.1844
+    ],
+    "stampLocation": "Otaru Ferry Terminal 1F Ticket Counter & Schiffsrezeption",
+    "hours": "09:00 - 23:30",
+    "operator": "新日本海フェリー",
+    "description": "Schnellfähren quer über das Japanische Meer zwischen Otaru und Maizuru / Niigata.",
+    "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=27"
+  },
+  {
+    "id": "ferry-shin-nihonkai-maizuru",
+    "name": "Shin Nihonkai Ferry (Maizuru Port)",
+    "name_ja": "新日本海フェリー 舞鶴港 (第二七番社)",
+    "name_romaji": "Shin Nihonkai Ferry Maizuru-kō",
+    "category": "ferry",
+    "prefecture": "Kyoto",
+    "city": "Maizuru",
+    "address": "Hamazoe, Maizuru, Kyoto 625-0086",
+    "coordinates": [
+      135.3931,
+      35.4522
+    ],
+    "stampLocation": "Maizuru Ferry Terminal Ticket Counter (舞鶴フェリーターミナル出札窓口)",
+    "hours": "09:00 - 24:00",
+    "operator": "新日本海フェリー",
+    "description": "Kansai-Tor nach Hokkaido durch die Meerenge von Wakasa.",
+    "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=27"
+  },
+  {
+    "id": "ferry-mol-sunflower-oarai",
+    "name": "MOL Sunflower (Oarai Port Terminal)",
+    "name_ja": "商船三井さんふらわあ 大洗港 (第二一番社)",
+    "name_romaji": "Shōsen Mitsui Sunflower Ōarai-kō",
+    "category": "ferry",
+    "prefecture": "Ibaraki",
+    "city": "Oarai",
+    "address": "Minatochō, Oarai, Higashiibaraki District, Ibaraki 311-1305",
+    "coordinates": [
+      140.575,
+      36.3092
+    ],
+    "stampLocation": "Oarai Terminal Ticket Counter & Sunflower Shop (1階発券窓口)",
+    "hours": "09:00 - 19:30",
+    "operator": "商船三井さんふらわあ",
+    "description": "Die berühmten Sonnenblumen-Schiffe 'Sunflower' verbinden Kanto (Oarai) mit Hokkaido (Tomakomai).",
+    "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=21"
+  },
+  {
+    "id": "ferry-mol-sunflower-osaka",
+    "name": "MOL Sunflower (Osaka Nanko to Beppu)",
+    "name_ja": "商船三井さんふらわあ 大阪南港 (第二一番社)",
+    "name_romaji": "Shōsen Mitsui Sunflower Ōsaka Nankō",
+    "category": "ferry",
+    "prefecture": "Osaka",
+    "city": "Osaka",
+    "address": "2-2-24 Nankokita, Suminoe Ward, Osaka, 559-0034",
+    "coordinates": [
+      135.4183,
+      34.6367
+    ],
+    "stampLocation": "Osaka Nanko Cosmo Ferry Terminal 2F Ticket Office & Rezeption an Bord",
+    "hours": "15:00 - 20:00",
+    "operator": "商船三井さんふらわあ",
+    "description": "Traditionsreiche Nachtüberfahrt durch das Seto-Binnenmeer direkt zum Onsen-Paradies Beppu.",
+    "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=21"
+  },
+  {
+    "id": "ferry-meimon-taiyo-osaka",
+    "name": "Meimon Taiyo Ferry (Osaka Nanko)",
+    "name_ja": "名門大洋フェリー 大阪南港 (第五四番社)",
+    "name_romaji": "Meimon Taiyō Ferry Ōsaka Nankō",
+    "category": "ferry",
+    "prefecture": "Osaka",
+    "city": "Osaka",
+    "address": "2-4-24 Nankominami, Suminoe Ward, Osaka, 559-0032",
+    "coordinates": [
+      135.4214,
+      34.6186
+    ],
+    "stampLocation": "Nanko Ferry Terminal 2F Ticket Counter (窓口案内所)",
+    "hours": "14:30 - 20:00",
+    "operator": "名門大洋フェリー",
+    "description": "Täglich zwei Abfahrten von Osaka nach Shin-Moji (Kyushu) unter drei beleuchteten Hängebrücken (Akashi, Seto Ohashi, Kurushima).",
+    "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=54"
+  },
+  {
+    "id": "ferry-hankyu-kobe",
+    "name": "Hankyu Ferry (Kobe Rokko Island Port)",
+    "name_ja": "阪九フェリー 神戸六甲アイランド (第四八番社)",
+    "name_romaji": "Hankyū Ferry Kōbe Rokkō Island",
+    "category": "ferry",
+    "prefecture": "Hyogo",
+    "city": "Kobe",
+    "address": "Koyocho Nishi, Higashinada Ward, Kobe, Hyogo 658-0033",
+    "coordinates": [
+      135.2636,
+      34.6853
+    ],
+    "stampLocation": "Rokko Island Ferry Terminal 2F Ticket Office & Shop an Bord",
+    "hours": "15:30 - 20:30",
+    "operator": "阪九フェリー",
+    "description": "Nachtfähren von Kobe nach Shin-Moji (Kitakyushu) mit Freiluft-Thermalbädern an Deck.",
+    "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=48"
+  },
+  {
+    "id": "ferry-ocean-tokyu-tokyo",
+    "name": "Ocean Tokyu Ferry (Tokyo Ariake Port)",
+    "name_ja": "オーシャン東九フェリー 東京有明 (第五番社)",
+    "name_romaji": "Ocean Tōkyū Ferry Tōkyō Ariake",
+    "category": "ferry",
+    "prefecture": "Tokyo",
+    "city": "Koto-ku",
+    "address": "4-8-6 Ariake, Koto City, Tokyo 135-0063",
+    "coordinates": [
+      139.7942,
+      35.6264
+    ],
+    "stampLocation": "Tokyo Ferry Terminal Ticket Counter & Shop an Bord (フェリーターミナル出札)",
+    "hours": "14:00 - 19:30",
+    "operator": "オーシャン東九フェリー",
+    "description": "Verbindet Tokio (Ariake), Tokushima (Shikoku) und Shin-Moji (Kyushu) auf einer epischen 34-stündigen Seereise.",
+    "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=5"
+  },
+  {
+    "id": "ferry-biwako-kisen-otsu",
+    "name": "Biwako Kisen (Otsu Port / Lake Biwa)",
+    "name_ja": "琵琶湖汽船 大津港 (第四七番社)",
+    "name_romaji": "Biwako Kisen Ōtsu-kō",
+    "category": "ferry",
+    "prefecture": "Shiga",
+    "city": "Otsu",
+    "address": "Hamaotsu 5-chome, Otsu, Shiga 520-0047",
+    "coordinates": [
+      135.8647,
+      35.0114
+    ],
+    "stampLocation": "Otsu Port Ticket Counter (大津港出札窓口)",
+    "hours": "09:00 - 17:00",
+    "operator": "琵琶湖汽船 (Biwako Kisen)",
+    "description": "Schaufelrad-Dampfer 'Michigan' und Ausflugsschiffe auf Japans größtem Binnensee sowie zur heiligen Insel Chikubushima.",
+    "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=47"
+  },
+  {
+    "id": "ferry-nankai-wakayama",
+    "name": "Nankai Ferry (Wakayama Port)",
+    "name_ja": "南海フェリー 和歌山港 (第四三番社)",
+    "name_romaji": "Nankai Ferry Wakayama-kō",
+    "category": "ferry",
+    "prefecture": "Wakayama",
+    "city": "Wakayama",
+    "address": "Minato 2835-1, Wakayama, 640-8404",
+    "coordinates": [
+      135.1436,
+      34.2189
+    ],
+    "stampLocation": "Wakayama Port Terminal Ticket Office (和歌山港駅直結 発券窓口)",
+    "hours": "05:00 - 22:00",
+    "operator": "南海フェリー",
+    "description": "Direkte 2-Stunden-Fährverbindung zwischen dem Nankai-Bahnnetz in Kansai und Tokushima auf Shikoku.",
+    "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=43"
+  },
+  {
+    "id": "ferry-jumbo-kobe",
+    "name": "Jumbo Ferry (Kobe Sannomiya Terminal)",
+    "name_ja": "ジャンボフェリー 神戸三宮フェリーターミナル (第二〇番社)",
+    "name_romaji": "Jumbo Ferry Kōbe Sannomiya Terminal",
+    "category": "ferry",
+    "prefecture": "Hyogo",
+    "city": "Kobe",
+    "address": "Shinkocho, Chuo Ward, Kobe, Hyogo 650-0041",
+    "coordinates": [
+      135.2017,
+      34.6833
+    ],
+    "stampLocation": "Kobe Sannomiya Terminal Ticket Window (3階発券窓口)",
+    "hours": "06:00 - 24:00",
+    "operator": "ジャンボフェリー",
+    "description": "Beliebte Panoramaroute (Aoi und Ritsurin 2) von Kobe über die Oliveninsel Shodoshima nach Takamatsu.",
+    "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=20"
+  },
+  {
+    "id": "ferry-shodoshima-ryobi-takamatsu",
+    "name": "Shodoshima Ferry (Takamatsu Port)",
+    "name_ja": "小豆島フェリー 高松港 (第一四番社)",
+    "name_romaji": "Shōdoshima Ferry Takamatsu-kō",
+    "category": "ferry",
+    "prefecture": "Kagawa",
+    "city": "Takamatsu",
+    "address": "Sunport, Takamatsu, Kagawa 760-0019",
+    "coordinates": [
+      134.0489,
+      34.3533
+    ],
+    "stampLocation": "Takamatsu Port Passenger Terminal Ticket Window (高松港第一切符売り場)",
+    "hours": "06:00 - 20:30",
+    "operator": "小豆島フェリー (国際両備フェリーグループ)",
+    "description": "Hauptüberfahrt von Takamatsu zum Tonosho-Hafen auf Shodoshima quer durch das ruhige Seto-Binnenmeer.",
+    "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=14"
+  },
+  {
+    "id": "ferry-shikoku-kisen-naoshima",
+    "name": "Shikoku Kisen (Naoshima Miyanoura Port)",
+    "name_ja": "四国汽船 直島 宮浦港 (第三四番社)",
+    "name_romaji": "Shikoku Kisen Naoshima Miyanoura-kō",
+    "category": "ferry",
+    "prefecture": "Kagawa",
+    "city": "Naoshima",
+    "address": "2249-40 Miyanoura, Naoshima, Kagawa District, Kagawa 761-3110",
+    "coordinates": [
+      133.9786,
+      34.4589
+    ],
+    "stampLocation": "Naoshima Miyanoura Ferry Terminal Ticket Counter (海の駅「なおしま」切符売場)",
+    "hours": "06:30 - 20:30",
+    "operator": "四国汽船",
+    "description": "Tor zur weltberühmten Kunstinsel Naoshima, direkt neben Yayoi Kusamas rotem Kürbis am Fährterminal 'Umi no Eki'.",
+    "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=34"
+  },
+  {
+    "id": "ferry-setonaikai-hiroshima",
+    "name": "Setonaikai Kisen (Hiroshima Port Terminal)",
+    "name_ja": "瀬戸内海汽船 広島港 (第二五番社)",
+    "name_romaji": "Setonaikai Kisen Hiroshima-kō",
+    "category": "ferry",
+    "prefecture": "Hiroshima",
+    "city": "Hiroshima",
+    "address": "1-13-13 Ujina Kaigan, Minami Ward, Hiroshima, 734-0011",
+    "coordinates": [
+      132.4647,
+      34.3547
+    ],
+    "stampLocation": "Hiroshima Port Passenger Terminal 1F Counter (瀬戸内海汽船発券カウンター)",
+    "hours": "06:30 - 20:00",
+    "operator": "瀬戸内海汽船 (Setonaikai Kisen)",
+    "description": "Verbindet Hiroshima und Kure mit Matsuyama (Ehime) auf Shikoku mit dem modernen Kreuzfahrt-Katamaran 'Sea PASEO'.",
+    "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=25"
+  },
+  {
+    "id": "ferry-ishizaki-matsuyama",
+    "name": "Ishizaki Kisen (Matsuyama Sightseeing Port)",
+    "name_ja": "石崎汽船 松山観光港 (第二番社)",
+    "name_romaji": "Ishizaki Kisen Matsuyama Kankō-kō",
+    "category": "ferry",
+    "prefecture": "Ehime",
+    "city": "Matsuyama",
+    "address": "Takahamacho, Matsuyama, Ehime 791-8081",
+    "coordinates": [
+      132.7058,
+      33.8825
+    ],
+    "stampLocation": "Matsuyama Kanko Port Ticket Window (松山観光港出札窓口)",
+    "hours": "06:30 - 21:00",
+    "operator": "石崎汽船 (Ishizaki Kisen - 第二番社)",
+    "description": "Gründungsmitglied des Gosen-in Projekts (Nr. 2), verbindet Shikokus Kulturstadt Matsuyama mit Hiroshima.",
+    "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=2"
+  },
+  {
+    "id": "ferry-kokudou-kyushi-saganoseki",
+    "name": "Kokudou Kyushi Ferry (Saganoseki Port)",
+    "name_ja": "国道九四フェリー 佐賀関港 (第四九番社)",
+    "name_romaji": "Kokudō Kyūshi Ferry Saganoseki-kō",
+    "category": "ferry",
+    "prefecture": "Oita",
+    "city": "Oita",
+    "address": "Saganoseki, Oita, 879-2201",
+    "coordinates": [
+      131.8681,
+      33.2508
+    ],
+    "stampLocation": "Saganoseki Terminal Ticket Office (佐賀関港発券所)",
+    "hours": "06:30 - 23:00",
+    "operator": "国道九四フェリー",
+    "description": "Kürzeste Verbindung zwischen Kyushu (Oita) und Shikoku (Kap Sada) in nur 70 Minuten über den Bungo-Kanal.",
+    "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=49"
+  },
+  {
+    "id": "ferry-uwajima-unyu-yawatahama",
+    "name": "Uwajima Unyu Ferry (Yawatahama Port)",
+    "name_ja": "宇和島運輸フェリー 八幡浜港 (第五二番社)",
+    "name_romaji": "Uwajima Unyu Ferry Yawatahama-kō",
+    "category": "ferry",
+    "prefecture": "Ehime",
+    "city": "Yawatahama",
+    "address": "Oki-shinden, Yawatahama, Ehime 796-0087",
+    "coordinates": [
+      132.4181,
+      33.4569
+    ],
+    "stampLocation": "Yawatahama Port Ferry Terminal 1F Ticket Office (窓口案内所)",
+    "hours": "05:00 - 23:30",
+    "operator": "宇和島運輸フェリー",
+    "description": "Gegründet 1884, verbindet Yawatahama auf Shikoku mit Beppu und Oita auf Kyushu.",
+    "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=52"
+  },
+  {
+    "id": "ferry-kumamoto-ferry",
+    "name": "Kumamoto Ferry (Kumamoto Port)",
+    "name_ja": "熊本フェリー 熊本港 (第一一番社)",
+    "name_romaji": "Kumamoto Ferry Kumamoto-kō",
+    "category": "ferry",
+    "prefecture": "Kumamoto",
+    "city": "Kumamoto",
+    "address": "Shinhama-machi, Nishi Ward, Kumamoto, 861-5274",
+    "coordinates": [
+      130.6033,
+      32.7667
+    ],
+    "stampLocation": "Kumamoto Port Terminal Ticket Office (熊本港乗船券売り場)",
+    "hours": "07:00 - 18:30",
+    "operator": "熊本フェリー (Ocean Arrow)",
+    "description": "Hochgeschwindigkeits-Katamaran 'Ocean Arrow' verbindet Kumamoto in nur 30 Minuten mit Shimabara (Nagasaki).",
+    "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=11"
+  },
+  {
+    "id": "ferry-aline-kagoshima",
+    "name": "Marue Ferry / A-Line (Kagoshima New Port)",
+    "name_ja": "マルエーフェリー / A-Line 鹿児島新港 (第八一番社)",
+    "name_romaji": "Marue Ferry A-Line Kagoshima Shinkō",
+    "category": "ferry",
+    "prefecture": "Kagoshima",
+    "city": "Kagoshima",
+    "address": "Shinmachi, Kagoshima, 892-0835",
+    "coordinates": [
+      130.5694,
+      31.5786
+    ],
+    "stampLocation": "Kagoshima Shinko Passenger Waiting Terminal & Rezeption an Bord (フェリー波之上)",
+    "hours": "14:00 - 18:00",
+    "operator": "マルエーフェリー (A-Line)",
+    "description": "Die große Inselroute von Kagoshima über Amami Oshima, Tokunoshima, Erabu und Yoron nach Naha (Okinawa).",
+    "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=81"
+  },
+  {
+    "id": "ferry-marix-line-kagoshima",
+    "name": "Marix Line (Kagoshima to Okinawa)",
+    "name_ja": "マリックスライン 鹿児島新港 (第八二番社)",
+    "name_romaji": "Marix Line Kagoshima Shinkō",
+    "category": "ferry",
+    "prefecture": "Kagoshima",
+    "city": "Kagoshima",
+    "address": "Shinmachi, Kagoshima, 892-0835",
+    "coordinates": [
+      130.5692,
+      31.5781
+    ],
+    "stampLocation": "Kagoshima Shinko Ticket Window & Schiffsrezeption (クイーンコーラルクロス)",
+    "hours": "14:00 - 18:00",
+    "operator": "マリックスライン (Marix Line)",
+    "description": "Traditionsreederei der Amami- und Ryukyu-Inseln mit den Fährschiffen 'Queen Coral Plus' und 'Queen Coral Cross'.",
+    "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=82"
+  },
+  {
+    "id": "ferry-toppy-rocket-kagoshima",
+    "name": "Tane-Yaku Jetfoil (Kagoshima Port Minami Pier)",
+    "name_ja": "種子屋久高速船 トッピー＆ロケット 鹿児島港 (第一一六番社)",
+    "name_romaji": "Tane-Yaku Kōsokusen Toppy & Rocket Kagoshima-kō",
+    "category": "ferry",
+    "prefecture": "Kagoshima",
+    "city": "Kagoshima",
+    "address": "Honkokucho, Kagoshima, 892-0814",
+    "coordinates": [
+      130.5636,
+      31.5939
+    ],
+    "stampLocation": "Kagoshima Port Minami Pier Ticket Counter (高速船ターミナル発券窓口)",
+    "hours": "06:30 - 17:30",
+    "operator": "種子屋久高速船",
+    "description": "Fliegende Jetfoils 'Toppy' und 'Rocket' mit 80 km/h von Kagoshima zu den UNESCO-Wäldern von Yakushima und dem Tanegashima-Weltraumzentrum.",
+    "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=116"
+  },
+  {
+    "id": "ferry-yaeyama-kanko-ishigaki",
+    "name": "Yaeyama Kanko Ferry (Ishigaki Port Terminal)",
+    "name_ja": "八重山観光フェリー 石垣港離島ターミナル (第七二番社)",
+    "name_romaji": "Yaeyama Kankō Ferry Ishigaki-kō",
+    "category": "ferry",
+    "prefecture": "Okinawa",
+    "city": "Ishigaki",
+    "address": "1 Misakicho, Ishigaki, Okinawa 907-0012",
+    "coordinates": [
+      124.1564,
+      24.3364
+    ],
+    "stampLocation": "Ishigaki Rito Terminal Yaeyama Kanko Counter (離島ターミナル内窓口)",
+    "hours": "06:30 - 18:00",
+    "operator": "八重山観光フェリー",
+    "description": "Hauptzugang zu den abgelegenen Inseln Taketomi, Iriomote (Uehara / Ohara), Kohama und Hatoma.",
+    "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=72"
+  },
+  {
+    "id": "ferry-anei-kanko-ishigaki",
+    "name": "Anei Kanko (Ishigaki Port Terminal)",
+    "name_ja": "安栄観光 石垣港離島ターミナル (第七三番社)",
+    "name_romaji": "Aneikankō Ishigaki-kō Rito Terminal",
+    "category": "ferry",
+    "prefecture": "Okinawa",
+    "city": "Ishigaki",
+    "address": "1 Misakicho, Ishigaki, Okinawa 907-0012",
+    "coordinates": [
+      124.1569,
+      24.3367
+    ],
+    "stampLocation": "Ishigaki Rito Terminal Anei Kanko Counter (安栄観光専用カウンター)",
+    "hours": "06:30 - 18:00",
+    "operator": "安栄観光",
+    "description": "Fahrten zur südlichsten bewohnten Insel Japans (Hateruma) sowie nach Taketomi, Kuroshima und Iriomote.",
+    "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=73"
+  },
+  {
+    "id": "ferry-kume-shosen-naha",
+    "name": "Kume Shosen (Naha Tomari Port Terminal)",
+    "name_ja": "久米商船 那覇泊港 とまりん (第一〇六番社)",
+    "name_romaji": "Kume Shōsen Naha Tomari-kō Tomarin",
+    "category": "ferry",
+    "prefecture": "Okinawa",
+    "city": "Naha",
+    "address": "3-25-1 Maejima, Naha, Okinawa 900-0016",
+    "coordinates": [
+      127.6833,
+      26.2239
+    ],
+    "stampLocation": "Tomarin 1F Kume Shosen Ticket Counter (とまりん出札窓口)",
+    "hours": "08:00 - 17:00",
+    "operator": "久米商船",
+    "description": "Fährverbindung (Ferry Ryukyu & Ferry Kumejima) von Naha nach Kumejima und Tonaki.",
+    "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=106"
+  },
+  {
+    "id": "ferry-oki-kisen-saigo",
+    "name": "Oki Kisen (Saigo Port / Oki Islands)",
+    "name_ja": "隠岐汽船 西郷港 (第八番社)",
+    "name_romaji": "Oki Kisen Saigō-kō",
+    "category": "ferry",
+    "prefecture": "Shimane",
+    "city": "Okinoshima",
+    "address": "Nakasenba, Okinoshima, Oki District, Shimane 685-0014",
+    "coordinates": [
+      133.3333,
+      36.2058
+    ],
+    "stampLocation": "Saigo Port Ferry Terminal Ticket Window (隠岐汽船出札窓口)",
+    "hours": "07:30 - 17:30",
+    "operator": "隠岐汽船 (第八番社)",
+    "description": "Verbindet Sakaiminato und Shichirui auf dem Festland mit den Oki-Inseln (Dogo und Dozen).",
+    "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=8"
   }
 ]
