@@ -144,14 +144,12 @@ const filteredStamps = computed(() => {
 function handleSelectStamp(stamp: Stamp) {
   selectedStamp.value = stamp;
   isDrawerOpen.value = true;
-  handleFocusMap(stamp.coordinates);
 }
 
 function handleSelectStampFromWishlist(stamp: Stamp) {
   isWishlistModalOpen.value = false;
   selectedStamp.value = stamp;
   isDrawerOpen.value = true;
-  handleFocusMap(stamp.coordinates);
 }
 
 function handleOpenNearbyModal() {
@@ -163,7 +161,6 @@ function handleSelectStampFromNearby(stamp: Stamp) {
   isNearbyModalOpen.value = false;
   selectedStamp.value = stamp;
   isDrawerOpen.value = true;
-  handleFocusMap(stamp.coordinates);
 }
 
 function handleCloseDrawer() {
@@ -187,7 +184,7 @@ async function handleToggleWishlist(stampId: string) {
 }
 
 function handleFocusMap(coordinates: [number, number]) {
-  mapContainerRef.value?.focusCoordinates(coordinates, 13);
+  mapContainerRef.value?.focusCoordinates(coordinates, 15);
 }
 
 function handleFitWishlistOnMap() {

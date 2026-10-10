@@ -513,23 +513,13 @@ watch(
             </p>
             <div class="mt-2.5 flex flex-wrap items-center gap-2">
               <button
-                v-if="stamp.imageUrl"
-                type="button"
-                @click="isImageModalOpen = true"
-                class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-700/80 hover:bg-slate-700 text-xs text-slate-200 hover:text-white font-medium border border-slate-600/60 transition-colors active:scale-95"
-                title="Enlarge stamp image"
-              >
-                <ZoomIn class="w-3.5 h-3.5 text-slate-300" />
-                <span>Zoom</span>
-              </button>
-
-              <button
                 type="button"
                 @click="$emit('focusMap', stamp.coordinates)"
-                class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-700/80 hover:bg-slate-700 text-xs text-rose-300 hover:text-white font-medium border border-slate-600/60 transition-colors active:scale-95"
+                class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-700/80 hover:bg-slate-700 text-xs text-rose-300 hover:text-white font-medium border border-slate-600/60 transition-colors active:scale-95 shadow-xs"
+                title="Zoom auf Stempellocation auf der Karte"
               >
-                <Compass class="w-3.5 h-3.5 text-rose-400" />
-                <span>Center on Map</span>
+                <ZoomIn class="w-3.5 h-3.5 text-rose-400" />
+                <span>Zoom</span>
               </button>
 
               <button

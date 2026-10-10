@@ -255,7 +255,7 @@ describe('StampDrawer Component', () => {
     vi.useRealTimers();
   });
 
-  it('opens image lightbox when stamp image thumbnail or zoom button is clicked', async () => {
+  it('opens image lightbox when stamp image thumbnail is clicked and emits focusMap when zoom button is clicked', async () => {
     const wrapper = mount(StampDrawer, {
       props: {
         stamp: sampleStamp,
@@ -266,7 +266,7 @@ describe('StampDrawer Component', () => {
 
     expect(wrapper.find('button[aria-label="Close image lightbox"]').exists()).toBe(false);
 
-    // Click on thumbnail container
+    // Click on thumbnail container to enlarge image
     const thumbnail = wrapper.find('[title="Click to inspect stamp in high resolution"]');
     expect(thumbnail.exists()).toBe(true);
     await thumbnail.trigger('click');
@@ -278,6 +278,12 @@ describe('StampDrawer Component', () => {
     // Close lightbox
     await lightboxClose.trigger('click');
     expect(wrapper.find('button[aria-label="Close image lightbox"]').exists()).toBe(false);
+
+    // Click Zoom button -> emits focusMap to zoom on stamp location
+    const zoomBtn = wrapper.find('button[title="Zoom auf Stempellocation auf der Karte"]');
+    expect(zoomBtn.exists()).toBe(true);
+    await zoomBtn.trigger('click');
+    expect(wrapper.emitted('focusMap')?.[0]).toEqual([sampleStamp.coordinates]);
   });
 
   it('opens stamp source provenance modal when Info button or Source card is clicked', async () => {
@@ -387,16 +393,22 @@ describe('CategoryFilters Component', () => {
     // Desktop Lightbox initially closed
     expect(wrapper.find('button[aria-label="Close image lightbox"]').exists()).toBe(false);
 
-    // Click desktop zoom button
-    const zoomBtn = wrapper.find('button[title="Enlarge stamp image"]');
-    expect(zoomBtn.exists()).toBe(true);
-    await zoomBtn.trigger('click');
+    // Click desktop thumbnail container to open lightbox
+    const thumbnail = wrapper.find('[title="Click to inspect stamp in high resolution"]');
+    expect(thumbnail.exists()).toBe(true);
+    await thumbnail.trigger('click');
 
     // Lightbox modal should be open
     const lightboxClose = wrapper.find('button[aria-label="Close image lightbox"]');
     expect(lightboxClose.exists()).toBe(true);
     await lightboxClose.trigger('click');
     expect(wrapper.find('button[aria-label="Close image lightbox"]').exists()).toBe(false);
+
+    // Click desktop zoom button -> emits focusMap to zoom on stamp location
+    const zoomBtn = wrapper.find('button[title="Zoom auf Stempellocation auf der Karte"]');
+    expect(zoomBtn.exists()).toBe(true);
+    await zoomBtn.trigger('click');
+    expect(wrapper.emitted('focusMap')?.[0]).toEqual([sampleStamp.coordinates]);
 
     // Click Source info button
     expect(document.body.querySelector('[aria-label="Close source info"]')).toBeNull();
@@ -653,6 +665,36 @@ describe('MapContainer & Marker Click -> Drawer Integration', () => {
     expect(drawer.text()).toContain('Tokyo Station');
     expect(drawer.text()).toContain('東京駅');
     expect(drawer.text()).toContain('Marunouchi North Exit');
+  });
+
+  it('in App.vue, clicking a marker keeps map untouched and clicking Zoom button in drawer focuses map', async () => {
+    global.fetch = vi.fn().mockResolvedValue({
+      ok: true,
+      json: async () => [sampleStamp],
+    });
+
+    const wrapper = mount(App);
+    await new Promise((r) => setTimeout(r, 30));
+    await wrapper.vm.$nextTick();
+
+    const mapComp = wrapper.findComponent(MapContainer);
+    const exposed = (mapComp.vm as any).$.exposed;
+    const focusSpy = vi.spyOn(exposed, 'focusCoordinates');
+
+    // Selecting a stamp (marker click) does NOT focus or change the map
+    mapComp.vm.$emit('selectStamp', sampleStamp);
+    await wrapper.vm.$nextTick();
+    expect(focusSpy).not.toHaveBeenCalled();
+
+    // Clicking the Zoom button in StampDrawer focuses the map
+    const drawer = wrapper.findComponent(StampDrawer);
+    const zoomBtn = drawer.find('button[title="Zoom auf Stempellocation auf der Karte"]');
+    expect(zoomBtn.exists()).toBe(true);
+    await zoomBtn.trigger('click');
+    await wrapper.vm.$nextTick();
+
+    expect(drawer.emitted('focusMap')?.[0]).toEqual([sampleStamp.coordinates]);
+    expect(focusSpy).toHaveBeenCalledWith(sampleStamp.coordinates, 15);
   });
 
   it('in App.vue, categoryCounts dynamically counts stamps across all categories including onsen, ferry, airport, nature, lighthouse, museum, anime', async () => {

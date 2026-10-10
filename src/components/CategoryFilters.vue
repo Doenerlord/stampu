@@ -492,7 +492,7 @@ onUnmounted(() => {
             <div
               class="relative flex-shrink-0 w-20 h-20 bg-stone-50 rounded-xl p-1 shadow-md border border-stone-200 flex items-center justify-center overflow-hidden cursor-pointer group hover:ring-2 hover:ring-rose-400 transition-all"
               @click="selectedStamp.imageUrl ? (isImageModalOpen = true) : null"
-              title="Klicken zum Vergrößern (Click to enlarge stamp image)"
+              title="Click to inspect stamp in high resolution"
             >
               <img
                 v-if="selectedStamp.imageUrl && !hasImageError"
@@ -524,22 +524,13 @@ onUnmounted(() => {
               </p>
               <div class="mt-2 flex items-center gap-1.5 flex-wrap">
                 <button
-                  v-if="selectedStamp.imageUrl"
-                  type="button"
-                  @click="isImageModalOpen = true"
-                  class="inline-flex items-center gap-1 px-2 py-0.5 rounded-lg bg-slate-700/80 hover:bg-slate-700 text-xs text-slate-200 hover:text-white font-medium border border-slate-600/60 transition-colors"
-                  title="Enlarge stamp image"
-                >
-                  <ZoomIn class="w-3 h-3 text-slate-300" />
-                  <span>Zoom</span>
-                </button>
-                <button
                   type="button"
                   @click="$emit('focusMap', selectedStamp.coordinates)"
-                  class="inline-flex items-center gap-1 px-2 py-0.5 rounded-lg bg-slate-700/80 hover:bg-slate-700 text-xs text-rose-300 hover:text-white font-medium border border-slate-600/60 transition-colors"
+                  class="inline-flex items-center gap-1 px-2 py-0.5 rounded-lg bg-slate-700/80 hover:bg-slate-700 text-xs text-rose-300 hover:text-white font-medium border border-slate-600/60 transition-colors active:scale-95 shadow-xs"
+                  title="Zoom auf Stempellocation auf der Karte"
                 >
-                  <Compass class="w-3 h-3 text-rose-400" />
-                  <span>Center</span>
+                  <ZoomIn class="w-3 h-3 text-rose-400" />
+                  <span>Zoom</span>
                 </button>
                 <button
                   type="button"

@@ -328,18 +328,19 @@ function onClusterClick(clusterId: number, coordinates: [number, number], ev: Ev
   const currentZoom = map.getZoom() || 6;
   try {
     const expansionZoom = clusterIndex.getClusterExpansionZoom(clusterId);
-    const targetZoom = Math.max(expansionZoom, currentZoom + 2);
+    // Smoothly zoom in so the cluster splits up cleanly
+    const targetZoom = Math.max(currentZoom + 1.5, Math.min(expansionZoom, currentZoom + 2.5));
     map.easeTo({
       center: coordinates,
-      zoom: Math.min(targetZoom, 16),
-      duration: 500,
+      zoom: Math.min(targetZoom, 16.5),
+      duration: 450,
       essential: true,
     });
   } catch {
     map.easeTo({
       center: coordinates,
-      zoom: Math.min(currentZoom + 2.5, 16),
-      duration: 500,
+      zoom: Math.min(currentZoom + 2, 16.5),
+      duration: 450,
       essential: true,
     });
   }
@@ -475,7 +476,7 @@ function switchBasemap(styleKey: 'esri' | 'gsi_std' | 'gsi_pale') {
   });
 }
 
-function focusCoordinates(coordinates: [number, number], zoom = 12) {
+function focusCoordinates(coordinates: [number, number], zoom = 15) {
   if (!map) return;
   const isDesktop = typeof window !== 'undefined' && window.innerWidth >= 768;
   map.easeTo({
@@ -613,15 +614,6 @@ watch(
   { deep: true }
 );
 
-// If selected stamp changes, gently center on it and expand if clustered
-watch(
-  () => props.selectedStamp,
-  (newStamp) => {
-    if (newStamp && map) {
-      focusCoordinates(newStamp.coordinates, Math.max(map.getZoom(), 15));
-    }
-  }
-);
 
 defineExpose({
   focusCoordinates,
