@@ -53322,7 +53322,7 @@
     "id": "hw-kariya",
     "name": "伊勢湾岸自動車道刈谷PA (Isewangan Expressway)",
     "name_ja": "伊勢湾岸自動車道刈谷PA（伊勢湾岸自動車道）",
-    "name_romaji": "hw-kariya",
+    "name_romaji": "PA (Isewangan Expressway",
     "category": "highway",
     "prefecture": "Aichi",
     "city": "刈谷市",
@@ -53553,7 +53553,7 @@
     "id": "hw-shisui",
     "name": "東関東自動車道酒々井PA (Higashi-Kantō Expressway)",
     "name_ja": "東関東自動車道酒々井PA（東関東自動車道）",
-    "name_romaji": "hw-shisui",
+    "name_romaji": "PA (Higashi-Kantō Expressway",
     "category": "highway",
     "prefecture": "Chiba",
     "city": "印旛郡",
@@ -53574,7 +53574,7 @@
     "id": "hw-umihotaru",
     "name": "東京湾アクアライン海ほたるPA (Tokyo Bay Aqua-Line)",
     "name_ja": "東京湾アクアライン海ほたるPA（東京湾アクアライン）",
-    "name_romaji": "hw-umihotaru",
+    "name_romaji": "PA (Tokyo Bay Aqua-Line",
     "category": "highway",
     "prefecture": "Chiba",
     "city": "木更津市",
@@ -53595,7 +53595,7 @@
     "id": "hw-wanganmakuhari",
     "name": "東関東自動車道湾岸幕張PA (Higashi-Kantō Expressway)",
     "name_ja": "東関東自動車道湾岸幕張PA（東関東自動車道）",
-    "name_romaji": "hw-wanganmakuhari",
+    "name_romaji": "PA (Higashi-Kantō Expressway",
     "category": "highway",
     "prefecture": "Chiba",
     "city": "千葉市",
@@ -53616,7 +53616,7 @@
     "id": "hw-irino",
     "name": "松山自動車道入野PA (Matsuyama Expressway)",
     "name_ja": "松山自動車道入野PA（松山自動車道）",
-    "name_romaji": "hw-irino",
+    "name_romaji": "PA (Matsuyama Expressway",
     "category": "highway",
     "prefecture": "Ehime",
     "city": "四国中央市",
@@ -53637,7 +53637,7 @@
     "id": "hw-ishizuchisan",
     "name": "松山自動車道石鎚山SA (Matsuyama Expressway)",
     "name_ja": "松山自動車道石鎚山SA（松山自動車道）",
-    "name_romaji": "hw-ishizuchisan",
+    "name_romaji": "SA (Matsuyama Expressway",
     "category": "highway",
     "prefecture": "Ehime",
     "city": "西条市",
@@ -53658,7 +53658,7 @@
     "id": "hw-iyonada",
     "name": "松山自動車道伊予灘SA (Matsuyama Expressway)",
     "name_ja": "松山自動車道伊予灘SA（松山自動車道）",
-    "name_romaji": "hw-iyonada",
+    "name_romaji": "SA (Matsuyama Expressway",
     "category": "highway",
     "prefecture": "Ehime",
     "city": "伊予市",
@@ -53679,7 +53679,7 @@
     "id": "hw-kitasabae",
     "name": "北陸自動車道北鯖江PA (Hokuriku Expressway)",
     "name_ja": "北陸自動車道北鯖江PA（北陸自動車道）",
-    "name_romaji": "hw-kitasabae",
+    "name_romaji": "PA (Hokuriku Expressway",
     "category": "highway",
     "prefecture": "Fukui",
     "city": "鯖江市",
@@ -53700,7 +53700,7 @@
     "id": "hw-nanjo",
     "name": "北陸自動車道南条SA (Hokuriku Expressway)",
     "name_ja": "北陸自動車道南条SA（北陸自動車道）",
-    "name_romaji": "hw-nanjo",
+    "name_romaji": "SA (Hokuriku Expressway",
     "category": "highway",
     "prefecture": "Fukui",
     "city": "南条郡",
@@ -53721,7 +53721,7 @@
     "id": "hw-onagatani",
     "name": "北陸自動車道女形谷PA (Hokuriku Expressway)",
     "name_ja": "北陸自動車道女形谷PA（北陸自動車道）",
-    "name_romaji": "hw-onagatani",
+    "name_romaji": "PA (Hokuriku Expressway",
     "category": "highway",
     "prefecture": "Fukui",
     "city": "坂井市",
@@ -53742,7 +53742,7 @@
     "id": "hw-suizu",
     "name": "北陸自動車道杉津PA (Hokuriku Expressway)",
     "name_ja": "北陸自動車道杉津PA（北陸自動車道）",
-    "name_romaji": "hw-suizu",
+    "name_romaji": "PA (Hokuriku Expressway",
     "category": "highway",
     "prefecture": "Fukui",
     "city": "敦賀市",
@@ -53763,7 +53763,7 @@
     "id": "hw-imagawa",
     "name": "東九州自動車道今川PA (Higashi-Kyūshū Expressway)",
     "name_ja": "東九州自動車道今川PA（東九州自動車道）",
-    "name_romaji": "hw-imagawa",
+    "name_romaji": "PA (Higashi-Kyūshū Expressway",
     "category": "highway",
     "prefecture": "Fukuoka",
     "city": "行橋市",
@@ -53784,7 +53784,7 @@
     "id": "hw-kishi",
     "name": "九州自動車道吉志PA (Kyūshū Expressway)",
     "name_ja": "九州自動車道吉志PA（九州自動車道）",
-    "name_romaji": "hw-kishi",
+    "name_romaji": "PA (Kyūshū Expressway",
     "category": "highway",
     "prefecture": "Fukuoka",
     "city": "北九州市",
@@ -53805,7 +53805,7 @@
     "id": "hw-kiyama",
     "name": "九州自動車道基山PA (Kyūshū Expressway)",
     "name_ja": "九州自動車道基山PA（九州自動車道）",
-    "name_romaji": "hw-kiyama",
+    "name_romaji": "PA (Kyūshū Expressway",
     "category": "highway",
     "prefecture": "Fukuoka",
     "city": "三養基郡",
@@ -53826,7 +53826,7 @@
     "id": "hw-koga",
     "name": "九州自動車道古賀SA (Kyūshū Expressway)",
     "name_ja": "九州自動車道古賀SA（九州自動車道）",
-    "name_romaji": "hw-koga",
+    "name_romaji": "SA (Kyūshū Expressway",
     "category": "highway",
     "prefecture": "Fukuoka",
     "city": "古賀市",
@@ -53847,7 +53847,7 @@
     "id": "hw-kurate",
     "name": "九州自動車道鞍手PA (Kyūshū Expressway)",
     "name_ja": "九州自動車道鞍手PA（九州自動車道）",
-    "name_romaji": "hw-kurate",
+    "name_romaji": "PA (Kyūshū Expressway",
     "category": "highway",
     "prefecture": "Fukuoka",
     "city": "鞍手郡",
@@ -53868,7 +53868,7 @@
     "id": "hw-sue",
     "name": "九州自動車道須恵PA (Kyūshū Expressway)",
     "name_ja": "九州自動車道須恵PA（九州自動車道）",
-    "name_romaji": "hw-sue",
+    "name_romaji": "PA (Kyūshū Expressway",
     "category": "highway",
     "prefecture": "Fukuoka",
     "city": "糟屋郡",
@@ -53910,7 +53910,7 @@
     "id": "hw-abukumakogen",
     "name": "磐越自動車道阿武隈高原SA (Ban'etsu Expressway)",
     "name_ja": "磐越自動車道阿武隈高原SA（磐越自動車道）",
-    "name_romaji": "hw-abukumakogen",
+    "name_romaji": "SA (Ban'etsu Expressway",
     "category": "highway",
     "prefecture": "Fukushima",
     "city": "田村",
@@ -53973,7 +53973,7 @@
     "id": "hw-bandaisan",
     "name": "磐越自動車道磐梯山SA (Ban'etsu Expressway)",
     "name_ja": "磐越自動車道磐梯山SA（磐越自動車道）",
-    "name_romaji": "hw-bandaisan",
+    "name_romaji": "SA (Ban'etsu Expressway",
     "category": "highway",
     "prefecture": "Fukushima",
     "city": "耶麻郡",
@@ -54015,7 +54015,7 @@
     "id": "hw-gohyakugawa",
     "name": "磐越自動車道五百川PA (Ban'etsu Expressway)",
     "name_ja": "磐越自動車道五百川PA（磐越自動車道）",
-    "name_romaji": "hw-gohyakugawa",
+    "name_romaji": "PA (Ban'etsu Expressway",
     "category": "highway",
     "prefecture": "Fukushima",
     "city": "郡山市",
@@ -54099,7 +54099,7 @@
     "id": "hw-minamisomakashima",
     "name": "常磐自動車道南相馬鹿島SA (Jōban Expressway)",
     "name_ja": "常磐自動車道南相馬鹿島SA（常磐自動車道）",
-    "name_romaji": "hw-minamisomakashima",
+    "name_romaji": "SA (Jōban Expressway",
     "category": "highway",
     "prefecture": "Fukushima",
     "city": "南相馬市",
@@ -54120,7 +54120,7 @@
     "id": "hw-yotsukura",
     "name": "常磐自動車道四倉PA (Jōban Expressway)",
     "name_ja": "常磐自動車道四倉PA（常磐自動車道）",
-    "name_romaji": "hw-yotsukura",
+    "name_romaji": "PA (Jōban Expressway",
     "category": "highway",
     "prefecture": "Fukushima",
     "city": "いわき市",
@@ -54183,7 +54183,7 @@
     "id": "hw-hiruganokogen",
     "name": "東海北陸自動車道ひるがの高原SA (Tōkai-Hokuriku Expressway)",
     "name_ja": "東海北陸自動車道ひるがの高原SA（東海北陸自動車道）",
-    "name_romaji": "hw-hiruganokogen",
+    "name_romaji": "SA (Tōkai-Hokuriku Expressway",
     "category": "highway",
     "prefecture": "Gifu",
     "city": "郡上市",
@@ -54246,7 +54246,7 @@
     "id": "hw-kawashima",
     "name": "東海北陸自動車道川島PA (Tōkai-Hokuriku Expressway)",
     "name_ja": "東海北陸自動車道川島PA（東海北陸自動車道）",
-    "name_romaji": "hw-kawashima",
+    "name_romaji": "PA (Tōkai-Hokuriku Expressway",
     "category": "highway",
     "prefecture": "Gifu",
     "city": "各務原市",
@@ -54267,7 +54267,7 @@
     "id": "hw-nagaragawa",
     "name": "東海北陸自動車道長良川SA (Tōkai-Hokuriku Expressway)",
     "name_ja": "東海北陸自動車道長良川SA（東海北陸自動車道）",
-    "name_romaji": "hw-nagaragawa",
+    "name_romaji": "SA (Tōkai-Hokuriku Expressway",
     "category": "highway",
     "prefecture": "Gifu",
     "city": "関市",
@@ -54288,7 +54288,7 @@
     "id": "hw-seki",
     "name": "東海北陸自動車道関SA (Tōkai-Hokuriku Expressway)",
     "name_ja": "東海北陸自動車道関SA（東海北陸自動車道）",
-    "name_romaji": "hw-seki",
+    "name_romaji": "SA (Tōkai-Hokuriku Expressway",
     "category": "highway",
     "prefecture": "Gifu",
     "city": "関市",
@@ -54351,7 +54351,7 @@
     "id": "hw-kanra",
     "name": "上信越自動車道甘楽PA (Jōshin'etsu Expressway)",
     "name_ja": "上信越自動車道甘楽PA（上信越自動車道）",
-    "name_romaji": "hw-kanra",
+    "name_romaji": "PA (Jōshin'etsu Expressway",
     "category": "highway",
     "prefecture": "Gunma",
     "city": "甘楽郡",
@@ -54393,7 +54393,7 @@
     "id": "hw-sapa-100",
     "name": "上信越自動車道藤岡PA (Jōshin'etsu Expressway)",
     "name_ja": "上信越自動車道藤岡PA（上信越自動車道）",
-    "name_romaji": "hw-sapa-100",
+    "name_romaji": "PA (Jōshin'etsu Expressway",
     "category": "highway",
     "prefecture": "Gunma",
     "city": "藤岡市",
@@ -54435,7 +54435,7 @@
     "id": "hw-yokokawa",
     "name": "上信越自動車道横川SA (Jōshin'etsu Expressway)",
     "name_ja": "上信越自動車道横川SA（上信越自動車道）",
-    "name_romaji": "hw-yokokawa",
+    "name_romaji": "SA (Jōshin'etsu Expressway",
     "category": "highway",
     "prefecture": "Gunma",
     "city": "安中市",
@@ -54456,7 +54456,7 @@
     "id": "hw-asa",
     "name": "中国自動車道安佐SA (Chūgoku Expressway)",
     "name_ja": "中国自動車道安佐SA（中国自動車道）",
-    "name_romaji": "hw-asa",
+    "name_romaji": "SA (Chūgoku Expressway",
     "category": "highway",
     "prefecture": "Hiroshima",
     "city": "広島市",
@@ -54477,7 +54477,7 @@
     "id": "hw-fukuyama",
     "name": "山陽自動車道福山SA (San'yō Expressway)",
     "name_ja": "山陽自動車道福山SA（山陽自動車道）",
-    "name_romaji": "hw-fukuyama",
+    "name_romaji": "SA (San'yō Expressway",
     "category": "highway",
     "prefecture": "Hiroshima",
     "city": "福山市",
@@ -54498,7 +54498,7 @@
     "id": "hw-kodani",
     "name": "山陽自動車道小谷SA (San'yō Expressway)",
     "name_ja": "山陽自動車道小谷SA（山陽自動車道）",
-    "name_romaji": "hw-kodani",
+    "name_romaji": "SA (San'yō Expressway",
     "category": "highway",
     "prefecture": "Hiroshima",
     "city": "東広島市",
@@ -54519,7 +54519,7 @@
     "id": "hw-miyajima",
     "name": "山陽自動車道宮島SA (San'yō Expressway)",
     "name_ja": "山陽自動車道宮島SA（山陽自動車道）",
-    "name_romaji": "hw-miyajima",
+    "name_romaji": "SA (San'yō Expressway",
     "category": "highway",
     "prefecture": "Hiroshima",
     "city": "廿日市",
@@ -54540,7 +54540,7 @@
     "id": "hw-nanatsukahara",
     "name": "中国自動車道七塚原SA (Chūgoku Expressway)",
     "name_ja": "中国自動車道七塚原SA（中国自動車道）",
-    "name_romaji": "hw-nanatsukahara",
+    "name_romaji": "SA (Chūgoku Expressway",
     "category": "highway",
     "prefecture": "Hiroshima",
     "city": "庄原市",
@@ -54561,7 +54561,7 @@
     "id": "hw-numata",
     "name": "山陽自動車道沼田PA (San'yō Expressway)",
     "name_ja": "山陽自動車道沼田PA（山陽自動車道）",
-    "name_romaji": "hw-numata",
+    "name_romaji": "PA (San'yō Expressway",
     "category": "highway",
     "prefecture": "Hiroshima",
     "city": "広島市",
@@ -54582,7 +54582,7 @@
     "id": "hw-ohama",
     "name": "西瀬戸自動車道大浜PA (Shimanami Kaidō)",
     "name_ja": "西瀬戸自動車道大浜PA（西瀬戸自動車道）",
-    "name_romaji": "hw-ohama",
+    "name_romaji": "PA (Shimanami Kaidō",
     "category": "highway",
     "prefecture": "Hiroshima",
     "city": "尾道市",
@@ -54603,7 +54603,7 @@
     "id": "hw-okuya",
     "name": "山陽自動車道奥屋PA (San'yō Expressway)",
     "name_ja": "山陽自動車道奥屋PA（山陽自動車道）",
-    "name_romaji": "hw-okuya",
+    "name_romaji": "PA (San'yō Expressway",
     "category": "highway",
     "prefecture": "Hiroshima",
     "city": "東広島市",
@@ -54624,7 +54624,7 @@
     "id": "hw-sanyotakasaka",
     "name": "山陽自動車道高坂PA (San'yō Expressway)",
     "name_ja": "山陽自動車道高坂PA（山陽自動車道）",
-    "name_romaji": "hw-sanyotakasaka",
+    "name_romaji": "PA (San'yō Expressway",
     "category": "highway",
     "prefecture": "Hiroshima",
     "city": "三原市",
@@ -54645,7 +54645,7 @@
     "id": "hw-setoda",
     "name": "西瀬戸自動車道瀬戸田PA (Shimanami Kaidō)",
     "name_ja": "西瀬戸自動車道瀬戸田PA（西瀬戸自動車道）",
-    "name_romaji": "hw-setoda",
+    "name_romaji": "PA (Shimanami Kaidō",
     "category": "highway",
     "prefecture": "Hiroshima",
     "city": "尾道市",
@@ -54666,7 +54666,7 @@
     "id": "hw-yahata",
     "name": "山陽自動車道八幡PA (San'yō Expressway)",
     "name_ja": "山陽自動車道八幡PA（山陽自動車道）",
-    "name_romaji": "hw-yahata",
+    "name_romaji": "PA (San'yō Expressway",
     "category": "highway",
     "prefecture": "Hiroshima",
     "city": "三原市",
@@ -54687,7 +54687,7 @@
     "id": "hw-iwamizawa",
     "name": "道央自動車道岩見沢SA (Dō-Ō Expressway)",
     "name_ja": "道央自動車道岩見沢SA（道央自動車道）",
-    "name_romaji": "hw-iwamizawa",
+    "name_romaji": "SA (Dō-Ō Expressway",
     "category": "highway",
     "prefecture": "Hokkaido",
     "city": "岩見沢市",
@@ -54708,7 +54708,7 @@
     "id": "hw-nopporo",
     "name": "道央自動車道野幌PA (Dō-Ō Expressway)",
     "name_ja": "道央自動車道野幌PA（道央自動車道）",
-    "name_romaji": "hw-nopporo",
+    "name_romaji": "PA (Dō-Ō Expressway",
     "category": "highway",
     "prefecture": "Hokkaido",
     "city": "江別市",
@@ -54729,7 +54729,7 @@
     "id": "hw-osarushi",
     "name": "道東自動車道長流枝PA (Dōtō Expressway)",
     "name_ja": "道東自動車道長流枝PA（道東自動車道）",
-    "name_romaji": "hw-osarushi",
+    "name_romaji": "PA (Dōtō Expressway",
     "category": "highway",
     "prefecture": "Hokkaido",
     "city": "河東郡",
@@ -54750,7 +54750,7 @@
     "id": "hw-pipputaisetsu",
     "name": "道央自動車道比布大雪PA (Dō-Ō Expressway)",
     "name_ja": "道央自動車道比布大雪PA（道央自動車道）",
-    "name_romaji": "hw-pipputaisetsu",
+    "name_romaji": "PA (Dō-Ō Expressway",
     "category": "highway",
     "prefecture": "Hokkaido",
     "city": "上川郡",
@@ -54771,7 +54771,7 @@
     "id": "hw-shimukappu",
     "name": "道東自動車道占冠PA (Dōtō Expressway)",
     "name_ja": "道東自動車道占冠PA（道東自動車道）",
-    "name_romaji": "hw-shimukappu",
+    "name_romaji": "PA (Dōtō Expressway",
     "category": "highway",
     "prefecture": "Hokkaido",
     "city": "勇払郡",
@@ -54792,7 +54792,7 @@
     "id": "hw-sunagawa",
     "name": "道央自動車道砂川SA (Dō-Ō Expressway)",
     "name_ja": "道央自動車道砂川SA（道央自動車道）",
-    "name_romaji": "hw-sunagawa",
+    "name_romaji": "SA (Dō-Ō Expressway",
     "category": "highway",
     "prefecture": "Hokkaido",
     "city": "砂川市",
@@ -54813,7 +54813,7 @@
     "id": "hw-tarumae",
     "name": "道央自動車道樽前SA (Dō-Ō Expressway)",
     "name_ja": "道央自動車道樽前SA（道央自動車道）",
-    "name_romaji": "hw-tarumae",
+    "name_romaji": "SA (Dō-Ō Expressway",
     "category": "highway",
     "prefecture": "Hokkaido",
     "city": "苫小牧市",
@@ -54834,7 +54834,7 @@
     "id": "hw-tokachiheigen",
     "name": "道東自動車道十勝平原SA (Dōtō Expressway)",
     "name_ja": "道東自動車道十勝平原SA（道東自動車道）",
-    "name_romaji": "hw-tokachiheigen",
+    "name_romaji": "SA (Dōtō Expressway",
     "category": "highway",
     "prefecture": "Hokkaido",
     "city": "河西郡",
@@ -54855,7 +54855,7 @@
     "id": "hw-usuzan",
     "name": "道央自動車道有珠山SA (Dō-Ō Expressway)",
     "name_ja": "道央自動車道有珠山SA（道央自動車道）",
-    "name_romaji": "hw-usuzan",
+    "name_romaji": "SA (Dō-Ō Expressway",
     "category": "highway",
     "prefecture": "Hokkaido",
     "city": "伊達市",
@@ -54876,7 +54876,7 @@
     "id": "hw-wattsu",
     "name": "道央自動車道輪厚PA (Dō-Ō Expressway)",
     "name_ja": "道央自動車道輪厚PA（道央自動車道）",
-    "name_romaji": "hw-wattsu",
+    "name_romaji": "PA (Dō-Ō Expressway",
     "category": "highway",
     "prefecture": "Hokkaido",
     "city": "北広島市",
@@ -54897,7 +54897,7 @@
     "id": "hw-yakumo",
     "name": "道央自動車道八雲PA (Dō-Ō Expressway)",
     "name_ja": "道央自動車道八雲PA（道央自動車道）",
-    "name_romaji": "hw-yakumo",
+    "name_romaji": "PA (Dō-Ō Expressway",
     "category": "highway",
     "prefecture": "Hokkaido",
     "city": "二海郡",
@@ -54918,7 +54918,7 @@
     "id": "hw-yuni",
     "name": "道東自動車道由仁PA (Dōtō Expressway)",
     "name_ja": "道東自動車道由仁PA（道東自動車道）",
-    "name_romaji": "hw-yuni",
+    "name_romaji": "PA (Dōtō Expressway",
     "category": "highway",
     "prefecture": "Hokkaido",
     "city": "夕張郡",
@@ -54939,7 +54939,7 @@
     "id": "hw-akamatsu",
     "name": "中国自動車道赤松PA (Chūgoku Expressway)",
     "name_ja": "中国自動車道赤松PA（中国自動車道）",
-    "name_romaji": "hw-akamatsu",
+    "name_romaji": "PA (Chūgoku Expressway",
     "category": "highway",
     "prefecture": "Hyogo",
     "city": "神戸市",
@@ -54960,7 +54960,7 @@
     "id": "hw-awaji",
     "name": "神戸淡路鳴門自動車道淡路SA (Kōbe-Awaji-Naruto Expressway)",
     "name_ja": "神戸淡路鳴門自動車道淡路SA（神戸淡路鳴門自動車道）",
-    "name_romaji": "hw-awaji",
+    "name_romaji": "SA (Kōbe-Awaji-Naruto Expressway",
     "category": "highway",
     "prefecture": "Hyogo",
     "city": "淡路市",
@@ -54981,7 +54981,7 @@
     "id": "hw-awajishimaminami",
     "name": "神戸淡路鳴門自動車道淡路島南PA (Kōbe-Awaji-Naruto Expressway)",
     "name_ja": "神戸淡路鳴門自動車道淡路島南PA（神戸淡路鳴門自動車道）",
-    "name_romaji": "hw-awajishimaminami",
+    "name_romaji": "PA (Kōbe-Awaji-Naruto Expressway",
     "category": "highway",
     "prefecture": "Hyogo",
     "city": "南あわじ市",
@@ -55002,7 +55002,7 @@
     "id": "hw-gongenko",
     "name": "山陽自動車道権現湖PA (San'yō Expressway)",
     "name_ja": "山陽自動車道権現湖PA（山陽自動車道）",
-    "name_romaji": "hw-gongenko",
+    "name_romaji": "PA (San'yō Expressway",
     "category": "highway",
     "prefecture": "Hyogo",
     "city": "加古川市",
@@ -55023,7 +55023,7 @@
     "id": "hw-kasai",
     "name": "中国自動車道加西SA (Chūgoku Expressway)",
     "name_ja": "中国自動車道加西SA（中国自動車道）",
-    "name_romaji": "hw-kasai",
+    "name_romaji": "SA (Chūgoku Expressway",
     "category": "highway",
     "prefecture": "Hyogo",
     "city": "加西市",
@@ -55044,7 +55044,7 @@
     "id": "hw-kozuki",
     "name": "中国自動車道上月PA (Chūgoku Expressway)",
     "name_ja": "中国自動車道上月PA（中国自動車道）",
-    "name_romaji": "hw-kozuki",
+    "name_romaji": "PA (Chūgoku Expressway",
     "category": "highway",
     "prefecture": "Hyogo",
     "city": "佐用郡",
@@ -55065,7 +55065,7 @@
     "id": "hw-miki",
     "name": "山陽自動車道三木SA (San'yō Expressway)",
     "name_ja": "山陽自動車道三木SA（山陽自動車道）",
-    "name_romaji": "hw-miki",
+    "name_romaji": "SA (San'yō Expressway",
     "category": "highway",
     "prefecture": "Hyogo",
     "city": "三木市",
@@ -55086,7 +55086,7 @@
     "id": "hw-nishinomiya",
     "name": "中国自動車道西宮名塩SA (Chūgoku Expressway)",
     "name_ja": "中国自動車道西宮名塩SA（中国自動車道）",
-    "name_romaji": "hw-nishinomiya",
+    "name_romaji": "SA (Chūgoku Expressway",
     "category": "highway",
     "prefecture": "Hyogo",
     "city": "西宮市",
@@ -55107,7 +55107,7 @@
     "id": "hw-ogo",
     "name": "山陽自動車道淡河PA (San'yō Expressway)",
     "name_ja": "山陽自動車道淡河PA（山陽自動車道）",
-    "name_romaji": "hw-ogo",
+    "name_romaji": "PA (San'yō Expressway",
     "category": "highway",
     "prefecture": "Hyogo",
     "city": "神戸市",
@@ -55128,7 +55128,7 @@
     "id": "hw-shiratori",
     "name": "山陽自動車道白鳥PA (San'yō Expressway)",
     "name_ja": "山陽自動車道白鳥PA（山陽自動車道）",
-    "name_romaji": "hw-shiratori",
+    "name_romaji": "PA (San'yō Expressway",
     "category": "highway",
     "prefecture": "Hyogo",
     "city": "姫路市",
@@ -55149,7 +55149,7 @@
     "id": "hw-takarazukakita",
     "name": "新名神高速道路宝塚北SA (Shin-Meishin Expressway)",
     "name_ja": "新名神高速道路宝塚北SA（新名神高速道路）",
-    "name_romaji": "hw-takarazukakita",
+    "name_romaji": "SA (Shin-Meishin Expressway",
     "category": "highway",
     "prefecture": "Hyogo",
     "city": "宝塚市",
@@ -55170,7 +55170,7 @@
     "id": "hw-yashiro",
     "name": "中国自動車道社PA (Chūgoku Expressway)",
     "name_ja": "中国自動車道社PA（中国自動車道）",
-    "name_romaji": "hw-yashiro",
+    "name_romaji": "PA (Chūgoku Expressway",
     "category": "highway",
     "prefecture": "Hyogo",
     "city": "加東市",
@@ -55191,7 +55191,7 @@
     "id": "hw-yasutomi",
     "name": "中国自動車道安富PA (Chūgoku Expressway)",
     "name_ja": "中国自動車道安富PA（中国自動車道）",
-    "name_romaji": "hw-yasutomi",
+    "name_romaji": "PA (Chūgoku Expressway",
     "category": "highway",
     "prefecture": "Hyogo",
     "city": "姫路市",
@@ -55212,7 +55212,7 @@
     "id": "hw-chiyoda",
     "name": "常磐自動車道千代田PA (Jōban Expressway)",
     "name_ja": "常磐自動車道千代田PA（常磐自動車道）",
-    "name_romaji": "hw-chiyoda",
+    "name_romaji": "PA (Jōban Expressway",
     "category": "highway",
     "prefecture": "Ibaraki",
     "city": "かすみがうら市",
@@ -55233,7 +55233,7 @@
     "id": "hw-hitachichuo",
     "name": "常磐自動車道日立中央PA (Jōban Expressway)",
     "name_ja": "常磐自動車道日立中央PA（常磐自動車道）",
-    "name_romaji": "hw-hitachichuo",
+    "name_romaji": "PA (Jōban Expressway",
     "category": "highway",
     "prefecture": "Ibaraki",
     "city": "日立市",
@@ -55254,7 +55254,7 @@
     "id": "hw-minori",
     "name": "常磐自動車道美野里PA (Jōban Expressway)",
     "name_ja": "常磐自動車道美野里PA（常磐自動車道）",
-    "name_romaji": "hw-minori",
+    "name_romaji": "PA (Jōban Expressway",
     "category": "highway",
     "prefecture": "Ibaraki",
     "city": "小美玉市",
@@ -55275,7 +55275,7 @@
     "id": "hw-moriya",
     "name": "常磐自動車道守谷SA (Jōban Expressway)",
     "name_ja": "常磐自動車道守谷SA（常磐自動車道）",
-    "name_romaji": "hw-moriya",
+    "name_romaji": "SA (Jōban Expressway",
     "category": "highway",
     "prefecture": "Ibaraki",
     "city": "守谷市",
@@ -55296,7 +55296,7 @@
     "id": "hw-nakago",
     "name": "常磐自動車道中郷SA (Jōban Expressway)",
     "name_ja": "常磐自動車道中郷SA（常磐自動車道）",
-    "name_romaji": "hw-nakago",
+    "name_romaji": "SA (Jōban Expressway",
     "category": "highway",
     "prefecture": "Ibaraki",
     "city": "北茨城市",
@@ -55317,7 +55317,7 @@
     "id": "hw-sekimoto",
     "name": "常磐自動車道関本PA (Jōban Expressway)",
     "name_ja": "常磐自動車道関本PA（常磐自動車道）",
-    "name_romaji": "hw-sekimoto",
+    "name_romaji": "PA (Jōban Expressway",
     "category": "highway",
     "prefecture": "Ibaraki",
     "city": "北茨城市",
@@ -55338,7 +55338,7 @@
     "id": "hw-tokai",
     "name": "常磐自動車道東海PA (Jōban Expressway)",
     "name_ja": "常磐自動車道東海PA（常磐自動車道）",
-    "name_romaji": "hw-tokai",
+    "name_romaji": "PA (Jōban Expressway",
     "category": "highway",
     "prefecture": "Ibaraki",
     "city": "那珂郡",
@@ -55359,7 +55359,7 @@
     "id": "hw-tomobe",
     "name": "常磐自動車道友部SA (Jōban Expressway)",
     "name_ja": "常磐自動車道友部SA（常磐自動車道）",
-    "name_romaji": "hw-tomobe",
+    "name_romaji": "SA (Jōban Expressway",
     "category": "highway",
     "prefecture": "Ibaraki",
     "city": "笠間市",
@@ -55380,7 +55380,7 @@
     "id": "hw-yatabehigashi",
     "name": "常磐自動車道谷田部東PA (Jōban Expressway)",
     "name_ja": "常磐自動車道谷田部東PA（常磐自動車道）",
-    "name_romaji": "hw-yatabehigashi",
+    "name_romaji": "PA (Jōban Expressway",
     "category": "highway",
     "prefecture": "Ibaraki",
     "city": "つくば市",
@@ -55401,7 +55401,7 @@
     "id": "hw-amagozen",
     "name": "北陸自動車道尼御前SA (Hokuriku Expressway)",
     "name_ja": "北陸自動車道尼御前SA（北陸自動車道）",
-    "name_romaji": "hw-amagozen",
+    "name_romaji": "SA (Hokuriku Expressway",
     "category": "highway",
     "prefecture": "Ishikawa",
     "city": "加賀市",
@@ -55422,7 +55422,7 @@
     "id": "hw-fudoji",
     "name": "北陸自動車道不動寺PA (Hokuriku Expressway)",
     "name_ja": "北陸自動車道不動寺PA（北陸自動車道）",
-    "name_romaji": "hw-fudoji",
+    "name_romaji": "PA (Hokuriku Expressway",
     "category": "highway",
     "prefecture": "Ishikawa",
     "city": "金沢市",
@@ -55443,7 +55443,7 @@
     "id": "hw-tokumitsu",
     "name": "北陸自動車道徳光PA (Hokuriku Expressway)",
     "name_ja": "北陸自動車道徳光PA（北陸自動車道）",
-    "name_romaji": "hw-tokumitsu",
+    "name_romaji": "PA (Hokuriku Expressway",
     "category": "highway",
     "prefecture": "Ishikawa",
     "city": "白山市",
@@ -55590,7 +55590,7 @@
     "id": "hw-sapa-4",
     "name": "山陽自動車道龍野西SA (San'yō Expressway)",
     "name_ja": "山陽自動車道龍野西SA（山陽自動車道）",
-    "name_romaji": "hw-sapa-4",
+    "name_romaji": "SA (San'yō Expressway",
     "category": "highway",
     "prefecture": "Japan",
     "city": "",
@@ -55611,7 +55611,7 @@
     "id": "hw-fuchuko",
     "name": "高松自動車道府中湖PA (Takamatsu Expressway)",
     "name_ja": "高松自動車道府中湖PA（高松自動車道）",
-    "name_romaji": "hw-fuchuko",
+    "name_romaji": "PA (Takamatsu Expressway",
     "category": "highway",
     "prefecture": "Kagawa",
     "city": "坂出市",
@@ -55632,7 +55632,7 @@
     "id": "hw-toyohama",
     "name": "高松自動車道豊浜SA (Takamatsu Expressway)",
     "name_ja": "高松自動車道豊浜SA（高松自動車道）",
-    "name_romaji": "hw-toyohama",
+    "name_romaji": "SA (Takamatsu Expressway",
     "category": "highway",
     "prefecture": "Kagawa",
     "city": "観音寺市",
@@ -55653,7 +55653,7 @@
     "id": "hw-tsudanomatsubara",
     "name": "高松自動車道津田の松原SA (Takamatsu Expressway)",
     "name_ja": "高松自動車道津田の松原SA（高松自動車道）",
-    "name_romaji": "hw-tsudanomatsubara",
+    "name_romaji": "SA (Takamatsu Expressway",
     "category": "highway",
     "prefecture": "Kagawa",
     "city": "さぬき市",
@@ -55779,7 +55779,7 @@
     "id": "hw-nangoku",
     "name": "徳島自動車道上板SA (Tokushima Expressway)",
     "name_ja": "徳島自動車道上板SA（徳島自動車道）",
-    "name_romaji": "hw-nangoku",
+    "name_romaji": "SA (Tokushima Expressway",
     "category": "highway",
     "prefecture": "Kochi",
     "city": "南国市",
@@ -55800,7 +55800,7 @@
     "id": "hw-kitakumamoto",
     "name": "九州自動車道北熊本SA (Kyūshū Expressway)",
     "name_ja": "九州自動車道北熊本SA（九州自動車道）",
-    "name_romaji": "hw-kitakumamoto",
+    "name_romaji": "SA (Kyūshū Expressway",
     "category": "highway",
     "prefecture": "Kumamoto",
     "city": "熊本市",
@@ -55821,7 +55821,7 @@
     "id": "hw-midorikawa",
     "name": "九州自動車道緑川PA (Kyūshū Expressway)",
     "name_ja": "九州自動車道緑川PA（九州自動車道）",
-    "name_romaji": "hw-midorikawa",
+    "name_romaji": "PA (Kyūshū Expressway",
     "category": "highway",
     "prefecture": "Kumamoto",
     "city": "熊本市",
@@ -55842,7 +55842,7 @@
     "id": "hw-miyahara",
     "name": "九州自動車道宮原SA (Kyūshū Expressway)",
     "name_ja": "九州自動車道宮原SA（九州自動車道）",
-    "name_romaji": "hw-miyahara",
+    "name_romaji": "SA (Kyūshū Expressway",
     "category": "highway",
     "prefecture": "Kumamoto",
     "city": "八代郡",
@@ -55863,7 +55863,7 @@
     "id": "hw-yamae",
     "name": "九州自動車道山江SA (Kyūshū Expressway)",
     "name_ja": "九州自動車道山江SA（九州自動車道）",
-    "name_romaji": "hw-yamae",
+    "name_romaji": "SA (Kyūshū Expressway",
     "category": "highway",
     "prefecture": "Kumamoto",
     "city": "球磨郡",
@@ -55905,7 +55905,7 @@
     "id": "hw-ano",
     "name": "伊勢自動車道安濃SA (Ise Expressway)",
     "name_ja": "伊勢自動車道安濃SA（伊勢自動車道）",
-    "name_romaji": "hw-ano",
+    "name_romaji": "SA (Ise Expressway",
     "category": "highway",
     "prefecture": "Mie",
     "city": "津市",
@@ -55926,7 +55926,7 @@
     "id": "hw-suzuka",
     "name": "新名神高速道路鈴鹿PA (Shin-Meishin Expressway)",
     "name_ja": "新名神高速道路鈴鹿PA（新名神高速道路）",
-    "name_romaji": "hw-suzuka",
+    "name_romaji": "PA (Shin-Meishin Expressway",
     "category": "highway",
     "prefecture": "Mie",
     "city": "鈴鹿市",
@@ -55947,7 +55947,7 @@
     "id": "hw-wangannagashima",
     "name": "伊勢湾岸自動車道湾岸長島PA (Isewangan Expressway)",
     "name_ja": "伊勢湾岸自動車道湾岸長島PA（伊勢湾岸自動車道）",
-    "name_romaji": "hw-wangannagashima",
+    "name_romaji": "PA (Isewangan Expressway",
     "category": "highway",
     "prefecture": "Mie",
     "city": "桑名市",
@@ -56052,7 +56052,7 @@
     "id": "hw-azusagawa",
     "name": "長野自動車道梓川SA (Nagano Expressway)",
     "name_ja": "長野自動車道梓川SA（長野自動車道）",
-    "name_romaji": "hw-azusagawa",
+    "name_romaji": "SA (Nagano Expressway",
     "category": "highway",
     "prefecture": "Nagano",
     "city": "安曇野市",
@@ -56073,7 +56073,7 @@
     "id": "hw-chikumagawasakaki",
     "name": "上信越自動車道千曲川さかきPA (Jōshin'etsu Expressway)",
     "name_ja": "上信越自動車道千曲川さかきPA（上信越自動車道）",
-    "name_romaji": "hw-chikumagawasakaki",
+    "name_romaji": "PA (Jōshin'etsu Expressway",
     "category": "highway",
     "prefecture": "Nagano",
     "city": "埴科郡",
@@ -56157,7 +56157,7 @@
     "id": "hw-matsushiro",
     "name": "上信越自動車道松代PA (Jōshin'etsu Expressway)",
     "name_ja": "上信越自動車道松代PA（上信越自動車道）",
-    "name_romaji": "hw-matsushiro",
+    "name_romaji": "PA (Jōshin'etsu Expressway",
     "category": "highway",
     "prefecture": "Nagano",
     "city": "長野市",
@@ -56178,7 +56178,7 @@
     "id": "hw-midoriko",
     "name": "長野自動車道みどり湖PA (Nagano Expressway)",
     "name_ja": "長野自動車道みどり湖PA（長野自動車道）",
-    "name_romaji": "hw-midoriko",
+    "name_romaji": "PA (Nagano Expressway",
     "category": "highway",
     "prefecture": "Nagano",
     "city": "塩尻市",
@@ -56199,7 +56199,7 @@
     "id": "hw-obasute",
     "name": "長野自動車道姨捨SA (Nagano Expressway)",
     "name_ja": "長野自動車道姨捨SA（長野自動車道）",
-    "name_romaji": "hw-obasute",
+    "name_romaji": "SA (Nagano Expressway",
     "category": "highway",
     "prefecture": "Nagano",
     "city": "千曲市",
@@ -56220,7 +56220,7 @@
     "id": "hw-obuse",
     "name": "上信越自動車道小布施PA (Jōshin'etsu Expressway)",
     "name_ja": "上信越自動車道小布施PA（上信越自動車道）",
-    "name_romaji": "hw-obuse",
+    "name_romaji": "PA (Jōshin'etsu Expressway",
     "category": "highway",
     "prefecture": "Nagano",
     "city": "上高井郡",
@@ -56262,7 +56262,7 @@
     "id": "hw-sakudaira",
     "name": "上信越自動車道佐久平PA (Jōshin'etsu Expressway)",
     "name_ja": "上信越自動車道佐久平PA（上信越自動車道）",
-    "name_romaji": "hw-sakudaira",
+    "name_romaji": "PA (Jōshin'etsu Expressway",
     "category": "highway",
     "prefecture": "Nagano",
     "city": "佐久市",
@@ -56325,7 +56325,7 @@
     "id": "hw-tobuyunomaru",
     "name": "上信越自動車道東部湯の丸SA (Jōshin'etsu Expressway)",
     "name_ja": "上信越自動車道東部湯の丸SA（上信越自動車道）",
-    "name_romaji": "hw-tobuyunomaru",
+    "name_romaji": "SA (Jōshin'etsu Expressway",
     "category": "highway",
     "prefecture": "Nagano",
     "city": "東御市",
@@ -56346,7 +56346,7 @@
     "id": "hw-imamura",
     "name": "長崎自動車今村PA (Nagasaki Expressway)",
     "name_ja": "長崎自動車今村PA（長崎自動車道）",
-    "name_romaji": "hw-imamura",
+    "name_romaji": "PA (Nagasaki Expressway",
     "category": "highway",
     "prefecture": "Nagasaki",
     "city": "大村",
@@ -56367,7 +56367,7 @@
     "id": "hw-koba",
     "name": "長崎自動車道木場PA (Nagasaki Expressway)",
     "name_ja": "長崎自動車道木場PA（長崎自動車道）",
-    "name_romaji": "hw-koba",
+    "name_romaji": "PA (Nagasaki Expressway",
     "category": "highway",
     "prefecture": "Nagasaki",
     "city": "大村",
@@ -56388,7 +56388,7 @@
     "id": "hw-omurawan",
     "name": "長崎自動車道大村湾PA (Nagasaki Expressway)",
     "name_ja": "長崎自動車道大村湾PA（長崎自動車道）",
-    "name_romaji": "hw-omurawan",
+    "name_romaji": "PA (Nagasaki Expressway",
     "category": "highway",
     "prefecture": "Nagasaki",
     "city": "東彼杵郡",
@@ -56409,7 +56409,7 @@
     "id": "hw-aganogawa",
     "name": "磐越自動車道阿賀野川SA (Ban'etsu Expressway)",
     "name_ja": "磐越自動車道阿賀野川SA（磐越自動車道）",
-    "name_romaji": "hw-aganogawa",
+    "name_romaji": "SA (Ban'etsu Expressway",
     "category": "highway",
     "prefecture": "Niigata",
     "city": "東蒲原郡",
@@ -56451,7 +56451,7 @@
     "id": "hw-kurosaki",
     "name": "北陸自動車道黒埼PA (Hokuriku Expressway)",
     "name_ja": "北陸自動車道黒埼PA（北陸自動車道）",
-    "name_romaji": "hw-kurosaki",
+    "name_romaji": "PA (Hokuriku Expressway",
     "category": "highway",
     "prefecture": "Niigata",
     "city": "新潟市",
@@ -56472,7 +56472,7 @@
     "id": "hw-myoko",
     "name": "上信越自動車道妙高SA (Jōshin'etsu Expressway)",
     "name_ja": "上信越自動車道妙高SA（上信越自動車道）",
-    "name_romaji": "hw-myoko",
+    "name_romaji": "SA (Jōshin'etsu Expressway",
     "category": "highway",
     "prefecture": "Niigata",
     "city": "妙高市",
@@ -56493,7 +56493,7 @@
     "id": "hw-nadachitanihama",
     "name": "北陸自動車道名立谷浜SA (Hokuriku Expressway)",
     "name_ja": "北陸自動車道名立谷浜SA（北陸自動車道）",
-    "name_romaji": "hw-nadachitanihama",
+    "name_romaji": "SA (Hokuriku Expressway",
     "category": "highway",
     "prefecture": "Niigata",
     "city": "上越市",
@@ -56514,7 +56514,7 @@
     "id": "hw-ozumi",
     "name": "北陸自動車道大積PA (Hokuriku Expressway)",
     "name_ja": "北陸自動車道大積PA（北陸自動車道）",
-    "name_romaji": "hw-ozumi",
+    "name_romaji": "PA (Hokuriku Expressway",
     "category": "highway",
     "prefecture": "Niigata",
     "city": "長岡市",
@@ -56535,7 +56535,7 @@
     "id": "hw-rendaiji",
     "name": "北陸自動車道蓮台寺PA (Hokuriku Expressway)",
     "name_ja": "北陸自動車道蓮台寺PA（北陸自動車道）",
-    "name_romaji": "hw-rendaiji",
+    "name_romaji": "PA (Hokuriku Expressway",
     "category": "highway",
     "prefecture": "Niigata",
     "city": "糸魚川市",
@@ -56556,7 +56556,7 @@
     "id": "hw-sakae",
     "name": "北陸自動車道栄PA (Hokuriku Expressway)",
     "name_ja": "北陸自動車道栄PA（北陸自動車道）",
-    "name_romaji": "hw-sakae",
+    "name_romaji": "PA (Hokuriku Expressway",
     "category": "highway",
     "prefecture": "Niigata",
     "city": "三条市",
@@ -56577,7 +56577,7 @@
     "id": "hw-sapa-109",
     "name": "上信越自動車道新井PA (Jōshin'etsu Expressway)",
     "name_ja": "上信越自動車道新井PA（上信越自動車道）",
-    "name_romaji": "hw-sapa-109",
+    "name_romaji": "PA (Jōshin'etsu Expressway",
     "category": "highway",
     "prefecture": "Niigata",
     "city": "妙高市",
@@ -56640,7 +56640,7 @@
     "id": "hw-yoneyama",
     "name": "北陸自動車道米山SA (Hokuriku Expressway)",
     "name_ja": "北陸自動車道米山SA（北陸自動車道）",
-    "name_romaji": "hw-yoneyama",
+    "name_romaji": "SA (Hokuriku Expressway",
     "category": "highway",
     "prefecture": "Niigata",
     "city": "柏崎市",
@@ -56661,7 +56661,7 @@
     "id": "hw-beppuwan",
     "name": "東九州自動車道別府湾SA (Higashi-Kyūshū Expressway)",
     "name_ja": "東九州自動車道別府湾SA（東九州自動車道）",
-    "name_romaji": "hw-beppuwan",
+    "name_romaji": "SA (Higashi-Kyūshū Expressway",
     "category": "highway",
     "prefecture": "Oita",
     "city": "別府市",
@@ -56682,7 +56682,7 @@
     "id": "hw-fukuishi",
     "name": "山陽自動車道福石PA (San'yō Expressway)",
     "name_ja": "山陽自動車道福石PA（山陽自動車道）",
-    "name_romaji": "hw-fukuishi",
+    "name_romaji": "PA (San'yō Expressway",
     "category": "highway",
     "prefecture": "Okayama",
     "city": "備前市",
@@ -56703,7 +56703,7 @@
     "id": "hw-hiruzengougen",
     "name": "米子自動車道蒜山高原SA (Yonago Expressway)",
     "name_ja": "米子自動車道蒜山高原SA（米子自動車道）",
-    "name_romaji": "hw-hiruzengougen",
+    "name_romaji": "SA (Yonago Expressway",
     "category": "highway",
     "prefecture": "Okayama",
     "city": "真庭市",
@@ -56724,7 +56724,7 @@
     "id": "hw-kibi",
     "name": "山陽自動車道吉備SA (San'yō Expressway)",
     "name_ja": "山陽自動車道吉備SA（山陽自動車道）",
-    "name_romaji": "hw-kibi",
+    "name_romaji": "SA (San'yō Expressway",
     "category": "highway",
     "prefecture": "Okayama",
     "city": "岡山市",
@@ -56745,7 +56745,7 @@
     "id": "hw-maniwa",
     "name": "中国自動車道真庭PA (Chūgoku Expressway)",
     "name_ja": "中国自動車道真庭PA（中国自動車道）",
-    "name_romaji": "hw-maniwa",
+    "name_romaji": "PA (Chūgoku Expressway",
     "category": "highway",
     "prefecture": "Okayama",
     "city": "真庭市",
@@ -56766,7 +56766,7 @@
     "id": "hw-michiguchi",
     "name": "山陽自動車道道口PA (San'yō Expressway)",
     "name_ja": "山陽自動車道道口PA（山陽自動車道）",
-    "name_romaji": "hw-michiguchi",
+    "name_romaji": "PA (San'yō Expressway",
     "category": "highway",
     "prefecture": "Okayama",
     "city": "倉敷市",
@@ -56787,7 +56787,7 @@
     "id": "hw-oosa",
     "name": "中国自動車道大佐SA (Chūgoku Expressway)",
     "name_ja": "中国自動車道大佐SA（中国自動車道）",
-    "name_romaji": "hw-oosa",
+    "name_romaji": "SA (Chūgoku Expressway",
     "category": "highway",
     "prefecture": "Okayama",
     "city": "新見市",
@@ -56808,7 +56808,7 @@
     "id": "hw-shoo",
     "name": "中国自動車道勝央SA (Chūgoku Expressway)",
     "name_ja": "中国自動車道勝央SA（中国自動車道）",
-    "name_romaji": "hw-shoo",
+    "name_romaji": "SA (Chūgoku Expressway",
     "category": "highway",
     "prefecture": "Okayama",
     "city": "勝田郡",
@@ -56829,7 +56829,7 @@
     "id": "hw-igei",
     "name": "沖縄自動車道伊芸SA (Okinawa Expressway)",
     "name_ja": "沖縄自動車道伊芸SA（沖縄自動車道）",
-    "name_romaji": "hw-igei",
+    "name_romaji": "SA (Okinawa Expressway",
     "category": "highway",
     "prefecture": "Okinawa",
     "city": "国頭郡",
@@ -56850,7 +56850,7 @@
     "id": "hw-nakagusuku",
     "name": "沖縄自動車道中城PA (Okinawa Expressway)",
     "name_ja": "沖縄自動車道中城PA（沖縄自動車道）",
-    "name_romaji": "hw-nakagusuku",
+    "name_romaji": "PA (Okinawa Expressway",
     "category": "highway",
     "prefecture": "Okinawa",
     "city": "中頭郡",
@@ -56871,7 +56871,7 @@
     "id": "hw-kishiwada",
     "name": "阪和自動車道岸和田SA (Hanwa Expressway)",
     "name_ja": "阪和自動車道岸和田SA（阪和自動車道）",
-    "name_romaji": "hw-kishiwada",
+    "name_romaji": "SA (Hanwa Expressway",
     "category": "highway",
     "prefecture": "Osaka",
     "city": "岸和田市",
@@ -56913,7 +56913,7 @@
     "id": "hw-kinryu",
     "name": "長崎自動車道金立SA (Nagasaki Expressway)",
     "name_ja": "長崎自動車道金立SA（長崎自動車道）",
-    "name_romaji": "hw-kinryu",
+    "name_romaji": "SA (Nagasaki Expressway",
     "category": "highway",
     "prefecture": "Saga",
     "city": "佐賀市",
@@ -56934,7 +56934,7 @@
     "id": "hw-takunishi",
     "name": "長崎自動車道多久西PA (Nagasaki Expressway)",
     "name_ja": "長崎自動車道多久西PA（長崎自動車道）",
-    "name_romaji": "hw-takunishi",
+    "name_romaji": "PA (Nagasaki Expressway",
     "category": "highway",
     "prefecture": "Saga",
     "city": "多久市",
@@ -57186,7 +57186,7 @@
     "id": "hw-kanda",
     "name": "北陸自動車道神田PA (Hokuriku Expressway)",
     "name_ja": "北陸自動車道神田PA（北陸自動車道）",
-    "name_romaji": "hw-kanda",
+    "name_romaji": "PA (Hokuriku Expressway",
     "category": "highway",
     "prefecture": "Shiga",
     "city": "長浜市",
@@ -57249,7 +57249,7 @@
     "id": "hw-shizugatake",
     "name": "北陸自動車道賤ヶ岳SA (Hokuriku Expressway)",
     "name_ja": "北陸自動車道賤ヶ岳SA（北陸自動車道）",
-    "name_romaji": "hw-shizugatake",
+    "name_romaji": "SA (Hokuriku Expressway",
     "category": "highway",
     "prefecture": "Shiga",
     "city": "長浜市",
@@ -57270,7 +57270,7 @@
     "id": "hw-tsuchiyama",
     "name": "新名神高速道路土山SA (Shin-Meishin Expressway)",
     "name_ja": "新名神高速道路土山SA（新名神高速道路）",
-    "name_romaji": "hw-tsuchiyama",
+    "name_romaji": "SA (Shin-Meishin Expressway",
     "category": "highway",
     "prefecture": "Shiga",
     "city": "甲賀市",
@@ -57837,7 +57837,7 @@
     "id": "hw-arisoumi",
     "name": "北陸自動車道有磯海SA (Hokuriku Expressway)",
     "name_ja": "北陸自動車道有磯海SA（北陸自動車道）",
-    "name_romaji": "hw-arisoumi",
+    "name_romaji": "SA (Hokuriku Expressway",
     "category": "highway",
     "prefecture": "Toyama",
     "city": "滑川市",
@@ -57858,7 +57858,7 @@
     "id": "hw-etchusakai",
     "name": "北陸自動車道越中境PA (Hokuriku Expressway)",
     "name_ja": "北陸自動車道越中境PA（北陸自動車道）",
-    "name_romaji": "hw-etchusakai",
+    "name_romaji": "PA (Hokuriku Expressway",
     "category": "highway",
     "prefecture": "Toyama",
     "city": "下新川郡",
@@ -57879,7 +57879,7 @@
     "id": "hw-johana",
     "name": "東海北陸自動車道城端SA (Tōkai-Hokuriku Expressway)",
     "name_ja": "東海北陸自動車道城端SA（東海北陸自動車道）",
-    "name_romaji": "hw-johana",
+    "name_romaji": "SA (Tōkai-Hokuriku Expressway",
     "category": "highway",
     "prefecture": "Toyama",
     "city": "南砺市",
@@ -57900,7 +57900,7 @@
     "id": "hw-kureha",
     "name": "北陸自動車道呉羽PA (Hokuriku Expressway)",
     "name_ja": "北陸自動車道呉羽PA（北陸自動車道）",
-    "name_romaji": "hw-kureha",
+    "name_romaji": "PA (Hokuriku Expressway",
     "category": "highway",
     "prefecture": "Toyama",
     "city": "射水市",
@@ -57921,7 +57921,7 @@
     "id": "hw-oyabegawa",
     "name": "北陸自動車道小矢部川SA (Hokuriku Expressway)",
     "name_ja": "北陸自動車道小矢部川SA（北陸自動車道）",
-    "name_romaji": "hw-oyabegawa",
+    "name_romaji": "SA (Hokuriku Expressway",
     "category": "highway",
     "prefecture": "Toyama",
     "city": "小矢部市",
@@ -57942,7 +57942,7 @@
     "id": "hw-inami",
     "name": "阪和自動車道印南SA (Hanwa Expressway)",
     "name_ja": "阪和自動車道印南SA（阪和自動車道）",
-    "name_romaji": "hw-inami",
+    "name_romaji": "SA (Hanwa Expressway",
     "category": "highway",
     "prefecture": "Wakayama",
     "city": "日高郡",
@@ -57963,7 +57963,7 @@
     "id": "hw-sagae",
     "name": "山形自動車道寒河江SA (Yamagata Expressway)",
     "name_ja": "山形自動車道寒河江SA（山形自動車道）",
-    "name_romaji": "hw-sagae",
+    "name_romaji": "SA (Yamagata Expressway",
     "category": "highway",
     "prefecture": "Yamagata",
     "city": "寒河江市",
@@ -57984,7 +57984,7 @@
     "id": "hw-kano",
     "name": "中国自動車道鹿野SA (Chūgoku Expressway)",
     "name_ja": "中国自動車道鹿野SA（中国自動車道）",
-    "name_romaji": "hw-kano",
+    "name_romaji": "SA (Chūgoku Expressway",
     "category": "highway",
     "prefecture": "Yamaguchi",
     "city": "周南市",
@@ -58005,7 +58005,7 @@
     "id": "hw-kudamatsu",
     "name": "山陽自動車道下松SA (San'yō Expressway)",
     "name_ja": "山陽自動車道下松SA（山陽自動車道）",
-    "name_romaji": "hw-kudamatsu",
+    "name_romaji": "SA (San'yō Expressway",
     "category": "highway",
     "prefecture": "Yamaguchi",
     "city": "下松市",
@@ -58026,7 +58026,7 @@
     "id": "hw-kuga",
     "name": "山陽自動車道玖珂PA (San'yō Expressway)",
     "name_ja": "山陽自動車道玖珂PA（山陽自動車道）",
-    "name_romaji": "hw-kuga",
+    "name_romaji": "PA (San'yō Expressway",
     "category": "highway",
     "prefecture": "Yamaguchi",
     "city": "岩国市",
@@ -58047,7 +58047,7 @@
     "id": "hw-mito",
     "name": "中国自動車道美東SA (Chūgoku Expressway)",
     "name_ja": "中国自動車道美東SA（中国自動車道）",
-    "name_romaji": "hw-mito",
+    "name_romaji": "SA (Chūgoku Expressway",
     "category": "highway",
     "prefecture": "Yamaguchi",
     "city": "美祢市",
@@ -58068,7 +58068,7 @@
     "id": "hw-oji",
     "name": "中国自動車道王司PA (Chūgoku Expressway)",
     "name_ja": "中国自動車道王司PA（中国自動車道）",
-    "name_romaji": "hw-oji",
+    "name_romaji": "PA (Chūgoku Expressway",
     "category": "highway",
     "prefecture": "Yamaguchi",
     "city": "下関市",
@@ -58089,7 +58089,7 @@
     "id": "hw-sabagawa",
     "name": "山陽自動車道佐波川SA (San'yō Expressway)",
     "name_ja": "山陽自動車道佐波川SA（山陽自動車道）",
-    "name_romaji": "hw-sabagawa",
+    "name_romaji": "SA (San'yō Expressway",
     "category": "highway",
     "prefecture": "Yamaguchi",
     "city": "防府市",
@@ -58803,7 +58803,7 @@
     "id": "anime-yokote-mangamuseum",
     "name": "釣りキチ三平 Sacred Pilgrimage (横手市)",
     "name_ja": "釣りキチ三平 アニメ聖地88印（横手市）",
-    "name_romaji": "anime-yokote-mangamuseum",
+    "name_romaji": "Anime Yokote Mangamuseum",
     "category": "anime",
     "prefecture": "Akita",
     "city": "横手市",
@@ -58824,7 +58824,7 @@
     "id": "anime-chiba-culturalhall",
     "name": "青のオーケストラ Sacred Pilgrimage (千葉市)",
     "name_ja": "青のオーケストラ アニメ聖地88印（千葉市）",
-    "name_romaji": "anime-chiba-culturalhall",
+    "name_romaji": "Anime Chiba Culturalhall",
     "category": "anime",
     "prefecture": "Chiba",
     "city": "千葉市",
@@ -58845,7 +58845,7 @@
     "id": "anime-chibamonorail-chiba",
     "name": "俺の妹がこんなに可愛いわけがない Sacred Pilgrimage (千葉市)",
     "name_ja": "俺の妹がこんなに可愛いわけがない アニメ聖地88印（千葉市）",
-    "name_romaji": "anime-chibamonorail-chiba",
+    "name_romaji": "Anime Chibamonorail Chiba",
     "category": "anime",
     "prefecture": "Chiba",
     "city": "千葉市",
@@ -58866,7 +58866,7 @@
     "id": "anime-chibamonorail-chibaminato",
     "name": "やはり俺の青春ラブコメはまちがっている。 Sacred Pilgrimage (千葉市)",
     "name_ja": "やはり俺の青春ラブコメはまちがっている。 アニメ聖地88印（千葉市）",
-    "name_romaji": "anime-chibamonorail-chibaminato",
+    "name_romaji": "Anime Chibamonorail Chibaminato",
     "category": "anime",
     "prefecture": "Chiba",
     "city": "千葉市",
@@ -58887,7 +58887,7 @@
     "id": "anime-choushi-tower",
     "name": "アマガミSS Sacred Pilgrimage (銚子市)",
     "name_ja": "アマガミSS アニメ聖地88印（銚子市）",
-    "name_romaji": "anime-choushi-tower",
+    "name_romaji": "SS",
     "category": "anime",
     "prefecture": "Chiba",
     "city": "銚子市",
@@ -59769,7 +59769,7 @@
     "id": "anime-kitakyushu-mangamuseum",
     "name": "BULLBUSTER Sacred Pilgrimage (北九州市)",
     "name_ja": "BULLBUSTER アニメ聖地88印（北九州市）",
-    "name_romaji": "anime-kitakyushu-mangamuseum",
+    "name_romaji": "BULLBUSTER",
     "category": "anime",
     "prefecture": "Fukuoka",
     "city": "北九州市",
@@ -59874,7 +59874,7 @@
     "id": "anime-sukagawa-tsuburayamuseum",
     "name": "ウルトラマンシリーズ Sacred Pilgrimage (須賀川市)",
     "name_ja": "ウルトラマンシリーズ アニメ聖地88印（須賀川市）",
-    "name_romaji": "anime-sukagawa-tsuburayamuseum",
+    "name_romaji": "Anime Sukagawa Tsuburayamuseum",
     "category": "anime",
     "prefecture": "Fukushima",
     "city": "須賀川市",
@@ -59937,7 +59937,7 @@
     "id": "anime-shirakawago-minkaen",
     "name": "ひぐらしのなく頃に 業・卒 Sacred Pilgrimage (大野郡)",
     "name_ja": "ひぐらしのなく頃に 業・卒 アニメ聖地88印（大野郡）",
-    "name_romaji": "anime-shirakawago-minkaen",
+    "name_romaji": "Anime Shirakawago Minkaen",
     "category": "anime",
     "prefecture": "Gifu",
     "city": "大野郡",
@@ -59958,7 +59958,7 @@
     "id": "anime-takayama-nakabashikanko",
     "name": "氷菓 Sacred Pilgrimage (高山市)",
     "name_ja": "氷菓 アニメ聖地88印（高山市）",
-    "name_romaji": "anime-takayama-nakabashikanko",
+    "name_romaji": "Anime Takayama Nakabashikanko",
     "category": "anime",
     "prefecture": "Gifu",
     "city": "高山市",
@@ -59979,7 +59979,7 @@
     "id": "anime-toutosouzoukan",
     "name": "やくならマグカップも Sacred Pilgrimage (多治見市)",
     "name_ja": "やくならマグカップも アニメ聖地88印（多治見市）",
-    "name_romaji": "anime-toutosouzoukan",
+    "name_romaji": "Anime Toutosouzoukan",
     "category": "anime",
     "prefecture": "Gifu",
     "city": "多治見市",
@@ -60084,7 +60084,7 @@
     "id": "anime-tatebayashi-tsutsujipark",
     "name": "宇宙よりも遠い場所 Sacred Pilgrimage (館林市)",
     "name_ja": "宇宙よりも遠い場所 アニメ聖地88印（館林市）",
-    "name_romaji": "anime-tatebayashi-tsutsujipark",
+    "name_romaji": "Anime Tatebayashi Tsutsujipark",
     "category": "anime",
     "prefecture": "Gunma",
     "city": "館林市",
@@ -60168,7 +60168,7 @@
     "id": "anime-kure-kanko",
     "name": "艦隊これくしょん －艦これ－ Sacred Pilgrimage (呉市)",
     "name_ja": "艦隊これくしょん －艦これ－ アニメ聖地88印（呉市）",
-    "name_romaji": "anime-kure-kanko",
+    "name_romaji": "Anime Kure Kanko",
     "category": "anime",
     "prefecture": "Hiroshima",
     "city": "呉市",
@@ -60189,7 +60189,7 @@
     "id": "anime-miti-takehara",
     "name": "たまゆら Sacred Pilgrimage (竹原市)",
     "name_ja": "たまゆら アニメ聖地88印（竹原市）",
-    "name_romaji": "anime-miti-takehara",
+    "name_romaji": "Anime Miti Takehara",
     "category": "anime",
     "prefecture": "Hiroshima",
     "city": "竹原市",
@@ -60273,7 +60273,7 @@
     "id": "anime-hakodate-kokaido",
     "name": "ラブライブ！サンシャイン！！ Sacred Pilgrimage (函館市)",
     "name_ja": "ラブライブ！サンシャイン！！ アニメ聖地88印（函館市）",
-    "name_romaji": "anime-hakodate-kokaido",
+    "name_romaji": "Anime Hakodate Kokaido",
     "category": "anime",
     "prefecture": "Hokkaido",
     "city": "函館市",
@@ -60294,7 +60294,7 @@
     "id": "anime-tomakomai-kanko",
     "name": "僕だけがいない街 Sacred Pilgrimage (苫小牧市)",
     "name_ja": "僕だけがいない街 アニメ聖地88印（苫小牧市）",
-    "name_romaji": "anime-tomakomai-kanko",
+    "name_romaji": "Anime Tomakomai Kanko",
     "category": "anime",
     "prefecture": "Hokkaido",
     "city": "苫小牧市",
@@ -61470,7 +61470,7 @@
     "id": "anime-yokosuka-kanko",
     "name": "艦隊これくしょん －艦これ－ Sacred Pilgrimage (横須賀市)",
     "name_ja": "艦隊これくしょん －艦これ－ アニメ聖地88印（横須賀市）",
-    "name_romaji": "anime-yokosuka-kanko",
+    "name_romaji": "Anime Yokosuka Kanko",
     "category": "anime",
     "prefecture": "Kanagawa",
     "city": "横須賀市",
@@ -62268,7 +62268,7 @@
     "id": "anime-maizuru-akarengapark",
     "name": "艦隊これくしょん －艦これ－ Sacred Pilgrimage (舞鶴市)",
     "name_ja": "艦隊これくしょん －艦これ－ アニメ聖地88印（舞鶴市）",
-    "name_romaji": "anime-maizuru-akarengapark",
+    "name_romaji": "Anime Maizuru Akarengapark",
     "category": "anime",
     "prefecture": "Kyoto",
     "city": "舞鶴市",
@@ -62814,7 +62814,7 @@
     "id": "anime-kumanoshi-kanko",
     "name": "凪のあすから Sacred Pilgrimage (熊野市)",
     "name_ja": "凪のあすから アニメ聖地88印（熊野市）",
-    "name_romaji": "anime-kumanoshi-kanko",
+    "name_romaji": "Anime Kumanoshi Kanko",
     "category": "anime",
     "prefecture": "Mie",
     "city": "熊野市",
@@ -63066,7 +63066,7 @@
     "id": "anime-ueda-kanko",
     "name": "サマーウォーズ Sacred Pilgrimage (上田市)",
     "name_ja": "サマーウォーズ アニメ聖地88印（上田市）",
-    "name_romaji": "anime-ueda-kanko",
+    "name_romaji": "Anime Ueda Kanko",
     "category": "anime",
     "prefecture": "Nagano",
     "city": "上田市",
@@ -63150,7 +63150,7 @@
     "id": "anime-sasebo-kukken",
     "name": "艦隊これくしょん －艦これ－ Sacred Pilgrimage (佐世保市)",
     "name_ja": "艦隊これくしょん －艦これ－ アニメ聖地88印（佐世保市）",
-    "name_romaji": "anime-sasebo-kukken",
+    "name_romaji": "Anime Sasebo Kukken",
     "category": "anime",
     "prefecture": "Nagasaki",
     "city": "佐世保市",
@@ -63948,7 +63948,7 @@
     "id": "anime-animate-tokorozawa",
     "name": "女子高生の無駄づかい Sacred Pilgrimage (所沢市)",
     "name_ja": "女子高生の無駄づかい アニメ聖地88印（所沢市）",
-    "name_romaji": "anime-animate-tokorozawa",
+    "name_romaji": "Anime Animate Tokorozawa",
     "category": "anime",
     "prefecture": "Saitama",
     "city": "所沢市",
@@ -63969,7 +63969,7 @@
     "id": "anime-chichibu-hotspot",
     "name": "あの日見た花の名前を僕達はまだ知らない。 Sacred Pilgrimage (秩父市)",
     "name_ja": "あの日見た花の名前を僕達はまだ知らない。 アニメ聖地88印（秩父市）",
-    "name_romaji": "anime-chichibu-hotspot",
+    "name_romaji": "Anime Chichibu Hotspot",
     "category": "anime",
     "prefecture": "Saitama",
     "city": "秩父市",
@@ -63990,7 +63990,7 @@
     "id": "anime-chichibu-kanko",
     "name": "心が叫びたがってるんだ。 Sacred Pilgrimage (秩父市)",
     "name_ja": "心が叫びたがってるんだ。 アニメ聖地88印（秩父市）",
-    "name_romaji": "anime-chichibu-kanko",
+    "name_romaji": "Anime Chichibu Kanko",
     "category": "anime",
     "prefecture": "Saitama",
     "city": "秩父市",
@@ -64011,7 +64011,7 @@
     "id": "anime-hanno-kanko",
     "name": "ヤマノススメ Next Summit Sacred Pilgrimage (飯能市)",
     "name_ja": "ヤマノススメ Next Summit アニメ聖地88印（飯能市）",
-    "name_romaji": "anime-hanno-kanko",
+    "name_romaji": "Next Summit",
     "category": "anime",
     "prefecture": "Saitama",
     "city": "飯能市",
@@ -64032,7 +64032,7 @@
     "id": "anime-iwatsuki-kanko",
     "name": "その着せ替え人形は恋をする Sacred Pilgrimage (さいたま市)",
     "name_ja": "その着せ替え人形は恋をする アニメ聖地88印（さいたま市）",
-    "name_romaji": "anime-iwatsuki-kanko",
+    "name_romaji": "Anime Iwatsuki Kanko",
     "category": "anime",
     "prefecture": "Saitama",
     "city": "さいたま市",
@@ -64053,7 +64053,7 @@
     "id": "anime-kawagoe-koedokurari",
     "name": "神様はじめました Sacred Pilgrimage (川越市)",
     "name_ja": "神様はじめました アニメ聖地88印（川越市）",
-    "name_romaji": "anime-kawagoe-koedokurari",
+    "name_romaji": "Anime Kawagoe Koedokurari",
     "category": "anime",
     "prefecture": "Saitama",
     "city": "川越市",
@@ -64074,7 +64074,7 @@
     "id": "anime-kawagoenakamachi-kanko",
     "name": "月がきれい Sacred Pilgrimage (川越市)",
     "name_ja": "月がきれい アニメ聖地88印（川越市）",
-    "name_romaji": "anime-kawagoenakamachi-kanko",
+    "name_romaji": "Anime Kawagoenakamachi Kanko",
     "category": "anime",
     "prefecture": "Saitama",
     "city": "川越市",
@@ -64095,7 +64095,7 @@
     "id": "anime-nagatoro-kanko",
     "name": "私に天使が舞い降りた！ プレシャス★フレンズ Sacred Pilgrimage (秩父郡)",
     "name_ja": "私に天使が舞い降りた！ プレシャス★フレンズ アニメ聖地88印（秩父郡）",
-    "name_romaji": "anime-nagatoro-kanko",
+    "name_romaji": "★",
     "category": "anime",
     "prefecture": "Saitama",
     "city": "秩父郡",
@@ -64116,7 +64116,7 @@
     "id": "anime-warabi-sports",
     "name": "さよなら私のクラマー Sacred Pilgrimage (蕨市)",
     "name_ja": "さよなら私のクラマー アニメ聖地88印（蕨市）",
-    "name_romaji": "anime-warabi-sports",
+    "name_romaji": "Anime Warabi Sports",
     "category": "anime",
     "prefecture": "Saitama",
     "city": "蕨市",
@@ -64137,7 +64137,7 @@
     "id": "anime-wasimiya-info",
     "name": "らき☆すた Sacred Pilgrimage (久喜市)",
     "name_ja": "らき☆すた アニメ聖地88印（久喜市）",
-    "name_romaji": "anime-wasimiya-info",
+    "name_romaji": "☆",
     "category": "anime",
     "prefecture": "Saitama",
     "city": "久喜市",
@@ -65229,7 +65229,7 @@
     "id": "anime-tenhama-tenryufutamata",
     "name": "エヴァンゲリオン Sacred Pilgrimage (浜松市)",
     "name_ja": "エヴァンゲリオン アニメ聖地88印（浜松市）",
-    "name_romaji": "anime-tenhama-tenryufutamata",
+    "name_romaji": "Anime Tenhama Tenryufutamata",
     "category": "anime",
     "prefecture": "Shizuoka",
     "city": "浜松市",
@@ -66048,7 +66048,7 @@
     "id": "anime-chofu-kitarochaya",
     "name": "ゲゲゲの鬼太郎 Sacred Pilgrimage (調布市)",
     "name_ja": "ゲゲゲの鬼太郎 アニメ聖地88印（調布市）",
-    "name_romaji": "anime-chofu-kitarochaya",
+    "name_romaji": "Anime Chofu Kitarochaya",
     "category": "anime",
     "prefecture": "Tokyo",
     "city": "調布市",
@@ -66069,7 +66069,7 @@
     "id": "anime-ikebukuro-east-info",
     "name": "BanG Dream! Sacred Pilgrimage (豊島区)",
     "name_ja": "BanG Dream! アニメ聖地88印（豊島区）",
-    "name_romaji": "anime-ikebukuro-east-info",
+    "name_romaji": "BanG Dream!",
     "category": "anime",
     "prefecture": "Tokyo",
     "city": "豊島区",
@@ -66090,7 +66090,7 @@
     "id": "anime-kandamyoujin",
     "name": "ラブライブ！ Sacred Pilgrimage (千代田区)",
     "name_ja": "ラブライブ！ アニメ聖地88印（千代田区）",
-    "name_romaji": "anime-kandamyoujin",
+    "name_romaji": "Anime Kandamyoujin",
     "category": "anime",
     "prefecture": "Tokyo",
     "city": "千代田区",
@@ -66111,7 +66111,7 @@
     "id": "anime-musashisakai-skipdori",
     "name": "SHIROBAKO THE MOVIE Sacred Pilgrimage (武蔵野市)",
     "name_ja": "SHIROBAKO THE MOVIE アニメ聖地88印（武蔵野市）",
-    "name_romaji": "anime-musashisakai-skipdori",
+    "name_romaji": "SHIROBAKO THE MOVIE",
     "category": "anime",
     "prefecture": "Tokyo",
     "city": "武蔵野市",
@@ -66132,7 +66132,7 @@
     "id": "anime-suginamianime-museum",
     "name": "アクセル・ワールド Sacred Pilgrimage (杉並区)",
     "name_ja": "アクセル・ワールド アニメ聖地88印（杉並区）",
-    "name_romaji": "anime-suginamianime-museum",
+    "name_romaji": "Anime Suginamianime Museum",
     "category": "anime",
     "prefecture": "Tokyo",
     "city": "杉並区",
@@ -66153,7 +66153,7 @@
     "id": "anime-toshimaku-kanko",
     "name": "デュラララ!! Sacred Pilgrimage (豊島区)",
     "name_ja": "デュラララ!! アニメ聖地88印（豊島区）",
-    "name_romaji": "anime-toshimaku-kanko",
+    "name_romaji": "!!",
     "category": "anime",
     "prefecture": "Tokyo",
     "city": "豊島区",
@@ -66174,7 +66174,7 @@
     "id": "anime-zoshigaya-kanko",
     "name": "冴えない彼女の育てかた Sacred Pilgrimage (豊島区)",
     "name_ja": "冴えない彼女の育てかた アニメ聖地88印（豊島区）",
-    "name_romaji": "anime-zoshigaya-kanko",
+    "name_romaji": "Anime Zoshigaya Kanko",
     "category": "anime",
     "prefecture": "Tokyo",
     "city": "豊島区",
@@ -66405,7 +66405,7 @@
     "id": "anime-kurayoshi-shirakabe-kanko",
     "name": "ひなビタ♪ Sacred Pilgrimage (倉吉市)",
     "name_ja": "ひなビタ♪ アニメ聖地88印（倉吉市）",
-    "name_romaji": "anime-kurayoshi-shirakabe-kanko",
+    "name_romaji": "♪",
     "category": "anime",
     "prefecture": "Tottori",
     "city": "倉吉市",
@@ -66426,7 +66426,7 @@
     "id": "anime-mizukishigeru-museum",
     "name": "ゲゲゲの鬼太郎 Sacred Pilgrimage (境港市)",
     "name_ja": "ゲゲゲの鬼太郎 アニメ聖地88印（境港市）",
-    "name_romaji": "anime-mizukishigeru-museum",
+    "name_romaji": "Anime Mizukishigeru Museum",
     "category": "anime",
     "prefecture": "Tottori",
     "city": "境港市",
@@ -66804,7 +66804,7 @@
     "id": "anime-yamaguchiube-airport",
     "name": "エヴァンゲリオン Sacred Pilgrimage (宇部市)",
     "name_ja": "エヴァンゲリオン アニメ聖地88印（宇部市）",
-    "name_romaji": "anime-yamaguchiube-airport",
+    "name_romaji": "Anime Yamaguchiube Airport",
     "category": "anime",
     "prefecture": "Yamaguchi",
     "city": "宇部市",
@@ -66909,7 +66909,7 @@
     "id": "anime-hokuto-cityhall",
     "name": "スーパーカブ Sacred Pilgrimage (北杜市)",
     "name_ja": "スーパーカブ アニメ聖地88印（北杜市）",
-    "name_romaji": "anime-hokuto-cityhall",
+    "name_romaji": "Anime Hokuto Cityhall",
     "category": "anime",
     "prefecture": "Yamanashi",
     "city": "北杜市",
@@ -66966,7 +66966,7 @@
     "description": "Historisches Flaggschiff-Ryokan in Noboribetsu, gegründet 1858 von Kinzo Takimoto. Bekannt für das riesige 5.000m²-Badehaus mit 5 verschiedenen Thermalwasserquellen direkt an der Höllenschlucht Jigokudani. Stempel zeigt Takimaru-kun und die Höllental-Silhouette.",
     "source": "Dai-ichi Takimotokan Official Souvenir Stamp (第一滝本館公式)",
     "sourceUrl": "https://takimotokan.co.jp/en/news/new-souvenir-stamps/",
-    "imageUrl": "https://takimotokan.co.jp/wp-content/uploads/2018/02/TakimotoSouvenirStamps.jpg"
+    "imageUrl": "/images/stamps/onsen-noboribetsu-takimotokan.jpg"
   },
   {
     "id": "onsen-noboribetsu-grand",
@@ -66986,7 +66986,8 @@
     "operator": "Noboribetsu Grand Hotel",
     "description": "Eröffnet 1938, oft als 'Palast von Noboribetsu' bezeichnet. Berühmt für seine europäische Kuppelhalle im römischen Stil und Freiluftbäder mit Wasserfallblick.",
     "source": "Noboribetsu Grand Hotel Official Registry",
-    "sourceUrl": "https://www.nobogura.co.jp/"
+    "sourceUrl": "https://www.nobogura.co.jp/",
+    "imageUrl": "/images/stamps/onsen-noboribetsu-grand.jpg"
   },
   {
     "id": "onsen-jozankei-shikanoyu",
@@ -67006,7 +67007,8 @@
     "operator": "Shikanoyu Hotel Group",
     "description": "Gegründet 1897 im Toyohira-Flusstal südlich von Sapporo. Der Name geht auf eine verletzte Hirschkuh zurück, die hier ihre Wunden heilte. Stempel mit dem Jozankei-Schutzpatron Kappa.",
     "source": "Jozankei Tourism Association (定山渓観光協会)",
-    "sourceUrl": "https://shikanoyu.co.jp/"
+    "sourceUrl": "https://shikanoyu.co.jp/",
+    "imageUrl": "/images/stamps/onsen-jozankei-shikanoyu.jpg"
   },
   {
     "id": "onsen-yunokawa-ichinomatsu",
@@ -67026,7 +67028,8 @@
     "operator": "Yunokawa Onsen Ryokan Association",
     "description": "Eines der drei großen Thermalbäder Hokkaidos, direkt an der Meeresküste von Hakodate. Gegründet 1653, traditioneller Sukiyazukuri-Holzbau mit Tatami-Fluren.",
     "source": "Hakodate Yunokawa Ryokan Association",
-    "sourceUrl": "https://hakodate-yunokawa.com/"
+    "sourceUrl": "https://hakodate-yunokawa.com/",
+    "imageUrl": "/images/stamps/onsen-yunokawa-ichinomatsu.jpg"
   },
   {
     "id": "onsen-toyako-manseikaku",
@@ -67046,7 +67049,8 @@
     "operator": "Manseikaku Hotels",
     "description": "Caldera-Thermalbad am Ufer des Toya-Sees mit Blick auf den rauchenden Vulkan Mt. Usu. Allabendliche Sommerfeuerwerke spiegeln sich in den Panoramabädern.",
     "source": "Toya Caldera Geopark & Toyako Tourism",
-    "sourceUrl": "https://www.toyako-manseikaku.jp/"
+    "sourceUrl": "https://www.toyako-manseikaku.jp/",
+    "imageUrl": "/images/stamps/onsen-toyako-manseikaku.jpg"
   },
   {
     "id": "onsen-sounkyo-choyotei",
@@ -67066,7 +67070,8 @@
     "operator": "Noguchi Kanko Group",
     "description": "Alpines Onsen-Resort in der 24 km langen Basaltschlucht des Daisetsuzan-Nationalparks. Panoramabäder mit Blick auf die Steilwände der Ryusei- und Ginga-Wasserfälle.",
     "source": "Sounkyo Tourist Association",
-    "sourceUrl": "https://www.choyotei.com/"
+    "sourceUrl": "https://www.choyotei.com/",
+    "imageUrl": "/images/stamps/onsen-sounkyo-choyotei.jpg"
   },
   {
     "id": "onsen-tsurunoyu",
@@ -67086,7 +67091,8 @@
     "operator": "日本秘湯を守る会 (Japan Association of Hidden Onsen Inns)",
     "description": "Das berühmteste und älteste Geheim-Onsen der Nyuto-Berge, gegründet ca. 1638 als Heilbad der Akita-Fürsten. Reetgedeckte Wachhäuser (Honjin) und milchig-weißes Schwefelwasser im Freiluftbad.",
     "source": "日本秘湯を守る会 (Japan Association of Hidden Onsen Inns)",
-    "sourceUrl": "https://www.hitou.or.jp/"
+    "sourceUrl": "https://www.hitou.or.jp/",
+    "imageUrl": "/images/stamps/onsen-tsurunoyu.jpg"
   },
   {
     "id": "onsen-sukayu",
@@ -67106,7 +67112,8 @@
     "operator": "Sukayu Onsen Ryokan",
     "description": "Legendäres 300 Jahre altes Heilbad am Fuße des Mt. Hakkoda. Berühmt für das gewaltige 260m² große 'Tausend-Personen-Bad' ganz aus Zypressenholz (Hiba) ohne einen einzigen Nagel.",
     "source": "National Health Resort Onsen Registry (国民保養温泉地第1号)",
-    "sourceUrl": "https://www.sukayu.jp/"
+    "sourceUrl": "https://www.sukayu.jp/",
+    "imageUrl": "/images/stamps/onsen-sukayu.jpg"
   },
   {
     "id": "onsen-aoni-lamp",
@@ -67126,7 +67133,8 @@
     "operator": "日本秘湯を守る会 (Japan Association of Hidden Onsen Inns)",
     "description": "Geheimes Schluchtbad ohne Stromleitungen oder Handynetz, nachts ausschließlich durch Hunderte von Petroleumlampen erleuchtet. Vier urtümliche Holzbäder am tosenden Aoni-Gebirgsfluss.",
     "source": "日本秘湯を守る会 (Japan Association of Hidden Onsen Inns)",
-    "sourceUrl": "https://www.hitou.or.jp/"
+    "sourceUrl": "https://www.hitou.or.jp/",
+    "imageUrl": "/images/stamps/onsen-aoni-lamp.jpg"
   },
   {
     "id": "onsen-ginzan-notoya",
@@ -67146,7 +67154,8 @@
     "operator": "Notoya Ryokan (国登録有形文化財)",
     "description": "Erbaut 1892 im Taisho-Roman-Stil, eingetragenes nationales Kulturgut am Ufer des Ginzan-Flusses. Gaslaternen spiegeln sich abends im Wasser der ehemaligen Silberminen-Stadt.",
     "source": "Ginzan Onsen Tourism Association",
-    "sourceUrl": "https://www.notoyaryokan.com/"
+    "sourceUrl": "https://www.notoyaryokan.com/",
+    "imageUrl": "/images/stamps/onsen-ginzan-notoya.jpg"
   },
   {
     "id": "onsen-zao-dai-rotenburo",
@@ -67166,7 +67175,8 @@
     "operator": "Zao Onsen Tourism Association",
     "description": "Riesiges Freiluft-Kaskadenbad inmitten eines alpinen Buchenwaldes. Stark saures Schwefelwasser (pH 1.3) fließt direkt aus dem Gebirgsbach in terrassierte Becken.",
     "source": "Zao Onsen Tourism Association",
-    "sourceUrl": "https://www.zao-spa.or.jp/"
+    "sourceUrl": "https://www.zao-spa.or.jp/",
+    "imageUrl": "/images/stamps/onsen-zao-dai-rotenburo.jpg"
   },
   {
     "id": "onsen-naruko-takinoyu",
@@ -67186,7 +67196,8 @@
     "operator": "Naruko Yumoto Hot Spring Cooperative",
     "description": "Über 1.000 Jahre altes Gemeindebad ganz aus duftendem Hiba-Zypressenholz. Heilwasser ergießt sich aus hölzernen Schwallrinnen direkt auf Schultern und Rücken.",
     "source": "Naruko Onsen Tourism Association",
-    "sourceUrl": "https://www.naruko.gr.jp/"
+    "sourceUrl": "https://www.naruko.gr.jp/",
+    "imageUrl": "/images/stamps/onsen-naruko-takinoyu.jpg"
   },
   {
     "id": "onsen-kusatsu-netsunoyu",
@@ -67206,7 +67217,8 @@
     "operator": "Kusatsu Onsen Tourism Association",
     "description": "Zentrum der berühmten 'Yumomi'-Tradition, bei der das heiße Thermalwasser mit großen Holzpaddeln unter Gesang abgekühlt wird. Gelegen unmittelbar am dampfenden Yubatake-Quellfeld.",
     "source": "Kusatsu Onsen Official Portal (草津温泉ポータルサイト)",
-    "sourceUrl": "https://www.kusatsu-onsen.ne.jp/"
+    "sourceUrl": "https://www.kusatsu-onsen.ne.jp/",
+    "imageUrl": "/images/stamps/onsen-kusatsu-netsunoyu.jpg"
   },
   {
     "id": "onsen-kusatsu-naraya",
@@ -67226,7 +67238,8 @@
     "operator": "Naraya Ryokan",
     "description": "Gegründet 1877 in der Meiji-Zeit. Berühmt für seinen 'Yumori' (Thermalbadmeister), der die Shirahata-Quelle von Hand temperiert, und das denkmalgeschützte Holzinterieur.",
     "source": "Naraya Official Registry",
-    "sourceUrl": "https://www.kusatsu-naraya.co.jp/"
+    "sourceUrl": "https://www.kusatsu-naraya.co.jp/",
+    "imageUrl": "/images/stamps/onsen-kusatsu-naraya.jpg"
   },
   {
     "id": "onsen-ikaho-ishidan",
@@ -67246,7 +67259,8 @@
     "operator": "Shibukawa Ikaho Onsen Tourism Association",
     "description": "Historisches Thermalbad an der berühmten 365-stufigen Steintreppe von Ikaho. Gespeist von der eisenhaltigen 'Kogane-no-Yu' (Goldquelle), die bereits im Man'yōshū besungen wurde.",
     "source": "Ikaho Onsen Tourism Association",
-    "sourceUrl": "https://www.ikaho-kankou.com/"
+    "sourceUrl": "https://www.ikaho-kankou.com/",
+    "imageUrl": "/images/stamps/onsen-ikaho-ishidan.jpg"
   },
   {
     "id": "onsen-takaragawa-osenkaku",
@@ -67266,7 +67280,8 @@
     "operator": "Takaragawa Onsen Osenkaku",
     "description": "Weltbekannt für seine vier gigantischen Naturstein-Freiluftbäder direkt am rauschenden Takaragawa-Fluss (über 790m² Wasserfläche). Umrahmt von dichten Urwäldern.",
     "source": "Minakami Onsen Tourism Association",
-    "sourceUrl": "https://www.takaragawa.com/"
+    "sourceUrl": "https://www.takaragawa.com/",
+    "imageUrl": "/images/stamps/onsen-takaragawa-osenkaku.svg"
   },
   {
     "id": "onsen-hoshi-chojukaku",
@@ -67286,7 +67301,8 @@
     "operator": "日本秘湯を守る会 (Japan Association of Hidden Onsen Inns)",
     "description": "Errichtet 1895, nationales Kulturgut. Im berühmten Hōshi-Bad sprudelt das 43°C heiße Thermalwasser direkt aus den Kieselsteinen des Beckenbodens empor.",
     "source": "日本秘湯を守る会 (Japan Association of Hidden Onsen Inns)",
-    "sourceUrl": "https://www.hitou.or.jp/"
+    "sourceUrl": "https://www.hitou.or.jp/",
+    "imageUrl": "/images/stamps/onsen-hoshi-chojukaku.jpg"
   },
   {
     "id": "onsen-hakone-fujiya",
@@ -67306,7 +67322,8 @@
     "operator": "Fujiya Hotel (国登録有形文化財)",
     "description": "1878 gegründetes Prachthotel in Miyanoshita, das japanische Tempelarchitektur mit westlichem Luxus vereint. Berühmte Gäste waren John Lennon, Charlie Chaplin und Albert Einstein.",
     "source": "Fujiya Hotel Official Registry",
-    "sourceUrl": "https://www.fujiyahotel.jp/"
+    "sourceUrl": "https://www.fujiyahotel.jp/",
+    "imageUrl": "/images/stamps/onsen-hakone-fujiya.jpg"
   },
   {
     "id": "onsen-hakone-tenzan",
@@ -67326,7 +67343,8 @@
     "operator": "Tenzan Tojikyo",
     "description": "Traditionelles Badehaus im Sukumo-Flusstal mit sieben Natursteinbecken im Freien. Verwendet reines Thermalwasser ohne Beimischung (Kakenagashi).",
     "source": "Hakone Onsen Tourism Association",
-    "sourceUrl": "https://tenzan.jp/"
+    "sourceUrl": "https://tenzan.jp/",
+    "imageUrl": "/images/stamps/onsen-hakone-tenzan.svg"
   },
   {
     "id": "onsen-shibu-kanaguya",
@@ -67346,7 +67364,8 @@
     "operator": "Kanaguya (国登録有形文化財)",
     "description": "Vierstöckiges Holzpalais von 1758, weltberühmtes Meisterwerk traditioneller Zimmermannskunst und optisches Vorbild für das Badehaus in Chihiros Reise ins Zauberland. Zentrum des 9-Bäder-Stempelrallyes.",
     "source": "Shibu Onsen Ryokan Association (渋温泉旅館組合)",
-    "sourceUrl": "https://www.kanaguya.com/"
+    "sourceUrl": "https://www.kanaguya.com/",
+    "imageUrl": "/images/stamps/onsen-shibu-kanaguya.svg"
   },
   {
     "id": "onsen-nozawa-oyu",
@@ -67366,7 +67385,8 @@
     "operator": "Nozawa Onsen Yuzawa Hot Spring Cooperative",
     "description": "Das Herzstück der 13 frei zugänglichen Gemeinschaftsbäder (Soto-yu) von Nozawa. Ein prächtiger Edo-Holzbau mit eigener heißer Schwefelquelle und berühmt für das Goshuin-artige Stempeln.",
     "source": "Nozawa Onsen Tourism Association (野沢温泉観光協会)",
-    "sourceUrl": "https://nozawakanko.jp/"
+    "sourceUrl": "https://nozawakanko.jp/",
+    "imageUrl": "/images/stamps/onsen-nozawa-oyu.jpg"
   },
   {
     "id": "onsen-shirahone-saito",
@@ -67386,7 +67406,8 @@
     "operator": "日本秘湯を守る会 (Japan Association of Hidden Onsen Inns)",
     "description": "Gelegen in einer abgeschiedenen Schlucht der japanischen Nordalpen. Das milchig-weiße Thermalwasser scheidet Kalksinter ab und soll 'nach 3 Tagen Baden für 3 Jahre vor Erkältungen schützen'.",
     "source": "日本秘湯を守る会 (Japan Association of Hidden Onsen Inns)",
-    "sourceUrl": "https://www.hitou.or.jp/"
+    "sourceUrl": "https://www.hitou.or.jp/",
+    "imageUrl": "/images/stamps/onsen-shirahone-saito.jpg"
   },
   {
     "id": "onsen-gero-yunoshimakan",
@@ -67406,7 +67427,8 @@
     "operator": "Yunoshimakan (国登録有形文化財)",
     "description": "Erbaut 1931 in den Zedernwäldern oberhalb von Gero, einem der 'Drei berühmten Heilbäder Japans' (neben Arima und Kusatsu). Seidig-weiches alkalisches Wasser, geschätzt als Schönheitsquelle.",
     "source": "Gero Onsen Tourism Association",
-    "sourceUrl": "https://www.yunoshimakan.co.jp/"
+    "sourceUrl": "https://www.yunoshimakan.co.jp/",
+    "imageUrl": "/images/stamps/onsen-gero-yunoshimakan.svg"
   },
   {
     "id": "onsen-yamashiro-kosoyu",
@@ -67426,7 +67448,8 @@
     "operator": "Kaga City Yamashiro Onsen Association",
     "description": "Detailgetreue Rekonstruktion eines Meiji-Gemeindebads mit handbemalten Kutani-Porzellanfliesen und Buntglasfenstern. Das Baden erfolgt ohne Seife nach alter ritueller Tradition.",
     "source": "Yamashiro Onsen Tourism Association",
-    "sourceUrl": "https://www.yamashiro-spa.or.jp/"
+    "sourceUrl": "https://www.yamashiro-spa.or.jp/",
+    "imageUrl": "/images/stamps/onsen-yamashiro-kosoyu.jpg"
   },
   {
     "id": "onsen-yamanaka-kikunoyu",
@@ -67446,7 +67469,8 @@
     "operator": "Kaga City Yamanaka Onsen Association",
     "description": "Über 1.300 Jahre altes Heilbad in der Kakusenkei-Schlucht. Der Dichter Matsuo Bashō rühmte die Quelle als eine der drei feinsten Japans: 'Hier braucht man keine Chrysanthemen pflücken, der Duft des Wassers schenkt langes Leben.'",
     "source": "Yamanaka Onsen Tourism Association",
-    "sourceUrl": "https://www.yamanaka-spa.or.jp/"
+    "sourceUrl": "https://www.yamanaka-spa.or.jp/",
+    "imageUrl": "/images/stamps/onsen-yamanaka-kikunoyu.jpg"
   },
   {
     "id": "onsen-awazu-houshi",
@@ -67466,7 +67490,8 @@
     "operator": "Hoshi Ryokan (創業718年)",
     "description": "Gegründet im Jahr 718 n. Chr. durch den buddhistischen Mönch Taichō Daishi. Gilt als eines der ältesten kontinuierlich durch dieselbe Familie geführten Gasthäuser der Welt (über 46 Generationen).",
     "source": "Awazu Onsen Tourism Association",
-    "sourceUrl": "https://www.ho-shi.co.jp/"
+    "sourceUrl": "https://www.ho-shi.co.jp/",
+    "imageUrl": "/images/stamps/onsen-awazu-houshi.jpg"
   },
   {
     "id": "onsen-arima-kinnoyu",
@@ -67486,7 +67511,8 @@
     "operator": "Kobe City Arima Hot Spring Management",
     "description": "Das berühmteste 'Goldbad' Japans im ältesten Kurort des Landes. Reich an Eisen und Salz färbt sich das Wasser an der Luft rostrot. Vor dem Gebäude befindet sich ein kostenfreies Fußbad.",
     "source": "Arima Onsen Tourism Association (有馬温泉観光協会)",
-    "sourceUrl": "https://arimaspa-kingin.jp/"
+    "sourceUrl": "https://arimaspa-kingin.jp/",
+    "imageUrl": "/images/stamps/onsen-arima-kinnoyu.jpg"
   },
   {
     "id": "onsen-arima-ginnoyu",
@@ -67506,7 +67532,8 @@
     "operator": "Kobe City Arima Hot Spring Management",
     "description": "Das Gegenstück zum Goldbad: Kristallklares, kohlensäure- und radiumhaltiges Thermalwasser entspannt Muskeln und Kreislauf.",
     "source": "Arima Onsen Tourism Association",
-    "sourceUrl": "https://arimaspa-kingin.jp/"
+    "sourceUrl": "https://arimaspa-kingin.jp/",
+    "imageUrl": "/images/stamps/onsen-arima-ginnoyu.jpg"
   },
   {
     "id": "onsen-arima-goshoboh",
@@ -67526,7 +67553,8 @@
     "operator": "Goshobo Ryokan (創業1191年)",
     "description": "Gegründet 1191 in der Kamakura-Zeit, ältester Gasthof von Arima. Rückzugsort von Feldherr Toyotomi Hideyoshi und Schriftstellern wie Tanizaki Jun'ichirō.",
     "source": "Goshobo Official Registry",
-    "sourceUrl": "https://goshobo.co.jp/"
+    "sourceUrl": "https://goshobo.co.jp/",
+    "imageUrl": "/images/stamps/onsen-arima-goshoboh.jpg"
   },
   {
     "id": "onsen-kinosaki-satonoyu",
@@ -67546,7 +67574,8 @@
     "operator": "Kinosaki Onsen Ryokan Cooperative",
     "description": "Panoramabad direkt am Bahnhof mit Freiluftterrasse und Saunalandschaft. Ausgangspunkt der traditionellen 'Soto-yu Meguri' (Rundgang durch 7 Außenbäder im Yukata).",
     "source": "Kinosaki Onsen Tourism Association",
-    "sourceUrl": "https://kinosaki-spa.gr.jp/"
+    "sourceUrl": "https://kinosaki-spa.gr.jp/",
+    "imageUrl": "/images/stamps/onsen-kinosaki-satonoyu.jpg"
   },
   {
     "id": "onsen-kinosaki-ichinoyu",
@@ -67566,7 +67595,8 @@
     "operator": "Kinosaki Onsen Ryokan Cooperative",
     "description": "Markanter Bau im Stil eines klassischen Kabuki-Theaters am Weidenkanal. Im Inneren befindet sich ein spektakuläres Naturgrotte-Bad (Dōkutsu-buro).",
     "source": "Kinosaki Onsen Tourism Association",
-    "sourceUrl": "https://kinosaki-spa.gr.jp/"
+    "sourceUrl": "https://kinosaki-spa.gr.jp/",
+    "imageUrl": "/images/stamps/onsen-kinosaki-ichinoyu.jpg"
   },
   {
     "id": "onsen-kinosaki-goshonoyu",
@@ -67586,7 +67616,8 @@
     "operator": "Kinosaki Onsen Ryokan Cooperative",
     "description": "Errichtet im Stil des kaiserlichen Kyoto-Palastes. Das Freiluftbecken liegt direkt an einem natürlichen Felswasserfall und ist von Ahornbäumen überdacht.",
     "source": "Kinosaki Onsen Tourism Association",
-    "sourceUrl": "https://kinosaki-spa.gr.jp/"
+    "sourceUrl": "https://kinosaki-spa.gr.jp/",
+    "imageUrl": "/images/stamps/onsen-kinosaki-goshonoyu.jpg"
   },
   {
     "id": "onsen-shirahama-sakinoyu",
@@ -67606,7 +67637,8 @@
     "operator": "Shirahama Town Tourism Bureau",
     "description": "Über 1.300 Jahre altes Felsen-Freiluftbad, das bereits im Nihon Shoki erwähnt wird. Die Wellen des Pazifiks brechen nur wenige Meter vor den Felsbecken.",
     "source": "Shirahama Onsen Tourism Association",
-    "sourceUrl": "https://www.nanki-shirahama.com/"
+    "sourceUrl": "https://www.nanki-shirahama.com/",
+    "imageUrl": "/images/stamps/onsen-shirahama-sakinoyu.svg"
   },
   {
     "id": "onsen-yunomine-tsuboyu",
@@ -67626,7 +67658,8 @@
     "operator": "Tanabe City Kumano Tourism Bureau (世界遺産)",
     "description": "Das einzige Thermalbad der Welt, das als UNESCO-Weltkulturerbe eingetragen ist (Teil des Pilgerwegs Kumano Kodo). Das Wasser im Natursteinbottich wechselt angeblich siebenmal täglich seine Farbe.",
     "source": "Kumano Kodo UNESCO Heritage & Tanabe Tourism",
-    "sourceUrl": "https://www.tb-kumano.jp/"
+    "sourceUrl": "https://www.tb-kumano.jp/",
+    "imageUrl": "/images/stamps/onsen-yunomine-tsuboyu.jpg"
   },
   {
     "id": "onsen-dogo-honkan",
@@ -67646,7 +67679,8 @@
     "operator": "Matsuyama City Dogo Onsen Office (重要文化財)",
     "description": "3.000 Jahre altes Thermalbad, wichtiges Kulturgut Japans. Der 1894 errichtete dreistöckige Holzbau mit Shinrokaku-Pavillon diente Studio Ghibli als Hauptinspiration für Chihiros Badehaus.",
     "source": "Dogo Onsen Official Portal (道後温泉公式サイト)",
-    "sourceUrl": "https://dogo.jp/"
+    "sourceUrl": "https://dogo.jp/",
+    "imageUrl": "/images/stamps/onsen-dogo-honkan.jpg"
   },
   {
     "id": "onsen-dogo-funaya",
@@ -67666,7 +67700,8 @@
     "operator": "Funaya Ryokan (創業390余年)",
     "description": "Traditionsreichstes Nobel-Ryokan von Dōgo, gegründet 1627. Natsume Soseki und Masaoka Shiki verweilten hier in den Gärten am Flusslauf.",
     "source": "Funaya Official Registry",
-    "sourceUrl": "https://www.dogo-funaya.co.jp/"
+    "sourceUrl": "https://www.dogo-funaya.co.jp/",
+    "imageUrl": "/images/stamps/onsen-dogo-funaya.jpg"
   },
   {
     "id": "onsen-tamatsukuri-yuyu",
@@ -67686,7 +67721,8 @@
     "operator": "Tamatsukuri Hot Spring Tourism Association",
     "description": "Schon im Izumo-Fudoki (733 n. Chr.) als 'Quelle der Götter' gepriesen: 'Einmal Baden macht schön, zweimal heilt alle Leiden.' Berühmt für hautpflegendes Wasser und Jadeschmuck.",
     "source": "Tamatsukuri Onsen Tourism Association",
-    "sourceUrl": "https://tamayado.com/"
+    "sourceUrl": "https://tamayado.com/",
+    "imageUrl": "/images/stamps/onsen-tamatsukuri-yuyu.jpg"
   },
   {
     "id": "onsen-misasa-izanro",
@@ -67706,7 +67742,8 @@
     "operator": "Izanro Iwasaki Ryokan",
     "description": "Weltweit eines der radiumreichsten Thermalbäder. Gegründet vor über 850 Jahren nach einer Legende um einen weißen Wolf des Samurai Minamoto no Yoshitomo.",
     "source": "Misasa Onsen Tourism Association",
-    "sourceUrl": "https://www.izanro.co.jp/"
+    "sourceUrl": "https://www.izanro.co.jp/",
+    "imageUrl": "/images/stamps/onsen-misasa-izanro.jpg"
   },
   {
     "id": "onsen-iya-hotel-iyaonsen",
@@ -67726,7 +67763,8 @@
     "operator": "日本秘湯を守る会 (Japan Association of Hidden Onsen Inns)",
     "description": "Dramatisch auf einem Klippenvorsprung über der Iya-Schlucht gelegen. Eine private Standseilbahn überwindet 170 Höhenmeter steil hinab zu den sprudelnden Becken am Flussbett.",
     "source": "日本秘湯を守る会 (Japan Association of Hidden Onsen Inns)",
-    "sourceUrl": "https://www.hitou.or.jp/"
+    "sourceUrl": "https://www.hitou.or.jp/",
+    "imageUrl": "/images/stamps/onsen-iya-hotel-iyaonsen.svg"
   },
   {
     "id": "onsen-kotohira-kadan",
@@ -67746,7 +67784,8 @@
     "operator": "Kotohira Kadan (創業400年)",
     "description": "400 Jahre alter Nobelgasthof am Fuße des heiligen Kotohira-gu Schreins (Kompira-san). Gartenbäder mit Blick auf den Berg Iino (Sanuki Fuji).",
     "source": "Kotohira Onsen Ryokan Association",
-    "sourceUrl": "https://www.kotohira-kadan.jp/"
+    "sourceUrl": "https://www.kotohira-kadan.jp/",
+    "imageUrl": "/images/stamps/onsen-kotohira-kadan.jpg"
   },
   {
     "id": "onsen-kurokawa-kazenosho",
@@ -67766,7 +67805,8 @@
     "operator": "黒川温泉観光旅館協同組合 (Kurokawa Onsen Ryokan Association)",
     "description": "Zentrum des berühmten 'Nyūtō Tegata' (hölzerner Badepass). Besucher können mit einem Pass 3 verschiedene Freiluftbäder der 30 Mitglieds-Ryokan im bewaldeten Bergtal erwandern und stempeln.",
     "source": "黒川温泉観光旅館協同組合 (Kurokawa Onsen Ryokan Association)",
-    "sourceUrl": "https://www.kurokawaonsen.or.jp/"
+    "sourceUrl": "https://www.kurokawaonsen.or.jp/",
+    "imageUrl": "/images/stamps/onsen-kurokawa-kazenosho.jpg"
   },
   {
     "id": "onsen-kurokawa-yamamizuki",
@@ -67786,7 +67826,8 @@
     "operator": "Yamamizuki Ryokan",
     "description": "Eines der idyllischsten Waldbäder Japans, unmittelbar an den Kieselbänken des Tanohara-Gebirgsflusses gelegen.",
     "source": "Kurokawa Onsen Ryokan Association",
-    "sourceUrl": "https://www.yamamizuki.com/"
+    "sourceUrl": "https://www.yamamizuki.com/",
+    "imageUrl": "/images/stamps/onsen-kurokawa-yamamizuki.jpg"
   },
   {
     "id": "onsen-beppu-takegawara",
@@ -67806,7 +67847,8 @@
     "operator": "別府八湯温泉道実行委員会 & 別府市",
     "description": "Wahrzeichen von Beppu, errichtet 1879 mit monumentaler Karahafu-Giebelarchitektur. Bekannt für das traditionelle heiße Sandbad (Sunamushi) und Station Nr. 1 des Beppu Spaport-Rallyes.",
     "source": "別府八湯温泉道 (Beppu Hachiyu Onsen-do)",
-    "sourceUrl": "http://onsendo.beppu-navi.jp/"
+    "sourceUrl": "http://onsendo.beppu-navi.jp/",
+    "imageUrl": "/images/stamps/onsen-beppu-takegawara.jpg"
   },
   {
     "id": "onsen-beppu-hyotan",
@@ -67826,7 +67868,8 @@
     "operator": "Hyotan Onsen (ミシュラン3つ星)",
     "description": "Als einziges Thermalbad Japans durchgehend mit 3 Michelin-Grünen-Sternen ausgezeichnet. Berühmt für Wasserfall-Nackenduschen (Taki-yu), Sandbäder und Dampfsaunen.",
     "source": "別府八湯温泉道 & 九州八十八湯めぐり",
-    "sourceUrl": "https://www.hyotan-onsen.com/"
+    "sourceUrl": "https://www.hyotan-onsen.com/",
+    "imageUrl": "/images/stamps/onsen-beppu-hyotan.svg"
   },
   {
     "id": "onsen-beppu-myoban-yunohana",
@@ -67846,7 +67889,8 @@
     "operator": "Myoban Yunosato",
     "description": "Traditionelle Strohhütten zur Gewinnung von Badesalz-Kristallen (Yunohana), nationales immaterielles Volkskulturgut. Schwefelbad mit Panoramablick auf die Myoban-Brücke.",
     "source": "別府八湯温泉道 (Beppu Hachiyu Onsen-do)",
-    "sourceUrl": "http://yunosato-onsen.jp/"
+    "sourceUrl": "http://yunosato-onsen.jp/",
+    "imageUrl": "/images/stamps/onsen-beppu-myoban-yunohana.svg"
   },
   {
     "id": "onsen-yufuin-tsukanoma",
@@ -67866,7 +67910,8 @@
     "operator": "九州八十八湯めぐり実行委員会",
     "description": "Berühmt für sein intensiv kobaltblau gefärbtes Thermalwasser, reich an Kieselsäure. Freiluftbäder an den Hängen des majestätischen Zwillingsvulkans Mt. Yufu.",
     "source": "九州八十八湯めぐり (Kyushu 88 Onsen Pilgrimage)",
-    "sourceUrl": "https://www.88onsen.com/"
+    "sourceUrl": "https://www.88onsen.com/",
+    "imageUrl": "/images/stamps/onsen-yufuin-tsukanoma.jpg"
   },
   {
     "id": "onsen-takeo-romon",
@@ -67886,7 +67931,8 @@
     "operator": "Takeo Onsen Co., Ltd. (国重要文化財)",
     "description": "Über 1.300 Jahre altes Heilbad mit dem leuchtend roten Drachenpalasttor (Romon), 1915 entworfen von Tatsuno Kingo (Architekt des Bahnhofs Tokio). Miyamoto Musashi badete hier.",
     "source": "Takeo City Tourism Association",
-    "sourceUrl": "http://www.takeo-kk.net/"
+    "sourceUrl": "http://www.takeo-kk.net/",
+    "imageUrl": "/images/stamps/onsen-takeo-romon.jpg"
   },
   {
     "id": "onsen-unzen-yumoto",
@@ -67906,7 +67952,8 @@
     "operator": "Unzen Yumoto Hotel (創業1693年)",
     "description": "Gegründet 1693 als ältestes Gasthaus im Unzen-Nationalpark. Direkt an den zischenden Fumarolen der 'Unzen-Hölle' gelegen, mit reinem, milchigem Schwefelwasser.",
     "source": "Unzen Onsen Tourism Association",
-    "sourceUrl": "https://www.yumoto-h.co.jp/"
+    "sourceUrl": "https://www.yumoto-h.co.jp/",
+    "imageUrl": "/images/stamps/onsen-unzen-yumoto.jpg"
   },
   {
     "id": "onsen-ibusuki-saraku",
@@ -67926,7 +67973,8 @@
     "operator": "Ibusuki City Tourism Association",
     "description": "Weltweit einzigartiges natürliches Sandbad am Meeresstrand. Badegäste im Yukata werden in den 50–55°C warmen, von geothermischen Quellen erhitzten Sand eingegraben.",
     "source": "Ibusuki Tourism Association (指宿観光協会)",
-    "sourceUrl": "https://sa-ra-ku.com/"
+    "sourceUrl": "https://sa-ra-ku.com/",
+    "imageUrl": "/images/stamps/onsen-ibusuki-saraku.jpg"
   },
   {
     "id": "onsen-kirishima-hotel",
@@ -67946,7 +67994,8 @@
     "operator": "Kirishima Hotel",
     "description": "Berühmt für sein monumentales 14-Quellen-Hallenbad mit 14 Millionen Litern täglichem Schüttungsvolumen. Sakamoto Ryoma und seine Braut Oryo verbrachten hier 1866 Japans erste Flitterwochen.",
     "source": "Kirishima City Tourism Association",
-    "sourceUrl": "https://www.kirishima-hotel.jp/"
+    "sourceUrl": "https://www.kirishima-hotel.jp/",
+    "imageUrl": "/images/stamps/onsen-kirishima-hotel.svg"
   },
   {
     "id": "airport-new-chitose",
@@ -67966,7 +68015,8 @@
     "operator": "JALグループ / 北海道エアポート",
     "description": "Größter Flughafen Hokkaidos und Luftdrehkreuz des Nordens. Offizieller JAL 御翔印 (Gosho-in) Stempel mit der Kalligrafie der New Chitose Station und Silhouette der B737 vor den Bergen von Shikotsu-Toya.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-newchitose-airport.jpg"
   },
   {
     "id": "airport-hakodate",
@@ -67986,7 +68036,8 @@
     "operator": "JALグループ / 北海道エアポート",
     "description": "Flughafen an der Tsugaru-Straße im Süden Hokkaidos mit Aussicht auf den Berg Hakodate und die Festung Goryokaku.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-hakodate-airport.jpg"
   },
   {
     "id": "airport-asahikawa",
@@ -68006,7 +68057,8 @@
     "operator": "JALグループ / 北海道エアポート",
     "description": "Tor zum Daisetsuzan-Nationalpark und den Blumenfeldern von Furano und Biei. Herausragende Winterzuverlässigkeit mit über 99% Landequote.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-asahikawa-airport.jpg"
   },
   {
     "id": "airport-kushiro",
@@ -68026,7 +68078,8 @@
     "operator": "JALグループ / 北海道エアポート",
     "description": "Benannt nach dem heiligen Mandschurenkranich (Tancho) inmitten der Feuchtgebiete des Kushiro-Shitsugen-Nationalparks.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-kushiro.svg"
   },
   {
     "id": "airport-obihiro",
@@ -68046,7 +68099,8 @@
     "operator": "JALグループ / 北海道エアポート",
     "description": "Flughafen der fruchtbaren Tokachi-Ebene, berühmt für Milchwirtschaft, Weizenfelder und Ban'ei-Pferderennen.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-obihiro.svg"
   },
   {
     "id": "airport-memanbetsu",
@@ -68066,7 +68120,8 @@
     "operator": "JALグループ / 北海道エアポート",
     "description": "Zugang zum Shiretoko-Weltnaturerbe und dem Ochotskischen Meer mit seinen winterlichen Treibeisfeldern (Ryuhyo).",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-memanbetsu-airport.jpg"
   },
   {
     "id": "airport-wakkanai",
@@ -68086,7 +68141,8 @@
     "operator": "JALグループ / 北海道エアポート",
     "description": "Nördlichster Flughafen Japans am Kap Soya mit Blick auf das Soya-Kliff und die Insel Sachalin an klaren Tagen.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-wakkanai-airport.jpg"
   },
   {
     "id": "airport-okushiri",
@@ -68106,7 +68162,8 @@
     "operator": "HAC (北海道エアシステム / JALグループ)",
     "description": "Inselflughafen vor der Südwestküste Hokkaidos im Japanischen Meer, berühmt für 'Okushiri Blue' Meereswasser und Seeigel.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-okushiri-airport.jpg"
   },
   {
     "id": "airport-rishiri",
@@ -68126,7 +68183,8 @@
     "operator": "HAC (北海道エアシステム / JALグループ)",
     "description": "Direkt am Fuße des majestätischen Vulkanbergs Rishiri-Fuji (1.721m) im nördlichen Eismeer.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-rishiri-airport.jpg"
   },
   {
     "id": "airport-aomori",
@@ -68146,7 +68204,8 @@
     "operator": "JALグループ / 青森空港ビル",
     "description": "Flughafen der Präfektur Aomori, berühmt für das weltklasse Winterräumteam 'White Impuls'.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-aomori-airport.jpg"
   },
   {
     "id": "airport-misawa",
@@ -68166,7 +68225,8 @@
     "operator": "JALグループ / 三沢空港ターミナル",
     "description": "Zivil-militärisch genutzter Flughafen am Pazifik und Tor zum Ogawara-See und der Shimokita-Halbinsel.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-misawa.jpg"
   },
   {
     "id": "airport-hanamaki",
@@ -68186,7 +68246,8 @@
     "operator": "JALグループ / 岩手県空港ターミナルビル",
     "description": "Flughafen der Heimat von Kenji Miyazawa, Tor zu den Onsen-Bädern des Hanamaki-Tals.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-hanamaki.jpg"
   },
   {
     "id": "airport-sendai",
@@ -68206,7 +68267,8 @@
     "operator": "JALグループ / 仙台国際空港",
     "description": "Größter internationaler Flughafen der Tohoku-Region, per Bahn direkt mit dem Hauptbahnhof Sendai verbunden.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-sendai-airport.jpg"
   },
   {
     "id": "airport-akita",
@@ -68226,7 +68288,8 @@
     "operator": "JALグループ / 秋田空港ターミナルビル",
     "description": "Eingangstor zu den Kanto-Festivalen und der Heimat der Akita-Hunde und Namahage-Traditionen.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-akita-airport.jpg"
   },
   {
     "id": "airport-yamagata",
@@ -68246,7 +68309,8 @@
     "operator": "JALグループ / 山形空港ビル",
     "description": "Liebevoll 'Oishii Yamagata Airport' genannt, im Zentrum der japanischen Kirschen- und Rindfleisch-Hochburg.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-yamagata.jpg"
   },
   {
     "id": "airport-fukushima",
@@ -68266,7 +68330,8 @@
     "operator": "JALグループ / 福島空港ビル",
     "description": "Zentraler Flughafen der Präfektur Fukushima, Geburtsregion von Ultraman-Schöpfer Eiji Tsuburaya.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-fukushima.jpg"
   },
   {
     "id": "airport-tokyo-haneda",
@@ -68286,7 +68351,8 @@
     "operator": "JALグループ / 日本空港ビルデング",
     "description": "Japans verkehrsreichster Flughafen direkt an der Bucht von Tokio. Das Herzstück der JAL Gosho-in Kollektion im historischen Terminal 1.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-tokyo-haneda.jpg"
   },
   {
     "id": "airport-tokyo-narita",
@@ -68306,7 +68372,8 @@
     "operator": "JALグループ / 成田国際空港株式会社",
     "description": "Japans primäres internationales Drehkreuz im Terminal 2, Ausgangspunkt transkontinentaler Fernflüge.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-naritaairport-1.jpg"
   },
   {
     "id": "airport-izu-oshima",
@@ -68326,7 +68393,8 @@
     "operator": "JALグループ / 東邦航空 / 東京都港湾局",
     "description": "Inselflughafen auf Izu Oshima vor den Toren Tokios, im Schatten des aktiven Vulkans Mt. Mihara.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-izu-oshima.jpg"
   },
   {
     "id": "airport-hachijojima",
@@ -68346,7 +68414,8 @@
     "operator": "JALグループ / 東京都港湾局",
     "description": "Subtropischer Inselflughafen 287 km südlich von Tokio zwischen Hachijo-Fuji und Mt. Mihara.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-hachijojima-airport.jpg"
   },
   {
     "id": "airport-chubu-centrair",
@@ -68366,7 +68435,8 @@
     "operator": "JALグループ / 中部国際空港株式会社",
     "description": "Künstliche Insel in der Ise-Bucht bei Nagoya, berühmt für die 300m lange Freiluft-Aussichtsplattform Sky Deck.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-centrair.jpg"
   },
   {
     "id": "airport-komatsu",
@@ -68386,7 +68456,8 @@
     "operator": "JALグループ / 北陸エアターミナルビル",
     "description": "Hauptflughafen der Hokuriku-Region für Kanazawa und Kaga Onsen, mit Blick auf den heiligen Berg Hakusan.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-komatsu.jpg"
   },
   {
     "id": "airport-niigata",
@@ -68406,7 +68477,8 @@
     "operator": "JALグループ / 新潟空港ビルディング",
     "description": "Tor zum Japanischen Meer und den Reisfeldern von Echigo, Ausgangspunkt für Flüge nach Sado.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-niigata-airport.jpg"
   },
   {
     "id": "airport-matsumoto",
@@ -68426,7 +68498,8 @@
     "operator": "JALグループ (FDAコードシェア) / 長野県",
     "description": "Höchstgelegener Verkehrsflughafen Japans auf 657m Höhe, umgeben von den 3.000m hohen Gipfeln der Japanischen Alpen.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-matsumoto.jpg"
   },
   {
     "id": "airport-shizuoka",
@@ -68446,7 +68519,8 @@
     "operator": "JALグループ / 富士山静岡空港株式会社",
     "description": "Flughafen inmitten der weitläufigen Teefelder von Makinohara mit spektakulärem Blick auf den Mt. Fuji.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-shizuoka.jpg"
   },
   {
     "id": "airport-osaka-itami",
@@ -68466,7 +68540,8 @@
     "operator": "JALグループ / 関西エアポート",
     "description": "Das traditionsreiche Inlandsdrehkreuz im Herzen der Metropolregion Kansai, nur 20 Minuten von Osaka-Umeda entfernt.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-osaka-itami.svg"
   },
   {
     "id": "airport-kansai",
@@ -68486,7 +68561,8 @@
     "operator": "JALグループ / 関西エアポート",
     "description": "Architektonisches Meisterwerk auf einer künstlichen Insel in der Bucht von Osaka, entworfen von Renzo Piano.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-kansai-airport.jpg"
   },
   {
     "id": "airport-kobe",
@@ -68506,7 +68582,8 @@
     "operator": "JALグループ (FDAコードシェア) / 関西エアポート神戸",
     "description": "Inselflughafen direkt vor dem Hafen von Kobe, per Port Liner Schwebebahn an Sannomiya angebunden.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-kobe-airport.jpg"
   },
   {
     "id": "airport-nanki-shirahama",
@@ -68526,7 +68603,8 @@
     "operator": "JALグループ / 南紀白浜エアポート",
     "description": "Tor zum UNESCO-Weltkulturerbe Kumano Kodo und den berühmten heißen Quellen von Shirahama.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-shirahama-airport.jpg"
   },
   {
     "id": "airport-tajima",
@@ -68546,7 +68624,8 @@
     "operator": "JAC (日本エアコミューター / JALグループ)",
     "description": "Benannt nach dem Weißstorch (Konotori), Tor zum Onsen-Paradies Kinosaki und der Burg Takeda.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-tajima.svg"
   },
   {
     "id": "airport-hiroshima",
@@ -68566,7 +68645,8 @@
     "operator": "JALグループ / 広島国際空港株式会社",
     "description": "Flughafen der Seto-Inlandsee Region, Tor zum Friedenspark in Hiroshima und dem schwimmenden Torii von Miyajima.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-hiroshima-airport.jpg"
   },
   {
     "id": "airport-okayama",
@@ -68586,7 +68666,8 @@
     "operator": "JALグループ / 岡山県空港振興協議会",
     "description": "Benannt nach der Legendenfigur Momotaro, Tor zum historischen Kurashiki-Kanalviertel und Korakuen-Garten.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-okayama.svg"
   },
   {
     "id": "airport-izumo",
@@ -68606,7 +68687,8 @@
     "operator": "JALグループ / 出雲空港ターミナルビル",
     "description": "Am Shinji-See gelegen, benannt nach 'Enmusubi' (göttliche Schicksalsbande) des großen Izumo Taisha Schreins.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-izumo.svg"
   },
   {
     "id": "airport-yamaguchi-ube",
@@ -68626,7 +68708,8 @@
     "operator": "JALグループ / 山口宇部空港ビル",
     "description": "Kompakter Küstenflughafen am Seto-Binnenmeer, Tor zur Tsunoshima-Brücke und den Akiyoshidai-Karsthöhlen.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-yamaguchiube-airport.jpg"
   },
   {
     "id": "airport-tottori",
@@ -68646,7 +68729,8 @@
     "operator": "JALグループ / 鳥取空港ビル",
     "description": "Direkt an den berühmten Tottori-Sanddünen gelegen und der Manga-Serie 'Detektiv Conan' gewidmet.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-tottori.svg"
   },
   {
     "id": "airport-yonago",
@@ -68666,7 +68750,8 @@
     "operator": "JALグループ / 米子空港ビル",
     "description": "Benannt nach der Yokai-Kultfigur 'GeGeGe no Kitaro' im Heimathafen von Manga-Meister Shigeru Mizuki.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-yonago.svg"
   },
   {
     "id": "airport-oki",
@@ -68686,7 +68771,8 @@
     "operator": "JAC (日本エアコミューター / JALグループ)",
     "description": "Inselflughafen des UNESCO-Weltgeoparks Oki-Inseln mit spektakulären Klippen und Bullenringen (Ushi-tsuki).",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-oki.svg"
   },
   {
     "id": "airport-tokushima",
@@ -68706,7 +68792,8 @@
     "operator": "JALグループ / 徳島空港ビル",
     "description": "Benannt nach dem legendären Tanzfestival Awa Odori und Tor zu den Meeresstrudeln von Naruto.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-tokushima.svg"
   },
   {
     "id": "airport-takamatsu",
@@ -68726,7 +68813,8 @@
     "operator": "JALグループ / 高松空港株式会社",
     "description": "Tor zur 'Sanuki Udon'-Präfektur und den Kunstinseln der Setouchi-Triennale (Naoshima & Teshima).",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-takamatsu-airport.jpg"
   },
   {
     "id": "airport-matsuyama",
@@ -68746,7 +68834,8 @@
     "operator": "JALグループ / 松山空港ビル",
     "description": "Größter Flughafen Shikokus, direkt an der Küste vor Dōgo Onsen und Burg Matsuyama gelegen.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-matsuyama-airport.jpg"
   },
   {
     "id": "airport-kochi",
@@ -68766,7 +68855,8 @@
     "operator": "JALグループ / 高知空港ビル",
     "description": "Benannt nach Samurai-Reformer Sakamoto Ryoma, an der Pazifikküste von Tosa gelegen.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-kochi.svg"
   },
   {
     "id": "airport-fukuoka",
@@ -68786,7 +68876,8 @@
     "operator": "JALグループ / 福岡国際空港株式会社",
     "description": "Eines der weltweit am stärksten genutzten Einstrecken-Drehkreuze, nur 5 U-Bahn-Minuten vom Bahnhof Hakata entfernt.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-fukuoka-airport.jpg"
   },
   {
     "id": "airport-kitakyushu",
@@ -68806,7 +68897,8 @@
     "operator": "JALグループ / 北九州エアターミナル",
     "description": "Künstliche Insel in der Suo-Bucht, rund um die Uhr geöffnet für Fracht- und Passagierverkehr.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-kitakyushu-airport.jpg"
   },
   {
     "id": "airport-oita",
@@ -68826,7 +68918,8 @@
     "operator": "JALグループ / 大分航空ターミナル",
     "description": "An der Spitze der Kunisaki-Halbinsel, berühmt für das Thermal-Fußbad im Terminal und seine Rolle als Weltraumbahnhof (Spaceport).",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-oita-airport.jpg"
   },
   {
     "id": "airport-nagasaki",
@@ -68846,7 +68939,8 @@
     "operator": "JALグループ / 長崎空港ビルディング",
     "description": "Weltweit erster voll funktionsfähiger Meeresinsel-Flughafen, 1975 in der Omura-Bucht eröffnet.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-nagasaki-airport.jpg"
   },
   {
     "id": "airport-kumamoto",
@@ -68866,7 +68960,8 @@
     "operator": "JALグループ / 熊本国際空港株式会社",
     "description": "2023 komplett neu eröffnetes Erdbeben-resilientes Holzterminal am Fuße des mächtigen Vulkans Aso.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-kumamoto.svg"
   },
   {
     "id": "airport-miyazaki",
@@ -68886,7 +68981,8 @@
     "operator": "JALグループ / 宮崎空港ビル",
     "description": "Sonniger Palmenflughafen an der Nichinan-Küste, benannt nach den leuchtenden Bougainvillea-Blüten.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-miyazaki.jpg"
   },
   {
     "id": "airport-kagoshima",
@@ -68906,7 +69002,8 @@
     "operator": "JALグループ / 鹿児島空港ビルディング",
     "description": "Das wichtigste Drehkreuz für die südlichen Nansei-Inseln, berühmt für das Thermal-Fußbad 'Oyattosa' im Terminal.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-kagoshima-airport.jpg"
   },
   {
     "id": "airport-amami",
@@ -68926,7 +69023,8 @@
     "operator": "JALグループ / 奄美空港ビル",
     "description": "Tor zum UNESCO-Weltnaturerbe Amami Oshima mit seinen Mangrovenwäldern und dem seltenen Amami-Kaninchen.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-amami-airport.jpg"
   },
   {
     "id": "airport-tokunoshima",
@@ -68946,7 +69044,8 @@
     "operator": "JAC (日本エアコミューター / JALグループ)",
     "description": "UNESCO-Weltnaturerbe-Insel, berühmt für traditionelle Tōgyū-Stierkämpfe und Korallenriffe.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-tokunoshima-airport.jpg"
   },
   {
     "id": "airport-yakushima",
@@ -68966,7 +69065,8 @@
     "operator": "JAC (日本エアコミューター / JALグループ)",
     "description": "Tor zum UNESCO-Urwald von Yakushima mit seinen Jahrtausende alten Jomon-Sugi-Riesenzedern.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-yakushima-airport.jpg"
   },
   {
     "id": "airport-tanegashima",
@@ -68986,7 +69086,8 @@
     "operator": "JAC (日本エアコミューター / JALグループ)",
     "description": "Flughafen der japanischen Raketenstartinsel Tanegashima (JAXA Space Center).",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-tanegashima.jpg"
   },
   {
     "id": "airport-kikai",
@@ -69006,7 +69107,8 @@
     "operator": "JAC (日本エアコミューター / JALグループ)",
     "description": "Inselflughafen auf der gehobenen Koralleninsel Kikaijima im subtropischen Amami-Archipel.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-kikai-airport.jpg"
   },
   {
     "id": "airport-okinoerabu",
@@ -69026,7 +69128,8 @@
     "operator": "JAC (日本エアコミューター / JALグループ)",
     "description": "Bekannt als 'Insel der Osterlilien' mit spektakulären Kalksteinhöhlen (Shoryudo).",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-okinoerabu.jpg"
   },
   {
     "id": "airport-yoron",
@@ -69046,7 +69149,8 @@
     "operator": "JAC (日本エアコミューター / JALグループ)",
     "description": "Südlichste Insel der Präfektur Kagoshima, weltberühmt für den temporär auftauchenden Sandstrand Yurigahama.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-yoron-airport.jpg"
   },
   {
     "id": "airport-okinawa-naha",
@@ -69066,7 +69170,8 @@
     "operator": "JALグループ / 那覇空港ビルディング",
     "description": "Das lebendige Hauptdrehkreuz der Ryukyu-Inseln mit Monorail-Anbindung zur Burg Shuri.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-naha-airport.jpg"
   },
   {
     "id": "airport-ishigaki",
@@ -69086,7 +69191,8 @@
     "operator": "JALグループ / 石垣空港ターミナル",
     "description": "Tor zu den Yaeyama-Inseln (Iriomote, Taketomi, Kohama, Hateruma) mit Korallenriffen und Mantarochen.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-ishigaki.svg"
   },
   {
     "id": "airport-miyako",
@@ -69106,7 +69212,8 @@
     "operator": "JTA (日本トランスオーシャン航空 / JALグループ)",
     "description": "Im Herzen von Miyakojima, berühmt für das kristallklare 'Miyako Blue' Wasser und die Yonaha Maehama Strände.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-miyakojima-airport.jpg"
   },
   {
     "id": "airport-shimojishima",
@@ -69126,7 +69233,8 @@
     "operator": "JALグループ / 下地島エアポートマネジメント",
     "description": "Ehemalige Pilotentrainingsbasis, heute modernes Resort-Terminal direkt am legendären '17END'-Strandriff.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-shimojishima.jpg"
   },
   {
     "id": "airport-kumejima",
@@ -69146,7 +69254,8 @@
     "operator": "RAC (琉球エアーコミューター / JALグループ)",
     "description": "Westlichste Hauptinsel Okinawas, berühmt für die 7 km lange weiße Sandbank Hatenohama.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-kumejima-airport.jpg"
   },
   {
     "id": "airport-yonaguni",
@@ -69166,7 +69275,8 @@
     "operator": "RAC (琉球エアーコミューター / JALグループ)",
     "description": "Westlichster Flughafen ganz Japans, nur 111 km vor der Küste Taiwans, bekannt für Unterwasser-Monumente und Wildpferde.",
     "source": "JAL Gosho-in Project & Airport Official Commemorative Stamp (日本航空・御翔印)",
-    "sourceUrl": "https://jalplaza-airport.jalux.com/"
+    "sourceUrl": "https://jalplaza-airport.jalux.com/",
+    "imageUrl": "/images/stamps/airport-yonaguni-airport.jpg"
   },
   {
     "id": "ferry-tokai-kisen-takeshiba",
@@ -69186,7 +69296,8 @@
     "operator": "東海汽船 (Tokai Kisen Co., Ltd.)",
     "description": "Haupthafen für die Izu-Inseln (Oshima, Toshima, Niijima, Shikinejima, Kozushima, Miyakejima, Hachijojima) mit Jetfoil-Tragflächenbooten und Passagierschiffen.",
     "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
-    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=17"
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=17",
+    "imageUrl": "/images/stamps/ferry-tokai-kisen-takeshiba.svg"
   },
   {
     "id": "ferry-ogasawara-kaiun",
@@ -69206,7 +69317,8 @@
     "operator": "小笠原海運 (Ogasawara Kaiun)",
     "description": "Die legendäre 24-Stunden-Pazifikpassage von Tokio zu den subtropischen Ogasawara-Inseln (Chichijima), einem UNESCO-Weltnaturerbe.",
     "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
-    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=6"
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=6",
+    "imageUrl": "/images/stamps/ferry-ogasawara-kaiun.svg"
   },
   {
     "id": "ferry-tokyo-wan-kurihama",
@@ -69226,7 +69338,8 @@
     "operator": "東京湾フェリー (Tokyo Wan Ferry)",
     "description": "Verbindet in 40 Minuten die Halbinsel Miura (Kanagawa) mit der Halbinsel Boso (Chiba) quer über die Bucht von Tokio.",
     "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
-    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=65"
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=65",
+    "imageUrl": "/images/stamps/ferry-tokyo-wan-kurihama.jpg"
   },
   {
     "id": "ferry-sado-kisen-ryotsu",
@@ -69246,7 +69359,8 @@
     "operator": "佐渡汽船 (Sado Kisen)",
     "description": "Lebensader zur historischen Goldinsel Sado im Japanischen Meer mit Jetfoils und Autofähren (Okesa-maru, Tokiwa-maru).",
     "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
-    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=15"
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=15",
+    "imageUrl": "/images/stamps/ferry-sado-kisen-ryotsu.jpg"
   },
   {
     "id": "ferry-sado-kisen-niigata",
@@ -69266,7 +69380,8 @@
     "operator": "佐渡汽船 (Sado Kisen)",
     "description": "Hauptablegestelle in Niigata-Stadt für Überfahrten nach Ryotsu auf Sado.",
     "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
-    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=15"
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=15",
+    "imageUrl": "/images/stamps/ferry-sado-kisen-niigata.jpg"
   },
   {
     "id": "ferry-tsugaru-kaikyo-hakodate",
@@ -69286,7 +69401,8 @@
     "operator": "津軽海峡フェリー",
     "description": "Verbindet Honshu (Aomori und Oma) mit Hokkaido (Hakodate) über die stürmische Tsugaru-Straße.",
     "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
-    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=36"
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=36",
+    "imageUrl": "/images/stamps/ferry-tsugaru-kaikyo-hakodate.jpg"
   },
   {
     "id": "ferry-tsugaru-kaikyo-aomori",
@@ -69306,7 +69422,8 @@
     "operator": "津軽海峡フェリー",
     "description": "Fährhafen Aomori für die Passage nordwärts nach Hakodate.",
     "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
-    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=36"
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=36",
+    "imageUrl": "/images/stamps/ferry-tsugaru-kaikyo-aomori.jpg"
   },
   {
     "id": "ferry-heartland-wakkanai",
@@ -69326,7 +69443,8 @@
     "operator": "ハートランドフェリー",
     "description": "Ausgangspunkt zu den nördlichen Naturinseln Rishiri (Rishiri-Fuji) und Rebun (Blumeninsel).",
     "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
-    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=45"
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=45",
+    "imageUrl": "/images/stamps/ferry-heartland-wakkanai.jpg"
   },
   {
     "id": "ferry-taiheiyo-nagoya",
@@ -69346,7 +69464,8 @@
     "operator": "太平洋フェリー (Taiheiyo Ferry)",
     "description": "Preisgekrönte Kreuzfahrt-Fähre auf der 40-stündigen Pazifikroute Nagoya – Sendai – Tomakomai (Hokkaido).",
     "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
-    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=32"
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=32",
+    "imageUrl": "/images/stamps/ferry-taiheiyo-nagoya.jpg"
   },
   {
     "id": "ferry-shin-nihonkai-otaru",
@@ -69366,7 +69485,8 @@
     "operator": "新日本海フェリー",
     "description": "Schnellfähren quer über das Japanische Meer zwischen Otaru und Maizuru / Niigata.",
     "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
-    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=27"
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=27",
+    "imageUrl": "/images/stamps/ferry-shin-nihonkai-otaru.jpg"
   },
   {
     "id": "ferry-shin-nihonkai-maizuru",
@@ -69386,7 +69506,8 @@
     "operator": "新日本海フェリー",
     "description": "Kansai-Tor nach Hokkaido durch die Meerenge von Wakasa.",
     "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
-    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=27"
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=27",
+    "imageUrl": "/images/stamps/ferry-shin-nihonkai-maizuru.jpg"
   },
   {
     "id": "ferry-mol-sunflower-oarai",
@@ -69406,7 +69527,8 @@
     "operator": "商船三井さんふらわあ",
     "description": "Die berühmten Sonnenblumen-Schiffe 'Sunflower' verbinden Kanto (Oarai) mit Hokkaido (Tomakomai).",
     "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
-    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=21"
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=21",
+    "imageUrl": "/images/stamps/ferry-mol-sunflower-oarai.svg"
   },
   {
     "id": "ferry-mol-sunflower-osaka",
@@ -69426,7 +69548,8 @@
     "operator": "商船三井さんふらわあ",
     "description": "Traditionsreiche Nachtüberfahrt durch das Seto-Binnenmeer direkt zum Onsen-Paradies Beppu.",
     "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
-    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=21"
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=21",
+    "imageUrl": "/images/stamps/ferry-mol-sunflower-osaka.svg"
   },
   {
     "id": "ferry-meimon-taiyo-osaka",
@@ -69446,7 +69569,8 @@
     "operator": "名門大洋フェリー",
     "description": "Täglich zwei Abfahrten von Osaka nach Shin-Moji (Kyushu) unter drei beleuchteten Hängebrücken (Akashi, Seto Ohashi, Kurushima).",
     "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
-    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=54"
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=54",
+    "imageUrl": "/images/stamps/ferry-meimon-taiyo-osaka.jpg"
   },
   {
     "id": "ferry-hankyu-kobe",
@@ -69466,7 +69590,8 @@
     "operator": "阪九フェリー",
     "description": "Nachtfähren von Kobe nach Shin-Moji (Kitakyushu) mit Freiluft-Thermalbädern an Deck.",
     "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
-    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=48"
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=48",
+    "imageUrl": "/images/stamps/ferry-hankyu-kobe.jpg"
   },
   {
     "id": "ferry-ocean-tokyu-tokyo",
@@ -69486,7 +69611,8 @@
     "operator": "オーシャン東九フェリー",
     "description": "Verbindet Tokio (Ariake), Tokushima (Shikoku) und Shin-Moji (Kyushu) auf einer epischen 34-stündigen Seereise.",
     "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
-    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=5"
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=5",
+    "imageUrl": "/images/stamps/ferry-ocean-tokyu-tokyo.svg"
   },
   {
     "id": "ferry-biwako-kisen-otsu",
@@ -69506,7 +69632,8 @@
     "operator": "琵琶湖汽船 (Biwako Kisen)",
     "description": "Schaufelrad-Dampfer 'Michigan' und Ausflugsschiffe auf Japans größtem Binnensee sowie zur heiligen Insel Chikubushima.",
     "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
-    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=47"
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=47",
+    "imageUrl": "/images/stamps/ferry-biwako-kisen-otsu.svg"
   },
   {
     "id": "ferry-nankai-wakayama",
@@ -69526,7 +69653,8 @@
     "operator": "南海フェリー",
     "description": "Direkte 2-Stunden-Fährverbindung zwischen dem Nankai-Bahnnetz in Kansai und Tokushima auf Shikoku.",
     "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
-    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=43"
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=43",
+    "imageUrl": "/images/stamps/ferry-nankai-wakayama.jpg"
   },
   {
     "id": "ferry-jumbo-kobe",
@@ -69546,7 +69674,8 @@
     "operator": "ジャンボフェリー",
     "description": "Beliebte Panoramaroute (Aoi und Ritsurin 2) von Kobe über die Oliveninsel Shodoshima nach Takamatsu.",
     "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
-    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=20"
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=20",
+    "imageUrl": "/images/stamps/ferry-jumbo-kobe.jpg"
   },
   {
     "id": "ferry-shodoshima-ryobi-takamatsu",
@@ -69566,7 +69695,8 @@
     "operator": "小豆島フェリー (国際両備フェリーグループ)",
     "description": "Hauptüberfahrt von Takamatsu zum Tonosho-Hafen auf Shodoshima quer durch das ruhige Seto-Binnenmeer.",
     "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
-    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=14"
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=14",
+    "imageUrl": "/images/stamps/ferry-shodoshima-ryobi-takamatsu.svg"
   },
   {
     "id": "ferry-shikoku-kisen-naoshima",
@@ -69586,7 +69716,8 @@
     "operator": "四国汽船",
     "description": "Tor zur weltberühmten Kunstinsel Naoshima, direkt neben Yayoi Kusamas rotem Kürbis am Fährterminal 'Umi no Eki'.",
     "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
-    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=34"
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=34",
+    "imageUrl": "/images/stamps/ferry-shikoku-kisen-naoshima.jpg"
   },
   {
     "id": "ferry-setonaikai-hiroshima",
@@ -69606,7 +69737,8 @@
     "operator": "瀬戸内海汽船 (Setonaikai Kisen)",
     "description": "Verbindet Hiroshima und Kure mit Matsuyama (Ehime) auf Shikoku mit dem modernen Kreuzfahrt-Katamaran 'Sea PASEO'.",
     "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
-    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=25"
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=25",
+    "imageUrl": "/images/stamps/ferry-setonaikai-hiroshima.jpg"
   },
   {
     "id": "ferry-ishizaki-matsuyama",
@@ -69626,7 +69758,8 @@
     "operator": "石崎汽船 (Ishizaki Kisen - 第二番社)",
     "description": "Gründungsmitglied des Gosen-in Projekts (Nr. 2), verbindet Shikokus Kulturstadt Matsuyama mit Hiroshima.",
     "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
-    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=2"
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=2",
+    "imageUrl": "/images/stamps/ferry-ishizaki-matsuyama.jpg"
   },
   {
     "id": "ferry-kokudou-kyushi-saganoseki",
@@ -69646,7 +69779,8 @@
     "operator": "国道九四フェリー",
     "description": "Kürzeste Verbindung zwischen Kyushu (Oita) und Shikoku (Kap Sada) in nur 70 Minuten über den Bungo-Kanal.",
     "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
-    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=49"
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=49",
+    "imageUrl": "/images/stamps/ferry-kokudou-kyushi-saganoseki.jpg"
   },
   {
     "id": "ferry-uwajima-unyu-yawatahama",
@@ -69666,7 +69800,8 @@
     "operator": "宇和島運輸フェリー",
     "description": "Gegründet 1884, verbindet Yawatahama auf Shikoku mit Beppu und Oita auf Kyushu.",
     "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
-    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=52"
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=52",
+    "imageUrl": "/images/stamps/ferry-uwajima-unyu-yawatahama.svg"
   },
   {
     "id": "ferry-kumamoto-ferry",
@@ -69686,7 +69821,8 @@
     "operator": "熊本フェリー (Ocean Arrow)",
     "description": "Hochgeschwindigkeits-Katamaran 'Ocean Arrow' verbindet Kumamoto in nur 30 Minuten mit Shimabara (Nagasaki).",
     "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
-    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=11"
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=11",
+    "imageUrl": "/images/stamps/ferry-kumamoto-ferry.jpg"
   },
   {
     "id": "ferry-aline-kagoshima",
@@ -69706,7 +69842,8 @@
     "operator": "マルエーフェリー (A-Line)",
     "description": "Die große Inselroute von Kagoshima über Amami Oshima, Tokunoshima, Erabu und Yoron nach Naha (Okinawa).",
     "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
-    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=81"
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=81",
+    "imageUrl": "/images/stamps/ferry-aline-kagoshima.jpg"
   },
   {
     "id": "ferry-marix-line-kagoshima",
@@ -69726,7 +69863,8 @@
     "operator": "マリックスライン (Marix Line)",
     "description": "Traditionsreederei der Amami- und Ryukyu-Inseln mit den Fährschiffen 'Queen Coral Plus' und 'Queen Coral Cross'.",
     "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
-    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=82"
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=82",
+    "imageUrl": "/images/stamps/ferry-marix-line-kagoshima.svg"
   },
   {
     "id": "ferry-toppy-rocket-kagoshima",
@@ -69746,7 +69884,8 @@
     "operator": "種子屋久高速船",
     "description": "Fliegende Jetfoils 'Toppy' und 'Rocket' mit 80 km/h von Kagoshima zu den UNESCO-Wäldern von Yakushima und dem Tanegashima-Weltraumzentrum.",
     "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
-    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=116"
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=116",
+    "imageUrl": "/images/stamps/ferry-toppy-rocket-kagoshima.svg"
   },
   {
     "id": "ferry-yaeyama-kanko-ishigaki",
@@ -69766,7 +69905,8 @@
     "operator": "八重山観光フェリー",
     "description": "Hauptzugang zu den abgelegenen Inseln Taketomi, Iriomote (Uehara / Ohara), Kohama und Hatoma.",
     "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
-    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=72"
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=72",
+    "imageUrl": "/images/stamps/ferry-yaeyama-kanko-ishigaki.jpg"
   },
   {
     "id": "ferry-anei-kanko-ishigaki",
@@ -69786,7 +69926,8 @@
     "operator": "安栄観光",
     "description": "Fahrten zur südlichsten bewohnten Insel Japans (Hateruma) sowie nach Taketomi, Kuroshima und Iriomote.",
     "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
-    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=73"
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=73",
+    "imageUrl": "/images/stamps/ferry-anei-kanko-ishigaki.jpg"
   },
   {
     "id": "ferry-kume-shosen-naha",
@@ -69806,7 +69947,8 @@
     "operator": "久米商船",
     "description": "Fährverbindung (Ferry Ryukyu & Ferry Kumejima) von Naha nach Kumejima und Tonaki.",
     "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
-    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=106"
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=106",
+    "imageUrl": "/images/stamps/ferry-kume-shosen-naha.jpg"
   },
   {
     "id": "ferry-oki-kisen-saigo",
@@ -69826,7 +69968,8 @@
     "operator": "隠岐汽船 (第八番社)",
     "description": "Verbindet Sakaiminato und Shichirui auf dem Festland mit den Oki-Inseln (Dogo und Dozen).",
     "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
-    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=8"
+    "sourceUrl": "https://gosen-in.jp/member_detail.php?id=8",
+    "imageUrl": "/images/stamps/ferry-oki-kisen-saigo.jpg"
   },
   {
     "id": "lighthouse-wakkanai",
@@ -69846,7 +69989,8 @@
     "operator": "Japan Coast Guard 1st Regional HQ / Tokokai",
     "description": "Standing tall at Cape Noshappu overlooking Rishiri and Rebun islands; the second tallest lighthouse in Japan with distinctive red and white stripes.",
     "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-wakkanai.jpg"
   },
   {
     "id": "lighthouse-soya-misaki",
@@ -69866,7 +70010,8 @@
     "operator": "Japan Coast Guard 1st Regional HQ / Tokokai",
     "description": "The northernmost lighthouse in Japan, illuminating the Soya Strait facing Sakhalin since 1885.",
     "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-soya-misaki.jpg"
   },
   {
     "id": "lighthouse-shiretoko-misaki",
@@ -69886,7 +70031,8 @@
     "operator": "Japan Coast Guard 1st Regional HQ / Tokokai",
     "description": "Guarding the untamed tip of Shiretoko Peninsula World Natural Heritage, reachable only by boat or multi-day coastal trekking.",
     "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-shiretoko-misaki.jpg"
   },
   {
     "id": "lighthouse-nosappu-misaki",
@@ -69906,7 +70052,8 @@
     "operator": "Japan Coast Guard 1st Regional HQ / Tokokai",
     "description": "Hokkaido's oldest lighthouse, established in 1872 at the easternmost point of Hokkaido looking out over the Habomai Islands.",
     "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-nosappu-misaki.jpg"
   },
   {
     "id": "lighthouse-hanasaki",
@@ -69926,7 +70073,8 @@
     "operator": "Japan Coast Guard 1st Regional HQ / Tokokai",
     "description": "Overlooking the Pacific Ocean and famous for the radial columnar basalt Kurumashi (Wheel Stone) geological monument.",
     "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-hanasaki.jpg"
   },
   {
     "id": "lighthouse-ochiishi-misaki",
@@ -69946,7 +70094,8 @@
     "operator": "Japan Coast Guard 1st Regional HQ / Tokokai",
     "description": "Situated amidst dramatic coastal wetlands and Sakhalin spruce forests on Nemuro's southern cape.",
     "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-ochiishi-misaki.jpg"
   },
   {
     "id": "lighthouse-erimo-misaki",
@@ -69966,7 +70115,8 @@
     "operator": "Japan Coast Guard 1st Regional HQ / Tokokai",
     "description": "Perched on the windy cliffs where the Hidaka Mountain range plunges into the Pacific Ocean.",
     "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-erimo-misaki.jpg"
   },
   {
     "id": "lighthouse-chikiu-misaki",
@@ -69986,7 +70136,8 @@
     "operator": "Japan Coast Guard 1st Regional HQ / Tokokai",
     "description": "Perched atop 120-meter sheer sea cliffs offering sweeping panoramic views confirming the curve of the Earth.",
     "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-chikiu-misaki.jpg"
   },
   {
     "id": "lighthouse-esan-misaki",
@@ -70006,7 +70157,8 @@
     "operator": "Japan Coast Guard 1st Regional HQ / Tokokai",
     "description": "Set against active volcano Mount Esan on the Oshima Peninsula with a dedicated lighthouse park.",
     "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-esan-misaki.jpg"
   },
   {
     "id": "lighthouse-shiriyazaki",
@@ -70026,7 +70178,8 @@
     "operator": "公益社団法人 燈光会 / 海上保安庁",
     "description": "One of Japan's 16 climbable lighthouses; highest brick lighthouse in Japan, surrounded by pastures where wild Kandachime horses graze.",
     "source": "日本の灯台50選・参観灯台 (公益社団法人 燈光会)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-shiriyazaki.jpg"
   },
   {
     "id": "lighthouse-omazaki",
@@ -70046,7 +70199,8 @@
     "operator": "Japan Coast Guard 2nd Regional HQ / Tokokai",
     "description": "Standing on Benten Island just off Honshu's northernmost point across the Tsugaru Strait, renowned for Pacific bluefin tuna.",
     "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-omazaki.jpg"
   },
   {
     "id": "lighthouse-tappizaki",
@@ -70066,7 +70220,8 @@
     "operator": "Japan Coast Guard 2nd Regional HQ / Tokokai",
     "description": "Perched atop Cape Tappi where heavy sea winds howl across the Tsugaru Strait; immortalized in Dazai Osamu's Tsugaru.",
     "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-tappizaki.jpg"
   },
   {
     "id": "lighthouse-samekado",
@@ -70086,7 +70241,8 @@
     "operator": "公益社団法人 燈光会 / 海上保安庁",
     "description": "Nicknamed the Swan of the Coast; overlooks the Ashigezaki Observatory and beautiful Sanriku coastline.",
     "source": "日本の灯台50選・参観灯台 (公益社団法人 燈光会)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-samekado.jpg"
   },
   {
     "id": "lighthouse-rikuchu-kurozaki",
@@ -70106,7 +70262,8 @@
     "operator": "Japan Coast Guard 2nd Regional HQ / Tokokai",
     "description": "Located on the 130-meter sheer sea cliffs of Sanriku Fukko National Park, looking over the Pacific Ocean.",
     "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-rikuchu-kurozaki.jpg"
   },
   {
     "id": "lighthouse-todogasaki",
@@ -70126,7 +70283,8 @@
     "operator": "Japan Coast Guard 2nd Regional HQ / Tokokai",
     "description": "Guards Honshu's easternmost point (本州最東端); accessible via a scenic 3.8 km forest and coastal trail.",
     "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-todogasaki.jpg"
   },
   {
     "id": "lighthouse-kinkasan",
@@ -70146,7 +70304,8 @@
     "operator": "Japan Coast Guard 2nd Regional HQ / Tokokai",
     "description": "Constructed by Richard Henry Brunton in 1876 on sacred Mount Kinka island off the Oshika Peninsula.",
     "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-kinkasan.jpg"
   },
   {
     "id": "lighthouse-nyudozaki",
@@ -70166,7 +70325,8 @@
     "operator": "公益社団法人 燈光会 / 海上保安庁",
     "description": "One of Japan's 16 climbable lighthouses; striking black-and-white striped tower sitting precisely on the 40th parallel north on the Oga Peninsula.",
     "source": "日本の灯台50選・参観灯台 (公益社団法人 燈光会)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-nyudozaki.jpg"
   },
   {
     "id": "lighthouse-shioyazaki",
@@ -70186,7 +70346,8 @@
     "operator": "公益社団法人 燈光会 / 海上保安庁",
     "description": "One of Japan's 16 climbable lighthouses; beloved landmark connected to singer Misora Hibari's famous ballad Midaregami.",
     "source": "日本の灯台50選・参観灯台 (公益社団法人 燈光会)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-shioyazaki.jpg"
   },
   {
     "id": "lighthouse-inubosaki",
@@ -70206,7 +70367,8 @@
     "operator": "公益社団法人 燈光会 / 海上保安庁",
     "description": "National Important Cultural Property built by Brunton in 1874 using 193,000 domestic bricks; first 1st-order lens in Japan.",
     "source": "日本の灯台50選・参観灯台 (公益社団法人 燈光会)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-inubosaki.jpg"
   },
   {
     "id": "lighthouse-nojimazaki",
@@ -70226,7 +70388,8 @@
     "operator": "公益社団法人 燈光会 / 海上保安庁",
     "description": "One of Japan's 16 climbable lighthouses; built by Léonce Verny in 1869 at the southern tip of the Boso Peninsula.",
     "source": "日本の灯台50選・参観灯台 (公益社団法人 燈光会)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-nojimazaki.jpg"
   },
   {
     "id": "lighthouse-kannonzaki",
@@ -70246,7 +70409,8 @@
     "operator": "公益社団法人 燈光会 / 海上保安庁",
     "description": "Japan's first Western-style lighthouse, originally lit on New Year's Day 1869; watches over Tokyo Bay and the Uraga Channel.",
     "source": "日本の灯台50選・参観灯台 (公益社団法人 燈光会)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-kannonzaki.jpg"
   },
   {
     "id": "lighthouse-himezaki",
@@ -70266,7 +70430,8 @@
     "operator": "Japan Coast Guard 9th Regional HQ / Tokokai",
     "description": "Japan's oldest existing cast-iron lighthouse (built in 1895), registered on the International Historic Lighthouse list.",
     "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-himezaki.jpg"
   },
   {
     "id": "lighthouse-rokkosaki",
@@ -70286,7 +70451,8 @@
     "operator": "Japan Coast Guard 9th Regional HQ / Tokokai",
     "description": "At the very tip of Noto Peninsula, uniquely famous as a spot where visitors can view both the sunrise and sunset over the sea.",
     "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-rokkosaki.jpg"
   },
   {
     "id": "lighthouse-ono",
@@ -70306,7 +70472,8 @@
     "operator": "Japan Coast Guard 9th Regional HQ / Tokokai",
     "description": "A graceful white lighthouse guiding ships into Kanazawa Port, standing alongside the historic soy sauce brewing district of Ono.",
     "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-ono.jpg"
   },
   {
     "id": "lighthouse-irozaki",
@@ -70326,7 +70493,8 @@
     "operator": "Japan Coast Guard 3rd Regional HQ / Tokokai",
     "description": "Situated at the southernmost cape of the Izu Peninsula where the Pacific Ocean meets Suruga Bay, next to dramatic Iromuro Shrine.",
     "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-irozaki.jpg"
   },
   {
     "id": "lighthouse-mikomotojima",
@@ -70346,7 +70514,8 @@
     "operator": "Japan Coast Guard 3rd Regional HQ / Tokokai",
     "description": "Japan's oldest existing stone lighthouse, constructed by Brunton in 1870 on an uninhabited rocky islet 9 km off Shimoda.",
     "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-mikomotojima.jpg"
   },
   {
     "id": "lighthouse-omaezaki",
@@ -70366,7 +70535,8 @@
     "operator": "公益社団法人 燈光会 / 海上保安庁",
     "description": "One of Japan's 16 climbable lighthouses; built in 1874 by Richard Henry Brunton on Cape Omaezaki at the entrance to Suruga Bay.",
     "source": "日本の灯台50選・参観灯台 (公益社団法人 燈光会)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-omaezaki.jpg"
   },
   {
     "id": "lighthouse-iragozaki",
@@ -70386,7 +70556,8 @@
     "operator": "Japan Coast Guard 4th Regional HQ / Tokokai",
     "description": "Located at the tip of the Atsumi Peninsula overlooking the Irako Channel and sacred Kamishima island.",
     "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-iragozaki.jpg"
   },
   {
     "id": "lighthouse-kamishima",
@@ -70406,7 +70577,8 @@
     "operator": "Japan Coast Guard 4th Regional HQ / Tokokai",
     "description": "Famous setting of Mishima Yukio's acclaimed novel The Sound of Waves (潮騒), standing sentinel over Ise Bay.",
     "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-kamishima.jpg"
   },
   {
     "id": "lighthouse-sugashima",
@@ -70426,7 +70598,8 @@
     "operator": "Japan Coast Guard 4th Regional HQ / Tokokai",
     "description": "Oldest brick Western lighthouse in Japan (1873) built by Brunton, designated an Important Cultural Property.",
     "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-sugashima.jpg"
   },
   {
     "id": "lighthouse-anorisaki",
@@ -70446,7 +70619,8 @@
     "operator": "公益社団法人 燈光会 / 海上保安庁",
     "description": "One of Japan's 16 climbable lighthouses; highly unusual square-shaped white tower looking out into Matoya Bay and Kumano Sea.",
     "source": "日本の灯台50選・参観灯台 (公益社団法人 燈光会)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-anorisaki.jpg"
   },
   {
     "id": "lighthouse-daiosaki",
@@ -70466,7 +70640,8 @@
     "operator": "公益社団法人 燈光会 / 海上保安庁",
     "description": "One of Japan's 16 climbable lighthouses; beloved by painters as the Town of Artists (絵かきの町) on the Shima Peninsula.",
     "source": "日本の灯台50選・参観灯台 (公益社団法人 燈光会)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-daiosaki.jpg"
   },
   {
     "id": "lighthouse-kyogamisaki",
@@ -70486,7 +70661,8 @@
     "operator": "Japan Coast Guard 8th Regional HQ / Tokokai",
     "description": "One of only five lighthouses in Japan equipped with a rare 1st-order Fresnel lens, standing high on the Tango Peninsula cliffs.",
     "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-kyogamisaki.jpg"
   },
   {
     "id": "lighthouse-shionomisaki",
@@ -70506,7 +70682,8 @@
     "operator": "公益社団法人 燈光会 / 海上保安庁",
     "description": "One of Japan's 16 climbable lighthouses; stands proudly at the southernmost point of Honshu Island (本州最南端).",
     "source": "日本の灯台50選・参観灯台 (公益社団法人 燈光会)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-shionomisaki.jpg"
   },
   {
     "id": "lighthouse-mihonoseki",
@@ -70526,7 +70703,8 @@
     "operator": "Japan Coast Guard 8th Regional HQ / Tokokai",
     "description": "Oldest stone lighthouse on the San'in coast (1898); offers views across to Mount Daisen and the Oki Islands.",
     "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-mihonoseki.jpg"
   },
   {
     "id": "lighthouse-izumo-hinomisaki",
@@ -70546,7 +70724,8 @@
     "operator": "公益社団法人 燈光会 / 海上保安庁",
     "description": "One of Japan's 16 climbable lighthouses; the highest masonry stone lighthouse in East Asia at 43.65 meters, built in 1903.",
     "source": "日本の灯台50選・参観灯台 (公益社団法人 燈光会)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-izumo-hinomisaki.jpg"
   },
   {
     "id": "lighthouse-konegashima",
@@ -70566,7 +70745,8 @@
     "operator": "Japan Coast Guard 6th Regional HQ / Tokokai",
     "description": "Erected in 1894 along the Shimanami Sea Route, framed by citrus orchards on tranquil Konegashima in the Seto Inland Sea.",
     "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-konegashima.jpg"
   },
   {
     "id": "lighthouse-tsunoshima",
@@ -70586,7 +70766,8 @@
     "operator": "公益社団法人 燈光会 / 海上保安庁",
     "description": "One of Japan's 16 climbable lighthouses; an unpainted granite tower designed by Brunton in 1876 on picturesque Tsunoshima island.",
     "source": "日本の灯台50選・参観灯台 (公益社団法人 燈光会)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-tsunoshima.jpg"
   },
   {
     "id": "lighthouse-ogijima",
@@ -70606,7 +70787,8 @@
     "operator": "Japan Coast Guard 6th Regional HQ / Tokokai",
     "description": "Charming unpainted granite lighthouse (1895) on the cat-friendly island of Ogijima; backdrop of the classic film Times of Joy and Sorrow.",
     "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-ogijima.jpg"
   },
   {
     "id": "lighthouse-sadamisaki",
@@ -70626,7 +70808,8 @@
     "operator": "Japan Coast Guard 6th Regional HQ / Tokokai",
     "description": "Marks the westernmost point of Shikoku at the tip of the slender 40 km-long Sadamisaki Peninsula jutting into the Hoyo Strait.",
     "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-sadamisaki.jpg"
   },
   {
     "id": "lighthouse-murotomisaki",
@@ -70646,7 +70829,8 @@
     "operator": "Japan Coast Guard 5th Regional HQ / Tokokai",
     "description": "Boasts Japan's largest lens (diameter 2.6 m) with a light range of 26.5 nautical miles, crowning the wild coastal terraces of Cape Muroto.",
     "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-murotomisaki.jpg"
   },
   {
     "id": "lighthouse-ashizurimisaki",
@@ -70666,7 +70850,8 @@
     "operator": "Japan Coast Guard 5th Regional HQ / Tokokai",
     "description": "Shikoku's southernmost lighthouse atop 80-meter precipitous coastal cliffs amid dense camellia groves.",
     "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-ashizurimisaki.jpg"
   },
   {
     "id": "lighthouse-hesaki",
@@ -70686,7 +70871,8 @@
     "operator": "Japan Coast Guard 7th Regional HQ / Tokokai",
     "description": "A Brunton-designed stone lighthouse (1872) built on the eastern entrance of the Kanmon Strait to safeguard merchant shipping.",
     "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-hesaki.jpg"
   },
   {
     "id": "lighthouse-shirashu",
@@ -70706,7 +70892,8 @@
     "operator": "Japan Coast Guard 7th Regional HQ / Tokokai",
     "description": "Offshore stone beacon erected on treacherous submerged reefs in the Hibiki Sea off Kokura; constructed in 1873.",
     "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-shirashu.jpg"
   },
   {
     "id": "lighthouse-osezaki",
@@ -70726,7 +70913,8 @@
     "operator": "Japan Coast Guard 7th Regional HQ / Tokokai",
     "description": "Perched on dramatic precipices at the western extremity of Fukue Island, the last land seen by ancient envoys to Tang China.",
     "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-osezaki.jpg"
   },
   {
     "id": "lighthouse-meshima",
@@ -70746,7 +70934,8 @@
     "operator": "Japan Coast Guard 7th Regional HQ / Tokokai",
     "description": "Japan's last manned lighthouse until 2006, perched on the isolated Danjo Gunto archipelago in the East China Sea.",
     "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-meshima.jpg"
   },
   {
     "id": "lighthouse-mizunokojima",
@@ -70766,7 +70955,8 @@
     "operator": "Japan Coast Guard 7th Regional HQ / Tokokai",
     "description": "A magnificent stone tower built in 1904 on an isolated reef in the turbulent Bungo Channel between Kyushu and Shikoku.",
     "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-mizunokojima.jpg"
   },
   {
     "id": "lighthouse-toimisaki",
@@ -70786,7 +70976,8 @@
     "operator": "公益社団法人 燈光会 / 海上保安庁",
     "description": "One of Japan's 16 climbable lighthouses; Kyushu's only climbable lighthouse, famous for wild Misaki horses grazing on surrounding hills.",
     "source": "日本の灯台50選・参観灯台 (公益社団法人 燈光会)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-toimisaki.jpg"
   },
   {
     "id": "lighthouse-satamisaki",
@@ -70806,7 +70997,8 @@
     "operator": "Japan Coast Guard 10th Regional HQ / Tokokai",
     "description": "Stands on an offshore islet 50 meters off Kyushu's southernmost cape (本土最南端), designed by Brunton in 1871.",
     "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-satamisaki.jpg"
   },
   {
     "id": "lighthouse-heiannazaki",
@@ -70826,7 +71018,8 @@
     "operator": "公益社団法人 燈光会 / 海上保安庁",
     "description": "One of Japan's 16 climbable lighthouses; located at the tip of the breathtaking 2 km coral limestone cape on Miyako Island.",
     "source": "日本の灯台50選・参観灯台 (公益社団法人 燈光会)",
-    "sourceUrl": "https://www.tokokai.org/"
+    "sourceUrl": "https://www.tokokai.org/",
+    "imageUrl": "/images/stamps/lighthouse-heiannazaki.jpg"
   },
   {
     "id": "np-shiretoko",
@@ -70846,7 +71039,8 @@
     "operator": "環境省 / 知床財団",
     "description": "UNESCO World Natural Heritage Site famed for pristine wilderness, brown bears, and drift ice.",
     "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
-    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/shiretoko/"
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/shiretoko/",
+    "imageUrl": "/images/stamps/np-shiretoko.jpg"
   },
   {
     "id": "np-akan-mashu",
@@ -70866,7 +71060,8 @@
     "operator": "環境省 / 自然公園財団",
     "description": "Home to Lake Akan's famed Marimo moss balls, Lake Mashu's crystalline waters, and active volcanoes.",
     "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
-    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/akan-mashu/"
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/akan-mashu/",
+    "imageUrl": "/images/stamps/np-akan-mashu.jpg"
   },
   {
     "id": "np-kushiro-shitsugen",
@@ -70886,7 +71081,8 @@
     "operator": "環境省 / 鶴居村",
     "description": "Japan's largest wetland ecosystem, designated under the Ramsar Convention, sanctuary of the Japanese red-crowned crane.",
     "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
-    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/kushiro/"
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/kushiro/",
+    "imageUrl": "/images/stamps/np-kushiro-shitsugen.jpg"
   },
   {
     "id": "np-daisetsuzan",
@@ -70906,7 +71102,8 @@
     "operator": "環境省 / 東川町",
     "description": "Known as Kamui Mintara (Playground of the Gods) to the Ainu; the largest national park in Japan.",
     "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
-    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/daisetsu/"
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/daisetsu/",
+    "imageUrl": "/images/stamps/np-daisetsuzan.jpg"
   },
   {
     "id": "np-shikotsu-toya",
@@ -70926,7 +71123,8 @@
     "operator": "環境省 / 自然公園財団",
     "description": "Iconic caldera lakes Shikotsu and Toya, surrounded by active volcanoes Tarumae and Usu.",
     "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
-    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/shikotsu-toya/"
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/shikotsu-toya/",
+    "imageUrl": "/images/stamps/np-shikotsu-toya.jpg"
   },
   {
     "id": "np-rishiri-rebun",
@@ -70946,7 +71144,8 @@
     "operator": "環境省 / 認定NPO法人サロベツ・エコ・ネットワーク",
     "description": "Northernmost national park featuring Mount Rishiri floating on the Sea of Japan, Rebun alpine flower island, and Sarobetsu mire.",
     "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
-    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/rishiri-rebun/"
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/rishiri-rebun/",
+    "imageUrl": "/images/stamps/np-rishiri-rebun.jpg"
   },
   {
     "id": "np-hidaka-sanmyaku",
@@ -70966,7 +71165,8 @@
     "operator": "環境省 / えりも町",
     "description": "Japan's newest national park (designated June 2024), encompassing the vast mountain backbone of Hokkaido down to Cape Erimo.",
     "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
-    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/hidaka/"
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/hidaka/",
+    "imageUrl": "/images/stamps/np-hidaka-sanmyaku.jpg"
   },
   {
     "id": "np-towada-hachimantai",
@@ -70986,7 +71186,8 @@
     "operator": "環境省 / 自然公園財団",
     "description": "Pristine Lake Towada caldera and Oirase Stream mountain torrent surrounded by old-growth beech forests.",
     "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
-    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/towada/"
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/towada/",
+    "imageUrl": "/images/stamps/np-towada-hachimantai.jpg"
   },
   {
     "id": "np-sanriku-fukko",
@@ -71006,7 +71207,8 @@
     "operator": "環境省 / 岩手県",
     "description": "Established for coastal reconstruction following the 2011 tsunami, spanning dynamic rias coastlines, cliffs, and white pebble beaches.",
     "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
-    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/sanriku/"
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/sanriku/",
+    "imageUrl": "/images/stamps/np-sanriku-fukko.jpg"
   },
   {
     "id": "np-bandai-asahi",
@@ -71026,7 +71228,8 @@
     "operator": "環境省 / 福島県",
     "description": "Featuring Mount Bandai, Goshikinuma five-colored volcanic lakes, and the deep alpine wilderness of the Asahi and Iide mountain ranges.",
     "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
-    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/bandai-asahi/"
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/bandai-asahi/",
+    "imageUrl": "/images/stamps/np-bandai-asahi.jpg"
   },
   {
     "id": "np-nikko",
@@ -71046,7 +71249,8 @@
     "operator": "環境省 / 自然公園財団",
     "description": "Famous mountain sanctuary combining Lake Chuzenji, Kegon Falls, Senjogahara marshland, and historic World Heritage shrines.",
     "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
-    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/nikko/"
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/nikko/",
+    "imageUrl": "/images/stamps/np-nikko.jpg"
   },
   {
     "id": "np-oze",
@@ -71066,7 +71270,8 @@
     "operator": "環境省 / 尾瀬保護財団",
     "description": "Japan's premier high-altitude highland marshland famed for white skunk cabbage (Mizubasho) blooms and wooden boardwalks.",
     "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
-    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/oze/"
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/oze/",
+    "imageUrl": "/images/stamps/np-oze.jpg"
   },
   {
     "id": "np-chichibu-tama-kai",
@@ -71086,7 +71291,8 @@
     "operator": "環境省 / 東京都自然環境保全センター",
     "description": "Closest mountainous national park to Tokyo, featuring sacred Mount Mitake, Okutama gorges, and ancient pilgrims' paths.",
     "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
-    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/chichibu-tama-kai/"
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/chichibu-tama-kai/",
+    "imageUrl": "/images/stamps/np-chichibu-tama-kai.jpg"
   },
   {
     "id": "np-ogasawara",
@@ -71106,7 +71312,8 @@
     "operator": "環境省 / 東京都",
     "description": "UNESCO World Natural Heritage oceanic islands known as the Galapagos of the Orient due to unique endemic evolution.",
     "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
-    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/ogasawara/"
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/ogasawara/",
+    "imageUrl": "/images/stamps/np-ogasawara.jpg"
   },
   {
     "id": "np-fuji-hakone-izu",
@@ -71126,7 +71333,8 @@
     "operator": "環境省 / 自然公園財団",
     "description": "Japan's most visited national park, showcasing sacred Mount Fuji, Hakone hot spring calderas, and Izu volcanic coastlines.",
     "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
-    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/fuji-hakone-izu/"
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/fuji-hakone-izu/",
+    "imageUrl": "/images/stamps/np-fuji-hakone-izu.jpg"
   },
   {
     "id": "np-minami-alps",
@@ -71146,7 +71354,8 @@
     "operator": "環境省 / 南アルプス市",
     "description": "Dominating the Southern Alps with Mount Kita (Japan's second tallest peak), designated a UNESCO Biosphere Reserve.",
     "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
-    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/minami-alps/"
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/minami-alps/",
+    "imageUrl": "/images/stamps/np-minami-alps.jpg"
   },
   {
     "id": "np-joshinetsu-kogen",
@@ -71166,7 +71375,8 @@
     "operator": "環境省 / 長野県",
     "description": "Rugged volcanic plateaus, alpine lakes, and hot springs encompassing Shiga Kogen and Mount Kusatsu-Shirane.",
     "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
-    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/joshinetsu/"
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/joshinetsu/",
+    "imageUrl": "/images/stamps/np-joshinetsu-kogen.jpg"
   },
   {
     "id": "np-myoko-togakushi",
@@ -71186,7 +71396,8 @@
     "operator": "環境省 / 妙高市",
     "description": "Towering peaks of Mount Myoko and Togakushi with historic mountain asceticism shrines and heavy snowfall forests.",
     "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
-    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/myoko-togakushi/"
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/myoko-togakushi/",
+    "imageUrl": "/images/stamps/np-myoko-togakushi.jpg"
   },
   {
     "id": "np-chubu-sangaku",
@@ -71206,7 +71417,8 @@
     "operator": "環境省 / 自然公園財団",
     "description": "The crown of the Northern Japan Alps, featuring pristine Azusa River, Kappa Bridge, and Mount Hotaka.",
     "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
-    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/chubu-sangaku/"
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/chubu-sangaku/",
+    "imageUrl": "/images/stamps/np-chubu-sangaku.jpg"
   },
   {
     "id": "np-hakusan",
@@ -71226,7 +71438,8 @@
     "operator": "環境省 / 石川県白山自然保護センター",
     "description": "One of Japan's Three Sacred Mountains (Sanrejizan) alongside Mount Fuji and Mount Tateyama, famed for alpine botany.",
     "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
-    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/hakusan/"
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/hakusan/",
+    "imageUrl": "/images/stamps/np-hakusan.jpg"
   },
   {
     "id": "np-ise-shima",
@@ -71246,7 +71459,8 @@
     "operator": "環境省 / 自然公園財団",
     "description": "Intertwining sacred Ise Grand Shrine forests with intricate rias inlets of Ago Bay where cultured pearls thrive.",
     "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
-    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/ise-shima/"
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/ise-shima/",
+    "imageUrl": "/images/stamps/np-ise-shima.svg"
   },
   {
     "id": "np-yoshino-kumano",
@@ -71266,7 +71480,8 @@
     "operator": "環境省 / 和歌山県",
     "description": "Encompassing Mount Yoshino's cherry blossoms, the primeval Kii mountain ranges, and sacred Kumano Kodo pilgrimage trails.",
     "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
-    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/yoshino-kumano/"
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/yoshino-kumano/",
+    "imageUrl": "/images/stamps/np-yoshino-kumano.jpg"
   },
   {
     "id": "np-sanin-kaigan",
@@ -71286,7 +71501,8 @@
     "operator": "環境省 / 鳥取県",
     "description": "UNESCO Global Geopark boasting the magnificent Tottori Sand Dunes, Uradome sea stacks, and dramatic Sea of Japan coastlines.",
     "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
-    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/sanin-kaigan/"
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/sanin-kaigan/",
+    "imageUrl": "/images/stamps/np-sanin-kaigan.jpg"
   },
   {
     "id": "np-daisen-oki",
@@ -71306,7 +71522,8 @@
     "operator": "環境省 / 鳥取県",
     "description": "Sacred volcanic peak Mount Daisen (the Fuji of Hoki) paired with the isolated, culturally rich Oki Archipelago.",
     "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
-    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/daisen-oki/"
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/daisen-oki/",
+    "imageUrl": "/images/stamps/np-daisen-oki.jpg"
   },
   {
     "id": "np-setonaikai",
@@ -71326,7 +71543,8 @@
     "operator": "環境省 / 香川県",
     "description": "Japan's first national park designated in 1934, featuring thousands of calm islands, white sand, green pine, and Seto Ohashi views.",
     "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
-    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/setonaikai/"
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/setonaikai/",
+    "imageUrl": "/images/stamps/np-setonaikai.jpg"
   },
   {
     "id": "np-ashizuri-uwakai",
@@ -71346,7 +71564,8 @@
     "operator": "環境省 / 高知県",
     "description": "Subtropical marine sanctuary with dynamic sandstone erosion monuments and Japan's first designated marine park area.",
     "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
-    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/ashizuri-uwakai/"
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/ashizuri-uwakai/",
+    "imageUrl": "/images/stamps/np-ashizuri-uwakai.jpg"
   },
   {
     "id": "np-saikai",
@@ -71366,7 +71585,8 @@
     "operator": "環境省 / 長崎県",
     "description": "Encompassing over 200 island gems in Kujukushima and the outer islands of Hirado and Goto.",
     "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
-    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/saikai/"
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/saikai/",
+    "imageUrl": "/images/stamps/np-saikai.jpg"
   },
   {
     "id": "np-unzen-amakusa",
@@ -71386,7 +71606,8 @@
     "operator": "環境省 / 自然公園財団",
     "description": "Japan's first national park designated in 1934 together with Setonaikai and Kirishima, famed for active Unzen hells and azaleas.",
     "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
-    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/unzen-amakusa/"
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/unzen-amakusa/",
+    "imageUrl": "/images/stamps/np-unzen-amakusa.jpg"
   },
   {
     "id": "np-aso-kuju",
@@ -71406,7 +71627,8 @@
     "operator": "環境省 / 自然公園財団",
     "description": "Spectacular volcanic plateau of the Kuju Mountain Range and Mount Aso, boasting one of the world's largest calderas.",
     "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
-    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/aso-kuju/"
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/aso-kuju/",
+    "imageUrl": "/images/stamps/np-aso-kuju.jpg"
   },
   {
     "id": "np-kirishima-kinkowan",
@@ -71426,7 +71648,8 @@
     "operator": "環境省 / 自然公園財団",
     "description": "Mythological birthplace of Japan around Mount Karakuni and Mount Takachiho, reaching south to active volcano Sakurajima.",
     "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
-    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/kirishima-kinkowan/"
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/kirishima-kinkowan/",
+    "imageUrl": "/images/stamps/np-kirishima-kinkowan.jpg"
   },
   {
     "id": "np-yakushima",
@@ -71446,7 +71669,8 @@
     "operator": "環境省 / 鹿児島県",
     "description": "Ancient moss-covered cedar forests with millennial Jomon Sugi trees and unique vertical climatic zones from coast to alpine peak.",
     "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
-    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/yakushima/"
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/yakushima/",
+    "imageUrl": "/images/stamps/np-yakushima.jpg"
   },
   {
     "id": "np-amami-gunto",
@@ -71466,7 +71690,8 @@
     "operator": "環境省 / 奄美市",
     "description": "Subtropical evergreen forests that are home to the endemic Amami rabbit, Ryukyu ayu sweetfish, and vibrant mangrove channels.",
     "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
-    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/amami-gunto/"
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/amami-gunto/",
+    "imageUrl": "/images/stamps/np-amami-gunto.jpg"
   },
   {
     "id": "np-yanbaru",
@@ -71486,7 +71711,8 @@
     "operator": "環境省 / 国頭村",
     "description": "Dense subtropical rainforest in northern Okinawa Island, home to rare endemic species including the Okinawa rail and Noguchi's woodpecker.",
     "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
-    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/yanbaru/"
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/yanbaru/",
+    "imageUrl": "/images/stamps/np-yanbaru.jpg"
   },
   {
     "id": "np-kerama-shoto",
@@ -71506,7 +71732,8 @@
     "operator": "環境省 / 座間味村",
     "description": "Famed for Kerama Blue crystal waters, rich coral reefs, sea turtle breeding grounds, and winter humpback whale sanctuaries.",
     "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
-    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/kerama/"
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/kerama/",
+    "imageUrl": "/images/stamps/np-kerama-shoto.jpg"
   },
   {
     "id": "np-iriomote-ishigaki",
@@ -71526,7 +71753,8 @@
     "operator": "環境省 / 竹富町",
     "description": "Japan's southernmost national park, conserving untamed virgin rainforest, the endangered Iriomote wildcat, and Yaeyama coral atolls.",
     "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
-    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/iriomote-ishigaki/"
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/iriomote-ishigaki/",
+    "imageUrl": "/images/stamps/np-iriomote-ishigaki.jpg"
   },
   {
     "id": "anime-kimi-no-nawa-hida",
@@ -71546,7 +71774,8 @@
     "operator": "Japan Anime Tourism Association (一般社団法人アニメツーリズム協会)",
     "description": "Makoto Shinkai's global blockbuster 'Your Name' (君の名は。). Iconic locations include Hida-Furukawa Station taxi stand, Hida City Library, and Keta Wakamiya Shrine.",
     "source": "Japan Anime Tourism Association (アニメツーリズム協会 88聖地)",
-    "sourceUrl": "https://animetourism88.com/"
+    "sourceUrl": "https://animetourism88.com/",
+    "imageUrl": "/images/stamps/anime-kimi-no-nawa-hida.svg"
   },
   {
     "id": "anime-kimi-no-nawa-yotsuya",
@@ -71566,7 +71795,8 @@
     "operator": "Japan Anime Tourism Association (一般社団法人アニメツーリズム協会)",
     "description": "The climactic final scene where Taki and Mitsuha pass each other on the iconic red handrail staircase leading up to Suga Shrine in Yotsuya.",
     "source": "Japan Anime Tourism Association (アニメツーリズム協会 88聖地)",
-    "sourceUrl": "https://animetourism88.com/"
+    "sourceUrl": "https://animetourism88.com/",
+    "imageUrl": "/images/stamps/anime-kimi-no-nawa-yotsuya.jpg"
   },
   {
     "id": "anime-yuru-camp-motosu",
@@ -71586,7 +71816,8 @@
     "operator": "Japan Anime Tourism Association (一般社団法人アニメツーリズム協会)",
     "description": "Episode 1 opening scene where Rin Shima camps by Lake Motosu and meets Nadeshiko Kagamihara with Mount Fuji reflected on the water.",
     "source": "Japan Anime Tourism Association (アニメツーリズム協会 88聖地)",
-    "sourceUrl": "https://animetourism88.com/"
+    "sourceUrl": "https://animetourism88.com/",
+    "imageUrl": "/images/stamps/anime-yuru-camp-motosu.svg"
   },
   {
     "id": "anime-love-live-numazu",
@@ -71606,7 +71837,8 @@
     "operator": "Japan Anime Tourism Association (一般社団法人アニメツーリズム協会)",
     "description": "Home of school idol group Aqours, covering Numazu Port, Mito Sea Paradise, and Awashima Marine Park on Suruga Bay.",
     "source": "Japan Anime Tourism Association (アニメツーリズム協会 88聖地)",
-    "sourceUrl": "https://animetourism88.com/"
+    "sourceUrl": "https://animetourism88.com/",
+    "imageUrl": "/images/stamps/anime-love-live-numazu.svg"
   },
   {
     "id": "anime-girls-und-panzer-oarai",
@@ -71626,7 +71858,8 @@
     "operator": "Japan Anime Tourism Association (一般社団法人アニメツーリズム協会)",
     "description": "The quintessential anime pilgrimage town; home of Ooarai Girls Academy sensha-do tank team with full-town cultural collaboration.",
     "source": "Japan Anime Tourism Association (アニメツーリズム協会 88聖地)",
-    "sourceUrl": "https://animetourism88.com/"
+    "sourceUrl": "https://animetourism88.com/",
+    "imageUrl": "/images/stamps/anime-girls-und-panzer-oarai.svg"
   },
   {
     "id": "anime-steins-gate-akiba",
@@ -71646,7 +71879,8 @@
     "operator": "Japan Anime Tourism Association (一般社団法人アニメツーリズム協会)",
     "description": "Iconic time-travel science fiction anime centered on the Future Gadget Laboratory and the mysterious crash into the Radio Kaikan building.",
     "source": "Japan Anime Tourism Association (アニメツーリズム協会 88聖地)",
-    "sourceUrl": "https://animetourism88.com/"
+    "sourceUrl": "https://animetourism88.com/",
+    "imageUrl": "/images/stamps/anime-steins-gate-akiba.svg"
   },
   {
     "id": "anime-evangelion-hakone",
@@ -71666,7 +71900,8 @@
     "operator": "Japan Anime Tourism Association (一般社団法人アニメツーリズム協会)",
     "description": "Hakone serves as the real-world foundation for fortress city Tokyo-3, with Lake Ashi, Owakudani, and Hakone-Yumoto appearing prominently.",
     "source": "Japan Anime Tourism Association (アニメツーリズム協会 88聖地)",
-    "sourceUrl": "https://animetourism88.com/"
+    "sourceUrl": "https://animetourism88.com/",
+    "imageUrl": "/images/stamps/anime-evangelion-hakone.svg"
   },
   {
     "id": "anime-sound-euphonium-uji",
@@ -71686,7 +71921,8 @@
     "operator": "Japan Anime Tourism Association (一般社団法人アニメツーリズム協会)",
     "description": "Kyoto Animation's masterpiece set along the banks of the Uji River, Mount Daikichi, and Kitauji High School concert band adventures.",
     "source": "Japan Anime Tourism Association (アニメツーリズム協会 88聖地)",
-    "sourceUrl": "https://animetourism88.com/"
+    "sourceUrl": "https://animetourism88.com/",
+    "imageUrl": "/images/stamps/anime-sound-euphonium-uji.svg"
   },
   {
     "id": "anime-bungo-stray-dogs-yokohama",
@@ -71706,7 +71942,8 @@
     "operator": "Japan Anime Tourism Association (一般社団法人アニメツーリズム協会)",
     "description": "Port Mafia and Armed Detective Agency clash across real-world historical landmarks in Yokohama including Minato Mirai and Yamashita Park.",
     "source": "Japan Anime Tourism Association (アニメツーリズム協会 88聖地)",
-    "sourceUrl": "https://animetourism88.com/"
+    "sourceUrl": "https://animetourism88.com/",
+    "imageUrl": "/images/stamps/anime-bungo-stray-dogs-yokohama.svg"
   },
   {
     "id": "anime-tamako-market-masugata",
@@ -71726,7 +71963,8 @@
     "operator": "Japan Anime Tourism Association (一般社団法人アニメツーリズム協会)",
     "description": "Kyoto Animation's Usagiyama Shopping District is faithfully modeled on the real-world Demachi Masugata arcade near Kamogawa delta.",
     "source": "Japan Anime Tourism Association (アニメツーリズム協会 88聖地)",
-    "sourceUrl": "https://animetourism88.com/"
+    "sourceUrl": "https://animetourism88.com/",
+    "imageUrl": "/images/stamps/anime-tamako-market-masugata.svg"
   },
   {
     "id": "anime-bocchi-the-rock-shimokitazawa",
@@ -71746,7 +71984,8 @@
     "operator": "Japan Anime Tourism Association (一般社団法人アニメツーリズム協会)",
     "description": "Hitori 'Bocchi' Gotoh and Kessoku Band's home venue STARRY is based directly on real-world indie music shrine Shimokitazawa SHELTER.",
     "source": "Japan Anime Tourism Association (アニメツーリズム協会 88聖地)",
-    "sourceUrl": "https://animetourism88.com/"
+    "sourceUrl": "https://animetourism88.com/",
+    "imageUrl": "/images/stamps/anime-bocchi-the-rock-shimokitazawa.svg"
   },
   {
     "id": "museum-tokyo-national",
@@ -71766,7 +72005,8 @@
     "operator": "独立行政法人 国立文化財機構",
     "description": "Japan's oldest and largest national museum (founded 1872), preserving over 120,000 cultural properties including 89 National Treasures.",
     "source": "国立文化財機構・東京国立博物館公式 (TNM Official)",
-    "sourceUrl": "https://www.tnm.jp/"
+    "sourceUrl": "https://www.tnm.jp/",
+    "imageUrl": "/images/stamps/museum-tokyo-national.jpg"
   },
   {
     "id": "museum-kahaku-nature-science",
@@ -71786,7 +72026,8 @@
     "operator": "独立行政法人 国立科学博物館",
     "description": "Japan's premier science and natural history museum featuring dinosaur skeletons, Hachiko's taxidermy mount, and space exploration.",
     "source": "国立科学博物館公式記念スタンプ (Kahaku Official)",
-    "sourceUrl": "https://www.kahaku.go.jp/"
+    "sourceUrl": "https://www.kahaku.go.jp/",
+    "imageUrl": "/images/stamps/museum-kahaku-nature-science.jpg"
   },
   {
     "id": "museum-western-art-nmwa",
@@ -71806,7 +72047,8 @@
     "operator": "独立行政法人 国立美術館",
     "description": "UNESCO World Heritage building designed by Le Corbusier, housing the Matsukata Collection from the Renaissance to Rodin and Monet.",
     "source": "国立西洋美術館公式 (NMWA Official)",
-    "sourceUrl": "https://www.nmwa.go.jp/"
+    "sourceUrl": "https://www.nmwa.go.jp/",
+    "imageUrl": "/images/stamps/museum-western-art-nmwa.jpg"
   },
   {
     "id": "museum-momat-modern-art",
@@ -71826,7 +72068,8 @@
     "operator": "独立行政法人 国立美術館",
     "description": "Japan's first national art museum, showcasing modern Japanese and Western art masterpieces from the Meiji era to the present.",
     "source": "東京国立近代美術館公式 (MOMAT Official)",
-    "sourceUrl": "https://www.momat.go.jp/"
+    "sourceUrl": "https://www.momat.go.jp/",
+    "imageUrl": "/images/stamps/museum-momat-modern-art.jpg"
   },
   {
     "id": "museum-ghibli-mitaka",
@@ -71846,7 +72089,8 @@
     "operator": "徳間記念アニメーション文化財団",
     "description": "Enchanting museum designed by director Hayao Miyazaki in Inokashira Park, featuring giant Totoro, the Catbus, and rooftop Laputa Robot Soldier.",
     "source": "三鷹の森ジブリ美術館公式 (Ghibli Museum Official)",
-    "sourceUrl": "https://www.ghibli-museum.jp/"
+    "sourceUrl": "https://www.ghibli-museum.jp/",
+    "imageUrl": "/images/stamps/museum-ghibli-mitaka.jpg"
   },
   {
     "id": "museum-miraikan-odaiba",
@@ -71866,7 +72110,8 @@
     "operator": "国立研究開発法人 科学技術振興機構 (JST)",
     "description": "Visionary science center in Odaiba headed by astronaut Mamoru Mohri, featuring the giant glowing Geo-Cosmos globe and robotics.",
     "source": "日本科学未来館公式記念スタンプ (Miraikan Official)",
-    "sourceUrl": "https://www.miraikan.jst.go.jp/"
+    "sourceUrl": "https://www.miraikan.jst.go.jp/",
+    "imageUrl": "/images/stamps/museum-miraikan-odaiba.jpg"
   },
   {
     "id": "museum-kyoto-national",
@@ -71886,7 +72131,8 @@
     "operator": "独立行政法人 国立文化財機構",
     "description": "Preserving classical cultural heritage from Kyoto temples, shrines, and aristocracy in a red-brick French Renaissance palace designed by Tokuma Katayama.",
     "source": "京都国立博物館公式 (Kyoto National Museum)",
-    "sourceUrl": "https://www.kyohaku.go.jp/"
+    "sourceUrl": "https://www.kyohaku.go.jp/",
+    "imageUrl": "/images/stamps/museum-kyoto-national.jpg"
   },
   {
     "id": "museum-kyoto-railway",
@@ -71906,7 +72152,8 @@
     "operator": "西日本旅客鉄道 (JR West) / 公益財団法人 交通文化振興財団",
     "description": "One of Japan's greatest railway museums, home to 53 historic locomotives and passenger trains around the historic Umekoji steam turntable roundhouse.",
     "source": "京都鉄道博物館公式記念スタンプ (JR West)",
-    "sourceUrl": "https://www.kyotorailwaymuseum.jp/"
+    "sourceUrl": "https://www.kyotorailwaymuseum.jp/",
+    "imageUrl": "/images/stamps/museum-kyoto-railway.jpg"
   },
   {
     "id": "museum-nara-national",
@@ -71926,7 +72173,8 @@
     "operator": "独立行政法人 国立文化財機構",
     "description": "Preeminent center for Buddhist art in Japan, world-famous for its annual autumn exhibition of imperial Shōsō-in treasures.",
     "source": "奈良国立博物館公式 (Nara National Museum)",
-    "sourceUrl": "https://www.narahaku.go.jp/"
+    "sourceUrl": "https://www.narahaku.go.jp/",
+    "imageUrl": "/images/stamps/museum-nara-national.jpg"
   },
   {
     "id": "museum-kyushu-national",
@@ -71946,7 +72194,8 @@
     "operator": "独立行政法人 国立文化財機構",
     "description": "Opened in 2005 adjacent to Dazaifu Tenmangu, focusing on Japan's cultural exchange and maritime history with Asian civilizations.",
     "source": "九州国立博物館公式 (Kyushu National Museum)",
-    "sourceUrl": "https://www.kyuhaku.jp/"
+    "sourceUrl": "https://www.kyuhaku.jp/",
+    "imageUrl": "/images/stamps/museum-kyushu-national.jpg"
   },
   {
     "id": "museum-hiroshima-peace",
@@ -71966,7 +72215,8 @@
     "operator": "公益財団法人 広島平和文化センター",
     "description": "Designed by Kenzo Tange in the Peace Memorial Park, conveying the devastation of the atomic bomb and advocating for worldwide peace.",
     "source": "広島平和記念資料館公式 (Peace Memorial Museum)",
-    "sourceUrl": "https://hpmmuseum.jp/"
+    "sourceUrl": "https://hpmmuseum.jp/",
+    "imageUrl": "/images/stamps/museum-hiroshima-peace.jpg"
   },
   {
     "id": "museum-kanazawa-21st",
@@ -71986,7 +72236,8 @@
     "operator": "公益財団法人 金沢芸術創造財団",
     "description": "Circular glass building designed by SANAA, featuring Leandro Erlich's famous interactive installation 'The Swimming Pool'.",
     "source": "金沢21世紀美術館公式 (21st Century Museum Kanazawa)",
-    "sourceUrl": "https://www.kanazawa21.jp/"
+    "sourceUrl": "https://www.kanazawa21.jp/",
+    "imageUrl": "/images/stamps/museum-kanazawa-21st.jpg"
   },
   {
     "id": "museum-adachi-yasugi",
@@ -72006,7 +72257,8 @@
     "operator": "公益財団法人 足立美術館",
     "description": "World-famous Japanese landscape garden voted No. 1 in Japan for over 20 consecutive years, pairing nature with Yokoyama Taikan paintings.",
     "source": "足立美術館公式記念スタンプ (Adachi Museum Official)",
-    "sourceUrl": "https://www.adachi-museum.or.jp/"
+    "sourceUrl": "https://www.adachi-museum.or.jp/",
+    "imageUrl": "/images/stamps/museum-adachi-yasugi.jpg"
   },
   {
     "id": "museum-otsuka-naruto",
@@ -72026,7 +72278,8 @@
     "operator": "一般財団法人 大塚美術財団",
     "description": "Japan's largest exhibition space, showcasing over 1,000 full-scale ceramic board reproductions of Western masterpieces including the Sistine Chapel.",
     "source": "大塚国際美術館公式 (Otsuka Museum Official)",
-    "sourceUrl": "https://o-museum.or.jp/"
+    "sourceUrl": "https://o-museum.or.jp/",
+    "imageUrl": "/images/stamps/museum-otsuka-naruto.jpg"
   },
   {
     "id": "museum-chichu-naoshima",
@@ -72046,7 +72299,8 @@
     "operator": "公益財団法人 福武財団 (Benesse Art Site Naoshima)",
     "description": "Built mostly underground by Tadao Ando on the art island of Naoshima to preserve the Seto Inland Sea landscape, permanently housing works by Claude Monet and James Turrell.",
     "source": "ベネッセアートサイト直島・地中美術館 (Benesse Art Site)",
-    "sourceUrl": "https://benesse-artsite.jp/art/chichu.html"
+    "sourceUrl": "https://benesse-artsite.jp/art/chichu.html",
+    "imageUrl": "/images/stamps/museum-chichu-naoshima.jpg"
   },
   {
     "id": "zoo-ueno",
@@ -72066,7 +72320,8 @@
     "operator": "公益財団法人 東京動物園協会",
     "description": "Japan's oldest zoo (opened 1882) located in Ueno Park, home to giant pandas, western lowland gorillas, and over 300 animal species.",
     "source": "恩賜上野動物園公式記念スタンプ (Tokyo Zoological Park Society)",
-    "sourceUrl": "https://www.tokyo-zoo.net/zoo/ueno/"
+    "sourceUrl": "https://www.tokyo-zoo.net/zoo/ueno/",
+    "imageUrl": "/images/stamps/zoo-ueno.jpg"
   },
   {
     "id": "zoo-asahiyama",
@@ -72086,7 +72341,8 @@
     "operator": "旭川市",
     "description": "Japan's northernmost famous zoo, pioneering behavioral displays (Koudou Tenji) such as underwater penguin tunnels and polar bear viewing domes.",
     "source": "旭山動物園公式記念スタンプ (Asahiyama Zoo Official)",
-    "sourceUrl": "https://www.city.asahikawa.hokkaido.jp/asahiyamazoo/"
+    "sourceUrl": "https://www.city.asahikawa.hokkaido.jp/asahiyamazoo/",
+    "imageUrl": "/images/stamps/zoo-asahiyama.jpg"
   },
   {
     "id": "zoo-tama",
@@ -72106,7 +72362,8 @@
     "operator": "公益財団法人 東京動物園協会",
     "description": "Sprawling 50-hectare woodland zoo in the Tama Hills, pioneer of the world's first Lion Bus safari and extensive koala and cheetah enclosures.",
     "source": "多摩動物公園公式記念スタンプ (Tokyo Zoological Park Society)",
-    "sourceUrl": "https://www.tokyo-zoo.net/zoo/tama/"
+    "sourceUrl": "https://www.tokyo-zoo.net/zoo/tama/",
+    "imageUrl": "/images/stamps/zoo-tama.jpg"
   },
   {
     "id": "zoo-higashiyama",
@@ -72126,7 +72383,8 @@
     "operator": "名古屋市",
     "description": "One of Japan's most visited zoos with the largest variety of animal species in the country, home to famous handsome western gorilla Shabani.",
     "source": "東山動植物園公式記念スタンプ (Higashiyama Zoo Official)",
-    "sourceUrl": "https://www.higashiyama.city.nagoya.jp/"
+    "sourceUrl": "https://www.higashiyama.city.nagoya.jp/",
+    "imageUrl": "/images/stamps/zoo-higashiyama.jpg"
   },
   {
     "id": "zoo-adventure-world",
@@ -72146,7 +72404,8 @@
     "operator": "株式会社 アワーズ",
     "description": "Premier wildlife theme park in Shirahama, world-renowned for its highly successful giant panda breeding and safari world.",
     "source": "アドベンチャーワールド公式 (Adventure World Official)",
-    "sourceUrl": "https://www.aws-s.com/"
+    "sourceUrl": "https://www.aws-s.com/",
+    "imageUrl": "/images/stamps/zoo-adventure-world.jpg"
   },
   {
     "id": "aqua-churaumi",
@@ -72166,7 +72425,8 @@
     "operator": "一般財団法人 沖縄美ら島財団",
     "description": "One of the world's most celebrated aquariums, famous for its colossal Kuroshio Sea acrylic tank housing giant whale sharks and manta rays.",
     "source": "沖縄美ら海水族館公式記念スタンプ (Churaumi Official)",
-    "sourceUrl": "https://churaumi.okinawa/"
+    "sourceUrl": "https://churaumi.okinawa/",
+    "imageUrl": "/images/stamps/aqua-churaumi.jpg"
   },
   {
     "id": "aqua-kaiyukan",
@@ -72186,7 +72446,8 @@
     "operator": "株式会社 海遊館",
     "description": "Massive spiral aquarium reconstructing the Pacific Rim Ring of Fire, with a 9-meter-deep central tank holding whale sharks.",
     "source": "海遊館公式記念スタンプ (Kaiyukan Official)",
-    "sourceUrl": "https://www.kaiyukan.com/"
+    "sourceUrl": "https://www.kaiyukan.com/",
+    "imageUrl": "/images/stamps/aqua-kaiyukan.jpg"
   },
   {
     "id": "aqua-kyoto",
@@ -72206,7 +72467,8 @@
     "operator": "オリックス水族館株式会社",
     "description": "Japan's first completely artificial seawater inland aquarium in Umekoji Park, dedicated to the conservation of ancient Japanese giant salamanders.",
     "source": "京都水族館公式記念スタンプ (Kyoto Aquarium Official)",
-    "sourceUrl": "https://www.kyoto-aquarium.com/"
+    "sourceUrl": "https://www.kyoto-aquarium.com/",
+    "imageUrl": "/images/stamps/aqua-kyoto.jpg"
   },
   {
     "id": "aqua-nagoya-port",
@@ -72226,7 +72488,8 @@
     "operator": "公益財団法人 名古屋みなと振興財団",
     "description": "Boasts Japan's largest outdoor show pool holding orcas (killer whales), belugas, and Pacific white-sided dolphins.",
     "source": "名古屋港水族館公式記念スタンプ (Nagoya Aquarium Official)",
-    "sourceUrl": "https://nagoyaaqua.jp/"
+    "sourceUrl": "https://nagoyaaqua.jp/",
+    "imageUrl": "/images/stamps/aqua-nagoya-port.jpg"
   },
   {
     "id": "aqua-sunshine-ikebukuro",
@@ -72246,7 +72509,8 @@
     "operator": "株式会社 サンシャインシティ",
     "description": "Oasis in the sky rooftop aquarium in Ikebukuro, featuring the famous 'Penguins in the Sky' cantilevered overhead tank.",
     "source": "サンシャイン水族館公式記念スタンプ (Sunshine Aquarium Official)",
-    "sourceUrl": "https://sunshinecity.jp/aquarium/"
+    "sourceUrl": "https://sunshinecity.jp/aquarium/",
+    "imageUrl": "/images/stamps/aqua-sunshine-ikebukuro.jpg"
   },
   {
     "id": "aqua-enoshima",
@@ -72266,7 +72530,8 @@
     "operator": "株式会社 新江ノ島水族館",
     "description": "Overlooking Mount Fuji and Sagami Bay, renowned for its Jellyfish Fantasy Hall and deep-sea exploration submersible exhibits.",
     "source": "新江ノ島水族館公式記念スタンプ (Enosui Official)",
-    "sourceUrl": "https://www.enosui.com/"
+    "sourceUrl": "https://www.enosui.com/",
+    "imageUrl": "/images/stamps/aqua-enoshima.jpg"
   },
   {
     "id": "aqua-kamogawa-sea-world",
@@ -72286,7 +72551,8 @@
     "operator": "株式会社 グランビスタ ホテル&リゾート",
     "description": "Pacific oceanfront marine park famed for its thrilling killer whale (orca) performances and beluga acoustic interaction shows.",
     "source": "鴨川シーワールド公式記念スタンプ (Kamogawa Sea World Official)",
-    "sourceUrl": "https://www.kamogawa-seaworld.jp/"
+    "sourceUrl": "https://www.kamogawa-seaworld.jp/",
+    "imageUrl": "/images/stamps/aqua-kamogawa-sea-world.jpg"
   },
   {
     "id": "aqua-toba",
@@ -72306,7 +72572,8 @@
     "operator": "鳥羽水族館",
     "description": "Home to the largest number of species of any aquarium in Japan (approx. 1,200 species), and the only aquarium in Japan keeping a dugong.",
     "source": "鳥羽水族館公式記念スタンプ (Toba Aquarium Official)",
-    "sourceUrl": "https://aquarium.co.jp/"
+    "sourceUrl": "https://aquarium.co.jp/",
+    "imageUrl": "/images/stamps/aqua-toba.jpg"
   },
   {
     "id": "aqua-kamo-tsuruoka",
@@ -72326,7 +72593,8 @@
     "operator": "鶴岡市",
     "description": "Guinness World Record-certified jellyfish aquarium featuring over 60 species and a mesmerizing 5-meter diameter Jellyfish Dream Theater.",
     "source": "加茂水族館公式記念スタンプ (Kamo Aquarium Official)",
-    "sourceUrl": "https://kamo-kurage.jp/"
+    "sourceUrl": "https://kamo-kurage.jp/",
+    "imageUrl": "/images/stamps/aqua-kamo-tsuruoka.jpg"
   },
   {
     "id": "aqua-umitamago-oita",
@@ -72346,6 +72614,7 @@
     "operator": "株式会社 マリーンパレス",
     "description": "Overlooking Beppu Bay at the foot of Mount Takasaki, featuring interactive walrus shows and the Asobeach artificial sensory shore.",
     "source": "うみたまご公式記念スタンプ (Umitamago Official)",
-    "sourceUrl": "https://www.umitamago.jp/"
+    "sourceUrl": "https://www.umitamago.jp/",
+    "imageUrl": "/images/stamps/aqua-umitamago-oita.jpg"
   }
 ]
