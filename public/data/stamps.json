@@ -69827,5 +69827,1705 @@
     "description": "Verbindet Sakaiminato und Shichirui auf dem Festland mit den Oki-Inseln (Dogo und Dozen).",
     "source": "Gosen-in Official Ferry & Port Project (御船印めぐりプロジェクト)",
     "sourceUrl": "https://gosen-in.jp/member_detail.php?id=8"
+  },
+  {
+    "id": "lighthouse-wakkanai",
+    "name": "Wakkanai Lighthouse",
+    "name_ja": "稚内灯台",
+    "name_romaji": "Wakkanai Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Hokkaido",
+    "city": "Wakkanai",
+    "address": "Noshappu, Wakkanai, Hokkaido 097-0026",
+    "coordinates": [
+      141.6465,
+      45.4526
+    ],
+    "stampLocation": "Wakkanai Youth Science Museum & Noshappu Cape Tourist Info Counter (ノシャップ岬観光案内所)",
+    "hours": "09:00 - 17:00",
+    "operator": "Japan Coast Guard 1st Regional HQ / Tokokai",
+    "description": "Standing tall at Cape Noshappu overlooking Rishiri and Rebun islands; the second tallest lighthouse in Japan with distinctive red and white stripes.",
+    "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-soya-misaki",
+    "name": "Cape Soya Lighthouse",
+    "name_ja": "宗谷岬灯台",
+    "name_romaji": "Sōya-misaki Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Hokkaido",
+    "city": "Wakkanai",
+    "address": "Soyamisaki, Wakkanai, Hokkaido 098-6758",
+    "coordinates": [
+      141.9363,
+      45.5228
+    ],
+    "stampLocation": "Cape Soya Tourist Information Center (宗谷岬観光案内所・最北端売店)",
+    "hours": "08:30 - 17:30",
+    "operator": "Japan Coast Guard 1st Regional HQ / Tokokai",
+    "description": "The northernmost lighthouse in Japan, illuminating the Soya Strait facing Sakhalin since 1885.",
+    "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-shiretoko-misaki",
+    "name": "Cape Shiretoko Lighthouse",
+    "name_ja": "知床岬灯台",
+    "name_romaji": "Shiretoko-misaki Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Hokkaido",
+    "city": "Shari-gun",
+    "address": "Onnebetsumura, Shari, Shari District, Hokkaido 099-4356",
+    "coordinates": [
+      145.34,
+      44.3444
+    ],
+    "stampLocation": "Utoro Shiretoko World Heritage Center & Cruise Terminal (知床世界遺産センター・ウトロ港)",
+    "hours": "08:30 - 17:30",
+    "operator": "Japan Coast Guard 1st Regional HQ / Tokokai",
+    "description": "Guarding the untamed tip of Shiretoko Peninsula World Natural Heritage, reachable only by boat or multi-day coastal trekking.",
+    "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-nosappu-misaki",
+    "name": "Cape Nosappu Lighthouse",
+    "name_ja": "納沙布岬灯台",
+    "name_romaji": "Nosappu-misaki Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Hokkaido",
+    "city": "Nemuro",
+    "address": "Nosappu, Nemuro, Hokkaido 087-0165",
+    "coordinates": [
+      145.8173,
+      43.3847
+    ],
+    "stampLocation": "Cape Nosappu Tourist Center & Northern Territories House (納沙布岬観光物産センター)",
+    "hours": "09:00 - 17:00",
+    "operator": "Japan Coast Guard 1st Regional HQ / Tokokai",
+    "description": "Hokkaido's oldest lighthouse, established in 1872 at the easternmost point of Hokkaido looking out over the Habomai Islands.",
+    "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-hanasaki",
+    "name": "Hanasaki Lighthouse",
+    "name_ja": "花咲灯台",
+    "name_romaji": "Hanasaki Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Hokkaido",
+    "city": "Nemuro",
+    "address": "Hanasakiminato, Nemuro, Hokkaido 087-0032",
+    "coordinates": [
+      145.5878,
+      43.2794
+    ],
+    "stampLocation": "Cape Hanasaki Kurumashi Stone Pavilion & Port Office (花咲岬車石案内所)",
+    "hours": "09:00 - 17:00",
+    "operator": "Japan Coast Guard 1st Regional HQ / Tokokai",
+    "description": "Overlooking the Pacific Ocean and famous for the radial columnar basalt Kurumashi (Wheel Stone) geological monument.",
+    "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-ochiishi-misaki",
+    "name": "Cape Ochiishi Lighthouse",
+    "name_ja": "落石岬灯台",
+    "name_romaji": "Ochiishi-misaki Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Hokkaido",
+    "city": "Nemuro",
+    "address": "Ochiishinishi, Nemuro, Hokkaido 087-0161",
+    "coordinates": [
+      145.5133,
+      43.1648
+    ],
+    "stampLocation": "Ochiishi Radio Observatory Trailhead Entrance (落石岬木道入口案内所)",
+    "hours": "Open 24 hours (Daylight recommended)",
+    "operator": "Japan Coast Guard 1st Regional HQ / Tokokai",
+    "description": "Situated amidst dramatic coastal wetlands and Sakhalin spruce forests on Nemuro's southern cape.",
+    "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-erimo-misaki",
+    "name": "Cape Erimo Lighthouse",
+    "name_ja": "襟裳岬灯台",
+    "name_romaji": "Erimo-misaki Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Hokkaido",
+    "city": "Horoizumi-gun",
+    "address": "Erimomisaki, Erimo, Horoizumi District, Hokkaido 058-0343",
+    "coordinates": [
+      143.2494,
+      41.9248
+    ],
+    "stampLocation": "Cape Erimo Wind Museum Kaze-no-Yakata (襟裳岬「風の館」受付窓口)",
+    "hours": "09:00 - 17:00",
+    "operator": "Japan Coast Guard 1st Regional HQ / Tokokai",
+    "description": "Perched on the windy cliffs where the Hidaka Mountain range plunges into the Pacific Ocean.",
+    "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-chikiu-misaki",
+    "name": "Cape Chikyu Lighthouse",
+    "name_ja": "チキウ岬灯台",
+    "name_romaji": "Chikiu-misaki Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Hokkaido",
+    "city": "Muroran",
+    "address": "Bokoiminamicho, Muroran, Hokkaido 051-0003",
+    "coordinates": [
+      141.0028,
+      42.3022
+    ],
+    "stampLocation": "Cape Chikyu Observation Deck Shop & Rest Area (地球岬展望台売店)",
+    "hours": "09:00 - 17:00",
+    "operator": "Japan Coast Guard 1st Regional HQ / Tokokai",
+    "description": "Perched atop 120-meter sheer sea cliffs offering sweeping panoramic views confirming the curve of the Earth.",
+    "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-esan-misaki",
+    "name": "Cape Esan Lighthouse",
+    "name_ja": "恵山岬灯台",
+    "name_romaji": "Esan-misaki Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Hokkaido",
+    "city": "Hakodate",
+    "address": "80-9 Esanmisakicho, Hakodate, Hokkaido 041-0605",
+    "coordinates": [
+      141.1718,
+      41.8108
+    ],
+    "stampLocation": "Hakodate Esan Lighthouse Museum Todotto (恵山岬灯台公園・ピカリン館)",
+    "hours": "09:00 - 16:30",
+    "operator": "Japan Coast Guard 1st Regional HQ / Tokokai",
+    "description": "Set against active volcano Mount Esan on the Oshima Peninsula with a dedicated lighthouse park.",
+    "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-shiriyazaki",
+    "name": "Shiriyazaki Lighthouse",
+    "name_ja": "尻屋埼灯台",
+    "name_romaji": "Shiriyazaki Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Aomori",
+    "city": "Shimokita-gun",
+    "address": "1-1 Shiriyazaki, Shiriya, Higashidori, Shimokita District, Aomori 035-0111",
+    "coordinates": [
+      141.4644,
+      41.4286
+    ],
+    "stampLocation": "Shiriyazaki Tokokai Climbable Lighthouse Admission Desk (燈光会 参観受付窓口)",
+    "hours": "09:00 - 16:00 (Apr - Nov)",
+    "operator": "公益社団法人 燈光会 / 海上保安庁",
+    "description": "One of Japan's 16 climbable lighthouses; highest brick lighthouse in Japan, surrounded by pastures where wild Kandachime horses graze.",
+    "source": "日本の灯台50選・参観灯台 (公益社団法人 燈光会)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-omazaki",
+    "name": "Omazaki Lighthouse",
+    "name_ja": "大間埼灯台",
+    "name_romaji": "Ōmazaki Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Aomori",
+    "city": "Shimokita-gun",
+    "address": "1 Benten, Oma, Shimokita District, Aomori 039-4601",
+    "coordinates": [
+      140.9142,
+      41.5547
+    ],
+    "stampLocation": "Cape Oma Tourist Rest House & Rest Area (大間岬レストハウス案内所)",
+    "hours": "09:00 - 17:00",
+    "operator": "Japan Coast Guard 2nd Regional HQ / Tokokai",
+    "description": "Standing on Benten Island just off Honshu's northernmost point across the Tsugaru Strait, renowned for Pacific bluefin tuna.",
+    "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-tappizaki",
+    "name": "Tappizaki Lighthouse",
+    "name_ja": "龍飛埼灯台",
+    "name_romaji": "Tappizaki Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Aomori",
+    "city": "Higashitsugaru-gun",
+    "address": "Minmayatatsuhama, Sotogahama, Higashitsugaru District, Aomori 030-1711",
+    "coordinates": [
+      140.3444,
+      41.2589
+    ],
+    "stampLocation": "Cape Tappi Tourism Center & Tsugaru Strait Memorial Pavilion (龍飛岬観光案内所)",
+    "hours": "08:40 - 17:00",
+    "operator": "Japan Coast Guard 2nd Regional HQ / Tokokai",
+    "description": "Perched atop Cape Tappi where heavy sea winds howl across the Tsugaru Strait; immortalized in Dazai Osamu's Tsugaru.",
+    "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-samekado",
+    "name": "Samekado Lighthouse",
+    "name_ja": "鮫角灯台",
+    "name_romaji": "Samekado Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Aomori",
+    "city": "Hachinohe",
+    "address": "Samemachi, Hachinohe, Aomori 031-0841",
+    "coordinates": [
+      141.5647,
+      40.5408
+    ],
+    "stampLocation": "Samekado Lighthouse Climbable Entrance Counter & Tanesashi Coast Info Center",
+    "hours": "09:00 - 16:00 (Open days)",
+    "operator": "公益社団法人 燈光会 / 海上保安庁",
+    "description": "Nicknamed the Swan of the Coast; overlooks the Ashigezaki Observatory and beautiful Sanriku coastline.",
+    "source": "日本の灯台50選・参観灯台 (公益社団法人 燈光会)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-rikuchu-kurozaki",
+    "name": "Rikuchu Kurozaki Lighthouse",
+    "name_ja": "陸中黒埼灯台",
+    "name_romaji": "Rikuchū Kurozaki Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Iwate",
+    "city": "Shimohei-gun",
+    "address": "84-5 Shitamura, Dai-2-jiwari, Fudai, Shimohei District, Iwate 028-8341",
+    "coordinates": [
+      141.9328,
+      40.0039
+    ],
+    "stampLocation": "Kurozaki Rest House & National Park Information Center (黒崎レストハウス案内窓口)",
+    "hours": "09:00 - 17:00",
+    "operator": "Japan Coast Guard 2nd Regional HQ / Tokokai",
+    "description": "Located on the 130-meter sheer sea cliffs of Sanriku Fukko National Park, looking over the Pacific Ocean.",
+    "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-todogasaki",
+    "name": "Todogasaki Lighthouse",
+    "name_ja": "魹ヶ埼灯台",
+    "name_romaji": "Todogasaki Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Iwate",
+    "city": "Miyako",
+    "address": "Todogasaki, Omoe, Miyako, Iwate 027-0111",
+    "coordinates": [
+      142.0711,
+      39.5489
+    ],
+    "stampLocation": "Todogasaki Trailhead Memorial Monument / Aneyoshi Rest Center (姉吉キャンプ場管理棟)",
+    "hours": "Open 24 hours (Daylight hiking recommended)",
+    "operator": "Japan Coast Guard 2nd Regional HQ / Tokokai",
+    "description": "Guards Honshu's easternmost point (本州最東端); accessible via a scenic 3.8 km forest and coastal trail.",
+    "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-kinkasan",
+    "name": "Kinkasan Lighthouse",
+    "name_ja": "金華山灯台",
+    "name_romaji": "Kinkasan Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Miyagi",
+    "city": "Ishinomaki",
+    "address": "Kinkasan, Ayukawahama, Ishinomaki, Miyagi 986-2523",
+    "coordinates": [
+      141.5794,
+      38.2867
+    ],
+    "stampLocation": "Kinkasan Koganeyama Shrine Reception Office & Port Ferry Terminal (金華山黄金山神社社務所)",
+    "hours": "08:30 - 16:30",
+    "operator": "Japan Coast Guard 2nd Regional HQ / Tokokai",
+    "description": "Constructed by Richard Henry Brunton in 1876 on sacred Mount Kinka island off the Oshika Peninsula.",
+    "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-nyudozaki",
+    "name": "Nyudozaki Lighthouse",
+    "name_ja": "入道埼灯台",
+    "name_romaji": "Nyūdōzaki Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Akita",
+    "city": "Oga",
+    "address": "Konbura, Kitaura Nyudozaki, Oga, Akita 010-0675",
+    "coordinates": [
+      139.7028,
+      39.9989
+    ],
+    "stampLocation": "Nyudozaki Tokokai Climbable Lighthouse Admission Desk (燈光会 参観受付窓口)",
+    "hours": "09:00 - 16:00",
+    "operator": "公益社団法人 燈光会 / 海上保安庁",
+    "description": "One of Japan's 16 climbable lighthouses; striking black-and-white striped tower sitting precisely on the 40th parallel north on the Oga Peninsula.",
+    "source": "日本の灯台50選・参観灯台 (公益社団法人 燈光会)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-shioyazaki",
+    "name": "Shioyazaki Lighthouse",
+    "name_ja": "塩屋埼灯台",
+    "name_romaji": "Shioyazaki Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Fukushima",
+    "city": "Iwaki",
+    "address": "34 Shukuzaki, Usuiso, Taira, Iwaki, Fukushima 970-0223",
+    "coordinates": [
+      140.9983,
+      36.9961
+    ],
+    "stampLocation": "Shioyazaki Tokokai Climbable Lighthouse Admission Desk (燈光会 参観受付窓口)",
+    "hours": "09:00 - 16:30",
+    "operator": "公益社団法人 燈光会 / 海上保安庁",
+    "description": "One of Japan's 16 climbable lighthouses; beloved landmark connected to singer Misora Hibari's famous ballad Midaregami.",
+    "source": "日本の灯台50選・参観灯台 (公益社団法人 燈光会)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-inubosaki",
+    "name": "Inubosaki Lighthouse",
+    "name_ja": "犬吠埼灯台",
+    "name_romaji": "Inubōsaki Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Chiba",
+    "city": "Choshi",
+    "address": "9576 Inubosaki, Choshi, Chiba 288-0012",
+    "coordinates": [
+      140.8703,
+      35.7047
+    ],
+    "stampLocation": "Inubosaki Tokokai Climbable Lighthouse Ticket Office (燈光会 参観受付窓口)",
+    "hours": "08:30 - 16:00",
+    "operator": "公益社団法人 燈光会 / 海上保安庁",
+    "description": "National Important Cultural Property built by Brunton in 1874 using 193,000 domestic bricks; first 1st-order lens in Japan.",
+    "source": "日本の灯台50選・参観灯台 (公益社団法人 燈光会)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-nojimazaki",
+    "name": "Nojimazaki Lighthouse",
+    "name_ja": "野島埼灯台",
+    "name_romaji": "Nojimazaki Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Chiba",
+    "city": "Minamiboso",
+    "address": "630 Shirahama, Shirahamacho, Minamiboso, Chiba 295-0102",
+    "coordinates": [
+      139.8942,
+      34.9017
+    ],
+    "stampLocation": "Nojimazaki Tokokai Climbable Lighthouse Admission Office & Museum (燈光会 参観受付窓口)",
+    "hours": "09:00 - 16:00",
+    "operator": "公益社団法人 燈光会 / 海上保安庁",
+    "description": "One of Japan's 16 climbable lighthouses; built by Léonce Verny in 1869 at the southern tip of the Boso Peninsula.",
+    "source": "日本の灯台50選・参観灯台 (公益社団法人 燈光会)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-kannonzaki",
+    "name": "Kannonzaki Lighthouse",
+    "name_ja": "観音埼灯台",
+    "name_romaji": "Kannonzaki Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Kanagawa",
+    "city": "Yokosuka",
+    "address": "4-1187 Kamoi, Yokosuka, Kanagawa 239-0813",
+    "coordinates": [
+      139.7428,
+      35.2592
+    ],
+    "stampLocation": "Kannonzaki Tokokai Climbable Lighthouse Admission Desk (燈光会 参観受付窓口)",
+    "hours": "09:00 - 16:30",
+    "operator": "公益社団法人 燈光会 / 海上保安庁",
+    "description": "Japan's first Western-style lighthouse, originally lit on New Year's Day 1869; watches over Tokyo Bay and the Uraga Channel.",
+    "source": "日本の灯台50選・参観灯台 (公益社団法人 燈光会)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-himezaki",
+    "name": "Himezaki Lighthouse",
+    "name_ja": "姫埼灯台",
+    "name_romaji": "Himezaki Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Niigata",
+    "city": "Sado",
+    "address": "Ryotsuokawa, Sado, Niigata 952-3421",
+    "coordinates": [
+      138.5497,
+      38.0847
+    ],
+    "stampLocation": "Himezaki Lighthouse Park Rest Area & Sado Tourist Information (姫埼灯台園地案内所)",
+    "hours": "09:00 - 17:00",
+    "operator": "Japan Coast Guard 9th Regional HQ / Tokokai",
+    "description": "Japan's oldest existing cast-iron lighthouse (built in 1895), registered on the International Historic Lighthouse list.",
+    "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-rokkosaki",
+    "name": "Rokkosaki Lighthouse",
+    "name_ja": "禄剛埼灯台",
+    "name_romaji": "Rokkosaki Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Ishikawa",
+    "city": "Suzu",
+    "address": "Noroshimachi, Suzu, Ishikawa 927-1441",
+    "coordinates": [
+      137.3275,
+      37.5311
+    ],
+    "stampLocation": "Michi-no-Eki Noroshi Tourist Counter (道の駅 狼煙 観光インフォメーション)",
+    "hours": "08:30 - 17:00",
+    "operator": "Japan Coast Guard 9th Regional HQ / Tokokai",
+    "description": "At the very tip of Noto Peninsula, uniquely famous as a spot where visitors can view both the sunrise and sunset over the sea.",
+    "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-ono",
+    "name": "Ono Lighthouse",
+    "name_ja": "大野灯台",
+    "name_romaji": "Ōno Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Ishikawa",
+    "city": "Kanazawa",
+    "address": "Ko-18, 4-chome, Onomachi, Kanazawa, Ishikawa 920-0331",
+    "coordinates": [
+      136.6047,
+      36.6111
+    ],
+    "stampLocation": "Kanazawa Port Cruise Terminal & Ono Karakuri Memorial Museum (金沢港クルーズターミナル案内所)",
+    "hours": "09:00 - 17:00",
+    "operator": "Japan Coast Guard 9th Regional HQ / Tokokai",
+    "description": "A graceful white lighthouse guiding ships into Kanazawa Port, standing alongside the historic soy sauce brewing district of Ono.",
+    "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-irozaki",
+    "name": "Irozaki Lighthouse",
+    "name_ja": "石廊埼灯台",
+    "name_romaji": "Irōzaki Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Shizuoka",
+    "city": "Kamo-gun",
+    "address": "Iro, Minamiizu, Kamo District, Shizuoka 415-0156",
+    "coordinates": [
+      138.8475,
+      34.6017
+    ],
+    "stampLocation": "Irozaki Ocean Park Rest House (石廊崎オーシャンパーク案内カウンター)",
+    "hours": "08:30 - 16:30",
+    "operator": "Japan Coast Guard 3rd Regional HQ / Tokokai",
+    "description": "Situated at the southernmost cape of the Izu Peninsula where the Pacific Ocean meets Suruga Bay, next to dramatic Iromuro Shrine.",
+    "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-mikomotojima",
+    "name": "Mikomotojima Lighthouse",
+    "name_ja": "神子元島灯台",
+    "name_romaji": "Mikomotojima Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Shizuoka",
+    "city": "Shimoda",
+    "address": "Mikomotojima, Shimoda, Shizuoka 415-0000",
+    "coordinates": [
+      138.935,
+      34.575
+    ],
+    "stampLocation": "Shimoda Port Roadside Station Kaiko & Marine Center (道の駅 開国下田みなと 観光案内所)",
+    "hours": "09:00 - 17:00",
+    "operator": "Japan Coast Guard 3rd Regional HQ / Tokokai",
+    "description": "Japan's oldest existing stone lighthouse, constructed by Brunton in 1870 on an uninhabited rocky islet 9 km off Shimoda.",
+    "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-omaezaki",
+    "name": "Omaezaki Lighthouse",
+    "name_ja": "御前埼灯台",
+    "name_romaji": "Omaezaki Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Shizuoka",
+    "city": "Omaezaki",
+    "address": "1581 Omaezaki, Omaezaki, Shizuoka 437-1621",
+    "coordinates": [
+      138.2256,
+      34.5947
+    ],
+    "stampLocation": "Omaezaki Tokokai Climbable Lighthouse Admission Desk (燈光会 参観受付窓口)",
+    "hours": "09:00 - 16:00",
+    "operator": "公益社団法人 燈光会 / 海上保安庁",
+    "description": "One of Japan's 16 climbable lighthouses; built in 1874 by Richard Henry Brunton on Cape Omaezaki at the entrance to Suruga Bay.",
+    "source": "日本の灯台50選・参観灯台 (公益社団法人 燈光会)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-iragozaki",
+    "name": "Iragozaki Lighthouse",
+    "name_ja": "伊良湖岬灯台",
+    "name_romaji": "Iragozaki Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Aichi",
+    "city": "Tahara",
+    "address": "Furuyama, Iragocho, Tahara, Aichi 441-3624",
+    "coordinates": [
+      137.0142,
+      34.5806
+    ],
+    "stampLocation": "Michi-no-Eki Irago Crystal Port & Ferry Terminal (道の駅 伊良湖クリスタルポルト 案内窓口)",
+    "hours": "09:00 - 17:00",
+    "operator": "Japan Coast Guard 4th Regional HQ / Tokokai",
+    "description": "Located at the tip of the Atsumi Peninsula overlooking the Irako Channel and sacred Kamishima island.",
+    "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-kamishima",
+    "name": "Kamishima Lighthouse",
+    "name_ja": "神島灯台",
+    "name_romaji": "Kamishima Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Mie",
+    "city": "Toba",
+    "address": "Kamishimacho, Toba, Mie 517-0001",
+    "coordinates": [
+      136.9858,
+      34.5492
+    ],
+    "stampLocation": "Kamishima Port Passenger Waiting Terminal (神島定期船待合所・観光案内所)",
+    "hours": "08:30 - 16:30",
+    "operator": "Japan Coast Guard 4th Regional HQ / Tokokai",
+    "description": "Famous setting of Mishima Yukio's acclaimed novel The Sound of Waves (潮騒), standing sentinel over Ise Bay.",
+    "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-sugashima",
+    "name": "Sugashima Lighthouse",
+    "name_ja": "菅島灯台",
+    "name_romaji": "Sugashima Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Mie",
+    "city": "Toba",
+    "address": "122 Sugashimacho, Toba, Mie 517-0004",
+    "coordinates": [
+      136.9022,
+      34.5042
+    ],
+    "stampLocation": "Sugashima Port Liner Waiting Office & Island Information Desk (菅島定期船待合所)",
+    "hours": "08:00 - 17:00",
+    "operator": "Japan Coast Guard 4th Regional HQ / Tokokai",
+    "description": "Oldest brick Western lighthouse in Japan (1873) built by Brunton, designated an Important Cultural Property.",
+    "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-anorisaki",
+    "name": "Anorisaki Lighthouse",
+    "name_ja": "安乗埼灯台",
+    "name_romaji": "Anorisaki Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Mie",
+    "city": "Shima",
+    "address": "795 Agocho Anori, Shima, Mie 517-0507",
+    "coordinates": [
+      136.9114,
+      34.3647
+    ],
+    "stampLocation": "Anorisaki Tokokai Climbable Lighthouse Admission Desk & Museum (燈光会 参観受付窓口)",
+    "hours": "09:00 - 16:00",
+    "operator": "公益社団法人 燈光会 / 海上保安庁",
+    "description": "One of Japan's 16 climbable lighthouses; highly unusual square-shaped white tower looking out into Matoya Bay and Kumano Sea.",
+    "source": "日本の灯台50選・参観灯台 (公益社団法人 燈光会)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-daiosaki",
+    "name": "Daiosaki Lighthouse",
+    "name_ja": "大王埼灯台",
+    "name_romaji": "Daiōsaki Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Mie",
+    "city": "Shima",
+    "address": "54-1 Daiocho Nakiri, Shima, Mie 517-0603",
+    "coordinates": [
+      136.8997,
+      34.2792
+    ],
+    "stampLocation": "Daiosaki Tokokai Climbable Lighthouse Admission Desk (燈光会 参観受付窓口)",
+    "hours": "09:00 - 16:00",
+    "operator": "公益社団法人 燈光会 / 海上保安庁",
+    "description": "One of Japan's 16 climbable lighthouses; beloved by painters as the Town of Artists (絵かきの町) on the Shima Peninsula.",
+    "source": "日本の灯台50選・参観灯台 (公益社団法人 燈光会)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-kyogamisaki",
+    "name": "Kyogamisaki Lighthouse",
+    "name_ja": "経ヶ岬灯台",
+    "name_romaji": "Kyōgamisaki Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Kyoto",
+    "city": "Kyotango",
+    "address": "Sodeshi, Tangocho, Kyotango, Kyoto 627-0242",
+    "coordinates": [
+      135.2978,
+      35.7761
+    ],
+    "stampLocation": "Cape Kyogamisaki Rest House & Information Desk (経ヶ岬レストハウス)",
+    "hours": "09:00 - 17:00",
+    "operator": "Japan Coast Guard 8th Regional HQ / Tokokai",
+    "description": "One of only five lighthouses in Japan equipped with a rare 1st-order Fresnel lens, standing high on the Tango Peninsula cliffs.",
+    "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-shionomisaki",
+    "name": "Shionomisaki Lighthouse",
+    "name_ja": "潮岬灯台",
+    "name_romaji": "Shionomisaki Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Wakayama",
+    "city": "Higashimuro-gun",
+    "address": "2877 Shionomisaki, Kushimoto, Higashimuro District, Wakayama 649-3503",
+    "coordinates": [
+      135.7533,
+      33.4331
+    ],
+    "stampLocation": "Shionomisaki Tokokai Climbable Lighthouse Admission Office & Museum (燈光会 参観受付窓口)",
+    "hours": "09:00 - 16:30",
+    "operator": "公益社団法人 燈光会 / 海上保安庁",
+    "description": "One of Japan's 16 climbable lighthouses; stands proudly at the southernmost point of Honshu Island (本州最南端).",
+    "source": "日本の灯台50選・参観灯台 (公益社団法人 燈光会)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-mihonoseki",
+    "name": "Mihonoseki Lighthouse",
+    "name_ja": "美保関灯台",
+    "name_romaji": "Mihonoseki Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Shimane",
+    "city": "Matsue",
+    "address": "Ohira, Mihonosekicho Mihonoseki, Matsue, Shimane 690-1501",
+    "coordinates": [
+      133.3283,
+      35.5681
+    ],
+    "stampLocation": "Mihonoseki Lighthouse Buffet & Visitor Desk (美保関灯台ビュッフェ案内所)",
+    "hours": "09:00 - 17:00",
+    "operator": "Japan Coast Guard 8th Regional HQ / Tokokai",
+    "description": "Oldest stone lighthouse on the San'in coast (1898); offers views across to Mount Daisen and the Oki Islands.",
+    "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-izumo-hinomisaki",
+    "name": "Izumo Hinomisaki Lighthouse",
+    "name_ja": "出雲日御碕灯台",
+    "name_romaji": "Izumo Hinomisaki Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Shimane",
+    "city": "Izumo",
+    "address": "1478 Hinomisaki, Taishacho, Izumo, Shimane 699-0763",
+    "coordinates": [
+      132.6289,
+      35.4317
+    ],
+    "stampLocation": "Izumo Hinomisaki Tokokai Climbable Lighthouse Admission Desk (燈光会 参観受付窓口)",
+    "hours": "09:00 - 16:30",
+    "operator": "公益社団法人 燈光会 / 海上保安庁",
+    "description": "One of Japan's 16 climbable lighthouses; the highest masonry stone lighthouse in East Asia at 43.65 meters, built in 1903.",
+    "source": "日本の灯台50選・参観灯台 (公益社団法人 燈光会)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-konegashima",
+    "name": "Konegashima Lighthouse",
+    "name_ja": "高根島灯台",
+    "name_romaji": "Konegashima Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Hiroshima",
+    "city": "Onomichi",
+    "address": "Uchiura, Setodacho Kone, Onomichi, Hiroshima 722-2403",
+    "coordinates": [
+      133.0906,
+      34.3164
+    ],
+    "stampLocation": "Setoda Port Tourist Information Office & Ikuchijima Center (瀬戸田港観光案内所)",
+    "hours": "09:00 - 17:00",
+    "operator": "Japan Coast Guard 6th Regional HQ / Tokokai",
+    "description": "Erected in 1894 along the Shimanami Sea Route, framed by citrus orchards on tranquil Konegashima in the Seto Inland Sea.",
+    "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-tsunoshima",
+    "name": "Tsunoshima Lighthouse",
+    "name_ja": "角島灯台",
+    "name_romaji": "Tsunoshima Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Yamaguchi",
+    "city": "Shimonoseki",
+    "address": "Tsunoshima, Hohokucho, Shimonoseki, Yamaguchi 759-5332",
+    "coordinates": [
+      130.8419,
+      34.3547
+    ],
+    "stampLocation": "Tsunoshima Tokokai Climbable Lighthouse Admission Desk & Museum (燈光会 参観受付窓口)",
+    "hours": "09:00 - 16:30",
+    "operator": "公益社団法人 燈光会 / 海上保安庁",
+    "description": "One of Japan's 16 climbable lighthouses; an unpainted granite tower designed by Brunton in 1876 on picturesque Tsunoshima island.",
+    "source": "日本の灯台50選・参観灯台 (公益社団法人 燈光会)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-ogijima",
+    "name": "Ogijima Lighthouse",
+    "name_ja": "男木島灯台",
+    "name_romaji": "Ogijima Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Kagawa",
+    "city": "Takamatsu",
+    "address": "1064 Ogicho, Takamatsu, Kagawa 760-0091",
+    "coordinates": [
+      134.0558,
+      34.4319
+    ],
+    "stampLocation": "Ogijima Lighthouse Museum & Ferry Terminal Information Desk (男木島灯台資料館)",
+    "hours": "09:00 - 16:30",
+    "operator": "Japan Coast Guard 6th Regional HQ / Tokokai",
+    "description": "Charming unpainted granite lighthouse (1895) on the cat-friendly island of Ogijima; backdrop of the classic film Times of Joy and Sorrow.",
+    "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-sadamisaki",
+    "name": "Sadamisaki Lighthouse",
+    "name_ja": "佐田岬灯台",
+    "name_romaji": "Sadamisaki Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Ehime",
+    "city": "Nishiuwa-gun",
+    "address": "1371-3 Oshima, Shono, Ikata, Nishiuwa District, Ehime 796-0611",
+    "coordinates": [
+      132.0169,
+      33.34
+    ],
+    "stampLocation": "Sadamisaki Cape Rest House & Trailhead Pavilion (佐田岬案内所)",
+    "hours": "09:00 - 17:00",
+    "operator": "Japan Coast Guard 6th Regional HQ / Tokokai",
+    "description": "Marks the westernmost point of Shikoku at the tip of the slender 40 km-long Sadamisaki Peninsula jutting into the Hoyo Strait.",
+    "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-murotomisaki",
+    "name": "Murotomisaki Lighthouse",
+    "name_ja": "室戸岬灯台",
+    "name_romaji": "Murotomisaki Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Kochi",
+    "city": "Muroto",
+    "address": "6939 Murotomisakicho, Muroto, Kochi 781-7101",
+    "coordinates": [
+      134.1758,
+      33.2472
+    ],
+    "stampLocation": "Muroto Geopark Center & Cape Muroto Tourist Info Counter (室戸世界ジオパークセンター)",
+    "hours": "09:00 - 17:00",
+    "operator": "Japan Coast Guard 5th Regional HQ / Tokokai",
+    "description": "Boasts Japan's largest lens (diameter 2.6 m) with a light range of 26.5 nautical miles, crowning the wild coastal terraces of Cape Muroto.",
+    "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-ashizurimisaki",
+    "name": "Ashizurimisaki Lighthouse",
+    "name_ja": "足摺岬灯台",
+    "name_romaji": "Ashizurimisaki Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Kochi",
+    "city": "Tosashimizu",
+    "address": "214-5 Ashizurimisaki, Tosashimizu, Kochi 787-0315",
+    "coordinates": [
+      133.0239,
+      32.7214
+    ],
+    "stampLocation": "Cape Ashizuri Tourist Information Center (足摺岬観光案内所・ジョン万次郎像前)",
+    "hours": "08:30 - 17:00",
+    "operator": "Japan Coast Guard 5th Regional HQ / Tokokai",
+    "description": "Shikoku's southernmost lighthouse atop 80-meter precipitous coastal cliffs amid dense camellia groves.",
+    "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-hesaki",
+    "name": "Hesaki Lighthouse",
+    "name_ja": "部埼灯台",
+    "name_romaji": "Hesaki Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Fukuoka",
+    "city": "Kitakyushu",
+    "address": "Shiranoe, Moji Ward, Kitakyushu, Fukuoka 801-0802",
+    "coordinates": [
+      131.0267,
+      33.9575
+    ],
+    "stampLocation": "Mojiko Retro Tourist Information & Hesaki Park Trail Entrance (門司港レトロ観光案内所)",
+    "hours": "09:00 - 17:00",
+    "operator": "Japan Coast Guard 7th Regional HQ / Tokokai",
+    "description": "A Brunton-designed stone lighthouse (1872) built on the eastern entrance of the Kanmon Strait to safeguard merchant shipping.",
+    "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-shirashu",
+    "name": "Shirashu Lighthouse",
+    "name_ja": "白州灯台",
+    "name_romaji": "Shirashu Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Fukuoka",
+    "city": "Kitakyushu",
+    "address": "Ainoshima, Kokurakita Ward, Kitakyushu, Fukuoka 802-0000",
+    "coordinates": [
+      130.825,
+      33.9903
+    ],
+    "stampLocation": "Kokura Port Ainoshima Ferry Terminal Ticket Window (小倉港 藍島渡船待合所)",
+    "hours": "08:00 - 17:00",
+    "operator": "Japan Coast Guard 7th Regional HQ / Tokokai",
+    "description": "Offshore stone beacon erected on treacherous submerged reefs in the Hibiki Sea off Kokura; constructed in 1873.",
+    "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-osezaki",
+    "name": "Osezaki Lighthouse",
+    "name_ja": "大瀬埼灯台",
+    "name_romaji": "Ōsezaki Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Nagasaki",
+    "city": "Goto",
+    "address": "1429 Yamanokamiomote, Tamanouramachi, Goto, Nagasaki 853-0411",
+    "coordinates": [
+      128.6014,
+      32.6139
+    ],
+    "stampLocation": "Osezaki Lighthouse Observatory Rest House (大瀬崎展望台案内所)",
+    "hours": "09:00 - 17:00",
+    "operator": "Japan Coast Guard 7th Regional HQ / Tokokai",
+    "description": "Perched on dramatic precipices at the western extremity of Fukue Island, the last land seen by ancient envoys to Tang China.",
+    "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-meshima",
+    "name": "Meshima Lighthouse",
+    "name_ja": "女島灯台",
+    "name_romaji": "Meshima Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Nagasaki",
+    "city": "Goto",
+    "address": "1256 Hamamachi Meshima, Goto, Nagasaki 853-0608",
+    "coordinates": [
+      128.3533,
+      31.9961
+    ],
+    "stampLocation": "Goto City Tourism Association Fukue Port Terminal (五島市観光協会 福江港ターミナル案内窓口)",
+    "hours": "08:30 - 17:30",
+    "operator": "Japan Coast Guard 7th Regional HQ / Tokokai",
+    "description": "Japan's last manned lighthouse until 2006, perched on the isolated Danjo Gunto archipelago in the East China Sea.",
+    "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-mizunokojima",
+    "name": "Mizunokojima Lighthouse",
+    "name_ja": "水ノ子島灯台",
+    "name_romaji": "Mizunokojima Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Oita",
+    "city": "Saiki",
+    "address": "Mizunokojima, Saiki, Oita 876-1300",
+    "coordinates": [
+      132.0147,
+      33.0442
+    ],
+    "stampLocation": "Mizunokojima Lighthouse Guardhouse Museum (水ノ子島海事資料館・渡町台)",
+    "hours": "09:00 - 16:30",
+    "operator": "Japan Coast Guard 7th Regional HQ / Tokokai",
+    "description": "A magnificent stone tower built in 1904 on an isolated reef in the turbulent Bungo Channel between Kyushu and Shikoku.",
+    "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-toimisaki",
+    "name": "Toimisaki Lighthouse",
+    "name_ja": "都井岬灯台",
+    "name_romaji": "Toimisaki Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Miyazaki",
+    "city": "Kushima",
+    "address": "Toimisaki, Kushima, Miyazaki 888-0221",
+    "coordinates": [
+      131.3486,
+      31.3653
+    ],
+    "stampLocation": "Toimisaki Tokokai Climbable Lighthouse Admission Desk (燈光会 参観受付窓口)",
+    "hours": "09:00 - 16:30",
+    "operator": "公益社団法人 燈光会 / 海上保安庁",
+    "description": "One of Japan's 16 climbable lighthouses; Kyushu's only climbable lighthouse, famous for wild Misaki horses grazing on surrounding hills.",
+    "source": "日本の灯台50選・参観灯台 (公益社団法人 燈光会)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-satamisaki",
+    "name": "Satamisaki Lighthouse",
+    "name_ja": "佐多岬灯台",
+    "name_romaji": "Satamisaki Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Kagoshima",
+    "city": "Kimotsuki-gun",
+    "address": "417 Satamagome Misaki, Minamiosumi, Kimotsuki District, Kagoshima 893-2604",
+    "coordinates": [
+      130.6617,
+      30.9939
+    ],
+    "stampLocation": "Cape Sata Park Tourist Information Center (佐多岬公園観光案内所・エントランスプラザ)",
+    "hours": "09:00 - 17:00",
+    "operator": "Japan Coast Guard 10th Regional HQ / Tokokai",
+    "description": "Stands on an offshore islet 50 meters off Kyushu's southernmost cape (本土最南端), designed by Brunton in 1871.",
+    "source": "日本の灯台50選 (公益社団法人 燈光会・海上保安庁)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "lighthouse-heiannazaki",
+    "name": "Higashi-Hennazaki Lighthouse",
+    "name_ja": "平安名埼灯台",
+    "name_romaji": "Heiannazaki Tōdai",
+    "category": "lighthouse",
+    "prefecture": "Okinawa",
+    "city": "Miyakojima",
+    "address": "1221-14 Gusukube Bora, Miyakojima, Okinawa 906-0101",
+    "coordinates": [
+      125.4678,
+      24.7219
+    ],
+    "stampLocation": "Higashi-Hennazaki Tokokai Climbable Lighthouse Admission Desk (燈光会 参観受付窓口)",
+    "hours": "09:00 - 16:30",
+    "operator": "公益社団法人 燈光会 / 海上保安庁",
+    "description": "One of Japan's 16 climbable lighthouses; located at the tip of the breathtaking 2 km coral limestone cape on Miyako Island.",
+    "source": "日本の灯台50選・参観灯台 (公益社団法人 燈光会)",
+    "sourceUrl": "https://www.tokokai.org/"
+  },
+  {
+    "id": "np-shiretoko",
+    "name": "Shiretoko National Park (Shiretoko Nature Center)",
+    "name_ja": "知床国立公園（知床自然センター）",
+    "name_romaji": "Shiretoko Kokuritsu Kōen",
+    "category": "nature",
+    "prefecture": "Hokkaido",
+    "city": "Shari-gun",
+    "address": "531 Utorohigashi, Shari, Shari District, Hokkaido 099-4356",
+    "coordinates": [
+      145.0397,
+      44.1203
+    ],
+    "stampLocation": "Shiretoko Nature Center Main Reception & Megahorn Theater Desk (館内受付カウンター)",
+    "hours": "08:00 - 17:30 (Summer) / 09:00 - 16:00 (Winter)",
+    "operator": "環境省 / 知床財団",
+    "description": "UNESCO World Natural Heritage Site famed for pristine wilderness, brown bears, and drift ice.",
+    "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/shiretoko/"
+  },
+  {
+    "id": "np-akan-mashu",
+    "name": "Akan-Mashu National Park (Akan Kohan Eco-Museum Center)",
+    "name_ja": "阿寒摩周国立公園（阿寒湖畔エコミュージアムセンター）",
+    "name_romaji": "Akan-Mashū Kokuritsu Kōen",
+    "category": "nature",
+    "prefecture": "Hokkaido",
+    "city": "Kushiro",
+    "address": "1-1-1 Akankohan, Akancho, Kushiro, Hokkaido 085-0467",
+    "coordinates": [
+      144.1033,
+      43.4336
+    ],
+    "stampLocation": "Eco-Museum Center Exhibition Hall Entrance (エントランスホール展示室前)",
+    "hours": "09:00 - 17:00 (Closed Tuesdays)",
+    "operator": "環境省 / 自然公園財団",
+    "description": "Home to Lake Akan's famed Marimo moss balls, Lake Mashu's crystalline waters, and active volcanoes.",
+    "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/akan-mashu/"
+  },
+  {
+    "id": "np-kushiro-shitsugen",
+    "name": "Kushiro Shitsugen National Park (Onnenai Visitor Center)",
+    "name_ja": "釧路湿原国立公園（温根内ビジターセンター）",
+    "name_romaji": "Kushiro Shitsugen Kokuritsu Kōen",
+    "category": "nature",
+    "prefecture": "Hokkaido",
+    "city": "Akan-gun",
+    "address": "Onnenai, Tsurui, Akan District, Hokkaido 085-1145",
+    "coordinates": [
+      144.3547,
+      43.1169
+    ],
+    "stampLocation": "Onnenai Visitor Center Boardwalk Trailhead Counter (木道入口展示ホール)",
+    "hours": "09:00 - 17:00 (Closed Tuesdays)",
+    "operator": "環境省 / 鶴居村",
+    "description": "Japan's largest wetland ecosystem, designated under the Ramsar Convention, sanctuary of the Japanese red-crowned crane.",
+    "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/kushiro/"
+  },
+  {
+    "id": "np-daisetsuzan",
+    "name": "Daisetsuzan National Park (Asahidake Visitor Center)",
+    "name_ja": "大雪山国立公園（旭岳ビジターセンター）",
+    "name_romaji": "Daisetsuzan Kokuritsu Kōen",
+    "category": "nature",
+    "prefecture": "Hokkaido",
+    "city": "Kamikawa-gun",
+    "address": "Asahidake Onsen, Higashikawa, Kamikawa District, Hokkaido 071-1472",
+    "coordinates": [
+      142.8258,
+      43.6558
+    ],
+    "stampLocation": "Asahidake Visitor Center Front Desk & Mountain Info (受付案内窓口)",
+    "hours": "09:00 - 17:00",
+    "operator": "環境省 / 東川町",
+    "description": "Known as Kamui Mintara (Playground of the Gods) to the Ainu; the largest national park in Japan.",
+    "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/daisetsu/"
+  },
+  {
+    "id": "np-shikotsu-toya",
+    "name": "Shikotsu-Toya National Park (Lake Shikotsu Visitor Center)",
+    "name_ja": "支笏洞爺国立公園（支笏湖ビジターセンター）",
+    "name_romaji": "Shikotsu-Tōya Kokuritsu Kōen",
+    "category": "nature",
+    "prefecture": "Hokkaido",
+    "city": "Chitose",
+    "address": "Shikotsukoonsen, Chitose, Hokkaido 066-0281",
+    "coordinates": [
+      141.4072,
+      42.7661
+    ],
+    "stampLocation": "Visitor Center Lounge & Volcano Exhibition Desk (ラウンジ・インフォメーション)",
+    "hours": "09:00 - 17:30 (Summer) / 09:30 - 16:30 (Winter)",
+    "operator": "環境省 / 自然公園財団",
+    "description": "Iconic caldera lakes Shikotsu and Toya, surrounded by active volcanoes Tarumae and Usu.",
+    "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/shikotsu-toya/"
+  },
+  {
+    "id": "np-rishiri-rebun",
+    "name": "Rishiri-Rebun-Sarobetsu National Park (Sarobetsu Wetland Center)",
+    "name_ja": "利尻礼文サロベツ国立公園（サロベツ湿原センター）",
+    "name_romaji": "Rishiri-Rebun-Sarobetsu Kokuritsu Kōen",
+    "category": "nature",
+    "prefecture": "Hokkaido",
+    "city": "Teshio-gun",
+    "address": "Kamisarobetsu, Toyotomi, Teshio District, Hokkaido 098-4100",
+    "coordinates": [
+      141.6961,
+      45.1147
+    ],
+    "stampLocation": "Sarobetsu Wetland Center Information Desk (館内案内カウンター)",
+    "hours": "09:00 - 17:00 (May - Oct) / 10:00 - 16:00 (Nov - Apr)",
+    "operator": "環境省 / 認定NPO法人サロベツ・エコ・ネットワーク",
+    "description": "Northernmost national park featuring Mount Rishiri floating on the Sea of Japan, Rebun alpine flower island, and Sarobetsu mire.",
+    "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/rishiri-rebun/"
+  },
+  {
+    "id": "np-hidaka-sanmyaku",
+    "name": "Hidaka Sanmyaku-Erimo-Tokachi National Park (Cape Erimo Visitor Center)",
+    "name_ja": "日高山脈襟裳十勝国立公園（襟裳岬ビジターセンター・風の館）",
+    "name_romaji": "Hidaka Sanmyaku-Erimo-Tokachi Kokuritsu Kōen",
+    "category": "nature",
+    "prefecture": "Hokkaido",
+    "city": "Horoizumi-gun",
+    "address": "Erimomisaki, Erimo, Horoizumi District, Hokkaido 058-0343",
+    "coordinates": [
+      143.2497,
+      41.9258
+    ],
+    "stampLocation": "Kaze-no-Yakata National Park Exhibition Entrance (風の館 国立公園展示コーナー)",
+    "hours": "09:00 - 17:00",
+    "operator": "環境省 / えりも町",
+    "description": "Japan's newest national park (designated June 2024), encompassing the vast mountain backbone of Hokkaido down to Cape Erimo.",
+    "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/hidaka/"
+  },
+  {
+    "id": "np-towada-hachimantai",
+    "name": "Towada-Hachimantai National Park (Towada Visitor Center)",
+    "name_ja": "十和田八幡平国立公園（十和田ビジターセンター）",
+    "name_romaji": "Towada-Hachimantai Kokuritsu Kōen",
+    "category": "nature",
+    "prefecture": "Aomori",
+    "city": "Towada",
+    "address": "486 Yasumiya, Okuse, Towada, Aomori 018-5501",
+    "coordinates": [
+      140.8936,
+      40.4994
+    ],
+    "stampLocation": "Towada Visitor Center Main Desk & Nature Display Hall (受付案内カウンター)",
+    "hours": "09:00 - 16:30 (Closed Wednesdays)",
+    "operator": "環境省 / 自然公園財団",
+    "description": "Pristine Lake Towada caldera and Oirase Stream mountain torrent surrounded by old-growth beech forests.",
+    "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/towada/"
+  },
+  {
+    "id": "np-sanriku-fukko",
+    "name": "Sanriku Fukko National Park (Jodogahama Visitor Center)",
+    "name_ja": "三陸復興国立公園（浄土ヶ浜ビジターセンター）",
+    "name_romaji": "Sanriku Fukkō Kokuritsu Kōen",
+    "category": "nature",
+    "prefecture": "Iwate",
+    "city": "Miyako",
+    "address": "32-5 Hitachihamacho, Miyako, Iwate 027-0001",
+    "coordinates": [
+      141.9797,
+      39.6486
+    ],
+    "stampLocation": "Jodogahama Visitor Center 1F Entrance Desk (1階案内所カウンター)",
+    "hours": "08:30 - 17:00",
+    "operator": "環境省 / 岩手県",
+    "description": "Established for coastal reconstruction following the 2011 tsunami, spanning dynamic rias coastlines, cliffs, and white pebble beaches.",
+    "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/sanriku/"
+  },
+  {
+    "id": "np-bandai-asahi",
+    "name": "Bandai-Asahi National Park (Urabandai Visitor Center)",
+    "name_ja": "磐梯朝日国立公園（裏磐梯ビジターセンター）",
+    "name_romaji": "Bandai-Asahi Kokuritsu Kōen",
+    "category": "nature",
+    "prefecture": "Fukushima",
+    "city": "Yama-gun",
+    "address": "1093-1095 Kengamine, Hibara, Kitashiobara, Yama District, Fukushima 966-0401",
+    "coordinates": [
+      140.0767,
+      37.6692
+    ],
+    "stampLocation": "Urabandai Visitor Center Information Desk (正面案内カウンター)",
+    "hours": "09:00 - 17:00 (Apr - Nov) / 09:00 - 16:00 (Dec - Mar)",
+    "operator": "環境省 / 福島県",
+    "description": "Featuring Mount Bandai, Goshikinuma five-colored volcanic lakes, and the deep alpine wilderness of the Asahi and Iide mountain ranges.",
+    "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/bandai-asahi/"
+  },
+  {
+    "id": "np-nikko",
+    "name": "Nikko National Park (Nikko Yumoto Visitor Center)",
+    "name_ja": "日光国立公園（日光湯元ビジターセンター）",
+    "name_romaji": "Nikkō Kokuritsu Kōen",
+    "category": "nature",
+    "prefecture": "Tochigi",
+    "city": "Nikko",
+    "address": "2551 Yumoto, Nikko, Tochigi 321-1662",
+    "coordinates": [
+      139.4264,
+      36.8042
+    ],
+    "stampLocation": "Nikko Yumoto Visitor Center Lobby Information Desk (ロビー案内カウンター)",
+    "hours": "09:00 - 16:30 (Closed Wednesdays in winter)",
+    "operator": "環境省 / 自然公園財団",
+    "description": "Famous mountain sanctuary combining Lake Chuzenji, Kegon Falls, Senjogahara marshland, and historic World Heritage shrines.",
+    "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/nikko/"
+  },
+  {
+    "id": "np-oze",
+    "name": "Oze National Park (Oze Yamanohana Visitor Center)",
+    "name_ja": "尾瀬国立公園（山の鼻ビジターセンター）",
+    "name_romaji": "Oze Kokuritsu Kōen",
+    "category": "nature",
+    "prefecture": "Gunma",
+    "city": "Tone-gun",
+    "address": "Yamanohana, Tokura, Katashina, Tone District, Gunma 378-0411",
+    "coordinates": [
+      139.2319,
+      36.9242
+    ],
+    "stampLocation": "Yamanohana Visitor Center Entrance Information Desk (入口インフォメーション)",
+    "hours": "07:30 - 16:00 (May - Oct)",
+    "operator": "環境省 / 尾瀬保護財団",
+    "description": "Japan's premier high-altitude highland marshland famed for white skunk cabbage (Mizubasho) blooms and wooden boardwalks.",
+    "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/oze/"
+  },
+  {
+    "id": "np-chichibu-tama-kai",
+    "name": "Chichibu-Tama-Kai National Park (Mitake Visitor Center)",
+    "name_ja": "秩父多摩甲斐国立公園（御岳ビジターセンター）",
+    "name_romaji": "Chichibu-Tama-Kai Kokuritsu Kōen",
+    "category": "nature",
+    "prefecture": "Tokyo",
+    "city": "Ome",
+    "address": "38-5 Mitakesan, Ome, Tokyo 198-0175",
+    "coordinates": [
+      139.1511,
+      35.7828
+    ],
+    "stampLocation": "Mitake Visitor Center Reception Window (受付カウンター)",
+    "hours": "09:00 - 16:30 (Closed Mondays)",
+    "operator": "環境省 / 東京都自然環境保全センター",
+    "description": "Closest mountainous national park to Tokyo, featuring sacred Mount Mitake, Okutama gorges, and ancient pilgrims' paths.",
+    "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/chichibu-tama-kai/"
+  },
+  {
+    "id": "np-ogasawara",
+    "name": "Ogasawara National Park (Ogasawara Visitor Center)",
+    "name_ja": "小笠原国立公園（小笠原ビジターセンター）",
+    "name_romaji": "Ogasawara Kokuritsu Kōen",
+    "category": "nature",
+    "prefecture": "Tokyo",
+    "city": "Ogasawara-mura",
+    "address": "Nishi-machi, Chichijima, Ogasawara-mura, Tokyo 100-2101",
+    "coordinates": [
+      142.1939,
+      27.0944
+    ],
+    "stampLocation": "Ogasawara Visitor Center Entrance Information Counter (正面案内カウンター)",
+    "hours": "08:30 - 17:00",
+    "operator": "環境省 / 東京都",
+    "description": "UNESCO World Natural Heritage oceanic islands known as the Galapagos of the Orient due to unique endemic evolution.",
+    "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/ogasawara/"
+  },
+  {
+    "id": "np-fuji-hakone-izu",
+    "name": "Fuji-Hakone-Izu National Park (Hakone Visitor Center)",
+    "name_ja": "富士箱根伊豆国立公園（箱根ビジターセンター）",
+    "name_romaji": "Fuji-Hakone-Izu Kokuritsu Kōen",
+    "category": "nature",
+    "prefecture": "Kanagawa",
+    "city": "Ashigarashimo-gun",
+    "address": "164 Sengokuhara, Hakone, Ashigarashimo District, Kanagawa 250-0563",
+    "coordinates": [
+      138.995,
+      35.2397
+    ],
+    "stampLocation": "Hakone Visitor Center Exhibition Hall Front Desk (展示ホール案内受付)",
+    "hours": "09:00 - 17:00",
+    "operator": "環境省 / 自然公園財団",
+    "description": "Japan's most visited national park, showcasing sacred Mount Fuji, Hakone hot spring calderas, and Izu volcanic coastlines.",
+    "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/fuji-hakone-izu/"
+  },
+  {
+    "id": "np-minami-alps",
+    "name": "Minami Alps National Park (Ashiyasu Mountain Museum)",
+    "name_ja": "南アルプス国立公園（南アルプス市芦安山岳館）",
+    "name_romaji": "Minami Alps Kokuritsu Kōen",
+    "category": "nature",
+    "prefecture": "Yamanashi",
+    "city": "Minami-Alps",
+    "address": "122-12 Ashiyasuashikura, Minami-Alps, Yamanashi 400-0241",
+    "coordinates": [
+      138.3842,
+      35.6264
+    ],
+    "stampLocation": "Ashiyasu Mountain Museum Main Counter (芦安山岳館 受付案内窓口)",
+    "hours": "09:00 - 17:00 (Closed Tuesdays)",
+    "operator": "環境省 / 南アルプス市",
+    "description": "Dominating the Southern Alps with Mount Kita (Japan's second tallest peak), designated a UNESCO Biosphere Reserve.",
+    "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/minami-alps/"
+  },
+  {
+    "id": "np-joshinetsu-kogen",
+    "name": "Joshin'etsu Kogen National Park (Shiga Kogen Nature Center)",
+    "name_ja": "上信越高原国立公園（志賀高原自然保護センター）",
+    "name_romaji": "Jōshin'etsu Kōgen Kokuritsu Kōen",
+    "category": "nature",
+    "prefecture": "Nagano",
+    "city": "Shimotakai-gun",
+    "address": "7148 Hirao, Yamanouchi, Shimotakai District, Nagano 381-0401",
+    "coordinates": [
+      138.4878,
+      36.7039
+    ],
+    "stampLocation": "Shiga Kogen Nature Protection Center Lobby Counter (ロビー受付窓口)",
+    "hours": "09:00 - 16:30",
+    "operator": "環境省 / 長野県",
+    "description": "Rugged volcanic plateaus, alpine lakes, and hot springs encompassing Shiga Kogen and Mount Kusatsu-Shirane.",
+    "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/joshinetsu/"
+  },
+  {
+    "id": "np-myoko-togakushi",
+    "name": "Myoko-Togakushi Renzan National Park (Myoko Kogen Visitor Center)",
+    "name_ja": "妙高戸隠連山国立公園（妙高高原ビジターセンター）",
+    "name_romaji": "Myōkō-Togakushi Renzan Kokuritsu Kōen",
+    "category": "nature",
+    "prefecture": "Niigata",
+    "city": "Myoko",
+    "address": "2248-4 Sekigawa, Myoko, Niigata 949-2112",
+    "coordinates": [
+      138.2133,
+      36.8731
+    ],
+    "stampLocation": "Myoko Kogen Visitor Center Information Desk (案内カウンター)",
+    "hours": "09:00 - 17:00",
+    "operator": "環境省 / 妙高市",
+    "description": "Towering peaks of Mount Myoko and Togakushi with historic mountain asceticism shrines and heavy snowfall forests.",
+    "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/myoko-togakushi/"
+  },
+  {
+    "id": "np-chubu-sangaku",
+    "name": "Chubu Sangaku National Park (Kamikochi Visitor Center)",
+    "name_ja": "中部山岳国立公園（上高地ビジターセンター）",
+    "name_romaji": "Chūbu Sangaku Kokuritsu Kōen",
+    "category": "nature",
+    "prefecture": "Nagano",
+    "city": "Matsumoto",
+    "address": "Kamikochi, Azumi, Matsumoto, Nagano 390-1515",
+    "coordinates": [
+      137.6378,
+      36.2486
+    ],
+    "stampLocation": "Kamikochi Visitor Center Exhibition Room (展示室インフォメーション)",
+    "hours": "08:00 - 17:00 (Late Apr - Nov 15)",
+    "operator": "環境省 / 自然公園財団",
+    "description": "The crown of the Northern Japan Alps, featuring pristine Azusa River, Kappa Bridge, and Mount Hotaka.",
+    "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/chubu-sangaku/"
+  },
+  {
+    "id": "np-hakusan",
+    "name": "Hakusan National Park (Hakusan Shiramine Visitor Center)",
+    "name_ja": "白山国立公園（白山自然保護センター 白峰ビジターセンター）",
+    "name_romaji": "Hakusan Kokuritsu Kōen",
+    "category": "nature",
+    "prefecture": "Ishikawa",
+    "city": "Hakusan",
+    "address": "Chi-57 Shiramine, Hakusan, Ishikawa 920-2501",
+    "coordinates": [
+      136.6272,
+      36.1772
+    ],
+    "stampLocation": "Shiramine Visitor Center Reception Counter (白峰ビジターセンター受付窓口)",
+    "hours": "09:00 - 16:30 (Closed Tuesdays)",
+    "operator": "環境省 / 石川県白山自然保護センター",
+    "description": "One of Japan's Three Sacred Mountains (Sanrejizan) alongside Mount Fuji and Mount Tateyama, famed for alpine botany.",
+    "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/hakusan/"
+  },
+  {
+    "id": "np-ise-shima",
+    "name": "Ise-Shima National Park (Yokoyama Visitor Center)",
+    "name_ja": "伊勢志摩国立公園（横山ビジターセンター）",
+    "name_romaji": "Ise-Shima Kokuritsu Kōen",
+    "category": "nature",
+    "prefecture": "Mie",
+    "city": "Shima",
+    "address": "875-24 Agocho Ugata, Shima, Mie 517-0501",
+    "coordinates": [
+      136.8047,
+      34.3389
+    ],
+    "stampLocation": "Yokoyama Visitor Center 1F Exhibition Lounge (1階展示ラウンジ案内所)",
+    "hours": "09:00 - 16:30",
+    "operator": "環境省 / 自然公園財団",
+    "description": "Intertwining sacred Ise Grand Shrine forests with intricate rias inlets of Ago Bay where cultured pearls thrive.",
+    "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/ise-shima/"
+  },
+  {
+    "id": "np-yoshino-kumano",
+    "name": "Yoshino-Kumano National Park (Kumano Hongu Heritage Center)",
+    "name_ja": "吉野熊野国立公園（世界遺産熊野本宮館）",
+    "name_romaji": "Yoshino-Kumano Kokuritsu Kōen",
+    "category": "nature",
+    "prefecture": "Wakayama",
+    "city": "Tanabe",
+    "address": "100-1 Hongucho Hongu, Tanabe, Wakayama 647-1731",
+    "coordinates": [
+      135.7744,
+      33.8406
+    ],
+    "stampLocation": "Kumano Hongu Heritage Center North Wing Reception (熊野本宮館 北棟受付案内所)",
+    "hours": "09:00 - 17:00",
+    "operator": "環境省 / 和歌山県",
+    "description": "Encompassing Mount Yoshino's cherry blossoms, the primeval Kii mountain ranges, and sacred Kumano Kodo pilgrimage trails.",
+    "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/yoshino-kumano/"
+  },
+  {
+    "id": "np-sanin-kaigan",
+    "name": "San'in Kaigan National Park (Tottori Sand Dunes Visitor Center)",
+    "name_ja": "山陰海岸国立公園（鳥取砂丘ビジターセンター）",
+    "name_romaji": "San'in Kaigan Kokuritsu Kōen",
+    "category": "nature",
+    "prefecture": "Tottori",
+    "city": "Tottori",
+    "address": "2164-661 Fukubecho Yuyama, Tottori, Tottori 689-0105",
+    "coordinates": [
+      134.2289,
+      35.5397
+    ],
+    "stampLocation": "Tottori Sand Dunes Visitor Center Main Information Desk (メイン案内カウンター)",
+    "hours": "09:00 - 17:00",
+    "operator": "環境省 / 鳥取県",
+    "description": "UNESCO Global Geopark boasting the magnificent Tottori Sand Dunes, Uradome sea stacks, and dramatic Sea of Japan coastlines.",
+    "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/sanin-kaigan/"
+  },
+  {
+    "id": "np-daisen-oki",
+    "name": "Daisen-Oki National Park (Daisen National Park Center)",
+    "name_ja": "大山隠岐国立公園（大山ナショナルパークセンター）",
+    "name_romaji": "Daisen-Oki Kokuritsu Kōen",
+    "category": "nature",
+    "prefecture": "Tottori",
+    "city": "Saihaku-gun",
+    "address": "40-33 Daisen, Daisen, Saihaku District, Tottori 689-3318",
+    "coordinates": [
+      133.535,
+      35.3944
+    ],
+    "stampLocation": "Daisen National Park Center 1F Information Desk (1階案内カウンター)",
+    "hours": "08:30 - 17:00",
+    "operator": "環境省 / 鳥取県",
+    "description": "Sacred volcanic peak Mount Daisen (the Fuji of Hoki) paired with the isolated, culturally rich Oki Archipelago.",
+    "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/daisen-oki/"
+  },
+  {
+    "id": "np-setonaikai",
+    "name": "Setonaikai National Park (Goshikidai Visitor Center)",
+    "name_ja": "瀬戸内海国立公園（五色台ビジターセンター）",
+    "name_romaji": "Setonaikai Kokuritsu Kōen",
+    "category": "nature",
+    "prefecture": "Kagawa",
+    "city": "Sakaide",
+    "address": "4227-1 Goshikidai, Ogoshi-cho, Sakaide, Kagawa 762-0014",
+    "coordinates": [
+      133.9536,
+      34.3547
+    ],
+    "stampLocation": "Goshikidai Visitor Center Nature Display Desk (自然体験展示室案内所)",
+    "hours": "09:00 - 16:30 (Closed Mondays)",
+    "operator": "環境省 / 香川県",
+    "description": "Japan's first national park designated in 1934, featuring thousands of calm islands, white sand, green pine, and Seto Ohashi views.",
+    "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/setonaikai/"
+  },
+  {
+    "id": "np-ashizuri-uwakai",
+    "name": "Ashizuri-Uwakai National Park (Tatsukushi Visitor Center Uminowa)",
+    "name_ja": "足摺宇和海国立公園（竜串ビジターセンター うみのわ）",
+    "name_romaji": "Ashizuri-Uwakai Kokuritsu Kōen",
+    "category": "nature",
+    "prefecture": "Kochi",
+    "city": "Tosashimizu",
+    "address": "4103-2 Tatsukushi, Tosashimizu, Kochi 787-0452",
+    "coordinates": [
+      132.9553,
+      32.7842
+    ],
+    "stampLocation": "Tatsukushi Visitor Center Reception Counter (うみのわ 受付カウンター)",
+    "hours": "09:00 - 17:00",
+    "operator": "環境省 / 高知県",
+    "description": "Subtropical marine sanctuary with dynamic sandstone erosion monuments and Japan's first designated marine park area.",
+    "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/ashizuri-uwakai/"
+  },
+  {
+    "id": "np-saikai",
+    "name": "Saikai National Park (Kujukushima Visitor Center)",
+    "name_ja": "西海国立公園（九十九島ビジターセンター）",
+    "name_romaji": "Saikai Kokuritsu Kōen",
+    "category": "nature",
+    "prefecture": "Nagasaki",
+    "city": "Sasebo",
+    "address": "1055 Kashimaecho, Sasebo, Nagasaki 858-0922",
+    "coordinates": [
+      129.6706,
+      33.1594
+    ],
+    "stampLocation": "Kujukushima Visitor Center Main Desk (館内案内カウンター)",
+    "hours": "09:00 - 17:00 (Closed Tuesdays)",
+    "operator": "環境省 / 長崎県",
+    "description": "Encompassing over 200 island gems in Kujukushima and the outer islands of Hirado and Goto.",
+    "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/saikai/"
+  },
+  {
+    "id": "np-unzen-amakusa",
+    "name": "Unzen-Amakusa National Park (Unzen Visitor Center)",
+    "name_ja": "雲仙天草国立公園（雲仙ビジターセンター）",
+    "name_romaji": "Unzen-Amakusa Kokuritsu Kōen",
+    "category": "nature",
+    "prefecture": "Nagasaki",
+    "city": "Unzen",
+    "address": "320 Obamacho Unzen, Unzen, Nagasaki 854-0514",
+    "coordinates": [
+      130.2639,
+      32.7417
+    ],
+    "stampLocation": "Unzen Visitor Center Lobby Information Counter (ロビー案内カウンター)",
+    "hours": "09:00 - 17:00",
+    "operator": "環境省 / 自然公園財団",
+    "description": "Japan's first national park designated in 1934 together with Setonaikai and Kirishima, famed for active Unzen hells and azaleas.",
+    "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/unzen-amakusa/"
+  },
+  {
+    "id": "np-aso-kuju",
+    "name": "Aso-Kuju National Park (Chojabaru Visitor Center)",
+    "name_ja": "阿蘇くじゅう国立公園（長者原ビジターセンター）",
+    "name_romaji": "Aso-Kujū Kokuritsu Kōen",
+    "category": "nature",
+    "prefecture": "Oita",
+    "city": "Kusu-gun",
+    "address": "1018-1 Tano, Kokonoe, Kusu District, Oita 879-4911",
+    "coordinates": [
+      131.2339,
+      33.1094
+    ],
+    "stampLocation": "Chojabaru Visitor Center Information Counter (案内カウンター)",
+    "hours": "09:00 - 17:00 (May - Oct) / 09:00 - 16:00 (Nov - Apr)",
+    "operator": "環境省 / 自然公園財団",
+    "description": "Spectacular volcanic plateau of the Kuju Mountain Range and Mount Aso, boasting one of the world's largest calderas.",
+    "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/aso-kuju/"
+  },
+  {
+    "id": "np-kirishima-kinkowan",
+    "name": "Kirishima-Kinkowan National Park (Ebino Eco-Museum Center)",
+    "name_ja": "霧島錦江湾国立公園（えびのエコミュージアムセンター）",
+    "name_romaji": "Kirishima-Kinkōwan Kokuritsu Kōen",
+    "category": "nature",
+    "prefecture": "Miyazaki",
+    "city": "Ebino",
+    "address": "1495-5 Suenaga, Ebino, Miyazaki 889-4302",
+    "coordinates": [
+      130.8561,
+      31.9442
+    ],
+    "stampLocation": "Ebino Eco-Museum Center Front Counter (フロント受付カウンター)",
+    "hours": "09:00 - 17:00",
+    "operator": "環境省 / 自然公園財団",
+    "description": "Mythological birthplace of Japan around Mount Karakuni and Mount Takachiho, reaching south to active volcano Sakurajima.",
+    "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/kirishima-kinkowan/"
+  },
+  {
+    "id": "np-yakushima",
+    "name": "Yakushima National Park (Yakushima World Heritage Center)",
+    "name_ja": "屋久島国立公園（屋久島世界遺産センター）",
+    "name_romaji": "Yakushima Kokuritsu Kōen",
+    "category": "nature",
+    "prefecture": "Kagoshima",
+    "city": "Kumage-gun",
+    "address": "2739-342 Anbo, Yakushima, Kumage District, Kagoshima 891-4311",
+    "coordinates": [
+      130.6658,
+      30.3478
+    ],
+    "stampLocation": "Yakushima World Heritage Conservation Center Desk (世界遺産センター案内窓口)",
+    "hours": "09:00 - 17:00",
+    "operator": "環境省 / 鹿児島県",
+    "description": "Ancient moss-covered cedar forests with millennial Jomon Sugi trees and unique vertical climatic zones from coast to alpine peak.",
+    "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/yakushima/"
+  },
+  {
+    "id": "np-amami-gunto",
+    "name": "Amami Gunto National Park (Amami Nature Observation Forest)",
+    "name_ja": "奄美群島国立公園（奄美市自然観察の森）",
+    "name_romaji": "Amami Guntō Kokuritsu Kōen",
+    "category": "nature",
+    "prefecture": "Kagoshima",
+    "city": "Amami",
+    "address": "1220 Naze Arado, Amami, Kagoshima 894-0123",
+    "coordinates": [
+      129.5661,
+      28.4356
+    ],
+    "stampLocation": "Amami Nature Observation Forest Observation Center Desk (観察指導棟窓口)",
+    "hours": "08:30 - 17:00 (Closed Mondays)",
+    "operator": "環境省 / 奄美市",
+    "description": "Subtropical evergreen forests that are home to the endemic Amami rabbit, Ryukyu ayu sweetfish, and vibrant mangrove channels.",
+    "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/amami-gunto/"
+  },
+  {
+    "id": "np-yanbaru",
+    "name": "Yanbaru National Park (Ufugi Nature Museum)",
+    "name_ja": "やんばる国立公園（やんばる野生生物保護センター ウフギー自然館）",
+    "name_romaji": "Yanbaru Kokuritsu Kōen",
+    "category": "nature",
+    "prefecture": "Okinawa",
+    "city": "Kunigami-gun",
+    "address": "263-1 Hiji, Kunigami, Kunigami District, Okinawa 905-1413",
+    "coordinates": [
+      128.1883,
+      26.7461
+    ],
+    "stampLocation": "Ufugi Nature Museum Information Counter (ウフギー自然館 総合案内カウンター)",
+    "hours": "10:00 - 16:30 (Closed Tuesdays)",
+    "operator": "環境省 / 国頭村",
+    "description": "Dense subtropical rainforest in northern Okinawa Island, home to rare endemic species including the Okinawa rail and Noguchi's woodpecker.",
+    "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/yanbaru/"
+  },
+  {
+    "id": "np-kerama-shoto",
+    "name": "Kerama Shoto National Park (Zamami Island Visitor Center)",
+    "name_ja": "慶良間諸島国立公園（座間味村観光案内所・青のゆび）",
+    "name_romaji": "Kerama Shotō Kokuritsu Kōen",
+    "category": "nature",
+    "prefecture": "Okinawa",
+    "city": "Shimajiri-gun",
+    "address": "95-1 Zamami, Zamami, Shimajiri District, Okinawa 901-3402",
+    "coordinates": [
+      127.3014,
+      26.2289
+    ],
+    "stampLocation": "Zamami Port Tourist Information Desk (座間味港ターミナル内観光案内所)",
+    "hours": "09:00 - 17:00",
+    "operator": "環境省 / 座間味村",
+    "description": "Famed for Kerama Blue crystal waters, rich coral reefs, sea turtle breeding grounds, and winter humpback whale sanctuaries.",
+    "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/kerama/"
+  },
+  {
+    "id": "np-iriomote-ishigaki",
+    "name": "Iriomote-Ishigaki National Park (Iriomote Wildlife Conservation Center)",
+    "name_ja": "西表石垣国立公園（西表野生生物保護センター）",
+    "name_romaji": "Iriomote-Ishigaki Kokuritsu Kōen",
+    "category": "nature",
+    "prefecture": "Okinawa",
+    "city": "Yaeyama-gun",
+    "address": "Komi, Taketomi, Yaeyama District, Okinawa 907-1432",
+    "coordinates": [
+      123.8967,
+      24.3411
+    ],
+    "stampLocation": "Iriomote Wildlife Conservation Center Reception Desk (展示室受付案内所)",
+    "hours": "10:00 - 17:00 (Closed Mondays)",
+    "operator": "環境省 / 竹富町",
+    "description": "Japan's southernmost national park, conserving untamed virgin rainforest, the endangered Iriomote wildcat, and Yaeyama coral atolls.",
+    "source": "環境省 国立公園公式記念スタンプ (Ministry of the Environment)",
+    "sourceUrl": "https://www.env.go.jp/nature/nationalparks/parks/iriomote-ishigaki/"
   }
 ]

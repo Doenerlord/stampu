@@ -4,7 +4,18 @@ export interface CategoryInfo {
   id: StampCategory;
   label: string;
   labelJa: string;
-  iconName: 'Train' | 'Store' | 'Car' | 'Castle' | 'Sparkles' | 'Radio' | 'Bath' | 'Ship' | 'Plane';
+  iconName:
+    | 'Train'
+    | 'Store'
+    | 'Car'
+    | 'Castle'
+    | 'Sparkles'
+    | 'Radio'
+    | 'Bath'
+    | 'Ship'
+    | 'Plane'
+    | 'Trees'
+    | 'Compass';
   hexColor: string;
   badgeClass: string;
   activeClass: string;
@@ -91,6 +102,24 @@ export const CATEGORIES: Record<StampCategory, CategoryInfo> = {
     hexColor: '#4f46e5', // indigo-600
     badgeClass: 'bg-indigo-950/80 text-indigo-300 border-indigo-700/50',
     activeClass: 'bg-indigo-600 text-white border-indigo-500 shadow-indigo-900/40',
+  },
+  nature: {
+    id: 'nature',
+    label: 'National Parks',
+    labelJa: '国立公園・自然',
+    iconName: 'Trees',
+    hexColor: '#16a34a', // green-600
+    badgeClass: 'bg-green-950/80 text-green-300 border-green-700/50',
+    activeClass: 'bg-green-600 text-white border-green-500 shadow-green-900/40',
+  },
+  lighthouse: {
+    id: 'lighthouse',
+    label: 'Lighthouses',
+    labelJa: '日本の灯台50選',
+    iconName: 'Compass',
+    hexColor: '#0d9488', // teal-600
+    badgeClass: 'bg-teal-950/80 text-teal-300 border-teal-700/50',
+    activeClass: 'bg-teal-600 text-white border-teal-500 shadow-teal-900/40',
   },
 };
 

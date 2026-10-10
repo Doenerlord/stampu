@@ -32,6 +32,7 @@ import {
   Bath,
   Ship,
   Plane,
+  Trees,
 } from 'lucide-vue-next';
 import AskStaffModal from './AskStaffModal.vue';
 import StampSourceModal from './StampSourceModal.vue';
@@ -99,6 +100,8 @@ const iconMap = {
   Bath,
   Ship,
   Plane,
+  Trees,
+  Compass,
 };
 
 const searchInputRef = ref<HTMLInputElement | null>(null);

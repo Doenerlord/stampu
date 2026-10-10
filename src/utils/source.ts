@@ -208,6 +208,40 @@ export function getStampSourceDetails(stamp: Stamp): StampSourceDetails {
     };
   }
 
+  if (stamp.category === 'nature' || stamp.id.startsWith('np-') || stamp.id.startsWith('nature-')) {
+    return {
+      authority: '環境省 (Ministry of the Environment) & 各国立公園管理事務所',
+      registry: '環境省 国立公園ビジターセンター 公式記念スタンプ台帳',
+      sourceName: stamp.source || 'Ministry of the Environment National Parks (環境省国立公園)',
+      sourceUrl: stamp.sourceUrl || 'https://www.env.go.jp/nature/nationalparks/',
+      operator: op,
+      verificationStatus: 'Offiziell Verifiziert (環境省直轄・公認ビジターセンター)',
+      verificationNotesDe:
+        'Offizieller Gedenkstempel des Umweltministeriums im jeweiligen Nationalpark-Besucherzentrum bzw. World Heritage Center. Steht im Foyer oder am Informationsschalter zur Verfügung.',
+      verificationNotesEn:
+        'Official Ministry of the Environment commemorative stamp at the National Park Visitor Center or World Heritage Center. Available at the information counter.',
+      geocoding: 'GSI Japan & Visitor Center Coordinates (±5m)',
+      lastVerified: '2025/2026 Registry Verification',
+    };
+  }
+
+  if (stamp.category === 'lighthouse' || stamp.id.startsWith('lighthouse-') || stamp.id.startsWith('todai-')) {
+    return {
+      authority: '公益社団法人 燈光会 (Tokokai) & 海上保安庁 (Japan Coast Guard)',
+      registry: '日本の灯台50選 (海上保安庁選定・燈光会認定台帳)',
+      sourceName: stamp.source || 'Japan Lighthouse Association Tokokai (公益社団法人 燈光会)',
+      sourceUrl: stamp.sourceUrl || 'https://www.tokokai.org/',
+      operator: op,
+      verificationStatus: 'Offiziell Verifiziert (海上保安庁公募「日本の灯台50選」)',
+      verificationNotesDe:
+        'Offizielles Denkmal und Gedenkstempel der "50 schönsten Leuchttürme Japans". Bei den 16 besteigbaren Leuchttürmen (参観灯台) direkt an der Kasse der 燈光会, sonst am Kap-Aussichtsdeck bzw. lokalen Tourist Info Center.',
+      verificationNotesEn:
+        'Official commemorative stamp of Japan 50 Lighthouse selection. For climbable lighthouses, available at the Tokokai ticket window; otherwise at cape observation decks or nearby visitor centers.',
+      geocoding: 'GSI Japan & Coast Guard Lighthouse Geocoordinates (±5m)',
+      lastVerified: '2025/2026 Registry Verification',
+    };
+  }
+
   // Default: Eki / Station stamps
   return {
     authority: op,

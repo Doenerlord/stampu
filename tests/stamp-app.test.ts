@@ -105,7 +105,7 @@ const sampleStamp: Stamp = {
 };
 
 describe('Stamp Dataset (public/data/stamps.json)', () => {
-  it('contains valid stamps spanning all 9 categories', () => {
+  it('contains valid stamps spanning all 11 categories', () => {
     const raw = fs.readFileSync(path.resolve(__dirname, '../public/data/stamps.json'), 'utf-8');
     const stamps: Stamp[] = JSON.parse(raw);
 
@@ -121,6 +121,8 @@ describe('Stamp Dataset (public/data/stamps.json)', () => {
     expect(categories.has('onsen')).toBe(true);
     expect(categories.has('ferry')).toBe(true);
     expect(categories.has('airport')).toBe(true);
+    expect(categories.has('nature')).toBe(true);
+    expect(categories.has('lighthouse')).toBe(true);
 
     for (const stamp of stamps) {
       expect(stamp.id).toBeTruthy();
@@ -495,6 +497,34 @@ describe('Stamp Provenance & Source Details (source.ts & StampSourceModal)', () 
     expect(airportDetails.sourceName).toContain('Gosho-in');
     expect(airportDetails.sourceUrl).toBe('https://jalplaza-airport.jalux.com/');
     expect(airportDetails.authority).toContain('JAL');
+
+    // Nature / National Park source resolution
+    const npStamp: Stamp = {
+      ...sampleStamp,
+      id: 'np-fuji-hakone-izu',
+      name: 'Fuji-Hakone-Izu National Park',
+      category: 'nature',
+      operator: '環境省 / 自然公園財団',
+    };
+    const npDetails = getStampSourceDetails(npStamp);
+    expect(npDetails.registry).toContain('国立公園ビジターセンター');
+    expect(npDetails.sourceName).toContain('Ministry of the Environment');
+    expect(npDetails.sourceUrl).toBe('https://www.env.go.jp/nature/nationalparks/');
+    expect(npDetails.authority).toContain('環境省');
+
+    // Lighthouse / Todai 50-sen source resolution
+    const lighthouseStamp: Stamp = {
+      ...sampleStamp,
+      id: 'lighthouse-inubosaki',
+      name: 'Inubosaki Lighthouse',
+      category: 'lighthouse',
+      operator: '公益社団法人 燈光会 / 海上保安庁',
+    };
+    const lighthouseDetails = getStampSourceDetails(lighthouseStamp);
+    expect(lighthouseDetails.registry).toContain('日本の灯台50選');
+    expect(lighthouseDetails.sourceName).toContain('Tokokai');
+    expect(lighthouseDetails.sourceUrl).toBe('https://www.tokokai.org/');
+    expect(lighthouseDetails.authority).toContain('燈光会');
   });
 
   it('renders StampSourceModal with external link and provenance details', () => {
