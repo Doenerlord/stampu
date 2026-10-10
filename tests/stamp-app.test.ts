@@ -105,7 +105,7 @@ const sampleStamp: Stamp = {
 };
 
 describe('Stamp Dataset (public/data/stamps.json)', () => {
-  it('contains valid stamps spanning all 13 categories', () => {
+  it('contains valid stamps spanning all 16 categories', () => {
     const raw = fs.readFileSync(path.resolve(__dirname, '../public/data/stamps.json'), 'utf-8');
     const stamps: Stamp[] = JSON.parse(raw);
 
@@ -125,6 +125,9 @@ describe('Stamp Dataset (public/data/stamps.json)', () => {
     expect(categories.has('lighthouse')).toBe(true);
     expect(categories.has('museum')).toBe(true);
     expect(categories.has('anime')).toBe(true);
+    expect(categories.has('garden')).toBe(true);
+    expect(categories.has('shop')).toBe(true);
+    expect(categories.has('tourist_info')).toBe(true);
 
     for (const stamp of stamps) {
       expect(stamp.id).toBeTruthy();
@@ -697,7 +700,7 @@ describe('MapContainer & Marker Click -> Drawer Integration', () => {
     expect(focusSpy).toHaveBeenCalledWith(sampleStamp.coordinates, 15);
   });
 
-  it('in App.vue, categoryCounts dynamically counts stamps across all categories including onsen, ferry, airport, nature, lighthouse, museum, anime', async () => {
+  it('in App.vue, categoryCounts dynamically counts stamps across all categories including onsen, ferry, airport, nature, lighthouse, museum, anime, garden, shop, tourist_info', async () => {
     const multiCatStamps: Stamp[] = [
       { ...sampleStamp, id: 's-eki', category: 'eki' },
       { ...sampleStamp, id: 's-onsen', category: 'onsen' },
@@ -707,6 +710,9 @@ describe('MapContainer & Marker Click -> Drawer Integration', () => {
       { ...sampleStamp, id: 's-lighthouse', category: 'lighthouse' },
       { ...sampleStamp, id: 's-museum', category: 'museum' },
       { ...sampleStamp, id: 's-anime', category: 'anime' },
+      { ...sampleStamp, id: 's-garden', category: 'garden' },
+      { ...sampleStamp, id: 's-shop', category: 'shop' },
+      { ...sampleStamp, id: 's-tourist_info', category: 'tourist_info' },
     ];
 
     global.fetch = vi.fn().mockResolvedValue({
@@ -721,7 +727,7 @@ describe('MapContainer & Marker Click -> Drawer Integration', () => {
     const filters = wrapper.findComponent(CategoryFilters);
     expect(filters.exists()).toBe(true);
     const counts = filters.props('categoryCounts');
-    expect(counts.all).toBe(8);
+    expect(counts.all).toBe(11);
     expect(counts.eki).toBe(1);
     expect(counts.onsen).toBe(1);
     expect(counts.ferry).toBe(1);
@@ -730,6 +736,9 @@ describe('MapContainer & Marker Click -> Drawer Integration', () => {
     expect(counts.lighthouse).toBe(1);
     expect(counts.museum).toBe(1);
     expect(counts.anime).toBe(1);
+    expect(counts.garden).toBe(1);
+    expect(counts.shop).toBe(1);
+    expect(counts.tourist_info).toBe(1);
   });
 });
 

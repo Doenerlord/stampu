@@ -11,7 +11,10 @@ export type StampCategory =
   | 'nature'
   | 'lighthouse'
   | 'museum'
-  | 'anime';
+  | 'anime'
+  | 'garden'
+  | 'shop'
+  | 'tourist_info';
 
 export interface Stamp {
   id: string;

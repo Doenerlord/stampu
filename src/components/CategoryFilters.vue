@@ -35,6 +35,8 @@ import {
   Trees,
   Landmark,
   Tv,
+  Flower2,
+  ShoppingBag,
 } from 'lucide-vue-next';
 import AskStaffModal from './AskStaffModal.vue';
 import StampSourceModal from './StampSourceModal.vue';
@@ -106,6 +108,9 @@ const iconMap = {
   Compass,
   Landmark,
   Tv,
+  Flower2,
+  ShoppingBag,
+  Info,
 };
 
 const searchInputRef = ref<HTMLInputElement | null>(null);

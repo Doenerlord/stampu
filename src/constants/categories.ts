@@ -17,7 +17,10 @@ export interface CategoryInfo {
     | 'Trees'
     | 'Compass'
     | 'Landmark'
-    | 'Tv';
+    | 'Tv'
+    | 'Flower2'
+    | 'ShoppingBag'
+    | 'Info';
   hexColor: string;
   badgeClass: string;
   activeClass: string;
@@ -140,6 +143,33 @@ export const CATEGORIES: Record<StampCategory, CategoryInfo> = {
     hexColor: '#db2777', // pink-600
     badgeClass: 'bg-pink-950/80 text-pink-300 border-pink-700/50',
     activeClass: 'bg-pink-600 text-white border-pink-500 shadow-pink-900/40',
+  },
+  garden: {
+    id: 'garden',
+    label: 'Traditional Gardens',
+    labelJa: '名勝・日本庭園',
+    iconName: 'Flower2',
+    hexColor: '#65a30d', // lime-600
+    badgeClass: 'bg-lime-950/80 text-lime-300 border-lime-700/50',
+    activeClass: 'bg-lime-600 text-white border-lime-500 shadow-lime-900/40',
+  },
+  shop: {
+    id: 'shop',
+    label: 'Stationery & Shops',
+    labelJa: 'ショップ・文具店',
+    iconName: 'ShoppingBag',
+    hexColor: '#f59e0b', // amber-500
+    badgeClass: 'bg-amber-950/80 text-amber-300 border-amber-700/50',
+    activeClass: 'bg-amber-600 text-white border-amber-500 shadow-amber-900/40',
+  },
+  tourist_info: {
+    id: 'tourist_info',
+    label: 'Tourist Information',
+    labelJa: '観光案内所・TIC',
+    iconName: 'Info',
+    hexColor: '#3b82f6', // blue-500
+    badgeClass: 'bg-blue-950/80 text-blue-300 border-blue-700/50',
+    activeClass: 'bg-blue-600 text-white border-blue-500 shadow-blue-900/40',
   },
 };
 
