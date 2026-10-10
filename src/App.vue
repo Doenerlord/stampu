@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, nextTick } from 'vue';
-import type { Stamp, StampCategory, PrefecturePack } from './types/stamp';
+import type { Stamp, StampCategory, PrefecturePack, StampRally } from './types/stamp';
 import {
   getVisitedStampIds,
   toggleVisitedStamp,
@@ -14,11 +14,14 @@ import StampDrawer from './components/StampDrawer.vue';
 import WishlistModal from './components/WishlistModal.vue';
 import PrefectureDownloadModal from './components/PrefectureDownloadModal.vue';
 import NearbyModal from './components/NearbyModal.vue';
+import RalliesModal from './components/RalliesModal.vue';
+import { Flag, X } from 'lucide-vue-next';
 import { initMonetTheming } from './utils/theme';
 import { ALL_CATEGORIES } from './constants/categories';
 
 const allStamps = ref<Stamp[]>([]);
 const prefectures = ref<PrefecturePack[]>([]);
+const rallies = ref<StampRally[]>([]);
 const selectedCategory = ref<StampCategory | 'all'>('all');
 const visitedFilter = ref<'all' | 'visited' | 'unvisited' | 'wishlist'>('all');
 const searchQuery = ref<string>('');
@@ -27,6 +30,8 @@ const isDrawerOpen = ref<boolean>(false);
 const isWishlistModalOpen = ref<boolean>(false);
 const isPacksModalOpen = ref<boolean>(false);
 const isNearbyModalOpen = ref<boolean>(false);
+const isRalliesModalOpen = ref<boolean>(false);
+const activeRallyId = ref<string | null>(null);
 const userLocation = ref<{ lat: number; lng: number } | null>(null);
 const visitedStampIds = ref<Set<string>>(new Set());
 const wishlistStampIds = ref<Set<string>>(new Set());
@@ -50,13 +55,14 @@ function requestUserLocation() {
   }
 }
 
-// Load stamps & prefectures from public data and visited & wishlist stamps from Dexie
+// Load stamps, prefectures & rallies from public data and visited & wishlist stamps from Dexie
 onMounted(async () => {
   initMonetTheming();
   try {
-    const [stampsRes, prefsRes] = await Promise.all([
+    const [stampsRes, prefsRes, ralliesRes] = await Promise.all([
       fetch('/data/stamps.json'),
       fetch('/data/prefectures.json'),
+      fetch('/data/rallies.json'),
     ]);
     if (stampsRes.ok) {
       allStamps.value = await stampsRes.json();
@@ -64,8 +70,11 @@ onMounted(async () => {
     if (prefsRes.ok) {
       prefectures.value = await prefsRes.json();
     }
+    if (ralliesRes.ok) {
+      rallies.value = await ralliesRes.json();
+    }
   } catch (err) {
-    console.error('Error fetching stamps or prefectures catalog:', err);
+    console.error('Error fetching stamps, prefectures or rallies catalog:', err);
   }
 
   // Load visited, wishlist & offline packs from Dexie
@@ -95,6 +104,28 @@ const categoryCounts = computed(() => {
   return counts;
 });
 
+// Active rally computed & progress
+const activeRally = computed(() => {
+  if (!activeRallyId.value) return null;
+  return rallies.value.find((r) => r.id === activeRallyId.value) || null;
+});
+
+const activeRalliesCount = computed(() => {
+  const today = new Date().toISOString().split('T')[0];
+  return rallies.value.filter((r) => today >= r.validFrom && today <= r.validUntil).length;
+});
+
+const activeRallyProgress = computed(() => {
+  if (!activeRally.value) return { collected: 0, total: 0, percent: 0 };
+  let collected = 0;
+  for (const id of activeRally.value.stampIds) {
+    if (visitedStampIds.value.has(id)) collected++;
+  }
+  const total = activeRally.value.stampIds.length;
+  const percent = total > 0 ? Math.round((collected / total) * 100) : 0;
+  return { collected, total, percent };
+});
+
 // Wishlist stamps array for modal
 const wishlistStamps = computed(() => {
   return allStamps.value.filter((stamp) => wishlistStampIds.value.has(stamp.id));
@@ -102,6 +133,12 @@ const wishlistStamps = computed(() => {
 
 // Filtered stamps passed to map
 const filteredStamps = computed(() => {
+  // If a rally is active in Rally Focus Mode, filter exclusively to its circuit stations!
+  if (activeRally.value) {
+    const rallyStampIds = new Set(activeRally.value.stampIds);
+    return allStamps.value.filter((stamp) => rallyStampIds.has(stamp.id));
+  }
+
   const query = searchQuery.value.trim().toLowerCase();
 
   return allStamps.value.filter((stamp) => {
@@ -200,6 +237,22 @@ async function handleClosePacksModal() {
   const downloaded = await getDownloadedPackIds();
   downloadedPacksCount.value = downloaded.size;
 }
+
+function handleSelectRally(rally: StampRally) {
+  activeRallyId.value = rally.id;
+  isRalliesModalOpen.value = false;
+  nextTick(() => {
+    mapContainerRef.value?.fitAllStamps();
+  });
+}
+
+function handleExitRallyFocus() {
+  activeRallyId.value = null;
+}
+
+function handleOpenRalliesModal(_rallyId?: string) {
+  isRalliesModalOpen.value = true;
+}
 </script>
 
 <template>
@@ -218,6 +271,61 @@ async function handleClosePacksModal() {
     <!-- Top Status Bar Scrim for contrast -->
     <div class="absolute top-0 left-0 right-0 h-14 bg-gradient-to-b from-slate-950/90 via-slate-950/40 to-transparent pointer-events-none z-20" />
 
+    <!-- Floating Rally Focus Mode Banner (when active) -->
+    <transition
+      enter-active-class="transition duration-300 ease-out transform"
+      enter-from-class="-translate-y-8 opacity-0"
+      enter-to-class="translate-y-0 opacity-100"
+      leave-active-class="transition duration-200 ease-in transform"
+      leave-from-class="translate-y-0 opacity-100"
+      leave-to-class="-translate-y-8 opacity-0"
+    >
+      <div
+        v-if="activeRally"
+        class="fixed top-3 left-1/2 -translate-x-1/2 z-30 max-w-lg w-[calc(100%-1.5rem)] md:w-auto md:min-w-[420px] pointer-events-auto"
+        style="top: calc(max(env(safe-area-inset-top, 0px), 1rem) + 0.5rem);"
+      >
+        <div
+          class="bg-slate-900/95 backdrop-blur-xl border border-rose-500/60 rounded-2xl shadow-2xl p-2.5 sm:p-3 flex items-center justify-between gap-3 text-slate-100"
+          style="box-shadow: 0 10px 30px rgba(244,63,94,0.25);"
+        >
+          <div class="flex items-center gap-2.5 min-w-0">
+            <div class="w-8 h-8 rounded-xl bg-gradient-to-tr from-rose-600 to-amber-500 flex items-center justify-center text-white flex-shrink-0 shadow-md">
+              <Flag class="w-4 h-4" />
+            </div>
+            <div class="min-w-0">
+              <div class="flex items-center gap-1.5 text-[10px] font-bold text-rose-400 uppercase tracking-wider">
+                <span>Rally Focus Mode</span>
+                <span>•</span>
+                <span class="text-slate-300">{{ activeRallyProgress.collected }}/{{ activeRallyProgress.total }} collected</span>
+              </div>
+              <div class="text-xs font-bold text-white truncate max-w-[200px] sm:max-w-[260px]">
+                {{ activeRally.title }}
+              </div>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-1.5 flex-shrink-0">
+            <button
+              type="button"
+              @click="isRalliesModalOpen = true"
+              class="px-2.5 py-1 rounded-lg bg-rose-600/30 hover:bg-rose-600/50 text-rose-200 border border-rose-500/40 text-xs font-semibold transition-colors"
+            >
+              Circuit
+            </button>
+            <button
+              type="button"
+              @click="handleExitRallyFocus"
+              class="p-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white transition-colors"
+              title="Exit Rally Mode"
+            >
+              <X class="w-4 h-4" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </transition>
+
     <!-- Floating Top Header & Filter Controls (Desktop Sidebar + Mobile M3 Expressive) -->
     <CategoryFilters
       v-model:selected-category="selectedCategory"
@@ -228,6 +336,7 @@ async function handleClosePacksModal() {
       :wishlist-count="wishlistStampIds.size"
       :total-count="allStamps.length"
       :downloaded-packs-count="downloadedPacksCount"
+      :active-rallies-count="activeRalliesCount"
       :selected-stamp="selectedStamp"
       :stamps="filteredStamps"
       :visited-stamp-ids="visitedStampIds"
@@ -241,6 +350,7 @@ async function handleClosePacksModal() {
       @open-wishlist-modal="isWishlistModalOpen = true"
       @open-packs-modal="isPacksModalOpen = true"
       @open-nearby-modal="handleOpenNearbyModal"
+      @open-rallies-modal="handleOpenRalliesModal"
     />
 
     <!-- Stamp Detail Drawer (Bottom Sheet) -->
@@ -253,6 +363,7 @@ async function handleClosePacksModal() {
       @toggle-collected="handleToggleCollected"
       @toggle-wishlist="handleToggleWishlist"
       @focus-map="handleFocusMap"
+      @open-rallies-modal="handleOpenRalliesModal"
     />
 
     <!-- Wishlist Modal -->
@@ -287,6 +398,19 @@ async function handleClosePacksModal() {
       @toggle-collected="handleToggleCollected"
       @toggle-wishlist="handleToggleWishlist"
       @request-location="requestUserLocation"
+    />
+
+    <!-- Stamp Rallies & Events Modal -->
+    <RalliesModal
+      :is-open="isRalliesModalOpen"
+      :rallies="rallies"
+      :stamps="allStamps"
+      :visited-stamp-ids="visitedStampIds"
+      :active-rally-id="activeRallyId"
+      @close="isRalliesModalOpen = false"
+      @select-rally="handleSelectRally"
+      @select-stamp="handleSelectStamp"
+      @exit-rally-focus="handleExitRallyFocus"
     />
   </div>
 </template>

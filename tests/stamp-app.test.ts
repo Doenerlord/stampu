@@ -75,8 +75,9 @@ import CategoryFilters from '../src/components/CategoryFilters.vue';
 import StampSourceModal from '../src/components/StampSourceModal.vue';
 import MapContainer from '../src/components/MapContainer.vue';
 import WishlistModal from '../src/components/WishlistModal.vue';
+import RalliesModal from '../src/components/RalliesModal.vue';
 import App from '../src/App.vue';
-import type { Stamp } from '../src/types/stamp';
+import type { Stamp, StampRally } from '../src/types/stamp';
 import { getStampSourceDetails } from '../src/utils/source';
 import {
   db,
@@ -1043,6 +1044,96 @@ describe('NearbyModal Component', () => {
 
     expect(document.body.textContent).toContain('Tokyo Station');
     expect(document.body.textContent).not.toContain('Kyoto Station');
+  });
+});
+
+describe('Rallies & Events Integration (Proposal 1)', () => {
+  it('public/data/rallies.json contains authentic rallies whose stampIds exist in stamps.json', () => {
+    const rawRallies = fs.readFileSync(path.resolve(__dirname, '../public/data/rallies.json'), 'utf-8');
+    const rallies: StampRally[] = JSON.parse(rawRallies);
+
+    const rawStamps = fs.readFileSync(path.resolve(__dirname, '../public/data/stamps.json'), 'utf-8');
+    const stamps: Stamp[] = JSON.parse(rawStamps);
+    const stampIds = new Set(stamps.map((s) => s.id));
+
+    expect(rallies.length).toBeGreaterThanOrEqual(4);
+
+    for (const r of rallies) {
+      expect(r.id).toBeTruthy();
+      expect(r.title).toBeTruthy();
+      expect(r.titleJa).toBeTruthy();
+      expect(r.organizer).toBeTruthy();
+      expect(r.validFrom).toMatch(/^\d{4}-\d{2}-\d{2}$/);
+      expect(r.validUntil).toMatch(/^\d{4}-\d{2}-\d{2}$/);
+      expect(r.stampIds.length).toBeGreaterThan(0);
+
+      // Verify that every single station in the rally circuit exists in stamps database
+      for (const sid of r.stampIds) {
+        expect(stampIds.has(sid)).toBe(true);
+      }
+    }
+  });
+
+  it('renders RalliesModal with active rallies and emits selectRally', async () => {
+    const rawRallies = fs.readFileSync(path.resolve(__dirname, '../public/data/rallies.json'), 'utf-8');
+    const rallies: StampRally[] = JSON.parse(rawRallies);
+
+    const wrapper = mount(RalliesModal, {
+      props: {
+        isOpen: true,
+        rallies,
+        stamps: [sampleStamp],
+        visitedStampIds: new Set(['eki-tokyo']),
+        activeRallyId: null,
+      },
+    });
+
+    expect(wrapper.text()).toContain('Stamp Rallies & Circuits');
+    expect(wrapper.text()).toContain('スタンプラリー');
+    expect(wrapper.text()).toContain('Active Rallies');
+
+    // Find "Focus Rally on Map" button
+    const focusBtn = wrapper
+      .findAll('button')
+      .find((b) => b.text().includes('Focus Rally on Map'));
+    expect(focusBtn).toBeDefined();
+
+    await focusBtn!.trigger('click');
+    expect(wrapper.emitted('selectRally')).toBeTruthy();
+  });
+
+  it('renders Event Callout in StampDrawer when stamp.event is present', async () => {
+    const eventStamp: Stamp = {
+      ...sampleStamp,
+      event: {
+        rallyId: 'jr-east-pokemon-rally-2026',
+        rallyName: 'JR East Pokémon Stamp Rally 2026',
+        rallyNameJa: 'JR東日本 ポケモンスタンプラリー2026',
+        validFrom: '2026-07-15',
+        validUntil: '2026-10-31',
+        reward: 'Special Clear File',
+      },
+    };
+
+    const wrapper = mount(StampDrawer, {
+      props: {
+        stamp: eventStamp,
+        isOpen: true,
+        isCollected: false,
+      },
+    });
+
+    expect(wrapper.text()).toContain('Special Stamp Rally');
+    expect(wrapper.text()).toContain('JR East Pokémon Stamp Rally 2026');
+    expect(wrapper.text()).toContain('Special Clear File');
+
+    // Clicking View Rally emits openRalliesModal
+    const viewRallyBtn = wrapper
+      .findAll('button')
+      .find((b) => b.text().includes('View Rally'));
+    expect(viewRallyBtn).toBeDefined();
+    await viewRallyBtn!.trigger('click');
+    expect(wrapper.emitted('openRalliesModal')?.[0]).toEqual(['jr-east-pokemon-rally-2026']);
   });
 });
 

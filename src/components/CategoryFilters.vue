@@ -37,6 +37,7 @@ import {
   Tv,
   Flower2,
   ShoppingBag,
+  Flag,
 } from 'lucide-vue-next';
 import AskStaffModal from './AskStaffModal.vue';
 import StampSourceModal from './StampSourceModal.vue';
@@ -73,6 +74,7 @@ const props = defineProps<{
   wishlistCount: number;
   totalCount: number;
   downloadedPacksCount?: number;
+  activeRalliesCount?: number;
   selectedStamp?: Stamp | null;
   stamps?: Stamp[];
   visitedStampIds?: Set<string>;
@@ -87,6 +89,7 @@ const emit = defineEmits<{
   (e: 'openWishlistModal'): void;
   (e: 'openPacksModal'): void;
   (e: 'openNearbyModal'): void;
+  (e: 'openRalliesModal', rallyId?: string): void;
   (e: 'selectStamp', stamp: Stamp): void;
   (e: 'closeSelectedStamp'): void;
   (e: 'toggleCollected', stampId: string): void;
@@ -313,6 +316,20 @@ onUnmounted(() => {
             <span>Wishlist</span>
             <span class="text-[10px] bg-amber-500/30 text-amber-200 px-1.5 py-0.2 rounded-full font-bold">
               {{ wishlistCount }}
+            </span>
+          </button>
+
+          <!-- Rallies Modal -->
+          <button
+            type="button"
+            @click="$emit('openRalliesModal')"
+            class="flex-1 flex items-center justify-center gap-1.5 py-1.5 px-2 rounded-xl bg-rose-500/15 hover:bg-rose-500/25 border border-rose-500/40 text-xs text-rose-300 font-semibold transition-all active:scale-95 shadow-xs"
+            title="Stamp Rallies & Events (スタンプラリー)"
+          >
+            <Flag class="w-3.5 h-3.5 text-rose-400" />
+            <span>Rallies</span>
+            <span class="text-[10px] bg-rose-500/30 text-rose-200 px-1.5 py-0.2 rounded-full font-bold">
+              {{ activeRalliesCount ?? 4 }}
             </span>
           </button>
 
@@ -546,6 +563,38 @@ onUnmounted(() => {
                   <span>Maps</span>
                 </button>
               </div>
+            </div>
+          </div>
+
+          <!-- RALLY / EVENT CALLOUT -->
+          <div
+            v-if="selectedStamp.event"
+            class="rounded-2xl p-3 border bg-gradient-to-r from-rose-950/60 to-amber-950/40 border-rose-500/40 shadow-xs space-y-1.5"
+          >
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-1.5 text-rose-300 text-[11px] font-bold uppercase tracking-wider">
+                <Flag class="w-3.5 h-3.5 text-rose-400" />
+                <span>Special Stamp Rally</span>
+              </div>
+              <button
+                type="button"
+                @click="$emit('openRalliesModal', selectedStamp.event.rallyId)"
+                class="inline-flex items-center gap-1 text-[10px] font-semibold text-rose-300 hover:text-white underline decoration-rose-400/50"
+              >
+                <span>View Rally</span>
+                <ExternalLink class="w-2.5 h-2.5" />
+              </button>
+            </div>
+            <div class="text-xs font-bold text-white leading-tight">
+              {{ selectedStamp.event.rallyName }}
+            </div>
+            <div class="flex flex-wrap items-center gap-1.5 text-[10px]">
+              <span class="px-1.5 py-0.5 rounded bg-slate-900/80 border border-slate-700 text-slate-300 font-mono">
+                {{ selectedStamp.event.validFrom }} ~ {{ selectedStamp.event.validUntil }}
+              </span>
+              <span v-if="selectedStamp.event.reward" class="px-1.5 py-0.5 rounded bg-amber-500/20 text-amber-200 border border-amber-500/30 truncate max-w-[200px]">
+                🎁 {{ selectedStamp.event.reward }}
+              </span>
             </div>
           </div>
 
@@ -862,7 +911,20 @@ onUnmounted(() => {
           </span>
         </button>
 
-        <!-- 6 Category Pills -->
+        <!-- Rallies & Events Special Pill -->
+        <button
+          type="button"
+          @click="$emit('openRalliesModal')"
+          class="flex-shrink-0 flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold border transition-all shadow-md active:scale-95 bg-gradient-to-r from-rose-600/90 to-amber-600/90 text-white border-rose-500/50 hover:brightness-110"
+        >
+          <Flag class="w-3.5 h-3.5" />
+          <span>Rallies & Events</span>
+          <span class="text-[10px] px-1.5 py-0.2 rounded-full font-bold bg-white/20 text-white font-mono">
+            {{ activeRalliesCount ?? 4 }}
+          </span>
+        </button>
+
+        <!-- Category Pills -->
         <button
           v-for="cat in ALL_CATEGORIES"
           :key="cat.id"

@@ -34,6 +34,35 @@ export interface Stamp {
   visited?: boolean;
   source?: string;
   sourceUrl?: string;
+  isTemporary?: boolean;
+  event?: StampEventInfo;
+}
+
+export interface StampEventInfo {
+  rallyId: string;
+  rallyName: string;
+  rallyNameJa?: string;
+  validFrom: string;
+  validUntil: string;
+  stage?: number;
+  reward?: string;
+  rewardJa?: string;
+  officialUrl?: string;
+}
+
+export interface StampRally {
+  id: string;
+  title: string;
+  titleJa: string;
+  organizer: string;
+  description: string;
+  validFrom: string;
+  validUntil: string;
+  stampIds: string[];
+  reward?: string;
+  rewardJa?: string;
+  bannerGradient?: string;
+  officialUrl?: string;
 }
 
 export interface VisitedRecord {

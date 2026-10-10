@@ -30,6 +30,9 @@ import {
   Tv,
   Flower2,
   ShoppingBag,
+  Flag,
+  Calendar,
+  Gift,
 } from 'lucide-vue-next';
 import AskStaffModal from './AskStaffModal.vue';
 import StampSourceModal from './StampSourceModal.vue';
@@ -47,6 +50,7 @@ const emit = defineEmits<{
   (e: 'toggleCollected', stampId: string): void;
   (e: 'toggleWishlist', stampId: string): void;
   (e: 'focusMap', coordinates: [number, number]): void;
+  (e: 'openRalliesModal', rallyId?: string): void;
 }>();
 
 const isImageModalOpen = ref(false);
@@ -552,6 +556,47 @@ watch(
                 <span>{{ isWishlist ? 'Wishlisted' : 'Wishlist' }}</span>
               </button>
             </div>
+          </div>
+        </div>
+
+        <!-- RALLY / EVENT CALLOUT (if stamp belongs to an active or past rally) -->
+        <div
+          v-if="stamp.event"
+          class="rounded-2xl p-3.5 border bg-gradient-to-r from-rose-950/60 to-amber-950/40 border-rose-500/40 shadow-md space-y-2"
+        >
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-2 text-rose-300 text-xs font-bold uppercase tracking-wider">
+              <Flag class="w-4 h-4 flex-shrink-0 text-rose-400" />
+              <span>Special Stamp Rally • イベント</span>
+            </div>
+            <button
+              type="button"
+              @click="$emit('openRalliesModal', stamp.event.rallyId)"
+              class="inline-flex items-center gap-1 text-[11px] font-semibold text-rose-300 hover:text-white underline decoration-rose-400/50"
+            >
+              <span>View Rally</span>
+              <ExternalLink class="w-3 h-3" />
+            </button>
+          </div>
+
+          <div>
+            <div class="text-sm font-bold text-white leading-tight">
+              {{ stamp.event.rallyName }}
+            </div>
+            <div v-if="stamp.event.rallyNameJa" class="text-xs text-rose-200/80 font-serif">
+              {{ stamp.event.rallyNameJa }}
+            </div>
+          </div>
+
+          <div class="flex flex-wrap items-center gap-2 text-xs pt-0.5">
+            <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-slate-900/80 border border-slate-700 text-slate-300 font-mono text-[11px]">
+              <Calendar class="w-3 h-3 text-slate-400" />
+              {{ stamp.event.validFrom }} ~ {{ stamp.event.validUntil }}
+            </span>
+            <span v-if="stamp.event.reward" class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-amber-500/20 border border-amber-500/40 text-amber-200 text-[11px]">
+              <Gift class="w-3 h-3 text-amber-400" />
+              {{ stamp.event.reward }}
+            </span>
           </div>
         </div>
 

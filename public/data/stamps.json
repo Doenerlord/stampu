@@ -11064,7 +11064,16 @@
     "imageUrl": "/images/stamps/eki-kyoto.jpg",
     "description": "Official JR West commemorative railway stamp for Kyōto Station (Kyoto Line) in 京都市, Kyoto. Depicts iconic local landmarks, cultural heritage, and regional railway history.",
     "source": "Funakiya Stamp Notebook (船木屋記念スタンプ帳)",
-    "sourceUrl": "https://stamp.funakiya.com/jr-kyoto.html"
+    "sourceUrl": "https://stamp.funakiya.com/jr-kyoto.html",
+    "event": {
+      "rallyId": "tokaido-shinkansen-60th-anniversary",
+      "rallyName": "Tōkaidō Shinkansen 60th Anniversary Memorial Rally",
+      "rallyNameJa": "東海道新幹線 開業60周年記念スタンプラリー",
+      "validFrom": "2026-03-01",
+      "validUntil": "2026-09-30",
+      "reward": "Series 0 Shinkansen Commemorative Metal Keyring",
+      "rewardJa": "0系新幹線 記念メタルキーホルダー"
+    }
   },
   {
     "id": "eki-mukomachi",
@@ -19674,7 +19683,17 @@
     "imageUrl": "/images/stamps/eki-metro-ginza.jpg",
     "description": "Official Tokyo Metro commemorative railway stamp for Ginza Station (Ginza Line) in 中央区, Tokyo. Depicts iconic local landmarks, cultural heritage, and regional railway history.",
     "source": "Funakiya Stamp Notebook (船木屋記念スタンプ帳)",
-    "sourceUrl": "https://stamp.funakiya.com/metro-ginza.html"
+    "sourceUrl": "https://stamp.funakiya.com/metro-ginza.html",
+    "event": {
+      "rallyId": "tokyo-metro-conan-2026",
+      "rallyName": "Tokyo Metro × Detective Conan Mystery Rally",
+      "rallyNameJa": "東京メトロ×名探偵コナン ミステリースタンプラリー",
+      "validFrom": "2026-08-01",
+      "validUntil": "2026-11-15",
+      "reward": "Limited Edition Conan Detective Pin & Smartphone Wallpaper",
+      "rewardJa": "特製ピンバッジ＆オリジナル壁紙"
+    },
+    "isTemporary": true
   },
   {
     "id": "eki-metro-ginzaitchome",
@@ -19800,7 +19819,17 @@
     "imageUrl": "/images/stamps/eki-metro-hibiya.jpg",
     "description": "Official Tokyo Metro commemorative railway stamp for Hibiya Station (Hibiya Line) in 千代田区, Tokyo. Depicts iconic local landmarks, cultural heritage, and regional railway history.",
     "source": "Funakiya Stamp Notebook (船木屋記念スタンプ帳)",
-    "sourceUrl": "https://stamp.funakiya.com/metro-hibiya.html"
+    "sourceUrl": "https://stamp.funakiya.com/metro-hibiya.html",
+    "event": {
+      "rallyId": "tokyo-metro-conan-2026",
+      "rallyName": "Tokyo Metro × Detective Conan Mystery Rally",
+      "rallyNameJa": "東京メトロ×名探偵コナン ミステリースタンプラリー",
+      "validFrom": "2026-08-01",
+      "validUntil": "2026-11-15",
+      "reward": "Limited Edition Conan Detective Pin & Smartphone Wallpaper",
+      "rewardJa": "特製ピンバッジ＆オリジナル壁紙"
+    },
+    "isTemporary": true
   },
   {
     "id": "eki-metro-higashiginza",
@@ -20052,7 +20081,17 @@
     "imageUrl": "/images/stamps/eki-metro-ikebukuro.jpg",
     "description": "Official Tokyo Metro commemorative railway stamp for Ikebukuro Station (Marunouchi Line) in 豊島区, Tokyo. Depicts iconic local landmarks, cultural heritage, and regional railway history.",
     "source": "Funakiya Stamp Notebook (船木屋記念スタンプ帳)",
-    "sourceUrl": "https://stamp.funakiya.com/metro-ikebukuro.html"
+    "sourceUrl": "https://stamp.funakiya.com/metro-ikebukuro.html",
+    "event": {
+      "rallyId": "tokyo-metro-conan-2026",
+      "rallyName": "Tokyo Metro × Detective Conan Mystery Rally",
+      "rallyNameJa": "東京メトロ×名探偵コナン ミステリースタンプラリー",
+      "validFrom": "2026-08-01",
+      "validUntil": "2026-11-15",
+      "reward": "Limited Edition Conan Detective Pin & Smartphone Wallpaper",
+      "rewardJa": "特製ピンバッジ＆オリジナル壁紙"
+    },
+    "isTemporary": true
   },
   {
     "id": "eki-metro-inaricho",
@@ -21270,7 +21309,17 @@
     "imageUrl": "/images/stamps/eki-metro-otemachi.jpg",
     "description": "Official Tokyo Metro commemorative railway stamp for Otemachi Station (Marunouchi Line) in 千代田区, Tokyo. Depicts iconic local landmarks, cultural heritage, and regional railway history.",
     "source": "Funakiya Stamp Notebook (船木屋記念スタンプ帳)",
-    "sourceUrl": "https://stamp.funakiya.com/metro-otemachi.html"
+    "sourceUrl": "https://stamp.funakiya.com/metro-otemachi.html",
+    "event": {
+      "rallyId": "tokyo-metro-conan-2026",
+      "rallyName": "Tokyo Metro × Detective Conan Mystery Rally",
+      "rallyNameJa": "東京メトロ×名探偵コナン ミステリースタンプラリー",
+      "validFrom": "2026-08-01",
+      "validUntil": "2026-11-15",
+      "reward": "Limited Edition Conan Detective Pin & Smartphone Wallpaper",
+      "rewardJa": "特製ピンバッジ＆オリジナル壁紙"
+    },
+    "isTemporary": true
   },
   {
     "id": "eki-metro-ouji",
@@ -26520,7 +26569,17 @@
     "imageUrl": "/images/stamps/eki-yamanote-akihabara.jpg",
     "description": "Official JR East commemorative railway stamp for Akihabara Station (Yamanote Line) in 千代田区, Tokyo. Depicts iconic local landmarks, cultural heritage, and regional railway history.",
     "source": "Funakiya Stamp Notebook (船木屋記念スタンプ帳)",
-    "sourceUrl": "https://stamp.funakiya.com/jr-akihabara.html"
+    "sourceUrl": "https://stamp.funakiya.com/jr-akihabara.html",
+    "event": {
+      "rallyId": "jr-east-pokemon-rally-2026",
+      "rallyName": "JR East Pokémon Stamp Rally 2026 (Stage 1: Yamanote Metropolitan)",
+      "rallyNameJa": "JR東日本 ポケモンスタンプラリー2026（ステージ1）",
+      "validFrom": "2026-07-15",
+      "validUntil": "2026-10-31",
+      "reward": "Stage 1 Commemorative Clear File & Certificate (Tokyo Station Travel Service Center)",
+      "rewardJa": "ステージ1 達成記念オリジナルクリアファイル＆認定証"
+    },
+    "isTemporary": true
   },
   {
     "id": "eki-yamanote-ebisu",
@@ -26625,7 +26684,17 @@
     "imageUrl": "/images/stamps/eki-yamanote-ikebukuro.jpg",
     "description": "Official JR East commemorative railway stamp for Ikebukuro Station (Yamanote Line) in 豊島区, Tokyo. Depicts iconic local landmarks, cultural heritage, and regional railway history.",
     "source": "Funakiya Stamp Notebook (船木屋記念スタンプ帳)",
-    "sourceUrl": "https://stamp.funakiya.com/jr-ikebukuro.html"
+    "sourceUrl": "https://stamp.funakiya.com/jr-ikebukuro.html",
+    "event": {
+      "rallyId": "jr-east-pokemon-rally-2026",
+      "rallyName": "JR East Pokémon Stamp Rally 2026 (Stage 1: Yamanote Metropolitan)",
+      "rallyNameJa": "JR東日本 ポケモンスタンプラリー2026（ステージ1）",
+      "validFrom": "2026-07-15",
+      "validUntil": "2026-10-31",
+      "reward": "Stage 1 Commemorative Clear File & Certificate (Tokyo Station Travel Service Center)",
+      "rewardJa": "ステージ1 達成記念オリジナルクリアファイル＆認定証"
+    },
+    "isTemporary": true
   },
   {
     "id": "eki-yamanote-kanda",
@@ -26856,7 +26925,17 @@
     "imageUrl": "/images/stamps/eki-yamanote-shinagawa.jpg",
     "description": "Official JR East commemorative railway stamp for Shinagawa Station (Yamanote Line) in 港区, Tokyo. Depicts iconic local landmarks, cultural heritage, and regional railway history.",
     "source": "Funakiya Stamp Notebook (船木屋記念スタンプ帳)",
-    "sourceUrl": "https://stamp.funakiya.com/jr-shinagawa.html"
+    "sourceUrl": "https://stamp.funakiya.com/jr-shinagawa.html",
+    "event": {
+      "rallyId": "jr-east-pokemon-rally-2026",
+      "rallyName": "JR East Pokémon Stamp Rally 2026 (Stage 1: Yamanote Metropolitan)",
+      "rallyNameJa": "JR東日本 ポケモンスタンプラリー2026（ステージ1）",
+      "validFrom": "2026-07-15",
+      "validUntil": "2026-10-31",
+      "reward": "Stage 1 Commemorative Clear File & Certificate (Tokyo Station Travel Service Center)",
+      "rewardJa": "ステージ1 達成記念オリジナルクリアファイル＆認定証"
+    },
+    "isTemporary": true
   },
   {
     "id": "eki-yamanote-shinbashi",
@@ -26898,7 +26977,17 @@
     "imageUrl": "/images/stamps/eki-yamanote-shinjuku.jpg",
     "description": "Official JR East commemorative railway stamp for Shinjuku Station (Yamanote Line) in 新宿区, Tokyo. Depicts iconic local landmarks, cultural heritage, and regional railway history.",
     "source": "Funakiya Stamp Notebook (船木屋記念スタンプ帳)",
-    "sourceUrl": "https://stamp.funakiya.com/jr-shinjuku.html"
+    "sourceUrl": "https://stamp.funakiya.com/jr-shinjuku.html",
+    "event": {
+      "rallyId": "jr-east-pokemon-rally-2026",
+      "rallyName": "JR East Pokémon Stamp Rally 2026 (Stage 1: Yamanote Metropolitan)",
+      "rallyNameJa": "JR東日本 ポケモンスタンプラリー2026（ステージ1）",
+      "validFrom": "2026-07-15",
+      "validUntil": "2026-10-31",
+      "reward": "Stage 1 Commemorative Clear File & Certificate (Tokyo Station Travel Service Center)",
+      "rewardJa": "ステージ1 達成記念オリジナルクリアファイル＆認定証"
+    },
+    "isTemporary": true
   },
   {
     "id": "eki-yamanote-shinokubo",
@@ -27045,7 +27134,17 @@
     "imageUrl": "/images/stamps/eki-yamanote-tokyo.jpg",
     "description": "Official JR East commemorative railway stamp for Tōkyō Station (Yamanote Line) in 千代田区, Tokyo. Depicts iconic local landmarks, cultural heritage, and regional railway history.",
     "source": "Funakiya Stamp Notebook (船木屋記念スタンプ帳)",
-    "sourceUrl": "https://stamp.funakiya.com/jr-tokyo.html"
+    "sourceUrl": "https://stamp.funakiya.com/jr-tokyo.html",
+    "event": {
+      "rallyId": "jr-east-pokemon-rally-2026",
+      "rallyName": "JR East Pokémon Stamp Rally 2026 (Stage 1: Yamanote Metropolitan)",
+      "rallyNameJa": "JR東日本 ポケモンスタンプラリー2026（ステージ1）",
+      "validFrom": "2026-07-15",
+      "validUntil": "2026-10-31",
+      "reward": "Stage 1 Commemorative Clear File & Certificate (Tokyo Station Travel Service Center)",
+      "rewardJa": "ステージ1 達成記念オリジナルクリアファイル＆認定証"
+    },
+    "isTemporary": true
   },
   {
     "id": "eki-yamanote-ueno",
@@ -27066,7 +27165,17 @@
     "imageUrl": "/images/stamps/eki-yamanote-ueno.jpg",
     "description": "Official JR East commemorative railway stamp for Ueno Station (Yamanote Line) in 台東区, Tokyo. Depicts iconic local landmarks, cultural heritage, and regional railway history.",
     "source": "Funakiya Stamp Notebook (船木屋記念スタンプ帳)",
-    "sourceUrl": "https://stamp.funakiya.com/jr-ueno.html"
+    "sourceUrl": "https://stamp.funakiya.com/jr-ueno.html",
+    "event": {
+      "rallyId": "jr-east-pokemon-rally-2026",
+      "rallyName": "JR East Pokémon Stamp Rally 2026 (Stage 1: Yamanote Metropolitan)",
+      "rallyNameJa": "JR東日本 ポケモンスタンプラリー2026（ステージ1）",
+      "validFrom": "2026-07-15",
+      "validUntil": "2026-10-31",
+      "reward": "Stage 1 Commemorative Clear File & Certificate (Tokyo Station Travel Service Center)",
+      "rewardJa": "ステージ1 達成記念オリジナルクリアファイル＆認定証"
+    },
+    "isTemporary": true
   },
   {
     "id": "eki-yamanote-uguisudani",
@@ -72636,7 +72745,16 @@
     "imageUrl": "/images/stamps/garden-koishikawa-korakuen.jpg",
     "description": "Japan Stamp Hunt 特集: 小石川後楽園（Koishikawa Korakuen Gardens）の公式記念スタンプ。旅の記念やスタンプ帳のコレクションに最適な常設スタンプスポットです。",
     "source": "Japan Stamp Hunt",
-    "sourceUrl": "https://japan-stamp-hunt.com/stamps/koishikawa-korakuen-gardens/"
+    "sourceUrl": "https://japan-stamp-hunt.com/stamps/koishikawa-korakuen-gardens/",
+    "event": {
+      "rallyId": "tokyo-heritage-gardens-autumn",
+      "rallyName": "Tokyo Metropolitan 9 Heritage Gardens Stamp Trail",
+      "rallyNameJa": "都立9庭園 秋のめぐりスタンプラリー",
+      "validFrom": "2026-09-01",
+      "validUntil": "2026-11-30",
+      "reward": "Traditional Japanese Washi Paper Bookmark & Tea House Voucher",
+      "rewardJa": "特製和紙しおり＆茶屋割引券"
+    }
   },
   {
     "id": "garden-rikugien",
@@ -72657,7 +72775,16 @@
     "imageUrl": "/images/stamps/garden-rikugien.jpg",
     "description": "Japan Stamp Hunt 特集: 六義園（Rikugien Gardens）の公式記念スタンプ。旅の記念やスタンプ帳のコレクションに最適な常設スタンプスポットです。",
     "source": "Japan Stamp Hunt",
-    "sourceUrl": "https://japan-stamp-hunt.com/stamps/rikugien-gardens/"
+    "sourceUrl": "https://japan-stamp-hunt.com/stamps/rikugien-gardens/",
+    "event": {
+      "rallyId": "tokyo-heritage-gardens-autumn",
+      "rallyName": "Tokyo Metropolitan 9 Heritage Gardens Stamp Trail",
+      "rallyNameJa": "都立9庭園 秋のめぐりスタンプラリー",
+      "validFrom": "2026-09-01",
+      "validUntil": "2026-11-30",
+      "reward": "Traditional Japanese Washi Paper Bookmark & Tea House Voucher",
+      "rewardJa": "特製和紙しおり＆茶屋割引券"
+    }
   },
   {
     "id": "garden-hamarikyu",
@@ -72678,7 +72805,16 @@
     "imageUrl": "/images/stamps/garden-hamarikyu.jpg",
     "description": "Japan Stamp Hunt 特集: 浜離宮恩賜庭園（Hamarikyu Gardens）の公式記念スタンプ。旅の記念やスタンプ帳のコレクションに最適な常設スタンプスポットです。",
     "source": "Japan Stamp Hunt",
-    "sourceUrl": "https://japan-stamp-hunt.com/stamps/hamarikyu-gardens/"
+    "sourceUrl": "https://japan-stamp-hunt.com/stamps/hamarikyu-gardens/",
+    "event": {
+      "rallyId": "tokyo-heritage-gardens-autumn",
+      "rallyName": "Tokyo Metropolitan 9 Heritage Gardens Stamp Trail",
+      "rallyNameJa": "都立9庭園 秋のめぐりスタンプラリー",
+      "validFrom": "2026-09-01",
+      "validUntil": "2026-11-30",
+      "reward": "Traditional Japanese Washi Paper Bookmark & Tea House Voucher",
+      "rewardJa": "特製和紙しおり＆茶屋割引券"
+    }
   },
   {
     "id": "garden-kyu-shiba-rikyu",
@@ -72720,7 +72856,16 @@
     "imageUrl": "/images/stamps/garden-kiyosumi.jpg",
     "description": "Japan Stamp Hunt 特集: 清澄庭園（Kiyosumi Gardens）の公式記念スタンプ。旅の記念やスタンプ帳のコレクションに最適な常設スタンプスポットです。",
     "source": "Japan Stamp Hunt",
-    "sourceUrl": "https://japan-stamp-hunt.com/stamps/kiyosumi-gardens/"
+    "sourceUrl": "https://japan-stamp-hunt.com/stamps/kiyosumi-gardens/",
+    "event": {
+      "rallyId": "tokyo-heritage-gardens-autumn",
+      "rallyName": "Tokyo Metropolitan 9 Heritage Gardens Stamp Trail",
+      "rallyNameJa": "都立9庭園 秋のめぐりスタンプラリー",
+      "validFrom": "2026-09-01",
+      "validUntil": "2026-11-30",
+      "reward": "Traditional Japanese Washi Paper Bookmark & Tea House Voucher",
+      "rewardJa": "特製和紙しおり＆茶屋割引券"
+    }
   },
   {
     "id": "garden-mukojima-hyakkaen",
@@ -72762,7 +72907,16 @@
     "imageUrl": "/images/stamps/garden-kyu-furukawa.png",
     "description": "Japan Stamp Hunt 特集: 旧古河庭園（Kyu-Furukawa Gardens）の公式記念スタンプ。旅の記念やスタンプ帳のコレクションに最適な常設スタンプスポットです。",
     "source": "Japan Stamp Hunt",
-    "sourceUrl": "https://japan-stamp-hunt.com/stamps/kyu-furukawa-gardens-stamp/"
+    "sourceUrl": "https://japan-stamp-hunt.com/stamps/kyu-furukawa-gardens-stamp/",
+    "event": {
+      "rallyId": "tokyo-heritage-gardens-autumn",
+      "rallyName": "Tokyo Metropolitan 9 Heritage Gardens Stamp Trail",
+      "rallyNameJa": "都立9庭園 秋のめぐりスタンプラリー",
+      "validFrom": "2026-09-01",
+      "validUntil": "2026-11-30",
+      "reward": "Traditional Japanese Washi Paper Bookmark & Tea House Voucher",
+      "rewardJa": "特製和紙しおり＆茶屋割引券"
+    }
   },
   {
     "id": "garden-kyu-iwasaki-tei",
@@ -72783,7 +72937,16 @@
     "imageUrl": "/images/stamps/garden-kyu-iwasaki-tei.jpg",
     "description": "Japan Stamp Hunt 特集: 旧岩崎邸庭園（Kyū-Iwasaki-tei Gardens）の公式記念スタンプ。旅の記念やスタンプ帳のコレクションに最適な常設スタンプスポットです。",
     "source": "Japan Stamp Hunt",
-    "sourceUrl": "https://japan-stamp-hunt.com/stamps/kyu-iwasaki-tei-gardens/"
+    "sourceUrl": "https://japan-stamp-hunt.com/stamps/kyu-iwasaki-tei-gardens/",
+    "event": {
+      "rallyId": "tokyo-heritage-gardens-autumn",
+      "rallyName": "Tokyo Metropolitan 9 Heritage Gardens Stamp Trail",
+      "rallyNameJa": "都立9庭園 秋のめぐりスタンプラリー",
+      "validFrom": "2026-09-01",
+      "validUntil": "2026-11-30",
+      "reward": "Traditional Japanese Washi Paper Bookmark & Tea House Voucher",
+      "rewardJa": "特製和紙しおり＆茶屋割引券"
+    }
   },
   {
     "id": "garden-tonogayato",
@@ -72867,7 +73030,16 @@
     "imageUrl": "/images/stamps/garden-okayama-korakuen.jpg",
     "description": "Japan Stamp Hunt 特集: 岡山後楽園（Okayama Korakuen）の公式記念スタンプ。旅の記念やスタンプ帳のコレクションに最適な常設スタンプスポットです。",
     "source": "Japan Stamp Hunt",
-    "sourceUrl": "https://japan-stamp-hunt.com/stamps/okayama-korakuen-stamp/"
+    "sourceUrl": "https://japan-stamp-hunt.com/stamps/okayama-korakuen-stamp/",
+    "event": {
+      "rallyId": "autumn-leaves-kansai-temple-tour",
+      "rallyName": "Kansai Historic Gardens & Ancient Temples Autumn Tour",
+      "rallyNameJa": "関西の古刹と名勝庭園 秋の特別スタンプラリー",
+      "validFrom": "2026-11-05",
+      "validUntil": "2026-12-25",
+      "reward": "Autumn Momiji Silk Lucky Charm (Omamori) & Commemorative Tenugui",
+      "rewardJa": "紅葉刺繍お守り＆特製手ぬぐい"
+    }
   },
   {
     "id": "garden-kairakuen",
@@ -72930,7 +73102,16 @@
     "imageUrl": "/images/stamps/garden-ritsurin.jpg",
     "description": "Japan Stamp Hunt 特集: 栗林公園（Ritsurin Garden）の公式記念スタンプ。旅の記念やスタンプ帳のコレクションに最適な常設スタンプスポットです。",
     "source": "Japan Stamp Hunt",
-    "sourceUrl": "https://japan-stamp-hunt.com/stamps/ritsurin-garden-stamp/"
+    "sourceUrl": "https://japan-stamp-hunt.com/stamps/ritsurin-garden-stamp/",
+    "event": {
+      "rallyId": "autumn-leaves-kansai-temple-tour",
+      "rallyName": "Kansai Historic Gardens & Ancient Temples Autumn Tour",
+      "rallyNameJa": "関西の古刹と名勝庭園 秋の特別スタンプラリー",
+      "validFrom": "2026-11-05",
+      "validUntil": "2026-12-25",
+      "reward": "Autumn Momiji Silk Lucky Charm (Omamori) & Commemorative Tenugui",
+      "rewardJa": "紅葉刺繍お守り＆特製手ぬぐい"
+    }
   },
   {
     "id": "garden-shukkeien",
@@ -73056,7 +73237,16 @@
     "imageUrl": "/images/stamps/shop-travelers-factory-tokyo-station.jpg",
     "description": "Japan Stamp Hunt 特集: Traveler’s Factory Station Tokyo Stamp（トラベラーズファクトリー東京駅のスタンプ）の公式記念スタンプ。旅の記念やスタンプ帳のコレクションに最適な常設スタンプスポットです。",
     "source": "Japan Stamp Hunt",
-    "sourceUrl": "https://japan-stamp-hunt.com/stamps/travelers-factory-station-tokyo/"
+    "sourceUrl": "https://japan-stamp-hunt.com/stamps/travelers-factory-station-tokyo/",
+    "event": {
+      "rallyId": "japan-stationery-concept-tour",
+      "rallyName": "Creative Stationery & Concept Shop Stamp Tour",
+      "rallyNameJa": "文具とクリエイティブショップめぐり",
+      "validFrom": "2026-06-01",
+      "validUntil": "2026-12-31",
+      "reward": "Exclusive Embossed Leather Stamp Passport Sticker & Postcard Set",
+      "rewardJa": "オリジナル箔押しステッカー＆ポストカードセット"
+    }
   },
   {
     "id": "shop-travelers-factory-kyoto",
@@ -73077,7 +73267,16 @@
     "imageUrl": "/images/stamps/shop-travelers-factory-kyoto.png",
     "description": "Japan Stamp Hunt 特集: トラベラーズファクトリー京都（TRAVELER&#8217;S FACTORY KYOTO）の公式記念スタンプ。旅の記念やスタンプ帳のコレクションに最適な常設スタンプスポットです。",
     "source": "Japan Stamp Hunt",
-    "sourceUrl": "https://japan-stamp-hunt.com/stamps/travelers-factory-kyoto-stamp/"
+    "sourceUrl": "https://japan-stamp-hunt.com/stamps/travelers-factory-kyoto-stamp/",
+    "event": {
+      "rallyId": "autumn-leaves-kansai-temple-tour",
+      "rallyName": "Kansai Historic Gardens & Ancient Temples Autumn Tour",
+      "rallyNameJa": "関西の古刹と名勝庭園 秋の特別スタンプラリー",
+      "validFrom": "2026-11-05",
+      "validUntil": "2026-12-25",
+      "reward": "Autumn Momiji Silk Lucky Charm (Omamori) & Commemorative Tenugui",
+      "rewardJa": "紅葉刺繍お守り＆特製手ぬぐい"
+    }
   },
   {
     "id": "shop-hobonichi-techo-tokyo",
@@ -73098,7 +73297,16 @@
     "imageUrl": "/images/stamps/shop-hobonichi-techo-tokyo.png",
     "description": "Japan Stamp Hunt 特集: Hobonichi Techo Store Stamp（ほぼ日手帳ストア東京駅店のスタンプ）の公式記念スタンプ。旅の記念やスタンプ帳のコレクションに最適な常設スタンプスポットです。",
     "source": "Japan Stamp Hunt",
-    "sourceUrl": "https://japan-stamp-hunt.com/stamps/hobonichi-techo-store-stamp/"
+    "sourceUrl": "https://japan-stamp-hunt.com/stamps/hobonichi-techo-store-stamp/",
+    "event": {
+      "rallyId": "japan-stationery-concept-tour",
+      "rallyName": "Creative Stationery & Concept Shop Stamp Tour",
+      "rallyNameJa": "文具とクリエイティブショップめぐり",
+      "validFrom": "2026-06-01",
+      "validUntil": "2026-12-31",
+      "reward": "Exclusive Embossed Leather Stamp Passport Sticker & Postcard Set",
+      "rewardJa": "オリジナル箔押しステッカー＆ポストカードセット"
+    }
   },
   {
     "id": "shop-u-arts-osaka",
@@ -73119,7 +73327,16 @@
     "imageUrl": "/images/stamps/shop-u-arts-osaka.png",
     "description": "Japan Stamp Hunt 特集: U-ARTS Stamp（ユーアーツのスタンプ）の公式記念スタンプ。旅の記念やスタンプ帳のコレクションに最適な常設スタンプスポットです。",
     "source": "Japan Stamp Hunt",
-    "sourceUrl": "https://japan-stamp-hunt.com/stamps/u-arts-stamp/"
+    "sourceUrl": "https://japan-stamp-hunt.com/stamps/u-arts-stamp/",
+    "event": {
+      "rallyId": "autumn-leaves-kansai-temple-tour",
+      "rallyName": "Kansai Historic Gardens & Ancient Temples Autumn Tour",
+      "rallyNameJa": "関西の古刹と名勝庭園 秋の特別スタンプラリー",
+      "validFrom": "2026-11-05",
+      "validUntil": "2026-12-25",
+      "reward": "Autumn Momiji Silk Lucky Charm (Omamori) & Commemorative Tenugui",
+      "rewardJa": "紅葉刺繍お守り＆特製手ぬぐい"
+    }
   },
   {
     "id": "shop-ikeman-semba-osaka",
@@ -73161,7 +73378,16 @@
     "imageUrl": "/images/stamps/shop-tamaru-inbou-kyoto.jpg",
     "description": "Japan Stamp Hunt 特集: 田丸印房 新京極店（Tamaru Inbou）の公式記念スタンプ。旅の記念やスタンプ帳のコレクションに最適な常設スタンプスポットです。",
     "source": "Japan Stamp Hunt",
-    "sourceUrl": "https://japan-stamp-hunt.com/stamps/tamaru-inbou-stamp/"
+    "sourceUrl": "https://japan-stamp-hunt.com/stamps/tamaru-inbou-stamp/",
+    "event": {
+      "rallyId": "autumn-leaves-kansai-temple-tour",
+      "rallyName": "Kansai Historic Gardens & Ancient Temples Autumn Tour",
+      "rallyNameJa": "関西の古刹と名勝庭園 秋の特別スタンプラリー",
+      "validFrom": "2026-11-05",
+      "validUntil": "2026-12-25",
+      "reward": "Autumn Momiji Silk Lucky Charm (Omamori) & Commemorative Tenugui",
+      "rewardJa": "紅葉刺繍お守り＆特製手ぬぐい"
+    }
   },
   {
     "id": "shop-d47-shibuya",
@@ -73182,7 +73408,16 @@
     "imageUrl": "/images/stamps/shop-d47-shibuya.png",
     "description": "Japan Stamp Hunt 特集: d47デザイントラベルストア渋谷（d47 design travel store shibuya）の公式記念スタンプ。旅の記念やスタンプ帳のコレクションに最適な常設スタンプスポットです。",
     "source": "Japan Stamp Hunt",
-    "sourceUrl": "https://japan-stamp-hunt.com/stamps/d47-design-travel-store-shibuya-stamp/"
+    "sourceUrl": "https://japan-stamp-hunt.com/stamps/d47-design-travel-store-shibuya-stamp/",
+    "event": {
+      "rallyId": "japan-stationery-concept-tour",
+      "rallyName": "Creative Stationery & Concept Shop Stamp Tour",
+      "rallyNameJa": "文具とクリエイティブショップめぐり",
+      "validFrom": "2026-06-01",
+      "validUntil": "2026-12-31",
+      "reward": "Exclusive Embossed Leather Stamp Passport Sticker & Postcard Set",
+      "rewardJa": "オリジナル箔押しステッカー＆ポストカードセット"
+    }
   },
   {
     "id": "shop-d-department-sapporo",
@@ -73224,7 +73459,16 @@
     "imageUrl": "/images/stamps/shop-books-sanseido-jinbocho.png",
     "description": "Japan Stamp Hunt 特集: 三省堂書店神田神保町本店（Books Sanseido Jinbocho Main Branch）の公式記念スタンプ。旅の記念やスタンプ帳のコレクションに最適な常設スタンプスポットです。",
     "source": "Japan Stamp Hunt",
-    "sourceUrl": "https://japan-stamp-hunt.com/stamps/books-sanseido-jinbocho-main-branch-stamp/"
+    "sourceUrl": "https://japan-stamp-hunt.com/stamps/books-sanseido-jinbocho-main-branch-stamp/",
+    "event": {
+      "rallyId": "japan-stationery-concept-tour",
+      "rallyName": "Creative Stationery & Concept Shop Stamp Tour",
+      "rallyNameJa": "文具とクリエイティブショップめぐり",
+      "validFrom": "2026-06-01",
+      "validUntil": "2026-12-31",
+      "reward": "Exclusive Embossed Leather Stamp Passport Sticker & Postcard Set",
+      "rewardJa": "オリジナル箔押しステッカー＆ポストカードセット"
+    }
   },
   {
     "id": "shop-aranzi-aronzo-solamachi",
@@ -73371,7 +73615,16 @@
     "imageUrl": "/images/stamps/shop-yuruliku-tokyo.png",
     "description": "Japan Stamp Hunt 特集: ユルリク（Yuruliku）の公式記念スタンプ。旅の記念やスタンプ帳のコレクションに最適な常設スタンプスポットです。",
     "source": "Japan Stamp Hunt",
-    "sourceUrl": "https://japan-stamp-hunt.com/stamps/yuruliku-stamp/"
+    "sourceUrl": "https://japan-stamp-hunt.com/stamps/yuruliku-stamp/",
+    "event": {
+      "rallyId": "japan-stationery-concept-tour",
+      "rallyName": "Creative Stationery & Concept Shop Stamp Tour",
+      "rallyNameJa": "文具とクリエイティブショップめぐり",
+      "validFrom": "2026-06-01",
+      "validUntil": "2026-12-31",
+      "reward": "Exclusive Embossed Leather Stamp Passport Sticker & Postcard Set",
+      "rewardJa": "オリジナル箔押しステッカー＆ポストカードセット"
+    }
   },
   {
     "id": "shop-enne-stationery",
@@ -73707,7 +73960,17 @@
     "imageUrl": "/images/stamps/info-tokyo-metro-shinjuku.png",
     "description": "Japan Stamp Hunt 特集: 東京メトロ新宿駅旅客案内所（Tokyo Metro Shinjuku Station Tourist Information）の公式記念スタンプ。旅の記念やスタンプ帳のコレクションに最適な常設スタンプスポットです。",
     "source": "Japan Stamp Hunt",
-    "sourceUrl": "https://japan-stamp-hunt.com/stamps/tokyo-metro-shinjuku-station-tourist-information-stamp/"
+    "sourceUrl": "https://japan-stamp-hunt.com/stamps/tokyo-metro-shinjuku-station-tourist-information-stamp/",
+    "event": {
+      "rallyId": "tokyo-metro-conan-2026",
+      "rallyName": "Tokyo Metro × Detective Conan Mystery Rally",
+      "rallyNameJa": "東京メトロ×名探偵コナン ミステリースタンプラリー",
+      "validFrom": "2026-08-01",
+      "validUntil": "2026-11-15",
+      "reward": "Limited Edition Conan Detective Pin & Smartphone Wallpaper",
+      "rewardJa": "特製ピンバッジ＆オリジナル壁紙"
+    },
+    "isTemporary": true
   },
   {
     "id": "info-yokohama-station",
@@ -73749,7 +74012,16 @@
     "imageUrl": "/images/stamps/info-sakuragicho-station.png",
     "description": "Japan Stamp Hunt 特集: 桜木町駅観光案内所（Sakuragicho Station Tourist Information Center）の公式記念スタンプ。旅の記念やスタンプ帳のコレクションに最適な常設スタンプスポットです。",
     "source": "Japan Stamp Hunt",
-    "sourceUrl": "https://japan-stamp-hunt.com/stamps/sakuragicho-station-tourist-information-center-stamp/"
+    "sourceUrl": "https://japan-stamp-hunt.com/stamps/sakuragicho-station-tourist-information-center-stamp/",
+    "event": {
+      "rallyId": "tokaido-shinkansen-60th-anniversary",
+      "rallyName": "Tōkaidō Shinkansen 60th Anniversary Memorial Rally",
+      "rallyNameJa": "東海道新幹線 開業60周年記念スタンプラリー",
+      "validFrom": "2026-03-01",
+      "validUntil": "2026-09-30",
+      "reward": "Series 0 Shinkansen Commemorative Metal Keyring",
+      "rewardJa": "0系新幹線 記念メタルキーホルダー"
+    }
   },
   {
     "id": "info-nagoya-station",
@@ -73770,7 +74042,16 @@
     "imageUrl": "/images/stamps/info-nagoya-station.png",
     "description": "Japan Stamp Hunt 特集: Nagoya Station Tourist Information Center Stamp（名古屋市名古屋駅観光案内所のスタンプ）の公式記念スタンプ。旅の記念やスタンプ帳のコレクションに最適な常設スタンプスポットです。",
     "source": "Japan Stamp Hunt",
-    "sourceUrl": "https://japan-stamp-hunt.com/stamps/nagoya-station-tourist-information-center-stamp/"
+    "sourceUrl": "https://japan-stamp-hunt.com/stamps/nagoya-station-tourist-information-center-stamp/",
+    "event": {
+      "rallyId": "tokaido-shinkansen-60th-anniversary",
+      "rallyName": "Tōkaidō Shinkansen 60th Anniversary Memorial Rally",
+      "rallyNameJa": "東海道新幹線 開業60周年記念スタンプラリー",
+      "validFrom": "2026-03-01",
+      "validUntil": "2026-09-30",
+      "reward": "Series 0 Shinkansen Commemorative Metal Keyring",
+      "rewardJa": "0系新幹線 記念メタルキーホルダー"
+    }
   },
   {
     "id": "info-obama-tourist-centre",
@@ -73791,7 +74072,16 @@
     "imageUrl": "/images/stamps/info-obama-tourist-centre.jpg",
     "description": "Japan Stamp Hunt 特集: Obama Tourist Information Centre Stamp（若狭おばま観光案内所のスタンプ）の公式記念スタンプ。旅の記念やスタンプ帳のコレクションに最適な常設スタンプスポットです。",
     "source": "Japan Stamp Hunt",
-    "sourceUrl": "https://japan-stamp-hunt.com/stamps/obama-tourist-information-centre-stamp/"
+    "sourceUrl": "https://japan-stamp-hunt.com/stamps/obama-tourist-information-centre-stamp/",
+    "event": {
+      "rallyId": "autumn-leaves-kansai-temple-tour",
+      "rallyName": "Kansai Historic Gardens & Ancient Temples Autumn Tour",
+      "rallyNameJa": "関西の古刹と名勝庭園 秋の特別スタンプラリー",
+      "validFrom": "2026-11-05",
+      "validUntil": "2026-12-25",
+      "reward": "Autumn Momiji Silk Lucky Charm (Omamori) & Commemorative Tenugui",
+      "rewardJa": "紅葉刺繍お守り＆特製手ぬぐい"
+    }
   },
   {
     "id": "info-sagamiko-tourist",
@@ -73875,7 +74165,16 @@
     "imageUrl": "/images/stamps/info-shinfuji-station.png",
     "description": "Japan Stamp Hunt 特集: 新富士駅観光案内所（Shinfujieki Information Center）の公式記念スタンプ。旅の記念やスタンプ帳のコレクションに最適な常設スタンプスポットです。",
     "source": "Japan Stamp Hunt",
-    "sourceUrl": "https://japan-stamp-hunt.com/stamps/shinfujieki-information-center-stamp/"
+    "sourceUrl": "https://japan-stamp-hunt.com/stamps/shinfujieki-information-center-stamp/",
+    "event": {
+      "rallyId": "tokaido-shinkansen-60th-anniversary",
+      "rallyName": "Tōkaidō Shinkansen 60th Anniversary Memorial Rally",
+      "rallyNameJa": "東海道新幹線 開業60周年記念スタンプラリー",
+      "validFrom": "2026-03-01",
+      "validUntil": "2026-09-30",
+      "reward": "Series 0 Shinkansen Commemorative Metal Keyring",
+      "rewardJa": "0系新幹線 記念メタルキーホルダー"
+    }
   },
   {
     "id": "hotel-route-inn-sapporo-kitaguchi",
