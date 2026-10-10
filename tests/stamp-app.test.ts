@@ -654,6 +654,41 @@ describe('MapContainer & Marker Click -> Drawer Integration', () => {
     expect(drawer.text()).toContain('東京駅');
     expect(drawer.text()).toContain('Marunouchi North Exit');
   });
+
+  it('in App.vue, categoryCounts dynamically counts stamps across all categories including onsen, ferry, airport, nature, lighthouse, museum, anime', async () => {
+    const multiCatStamps: Stamp[] = [
+      { ...sampleStamp, id: 's-eki', category: 'eki' },
+      { ...sampleStamp, id: 's-onsen', category: 'onsen' },
+      { ...sampleStamp, id: 's-ferry', category: 'ferry' },
+      { ...sampleStamp, id: 's-airport', category: 'airport' },
+      { ...sampleStamp, id: 's-nature', category: 'nature' },
+      { ...sampleStamp, id: 's-lighthouse', category: 'lighthouse' },
+      { ...sampleStamp, id: 's-museum', category: 'museum' },
+      { ...sampleStamp, id: 's-anime', category: 'anime' },
+    ];
+
+    global.fetch = vi.fn().mockResolvedValue({
+      ok: true,
+      json: async () => multiCatStamps,
+    });
+
+    const wrapper = mount(App);
+    await new Promise((r) => setTimeout(r, 30));
+    await wrapper.vm.$nextTick();
+
+    const filters = wrapper.findComponent(CategoryFilters);
+    expect(filters.exists()).toBe(true);
+    const counts = filters.props('categoryCounts');
+    expect(counts.all).toBe(8);
+    expect(counts.eki).toBe(1);
+    expect(counts.onsen).toBe(1);
+    expect(counts.ferry).toBe(1);
+    expect(counts.airport).toBe(1);
+    expect(counts.nature).toBe(1);
+    expect(counts.lighthouse).toBe(1);
+    expect(counts.museum).toBe(1);
+    expect(counts.anime).toBe(1);
+  });
 });
 
 describe('Dexie Database Integration', () => {

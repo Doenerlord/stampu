@@ -15,6 +15,7 @@ import WishlistModal from './components/WishlistModal.vue';
 import PrefectureDownloadModal from './components/PrefectureDownloadModal.vue';
 import NearbyModal from './components/NearbyModal.vue';
 import { initMonetTheming } from './utils/theme';
+import { ALL_CATEGORIES } from './constants/categories';
 
 const allStamps = ref<Stamp[]>([]);
 const prefectures = ref<PrefecturePack[]>([]);
@@ -82,18 +83,14 @@ onMounted(async () => {
 const categoryCounts = computed(() => {
   const counts: Record<string, number> = {
     all: allStamps.value.length,
-    eki: 0,
-    michinoeki: 0,
-    highway: 0,
-    castle: 0,
-    temple_shrine: 0,
-    tower: 0,
   };
 
+  for (const cat of ALL_CATEGORIES) {
+    counts[cat.id] = 0;
+  }
+
   for (const s of allStamps.value) {
-    if (counts[s.category] !== undefined) {
-      counts[s.category]++;
-    }
+    counts[s.category] = (counts[s.category] || 0) + 1;
   }
   return counts;
 });
