@@ -1,5 +1,25 @@
 [
   {
+    "id": "metro-commerce-20th-anniversary-stamp-rally",
+    "title": "Metro Commerce 20th Anniversary Stamp Rally",
+    "titleJa": "メトロコマース創立20周年スタンプラリー",
+    "organizer": "Metro Commerce Co., Ltd. (株式会社メトロコマース)",
+    "description": "Commemorating 20 years of Metro Commerce with an official autumn railway stamp rally across 6 Tokyo Metro Tourist Information Centers.",
+    "validFrom": "2026-10-01",
+    "validUntil": "2026-10-31",
+    "stampIds": [
+      "eki-metro-ueno",
+      "eki-metro-ginza",
+      "eki-metro-shinjuku",
+      "eki-metro-omotesando",
+      "eki-metro-tokyo",
+      "eki-metro-ikebukuro"
+    ],
+    "reward": "Metro Commerce 20th Anniversary Original Sticker (first 1,000) & Can Badge (first 300)",
+    "rewardJa": "メトロコマース創立20周年記念 オリジナルステッカー（先着1,000名）＆ 特製缶バッジ（先着300名）",
+    "bannerGradient": "from-teal-600 via-sky-600 to-blue-800"
+  },
+  {
     "id": "tobu-museum-mitate-line-stamp-rally",
     "title": "The Sumida Railway 'MITATE LINE' Stamp Rally",
     "titleJa": "東武博物館・すみだ鉄道見立て線スタンプラリー",

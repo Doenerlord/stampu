@@ -19685,13 +19685,13 @@
     "source": "Funakiya Stamp Notebook (船木屋記念スタンプ帳)",
     "sourceUrl": "https://stamp.funakiya.com/metro-ginza.html",
     "event": {
-      "rallyId": "detective-conan-stamp-rally-2025",
-      "rallyName": "Detective Conan Stamp Rally 2025",
-      "rallyNameJa": "名探偵コナンスタンプラリー2025",
-      "validFrom": "2025-04-04",
-      "validUntil": "2025-06-22",
-      "reward": "Original Detective Pin Badge & Commemorative Smartphone Wallpaper",
-      "rewardJa": "特製ピンバッジ＆オリジナル壁紙"
+      "rallyId": "metro-commerce-20th-anniversary-stamp-rally",
+      "rallyName": "Metro Commerce 20th Anniversary Stamp Rally",
+      "rallyNameJa": "メトロコマース創立20周年スタンプラリー",
+      "validFrom": "2026-10-01",
+      "validUntil": "2026-10-31",
+      "reward": "Metro Commerce 20th Anniversary Original Sticker & Can Badge",
+      "rewardJa": "メトロコマース創立20周年 オリジナルステッカー＆特製缶バッジ"
     }
   },
   {
@@ -20081,13 +20081,13 @@
     "source": "Funakiya Stamp Notebook (船木屋記念スタンプ帳)",
     "sourceUrl": "https://stamp.funakiya.com/metro-ikebukuro.html",
     "event": {
-      "rallyId": "detective-conan-stamp-rally-2025",
-      "rallyName": "Detective Conan Stamp Rally 2025",
-      "rallyNameJa": "名探偵コナンスタンプラリー2025",
-      "validFrom": "2025-04-04",
-      "validUntil": "2025-06-22",
-      "reward": "Original Detective Pin Badge & Commemorative Smartphone Wallpaper",
-      "rewardJa": "特製ピンバッジ＆オリジナル壁紙"
+      "rallyId": "metro-commerce-20th-anniversary-stamp-rally",
+      "rallyName": "Metro Commerce 20th Anniversary Stamp Rally",
+      "rallyNameJa": "メトロコマース創立20周年スタンプラリー",
+      "validFrom": "2026-10-01",
+      "validUntil": "2026-10-31",
+      "reward": "Metro Commerce 20th Anniversary Original Sticker & Can Badge",
+      "rewardJa": "メトロコマース創立20周年 オリジナルステッカー＆特製缶バッジ"
     }
   },
   {
@@ -21264,7 +21264,16 @@
     "imageUrl": "/images/stamps/eki-metro-omotesando.jpg",
     "description": "Official Tokyo Metro commemorative railway stamp for Omote-sando Station (Ginza Line) in 港区, Tokyo. Depicts iconic local landmarks, cultural heritage, and regional railway history.",
     "source": "Funakiya Stamp Notebook (船木屋記念スタンプ帳)",
-    "sourceUrl": "https://stamp.funakiya.com/metro-omotesando.html"
+    "sourceUrl": "https://stamp.funakiya.com/metro-omotesando.html",
+    "event": {
+      "rallyId": "metro-commerce-20th-anniversary-stamp-rally",
+      "rallyName": "Metro Commerce 20th Anniversary Stamp Rally",
+      "rallyNameJa": "メトロコマース創立20周年スタンプラリー",
+      "validFrom": "2026-10-01",
+      "validUntil": "2026-10-31",
+      "reward": "Metro Commerce 20th Anniversary Original Sticker & Can Badge",
+      "rewardJa": "メトロコマース創立20周年 オリジナルステッカー＆特製缶バッジ"
+    }
   },
   {
     "id": "eki-metro-oshiage",
@@ -21504,7 +21513,16 @@
     "imageUrl": "/images/stamps/eki-metro-shinjuku.jpg",
     "description": "Official Tokyo Metro commemorative railway stamp for Shinjuku Station (Marunouchi Line) in 新宿区, Tokyo. Depicts iconic local landmarks, cultural heritage, and regional railway history.",
     "source": "Funakiya Stamp Notebook (船木屋記念スタンプ帳)",
-    "sourceUrl": "https://stamp.funakiya.com/metro-shinjuku.html"
+    "sourceUrl": "https://stamp.funakiya.com/metro-shinjuku.html",
+    "event": {
+      "rallyId": "metro-commerce-20th-anniversary-stamp-rally",
+      "rallyName": "Metro Commerce 20th Anniversary Stamp Rally",
+      "rallyNameJa": "メトロコマース創立20周年スタンプラリー",
+      "validFrom": "2026-10-01",
+      "validUntil": "2026-10-31",
+      "reward": "Metro Commerce 20th Anniversary Original Sticker & Can Badge",
+      "rewardJa": "メトロコマース創立20周年 オリジナルステッカー＆特製缶バッジ"
+    }
   },
   {
     "id": "eki-metro-shinjukugyoemmae",
@@ -21945,7 +21963,16 @@
     "imageUrl": "/images/stamps/eki-metro-tokyo.jpg",
     "description": "Official Tokyo Metro commemorative railway stamp for Tokyo Station (Marunouchi Line) in 千代田区, Tokyo. Depicts iconic local landmarks, cultural heritage, and regional railway history.",
     "source": "Funakiya Stamp Notebook (船木屋記念スタンプ帳)",
-    "sourceUrl": "https://stamp.funakiya.com/metro-tokyo.html"
+    "sourceUrl": "https://stamp.funakiya.com/metro-tokyo.html",
+    "event": {
+      "rallyId": "metro-commerce-20th-anniversary-stamp-rally",
+      "rallyName": "Metro Commerce 20th Anniversary Stamp Rally",
+      "rallyNameJa": "メトロコマース創立20周年スタンプラリー",
+      "validFrom": "2026-10-01",
+      "validUntil": "2026-10-31",
+      "reward": "Metro Commerce 20th Anniversary Original Sticker & Can Badge",
+      "rewardJa": "メトロコマース創立20周年 オリジナルステッカー＆特製缶バッジ"
+    }
   },
   {
     "id": "eki-metro-toranomon",
@@ -22071,7 +22098,16 @@
     "imageUrl": "/images/stamps/eki-metro-ueno.jpg",
     "description": "Official Tokyo Metro commemorative railway stamp for Ueno Station (Ginza Line) in 台東区, Tokyo. Depicts iconic local landmarks, cultural heritage, and regional railway history.",
     "source": "Funakiya Stamp Notebook (船木屋記念スタンプ帳)",
-    "sourceUrl": "https://stamp.funakiya.com/metro-ueno.html"
+    "sourceUrl": "https://stamp.funakiya.com/metro-ueno.html",
+    "event": {
+      "rallyId": "metro-commerce-20th-anniversary-stamp-rally",
+      "rallyName": "Metro Commerce 20th Anniversary Stamp Rally",
+      "rallyNameJa": "メトロコマース創立20周年スタンプラリー",
+      "validFrom": "2026-10-01",
+      "validUntil": "2026-10-31",
+      "reward": "Metro Commerce 20th Anniversary Original Sticker & Can Badge",
+      "rewardJa": "メトロコマース創立20周年 オリジナルステッカー＆特製缶バッジ"
+    }
   },
   {
     "id": "eki-metro-uenohirokoji",

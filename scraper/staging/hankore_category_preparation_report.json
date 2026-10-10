@@ -1,0 +1,74 @@
+{
+  "overview": {
+    "stampu_total": 3534,
+    "hankore_total_registered": 8438,
+    "hankore_active_stamps": 5782,
+    "matched_categories": 8
+  },
+  "categories": {
+    "museum": {
+      "hankore_category_name": "博物館・美術館",
+      "label": "Museums & Art Galleries",
+      "stampu_count": 30,
+      "hankore_count": 543,
+      "potential_new_candidates": 513,
+      "id_prefix": "museum-hk"
+    },
+    "tourist_info": {
+      "hankore_category_name": "観光案内所",
+      "label": "Tourist Information Centers",
+      "stampu_count": 20,
+      "hankore_count": 123,
+      "potential_new_candidates": 103,
+      "id_prefix": "info-hk"
+    },
+    "highway": {
+      "hankore_category_name": "SA・PA",
+      "label": "Highway Service & Parking Areas",
+      "stampu_count": 237,
+      "hankore_count": 569,
+      "potential_new_candidates": 332,
+      "id_prefix": "hw-hk"
+    },
+    "shop": {
+      "hankore_category_name": "店舗",
+      "label": "Concept Shops & Ateliers",
+      "stampu_count": 20,
+      "hankore_count": 496,
+      "potential_new_candidates": 476,
+      "id_prefix": "shop-hk"
+    },
+    "eki": {
+      "hankore_category_name": "駅",
+      "label": "Railway Stations (Local/Private)",
+      "stampu_count": 1124,
+      "hankore_count": 1529,
+      "potential_new_candidates": 405,
+      "id_prefix": "eki-hk"
+    },
+    "castle": {
+      "hankore_category_name": "城・史跡",
+      "label": "Castles & Historic Ruins",
+      "stampu_count": 200,
+      "hankore_count": 207,
+      "potential_new_candidates": 7,
+      "id_prefix": "castle-hk"
+    },
+    "onsen": {
+      "hankore_category_name": "温泉・入浴施設",
+      "label": "Hot Springs & Onsen Facilities",
+      "stampu_count": 60,
+      "hankore_count": 115,
+      "potential_new_candidates": 55,
+      "id_prefix": "onsen-hk"
+    },
+    "tower": {
+      "hankore_category_name": "タワー・展望台",
+      "label": "Observation Towers & Platforms",
+      "stampu_count": 22,
+      "hankore_count": 48,
+      "potential_new_candidates": 26,
+      "id_prefix": "tower-hk"
+    }
+  }
+}
