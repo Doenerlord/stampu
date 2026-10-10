@@ -1106,12 +1106,12 @@ describe('Rallies & Events Integration (Proposal 1)', () => {
     const eventStamp: Stamp = {
       ...sampleStamp,
       event: {
-        rallyId: 'jr-east-pokemon-rally-2026',
-        rallyName: 'JR East Pokémon Stamp Rally 2026',
-        rallyNameJa: 'JR東日本 ポケモンスタンプラリー2026',
-        validFrom: '2026-07-15',
-        validUntil: '2026-10-31',
-        reward: 'Special Clear File',
+        rallyId: 'pokemon-stamp-rally-2026-jr-east',
+        rallyName: 'JR East Pokémon Stamp Rally 2026 (Stage 1: Yamanote Metropolitan)',
+        rallyNameJa: 'JR東日本 ポケモンスタンプラリー2026（ステージ1）',
+        validFrom: '2026-07-16',
+        validUntil: '2026-08-31',
+        reward: 'Stage 1 Commemorative Clear File & Certificate',
       },
     };
 
@@ -1125,7 +1125,7 @@ describe('Rallies & Events Integration (Proposal 1)', () => {
 
     expect(wrapper.text()).toContain('Special Stamp Rally');
     expect(wrapper.text()).toContain('JR East Pokémon Stamp Rally 2026');
-    expect(wrapper.text()).toContain('Special Clear File');
+    expect(wrapper.text()).toContain('Stage 1 Commemorative Clear File');
 
     // Clicking View Rally emits openRalliesModal
     const viewRallyBtn = wrapper
@@ -1133,7 +1133,7 @@ describe('Rallies & Events Integration (Proposal 1)', () => {
       .find((b) => b.text().includes('View Rally'));
     expect(viewRallyBtn).toBeDefined();
     await viewRallyBtn!.trigger('click');
-    expect(wrapper.emitted('openRalliesModal')?.[0]).toEqual(['jr-east-pokemon-rally-2026']);
+    expect(wrapper.emitted('openRalliesModal')?.[0]).toEqual(['pokemon-stamp-rally-2026-jr-east']);
   });
 });
 

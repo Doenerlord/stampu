@@ -1,12 +1,47 @@
 [
   {
-    "id": "jr-east-pokemon-rally-2026",
+    "id": "tobu-museum-mitate-line-stamp-rally",
+    "title": "The Sumida Railway 'MITATE LINE' Stamp Rally",
+    "titleJa": "東武博物館・すみだ鉄道見立て線スタンプラリー",
+    "organizer": "Tobu Railway & Tobu Museum (東武鉄道・東武博物館)",
+    "description": "A commemorative railway stamp circuit celebrating the 'Mitate Line' conceptual heritage route along Sumida ward, connecting the Tobu Museum, Tokyo Skytree, and historic Asakusa.",
+    "validFrom": "2026-09-04",
+    "validUntil": "2026-12-20",
+    "stampIds": [
+      "eki-metro-asakusa",
+      "shop-aranzi-aronzo-solamachi",
+      "garden-mukojima-hyakkaen",
+      "info-asakusa-culture-tourist"
+    ],
+    "reward": "Mitate Line Commemorative Sticker & Postcard (Tobu Museum Reception)",
+    "rewardJa": "すみだ鉄道見立て線 特製記念ステッカー＆ポストカード（東武博物館受付にて進呈）",
+    "bannerGradient": "from-blue-700 via-sky-600 to-indigo-800"
+  },
+  {
+    "id": "three-venue-letterpress-stamp-rally",
+    "title": "Three-Venue Letterpress & Printing Heritage Stamp Rally",
+    "titleJa": "活版印刷 三館スタンプラリー",
+    "organizer": "Tokyo Printing & Book Arts Heritage Consortium",
+    "description": "Collect unique letterpress embossed seal stamps across Tokyo's historic printing ateliers, paper workshops, and bookstore districts in Ichigaya, Jimbocho, and Kanda.",
+    "validFrom": "2026-07-14",
+    "validUntil": "2026-10-25",
+    "stampIds": [
+      "shop-books-sanseido-jinbocho",
+      "shop-yuruliku-tokyo",
+      "shop-hobonichi-techo-tokyo"
+    ],
+    "reward": "Original Letterpress Printed Washi Bookmark (Awarded at any participating venue)",
+    "rewardJa": "特製活版印刷オリジナルしおり（各館にてプレゼント）",
+    "bannerGradient": "from-amber-700 via-stone-700 to-emerald-800"
+  },
+  {
+    "id": "pokemon-stamp-rally-2026-jr-east",
     "title": "JR East Pokémon Stamp Rally 2026 (Stage 1: Yamanote Metropolitan)",
     "titleJa": "JR東日本 ポケモンスタンプラリー2026（ステージ1）",
     "organizer": "JR East (東日本旅客鉄道)",
-    "description": "Collect 6 legendary and partner Pokémon stamps across Tokyo's busiest Yamanote and metropolitan terminal stations to complete Stage 1 and earn the exclusive commemorative clear file.",
-    "validFrom": "2026-07-15",
-    "validUntil": "2026-10-31",
+    "description": "Official 2026 summer stamp rally held across JR East terminal stations. Collecting 6 Pokémon partner and legendary stamps completes Stage 1.",
+    "validFrom": "2026-07-16",
+    "validUntil": "2026-08-31",
     "stampIds": [
       "event-pokemon-tokyo",
       "event-pokemon-shinjuku",
@@ -15,18 +50,55 @@
       "event-pokemon-akihabara",
       "event-pokemon-shinagawa"
     ],
-    "reward": "Stage 1 Commemorative Clear File & Certificate (Tokyo Station Travel Service Center)",
-    "rewardJa": "ステージ1 達成記念オリジナルクリアファイル＆認定証",
+    "reward": "Stage 1 Commemorative Clear File & Certificate (Tokyo Station JR East Travel Service Center)",
+    "rewardJa": "ステージ1 達成記念オリジナルクリアファイル＆認定証（東京駅JR East Travel Service Center）",
     "bannerGradient": "from-amber-600 via-rose-600 to-indigo-700"
   },
   {
-    "id": "tokyo-metro-conan-2026",
-    "title": "Tokyo Metro × Detective Conan Mystery Rally",
-    "titleJa": "東京メトロ×名探偵コナン ミステリースタンプラリー",
-    "organizer": "Tokyo Metro (東京地下鉄)",
-    "description": "Crack subway case clues and gather special detective casebook stamps hidden at 5 key Tokyo underground hub stations.",
-    "validFrom": "2026-08-01",
-    "validUntil": "2026-11-15",
+    "id": "tokyo-tourist-information-center-tama-stamp-rally",
+    "title": "Tokyo Tourist Information Center Tama Circuit Stamp Rally",
+    "titleJa": "東京観光情報センター多摩周遊スタンプラリー",
+    "organizer": "Tokyo Metropolitan Government (東京都産業労働局)",
+    "description": "Official Tokyo Metropolitan Government summer rally promoting tourism across western Tokyo and regional hub centers, connecting Shinjuku, Haneda Airport, Keisei Ueno, and Tachikawa.",
+    "validFrom": "2026-08-24",
+    "validUntil": "2026-09-30",
+    "stampIds": [
+      "info-tokyo-metropolitan-gov",
+      "info-jreast-shinjuku",
+      "info-tokyo-haneda-t3",
+      "info-ueno-information-center",
+      "info-jreast-tachikawa"
+    ],
+    "reward": "Tama Regional Charm Commemorative Pin Badge & Novelty Goods",
+    "rewardJa": "多摩の魅力発信 オリジナル記念ピンズ＆ノベルティ",
+    "bannerGradient": "from-teal-700 via-emerald-600 to-cyan-800"
+  },
+  {
+    "id": "saikyo-line-40th-anniversary-station-character-stamp-rally",
+    "title": "Saikyō Line 40th Anniversary Station Character Stamp Rally",
+    "titleJa": "埼京線開業40周年記念 駅キャラスタンプラリー",
+    "organizer": "JR East Omiya Branch (JR東日本 大宮支社)",
+    "description": "Commemorating 40 years of the JR Saikyō Line with mascot character stamps across key commuter terminals connecting Omiya, Akabane, Ikebukuro, Shinjuku, and Shibuya.",
+    "validFrom": "2025-09-13",
+    "validUntil": "2025-10-13",
+    "stampIds": [
+      "info-jreast-omiya",
+      "eki-yamanote-ikebukuro",
+      "eki-yamanote-shinjuku",
+      "eki-yamanote-shibuya"
+    ],
+    "reward": "Saikyō Line 40th Anniversary Station Character Sticker Sheet & Keyring",
+    "rewardJa": "埼京線40周年記念 駅キャラステッカー＆オリジナルキーホルダー",
+    "bannerGradient": "from-green-700 via-emerald-600 to-slate-800"
+  },
+  {
+    "id": "detective-conan-stamp-rally-2025",
+    "title": "Detective Conan Stamp Rally 2025",
+    "titleJa": "名探偵コナンスタンプラリー2025",
+    "organizer": "JR East (東日本旅客鉄道)",
+    "description": "Spring tie-in anime campaign celebrating the Detective Conan feature film release across major Tokyo underground and terminal hubs.",
+    "validFrom": "2025-04-04",
+    "validUntil": "2025-06-22",
     "stampIds": [
       "eki-metro-ginza",
       "eki-metro-otemachi",
@@ -34,86 +106,27 @@
       "eki-metro-ikebukuro",
       "info-tokyo-metro-shinjuku"
     ],
-    "reward": "Limited Edition Conan Detective Pin & Smartphone Wallpaper",
+    "reward": "Original Detective Pin Badge & Commemorative Smartphone Wallpaper",
     "rewardJa": "特製ピンバッジ＆オリジナル壁紙",
-    "bannerGradient": "from-blue-700 via-sky-600 to-emerald-600"
+    "bannerGradient": "from-blue-700 via-indigo-600 to-purple-800"
   },
   {
-    "id": "tokyo-heritage-gardens-autumn",
-    "title": "Tokyo Metropolitan 9 Heritage Gardens Stamp Trail",
-    "titleJa": "都立9庭園 秋のめぐりスタンプラリー",
-    "organizer": "Tokyo Metropolitan Park Association (東京都公園協会)",
-    "description": "Stroll through the Edo-period Daimyo gardens and Meiji estates of Tokyo during the autumn foliage season to collect traditional seal stamps.",
-    "validFrom": "2026-09-01",
-    "validUntil": "2026-11-30",
-    "stampIds": [
-      "garden-hamarikyu",
-      "garden-rikugien",
-      "garden-koishikawa-korakuen",
-      "garden-kyu-furukawa",
-      "garden-kiyosumi",
-      "garden-kyu-iwasaki-tei"
-    ],
-    "reward": "Traditional Japanese Washi Paper Bookmark & Tea House Voucher",
-    "rewardJa": "特製和紙しおり＆茶屋割引券",
-    "bannerGradient": "from-emerald-700 via-teal-600 to-amber-700"
-  },
-  {
-    "id": "japan-stationery-concept-tour",
-    "title": "Creative Stationery & Concept Shop Stamp Tour",
-    "titleJa": "文具とクリエイティブショップめぐり",
-    "organizer": "Japan Stationery & Lifestyle Guild",
-    "description": "A curated pilgrimage for journal lovers, travelers, and stationery collectors across Tokyo's most celebrated notebook ateliers and design shops.",
-    "validFrom": "2026-06-01",
-    "validUntil": "2026-12-31",
-    "stampIds": [
-      "shop-travelers-factory-tokyo-station",
-      "shop-hobonichi-techo-tokyo",
-      "shop-books-sanseido-jinbocho",
-      "shop-yuruliku-tokyo",
-      "shop-d47-shibuya"
-    ],
-    "reward": "Exclusive Embossed Leather Stamp Passport Sticker & Postcard Set",
-    "rewardJa": "オリジナル箔押しステッカー＆ポストカードセット",
-    "bannerGradient": "from-amber-600 via-orange-600 to-rose-700"
-  },
-  {
-    "id": "autumn-leaves-kansai-temple-tour",
-    "title": "Kansai Historic Gardens & Ancient Temples Autumn Tour",
-    "titleJa": "関西の古刹と名勝庭園 秋の特別スタンプラリー",
-    "organizer": "Kansai Tourism Promotion Council",
-    "description": "Special limited-time stamp rally celebrating peak autumn foliage across legendary cultural monuments in Kyoto, Osaka, and Okayama.",
-    "validFrom": "2026-11-05",
-    "validUntil": "2026-12-25",
-    "stampIds": [
-      "garden-okayama-korakuen",
-      "garden-ritsurin",
-      "shop-travelers-factory-kyoto",
-      "shop-tamaru-inbou-kyoto",
-      "shop-u-arts-osaka",
-      "info-obama-tourist-centre"
-    ],
-    "reward": "Autumn Momiji Silk Lucky Charm (Omamori) & Commemorative Tenugui",
-    "rewardJa": "紅葉刺繍お守り＆特製手ぬぐい",
-    "bannerGradient": "from-rose-700 via-red-600 to-amber-600"
-  },
-  {
-    "id": "tokaido-shinkansen-60th-anniversary",
-    "title": "Tōkaidō Shinkansen 60th Anniversary Memorial Rally",
-    "titleJa": "東海道新幹線 開業60周年記念スタンプラリー",
-    "organizer": "JR Central (JR東海)",
-    "description": "Celebrating 60 years of high-speed rail history from Tokyo to Osaka along the historic Tokaido trunk line.",
-    "validFrom": "2026-03-01",
-    "validUntil": "2026-09-30",
+    "id": "jr-east-train-stamp-rally-2025",
+    "title": "JR EAST Train Stamp Rally 2025",
+    "titleJa": "JR東日本 トレインスタンプラリー2025",
+    "organizer": "JR East (東日本旅客鉄道)",
+    "description": "Winter railway heritage rally celebrating famous Shinkansen and limited express rolling stock across Tokyo, Ueno, Tabata, and Yokohama stations.",
+    "validFrom": "2025-01-10",
+    "validUntil": "2025-03-03",
     "stampIds": [
       "eki-yamanote-tokyo",
-      "info-sakuragicho-station",
-      "info-shinfuji-station",
-      "info-nagoya-station",
-      "eki-kyoto"
+      "eki-yamanote-ueno",
+      "eki-yamanote-tabata",
+      "info-yokohama-station",
+      "info-jreast-ikebukuro"
     ],
-    "reward": "Series 0 Shinkansen Commemorative Metal Keyring",
-    "rewardJa": "0系新幹線 記念メタルキーホルダー",
-    "bannerGradient": "from-slate-700 via-blue-800 to-indigo-900"
+    "reward": "Train Stamp Rally Commemorative Rolling Stock Card & Pass Case",
+    "rewardJa": "トレインスタンプラリー オリジナル記念トレインカード＆パスケース",
+    "bannerGradient": "from-slate-700 via-red-800 to-amber-700"
   }
 ]
