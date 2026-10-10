@@ -40,11 +40,13 @@ def _load_cache():
 
 def _save_cache():
     os.makedirs(CACHE_DIR, exist_ok=True)
+    tmp_file = f"{CACHE_FILE}.tmp"
     try:
         with _cache_lock:
             cache_snapshot = dict(_cache)
-        with open(CACHE_FILE, "w", encoding="utf-8") as f:
+        with open(tmp_file, "w", encoding="utf-8") as f:
             json.dump(cache_snapshot, f, ensure_ascii=False, indent=2)
+        os.replace(tmp_file, CACHE_FILE)
     except Exception as e:
         print(f"[geocode_gsi] Failed to save cache: {e}")
 
