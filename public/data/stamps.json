@@ -75286,5 +75286,215 @@
     "description": "Official commemorative cultural stamp for Kigumi Museum of Traditional Timber Architecture (木組み博物館) in 新宿区, Tokyo. Depicts the institution's collection, historical heritage, and regional architecture.",
     "source": "Funakiya Stamp Notebook (旅のスタンプ帳)",
     "sourceUrl": "https://stamp.funakiya.com/kigumi-museum.html"
+  },
+  {
+    "id": "michi-iwaki-lalamew",
+    "name": "Michi-no-Eki Iwaki Lalamew",
+    "name_ja": "道の駅 いわき・ら・ら・ミュウ",
+    "name_romaji": "Michinoeki Iwaki Lalamew",
+    "category": "michinoeki",
+    "prefecture": "Fukushima",
+    "city": "いわき市",
+    "address": "福島県いわき市小名浜字辰巳町43-1",
+    "coordinates": [
+      140.903778,
+      36.945614
+    ],
+    "stampLocation": "館内案内所前 (In front of Information Desk inside facility)",
+    "hours": "09:00 - 18:00",
+    "operator": "いわき観光まちづくりビューロー (Iwaki Tourism & City Planning Bureau)",
+    "description": "Official Michi-no-Eki and maritime fish market pavilion at Onahama Port in Iwaki, Fukushima. Features local seafood, cruise terminal seals, and Pacific coastal culture.",
+    "imageUrl": "/images/stamps/michi-iwaki-lalamew.svg",
+    "source": "Japan Castle Foundation / MLIT Michi-no-Eki Registry",
+    "sourceUrl": "https://www.mlit.go.jp/road/Michi-no-Eki/"
+  },
+  {
+    "id": "michi-creva-okuma",
+    "name": "Michi-no-Eki CREVA Okuma",
+    "name_ja": "道の駅 CREVAおおくま",
+    "name_romaji": "Michinoeki CREVA Okuma",
+    "category": "michinoeki",
+    "prefecture": "Fukushima",
+    "city": "大熊町",
+    "address": "福島県双葉郡大熊町大川原字南平1207-1",
+    "coordinates": [
+      140.952087,
+      37.382942
+    ],
+    "stampLocation": "地域振興施設エントランス (Regional Promotion Facility Entrance)",
+    "hours": "09:00 - 18:00",
+    "operator": "大熊町産業交流施設管理組合",
+    "description": "Official regional revitalisation and community gateway station in Okuma, Fukushima. Connects agricultural markets, cultural workshops, and Futaba district travel.",
+    "imageUrl": "/images/stamps/michi-creva-okuma.svg",
+    "source": "Japan Castle Foundation / MLIT Michi-no-Eki Registry",
+    "sourceUrl": "https://www.mlit.go.jp/road/Michi-no-Eki/"
+  },
+  {
+    "id": "michi-251-iimori",
+    "name": "Michi-no-Eki 251 Iimori Jaga Road",
+    "name_ja": "道の駅 251いいもり",
+    "name_romaji": "Michinoeki 251 Iimori",
+    "category": "michinoeki",
+    "prefecture": "Nagasaki",
+    "city": "諫早市",
+    "address": "長崎県諫早市飯盛町平古場",
+    "coordinates": [
+      130.009979,
+      32.791618
+    ],
+    "stampLocation": "物産館中央インフォメーション (Direct Sales Center Central Information Desk)",
+    "hours": "09:00 - 18:00",
+    "operator": "諫早市農協 / 飯盛振興公社",
+    "description": "Official coastal roadside station along National Route 251 in Isahaya, Nagasaki. Celebrated for Ariake Sea panoramas, local potato farming heritage, and regional delicacies.",
+    "imageUrl": "/images/stamps/michi-251-iimori.svg",
+    "source": "Japan Castle Foundation / MLIT Michi-no-Eki Registry",
+    "sourceUrl": "https://www.mlit.go.jp/road/Michi-no-Eki/"
+  },
+  {
+    "id": "castle-extra-kiyosu",
+    "name": "Kiyosu Castle",
+    "name_ja": "清洲城",
+    "name_romaji": "Kiyosu-jo",
+    "category": "castle",
+    "prefecture": "Aichi",
+    "city": "清須市",
+    "address": "愛知県清須市朝日城屋敷1-1",
+    "coordinates": [
+      136.843201,
+      35.21703
+    ],
+    "stampLocation": "天守閣1階受付カウンター (Castle Keep 1F Reception Desk)",
+    "hours": "09:00 - 16:30 (Closed Mondays)",
+    "operator": "清須市観光協会 (Kiyosu City Tourism Association)",
+    "description": "Oda Nobunaga's pivotal departure castle and the historic site of the 1582 Kiyosu Conference. Features a rebuilt tenshu keep overlooking the Gojo River and samurai armor exhibits.",
+    "imageUrl": "/images/stamps/castle-extra-kiyosu.svg",
+    "source": "Japan Castle Foundation / MLIT Michi-no-Eki Registry",
+    "sourceUrl": "https://jokaku.jp/"
+  },
+  {
+    "id": "castle-extra-fushimi-momoyama",
+    "name": "Fushimi Momoyama Castle",
+    "name_ja": "伏見桃山城",
+    "name_romaji": "Fushimi-Momoyama-jo",
+    "category": "castle",
+    "prefecture": "Kyoto",
+    "city": "京都市伏見区",
+    "address": "京都府京都市伏見区桃山町大蔵45",
+    "coordinates": [
+      135.778748,
+      34.940216
+    ],
+    "stampLocation": "伏見桃山城運動公園管理事務所 (Castle Park Management Office)",
+    "hours": "09:00 - 17:00",
+    "operator": "京都市都市緑化協会 (Kyoto City Greenery Association)",
+    "description": "Toyotomi Hideyoshi's monumental palace fortress on Momoyama hill in southern Kyoto. The impressive 5-story reconstructed keep stands amidst cherry blossom orchards.",
+    "imageUrl": "/images/stamps/castle-extra-fushimi-momoyama.svg",
+    "source": "Japan Castle Foundation / MLIT Michi-no-Eki Registry",
+    "sourceUrl": "https://jokaku.jp/"
+  },
+  {
+    "id": "castle-extra-shigisan",
+    "name": "Shigisan Castle Ruins",
+    "name_ja": "信貴山城跡",
+    "name_romaji": "Shigisan-jo",
+    "category": "castle",
+    "prefecture": "Nara",
+    "city": "平群町",
+    "address": "奈良県生駒郡平群町信貴山",
+    "coordinates": [
+      135.669937,
+      34.609753
+    ],
+    "stampLocation": "信貴山観光案内所 (Shigisan Tourist Information Center)",
+    "hours": "09:00 - 17:00",
+    "operator": "平群町観光振興課 (Heguri Town Tourism Promotion Division)",
+    "description": "Formidable mountain castle constructed by Sengoku warlord Matsunaga Hisahide atop Mount Shigi. Preserves extensive earthwork ramparts, dry moats, and Buddhist pilgrim seals.",
+    "imageUrl": "/images/stamps/castle-extra-shigisan.svg",
+    "source": "Japan Castle Foundation / MLIT Michi-no-Eki Registry",
+    "sourceUrl": "https://jokaku.jp/"
+  },
+  {
+    "id": "castle-extra-yagyu",
+    "name": "Yagyu Castle & Jinei Ruins",
+    "name_ja": "柳生城・柳生陣屋跡",
+    "name_romaji": "Yagyu-jo",
+    "category": "castle",
+    "prefecture": "Nara",
+    "city": "奈良市",
+    "address": "奈良県奈良市柳生町325",
+    "coordinates": [
+      135.955124,
+      34.727951
+    ],
+    "stampLocation": "柳生観光案内所 (Yagyu Tourist Information Center)",
+    "hours": "09:00 - 17:00",
+    "operator": "奈良市観光協会 (Nara City Tourism Association)",
+    "description": "Ancestral mountain castle and administrative seat of the celebrated Yagyu clan, masters of the Shinkage-ryu swordsmanship style and instructors to the Tokugawa Shoguns.",
+    "imageUrl": "/images/stamps/castle-extra-yagyu.svg",
+    "source": "Japan Castle Foundation / MLIT Michi-no-Eki Registry",
+    "sourceUrl": "https://jokaku.jp/"
+  },
+  {
+    "id": "castle-extra-jinnouchi",
+    "name": "Jinnouchi Castle Ruins",
+    "name_ja": "陣ノ内城跡",
+    "name_romaji": "Jinnouchi-jo",
+    "category": "castle",
+    "prefecture": "Kumamoto",
+    "city": "甲佐町",
+    "address": "熊本県上益城郡甲佐町陣ノ内",
+    "coordinates": [
+      130.811234,
+      32.651173
+    ],
+    "stampLocation": "甲佐町交流拠点施設 / 観光案内デスク",
+    "hours": "09:00 - 17:00",
+    "operator": "甲佐町観光協会 (Kosa Town Tourism Association)",
+    "description": "Historic medieval castle site registered in central Kyushu. Preserves defensive earthwork bastions and regional warrior clan chronicles along the Midorikawa valley.",
+    "imageUrl": "/images/stamps/castle-extra-jinnouchi.svg",
+    "source": "Japan Castle Foundation / MLIT Michi-no-Eki Registry",
+    "sourceUrl": "https://jokaku.jp/"
+  },
+  {
+    "id": "castle-extra-yamakata",
+    "name": "Yamakata Castle Ruins & Observatory",
+    "name_ja": "山方城跡・御城展望台",
+    "name_romaji": "Yamakata-jo",
+    "category": "castle",
+    "prefecture": "Ibaraki",
+    "city": "常陸大宮市",
+    "address": "茨城県常陸大宮市山方822",
+    "coordinates": [
+      140.383957,
+      36.626686
+    ],
+    "stampLocation": "御城展望台 1階受付 (Observatory Keep 1F Reception)",
+    "hours": "09:00 - 16:30",
+    "operator": "常陸大宮市観光協会 (Hitachiomiya City Tourism Association)",
+    "description": "Historic cliff fortress ruin with an authentic wooden-style observation castle keep overlooking the Kuji River valley. Celebrated for spring azaleas and panoramic autumn views.",
+    "imageUrl": "/images/stamps/castle-extra-yamakata.svg",
+    "source": "Japan Castle Foundation / MLIT Michi-no-Eki Registry",
+    "sourceUrl": "https://jokaku.jp/"
+  },
+  {
+    "id": "castle-extra-azuchi-museum",
+    "name": "Azuchi Castle Archaeological Museum",
+    "name_ja": "安土城郭資料館",
+    "name_romaji": "Azuchi-Jokaku-Shiriyokan",
+    "category": "castle",
+    "prefecture": "Shiga",
+    "city": "近江八幡市",
+    "address": "滋賀県近江八幡市安土町小中700",
+    "coordinates": [
+      136.133453,
+      35.14201
+    ],
+    "stampLocation": "資料館エントランス受付 (Museum Entrance Counter)",
+    "hours": "09:00 - 17:00",
+    "operator": "近江八幡市安土町文化財振興課",
+    "description": "Dedicated archaeological and castle research pavilion at JR Azuchi Station. Features a 1:20 cross-section reconstruction of Oda Nobunaga's Azuchi Castle tenshu and authentic seals.",
+    "imageUrl": "/images/stamps/castle-extra-azuchi-museum.svg",
+    "source": "Japan Castle Foundation / MLIT Michi-no-Eki Registry",
+    "sourceUrl": "https://jokaku.jp/"
   }
 ]
