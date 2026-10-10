@@ -253,6 +253,13 @@ function handleExitRallyFocus() {
 function handleOpenRalliesModal(_rallyId?: string) {
   isRalliesModalOpen.value = true;
 }
+
+function handleSelectStampFromRally(stamp: Stamp) {
+  isRalliesModalOpen.value = false;
+  selectedStamp.value = stamp;
+  isDrawerOpen.value = true;
+  handleFocusMap(stamp.coordinates);
+}
 </script>
 
 <template>
@@ -409,7 +416,8 @@ function handleOpenRalliesModal(_rallyId?: string) {
       :active-rally-id="activeRallyId"
       @close="isRalliesModalOpen = false"
       @select-rally="handleSelectRally"
-      @select-stamp="handleSelectStamp"
+      @select-stamp="handleSelectStampFromRally"
+      @toggle-collected="handleToggleCollected"
       @exit-rally-focus="handleExitRallyFocus"
     />
   </div>

@@ -74385,5 +74385,179 @@
     "description": "Japan Stamp Hunt 特集: unwind-hotel-and-bar-sapporo-（unwind-hotel-and-bar-sapporo-）の公式記念スタンプ。旅の記念やスタンプ帳のコレクションに最適な常設スタンプスポットです。",
     "source": "Japan Stamp Hunt",
     "sourceUrl": "https://japan-stamp-hunt.com/stamps/dormy-inn-ueno-stamp/"
+  },
+  {
+    "id": "event-pokemon-tokyo",
+    "name": "Tokyo Station (Pikachu & Terapagos)",
+    "name_ja": "東京駅（ピカチュウ＆テラパゴス）",
+    "name_romaji": "Tōkyō-eki (Pikachū & Terapagosu)",
+    "category": "eki",
+    "prefecture": "Tokyo",
+    "city": "Chiyoda-ku",
+    "address": "1-chome Marunouchi, Chiyoda City, Tokyo 100-0005",
+    "coordinates": [
+      139.7671,
+      35.6812
+    ],
+    "stampLocation": "Marunouchi Underground Central Exit, outside ticket gates near JR East Travel Service Center",
+    "hours": "09:30 - 20:00 (during rally period)",
+    "operator": "JR East (東日本旅客鉄道)",
+    "description": "Special 2026 commemorative Pokémon Stamp Rally stamp featuring Pikachu and the legendary Pokémon Terapagos.",
+    "imageUrl": "/images/stamps/event-pokemon-tokyo.png",
+    "isTemporary": true,
+    "event": {
+      "rallyId": "jr-east-pokemon-rally-2026",
+      "rallyName": "JR East Pokémon Stamp Rally 2026 (Stage 1)",
+      "rallyNameJa": "JR東日本 ポケモンスタンプラリー2026",
+      "validFrom": "2026-07-15",
+      "validUntil": "2026-10-31",
+      "reward": "Stage 1 Commemorative Clear File & Certificate (Tokyo Station Travel Service Center)",
+      "rewardJa": "ステージ1 達成記念オリジナルクリアファイル＆認定証"
+    }
+  },
+  {
+    "id": "event-pokemon-shinjuku",
+    "name": "Shinjuku Station (Charizard)",
+    "name_ja": "新宿駅（リザードン）",
+    "name_romaji": "Shinjuku-eki (Rizādon)",
+    "category": "eki",
+    "prefecture": "Tokyo",
+    "city": "Shinjuku-ku",
+    "address": "3-chome Shinjuku, Shinjuku City, Tokyo 160-0022",
+    "coordinates": [
+      139.7005,
+      35.6897
+    ],
+    "stampLocation": "East Exit, outside ticket gates near the concourse",
+    "hours": "09:30 - 20:00 (during rally period)",
+    "operator": "JR East (東日本旅客鉄道)",
+    "description": "Special 2026 commemorative Pokémon Stamp Rally stamp featuring the fiery fan-favorite Charizard.",
+    "imageUrl": "/images/stamps/event-pokemon-shinjuku.png",
+    "isTemporary": true,
+    "event": {
+      "rallyId": "jr-east-pokemon-rally-2026",
+      "rallyName": "JR East Pokémon Stamp Rally 2026 (Stage 1)",
+      "rallyNameJa": "JR東日本 ポケモンスタンプラリー2026",
+      "validFrom": "2026-07-15",
+      "validUntil": "2026-10-31",
+      "reward": "Stage 1 Commemorative Clear File & Certificate (Tokyo Station Travel Service Center)",
+      "rewardJa": "ステージ1 達成記念オリジナルクリアファイル＆認定証"
+    }
+  },
+  {
+    "id": "event-pokemon-ikebukuro",
+    "name": "Ikebukuro Station (Meowscarada)",
+    "name_ja": "池袋駅（マスカーニャ）",
+    "name_romaji": "Ikebukuro-eki (Masukānya)",
+    "category": "eki",
+    "prefecture": "Tokyo",
+    "city": "Toshima-ku",
+    "address": "1-chome Minamiikebukuro, Toshima City, Tokyo 171-0022",
+    "coordinates": [
+      139.7107,
+      35.7295
+    ],
+    "stampLocation": "South Exit, outside ticket gates near the Orange Road passage",
+    "hours": "09:30 - 20:00 (during rally period)",
+    "operator": "JR East (東日本旅客鉄道)",
+    "description": "Special 2026 commemorative Pokémon Stamp Rally stamp featuring the Paldean partner Pokémon Meowscarada.",
+    "imageUrl": "/images/stamps/event-pokemon-ikebukuro.png",
+    "isTemporary": true,
+    "event": {
+      "rallyId": "jr-east-pokemon-rally-2026",
+      "rallyName": "JR East Pokémon Stamp Rally 2026 (Stage 1)",
+      "rallyNameJa": "JR東日本 ポケモンスタンプラリー2026",
+      "validFrom": "2026-07-15",
+      "validUntil": "2026-10-31",
+      "reward": "Stage 1 Commemorative Clear File & Certificate (Tokyo Station Travel Service Center)",
+      "rewardJa": "ステージ1 達成記念オリジナルクリアファイル＆認定証"
+    }
+  },
+  {
+    "id": "event-pokemon-ueno",
+    "name": "Ueno Station (Lucario)",
+    "name_ja": "上野駅（ルカリオ）",
+    "name_romaji": "Ueno-eki (Rukario)",
+    "category": "eki",
+    "prefecture": "Tokyo",
+    "city": "Taito-ku",
+    "address": "7-chome Ueno, Taito City, Tokyo 110-0005",
+    "coordinates": [
+      139.7772,
+      35.7141
+    ],
+    "stampLocation": "Central Gate (Grand Concourse), outside ticket gate near the Hirokoji Exit",
+    "hours": "09:30 - 20:00 (during rally period)",
+    "operator": "JR East (東日本旅客鉄道)",
+    "description": "Special 2026 commemorative Pokémon Stamp Rally stamp featuring the aura Pokémon Lucario.",
+    "imageUrl": "/images/stamps/event-pokemon-ueno.png",
+    "isTemporary": true,
+    "event": {
+      "rallyId": "jr-east-pokemon-rally-2026",
+      "rallyName": "JR East Pokémon Stamp Rally 2026 (Stage 1)",
+      "rallyNameJa": "JR東日本 ポケモンスタンプラリー2026",
+      "validFrom": "2026-07-15",
+      "validUntil": "2026-10-31",
+      "reward": "Stage 1 Commemorative Clear File & Certificate (Tokyo Station Travel Service Center)",
+      "rewardJa": "ステージ1 達成記念オリジナルクリアファイル＆認定証"
+    }
+  },
+  {
+    "id": "event-pokemon-akihabara",
+    "name": "Akihabara Station (Gengar)",
+    "name_ja": "秋葉原駅（ゲンガー）",
+    "name_romaji": "Akihabara-eki (Gengā)",
+    "category": "eki",
+    "prefecture": "Tokyo",
+    "city": "Chiyoda-ku",
+    "address": "1-chome Sotokanda, Chiyoda City, Tokyo 101-0021",
+    "coordinates": [
+      139.7731,
+      35.6983
+    ],
+    "stampLocation": "Electric Town Gate, outside ticket gates near the plaza",
+    "hours": "09:30 - 20:00 (during rally period)",
+    "operator": "JR East (東日本旅客鉄道)",
+    "description": "Special 2026 commemorative Pokémon Stamp Rally stamp featuring the mischievous shadow Pokémon Gengar.",
+    "imageUrl": "/images/stamps/event-pokemon-akihabara.png",
+    "isTemporary": true,
+    "event": {
+      "rallyId": "jr-east-pokemon-rally-2026",
+      "rallyName": "JR East Pokémon Stamp Rally 2026 (Stage 1)",
+      "rallyNameJa": "JR東日本 ポケモンスタンプラリー2026",
+      "validFrom": "2026-07-15",
+      "validUntil": "2026-10-31",
+      "reward": "Stage 1 Commemorative Clear File & Certificate (Tokyo Station Travel Service Center)",
+      "rewardJa": "ステージ1 達成記念オリジナルクリアファイル＆認定証"
+    }
+  },
+  {
+    "id": "event-pokemon-shinagawa",
+    "name": "Shinagawa Station (Quaquaval)",
+    "name_ja": "品川駅（ウェーニバル）",
+    "name_romaji": "Shinagawa-eki (Wēnibaru)",
+    "category": "eki",
+    "prefecture": "Tokyo",
+    "city": "Minato-ku",
+    "address": "3-chome Takanawa, Minato City, Tokyo 108-0074",
+    "coordinates": [
+      139.7388,
+      35.6285
+    ],
+    "stampLocation": "Central Gate, outside ticket gates on the Rainbow Concourse",
+    "hours": "09:30 - 20:00 (during rally period)",
+    "operator": "JR East (東日本旅客鉄道)",
+    "description": "Special 2026 commemorative Pokémon Stamp Rally stamp featuring the dancing water partner Pokémon Quaquaval.",
+    "imageUrl": "/images/stamps/event-pokemon-shinagawa.png",
+    "isTemporary": true,
+    "event": {
+      "rallyId": "jr-east-pokemon-rally-2026",
+      "rallyName": "JR East Pokémon Stamp Rally 2026 (Stage 1)",
+      "rallyNameJa": "JR東日本 ポケモンスタンプラリー2026",
+      "validFrom": "2026-07-15",
+      "validUntil": "2026-10-31",
+      "reward": "Stage 1 Commemorative Clear File & Certificate (Tokyo Station Travel Service Center)",
+      "rewardJa": "ステージ1 達成記念オリジナルクリアファイル＆認定証"
+    }
   }
 ]

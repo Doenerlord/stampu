@@ -8,12 +8,12 @@
     "validFrom": "2026-07-15",
     "validUntil": "2026-10-31",
     "stampIds": [
-      "eki-yamanote-tokyo",
-      "eki-yamanote-shinjuku",
-      "eki-yamanote-ikebukuro",
-      "eki-yamanote-ueno",
-      "eki-yamanote-akihabara",
-      "eki-yamanote-shinagawa"
+      "event-pokemon-tokyo",
+      "event-pokemon-shinjuku",
+      "event-pokemon-ikebukuro",
+      "event-pokemon-ueno",
+      "event-pokemon-akihabara",
+      "event-pokemon-shinagawa"
     ],
     "reward": "Stage 1 Commemorative Clear File & Certificate (Tokyo Station Travel Service Center)",
     "rewardJa": "ステージ1 達成記念オリジナルクリアファイル＆認定証",

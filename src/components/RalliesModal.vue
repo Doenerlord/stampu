@@ -10,6 +10,10 @@ import {
   Calendar,
   Sparkles,
   Trophy,
+  ZoomIn,
+  MapPin,
+  Layers,
+  List,
 } from 'lucide-vue-next';
 
 const props = defineProps<{
@@ -24,10 +28,30 @@ const emit = defineEmits<{
   (e: 'close'): void;
   (e: 'selectRally', rally: StampRally): void;
   (e: 'selectStamp', stamp: Stamp): void;
+  (e: 'toggleCollected', stampId: string): void;
   (e: 'exitRallyFocus'): void;
 }>();
 
 const activeTab = ref<'active' | 'upcoming' | 'archived'>('active');
+const viewModes = ref<Record<string, 'passport' | 'list'>>({});
+const selectedPreviewStamp = ref<Stamp | null>(null);
+
+function getViewMode(rallyId: string): 'passport' | 'list' {
+  return viewModes.value[rallyId] || 'passport';
+}
+
+function setViewMode(rallyId: string, mode: 'passport' | 'list') {
+  viewModes.value[rallyId] = mode;
+}
+
+function handlePreviewStamp(stamp: Stamp) {
+  selectedPreviewStamp.value = stamp;
+}
+
+function handleGoToStampOnMap(stamp: Stamp) {
+  selectedPreviewStamp.value = null;
+  emit('selectStamp', stamp);
+}
 
 // Stamp ID lookup map
 const stampMap = computed(() => {
@@ -319,26 +343,128 @@ function getRallyProgress(rally: StampRally) {
               </div>
             </div>
 
-            <!-- Station Stamps Preview (Collapsible / Chips) -->
-            <div class="space-y-1.5 pt-1">
-              <span class="text-[11px] font-medium text-slate-400 block">
-                Rally Stations ({{ rally.stampIds.length }} spots):
-              </span>
-              <div class="grid grid-cols-1 sm:grid-cols-2 gap-1.5">
-                <button
+            <!-- Station Stamps Section with Passport / List Toggle -->
+            <div class="space-y-2 pt-1">
+              <div class="flex items-center justify-between">
+                <span class="text-[11px] font-bold text-slate-300 block">
+                  Rally Stamps & Motifs ({{ rally.stampIds.length }} spots):
+                </span>
+                <div class="flex items-center gap-1 bg-slate-900/80 p-0.5 rounded-lg border border-slate-800 text-[10px]">
+                  <button
+                    type="button"
+                    @click="setViewMode(rally.id, 'passport')"
+                    :class="[
+                      'px-2 py-0.5 rounded-md flex items-center gap-1 font-semibold transition-all',
+                      getViewMode(rally.id) === 'passport'
+                        ? 'bg-rose-600 text-white shadow-xs'
+                        : 'text-slate-400 hover:text-slate-200'
+                    ]"
+                  >
+                    <Layers class="w-3 h-3" />
+                    <span>Passport (台紙)</span>
+                  </button>
+                  <button
+                    type="button"
+                    @click="setViewMode(rally.id, 'list')"
+                    :class="[
+                      'px-2 py-0.5 rounded-md flex items-center gap-1 font-semibold transition-all',
+                      getViewMode(rally.id) === 'list'
+                        ? 'bg-rose-600 text-white shadow-xs'
+                        : 'text-slate-400 hover:text-slate-200'
+                    ]"
+                  >
+                    <List class="w-3 h-3" />
+                    <span>List</span>
+                  </button>
+                </div>
+              </div>
+
+              <!-- PASSPORT / GALLERY MODE (台紙 - Large Stamp Mounts) -->
+              <div
+                v-if="getViewMode(rally.id) === 'passport'"
+                class="grid grid-cols-2 sm:grid-cols-3 gap-2.5"
+              >
+                <div
                   v-for="sid in rally.stampIds"
                   :key="sid"
-                  type="button"
-                  @click="stampMap.get(sid) && $emit('selectStamp', stampMap.get(sid)!)"
-                  class="flex items-center gap-2 p-1.5 rounded-lg bg-slate-900/50 hover:bg-slate-800/80 border border-slate-800 text-left transition-colors group"
+                  @click="stampMap.get(sid) && handlePreviewStamp(stampMap.get(sid)!)"
+                  class="bg-stone-50 text-stone-900 rounded-2xl p-2.5 border-2 border-stone-200 shadow-sm relative group cursor-pointer hover:ring-2 hover:ring-rose-400 hover:shadow-md transition-all flex flex-col items-center justify-between min-h-[140px]"
                 >
-                  <!-- Stamp Image Thumbnail or Placeholder -->
-                  <div class="w-7 h-7 rounded-md overflow-hidden bg-slate-800 border border-slate-700 flex-shrink-0 flex items-center justify-center">
+                  <!-- Stamp Image Area -->
+                  <div class="w-20 h-20 sm:w-24 sm:h-24 flex items-center justify-center p-1 relative flex-shrink-0">
                     <img
                       v-if="stampMap.get(sid)?.imageUrl"
                       :src="stampMap.get(sid)!.imageUrl"
                       :alt="stampMap.get(sid)!.name"
-                      class="w-full h-full object-cover"
+                      class="max-w-full max-h-full object-contain filter drop-shadow-xs group-hover:scale-105 transition-transform select-none"
+                      loading="lazy"
+                    />
+                    <div
+                      v-else
+                      class="w-full h-full rounded-xl border-2 border-dashed border-red-500 flex flex-col items-center justify-center text-red-600"
+                    >
+                      <span class="text-[9px] font-bold font-serif leading-none">記念印</span>
+                    </div>
+
+                    <!-- Diagonal Collected "済" Seal Overlay -->
+                    <div
+                      v-if="visitedStampIds.has(sid)"
+                      class="absolute bottom-1 right-1 bg-emerald-600/95 text-white text-[8px] font-bold px-1.5 py-0.5 rounded shadow border border-white/80 rotate-[-12deg] tracking-wider font-serif flex items-center gap-0.5 pointer-events-none"
+                    >
+                      <span>済</span>
+                      <span class="text-[6px]">COLLECTED</span>
+                    </div>
+
+                    <!-- Zoom Icon on Hover -->
+                    <div class="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity rounded-xl">
+                      <ZoomIn class="w-5 h-5 text-white drop-shadow-md" />
+                    </div>
+                  </div>
+
+                  <!-- Stamp Name and Details -->
+                  <div class="w-full text-center mt-1">
+                    <div class="text-[11px] font-bold text-stone-900 truncate leading-tight group-hover:text-rose-600 transition-colors">
+                      {{ stampMap.get(sid)?.name || sid }}
+                    </div>
+                    <div class="text-[9px] text-stone-500 font-serif truncate mt-0.5">
+                      {{ stampMap.get(sid)?.name_ja }}
+                    </div>
+                  </div>
+
+                  <!-- Collected Status Pill -->
+                  <div class="mt-1 flex items-center justify-center w-full">
+                    <span
+                      v-if="visitedStampIds.has(sid)"
+                      class="text-[9px] font-bold text-emerald-800 bg-emerald-100 px-2 py-0.2 rounded-full border border-emerald-300 flex items-center gap-1"
+                    >
+                      <CheckCircle2 class="w-2.5 h-2.5 text-emerald-600" />
+                      <span>Collected</span>
+                    </span>
+                    <span
+                      v-else
+                      class="text-[9px] font-medium text-stone-500 bg-stone-200/80 px-2 py-0.2 rounded-full"
+                    >
+                      To Find
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- COMPACT LIST MODE -->
+              <div v-else class="grid grid-cols-1 sm:grid-cols-2 gap-1.5">
+                <button
+                  v-for="sid in rally.stampIds"
+                  :key="sid"
+                  type="button"
+                  @click="stampMap.get(sid) && handlePreviewStamp(stampMap.get(sid)!)"
+                  class="flex items-center gap-2 p-1.5 rounded-lg bg-slate-900/50 hover:bg-slate-800/80 border border-slate-800 text-left transition-colors group"
+                >
+                  <div class="w-8 h-8 rounded-md overflow-hidden bg-stone-100 border border-slate-700 flex-shrink-0 flex items-center justify-center p-0.5">
+                    <img
+                      v-if="stampMap.get(sid)?.imageUrl"
+                      :src="stampMap.get(sid)!.imageUrl"
+                      :alt="stampMap.get(sid)!.name"
+                      class="w-full h-full object-contain"
                       loading="lazy"
                     />
                     <Flag v-else class="w-3.5 h-3.5 text-slate-400" />
@@ -390,6 +516,90 @@ function getRallyProgress(rally: StampRally) {
               </button>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Stamp Motif Lightbox Modal (Zoom & Location Details) -->
+    <div
+      v-if="selectedPreviewStamp"
+      class="fixed inset-0 z-[60] flex items-center justify-center p-4 bg-slate-950/85 backdrop-blur-md animate-in fade-in duration-200"
+      @click="selectedPreviewStamp = null"
+    >
+      <div
+        class="relative max-w-sm sm:max-w-md w-full bg-stone-50 rounded-3xl p-5 shadow-2xl border-4 border-stone-200 flex flex-col items-center gap-3 animate-in zoom-in-95 duration-200 text-stone-900"
+        @click.stop
+      >
+        <button
+          type="button"
+          @click="selectedPreviewStamp = null"
+          class="absolute top-3 right-3 p-2 text-stone-500 hover:text-stone-900 bg-stone-200/80 hover:bg-stone-300 rounded-full transition-colors"
+          aria-label="Close preview"
+        >
+          <X class="w-5 h-5" />
+        </button>
+
+        <div class="text-center w-full">
+          <div class="text-[10px] uppercase tracking-widest font-bold text-stone-500">
+            Rally Stamp Motif (記念スタンプ)
+          </div>
+          <h3 class="text-base sm:text-lg font-bold text-stone-900 leading-snug mt-0.5">
+            {{ selectedPreviewStamp.name }}
+          </h3>
+          <div class="text-xs text-stone-600 font-serif">
+            {{ selectedPreviewStamp.name_ja }} • {{ selectedPreviewStamp.prefecture }}
+          </div>
+        </div>
+
+        <!-- Big Stamp Image Mount -->
+        <div class="w-44 h-44 sm:w-52 sm:h-52 bg-white rounded-2xl p-2 shadow-inner border border-stone-200 flex items-center justify-center overflow-hidden relative">
+          <img
+            v-if="selectedPreviewStamp.imageUrl"
+            :src="selectedPreviewStamp.imageUrl"
+            :alt="selectedPreviewStamp.name"
+            class="max-w-full max-h-full object-contain filter drop-shadow-md select-none"
+          />
+          <div
+            v-if="visitedStampIds.has(selectedPreviewStamp.id)"
+            class="absolute bottom-2 right-2 bg-emerald-600 text-white text-[10px] font-bold px-2 py-0.5 rounded shadow border border-white rotate-[-12deg] tracking-wider font-serif"
+          >
+            済 COLLECTED
+          </div>
+        </div>
+
+        <!-- Stamp Desk Location Callout -->
+        <div class="w-full bg-amber-50 border border-amber-300 rounded-xl p-2.5 text-xs text-amber-900">
+          <div class="flex items-center gap-1.5 font-bold text-[10px] text-amber-800 uppercase tracking-wider mb-0.5">
+            <MapPin class="w-3.5 h-3.5" />
+            <span>Stamp Desk (設置場所)</span>
+          </div>
+          <p class="leading-tight">{{ selectedPreviewStamp.stampLocation }}</p>
+        </div>
+
+        <!-- Modal Actions -->
+        <div class="flex items-center gap-2 w-full pt-1">
+          <button
+            type="button"
+            @click="$emit('toggleCollected', selectedPreviewStamp.id)"
+            :class="[
+              'flex-1 py-2 px-3 rounded-xl text-xs font-bold transition-all flex items-center justify-center gap-1.5 shadow-sm',
+              visitedStampIds.has(selectedPreviewStamp.id)
+                ? 'bg-emerald-600 hover:bg-emerald-700 text-white'
+                : 'bg-stone-800 hover:bg-stone-900 text-white'
+            ]"
+          >
+            <CheckCircle2 class="w-4 h-4" />
+            <span>{{ visitedStampIds.has(selectedPreviewStamp.id) ? 'Collected! (済)' : 'I Stamped This!' }}</span>
+          </button>
+
+          <button
+            type="button"
+            @click="handleGoToStampOnMap(selectedPreviewStamp)"
+            class="py-2 px-4 rounded-xl text-xs font-bold bg-rose-600 hover:bg-rose-700 text-white transition-all flex items-center justify-center gap-1.5 shadow-sm"
+          >
+            <Compass class="w-4 h-4" />
+            <span>Show on Map</span>
+          </button>
         </div>
       </div>
     </div>
