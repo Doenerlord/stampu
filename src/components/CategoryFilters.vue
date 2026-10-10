@@ -29,6 +29,7 @@ import {
   Info,
   ZoomIn,
   ShieldCheck,
+  Bath,
 } from 'lucide-vue-next';
 import AskStaffModal from './AskStaffModal.vue';
 import StampSourceModal from './StampSourceModal.vue';
@@ -93,6 +94,7 @@ const iconMap = {
   Castle,
   Sparkles,
   Radio,
+  Bath,
 };
 
 const searchInputRef = ref<HTMLInputElement | null>(null);

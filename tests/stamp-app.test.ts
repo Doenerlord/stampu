@@ -105,7 +105,7 @@ const sampleStamp: Stamp = {
 };
 
 describe('Stamp Dataset (public/data/stamps.json)', () => {
-  it('contains valid stamps spanning all 6 categories', () => {
+  it('contains valid stamps spanning all 7 categories', () => {
     const raw = fs.readFileSync(path.resolve(__dirname, '../public/data/stamps.json'), 'utf-8');
     const stamps: Stamp[] = JSON.parse(raw);
 
@@ -118,6 +118,7 @@ describe('Stamp Dataset (public/data/stamps.json)', () => {
     expect(categories.has('castle')).toBe(true);
     expect(categories.has('temple_shrine')).toBe(true);
     expect(categories.has('tower')).toBe(true);
+    expect(categories.has('onsen')).toBe(true);
 
     for (const stamp of stamps) {
       expect(stamp.id).toBeTruthy();
@@ -436,6 +437,34 @@ describe('Stamp Provenance & Source Details (source.ts & StampSourceModal)', () 
     const ekiDetails = getStampSourceDetails(sampleStamp);
     expect(ekiDetails.registry).toContain('Funakiya');
     expect(ekiDetails.operator).toBe('JR East');
+
+    // Onsen & Ryokan source resolution (Takimotokan & Hitō)
+    const takimotokanStamp: Stamp = {
+      ...sampleStamp,
+      id: 'onsen-noboribetsu-takimotokan',
+      name: 'Dai-ichi Takimotokan',
+      category: 'onsen',
+      source: 'Dai-ichi Takimotokan Official Souvenir Stamp (第一滝本館公式)',
+      sourceUrl: 'https://takimotokan.co.jp/en/news/new-souvenir-stamps/',
+      operator: 'Dai-ichi Takimotokan',
+    };
+    const takimotokanDetails = getStampSourceDetails(takimotokanStamp);
+    expect(takimotokanDetails.registry).toContain('Onsen');
+    expect(takimotokanDetails.sourceUrl).toBe('https://takimotokan.co.jp/en/news/new-souvenir-stamps/');
+    expect(takimotokanDetails.verificationStatus).toContain('設置確認済み');
+
+    const hitoStamp: Stamp = {
+      ...sampleStamp,
+      id: 'onsen-tsurunoyu',
+      name: 'Nyūtō Onsen Tsurunoyu',
+      category: 'onsen',
+      source: '日本秘湯を守る会 (Japan Association of Hidden Onsen Inns)',
+      operator: '日本秘湯を守る会',
+    };
+    const hitoDetails = getStampSourceDetails(hitoStamp);
+    expect(hitoDetails.authority).toContain('日本秘湯を守る会');
+    expect(hitoDetails.sourceUrl).toBe('https://www.hitou.or.jp/');
+    expect(hitoDetails.verificationStatus).toContain('認定会員宿');
   });
 
   it('renders StampSourceModal with external link and provenance details', () => {

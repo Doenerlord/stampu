@@ -66946,5 +66946,1006 @@
     "description": "The supreme historical Ichinomiya shrine (一宮) of its ancient province in Yamanashi. Revered for centuries and registered with the Zenkoku Ichinomiya Association (全国一の宮会).",
     "source": "Sacred Pilgrimage Association (全国一の宮会・四国霊場会・神社本庁)",
     "sourceUrl": "http://www.ichinomiya-kai.jp/"
+  },
+  {
+    "id": "onsen-noboribetsu-takimotokan",
+    "name": "Dai-ichi Takimotokan (Noboribetsu)",
+    "name_ja": "登別温泉 第一滝本館",
+    "name_romaji": "Noboribetsu Onsen Dai-ichi Takimotokan",
+    "category": "onsen",
+    "prefecture": "Hokkaido",
+    "city": "Noboribetsu",
+    "address": "55 Noboribetsuonsenchō, Noboribetsu, Hokkaido 059-0551",
+    "coordinates": [
+      141.1444,
+      42.4984
+    ],
+    "stampLocation": "Hotel-Lobby & Souvenir-Shop neben dem Haupteingang (フロント・売店ロビー)",
+    "hours": "08:00 - 20:00 (Tagesbesucher & Hotelgäste)",
+    "operator": "Dai-ichi Takimotokan (第一滝本館)",
+    "description": "Historisches Flaggschiff-Ryokan in Noboribetsu, gegründet 1858 von Kinzo Takimoto. Bekannt für das riesige 5.000m²-Badehaus mit 5 verschiedenen Thermalwasserquellen direkt an der Höllenschlucht Jigokudani. Stempel zeigt Takimaru-kun und die Höllental-Silhouette.",
+    "source": "Dai-ichi Takimotokan Official Souvenir Stamp (第一滝本館公式)",
+    "sourceUrl": "https://takimotokan.co.jp/en/news/new-souvenir-stamps/",
+    "imageUrl": "https://takimotokan.co.jp/wp-content/uploads/2018/02/TakimotoSouvenirStamps.jpg"
+  },
+  {
+    "id": "onsen-noboribetsu-grand",
+    "name": "Noboribetsu Grand Hotel",
+    "name_ja": "登別グランドホテル",
+    "name_romaji": "Noboribetsu Grand Hotel",
+    "category": "onsen",
+    "prefecture": "Hokkaido",
+    "city": "Noboribetsu",
+    "address": "154 Noboribetsuonsenchō, Noboribetsu, Hokkaido 059-0592",
+    "coordinates": [
+      141.1417,
+      42.4939
+    ],
+    "stampLocation": "Rezeption / Front Desk Lobby (1階フロント)",
+    "hours": "07:00 - 21:00",
+    "operator": "Noboribetsu Grand Hotel",
+    "description": "Eröffnet 1938, oft als 'Palast von Noboribetsu' bezeichnet. Berühmt für seine europäische Kuppelhalle im römischen Stil und Freiluftbäder mit Wasserfallblick.",
+    "source": "Noboribetsu Grand Hotel Official Registry",
+    "sourceUrl": "https://www.nobogura.co.jp/"
+  },
+  {
+    "id": "onsen-jozankei-shikanoyu",
+    "name": "Jozankei Onsen Shika-no-Yu",
+    "name_ja": "定山渓温泉 鹿の湯",
+    "name_romaji": "Jōzankei Onsen Shika-no-Yu",
+    "category": "onsen",
+    "prefecture": "Hokkaido",
+    "city": "Sapporo",
+    "address": "3-32 Jozankei Onsen Nishi, Minami Ward, Sapporo, Hokkaido 061-2303",
+    "coordinates": [
+      141.1664,
+      42.9668
+    ],
+    "stampLocation": "Lobby-Tresen neben der Kappa-Statue (ロビー受付)",
+    "hours": "08:00 - 20:00",
+    "operator": "Shikanoyu Hotel Group",
+    "description": "Gegründet 1897 im Toyohira-Flusstal südlich von Sapporo. Der Name geht auf eine verletzte Hirschkuh zurück, die hier ihre Wunden heilte. Stempel mit dem Jozankei-Schutzpatron Kappa.",
+    "source": "Jozankei Tourism Association (定山渓観光協会)",
+    "sourceUrl": "https://shikanoyu.co.jp/"
+  },
+  {
+    "id": "onsen-yunokawa-ichinomatsu",
+    "name": "Yunokawa Onsen Ichinomatsu",
+    "name_ja": "湯の川温泉 一乃松",
+    "name_romaji": "Yunokawa Onsen Ichinomatsu",
+    "category": "onsen",
+    "prefecture": "Hokkaido",
+    "city": "Hakodate",
+    "address": "1-15-15 Yunokawacho, Hakodate, Hokkaido 042-0932",
+    "coordinates": [
+      140.7875,
+      41.7797
+    ],
+    "stampLocation": "Rezeption / Eingangsbereich (玄関フロント)",
+    "hours": "08:00 - 21:00",
+    "operator": "Yunokawa Onsen Ryokan Association",
+    "description": "Eines der drei großen Thermalbäder Hokkaidos, direkt an der Meeresküste von Hakodate. Gegründet 1653, traditioneller Sukiyazukuri-Holzbau mit Tatami-Fluren.",
+    "source": "Hakodate Yunokawa Ryokan Association",
+    "sourceUrl": "https://hakodate-yunokawa.com/"
+  },
+  {
+    "id": "onsen-toyako-manseikaku",
+    "name": "Toyako Onsen Manseikaku",
+    "name_ja": "洞爺湖温泉 万世閣ホテルレイクサイドテラス",
+    "name_romaji": "Tōyako Onsen Manseikaku",
+    "category": "onsen",
+    "prefecture": "Hokkaido",
+    "city": "Sobetsu",
+    "address": "21 Toyako Onsen, Toyako-cho, Abuta District, Hokkaido 049-5721",
+    "coordinates": [
+      140.8258,
+      42.5639
+    ],
+    "stampLocation": "Hotel-Lobby mit Seeblick (レイクサイドロビー)",
+    "hours": "07:30 - 21:00",
+    "operator": "Manseikaku Hotels",
+    "description": "Caldera-Thermalbad am Ufer des Toya-Sees mit Blick auf den rauchenden Vulkan Mt. Usu. Allabendliche Sommerfeuerwerke spiegeln sich in den Panoramabädern.",
+    "source": "Toya Caldera Geopark & Toyako Tourism",
+    "sourceUrl": "https://www.toyako-manseikaku.jp/"
+  },
+  {
+    "id": "onsen-sounkyo-choyotei",
+    "name": "Sounkyo Onsen Choyo Tei",
+    "name_ja": "層雲峡温泉 朝陽亭",
+    "name_romaji": "Sōunkyō Onsen Chōyōtei",
+    "category": "onsen",
+    "prefecture": "Hokkaido",
+    "city": "Kamikawa",
+    "address": "Sounkyo, Kamikawa-cho, Kamikawa District, Hokkaido 078-1701",
+    "coordinates": [
+      142.9575,
+      43.7258
+    ],
+    "stampLocation": "Hauptlobby vor dem Kamin (1階ロビー)",
+    "hours": "07:00 - 21:00",
+    "operator": "Noguchi Kanko Group",
+    "description": "Alpines Onsen-Resort in der 24 km langen Basaltschlucht des Daisetsuzan-Nationalparks. Panoramabäder mit Blick auf die Steilwände der Ryusei- und Ginga-Wasserfälle.",
+    "source": "Sounkyo Tourist Association",
+    "sourceUrl": "https://www.choyotei.com/"
+  },
+  {
+    "id": "onsen-tsurunoyu",
+    "name": "Nyūtō Onsen Tsurunoyu",
+    "name_ja": "乳頭温泉郷 鶴の湯温泉",
+    "name_romaji": "Nyūtō Onsen-kyō Tsurunoyu",
+    "category": "onsen",
+    "prefecture": "Akita",
+    "city": "Senboku",
+    "address": "50 Tazawako Tazawa Aza Sendatsuzawa Kokuyurin, Senboku, Akita 014-1204",
+    "coordinates": [
+      140.7656,
+      39.7997
+    ],
+    "stampLocation": "Hauptbüro / Rezeption im Reetdachhaus Honjin (本陣 帳場)",
+    "hours": "07:00 - 18:00",
+    "operator": "日本秘湯を守る会 (Japan Association of Hidden Onsen Inns)",
+    "description": "Das berühmteste und älteste Geheim-Onsen der Nyuto-Berge, gegründet ca. 1638 als Heilbad der Akita-Fürsten. Reetgedeckte Wachhäuser (Honjin) und milchig-weißes Schwefelwasser im Freiluftbad.",
+    "source": "日本秘湯を守る会 (Japan Association of Hidden Onsen Inns)",
+    "sourceUrl": "https://www.hitou.or.jp/"
+  },
+  {
+    "id": "onsen-sukayu",
+    "name": "Sukayu Onsen Sennin-buro",
+    "name_ja": "酸ヶ湯温泉 千人風呂",
+    "name_romaji": "Sukayu Onsen Sennin-buro",
+    "category": "onsen",
+    "prefecture": "Aomori",
+    "city": "Aomori",
+    "address": "50 Minamiarakawa Sukayu, Aomori, 030-0197",
+    "coordinates": [
+      140.8497,
+      40.6517
+    ],
+    "stampLocation": "Kassenschalter / Eingang zum Sennin-buro (番台・売店カウンター)",
+    "hours": "07:00 - 18:00 (Tagesgäste)",
+    "operator": "Sukayu Onsen Ryokan",
+    "description": "Legendäres 300 Jahre altes Heilbad am Fuße des Mt. Hakkoda. Berühmt für das gewaltige 260m² große 'Tausend-Personen-Bad' ganz aus Zypressenholz (Hiba) ohne einen einzigen Nagel.",
+    "source": "National Health Resort Onsen Registry (国民保養温泉地第1号)",
+    "sourceUrl": "https://www.sukayu.jp/"
+  },
+  {
+    "id": "onsen-aoni-lamp",
+    "name": "Aoni Onsen Lamp no Yado",
+    "name_ja": "青荷温泉 ランプの宿",
+    "name_romaji": "Aoni Onsen Lamp no Yado",
+    "category": "onsen",
+    "prefecture": "Aomori",
+    "city": "Kuroishi",
+    "address": "1-7 Aonisawa Minamitsugaru Kokuyurin, Okiura, Kuroishi, Aomori 036-0402",
+    "coordinates": [
+      140.6728,
+      40.5908
+    ],
+    "stampLocation": "Rezeption im Lampen-Haupthaus (本館帳場)",
+    "hours": "10:00 - 16:00",
+    "operator": "日本秘湯を守る会 (Japan Association of Hidden Onsen Inns)",
+    "description": "Geheimes Schluchtbad ohne Stromleitungen oder Handynetz, nachts ausschließlich durch Hunderte von Petroleumlampen erleuchtet. Vier urtümliche Holzbäder am tosenden Aoni-Gebirgsfluss.",
+    "source": "日本秘湯を守る会 (Japan Association of Hidden Onsen Inns)",
+    "sourceUrl": "https://www.hitou.or.jp/"
+  },
+  {
+    "id": "onsen-ginzan-notoya",
+    "name": "Ginzan Onsen Notoya Ryokan",
+    "name_ja": "銀山温泉 能登屋旅館",
+    "name_romaji": "Ginzan Onsen Notoya Ryokan",
+    "category": "onsen",
+    "prefecture": "Yamagata",
+    "city": "Obanazawa",
+    "address": "446 Ginzanshinhata, Obanazawa, Yamagata 999-4333",
+    "coordinates": [
+      140.5303,
+      38.5708
+    ],
+    "stampLocation": "Rezeption im Foyer (1階帳場フロント)",
+    "hours": "08:00 - 20:00",
+    "operator": "Notoya Ryokan (国登録有形文化財)",
+    "description": "Erbaut 1892 im Taisho-Roman-Stil, eingetragenes nationales Kulturgut am Ufer des Ginzan-Flusses. Gaslaternen spiegeln sich abends im Wasser der ehemaligen Silberminen-Stadt.",
+    "source": "Ginzan Onsen Tourism Association",
+    "sourceUrl": "https://www.notoyaryokan.com/"
+  },
+  {
+    "id": "onsen-zao-dai-rotenburo",
+    "name": "Zaō Onsen Open-Air Bath",
+    "name_ja": "蔵王温泉 大露天風呂",
+    "name_romaji": "Zaō Onsen Dai-Rotenburo",
+    "category": "onsen",
+    "prefecture": "Yamagata",
+    "city": "Yamagata",
+    "address": "Zao Onsen, Yamagata, 990-2301",
+    "coordinates": [
+      140.3986,
+      38.1633
+    ],
+    "stampLocation": "Kassenhäuschen am Waldeingang (大露天風呂受付窓口)",
+    "hours": "06:00 - 19:00 (Frühling bis Herbst)",
+    "operator": "Zao Onsen Tourism Association",
+    "description": "Riesiges Freiluft-Kaskadenbad inmitten eines alpinen Buchenwaldes. Stark saures Schwefelwasser (pH 1.3) fließt direkt aus dem Gebirgsbach in terrassierte Becken.",
+    "source": "Zao Onsen Tourism Association",
+    "sourceUrl": "https://www.zao-spa.or.jp/"
+  },
+  {
+    "id": "onsen-naruko-takinoyu",
+    "name": "Naruko Onsen Taki-no-Yu",
+    "name_ja": "鳴子温泉 滝の湯",
+    "name_romaji": "Naruko Onsen Taki-no-Yu",
+    "category": "onsen",
+    "prefecture": "Miyagi",
+    "city": "Osaki",
+    "address": "Yumoto, Narukoonsen, Osaki, Miyagi 989-6823",
+    "coordinates": [
+      140.7183,
+      38.7428
+    ],
+    "stampLocation": "Eingangsbereich vor dem Kassenautomaten (共同浴場入口)",
+    "hours": "07:30 - 21:30",
+    "operator": "Naruko Yumoto Hot Spring Cooperative",
+    "description": "Über 1.000 Jahre altes Gemeindebad ganz aus duftendem Hiba-Zypressenholz. Heilwasser ergießt sich aus hölzernen Schwallrinnen direkt auf Schultern und Rücken.",
+    "source": "Naruko Onsen Tourism Association",
+    "sourceUrl": "https://www.naruko.gr.jp/"
+  },
+  {
+    "id": "onsen-kusatsu-netsunoyu",
+    "name": "Kusatsu Onsen Netsu-no-Yu",
+    "name_ja": "草津温泉 熱乃湯",
+    "name_romaji": "Kusatsu Onsen Netsu-no-Yu",
+    "category": "onsen",
+    "prefecture": "Gunma",
+    "city": "Kusatsu",
+    "address": "414 Kusatsu, Agatsuma District, Gunma 377-1711",
+    "coordinates": [
+      138.5967,
+      36.6217
+    ],
+    "stampLocation": "Ticketkasse & Info-Counter direkt am Yubatake (熱乃湯受付窓口)",
+    "hours": "09:00 - 17:00",
+    "operator": "Kusatsu Onsen Tourism Association",
+    "description": "Zentrum der berühmten 'Yumomi'-Tradition, bei der das heiße Thermalwasser mit großen Holzpaddeln unter Gesang abgekühlt wird. Gelegen unmittelbar am dampfenden Yubatake-Quellfeld.",
+    "source": "Kusatsu Onsen Official Portal (草津温泉ポータルサイト)",
+    "sourceUrl": "https://www.kusatsu-onsen.ne.jp/"
+  },
+  {
+    "id": "onsen-kusatsu-naraya",
+    "name": "Kusatsu Onsen Naraya",
+    "name_ja": "草津温泉 奈良屋",
+    "name_romaji": "Kusatsu Onsen Naraya",
+    "category": "onsen",
+    "prefecture": "Gunma",
+    "city": "Kusatsu",
+    "address": "396 Kusatsu, Agatsuma District, Gunma 377-1711",
+    "coordinates": [
+      138.5961,
+      36.6222
+    ],
+    "stampLocation": "Traditionelle Rezeption / Choba (帳場フロント)",
+    "hours": "08:00 - 21:00",
+    "operator": "Naraya Ryokan",
+    "description": "Gegründet 1877 in der Meiji-Zeit. Berühmt für seinen 'Yumori' (Thermalbadmeister), der die Shirahata-Quelle von Hand temperiert, und das denkmalgeschützte Holzinterieur.",
+    "source": "Naraya Official Registry",
+    "sourceUrl": "https://www.kusatsu-naraya.co.jp/"
+  },
+  {
+    "id": "onsen-ikaho-ishidan",
+    "name": "Ikaho Onsen Ishidan-no-Yu",
+    "name_ja": "伊香保温泉 石段の湯",
+    "name_romaji": "Ikaho Onsen Ishidan-no-Yu",
+    "category": "onsen",
+    "prefecture": "Gunma",
+    "city": "Shibukawa",
+    "address": "36 Ikahomachi Ikaho, Shibukawa, Gunma 377-0102",
+    "coordinates": [
+      138.9192,
+      36.4981
+    ],
+    "stampLocation": "Eingang an der 365-Stufen-Treppe (石段街受付)",
+    "hours": "09:00 - 20:30",
+    "operator": "Shibukawa Ikaho Onsen Tourism Association",
+    "description": "Historisches Thermalbad an der berühmten 365-stufigen Steintreppe von Ikaho. Gespeist von der eisenhaltigen 'Kogane-no-Yu' (Goldquelle), die bereits im Man'yōshū besungen wurde.",
+    "source": "Ikaho Onsen Tourism Association",
+    "sourceUrl": "https://www.ikaho-kankou.com/"
+  },
+  {
+    "id": "onsen-takaragawa-osenkaku",
+    "name": "Takaragawa Onsen Osenkaku",
+    "name_ja": "宝川温泉 汪泉閣",
+    "name_romaji": "Takaragawa Onsen Ōsenkaku",
+    "category": "onsen",
+    "prefecture": "Gunma",
+    "city": "Minakami",
+    "address": "1899 Fujiwara, Minakami, Tone District, Gunma 379-1721",
+    "coordinates": [
+      139.0494,
+      36.8528
+    ],
+    "stampLocation": "Hauptrezeption / Foyer (本館帳場)",
+    "hours": "09:00 - 17:00 (Tagesgäste)",
+    "operator": "Takaragawa Onsen Osenkaku",
+    "description": "Weltbekannt für seine vier gigantischen Naturstein-Freiluftbäder direkt am rauschenden Takaragawa-Fluss (über 790m² Wasserfläche). Umrahmt von dichten Urwäldern.",
+    "source": "Minakami Onsen Tourism Association",
+    "sourceUrl": "https://www.takaragawa.com/"
+  },
+  {
+    "id": "onsen-hoshi-chojukaku",
+    "name": "Hōshi Onsen Chōjukaku",
+    "name_ja": "法師温泉 長寿館",
+    "name_romaji": "Hōshi Onsen Chōjukaku",
+    "category": "onsen",
+    "prefecture": "Gunma",
+    "city": "Minakami",
+    "address": "650 Nagai, Minakami, Tone District, Gunma 379-1401",
+    "coordinates": [
+      138.8681,
+      36.7214
+    ],
+    "stampLocation": "Traditioneller Choba-Schalter (登録有形文化財 帳場)",
+    "hours": "10:30 - 14:00 (Tagesgäste)",
+    "operator": "日本秘湯を守る会 (Japan Association of Hidden Onsen Inns)",
+    "description": "Errichtet 1895, nationales Kulturgut. Im berühmten Hōshi-Bad sprudelt das 43°C heiße Thermalwasser direkt aus den Kieselsteinen des Beckenbodens empor.",
+    "source": "日本秘湯を守る会 (Japan Association of Hidden Onsen Inns)",
+    "sourceUrl": "https://www.hitou.or.jp/"
+  },
+  {
+    "id": "onsen-hakone-fujiya",
+    "name": "Hakone Miyanoshita Fujiya Hotel",
+    "name_ja": "箱根 富士屋ホテル",
+    "name_romaji": "Hakone Miyanoshita Fujiya Hotel",
+    "category": "onsen",
+    "prefecture": "Kanagawa",
+    "city": "Hakone",
+    "address": "359 Miyanoshita, Hakone, Ashigarashimo District, Kanagawa 250-0404",
+    "coordinates": [
+      139.0566,
+      35.2443
+    ],
+    "stampLocation": "Heritage Museum & Lobby Counter (本館フロント・史料館)",
+    "hours": "08:00 - 20:00",
+    "operator": "Fujiya Hotel (国登録有形文化財)",
+    "description": "1878 gegründetes Prachthotel in Miyanoshita, das japanische Tempelarchitektur mit westlichem Luxus vereint. Berühmte Gäste waren John Lennon, Charlie Chaplin und Albert Einstein.",
+    "source": "Fujiya Hotel Official Registry",
+    "sourceUrl": "https://www.fujiyahotel.jp/"
+  },
+  {
+    "id": "onsen-hakone-tenzan",
+    "name": "Hakone Yumoto Tenzan Tōjikyō",
+    "name_ja": "箱根湯本 天山湯治郷",
+    "name_romaji": "Hakone Yumoto Tenzan Tōjikyō",
+    "category": "onsen",
+    "prefecture": "Kanagawa",
+    "city": "Hakone",
+    "address": "208 Yumotochaya, Hakone, Ashigarashimo District, Kanagawa 250-0312",
+    "coordinates": [
+      139.0767,
+      35.2289
+    ],
+    "stampLocation": "Eingangshalle am Sukumo-Fluss (天山受付ロビー)",
+    "hours": "09:00 - 22:00",
+    "operator": "Tenzan Tojikyo",
+    "description": "Traditionelles Badehaus im Sukumo-Flusstal mit sieben Natursteinbecken im Freien. Verwendet reines Thermalwasser ohne Beimischung (Kakenagashi).",
+    "source": "Hakone Onsen Tourism Association",
+    "sourceUrl": "https://tenzan.jp/"
+  },
+  {
+    "id": "onsen-shibu-kanaguya",
+    "name": "Shibu Onsen Kanaguya",
+    "name_ja": "渋温泉 歴史の宿 金金具屋",
+    "name_romaji": "Shibu Onsen Kanaguya",
+    "category": "onsen",
+    "prefecture": "Nagano",
+    "city": "Yamanouchi",
+    "address": "2202 Hirao, Yamanouchi, Shimotakai District, Nagano 381-0401",
+    "coordinates": [
+      138.4358,
+      36.7369
+    ],
+    "stampLocation": "Saigetsuan Lobby (登録有形文化財 斉月庵ロビー)",
+    "hours": "08:00 - 20:00",
+    "operator": "Kanaguya (国登録有形文化財)",
+    "description": "Vierstöckiges Holzpalais von 1758, weltberühmtes Meisterwerk traditioneller Zimmermannskunst und optisches Vorbild für das Badehaus in Chihiros Reise ins Zauberland. Zentrum des 9-Bäder-Stempelrallyes.",
+    "source": "Shibu Onsen Ryokan Association (渋温泉旅館組合)",
+    "sourceUrl": "https://www.kanaguya.com/"
+  },
+  {
+    "id": "onsen-nozawa-oyu",
+    "name": "Nozawa Onsen Ō-yu",
+    "name_ja": "野沢温泉 大湯",
+    "name_romaji": "Nozawa Onsen Ō-yu",
+    "category": "onsen",
+    "prefecture": "Nagano",
+    "city": "Nozawaonsen",
+    "address": "Toyosato, Nozawaonsen, Shimotakai District, Nagano 389-2502",
+    "coordinates": [
+      138.4414,
+      36.9231
+    ],
+    "stampLocation": "Vor dem hölzernen Portal des Ō-yu (大湯前スタンプ台)",
+    "hours": "06:00 - 23:00",
+    "operator": "Nozawa Onsen Yuzawa Hot Spring Cooperative",
+    "description": "Das Herzstück der 13 frei zugänglichen Gemeinschaftsbäder (Soto-yu) von Nozawa. Ein prächtiger Edo-Holzbau mit eigener heißer Schwefelquelle und berühmt für das Goshuin-artige Stempeln.",
+    "source": "Nozawa Onsen Tourism Association (野沢温泉観光協会)",
+    "sourceUrl": "https://nozawakanko.jp/"
+  },
+  {
+    "id": "onsen-shirahone-saito",
+    "name": "Shirahone Onsen Yumoto Saitō",
+    "name_ja": "白骨温泉 湯元齋藤旅館",
+    "name_romaji": "Shirahone Onsen Yumoto Saitō Ryokan",
+    "category": "onsen",
+    "prefecture": "Nagano",
+    "city": "Matsumoto",
+    "address": "4195-1 Azumi, Matsumoto, Nagano 390-1515",
+    "coordinates": [
+      137.6225,
+      36.1492
+    ],
+    "stampLocation": "Rezeption / Front Desk (フロントロビー)",
+    "hours": "08:00 - 20:00",
+    "operator": "日本秘湯を守る会 (Japan Association of Hidden Onsen Inns)",
+    "description": "Gelegen in einer abgeschiedenen Schlucht der japanischen Nordalpen. Das milchig-weiße Thermalwasser scheidet Kalksinter ab und soll 'nach 3 Tagen Baden für 3 Jahre vor Erkältungen schützen'.",
+    "source": "日本秘湯を守る会 (Japan Association of Hidden Onsen Inns)",
+    "sourceUrl": "https://www.hitou.or.jp/"
+  },
+  {
+    "id": "onsen-gero-yunoshimakan",
+    "name": "Gero Onsen Yunoshimakan",
+    "name_ja": "下呂温泉 湯之島館",
+    "name_romaji": "Gero Onsen Yunoshimakan",
+    "category": "onsen",
+    "prefecture": "Gifu",
+    "city": "Gero",
+    "address": "645 Yunoshima, Gero, Gifu 509-2207",
+    "coordinates": [
+      137.2458,
+      35.8089
+    ],
+    "stampLocation": "Hauptfoyer im registrierten Kulturgut (本館玄関フロント)",
+    "hours": "08:00 - 21:00",
+    "operator": "Yunoshimakan (国登録有形文化財)",
+    "description": "Erbaut 1931 in den Zedernwäldern oberhalb von Gero, einem der 'Drei berühmten Heilbäder Japans' (neben Arima und Kusatsu). Seidig-weiches alkalisches Wasser, geschätzt als Schönheitsquelle.",
+    "source": "Gero Onsen Tourism Association",
+    "sourceUrl": "https://www.yunoshimakan.co.jp/"
+  },
+  {
+    "id": "onsen-yamashiro-kosoyu",
+    "name": "Yamashiro Onsen Ko-Sōyu",
+    "name_ja": "山代温泉 古総湯",
+    "name_romaji": "Yamashiro Onsen Ko-Sōyu",
+    "category": "onsen",
+    "prefecture": "Ishikawa",
+    "city": "Kaga",
+    "address": "18-128 Yamashiroonsen, Kaga, Ishikawa 922-0242",
+    "coordinates": [
+      136.3606,
+      36.3267
+    ],
+    "stampLocation": "Kassenbereich am zentralen Platz Yunogawa (古総湯受付)",
+    "hours": "06:00 - 22:00",
+    "operator": "Kaga City Yamashiro Onsen Association",
+    "description": "Detailgetreue Rekonstruktion eines Meiji-Gemeindebads mit handbemalten Kutani-Porzellanfliesen und Buntglasfenstern. Das Baden erfolgt ohne Seife nach alter ritueller Tradition.",
+    "source": "Yamashiro Onsen Tourism Association",
+    "sourceUrl": "https://www.yamashiro-spa.or.jp/"
+  },
+  {
+    "id": "onsen-yamanaka-kikunoyu",
+    "name": "Yamanaka Onsen Kiku-no-Yu",
+    "name_ja": "山中温泉 菊の湯",
+    "name_romaji": "Yamanaka Onsen Kiku-no-Yu",
+    "category": "onsen",
+    "prefecture": "Ishikawa",
+    "city": "Kaga",
+    "address": "1-1 Yamanakaonsen Yunodecho, Kaga, Ishikawa 922-0129",
+    "coordinates": [
+      136.3725,
+      36.3008
+    ],
+    "stampLocation": "Eingangshalle neben dem Yamanaka-za Theater (山中座・菊の湯入口)",
+    "hours": "06:45 - 22:30",
+    "operator": "Kaga City Yamanaka Onsen Association",
+    "description": "Über 1.300 Jahre altes Heilbad in der Kakusenkei-Schlucht. Der Dichter Matsuo Bashō rühmte die Quelle als eine der drei feinsten Japans: 'Hier braucht man keine Chrysanthemen pflücken, der Duft des Wassers schenkt langes Leben.'",
+    "source": "Yamanaka Onsen Tourism Association",
+    "sourceUrl": "https://www.yamanaka-spa.or.jp/"
+  },
+  {
+    "id": "onsen-awazu-houshi",
+    "name": "Awazu Onsen Hōshi",
+    "name_ja": "粟津温泉 法師",
+    "name_romaji": "Awazu Onsen Hōshi",
+    "category": "onsen",
+    "prefecture": "Ishikawa",
+    "city": "Komatsu",
+    "address": "46 Awazumachi, Komatsu, Ishikawa 923-0326",
+    "coordinates": [
+      136.3889,
+      36.3314
+    ],
+    "stampLocation": "Hauptrezeption / Eingangshalle (玄関フロント)",
+    "hours": "08:00 - 20:00",
+    "operator": "Hoshi Ryokan (創業718年)",
+    "description": "Gegründet im Jahr 718 n. Chr. durch den buddhistischen Mönch Taichō Daishi. Gilt als eines der ältesten kontinuierlich durch dieselbe Familie geführten Gasthäuser der Welt (über 46 Generationen).",
+    "source": "Awazu Onsen Tourism Association",
+    "sourceUrl": "https://www.ho-shi.co.jp/"
+  },
+  {
+    "id": "onsen-arima-kinnoyu",
+    "name": "Arima Onsen Kin-no-Yu (Gold Spring)",
+    "name_ja": "有馬温泉 金の湯",
+    "name_romaji": "Arima Onsen Kin-no-Yu",
+    "category": "onsen",
+    "prefecture": "Hyogo",
+    "city": "Kobe",
+    "address": "833 Arimacho, Kita Ward, Kobe, Hyogo 651-1401",
+    "coordinates": [
+      135.2483,
+      34.7972
+    ],
+    "stampLocation": "Kassenbereich am Eingang / Fußbad (1階番台窓口)",
+    "hours": "08:00 - 22:00",
+    "operator": "Kobe City Arima Hot Spring Management",
+    "description": "Das berühmteste 'Goldbad' Japans im ältesten Kurort des Landes. Reich an Eisen und Salz färbt sich das Wasser an der Luft rostrot. Vor dem Gebäude befindet sich ein kostenfreies Fußbad.",
+    "source": "Arima Onsen Tourism Association (有馬温泉観光協会)",
+    "sourceUrl": "https://arimaspa-kingin.jp/"
+  },
+  {
+    "id": "onsen-arima-ginnoyu",
+    "name": "Arima Onsen Gin-no-Yu (Silver Spring)",
+    "name_ja": "有馬温泉 銀の湯",
+    "name_romaji": "Arima Onsen Gin-no-Yu",
+    "category": "onsen",
+    "prefecture": "Hyogo",
+    "city": "Kobe",
+    "address": "1039-1 Arimacho, Kita Ward, Kobe, Hyogo 651-1401",
+    "coordinates": [
+      135.2503,
+      34.7981
+    ],
+    "stampLocation": "Eingangsbereich / Kasse (銀の湯受付)",
+    "hours": "09:00 - 21:00",
+    "operator": "Kobe City Arima Hot Spring Management",
+    "description": "Das Gegenstück zum Goldbad: Kristallklares, kohlensäure- und radiumhaltiges Thermalwasser entspannt Muskeln und Kreislauf.",
+    "source": "Arima Onsen Tourism Association",
+    "sourceUrl": "https://arimaspa-kingin.jp/"
+  },
+  {
+    "id": "onsen-arima-goshoboh",
+    "name": "Arima Onsen Tōsen Goshobō",
+    "name_ja": "有馬温泉 陶泉 御所坊",
+    "name_romaji": "Arima Onsen Tōsen Goshobō",
+    "category": "onsen",
+    "prefecture": "Hyogo",
+    "city": "Kobe",
+    "address": "858 Arimacho, Kita Ward, Kobe, Hyogo 651-1401",
+    "coordinates": [
+      135.2472,
+      34.7978
+    ],
+    "stampLocation": "Salon & Rezeption (サロン・帳場)",
+    "hours": "08:00 - 21:00",
+    "operator": "Goshobo Ryokan (創業1191年)",
+    "description": "Gegründet 1191 in der Kamakura-Zeit, ältester Gasthof von Arima. Rückzugsort von Feldherr Toyotomi Hideyoshi und Schriftstellern wie Tanizaki Jun'ichirō.",
+    "source": "Goshobo Official Registry",
+    "sourceUrl": "https://goshobo.co.jp/"
+  },
+  {
+    "id": "onsen-kinosaki-satonoyu",
+    "name": "Kinosaki Onsen Sato-no-Yu",
+    "name_ja": "城崎温泉 さとの湯",
+    "name_romaji": "Kinosaki Onsen Sato-no-Yu",
+    "category": "onsen",
+    "prefecture": "Hyogo",
+    "city": "Toyooka",
+    "address": "290-36 Kinosakicho Imazu, Toyooka, Hyogo 669-6103",
+    "coordinates": [
+      134.8143,
+      35.6268
+    ],
+    "stampLocation": "Eingangshalle neben dem JR-Bahnhof Kinosaki-Onsen (さとの湯フロント)",
+    "hours": "13:00 - 21:00",
+    "operator": "Kinosaki Onsen Ryokan Cooperative",
+    "description": "Panoramabad direkt am Bahnhof mit Freiluftterrasse und Saunalandschaft. Ausgangspunkt der traditionellen 'Soto-yu Meguri' (Rundgang durch 7 Außenbäder im Yukata).",
+    "source": "Kinosaki Onsen Tourism Association",
+    "sourceUrl": "https://kinosaki-spa.gr.jp/"
+  },
+  {
+    "id": "onsen-kinosaki-ichinoyu",
+    "name": "Kinosaki Onsen Ichi-no-Yu",
+    "name_ja": "城崎温泉 一の湯",
+    "name_romaji": "Kinosaki Onsen Ichi-no-Yu",
+    "category": "onsen",
+    "prefecture": "Hyogo",
+    "city": "Toyooka",
+    "address": "415-1 Kinosakicho Yushima, Toyooka, Hyogo 669-6101",
+    "coordinates": [
+      134.8108,
+      35.6247
+    ],
+    "stampLocation": "Kasse unter dem markanten Kabuki-Giebel (一の湯番台)",
+    "hours": "07:00 - 23:00",
+    "operator": "Kinosaki Onsen Ryokan Cooperative",
+    "description": "Markanter Bau im Stil eines klassischen Kabuki-Theaters am Weidenkanal. Im Inneren befindet sich ein spektakuläres Naturgrotte-Bad (Dōkutsu-buro).",
+    "source": "Kinosaki Onsen Tourism Association",
+    "sourceUrl": "https://kinosaki-spa.gr.jp/"
+  },
+  {
+    "id": "onsen-kinosaki-goshonoyu",
+    "name": "Kinosaki Onsen Gosho-no-Yu",
+    "name_ja": "城崎温泉 御所の湯",
+    "name_romaji": "Kinosaki Onsen Gosho-no-Yu",
+    "category": "onsen",
+    "prefecture": "Hyogo",
+    "city": "Toyooka",
+    "address": "448 Kinosakicho Yushima, Toyooka, Hyogo 669-6101",
+    "coordinates": [
+      134.8083,
+      35.6242
+    ],
+    "stampLocation": "Eingangshalle vor dem Wasserfallbecken (御所の湯受付)",
+    "hours": "07:00 - 23:00",
+    "operator": "Kinosaki Onsen Ryokan Cooperative",
+    "description": "Errichtet im Stil des kaiserlichen Kyoto-Palastes. Das Freiluftbecken liegt direkt an einem natürlichen Felswasserfall und ist von Ahornbäumen überdacht.",
+    "source": "Kinosaki Onsen Tourism Association",
+    "sourceUrl": "https://kinosaki-spa.gr.jp/"
+  },
+  {
+    "id": "onsen-shirahama-sakinoyu",
+    "name": "Shirahama Onsen Saki-no-Yu",
+    "name_ja": "白浜温泉 崎の湯",
+    "name_romaji": "Shirahama Onsen Saki-no-Yu",
+    "category": "onsen",
+    "prefecture": "Wakayama",
+    "city": "Shirahama",
+    "address": "1668 Shirahama, Nishimuro District, Wakayama 649-2211",
+    "coordinates": [
+      135.3408,
+      33.6764
+    ],
+    "stampLocation": "Kassenhäuschen an der Klippe (番台入口)",
+    "hours": "08:00 - 17:00",
+    "operator": "Shirahama Town Tourism Bureau",
+    "description": "Über 1.300 Jahre altes Felsen-Freiluftbad, das bereits im Nihon Shoki erwähnt wird. Die Wellen des Pazifiks brechen nur wenige Meter vor den Felsbecken.",
+    "source": "Shirahama Onsen Tourism Association",
+    "sourceUrl": "https://www.nanki-shirahama.com/"
+  },
+  {
+    "id": "onsen-yunomine-tsuboyu",
+    "name": "Yunomine Onsen Tsuboyu",
+    "name_ja": "湯の峰温泉 つぼ湯",
+    "name_romaji": "Yunomine Onsen Tsuboyu",
+    "category": "onsen",
+    "prefecture": "Wakayama",
+    "city": "Tanabe",
+    "address": "110 Hongucho Yunomine, Tanabe, Wakayama 647-1732",
+    "coordinates": [
+      135.7561,
+      33.8294
+    ],
+    "stampLocation": "Ticket-Ausgabe am Hauptbüro vor dem Holzhäuschen (湯の峰温泉公衆浴場受付)",
+    "hours": "06:00 - 21:00",
+    "operator": "Tanabe City Kumano Tourism Bureau (世界遺産)",
+    "description": "Das einzige Thermalbad der Welt, das als UNESCO-Weltkulturerbe eingetragen ist (Teil des Pilgerwegs Kumano Kodo). Das Wasser im Natursteinbottich wechselt angeblich siebenmal täglich seine Farbe.",
+    "source": "Kumano Kodo UNESCO Heritage & Tanabe Tourism",
+    "sourceUrl": "https://www.tb-kumano.jp/"
+  },
+  {
+    "id": "onsen-dogo-honkan",
+    "name": "Dōgo Onsen Honkan",
+    "name_ja": "道後温泉本館",
+    "name_romaji": "Dōgo Onsen Honkan",
+    "category": "onsen",
+    "prefecture": "Ehime",
+    "city": "Matsuyama",
+    "address": "5-6 Dogoyunomachi, Matsuyama, Ehime 790-0842",
+    "coordinates": [
+      132.7865,
+      33.852
+    ],
+    "stampLocation": "Haupteingang / Kassenfoyer unter dem Trommelturm (本館正面入口札所)",
+    "hours": "06:00 - 23:00",
+    "operator": "Matsuyama City Dogo Onsen Office (重要文化財)",
+    "description": "3.000 Jahre altes Thermalbad, wichtiges Kulturgut Japans. Der 1894 errichtete dreistöckige Holzbau mit Shinrokaku-Pavillon diente Studio Ghibli als Hauptinspiration für Chihiros Badehaus.",
+    "source": "Dogo Onsen Official Portal (道後温泉公式サイト)",
+    "sourceUrl": "https://dogo.jp/"
+  },
+  {
+    "id": "onsen-dogo-funaya",
+    "name": "Dōgo Onsen Funaya",
+    "name_ja": "道後温泉 ふなや",
+    "name_romaji": "Dōgo Onsen Funaya",
+    "category": "onsen",
+    "prefecture": "Ehime",
+    "city": "Matsuyama",
+    "address": "1-33 Dogoyunomachi, Matsuyama, Ehime 790-0842",
+    "coordinates": [
+      132.785,
+      33.8528
+    ],
+    "stampLocation": "Rezeption / Foyer (フロントカウンター)",
+    "hours": "08:00 - 21:00",
+    "operator": "Funaya Ryokan (創業390余年)",
+    "description": "Traditionsreichstes Nobel-Ryokan von Dōgo, gegründet 1627. Natsume Soseki und Masaoka Shiki verweilten hier in den Gärten am Flusslauf.",
+    "source": "Funaya Official Registry",
+    "sourceUrl": "https://www.dogo-funaya.co.jp/"
+  },
+  {
+    "id": "onsen-tamatsukuri-yuyu",
+    "name": "Tamatsukuri Onsen Yu-yu",
+    "name_ja": "玉造温泉 ゆ～ゆ",
+    "name_romaji": "Tamatsukuri Onsen Yu-yu",
+    "category": "onsen",
+    "prefecture": "Shimane",
+    "city": "Matsue",
+    "address": "255 Tamatsukuri, Tamayu-cho, Matsue, Shimane 699-0201",
+    "coordinates": [
+      133.0117,
+      35.4186
+    ],
+    "stampLocation": "Info-Schalter im 1. Stock (総合受付案内所)",
+    "hours": "06:00 - 22:00",
+    "operator": "Tamatsukuri Hot Spring Tourism Association",
+    "description": "Schon im Izumo-Fudoki (733 n. Chr.) als 'Quelle der Götter' gepriesen: 'Einmal Baden macht schön, zweimal heilt alle Leiden.' Berühmt für hautpflegendes Wasser und Jadeschmuck.",
+    "source": "Tamatsukuri Onsen Tourism Association",
+    "sourceUrl": "https://tamayado.com/"
+  },
+  {
+    "id": "onsen-misasa-izanro",
+    "name": "Misasa Onsen Izanro Iwasaki",
+    "name_ja": "三朝温泉 依山楼岩崎",
+    "name_romaji": "Misasa Onsen Izanrō Iwasaki",
+    "category": "onsen",
+    "prefecture": "Tottori",
+    "city": "Misasa",
+    "address": "365-1 Misasa, Tōhaku District, Tottori 682-0123",
+    "coordinates": [
+      133.8967,
+      35.4114
+    ],
+    "stampLocation": "Lobby / Front Desk (フロントロビー)",
+    "hours": "08:00 - 20:00",
+    "operator": "Izanro Iwasaki Ryokan",
+    "description": "Weltweit eines der radiumreichsten Thermalbäder. Gegründet vor über 850 Jahren nach einer Legende um einen weißen Wolf des Samurai Minamoto no Yoshitomo.",
+    "source": "Misasa Onsen Tourism Association",
+    "sourceUrl": "https://www.izanro.co.jp/"
+  },
+  {
+    "id": "onsen-iya-hotel-iyaonsen",
+    "name": "Hotel Iya Onsen (Cable Car Bath)",
+    "name_ja": "和の宿 ホテル祖谷温泉",
+    "name_romaji": "Hotel Iya Onsen",
+    "category": "onsen",
+    "prefecture": "Tokushima",
+    "city": "Miyoshi",
+    "address": "367-28 Matsuogawa, Ikeda-cho, Miyoshi, Tokushima 778-0165",
+    "coordinates": [
+      133.8164,
+      33.9167
+    ],
+    "stampLocation": "Bergstation der Standseilbahn / Rezeption (ケーブルカー乗場・フロント)",
+    "hours": "07:30 - 18:00",
+    "operator": "日本秘湯を守る会 (Japan Association of Hidden Onsen Inns)",
+    "description": "Dramatisch auf einem Klippenvorsprung über der Iya-Schlucht gelegen. Eine private Standseilbahn überwindet 170 Höhenmeter steil hinab zu den sprudelnden Becken am Flussbett.",
+    "source": "日本秘湯を守る会 (Japan Association of Hidden Onsen Inns)",
+    "sourceUrl": "https://www.hitou.or.jp/"
+  },
+  {
+    "id": "onsen-kotohira-kadan",
+    "name": "Kotohira Onsen Kotohira Kadan",
+    "name_ja": "琴平温泉 琴平花壇",
+    "name_romaji": "Kotohira Onsen Kotohira Kadan",
+    "category": "onsen",
+    "prefecture": "Kagawa",
+    "city": "Kotohira",
+    "address": "1241-5 Kotohira, Nakatado District, Kagawa 766-0001",
+    "coordinates": [
+      133.8183,
+      34.1867
+    ],
+    "stampLocation": "Lobby Lounge & Rezeption (ロビーラウンジ)",
+    "hours": "08:00 - 21:00",
+    "operator": "Kotohira Kadan (創業400年)",
+    "description": "400 Jahre alter Nobelgasthof am Fuße des heiligen Kotohira-gu Schreins (Kompira-san). Gartenbäder mit Blick auf den Berg Iino (Sanuki Fuji).",
+    "source": "Kotohira Onsen Ryokan Association",
+    "sourceUrl": "https://www.kotohira-kadan.jp/"
+  },
+  {
+    "id": "onsen-kurokawa-kazenosho",
+    "name": "Kurokawa Onsen Kaze-no-Sho Association",
+    "name_ja": "黒川温泉 旅館組合 風の舎",
+    "name_romaji": "Kurokawa Onsen Kaze-no-Shō",
+    "category": "onsen",
+    "prefecture": "Kumamoto",
+    "city": "Minamioguni",
+    "address": "6594-1 Manganji, Minamioguni, Aso District, Kumamoto 869-2402",
+    "coordinates": [
+      131.1407,
+      33.0784
+    ],
+    "stampLocation": "Zentraler Informationsschalter Kaze-no-Sho (風の舎 案内所窓口)",
+    "hours": "09:00 - 18:00",
+    "operator": "黒川温泉観光旅館協同組合 (Kurokawa Onsen Ryokan Association)",
+    "description": "Zentrum des berühmten 'Nyūtō Tegata' (hölzerner Badepass). Besucher können mit einem Pass 3 verschiedene Freiluftbäder der 30 Mitglieds-Ryokan im bewaldeten Bergtal erwandern und stempeln.",
+    "source": "黒川温泉観光旅館協同組合 (Kurokawa Onsen Ryokan Association)",
+    "sourceUrl": "https://www.kurokawaonsen.or.jp/"
+  },
+  {
+    "id": "onsen-kurokawa-yamamizuki",
+    "name": "Kurokawa Onsen Yamamizuki",
+    "name_ja": "黒川温泉 山あいの宿 山みず木",
+    "name_romaji": "Kurokawa Onsen Yamamizuki",
+    "category": "onsen",
+    "prefecture": "Kumamoto",
+    "city": "Minamioguni",
+    "address": "6392-2 Manganji, Minamioguni, Aso District, Kumamoto 869-2402",
+    "coordinates": [
+      131.1558,
+      33.0769
+    ],
+    "stampLocation": "Rezeption & Teestube am Fluss (玄関帳場)",
+    "hours": "08:30 - 20:30",
+    "operator": "Yamamizuki Ryokan",
+    "description": "Eines der idyllischsten Waldbäder Japans, unmittelbar an den Kieselbänken des Tanohara-Gebirgsflusses gelegen.",
+    "source": "Kurokawa Onsen Ryokan Association",
+    "sourceUrl": "https://www.yamamizuki.com/"
+  },
+  {
+    "id": "onsen-beppu-takegawara",
+    "name": "Beppu Onsen Takegawara",
+    "name_ja": "別府温泉 竹瓦温泉",
+    "name_romaji": "Beppu Onsen Takegawara",
+    "category": "onsen",
+    "prefecture": "Oita",
+    "city": "Beppu",
+    "address": "16-23 Motomachi, Beppu, Oita 874-0944",
+    "coordinates": [
+      131.505,
+      33.2778
+    ],
+    "stampLocation": "Historischer Kassentresen im Holzfoyer (番台窓口・スタンプ台)",
+    "hours": "06:30 - 22:30",
+    "operator": "別府八湯温泉道実行委員会 & 別府市",
+    "description": "Wahrzeichen von Beppu, errichtet 1879 mit monumentaler Karahafu-Giebelarchitektur. Bekannt für das traditionelle heiße Sandbad (Sunamushi) und Station Nr. 1 des Beppu Spaport-Rallyes.",
+    "source": "別府八湯温泉道 (Beppu Hachiyu Onsen-do)",
+    "sourceUrl": "http://onsendo.beppu-navi.jp/"
+  },
+  {
+    "id": "onsen-beppu-hyotan",
+    "name": "Beppu Kannawa Hyōtan Onsen",
+    "name_ja": "別府 鉄輪温泉 ひょうたん温泉",
+    "name_romaji": "Beppu Kannawa Hyōtan Onsen",
+    "category": "onsen",
+    "prefecture": "Oita",
+    "city": "Beppu",
+    "address": "159-2 Kannawa, Beppu, Oita 874-0000",
+    "coordinates": [
+      131.4828,
+      33.315
+    ],
+    "stampLocation": "Zentraler Kassen-Counter (ひょうたん温泉総合番台)",
+    "hours": "09:00 - 01:00",
+    "operator": "Hyotan Onsen (ミシュラン3つ星)",
+    "description": "Als einziges Thermalbad Japans durchgehend mit 3 Michelin-Grünen-Sternen ausgezeichnet. Berühmt für Wasserfall-Nackenduschen (Taki-yu), Sandbäder und Dampfsaunen.",
+    "source": "別府八湯温泉道 & 九州八十八湯めぐり",
+    "sourceUrl": "https://www.hyotan-onsen.com/"
+  },
+  {
+    "id": "onsen-beppu-myoban-yunohana",
+    "name": "Beppu Myōban Onsen Yuno-hana-goya",
+    "name_ja": "別府 明梵温泉 湯の里 湯の花小屋",
+    "name_romaji": "Beppu Myōban Onsen Yuno-hana-goya",
+    "category": "onsen",
+    "prefecture": "Oita",
+    "city": "Beppu",
+    "address": "6 Koya, Myoban, Beppu, Oita 874-0843",
+    "coordinates": [
+      131.4589,
+      33.3156
+    ],
+    "stampLocation": "Verkaufsstelle neben den Strohhütten (売店・受付レジ)",
+    "hours": "09:00 - 21:00",
+    "operator": "Myoban Yunosato",
+    "description": "Traditionelle Strohhütten zur Gewinnung von Badesalz-Kristallen (Yunohana), nationales immaterielles Volkskulturgut. Schwefelbad mit Panoramablick auf die Myoban-Brücke.",
+    "source": "別府八湯温泉道 (Beppu Hachiyu Onsen-do)",
+    "sourceUrl": "http://yunosato-onsen.jp/"
+  },
+  {
+    "id": "onsen-yufuin-tsukanoma",
+    "name": "Yufuin Onsen Tsuka-no-Ma",
+    "name_ja": "由布院温泉 束ノ間",
+    "name_romaji": "Yufuin Onsen Tsuka-no-Ma",
+    "category": "onsen",
+    "prefecture": "Oita",
+    "city": "Yufu",
+    "address": "442-1 Kawakami, Yufuin-cho, Yufu, Oita 879-5102",
+    "coordinates": [
+      131.3456,
+      33.2678
+    ],
+    "stampLocation": "Eingang zum Freiluftbad (露天風呂受付)",
+    "hours": "09:30 - 18:00",
+    "operator": "九州八十八湯めぐり実行委員会",
+    "description": "Berühmt für sein intensiv kobaltblau gefärbtes Thermalwasser, reich an Kieselsäure. Freiluftbäder an den Hängen des majestätischen Zwillingsvulkans Mt. Yufu.",
+    "source": "九州八十八湯めぐり (Kyushu 88 Onsen Pilgrimage)",
+    "sourceUrl": "https://www.88onsen.com/"
+  },
+  {
+    "id": "onsen-takeo-romon",
+    "name": "Takeo Onsen Rōmon & Motoyu",
+    "name_ja": "武雄温泉 楼門・元湯",
+    "name_romaji": "Takeo Onsen Rōmon & Motoyu",
+    "category": "onsen",
+    "prefecture": "Saga",
+    "city": "Takeo",
+    "address": "7425 Takeo, Takeo-cho, Takeo, Saga 843-0022",
+    "coordinates": [
+      130.0197,
+      33.1969
+    ],
+    "stampLocation": "Eingangshalle hinter dem roten Turmtor (楼門案内所・番台)",
+    "hours": "06:30 - 24:00",
+    "operator": "Takeo Onsen Co., Ltd. (国重要文化財)",
+    "description": "Über 1.300 Jahre altes Heilbad mit dem leuchtend roten Drachenpalasttor (Romon), 1915 entworfen von Tatsuno Kingo (Architekt des Bahnhofs Tokio). Miyamoto Musashi badete hier.",
+    "source": "Takeo City Tourism Association",
+    "sourceUrl": "http://www.takeo-kk.net/"
+  },
+  {
+    "id": "onsen-unzen-yumoto",
+    "name": "Unzen Onsen Yumoto Hotel",
+    "name_ja": "雲仙温泉 雲仙湯元ホテル・地獄めぐり",
+    "name_romaji": "Unzen Onsen Yumoto Hotel",
+    "category": "onsen",
+    "prefecture": "Nagasaki",
+    "city": "Unzen",
+    "address": "316 Obama-cho Unzen, Unzen, Nagasaki 854-0597",
+    "coordinates": [
+      130.2608,
+      32.7425
+    ],
+    "stampLocation": "Hotel-Lobby mit Blick auf die Fumarolen (フロントロビー)",
+    "hours": "07:00 - 21:00",
+    "operator": "Unzen Yumoto Hotel (創業1693年)",
+    "description": "Gegründet 1693 als ältestes Gasthaus im Unzen-Nationalpark. Direkt an den zischenden Fumarolen der 'Unzen-Hölle' gelegen, mit reinem, milchigem Schwefelwasser.",
+    "source": "Unzen Onsen Tourism Association",
+    "sourceUrl": "https://www.yumoto-h.co.jp/"
+  },
+  {
+    "id": "onsen-ibusuki-saraku",
+    "name": "Ibusuki Onsen Sunamushi Kaikan Saraku",
+    "name_ja": "指宿温泉 砂むし会館 砂楽",
+    "name_romaji": "Ibusuki Onsen Sunamushi Kaikan Saraku",
+    "category": "onsen",
+    "prefecture": "Kagoshima",
+    "city": "Ibusuki",
+    "address": "5-25-18 Yunohama, Ibusuki, Kagoshima 891-0406",
+    "coordinates": [
+      130.6408,
+      31.2339
+    ],
+    "stampLocation": "Hauptkasse im Foyer (1階受付・スタンプ台)",
+    "hours": "08:30 - 20:30",
+    "operator": "Ibusuki City Tourism Association",
+    "description": "Weltweit einzigartiges natürliches Sandbad am Meeresstrand. Badegäste im Yukata werden in den 50–55°C warmen, von geothermischen Quellen erhitzten Sand eingegraben.",
+    "source": "Ibusuki Tourism Association (指宿観光協会)",
+    "sourceUrl": "https://sa-ra-ku.com/"
+  },
+  {
+    "id": "onsen-kirishima-hotel",
+    "name": "Kirishima Onsen Hotel (Sulfur Spring)",
+    "name_ja": "霧島温泉 霧島ホテル",
+    "name_romaji": "Kirishima Onsen Hotel",
+    "category": "onsen",
+    "prefecture": "Kagoshima",
+    "city": "Kirishima",
+    "address": "3948 Takachiho, Makizono-cho, Kirishima, Kagoshima 899-6603",
+    "coordinates": [
+      130.8258,
+      31.8847
+    ],
+    "stampLocation": "Garten-Lobby vor der Riesenhalle (大浴場入口ロビー)",
+    "hours": "11:00 - 18:00 (Tagesgäste)",
+    "operator": "Kirishima Hotel",
+    "description": "Berühmt für sein monumentales 14-Quellen-Hallenbad mit 14 Millionen Litern täglichem Schüttungsvolumen. Sakamoto Ryoma und seine Braut Oryo verbrachten hier 1866 Japans erste Flitterwochen.",
+    "source": "Kirishima City Tourism Association",
+    "sourceUrl": "https://www.kirishima-hotel.jp/"
   }
 ]

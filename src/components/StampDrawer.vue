@@ -22,6 +22,7 @@ import {
   ShieldCheck,
   ChevronRight,
   ZoomIn,
+  Bath,
 } from 'lucide-vue-next';
 import AskStaffModal from './AskStaffModal.vue';
 import StampSourceModal from './StampSourceModal.vue';
@@ -243,6 +244,7 @@ const iconMap = {
   Castle,
   Sparkles,
   Radio,
+  Bath,
 };
 
 const categoryInfo = computed(() => {

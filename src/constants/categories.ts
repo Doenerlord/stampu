@@ -4,7 +4,7 @@ export interface CategoryInfo {
   id: StampCategory;
   label: string;
   labelJa: string;
-  iconName: 'Train' | 'Store' | 'Car' | 'Castle' | 'Sparkles' | 'Radio';
+  iconName: 'Train' | 'Store' | 'Car' | 'Castle' | 'Sparkles' | 'Radio' | 'Bath';
   hexColor: string;
   badgeClass: string;
   activeClass: string;
@@ -64,6 +64,15 @@ export const CATEGORIES: Record<StampCategory, CategoryInfo> = {
     hexColor: '#0284c7', // sky-600
     badgeClass: 'bg-sky-950/80 text-sky-300 border-sky-700/50',
     activeClass: 'bg-sky-600 text-white border-sky-500 shadow-sky-900/40',
+  },
+  onsen: {
+    id: 'onsen',
+    label: 'Onsen & Ryokan',
+    labelJa: '温泉・名湯',
+    iconName: 'Bath',
+    hexColor: '#ea580c', // orange-600
+    badgeClass: 'bg-orange-950/80 text-orange-300 border-orange-700/50',
+    activeClass: 'bg-orange-600 text-white border-orange-500 shadow-orange-900/40',
   },
 };
 
