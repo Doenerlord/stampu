@@ -105,7 +105,7 @@ const sampleStamp: Stamp = {
 };
 
 describe('Stamp Dataset (public/data/stamps.json)', () => {
-  it('contains valid stamps spanning all 11 categories', () => {
+  it('contains valid stamps spanning all 13 categories', () => {
     const raw = fs.readFileSync(path.resolve(__dirname, '../public/data/stamps.json'), 'utf-8');
     const stamps: Stamp[] = JSON.parse(raw);
 
@@ -123,6 +123,8 @@ describe('Stamp Dataset (public/data/stamps.json)', () => {
     expect(categories.has('airport')).toBe(true);
     expect(categories.has('nature')).toBe(true);
     expect(categories.has('lighthouse')).toBe(true);
+    expect(categories.has('museum')).toBe(true);
+    expect(categories.has('anime')).toBe(true);
 
     for (const stamp of stamps) {
       expect(stamp.id).toBeTruthy();
@@ -525,6 +527,34 @@ describe('Stamp Provenance & Source Details (source.ts & StampSourceModal)', () 
     expect(lighthouseDetails.sourceName).toContain('Tokokai');
     expect(lighthouseDetails.sourceUrl).toBe('https://www.tokokai.org/');
     expect(lighthouseDetails.authority).toContain('燈光会');
+
+    // Museum & Culture source resolution
+    const museumStamp: Stamp = {
+      ...sampleStamp,
+      id: 'museum-tokyo-national',
+      name: 'Tokyo National Museum (TNM)',
+      category: 'museum',
+      operator: '独立行政法人 国立文化財機構',
+    };
+    const museumDetails = getStampSourceDetails(museumStamp);
+    expect(museumDetails.registry).toContain('博物館・美術館');
+    expect(museumDetails.sourceName).toContain('Museum');
+    expect(museumDetails.sourceUrl).toBe('https://www.nich.go.jp/');
+    expect(museumDetails.authority).toContain('国立文化財機構');
+
+    // Anime 88 Sanctuary source resolution
+    const animeStamp: Stamp = {
+      ...sampleStamp,
+      id: 'anime-kimi-no-nawa-hida',
+      name: 'Your Name (Hida Furukawa)',
+      category: 'anime',
+      operator: 'Japan Anime Tourism Association (一般社団法人アニメツーリズム協会)',
+    };
+    const animeDetails = getStampSourceDetails(animeStamp);
+    expect(animeDetails.registry).toContain('アニメ聖地88');
+    expect(animeDetails.sourceName).toContain('Anime Tourism Association');
+    expect(animeDetails.sourceUrl).toBe('https://animetourism88.com/');
+    expect(animeDetails.authority).toContain('アニメツーリズム協会');
   });
 
   it('renders StampSourceModal with external link and provenance details', () => {

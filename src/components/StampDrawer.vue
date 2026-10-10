@@ -26,6 +26,8 @@ import {
   Ship,
   Plane,
   Trees,
+  Landmark,
+  Tv,
 } from 'lucide-vue-next';
 import AskStaffModal from './AskStaffModal.vue';
 import StampSourceModal from './StampSourceModal.vue';
@@ -252,6 +254,8 @@ const iconMap = {
   Plane,
   Trees,
   Compass,
+  Landmark,
+  Tv,
 };
 
 const categoryInfo = computed(() => {

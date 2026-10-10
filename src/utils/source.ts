@@ -84,10 +84,10 @@ export function getStampSourceDetails(stamp: Stamp): StampSourceDetails {
     };
   }
 
-  if (stamp.category === 'temple_shrine' || stamp.id.startsWith('shrine-') || stamp.id.startsWith('temple-') || stamp.id.startsWith('anime-')) {
+  if (stamp.category === 'temple_shrine' || stamp.id.startsWith('shrine-') || stamp.id.startsWith('temple-')) {
     return {
-      authority: '四国八十八ヶ所霊場会 / 全国一の宮会 / 一般社団法人アニメツーリズム協会',
-      registry: '全国社寺・霊場巡礼・聖地88 公式台帳',
+      authority: '四国八十八ヶ所霊場会 / 全国一の宮会',
+      registry: '全国社寺・霊場巡礼 公式台帳',
       sourceName: stamp.source || 'Sacred Pilgrimage Association (全国一の宮会・霊場会)',
       sourceUrl: stamp.sourceUrl || 'http://www.ichinomiya-kai.jp/',
       operator: op,
@@ -238,6 +238,40 @@ export function getStampSourceDetails(stamp: Stamp): StampSourceDetails {
       verificationNotesEn:
         'Official commemorative stamp of Japan 50 Lighthouse selection. For climbable lighthouses, available at the Tokokai ticket window; otherwise at cape observation decks or nearby visitor centers.',
       geocoding: 'GSI Japan & Coast Guard Lighthouse Geocoordinates (±5m)',
+      lastVerified: '2025/2026 Registry Verification',
+    };
+  }
+
+  if (stamp.category === 'museum' || stamp.id.startsWith('museum-') || stamp.id.startsWith('zoo-') || stamp.id.startsWith('aqua-')) {
+    return {
+      authority: '独立行政法人 国立文化財機構 / 日本博物館協会 / 日本動物園水族館協会 (JAZA)',
+      registry: '全国国公立博物館・美術館・水族館 記念スタンプ台帳',
+      sourceName: stamp.source || 'National Institutes for Cultural Heritage & Museum Association (日本博物館協会)',
+      sourceUrl: stamp.sourceUrl || 'https://www.nich.go.jp/',
+      operator: op,
+      verificationStatus: 'Offiziell Verifiziert (ミュージアム公式記念スタンプ)',
+      verificationNotesDe:
+        'Offizieller Gedenkstempel des Museums, Zoos oder Aquariums. Erhältlich am Info-Desk im Eingangsfoyer oder Museumsshop.',
+      verificationNotesEn:
+        'Official commemorative stamp of the museum, zoo, or aquarium. Located at entrance information desks or museum shops.',
+      geocoding: 'GSI Japan & Cultural Institution Entrance Nodes (±5m)',
+      lastVerified: '2025/2026 Registry Verification',
+    };
+  }
+
+  if (stamp.category === 'anime' || stamp.id.startsWith('anime-') || stamp.id.startsWith('seichi-')) {
+    return {
+      authority: '一般社団法人 アニメツーリズム協会 (Anime Tourism Association)',
+      registry: '訪れてみたい日本のアニメ聖地88 公式御朱印所台帳',
+      sourceName: stamp.source || 'Japan Anime Tourism Association (アニメツーリズム協会 88聖地)',
+      sourceUrl: stamp.sourceUrl || 'https://animetourism88.com/',
+      operator: op,
+      verificationStatus: 'Offiziell Verifiziert (アニメ聖地88 認定御朱印スタンプ)',
+      verificationNotesDe:
+        'Offizieller Anime-Pilgerstempel des "Japan Anime Tourism 88"-Projekts. Befindet sich am offiziellen Fudasho-Standort (札所) wie Touristeninformationen, Museen oder Bahnhöfen.',
+      verificationNotesEn:
+        'Official Anime Pilgrimage stamp certified by the Anime Tourism Association "Japan Anime 88". Located at official Fudasho checkpoints including tourist centers, stations, and museums.',
+      geocoding: 'GSI Japan & Anime Sanctuary Fudasho Coordinates (±5m)',
       lastVerified: '2025/2026 Registry Verification',
     };
   }

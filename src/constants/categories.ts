@@ -15,7 +15,9 @@ export interface CategoryInfo {
     | 'Ship'
     | 'Plane'
     | 'Trees'
-    | 'Compass';
+    | 'Compass'
+    | 'Landmark'
+    | 'Tv';
   hexColor: string;
   badgeClass: string;
   activeClass: string;
@@ -120,6 +122,24 @@ export const CATEGORIES: Record<StampCategory, CategoryInfo> = {
     hexColor: '#0d9488', // teal-600
     badgeClass: 'bg-teal-950/80 text-teal-300 border-teal-700/50',
     activeClass: 'bg-teal-600 text-white border-teal-500 shadow-teal-900/40',
+  },
+  museum: {
+    id: 'museum',
+    label: 'Museums & Culture',
+    labelJa: '博物館・水族館',
+    iconName: 'Landmark',
+    hexColor: '#7c3aed', // violet-600
+    badgeClass: 'bg-violet-950/80 text-violet-300 border-violet-700/50',
+    activeClass: 'bg-violet-600 text-white border-violet-500 shadow-violet-900/40',
+  },
+  anime: {
+    id: 'anime',
+    label: 'Anime Pilgrimage',
+    labelJa: 'アニメ聖地88',
+    iconName: 'Tv',
+    hexColor: '#db2777', // pink-600
+    badgeClass: 'bg-pink-950/80 text-pink-300 border-pink-700/50',
+    activeClass: 'bg-pink-600 text-white border-pink-500 shadow-pink-900/40',
   },
 };
 

@@ -9,7 +9,9 @@ export type StampCategory =
   | 'ferry'
   | 'airport'
   | 'nature'
-  | 'lighthouse';
+  | 'lighthouse'
+  | 'museum'
+  | 'anime';
 
 export interface Stamp {
   id: string;
