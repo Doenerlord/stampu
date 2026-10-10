@@ -4,7 +4,7 @@
     "name": "Hokkaido",
     "name_ja": "北海道",
     "region": "Hokkaido",
-    "stampCount": 208,
+    "stampCount": 216,
     "categories": {
       "castle": 5,
       "eki": 9,
@@ -82,7 +82,7 @@
     "name": "Fukushima",
     "name_ja": "福島県",
     "region": "Tohoku",
-    "stampCount": 68,
+    "stampCount": 70,
     "categories": {
       "castle": 5,
       "eki": 4,
@@ -154,7 +154,7 @@
     "name": "Yamagata",
     "name_ja": "山形県",
     "region": "Tohoku",
-    "stampCount": 32,
+    "stampCount": 33,
     "categories": {
       "castle": 3,
       "michinoeki": 23,
@@ -203,7 +203,7 @@
     "name": "Gunma",
     "name_ja": "群馬県",
     "region": "Kanto",
-    "stampCount": 70,
+    "stampCount": 77,
     "categories": {
       "castle": 5,
       "eki": 5,
@@ -227,7 +227,7 @@
     "name": "Ibaraki",
     "name_ja": "茨城県",
     "region": "Kanto",
-    "stampCount": 51,
+    "stampCount": 55,
     "categories": {
       "castle": 3,
       "michinoeki": 16,
@@ -249,7 +249,7 @@
     "name": "Kanagawa",
     "name_ja": "神奈川県",
     "region": "Kanto",
-    "stampCount": 176,
+    "stampCount": 178,
     "categories": {
       "castle": 3,
       "eki": 79,
@@ -300,7 +300,7 @@
     "name": "Tochigi",
     "name_ja": "栃木県",
     "region": "Kanto",
-    "stampCount": 64,
+    "stampCount": 68,
     "categories": {
       "castle": 2,
       "eki": 12,
@@ -322,7 +322,7 @@
     "name": "Tokyo",
     "name_ja": "東京都",
     "region": "Kanto",
-    "stampCount": 531,
+    "stampCount": 539,
     "categories": {
       "castle": 4,
       "eki": 436,
@@ -375,7 +375,7 @@
     "name": "Fukui",
     "name_ja": "福井県",
     "region": "Chubu",
-    "stampCount": 55,
+    "stampCount": 56,
     "categories": {
       "castle": 6,
       "eki": 5,
@@ -397,7 +397,7 @@
     "name": "Gifu",
     "name_ja": "岐阜県",
     "region": "Chubu",
-    "stampCount": 98,
+    "stampCount": 99,
     "categories": {
       "castle": 6,
       "eki": 7,
@@ -420,7 +420,7 @@
     "name": "Ishikawa",
     "name_ja": "石川県",
     "region": "Chubu",
-    "stampCount": 66,
+    "stampCount": 69,
     "categories": {
       "castle": 3,
       "eki": 3,
@@ -446,7 +446,7 @@
     "name": "Nagano",
     "name_ja": "長野県",
     "region": "Chubu",
-    "stampCount": 104,
+    "stampCount": 107,
     "categories": {
       "castle": 7,
       "eki": 5,
@@ -496,7 +496,7 @@
     "name": "Shizuoka",
     "name_ja": "静岡県",
     "region": "Chubu",
-    "stampCount": 95,
+    "stampCount": 99,
     "categories": {
       "castle": 7,
       "eki": 5,
@@ -520,7 +520,7 @@
     "name": "Toyama",
     "name_ja": "富山県",
     "region": "Chubu",
-    "stampCount": 37,
+    "stampCount": 38,
     "categories": {
       "castle": 3,
       "eki": 3,
@@ -564,7 +564,7 @@
     "name": "Hyogo",
     "name_ja": "兵庫県",
     "region": "Kansai",
-    "stampCount": 168,
+    "stampCount": 173,
     "categories": {
       "castle": 8,
       "eki": 38,
@@ -640,7 +640,7 @@
     "name": "Nara",
     "name_ja": "奈良県",
     "region": "Kansai",
-    "stampCount": 53,
+    "stampCount": 54,
     "categories": {
       "castle": 3,
       "eki": 19,
@@ -661,7 +661,7 @@
     "name": "Osaka",
     "name_ja": "大阪府",
     "region": "Kansai",
-    "stampCount": 249,
+    "stampCount": 251,
     "categories": {
       "castle": 5,
       "eki": 190,
@@ -686,7 +686,7 @@
     "name": "Shiga",
     "name_ja": "滋賀県",
     "region": "Kansai",
-    "stampCount": 55,
+    "stampCount": 56,
     "categories": {
       "castle": 6,
       "eki": 3,
@@ -708,7 +708,7 @@
     "name": "Wakayama",
     "name_ja": "和歌山県",
     "region": "Kansai",
-    "stampCount": 76,
+    "stampCount": 78,
     "categories": {
       "castle": 2,
       "eki": 16,
@@ -735,7 +735,7 @@
     "name": "Hiroshima",
     "name_ja": "広島県",
     "region": "Chugoku",
-    "stampCount": 59,
+    "stampCount": 60,
     "categories": {
       "castle": 5,
       "eki": 6,
@@ -783,7 +783,7 @@
     "name": "Shimane",
     "name_ja": "島根県",
     "region": "Chugoku",
-    "stampCount": 45,
+    "stampCount": 46,
     "categories": {
       "castle": 4,
       "michinoeki": 29,
@@ -807,7 +807,7 @@
     "name": "Tottori",
     "name_ja": "鳥取県",
     "region": "Chugoku",
-    "stampCount": 35,
+    "stampCount": 36,
     "categories": {
       "castle": 3,
       "michinoeki": 17,
@@ -831,7 +831,7 @@
     "name": "Yamaguchi",
     "name_ja": "山口県",
     "region": "Chugoku",
-    "stampCount": 49,
+    "stampCount": 51,
     "categories": {
       "castle": 3,
       "eki": 6,
@@ -856,7 +856,7 @@
     "name": "Ehime",
     "name_ja": "愛媛県",
     "region": "Shikoku",
-    "stampCount": 73,
+    "stampCount": 75,
     "categories": {
       "castle": 7,
       "eki": 1,
@@ -881,7 +881,7 @@
     "name": "Kagawa",
     "name_ja": "香川県",
     "region": "Shikoku",
-    "stampCount": 63,
+    "stampCount": 64,
     "categories": {
       "castle": 3,
       "eki": 1,
@@ -954,7 +954,7 @@
     "name": "Fukuoka",
     "name_ja": "福岡県",
     "region": "Kyushu & Okinawa",
-    "stampCount": 65,
+    "stampCount": 66,
     "categories": {
       "castle": 5,
       "eki": 24,
@@ -980,7 +980,7 @@
     "name": "Kagoshima",
     "name_ja": "鹿児島県",
     "region": "Kyushu & Okinawa",
-    "stampCount": 56,
+    "stampCount": 59,
     "categories": {
       "castle": 3,
       "eki": 9,
@@ -1005,7 +1005,7 @@
     "name": "Kumamoto",
     "name_ja": "熊本県",
     "region": "Kyushu & Okinawa",
-    "stampCount": 57,
+    "stampCount": 62,
     "categories": {
       "castle": 4,
       "eki": 3,
@@ -1051,7 +1051,7 @@
     "name": "Nagasaki",
     "name_ja": "長崎県",
     "region": "Kyushu & Okinawa",
-    "stampCount": 35,
+    "stampCount": 36,
     "categories": {
       "castle": 5,
       "eki": 4,
@@ -1131,7 +1131,7 @@
     "name": "Saga",
     "name_ja": "佐賀県",
     "region": "Kyushu & Okinawa",
-    "stampCount": 24,
+    "stampCount": 26,
     "categories": {
       "castle": 5,
       "eki": 3,

@@ -44,6 +44,18 @@ CATEGORY_CONFIG = {
         "bg": "#ecfdf5",
         "badge": "鉄道 記念スタンプ",
         "corner": "乗車記念",
+    },
+    "onsen": {
+        "ink": "#0284c7",
+        "bg": "#f0f9ff",
+        "badge": "名湯温泉 入湯記念",
+        "corner": "入湯記念",
+    },
+    "tower": {
+        "ink": "#7c3aed",
+        "bg": "#f5f3ff",
+        "badge": "日本展望塔 登頂記念",
+        "corner": "登頂記念",
     }
 }
 
