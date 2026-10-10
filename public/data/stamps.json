@@ -74530,5 +74530,383 @@
       "reward": "Stage 1 Commemorative Clear File & Certificate (Tokyo Station JR East Travel Service Center)",
       "rewardJa": "ステージ1 達成記念オリジナルクリアファイル＆認定証（東京駅JR East Travel Service Center）"
     }
+  },
+  {
+    "id": "info-akihabara-tourist-desk",
+    "name": "Akihabara Tourist Information Desk",
+    "name_ja": "秋葉原ツーリストインフォメーションデスク",
+    "name_romaji": "秋葉原ツーリストインフォメーションデスク-annaijo",
+    "category": "tourist_info",
+    "prefecture": "Tokyo",
+    "city": "千代田区",
+    "address": "東京都千代田区外神田1-15-9",
+    "coordinates": [
+      139.772324,
+      35.698093
+    ],
+    "stampLocation": "秋葉原ツーリストインフォメーションデスク内",
+    "hours": "13:00～17:00",
+    "operator": "Akihabara Tourism Promotion Association",
+    "imageUrl": "/images/stamps/info-akihabara-tourist-desk.jpg",
+    "description": "Official commemorative tourism stamp for Akihabara Tourist Information Desk (秋葉原ツーリストインフォメーションデスク) located in 千代田区, Tokyo. Available at the information counter for travelers.",
+    "source": "Funakiya Stamp Notebook (旅のスタンプ帳)",
+    "sourceUrl": "https://stamp.funakiya.com/akihabara-infodesk.html"
+  },
+  {
+    "id": "info-nihonbashi-tourist-center",
+    "name": "Nihonbashi Tourist Information Center",
+    "name_ja": "日本橋観光案内所",
+    "name_romaji": "日本橋観光案内所-annaijo",
+    "category": "tourist_info",
+    "prefecture": "Tokyo",
+    "city": "中央区",
+    "address": "東京都中央区日本橋1-1-1地先",
+    "coordinates": [
+      139.774048,
+      35.683796
+    ],
+    "stampLocation": "日本橋観光案内所内",
+    "hours": "10:00～17:00",
+    "operator": "Chuo City Tourism Association",
+    "imageUrl": "/images/stamps/info-nihonbashi-tourist-center.jpg",
+    "description": "Official commemorative tourism stamp for Nihonbashi Tourist Information Center (日本橋観光案内所) located in 中央区, Tokyo. Available at the information counter for travelers.",
+    "source": "Funakiya Stamp Notebook (旅のスタンプ帳)",
+    "sourceUrl": "https://stamp.funakiya.com/nihombashi-kanko.html"
+  },
+  {
+    "id": "info-nihonbashi-annaijo",
+    "name": "Nihonbashi Information Center (Coredo Muromachi)",
+    "name_ja": "日本橋案内所",
+    "name_romaji": "日本橋案内所-annaijo",
+    "category": "tourist_info",
+    "prefecture": "Tokyo",
+    "city": "中央区",
+    "address": "東京都中央区日本橋室町2-2-1 コレド室町1 B1F",
+    "coordinates": [
+      139.774048,
+      35.686451
+    ],
+    "stampLocation": "日本橋案内所内",
+    "hours": "11:00～20:00（平日）、10:00～20:00（土日祝）",
+    "operator": "Mitsui Fudosan / Chuo City Tourism",
+    "imageUrl": "/images/stamps/info-nihonbashi-annaijo.jpg",
+    "description": "Official commemorative tourism stamp for Nihonbashi Information Center (Coredo Muromachi) (日本橋案内所) located in 中央区, Tokyo. Available at the information counter for travelers.",
+    "source": "Funakiya Stamp Notebook (旅のスタンプ帳)",
+    "sourceUrl": "https://stamp.funakiya.com/nihombashi-info.html"
+  },
+  {
+    "id": "info-ginza-kanko-annaijo",
+    "name": "Ginza Tourist Information Center",
+    "name_ja": "銀座観光案内所",
+    "name_romaji": "銀座観光案内所-annaijo",
+    "category": "tourist_info",
+    "prefecture": "Tokyo",
+    "city": "中央区",
+    "address": "東京都中央区銀座5-2-1 東急プラザ銀座1F",
+    "coordinates": [
+      139.762756,
+      35.672646
+    ],
+    "stampLocation": "銀座観光案内所内",
+    "hours": "10:30～17:30",
+    "operator": "Ginza Street Association / JNTO",
+    "imageUrl": "/images/stamps/info-ginza-kanko-annaijo.jpg",
+    "description": "Official commemorative tourism stamp for Ginza Tourist Information Center (銀座観光案内所) located in 中央区, Tokyo. Available at the information counter for travelers.",
+    "source": "Funakiya Stamp Notebook (旅のスタンプ帳)",
+    "sourceUrl": "https://stamp.funakiya.com/ginza-info.html"
+  },
+  {
+    "id": "info-minato-tokyotower-center",
+    "name": "Minato City Tourist Information Center Tokyo Tower",
+    "name_ja": "港区観光インフォメーションセンター 東京タワー",
+    "name_romaji": "港区観光インフォメーションセンター 東京タワー-annaijo",
+    "category": "tourist_info",
+    "prefecture": "Tokyo",
+    "city": "港区",
+    "address": "東京都港区芝公園4-2-8 東京タワーフットタウン2F",
+    "coordinates": [
+      139.745468,
+      35.658649
+    ],
+    "stampLocation": "港区観光インフォメーションセンター 東京タワー内",
+    "hours": "11:00～19:00",
+    "operator": "Minato City Tourism Association",
+    "imageUrl": "/images/stamps/info-minato-tokyotower-center.jpg",
+    "description": "Official commemorative tourism stamp for Minato City Tourist Information Center Tokyo Tower (港区観光インフォメーションセンター 東京タワー) located in 港区, Tokyo. Available at the information counter for travelers.",
+    "source": "Funakiya Stamp Notebook (旅のスタンプ帳)",
+    "sourceUrl": "https://stamp.funakiya.com/minatoku-info-tokyotower.html"
+  },
+  {
+    "id": "info-shinjuku-kanko-annaijo",
+    "name": "Shinjuku Tourist Information Center",
+    "name_ja": "新宿観光案内所",
+    "name_romaji": "新宿観光案内所-annaijo",
+    "category": "tourist_info",
+    "prefecture": "Tokyo",
+    "city": "新宿区",
+    "address": "東京都新宿区新宿3-37-2",
+    "coordinates": [
+      139.701447,
+      35.689735
+    ],
+    "stampLocation": "新宿観光案内所内",
+    "hours": "10:00～19:00",
+    "operator": "Shinjuku Convention & Visitors Bureau",
+    "imageUrl": "/images/stamps/info-shinjuku-kanko-annaijo.jpg",
+    "description": "Official commemorative tourism stamp for Shinjuku Tourist Information Center (新宿観光案内所) located in 新宿区, Tokyo. Available at the information counter for travelers.",
+    "source": "Funakiya Stamp Notebook (旅のスタンプ帳)",
+    "sourceUrl": "https://stamp.funakiya.com/shinjuku-kanko.html"
+  },
+  {
+    "id": "info-tokyo-metro-omotesando",
+    "name": "Tokyo Metro Omote-sando Tourist Information Center",
+    "name_ja": "東京メトロ表参道駅旅客案内所+",
+    "name_romaji": "東京メトロ表参道駅旅客案内所+-annaijo",
+    "category": "tourist_info",
+    "prefecture": "Tokyo",
+    "city": "港区",
+    "address": "東京都港区北青山3-6-12 東京メトロ表参道駅",
+    "coordinates": [
+      139.711334,
+      35.665234
+    ],
+    "stampLocation": "東京メトロ表参道駅旅客案内所サービスセンター内",
+    "hours": "9:00～16:00",
+    "operator": "Tokyo Metro Commerce",
+    "imageUrl": "/images/stamps/info-tokyo-metro-omotesando.jpg",
+    "description": "Official commemorative tourism stamp for Tokyo Metro Omote-sando Tourist Information Center (東京メトロ表参道駅旅客案内所+) located in 港区, Tokyo. Available at the information counter for travelers.",
+    "source": "Funakiya Stamp Notebook (旅のスタンプ帳)",
+    "sourceUrl": "https://stamp.funakiya.com/metro-omotesando-info.html"
+  },
+  {
+    "id": "info-minato-fudanotsuji-center",
+    "name": "Minato City Tourist Information Center (Fudanotsuji)",
+    "name_ja": "港区観光インフォメーションセンター 札の辻スクエア",
+    "name_romaji": "港区観光インフォメーションセンター 札の辻スクエア-annaijo",
+    "category": "tourist_info",
+    "prefecture": "Tokyo",
+    "city": "港区",
+    "address": "東京都港区芝5-36-4 札の辻スクエア1F",
+    "coordinates": [
+      139.744904,
+      35.644859
+    ],
+    "stampLocation": "港区観光インフォメーションセンター 札の辻スクエア内",
+    "hours": "9:00～17:00",
+    "operator": "Minato City Tourism Association",
+    "imageUrl": "/images/stamps/info-minato-fudanotsuji-center.jpg",
+    "description": "Official commemorative tourism stamp for Minato City Tourist Information Center (Fudanotsuji) (港区観光インフォメーションセンター 札の辻スクエア) located in 港区, Tokyo. Available at the information counter for travelers.",
+    "source": "Funakiya Stamp Notebook (旅のスタンプ帳)",
+    "sourceUrl": "https://stamp.funakiya.com/minatoku-info-fudanotsuji.html"
+  },
+  {
+    "id": "museum-nact-roppongi",
+    "name": "The National Art Center, Tokyo (NACT)",
+    "name_ja": "国立新美術館",
+    "name_romaji": "国立新美術館-museum",
+    "category": "museum",
+    "prefecture": "Tokyo",
+    "city": "港区",
+    "address": "東京都港区六本木7-22-2",
+    "coordinates": [
+      139.726776,
+      35.664024
+    ],
+    "stampLocation": "国立新美術館内",
+    "hours": "10:00～18:00",
+    "operator": "Independent Administrative Institution National Museum of Art",
+    "imageUrl": "/images/stamps/museum-nact-roppongi.jpg",
+    "description": "Official commemorative cultural stamp for The National Art Center, Tokyo (NACT) (国立新美術館) in 港区, Tokyo. Depicts the institution's collection, historical heritage, and regional architecture.",
+    "source": "Funakiya Stamp Notebook (旅のスタンプ帳)",
+    "sourceUrl": "https://stamp.funakiya.com/nact.html"
+  },
+  {
+    "id": "museum-currency-bank-of-japan",
+    "name": "Bank of Japan Currency Museum",
+    "name_ja": "貨幣博物館",
+    "name_romaji": "貨幣博物館-museum",
+    "category": "museum",
+    "prefecture": "Tokyo",
+    "city": "中央区",
+    "address": "東京都中央区日本橋本石町1-3-1",
+    "coordinates": [
+      139.771439,
+      35.685349
+    ],
+    "stampLocation": "貨幣博物館内",
+    "hours": "9:30～16:30",
+    "operator": "Bank of Japan (日本銀行)",
+    "imageUrl": "/images/stamps/museum-currency-bank-of-japan.jpg",
+    "description": "Official commemorative cultural stamp for Bank of Japan Currency Museum (貨幣博物館) in 中央区, Tokyo. Depicts the institution's collection, historical heritage, and regional architecture.",
+    "source": "Funakiya Stamp Notebook (旅のスタンプ帳)",
+    "sourceUrl": "https://stamp.funakiya.com/currency-museum.html"
+  },
+  {
+    "id": "museum-ueno-royal-museum",
+    "name": "The Ueno Royal Museum",
+    "name_ja": "上野の森美術館",
+    "name_romaji": "上野の森美術館-museum",
+    "category": "museum",
+    "prefecture": "Tokyo",
+    "city": "台東区",
+    "address": "東京都台東区上野公園1-2",
+    "coordinates": [
+      139.77356,
+      35.710598
+    ],
+    "stampLocation": "上野の森美術館内",
+    "hours": "10:00～17:00",
+    "operator": "Japan Art Association",
+    "imageUrl": "/images/stamps/museum-ueno-royal-museum.jpg",
+    "description": "Official commemorative cultural stamp for The Ueno Royal Museum (上野の森美術館) in 台東区, Tokyo. Depicts the institution's collection, historical heritage, and regional architecture.",
+    "source": "Funakiya Stamp Notebook (旅のスタンプ帳)",
+    "sourceUrl": "https://stamp.funakiya.com/uenonomori-museum.html"
+  },
+  {
+    "id": "museum-tokyo-fire-department",
+    "name": "Tokyo Fire Museum (Yotsuya)",
+    "name_ja": "消防博物館",
+    "name_romaji": "消防博物館-museum",
+    "category": "museum",
+    "prefecture": "Tokyo",
+    "city": "新宿区",
+    "address": "東京都新宿区四谷3-10",
+    "coordinates": [
+      139.719894,
+      35.688141
+    ],
+    "stampLocation": "消防博物館内",
+    "hours": "9:30～17:30",
+    "operator": "Tokyo Fire Department (東京消防庁)",
+    "imageUrl": "/images/stamps/museum-tokyo-fire-department.jpg",
+    "description": "Official commemorative cultural stamp for Tokyo Fire Museum (Yotsuya) (消防博物館) in 新宿区, Tokyo. Depicts the institution's collection, historical heritage, and regional architecture.",
+    "source": "Funakiya Stamp Notebook (旅のスタンプ帳)",
+    "sourceUrl": "https://stamp.funakiya.com/firedepartment-museum.html"
+  },
+  {
+    "id": "museum-shinjuku-historical",
+    "name": "Shinjuku Historical Museum",
+    "name_ja": "新宿区立新宿歴史博物館",
+    "name_romaji": "新宿区立新宿歴史博物館-museum",
+    "category": "museum",
+    "prefecture": "Tokyo",
+    "city": "新宿区",
+    "address": "東京都新宿区四谷三栄町12-16",
+    "coordinates": [
+      139.725204,
+      35.68996
+    ],
+    "stampLocation": "新宿区立新宿歴史博物館園内",
+    "hours": "9:30～17:30",
+    "operator": "Shinjuku City Future Creation Foundation",
+    "imageUrl": "/images/stamps/museum-shinjuku-historical.jpg",
+    "description": "Official commemorative cultural stamp for Shinjuku Historical Museum (新宿区立新宿歴史博物館) in 新宿区, Tokyo. Depicts the institution's collection, historical heritage, and regional architecture.",
+    "source": "Funakiya Stamp Notebook (旅のスタンプ帳)",
+    "sourceUrl": "https://stamp.funakiya.com/shinjuku-historymuseum.html"
+  },
+  {
+    "id": "museum-baseball-hall-of-fame",
+    "name": "The Baseball Hall of Fame and Museum (Tokyo Dome)",
+    "name_ja": "野球殿堂博物館",
+    "name_romaji": "野球殿堂博物館-museum",
+    "category": "museum",
+    "prefecture": "Tokyo",
+    "city": "文京区",
+    "address": "東京都文京区後楽1-3-61",
+    "coordinates": [
+      139.752151,
+      35.703152
+    ],
+    "stampLocation": "野球殿堂博物館内",
+    "hours": "10:00～18:00（3～9月）、10:00～17:00（10～2月）",
+    "operator": "Baseball Hall of Fame and Museum Foundation",
+    "imageUrl": "/images/stamps/museum-baseball-hall-of-fame.jpg",
+    "description": "Official commemorative cultural stamp for The Baseball Hall of Fame and Museum (Tokyo Dome) (野球殿堂博物館) in 文京区, Tokyo. Depicts the institution's collection, historical heritage, and regional architecture.",
+    "source": "Funakiya Stamp Notebook (旅のスタンプ帳)",
+    "sourceUrl": "https://stamp.funakiya.com/baseball-museum.html"
+  },
+  {
+    "id": "museum-meiji-university",
+    "name": "Meiji University Museum (Criminal & Archaeological)",
+    "name_ja": "明治大学博物館",
+    "name_romaji": "明治大学博物館-museum",
+    "category": "museum",
+    "prefecture": "Tokyo",
+    "city": "千代田区",
+    "address": "東京都千代田区神田駿河台1-1",
+    "coordinates": [
+      139.761398,
+      35.697712
+    ],
+    "stampLocation": "明治大学博物館内",
+    "hours": "10:00～17:00",
+    "operator": "Meiji University",
+    "imageUrl": "/images/stamps/museum-meiji-university.jpg",
+    "description": "Official commemorative cultural stamp for Meiji University Museum (Criminal & Archaeological) (明治大学博物館) in 千代田区, Tokyo. Depicts the institution's collection, historical heritage, and regional architecture.",
+    "source": "Funakiya Stamp Notebook (旅のスタンプ帳)",
+    "sourceUrl": "https://stamp.funakiya.com/meijiac-museum.html"
+  },
+  {
+    "id": "museum-mufg-trust-bank",
+    "name": "Mitsubishi UFJ Trust Bank Museum",
+    "name_ja": "三菱UFJ信託銀行信託博物館",
+    "name_romaji": "三菱UFJ信託銀行信託博物館-museum",
+    "category": "museum",
+    "prefecture": "Tokyo",
+    "city": "千代田区",
+    "address": "東京都千代田区丸の内1-4-6 日本工業倶楽部会館1F",
+    "coordinates": [
+      139.764786,
+      35.684025
+    ],
+    "stampLocation": "三菱UFJ信託銀行信託博物館内",
+    "hours": "10:00～18:00",
+    "operator": "Mitsubishi UFJ Trust and Banking Corporation",
+    "imageUrl": "/images/stamps/museum-mufg-trust-bank.jpg",
+    "description": "Official commemorative cultural stamp for Mitsubishi UFJ Trust Bank Museum (三菱UFJ信託銀行信託博物館) in 千代田区, Tokyo. Depicts the institution's collection, historical heritage, and regional architecture.",
+    "source": "Funakiya Stamp Notebook (旅のスタンプ帳)",
+    "sourceUrl": "https://stamp.funakiya.com/mufg-trust-museum.html"
+  },
+  {
+    "id": "museum-logistics-shinagawa",
+    "name": "Museum of Logistics (Shinagawa)",
+    "name_ja": "物流博物館",
+    "name_romaji": "物流博物館-museum",
+    "category": "museum",
+    "prefecture": "Tokyo",
+    "city": "港区",
+    "address": "東京都港区高輪4-7-15",
+    "coordinates": [
+      139.732727,
+      35.629215
+    ],
+    "stampLocation": "物流博物館内",
+    "hours": "10:00～17:00",
+    "operator": "Ryutsu Tsushin Foundation",
+    "imageUrl": "/images/stamps/museum-logistics-shinagawa.jpg",
+    "description": "Official commemorative cultural stamp for Museum of Logistics (Shinagawa) (物流博物館) in 港区, Tokyo. Depicts the institution's collection, historical heritage, and regional architecture.",
+    "source": "Funakiya Stamp Notebook (旅のスタンプ帳)",
+    "sourceUrl": "https://stamp.funakiya.com/logistics-museum.html"
+  },
+  {
+    "id": "museum-kachidoki-bridge-archive",
+    "name": "Kachidoki Bridge Archive Museum",
+    "name_ja": "かちどき橋の資料館",
+    "name_romaji": "かちどき橋の資料館-museum",
+    "category": "museum",
+    "prefecture": "Tokyo",
+    "city": "中央区",
+    "address": "東京都中央区築地6-20-11",
+    "coordinates": [
+      139.773636,
+      35.663372
+    ],
+    "stampLocation": "かちどき橋の資料館内",
+    "hours": "9:30～16:30（通常）、9:00～16:00（12～2月）",
+    "operator": "Tokyo Metropolitan Government Construction Bureau",
+    "imageUrl": "/images/stamps/museum-kachidoki-bridge-archive.jpg",
+    "description": "Official commemorative cultural stamp for Kachidoki Bridge Archive Museum (かちどき橋の資料館) in 中央区, Tokyo. Depicts the institution's collection, historical heritage, and regional architecture.",
+    "source": "Funakiya Stamp Notebook (旅のスタンプ帳)",
+    "sourceUrl": "https://stamp.funakiya.com/kachidoki-bridge-museum.html"
   }
 ]
