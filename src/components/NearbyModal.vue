@@ -106,10 +106,13 @@ const nearbyStampsWithDistance = computed(() => {
     const q = searchQuery.value.trim().toLowerCase();
     filtered = filtered.filter(
       (item) =>
-        item.stamp.name.toLowerCase().includes(q) ||
-        item.stamp.name_ja.includes(q) ||
-        item.stamp.city.toLowerCase().includes(q) ||
-        item.stamp.stampLocation.toLowerCase().includes(q)
+        (item.stamp.name || '').toLowerCase().includes(q) ||
+        (item.stamp.name_ja || '').includes(q) ||
+        (item.stamp.name_romaji || '').toLowerCase().includes(q) ||
+        (item.stamp.prefecture || '').toLowerCase().includes(q) ||
+        (item.stamp.city || '').toLowerCase().includes(q) ||
+        (item.stamp.stampLocation || '').toLowerCase().includes(q) ||
+        (item.stamp.operator || '').toLowerCase().includes(q)
     );
   }
 

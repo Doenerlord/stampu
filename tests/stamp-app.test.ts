@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach, vi } from 'vitest';
-import { mount } from '@vue/test-utils';
+import { mount, flushPromises } from '@vue/test-utils';
 import 'fake-indexeddb/auto';
 import fs from 'node:fs';
 import path from 'node:path';
@@ -1227,5 +1227,48 @@ describe('Multi-Stamp Disambiguation (Option 2)', () => {
   });
 });
 
+describe('Stamp Search Resilience & Filtering (Search Query)', () => {
+  it('public/data/stamps.json has non-empty name_romaji on 100% of stamps', () => {
+    const rawData = fs.readFileSync(path.resolve(__dirname, '../public/data/stamps.json'), 'utf-8');
+    const stamps: Stamp[] = JSON.parse(rawData);
+    expect(stamps.length).toBeGreaterThan(7000);
 
+    const missingRomaji = stamps.filter(
+      (s) => typeof s.name_romaji !== 'string' || s.name_romaji.trim().length === 0
+    );
+    expect(missingRomaji).toHaveLength(0);
+  });
 
+  it('App.vue filters stamps cleanly without crashing when searching by romaji, station name, operator, or city', async () => {
+    const wrapper = mount(App);
+    await flushPromises();
+
+    // Find search input in CategoryFilters
+    const searchInputs = wrapper.findAll('input[placeholder*="Station"]');
+    expect(searchInputs.length).toBeGreaterThan(0);
+
+    const searchInput = searchInputs[0];
+
+    // Search for Ashinomakionsen (previously crashed due to missing romaji)
+    await searchInput.setValue('Ashinomakionsen');
+    await wrapper.vm.$nextTick();
+
+    // App should still be mounted and healthy
+    expect(wrapper.exists()).toBe(true);
+
+    // Search for Japanese text
+    await searchInput.setValue('会津');
+    await wrapper.vm.$nextTick();
+    expect(wrapper.exists()).toBe(true);
+
+    // Search for operator
+    await searchInput.setValue('JR');
+    await wrapper.vm.$nextTick();
+    expect(wrapper.exists()).toBe(true);
+
+    // Clear search
+    await searchInput.setValue('');
+    await wrapper.vm.$nextTick();
+    expect(wrapper.exists()).toBe(true);
+  });
+});

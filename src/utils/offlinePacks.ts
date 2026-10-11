@@ -20,7 +20,7 @@ export async function downloadPrefecturePack(
   allStamps: Stamp[],
   onProgress?: (progress: PackDownloadProgress) => void
 ): Promise<{ success: boolean; imageCount: number; sizeBytes: number }> {
-  const prefStamps = allStamps.filter((s) => s.prefecture.toLowerCase() === pack.name.toLowerCase());
+  const prefStamps = allStamps.filter((s) => (s.prefecture || '').toLowerCase() === (pack.name || '').toLowerCase());
   const imageUrls = prefStamps
     .map((s) => s.imageUrl)
     .filter((url): url is string => Boolean(url && url.length > 0));
@@ -115,7 +115,7 @@ export async function deletePrefecturePack(
   pack: PrefecturePack,
   allStamps: Stamp[]
 ): Promise<boolean> {
-  const prefStamps = allStamps.filter((s) => s.prefecture.toLowerCase() === pack.name.toLowerCase());
+  const prefStamps = allStamps.filter((s) => (s.prefecture || '').toLowerCase() === (pack.name || '').toLowerCase());
   const imageUrls = prefStamps
     .map((s) => s.imageUrl)
     .filter((url): url is string => Boolean(url && url.length > 0));

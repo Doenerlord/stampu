@@ -179,13 +179,24 @@ const filteredStamps = computed(() => {
 
     // 3. Search query check
     if (query) {
-      const matchName = stamp.name.toLowerCase().includes(query);
-      const matchJa = stamp.name_ja.includes(query);
-      const matchRomaji = stamp.name_romaji.toLowerCase().includes(query);
-      const matchPref = stamp.prefecture.toLowerCase().includes(query);
-      const matchCity = stamp.city.toLowerCase().includes(query);
-      const matchDesc = stamp.description.toLowerCase().includes(query);
-      if (!matchName && !matchJa && !matchRomaji && !matchPref && !matchCity && !matchDesc) {
+      const matchName = (stamp.name || '').toLowerCase().includes(query);
+      const matchJa = (stamp.name_ja || '').includes(query);
+      const matchRomaji = (stamp.name_romaji || '').toLowerCase().includes(query);
+      const matchPref = (stamp.prefecture || '').toLowerCase().includes(query);
+      const matchCity = (stamp.city || '').toLowerCase().includes(query);
+      const matchDesc = (stamp.description || '').toLowerCase().includes(query);
+      const matchOperator = (stamp.operator || '').toLowerCase().includes(query);
+      const matchLocation = (stamp.stampLocation || '').toLowerCase().includes(query);
+      if (
+        !matchName &&
+        !matchJa &&
+        !matchRomaji &&
+        !matchPref &&
+        !matchCity &&
+        !matchDesc &&
+        !matchOperator &&
+        !matchLocation
+      ) {
         return false;
       }
     }
