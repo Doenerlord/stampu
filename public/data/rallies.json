@@ -17,7 +17,9 @@
     ],
     "reward": "Metro Commerce 20th Anniversary Original Sticker (first 1,000) & Can Badge (first 300)",
     "rewardJa": "メトロコマース創立20周年記念 オリジナルステッカー（先着1,000名）＆ 特製缶バッジ（先着300名）",
-    "bannerGradient": "from-teal-600 via-sky-600 to-blue-800"
+    "bannerGradient": "from-teal-600 via-sky-600 to-blue-800",
+    "officialUrl": "https://www.metocan.co.jp/news/detail.html?id=233",
+    "source": "Tokyo Metro / Metro Commerce Official"
   },
   {
     "id": "tobu-museum-mitate-line-stamp-rally",
@@ -35,7 +37,9 @@
     ],
     "reward": "Mitate Line Commemorative Sticker & Postcard (Tobu Museum Reception)",
     "rewardJa": "すみだ鉄道見立て線 特製記念ステッカー＆ポストカード（東武博物館受付にて進呈）",
-    "bannerGradient": "from-blue-700 via-sky-600 to-indigo-800"
+    "bannerGradient": "from-blue-700 via-sky-600 to-indigo-800",
+    "officialUrl": "https://www.tobu-museum.or.jp/",
+    "source": "Tobu Railway & Museum Official"
   },
   {
     "id": "three-venue-letterpress-stamp-rally",
@@ -52,7 +56,9 @@
     ],
     "reward": "Original Letterpress Printed Washi Bookmark (Awarded at any participating venue)",
     "rewardJa": "特製活版印刷オリジナルしおり（各館にてプレゼント）",
-    "bannerGradient": "from-amber-700 via-stone-700 to-emerald-800"
+    "bannerGradient": "from-amber-700 via-stone-700 to-emerald-800",
+    "officialUrl": "https://www.morisawa.co.jp/",
+    "source": "Tokyo Printing & Book Arts Consortium"
   },
   {
     "id": "pokemon-stamp-rally-2026-jr-east",
@@ -72,7 +78,9 @@
     ],
     "reward": "Stage 1 Commemorative Clear File & Certificate (Tokyo Station JR East Travel Service Center)",
     "rewardJa": "ステージ1 達成記念オリジナルクリアファイル＆認定証（東京駅JR East Travel Service Center）",
-    "bannerGradient": "from-amber-600 via-rose-600 to-indigo-700"
+    "bannerGradient": "from-amber-600 via-rose-600 to-indigo-700",
+    "officialUrl": "https://www.jreast.co.jp/pokemon-rally/",
+    "source": "JR East Japan Railway Official"
   },
   {
     "id": "tokyo-tourist-information-center-tama-stamp-rally",
@@ -91,7 +99,9 @@
     ],
     "reward": "Tama Regional Charm Commemorative Pin Badge & Novelty Goods",
     "rewardJa": "多摩の魅力発信 オリジナル記念ピンズ＆ノベルティ",
-    "bannerGradient": "from-teal-700 via-emerald-600 to-cyan-800"
+    "bannerGradient": "from-teal-700 via-emerald-600 to-cyan-800",
+    "officialUrl": "https://www.gotokyo.org/",
+    "source": "Tokyo Tourism Information Official"
   },
   {
     "id": "saikyo-line-40th-anniversary-station-character-stamp-rally",
@@ -109,7 +119,9 @@
     ],
     "reward": "Saikyō Line 40th Anniversary Station Character Sticker Sheet & Keyring",
     "rewardJa": "埼京線40周年記念 駅キャラステッカー＆オリジナルキーホルダー",
-    "bannerGradient": "from-green-700 via-emerald-600 to-slate-800"
+    "bannerGradient": "from-green-700 via-emerald-600 to-slate-800",
+    "officialUrl": "https://www.jreast.co.jp/",
+    "source": "JR East Saikyo Line Operations"
   },
   {
     "id": "detective-conan-stamp-rally-2025",
@@ -128,7 +140,9 @@
     ],
     "reward": "Original Detective Pin Badge & Commemorative Smartphone Wallpaper",
     "rewardJa": "特製ピンバッジ＆オリジナル壁紙",
-    "bannerGradient": "from-blue-700 via-indigo-600 to-purple-800"
+    "bannerGradient": "from-blue-700 via-indigo-600 to-purple-800",
+    "officialUrl": "https://www.tetsudo.com/event/",
+    "source": "Japan Railway Event Portal"
   },
   {
     "id": "jr-east-train-stamp-rally-2025",
@@ -147,7 +161,9 @@
     ],
     "reward": "Train Stamp Rally Commemorative Rolling Stock Card & Pass Case",
     "rewardJa": "トレインスタンプラリー オリジナル記念トレインカード＆パスケース",
-    "bannerGradient": "from-slate-700 via-red-800 to-amber-700"
+    "bannerGradient": "from-slate-700 via-red-800 to-amber-700",
+    "officialUrl": "https://www.jreast.co.jp/",
+    "source": "JR East Official Campaign"
   },
   {
     "id": "南国市を巡ってまちの魅力を発見シャモ番長となんこく旅スタンプラリーを開催地域通貨ジモッペイでミュージアムから南国市のまち",
@@ -164,7 +180,9 @@
     ],
     "reward": "します",
     "rewardJa": "します",
-    "bannerGradient": "from-emerald-600 via-teal-600 to-sky-800"
+    "bannerGradient": "from-emerald-600 via-teal-600 to-sky-800",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000067.000110845.html",
+    "source": "PR TIMES / Kochi Nankoku Tourism"
   },
   {
     "id": "映画bang-dream-ave-mujica-prima-aurora公開記念-池袋と秋葉原をめぐるデジタルスタンプラ",
@@ -182,7 +200,9 @@
     ],
     "reward": "デジタルスタンプをすべて集め、アンケートにご回答いただいた方に、オリジナルステッカー2枚セットをプレゼント",
     "rewardJa": "デジタルスタンプをすべて集め、アンケートにご回答いただいた方に、オリジナルステッカー2枚セットをプレゼント",
-    "bannerGradient": "from-purple-700 via-fuchsia-600 to-pink-800"
+    "bannerGradient": "from-purple-700 via-fuchsia-600 to-pink-800",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000009797.000014827.html",
+    "source": "PR TIMES / Bushiroad Official"
   },
   {
     "id": "jaf滋賀石榑トンネルでつながる東近江市いなべ市を巡るトナリマチドライブスタンプラリーに協力",
@@ -199,7 +219,9 @@
     ],
     "reward": "一例",
     "rewardJa": "一例",
-    "bannerGradient": "from-amber-600 via-yellow-600 to-lime-700"
+    "bannerGradient": "from-amber-600 via-yellow-600 to-lime-700",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000007693.000010088.html",
+    "source": "PR TIMES / JAF Shiga Official"
   },
   {
     "id": "10月10日-銭湯の日スタート長野県全域49施設へ拡大信州の温泉銭湯サウナが参加するデジタルスタンプラリー湯ノ道2026",
@@ -216,7 +238,9 @@
     ],
     "reward": "として公式LINEアカウントを友だち登録していただいた方全員に、全49施設の現地で使用できる「サレモン100円購入クーポン」をプレゼントいたします（※在庫がなくなり次第終了）",
     "rewardJa": "として公式LINEアカウントを友だち登録していただいた方全員に、全49施設の現地で使用できる「サレモン100円購入クーポン」をプレゼントいたします（※在庫がなくなり次第終了）",
-    "bannerGradient": "from-red-700 via-rose-600 to-pink-800"
+    "bannerGradient": "from-red-700 via-rose-600 to-pink-800",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000001.000171228.html",
+    "source": "PR TIMES / Nagano Onsen Association"
   },
   {
     "id": "京急-横浜鶴見クイズラリー",
@@ -233,7 +257,9 @@
     ],
     "reward": "。また、リーフレット掲載のクイズラリー挑戦で、けいきゅんぬいぐるみ、京急ストア商品券3,000円分、鶴見4駅駅名キーホルダーセットなどが賞品の抽選に応募可",
     "rewardJa": "。また、リーフレット掲載のクイズラリー挑戦で、けいきゅんぬいぐるみ、京急ストア商品券3,000円分、鶴見4駅駅名キーホルダーセットなどが賞品の抽選に応募可",
-    "bannerGradient": "from-indigo-600 via-blue-600 to-cyan-800"
+    "bannerGradient": "from-indigo-600 via-blue-600 to-cyan-800",
+    "officialUrl": "https://www.tetsudo.com/event/61926/",
+    "source": "Tetsudo.com / Keikyu Railway"
   },
   {
     "id": "札幌市-市電沿線お買いものラリー2026-第1弾-開催",
@@ -250,7 +276,9 @@
     ],
     "reward": "特製記念トレーディングカード・ステッカー",
     "rewardJa": "特製記念トレーディングカード・ステッカー",
-    "bannerGradient": "from-rose-600 via-orange-500 to-amber-700"
+    "bannerGradient": "from-rose-600 via-orange-500 to-amber-700",
+    "officialUrl": "https://www.tetsudo.com/event/61810/",
+    "source": "Tetsudo.com / Sapporo City Transportation"
   },
   {
     "id": "第16回-関東民鉄スタンプラリー",
@@ -267,7 +295,9 @@
     ],
     "reward": "は、3駅達成がエリア別デザインのクリアファイル（台湾のみ認定証も進呈）、国内エリア内全駅達成がキーホルダー（全員）および鉄道グッズの抽選応募権、39駅達成がトートバッグ（全員）および西武「52席の至福」招待または関東鉄道・上毛電気鉄道（いずれか）の車両運転体験抽選応募権、台湾全駅達成がグッズ詰め合わせ（全員）",
     "rewardJa": "は、3駅達成がエリア別デザインのクリアファイル（台湾のみ認定証も進呈）、国内エリア内全駅達成がキーホルダー（全員）および鉄道グッズの抽選応募権、39駅達成がトートバッグ（全員）および西武「52席の至福」招待または関東鉄道・上毛電気鉄道（いずれか）の車両運転体験抽選応募権、台湾全駅達成がグッズ詰め合わせ（全員）",
-    "bannerGradient": "from-emerald-600 via-teal-600 to-sky-800"
+    "bannerGradient": "from-emerald-600 via-teal-600 to-sky-800",
+    "officialUrl": "https://www.tetsudo.com/event/61798/",
+    "source": "Tetsudo.com / Kanto Private Railway Association"
   },
   {
     "id": "大阪メトロ-駅番号20をめぐるスタンプラリー",
@@ -284,7 +314,9 @@
     ],
     "reward": "をプレゼント",
     "rewardJa": "をプレゼント",
-    "bannerGradient": "from-purple-700 via-fuchsia-600 to-pink-800"
+    "bannerGradient": "from-purple-700 via-fuchsia-600 to-pink-800",
+    "officialUrl": "https://www.tetsudo.com/event/61783/",
+    "source": "Tetsudo.com / Osaka Metro Official"
   },
   {
     "id": "上毛電気鉄道-100周年沿線スタンプラリー",
@@ -301,7 +333,9 @@
     ],
     "reward": "、4個収集で缶バッジ、全6個収集でキーホルダーをプレゼント",
     "rewardJa": "、4個収集で缶バッジ、全6個収集でキーホルダーをプレゼント",
-    "bannerGradient": "from-amber-600 via-yellow-600 to-lime-700"
+    "bannerGradient": "from-amber-600 via-yellow-600 to-lime-700",
+    "officialUrl": "https://www.tetsudo.com/event/61751/",
+    "source": "Tetsudo.com / Jomo Electric Railway"
   },
   {
     "id": "宇都宮線-宇都宮黒磯間-開業140周年記念エキタグスタンプラリー",
@@ -317,7 +351,9 @@
     ],
     "reward": "。",
     "rewardJa": "。",
-    "bannerGradient": "from-red-700 via-rose-600 to-pink-800"
+    "bannerGradient": "from-red-700 via-rose-600 to-pink-800",
+    "officialUrl": "https://www.tetsudo.com/event/61739/",
+    "source": "Tetsudo.com / JR East Omiya"
   },
   {
     "id": "田沢湖線-全線開通60周年記念スタンプラリー",
@@ -336,7 +372,9 @@
     ],
     "reward": "。配布箇所は、大曲駅2階改札、駅たびコンシェルジュ盛岡",
     "rewardJa": "。配布箇所は、大曲駅2階改札、駅たびコンシェルジュ盛岡",
-    "bannerGradient": "from-indigo-600 via-blue-600 to-cyan-800"
+    "bannerGradient": "from-indigo-600 via-blue-600 to-cyan-800",
+    "officialUrl": "https://www.tetsudo.com/event/61635/",
+    "source": "Tetsudo.com / JR East Akita"
   },
   {
     "id": "京急-けいきゅんスタンプラリー",
@@ -352,7 +390,9 @@
     ],
     "reward": "。配布数は先着2,000個",
     "rewardJa": "。配布数は先着2,000個",
-    "bannerGradient": "from-rose-600 via-orange-500 to-amber-700"
+    "bannerGradient": "from-rose-600 via-orange-500 to-amber-700",
+    "officialUrl": "https://www.tetsudo.com/event/61697/",
+    "source": "Tetsudo.com / Keikyu Railway"
   },
   {
     "id": "京阪近鉄-酒蔵めぐりスタンプラリー2026",
@@ -369,7 +409,9 @@
     ],
     "reward": "の抽選に応募可",
     "rewardJa": "の抽選に応募可",
-    "bannerGradient": "from-emerald-600 via-teal-600 to-sky-800"
+    "bannerGradient": "from-emerald-600 via-teal-600 to-sky-800",
+    "officialUrl": "https://www.tetsudo.com/event/61655/",
+    "source": "Tetsudo.com / Keihan & Kintetsu Railways"
   },
   {
     "id": "若桜鉄道-トレインスタンプ-デジタルスタンプラリー第3弾",
@@ -386,7 +428,9 @@
     ],
     "reward": "（当選数）は、オリジナルG-SHOCK（各回3人）、若桜鉄道オリジナルカシオコレクション（SLデザイン、DLデザインの2種類、いずれも各回5人）、3000形鉄道コレクション（各回5人）、若桜鉄道オリジナルグッズ（各回25人）",
     "rewardJa": "（当選数）は、オリジナルG-SHOCK（各回3人）、若桜鉄道オリジナルカシオコレクション（SLデザイン、DLデザインの2種類、いずれも各回5人）、3000形鉄道コレクション（各回5人）、若桜鉄道オリジナルグッズ（各回25人）",
-    "bannerGradient": "from-purple-700 via-fuchsia-600 to-pink-800"
+    "bannerGradient": "from-purple-700 via-fuchsia-600 to-pink-800",
+    "officialUrl": "https://www.tetsudo.com/event/61650/",
+    "source": "Tetsudo.com / Wakasa Railway"
   },
   {
     "id": "西九州新幹線-かもメンスタンプラリー",
@@ -403,7 +447,9 @@
     ],
     "reward": "。",
     "rewardJa": "。",
-    "bannerGradient": "from-amber-600 via-yellow-600 to-lime-700"
+    "bannerGradient": "from-amber-600 via-yellow-600 to-lime-700",
+    "officialUrl": "https://www.tetsudo.com/event/61594/",
+    "source": "Tetsudo.com / JR Kyushu Railway"
   },
   {
     "id": "suicaのペンギン-デジタルスタンプラリー",
@@ -421,7 +467,9 @@
     ],
     "reward": "。特典は、3箇所達成がSuicaのペンギンに会えるグリーティング参加権が賞品のスクラッチ、5か所達成がオリジナル壁紙、10か所達成がペンギンステッカーの引換チケット（先着順）、20か所達成がアクリルスタンドの引換チケット（先着順）",
     "rewardJa": "。特典は、3箇所達成がSuicaのペンギンに会えるグリーティング参加権が賞品のスクラッチ、5か所達成がオリジナル壁紙、10か所達成がペンギンステッカーの引換チケット（先着順）、20か所達成がアクリルスタンドの引換チケット（先着順）",
-    "bannerGradient": "from-red-700 via-rose-600 to-pink-800"
+    "bannerGradient": "from-red-700 via-rose-600 to-pink-800",
+    "officialUrl": "https://www.tetsudo.com/event/61481/",
+    "source": "Tetsudo.com / JR East Suica Official"
   },
   {
     "id": "東京メトロ-メトロコマース創立20周年スタンプラリー",
@@ -438,6 +486,8 @@
     ],
     "reward": "、先着300人にオリジナル缶バッジをプレゼント",
     "rewardJa": "、先着300人にオリジナル缶バッジをプレゼント",
-    "bannerGradient": "from-indigo-600 via-blue-600 to-cyan-800"
+    "bannerGradient": "from-indigo-600 via-blue-600 to-cyan-800",
+    "officialUrl": "https://prtimes.jp/topics/keywords/%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97%E3%83%A9%E3%83%AA%E3%83%BC",
+    "source": "コマースは、「メトロコマース創立20周年スタンプラリー」を開催 Press Release"
   }
 ]

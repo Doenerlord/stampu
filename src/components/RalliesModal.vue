@@ -14,6 +14,8 @@ import {
   MapPin,
   Layers,
   List,
+  ExternalLink,
+  Globe,
 } from 'lucide-vue-next';
 
 const props = defineProps<{
@@ -491,29 +493,47 @@ function getRallyProgress(rally: StampRally) {
             </div>
 
             <!-- Card Actions -->
-            <div class="pt-2 flex items-center justify-end gap-2 border-t border-slate-800/80">
-              <button
-                v-if="activeRallyId === rally.id"
-                type="button"
-                @click="$emit('exitRallyFocus')"
-                class="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold transition-all"
+            <div class="pt-2 flex flex-wrap items-center justify-between gap-2 border-t border-slate-800/80">
+              <a
+                v-if="rally.officialUrl"
+                :href="rally.officialUrl"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="px-3.5 py-2 rounded-xl bg-slate-800/90 hover:bg-slate-700 text-slate-200 hover:text-white text-xs font-semibold flex items-center gap-1.5 transition-all border border-slate-700/80 shadow-xs hover:border-slate-500 active:scale-95"
+                title="Offizielle Quelle / Ankündigung des Veranstalters öffnen"
               >
-                Exit Rally Mode
-              </button>
+                <Globe class="w-3.5 h-3.5 text-rose-400 flex-shrink-0" />
+                <span>Quelle / Website</span>
+                <ExternalLink class="w-3 h-3 text-slate-400" />
+              </a>
+              <div v-else class="text-[11px] text-slate-500 italic">
+                {{ rally.source || 'Offizielle Kampagne' }}
+              </div>
 
-              <button
-                type="button"
-                @click="$emit('selectRally', rally)"
-                :class="[
-                  'px-4 py-2 rounded-xl text-xs font-bold flex items-center gap-1.5 transition-all shadow-md',
-                  activeRallyId === rally.id
-                    ? 'bg-rose-600 text-white shadow-rose-900/40 ring-2 ring-rose-400'
-                    : 'bg-gradient-to-r from-rose-600 to-amber-600 hover:from-rose-500 hover:to-amber-500 text-white shadow-rose-950/50'
-                ]"
-              >
-                <Compass class="w-3.5 h-3.5" />
-                <span>{{ activeRallyId === rally.id ? 'Currently Focused on Map' : 'Focus Rally on Map' }}</span>
-              </button>
+              <div class="flex items-center gap-2 ml-auto">
+                <button
+                  v-if="activeRallyId === rally.id"
+                  type="button"
+                  @click="$emit('exitRallyFocus')"
+                  class="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold transition-all"
+                >
+                  Exit Rally Mode
+                </button>
+
+                <button
+                  type="button"
+                  @click="$emit('selectRally', rally)"
+                  :class="[
+                    'px-4 py-2 rounded-xl text-xs font-bold flex items-center gap-1.5 transition-all shadow-md',
+                    activeRallyId === rally.id
+                      ? 'bg-rose-600 text-white shadow-rose-900/40 ring-2 ring-rose-400'
+                      : 'bg-gradient-to-r from-rose-600 to-amber-600 hover:from-rose-500 hover:to-amber-500 text-white shadow-rose-950/50'
+                  ]"
+                >
+                  <Compass class="w-3.5 h-3.5" />
+                  <span>{{ activeRallyId === rally.id ? 'Currently Focused on Map' : 'Focus Rally on Map' }}</span>
+                </button>
+              </div>
             </div>
           </div>
         </div>

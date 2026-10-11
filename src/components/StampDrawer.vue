@@ -569,14 +569,26 @@ watch(
               <Flag class="w-4 h-4 flex-shrink-0 text-rose-400" />
               <span>Special Stamp Rally • イベント</span>
             </div>
-            <button
-              type="button"
-              @click="$emit('openRalliesModal', stamp.event.rallyId)"
-              class="inline-flex items-center gap-1 text-[11px] font-semibold text-rose-300 hover:text-white underline decoration-rose-400/50"
-            >
-              <span>View Rally</span>
-              <ExternalLink class="w-3 h-3" />
-            </button>
+            <div class="flex items-center gap-2">
+              <a
+                v-if="stamp.event.officialUrl"
+                :href="stamp.event.officialUrl"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex items-center gap-1 text-[11px] font-semibold text-amber-300 hover:text-white underline decoration-amber-400/50"
+              >
+                <span>Website</span>
+                <ExternalLink class="w-3 h-3" />
+              </a>
+              <button
+                type="button"
+                @click="$emit('openRalliesModal', stamp.event.rallyId)"
+                class="inline-flex items-center gap-1 text-[11px] font-semibold text-rose-300 hover:text-white underline decoration-rose-400/50"
+              >
+                <span>View Rally</span>
+                <ExternalLink class="w-3 h-3" />
+              </button>
+            </div>
           </div>
 
           <div>

@@ -63,6 +63,7 @@ export interface StampRally {
   rewardJa?: string;
   bannerGradient?: string;
   officialUrl?: string;
+  source?: string;
 }
 
 export interface VisitedRecord {

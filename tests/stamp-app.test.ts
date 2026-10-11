@@ -1096,7 +1096,10 @@ describe('Rallies & Events Integration (Proposal 1)', () => {
     const focusBtn = wrapper
       .findAll('button')
       .find((b) => b.text().includes('Focus Rally on Map'));
-    expect(focusBtn).toBeDefined();
+    // Find "Quelle / Website" source link
+    const sourceLink = wrapper.findAll('a').find((a) => a.text().includes('Quelle / Website'));
+    expect(sourceLink).toBeDefined();
+    expect(sourceLink?.attributes('href')).toBeTruthy();
 
     await focusBtn!.trigger('click');
     expect(wrapper.emitted('selectRally')).toBeTruthy();

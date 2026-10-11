@@ -332,7 +332,9 @@ def main():
             "stampIds": stamps_list,
             "reward": c["rewardJa"],
             "rewardJa": c["rewardJa"],
-            "bannerGradient": banner_gradient
+            "bannerGradient": banner_gradient,
+            "officialUrl": c.get("url", ""),
+            "source": f"{c.get('source', 'Official')} ({c['organizer']})"
         }
 
         new_rallies.append(rally_record)
