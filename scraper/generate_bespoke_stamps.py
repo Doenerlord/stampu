@@ -56,6 +56,36 @@ CATEGORY_CONFIG = {
         "bg": "#f5f3ff",
         "badge": "日本展望塔 登頂記念",
         "corner": "登頂記念",
+    },
+    "museum": {
+        "ink": "#86198f",
+        "bg": "#fdf4ff",
+        "badge": "博物館・美術館 来館記念",
+        "corner": "来館記念",
+    },
+    "tourist_info": {
+        "ink": "#0f766e",
+        "bg": "#f0fdfa",
+        "badge": "観光案内所 探訪記念",
+        "corner": "来訪記念",
+    },
+    "shop": {
+        "ink": "#c2410c",
+        "bg": "#fff7ed",
+        "badge": "記念スタンプ 来店記念",
+        "corner": "来店記念",
+    },
+    "nature": {
+        "ink": "#15803d",
+        "bg": "#f0fdf4",
+        "badge": "国立公園・自然 探訪記念",
+        "corner": "自然探訪",
+    },
+    "garden": {
+        "ink": "#047857",
+        "bg": "#ecfdf5",
+        "badge": "名園・名勝 散策記念",
+        "corner": "名勝散策",
     }
 }
 

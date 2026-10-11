@@ -25,15 +25,15 @@
     <text x="325" y="198" font-family="'Noto Serif JP', serif" font-weight="bold" font-size="24" fill="#86198f" text-anchor="middle">〕</text>
 
     <!-- Stamp Japanese Name (Kanji / Calligraphy) -->
-    <text x="200" y="180" font-family="'Noto Serif JP', 'Yu Mincho', serif" font-weight="900" font-size="24" fill="#86198f" text-anchor="middle" letter-spacing="3">東北大学総合</text>
-    <text x="200" y="222" font-family="'Noto Serif JP', 'Yu Mincho', serif" font-weight="900" font-size="24" fill="#86198f" text-anchor="middle" letter-spacing="3">学術博物館</text>
+    <text x="200" y="180" font-family="'Noto Serif JP', 'Yu Mincho', serif" font-weight="900" font-size="30" fill="#86198f" text-anchor="middle" letter-spacing="3">北海道立近</text>
+    <text x="200" y="222" font-family="'Noto Serif JP', 'Yu Mincho', serif" font-weight="900" font-size="30" fill="#86198f" text-anchor="middle" letter-spacing="3">代美術館</text>
 
     <!-- Bottom Traditional Divider Bar -->
     <line x1="85" y1="262" x2="315" y2="262" stroke="#86198f" stroke-width="2.5" stroke-dasharray="8 4" />
     <circle cx="200" cy="262" r="4" fill="#86198f" />
 
     <!-- Subtitle (Prefecture & Location) -->
-    <text x="200" y="292" font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif" font-weight="bold" font-size="15" fill="#86198f" text-anchor="middle" letter-spacing="2">COLLECTION • Japan</text>
+    <text x="200" y="292" font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif" font-weight="bold" font-size="15" fill="#86198f" text-anchor="middle" letter-spacing="2">Hokkaido • 北海道立近代美術館</text>
 
     <!-- Bottom Commemorative Seal Cartouche -->
     <rect x="135" y="318" width="130" height="32" rx="6" fill="#fdf4ff" stroke="#86198f" stroke-width="2.5" />
