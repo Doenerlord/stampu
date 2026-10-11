@@ -15,6 +15,7 @@ import WishlistModal from './components/WishlistModal.vue';
 import PrefectureDownloadModal from './components/PrefectureDownloadModal.vue';
 import NearbyModal from './components/NearbyModal.vue';
 import RalliesModal from './components/RalliesModal.vue';
+import MultiStampModal from './components/MultiStampModal.vue';
 import { Flag, X } from 'lucide-vue-next';
 import { initMonetTheming } from './utils/theme';
 import { ALL_CATEGORIES } from './constants/categories';
@@ -31,6 +32,8 @@ const isWishlistModalOpen = ref<boolean>(false);
 const isPacksModalOpen = ref<boolean>(false);
 const isNearbyModalOpen = ref<boolean>(false);
 const isRalliesModalOpen = ref<boolean>(false);
+const multiStamps = ref<Stamp[]>([]);
+const isMultiStampModalOpen = ref<boolean>(false);
 const activeRallyId = ref<string | null>(null);
 const userLocation = ref<{ lat: number; lng: number } | null>(null);
 const visitedStampIds = ref<Set<string>>(new Set());
@@ -196,6 +199,21 @@ function handleSelectStamp(stamp: Stamp) {
   isDrawerOpen.value = true;
 }
 
+function handleSelectMultiStamps(stamps: Stamp[]) {
+  if (stamps.length <= 1) {
+    if (stamps[0]) handleSelectStamp(stamps[0]);
+    return;
+  }
+  multiStamps.value = stamps;
+  isMultiStampModalOpen.value = true;
+}
+
+function handleSelectStampFromMulti(stamp: Stamp) {
+  isMultiStampModalOpen.value = false;
+  selectedStamp.value = stamp;
+  isDrawerOpen.value = true;
+}
+
 function handleSelectStampFromWishlist(stamp: Stamp) {
   isWishlistModalOpen.value = false;
   selectedStamp.value = stamp;
@@ -285,6 +303,7 @@ function handleSelectStampFromRally(stamp: Stamp) {
       :visited-stamp-ids="visitedStampIds"
       :wishlist-stamp-ids="wishlistStampIds"
       @select-stamp="handleSelectStamp"
+      @select-multi-stamps="handleSelectMultiStamps"
       @user-location-update="(loc) => (userLocation = loc)"
     />
 
@@ -432,6 +451,16 @@ function handleSelectStampFromRally(stamp: Stamp) {
       @select-stamp="handleSelectStampFromRally"
       @toggle-collected="handleToggleCollected"
       @exit-rally-focus="handleExitRallyFocus"
+    />
+
+    <!-- Multi-Stamp Disambiguation Modal (Option 2) -->
+    <MultiStampModal
+      :is-open="isMultiStampModalOpen"
+      :stamps="multiStamps"
+      :visited-stamp-ids="visitedStampIds"
+      :wishlist-stamp-ids="wishlistStampIds"
+      @close="isMultiStampModalOpen = false"
+      @select="handleSelectStampFromMulti"
     />
   </div>
 </template>

@@ -13,6 +13,7 @@ import { WifiOff, Layers, X } from 'lucide-vue-next';
 import type { Stamp } from '../types/stamp';
 import { CATEGORIES } from '../constants/categories';
 import { registerOfflineTileProtocol } from '../utils/offlineMap';
+import { calculateDistanceKm } from '../utils/geo';
 import OfflineMapModal from './OfflineMapModal.vue';
 
 const isLayersMenuOpen = ref(false);
@@ -31,6 +32,7 @@ const props = defineProps<{
 
 const emit = defineEmits<{
   (e: 'selectStamp', stamp: Stamp): void;
+  (e: 'selectMultiStamps', stamps: Stamp[]): void;
   (e: 'userLocationUpdate', location: { lat: number; lng: number }): void;
 }>();
 
@@ -150,7 +152,17 @@ const iconSvgs: Record<string, string> = {
   Radio: '<path d="M4.9 19.1C1 15.2 1 8.8 4.9 4.9"/><path d="M7.8 16.2c-2.3-2.3-2.3-6.1 0-8.5"/><circle cx="12" cy="12" r="2"/><path d="M16.2 7.8c2.3 2.3 2.3 6.1 0 8.5"/><path d="M19.1 4.9C23 8.8 23 15.1 19.1 19"/>',
 };
 
-function renderMarkerContent(wrapper: HTMLElement, stamp: Stamp) {
+function getCoLocatedStamps(targetStamp: Stamp, thresholdMeters = 35): Stamp[] {
+  const [tLng, tLat] = targetStamp.coordinates;
+  const thresholdKm = thresholdMeters / 1000;
+  return props.stamps.filter((s) => {
+    const [sLng, sLat] = s.coordinates;
+    if (Math.abs(sLng - tLng) > 0.0006 || Math.abs(sLat - tLat) > 0.0005) return false;
+    return calculateDistanceKm(tLat, tLng, sLat, sLng) <= thresholdKm;
+  });
+}
+
+function renderMarkerContent(wrapper: HTMLElement, stamp: Stamp, coLocatedCount = 1) {
   wrapper.classList.add('maplibregl-marker', 'maplibregl-marker-anchor-bottom', 'stampu-marker-root');
   const cat = CATEGORIES[stamp.category] || CATEGORIES.eki;
   const isVisited = props.visitedStampIds.has(stamp.id);
@@ -169,6 +181,7 @@ function renderMarkerContent(wrapper: HTMLElement, stamp: Stamp) {
         <div class="bg-slate-900/95 text-white px-2.5 py-1 rounded-lg text-[11px] font-semibold tracking-wide whitespace-nowrap shadow-xl border border-slate-700/80 flex items-center gap-1.5">
           <span>${stamp.name}</span>
           <span class="text-slate-400 font-serif text-[10px]">${stamp.name_ja}</span>
+          ${coLocatedCount > 1 ? `<span class="text-rose-300 text-[10px] font-bold">(${coLocatedCount} Stempel)</span>` : ''}
           ${isWishlist ? '<span class="text-amber-400 text-[10px]">★ Wishlist</span>' : ''}
         </div>
         <div class="w-2 h-2 bg-slate-900 rotate-45 -mt-1 border-r border-b border-slate-700"></div>
@@ -211,17 +224,23 @@ function renderMarkerContent(wrapper: HTMLElement, stamp: Stamp) {
             : ''
         }
 
-        <!-- Collected checkmark badge in corner -->
+        <!-- Multi-Stamp count badge in corner (if > 1) -->
         ${
-          isVisited
+          coLocatedCount > 1
             ? `
+          <span class="absolute -top-1.5 -right-1.5 min-w-4 h-4 px-1 rounded-full bg-slate-950 border border-white text-white text-[9px] font-black flex items-center justify-center shadow-md leading-none" title="${coLocatedCount} Stempel an diesem Ort">
+            ${coLocatedCount}
+          </span>
+        `
+            : isVisited
+              ? `
           <span class="absolute -top-1 -right-1 w-3.5 h-3.5 rounded-full bg-emerald-500 border border-white flex items-center justify-center shadow-xs">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" class="w-2.5 h-2.5">
               <polyline points="20 6 9 17 4 12"></polyline>
             </svg>
           </span>
         `
-            : ''
+              : ''
         }
       </div>
 
@@ -424,14 +443,17 @@ function updateMarkers() {
       const key = stamp.id;
       activeKeys.add(key);
 
+      const coLocated = getCoLocatedStamps(stamp);
+      const coLocatedCount = coLocated.length;
+
       const existing = markersMap.get(key);
       if (existing) {
-        renderMarkerContent(existing.getElement(), stamp);
+        renderMarkerContent(existing.getElement(), stamp, coLocatedCount);
         existing.setLngLat(coords);
       } else {
         const el = document.createElement('div');
         el.className = 'stampu-marker-root';
-        renderMarkerContent(el, stamp);
+        renderMarkerContent(el, stamp, coLocatedCount);
 
         let lastTriggerTime = 0;
         const triggerSelect = (ev: Event) => {
@@ -439,7 +461,12 @@ function updateMarkers() {
           if (now - lastTriggerTime < 300) return;
           lastTriggerTime = now;
           ev.stopPropagation();
-          emit('selectStamp', stamp);
+          const nearbyStamps = getCoLocatedStamps(stamp);
+          if (nearbyStamps.length > 1) {
+            emit('selectMultiStamps', nearbyStamps);
+          } else {
+            emit('selectStamp', stamp);
+          }
         };
 
         el.addEventListener('click', triggerSelect);

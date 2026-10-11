@@ -4,7 +4,8 @@ import 'fake-indexeddb/auto';
 import fs from 'node:fs';
 import path from 'node:path';
 
-// Mock MapLibre GL for DOM testing
+let mockCurrentZoom = 6;
+
 vi.mock('maplibre-gl', () => {
   class MockMap {
     private handlers: Record<string, Function[]> = {};
@@ -21,7 +22,7 @@ vi.mock('maplibre-gl', () => {
     easeTo() {}
     fitBounds() {}
     getZoom() {
-      return 6;
+      return mockCurrentZoom;
     }
   }
 
@@ -76,6 +77,7 @@ import StampSourceModal from '../src/components/StampSourceModal.vue';
 import MapContainer from '../src/components/MapContainer.vue';
 import WishlistModal from '../src/components/WishlistModal.vue';
 import RalliesModal from '../src/components/RalliesModal.vue';
+import MultiStampModal from '../src/components/MultiStampModal.vue';
 import App from '../src/App.vue';
 import type { Stamp, StampRally } from '../src/types/stamp';
 import { getStampSourceDetails } from '../src/utils/source';
@@ -1139,5 +1141,91 @@ describe('Rallies & Events Integration (Proposal 1)', () => {
     expect(wrapper.emitted('openRalliesModal')?.[0]).toEqual(['pokemon-stamp-rally-2026-jr-east']);
   });
 });
+
+describe('Multi-Stamp Disambiguation (Option 2)', () => {
+  const stamp1: Stamp = {
+    ...sampleStamp,
+    id: 'eki-kyoto-jr',
+    name: 'Kyoto Station (JR West)',
+    name_ja: 'JR京都駅',
+    coordinates: [135.7588, 34.9858],
+  };
+  const stamp2: Stamp = {
+    ...sampleStamp,
+    id: 'eki-kyoto-shinkansen',
+    name: 'Kyoto Station (JR Central Shinkansen)',
+    name_ja: 'JR京都駅（新幹線）',
+    coordinates: [135.7588, 34.9858],
+  };
+
+  it('MultiStampModal does not display when isOpen is false', () => {
+    const wrapper = mount(MultiStampModal, {
+      props: {
+        isOpen: false,
+        stamps: [stamp1, stamp2],
+        visitedStampIds: new Set(),
+      },
+    });
+
+    expect(wrapper.find('[role="dialog"]').exists()).toBe(false);
+  });
+
+  it('MultiStampModal renders all co-located stamps and emits select when clicked', async () => {
+    const wrapper = mount(MultiStampModal, {
+      props: {
+        isOpen: true,
+        stamps: [stamp1, stamp2],
+        visitedStampIds: new Set([stamp1.id]),
+      },
+    });
+
+    expect(document.body.textContent).toContain('Stempel an diesem Ort');
+    expect(document.body.textContent).toContain('Kyoto Station (JR West)');
+    expect(document.body.textContent).toContain('Kyoto Station (JR Central Shinkansen)');
+
+    // Click on the second stamp
+    const stampItems = document.querySelectorAll('[role="dialog"] [role="button"]');
+    expect(stampItems.length).toBe(2);
+    (stampItems[1] as HTMLElement).click();
+
+    expect(wrapper.emitted('select')?.[0]).toEqual([stamp2]);
+
+    // Close button
+    const closeBtn = document.querySelector('[aria-label="Auswahlliste schließen"]') as HTMLButtonElement;
+    expect(closeBtn).toBeTruthy();
+    closeBtn.click();
+    expect(wrapper.emitted('close')).toBeTruthy();
+  });
+
+  it('MapContainer emits selectMultiStamps when marker has multiple co-located stamps', async () => {
+    mockCurrentZoom = 15;
+    try {
+      const wrapper = mount(MapContainer, {
+        props: {
+          stamps: [stamp1, stamp2],
+          selectedStamp: null,
+          visitedStampIds: new Set(),
+        },
+      });
+
+      await new Promise((r) => setTimeout(r, 20));
+
+      // Find marker element in DOM
+      const markerEl = document.querySelector(`[data-stamp-id="${stamp1.id}"]`) as HTMLElement;
+      expect(markerEl).toBeTruthy();
+
+      // Click marker
+      markerEl.click();
+
+      // Should emit selectMultiStamps with both co-located stamps
+      const multiEmits = wrapper.emitted('selectMultiStamps');
+      expect(multiEmits).toBeTruthy();
+      expect(multiEmits?.[0]?.[0]).toHaveLength(2);
+    } finally {
+      mockCurrentZoom = 6;
+    }
+  });
+});
+
 
 

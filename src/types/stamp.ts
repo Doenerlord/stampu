@@ -29,6 +29,8 @@ export interface Stamp {
   stampLocation: string; // e.g., 設置場所 (ticket gate, information counter)
   hours: string; // e.g., 利用可能時間
   operator?: string; // e.g., JR East, NEXCO Central
+  railwayOperator?: string;
+  railwayLine?: string;
   description: string;
   imageUrl?: string;
   visited?: boolean;
