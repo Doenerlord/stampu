@@ -60,27 +60,43 @@ onUnmounted(() => {
         @click="emit('close')"
       />
 
-      <!-- Modal Card / Bottom Sheet -->
+      <!-- Modal Card / Bottom Sheet (Material 3 Expressive Dynamic Surface) -->
       <div
-        class="relative w-full max-w-lg bg-[#0B162C] border-t md:border border-slate-700/80 rounded-t-3xl md:rounded-2xl shadow-2xl z-10 flex flex-col max-h-[85vh] md:max-h-[80vh] overflow-hidden text-slate-100 animate-in fade-in slide-in-from-bottom-6 duration-200"
+        class="relative w-full max-w-lg rounded-t-3xl md:rounded-2xl shadow-2xl z-10 flex flex-col max-h-[85vh] md:max-h-[80vh] overflow-hidden text-slate-100 animate-in fade-in slide-in-from-bottom-6 duration-200"
+        style="background: var(--m3-surface-elevated, #162720); border: 1px solid var(--m3-border, #334155); box-shadow: 0 20px 50px rgba(0,0,0,0.7), 0 0 30px var(--m3-glow-subtle, transparent);"
       >
         <!-- Mobile Handlebar -->
         <div class="md:hidden flex justify-center pt-3 pb-1">
-          <div class="w-12 h-1.5 rounded-full bg-slate-600/80" />
+          <div
+            class="w-12 h-1.5 rounded-full"
+            style="background: var(--m3-border-subtle, #475569);"
+          />
         </div>
 
         <!-- Header -->
-        <div class="px-5 pt-3 pb-3 border-b border-slate-800/80 flex items-center justify-between gap-3">
+        <div
+          class="px-5 pt-3 pb-3 border-b flex items-center justify-between gap-3"
+          style="background: var(--m3-surface-container, #0f1d18); border-color: var(--m3-border-subtle, #334155);"
+        >
           <div class="flex items-center gap-3 min-w-0">
-            <div class="w-10 h-10 rounded-xl bg-rose-500/15 border border-rose-500/30 flex items-center justify-center text-rose-400 shrink-0 shadow-inner">
+            <!-- Themed Icon Container -->
+            <div
+              class="w-10 h-10 rounded-xl flex items-center justify-center shrink-0 shadow-inner"
+              style="background: var(--m3-badge-bg, rgba(16, 185, 129, 0.2)); border: 1px solid var(--m3-border, #334155); color: var(--m3-primary, #10b981);"
+            >
               <Layers class="w-5 h-5" />
             </div>
+
             <div class="min-w-0">
               <div class="flex items-center gap-2">
                 <h3 class="text-base font-bold text-white tracking-tight leading-tight">
                   Stempel an diesem Ort
                 </h3>
-                <span class="px-2 py-0.5 rounded-full text-[11px] font-bold bg-rose-500/20 text-rose-300 border border-rose-500/30">
+                <!-- Themed Counter Pill -->
+                <span
+                  class="px-2 py-0.5 rounded-full text-[11px] font-bold"
+                  style="background: var(--m3-badge-bg, rgba(16, 185, 129, 0.2)); border: 1px solid var(--m3-border-subtle, #334155); color: var(--m3-primary, #10b981);"
+                >
                   {{ stamps.length }}
                 </span>
               </div>
@@ -94,7 +110,7 @@ onUnmounted(() => {
           <!-- Close Button -->
           <button
             type="button"
-            class="p-2 rounded-xl text-slate-400 hover:text-white hover:bg-slate-800 transition-colors shrink-0"
+            class="p-2 rounded-xl text-slate-400 hover:text-white hover:bg-slate-800/80 transition-colors shrink-0"
             aria-label="Auswahlliste schließen"
             @click="emit('close')"
           >
@@ -103,24 +119,31 @@ onUnmounted(() => {
         </div>
 
         <!-- Hint Subheader -->
-        <div class="px-5 py-2 bg-slate-900/60 border-b border-slate-800/60 text-xs text-slate-300">
+        <div
+          class="px-5 py-2 border-b text-xs text-slate-300"
+          style="background: var(--m3-surface-tint, #0c1814); border-color: var(--m3-border-subtle, #334155);"
+        >
           Tippe auf einen Stempel, um Details, Öffnungszeiten und Motiv anzusehen:
         </div>
 
         <!-- Scrollable List of Overlapping Stamps -->
-        <div class="flex-1 overflow-y-auto p-4 space-y-2.5 divide-y divide-slate-800/40">
+        <div class="flex-1 overflow-y-auto p-4 space-y-2.5">
           <div
             v-for="stamp in stamps"
             :key="stamp.id"
             role="button"
             tabindex="0"
-            class="pt-2.5 first:pt-0 group relative flex items-center gap-3.5 p-3 rounded-2xl bg-slate-900/80 hover:bg-slate-800/90 active:scale-[0.99] border border-slate-800 hover:border-slate-700 transition-all duration-150 cursor-pointer select-none"
+            class="stamp-item-card group relative flex items-center gap-3.5 p-3 rounded-2xl active:scale-[0.99] transition-all duration-150 cursor-pointer select-none"
+            style="background: var(--m3-surface-container, #0f1d18); border: 1px solid var(--m3-border-subtle, #334155);"
             @click="emit('select', stamp)"
             @keydown.enter="emit('select', stamp)"
             @keydown.space.prevent="emit('select', stamp)"
           >
             <!-- Left: Stamp Image or Hanko Preview -->
-            <div class="relative w-14 h-14 rounded-xl bg-slate-950/80 border border-slate-700/80 p-1 flex items-center justify-center shrink-0 overflow-hidden shadow-inner">
+            <div
+              class="relative w-14 h-14 rounded-xl p-1 flex items-center justify-center shrink-0 overflow-hidden shadow-inner"
+              style="background: var(--m3-surface-highlight, #1e332a); border: 1px solid var(--m3-border-subtle, #334155);"
+            >
               <img
                 v-if="stamp.imageUrl"
                 :src="stamp.imageUrl"
@@ -158,7 +181,7 @@ onUnmounted(() => {
               <div class="flex items-center gap-2 mb-1">
                 <!-- Category Pill -->
                 <span
-                  class="px-2 py-0.5 rounded-full text-[10px] font-semibold text-white tracking-wide shrink-0"
+                  class="px-2 py-0.5 rounded-full text-[10px] font-semibold text-white tracking-wide shrink-0 shadow-xs"
                   :style="{ backgroundColor: (CATEGORIES[stamp.category] || CATEGORIES.eki).hexColor }"
                 >
                   {{ (CATEGORIES[stamp.category] || CATEGORIES.eki).label }}
@@ -169,7 +192,7 @@ onUnmounted(() => {
               </div>
 
               <!-- Titles -->
-              <h4 class="text-sm font-bold text-white group-hover:text-rose-200 transition-colors truncate leading-tight">
+              <h4 class="text-sm font-bold text-white transition-colors truncate leading-tight group-hover:text-[var(--m3-primary)]">
                 {{ stamp.name }}
               </h4>
               <p class="text-xs text-slate-400 font-serif truncate mt-0.5">
@@ -190,17 +213,21 @@ onUnmounted(() => {
             </div>
 
             <!-- Right: Arrow Action Indicator -->
-            <div class="text-slate-500 group-hover:text-rose-400 group-hover:translate-x-0.5 transition-all shrink-0">
+            <div class="text-slate-500 group-hover:text-[var(--m3-primary)] group-hover:translate-x-0.5 transition-all shrink-0">
               <ChevronRight class="w-5 h-5" />
             </div>
           </div>
         </div>
 
         <!-- Footer / Dismiss -->
-        <div class="p-3 bg-slate-900/90 border-t border-slate-800/80 flex justify-end">
+        <div
+          class="p-3 border-t flex justify-end"
+          style="background: var(--m3-surface-container, #0f1d18); border-color: var(--m3-border-subtle, #334155); padding-bottom: max(env(safe-area-inset-bottom, 0px), 0.75rem);"
+        >
           <button
             type="button"
-            class="w-full md:w-auto px-4 py-2 rounded-xl text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white transition-colors"
+            class="w-full md:w-auto px-4 py-2 rounded-xl text-xs font-semibold text-slate-300 hover:text-white transition-colors"
+            style="background: var(--m3-surface-highlight, #1e332a); border: 1px solid var(--m3-border-subtle, #334155);"
             @click="emit('close')"
           >
             Abbrechen
@@ -210,3 +237,11 @@ onUnmounted(() => {
     </div>
   </Teleport>
 </template>
+
+<style scoped>
+.stamp-item-card:hover {
+  background: var(--m3-surface-highlight, #1e332a) !important;
+  border-color: var(--m3-border, #334155) !important;
+  box-shadow: 0 4px 14px var(--m3-glow-subtle, rgba(0, 0, 0, 0.2));
+}
+</style>

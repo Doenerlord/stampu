@@ -228,7 +228,7 @@ function renderMarkerContent(wrapper: HTMLElement, stamp: Stamp, coLocatedCount 
         ${
           coLocatedCount > 1
             ? `
-          <span class="absolute -top-1.5 -right-1.5 min-w-4 h-4 px-1 rounded-full bg-slate-950 border border-white text-white text-[9px] font-black flex items-center justify-center shadow-md leading-none" title="${coLocatedCount} Stempel an diesem Ort">
+          <span class="absolute -top-1.5 -right-1.5 min-w-4 h-4 px-1 rounded-full border border-white text-white text-[9px] font-black flex items-center justify-center shadow-md leading-none" style="background: var(--m3-primary, #e11d48); box-shadow: 0 2px 8px var(--m3-glow, rgba(0,0,0,0.5));" title="${coLocatedCount} Stempel an diesem Ort">
             ${coLocatedCount}
           </span>
         `
