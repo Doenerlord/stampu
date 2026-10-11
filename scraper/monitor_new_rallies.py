@@ -270,6 +270,12 @@ def main():
 
     existing_titles = {r.get("titleJa", "") for r in existing_rallies}
     existing_ids = {r.get("id", "") for r in existing_rallies}
+    existing_urls = {r.get("officialUrl", "").rstrip("/") for r in existing_rallies if r.get("officialUrl")}
+
+    def norm_t(t: str) -> str:
+        return re.sub(r'[\s\-_・「」『』【】（）\(\)]', '', t).lower()
+
+    existing_norm_titles = {norm_t(r.get("titleJa", "")) for r in existing_rallies if r.get("titleJa")}
 
     # Fetch candidates from both premier sources
     pr_candidates = fetch_prtimes_rallies(all_stamps)
@@ -281,7 +287,25 @@ def main():
 
     for c in all_candidates:
         title_ja = c["titleJa"]
+        cand_url = c.get("url", "").rstrip("/")
+
+        # Check exact and URL duplicates
+        if cand_url and cand_url in existing_urls:
+            continue
         if title_ja in existing_titles:
+            continue
+
+        # Check normalized title duplicates (e.g. slight phrasing differences)
+        c_norm = norm_t(title_ja)
+        if c_norm in existing_norm_titles:
+            continue
+
+        is_sub_dup = False
+        for ex_norm in existing_norm_titles:
+            if len(ex_norm) >= 8 and (ex_norm in c_norm or c_norm in ex_norm):
+                is_sub_dup = True
+                break
+        if is_sub_dup:
             continue
 
         # Check if event has already expired

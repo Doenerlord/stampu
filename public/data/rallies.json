@@ -18,8 +18,8 @@
     "reward": "Metro Commerce 20th Anniversary Original Sticker (first 1,000) & Can Badge (first 300)",
     "rewardJa": "メトロコマース創立20周年記念 オリジナルステッカー（先着1,000名）＆ 特製缶バッジ（先着300名）",
     "bannerGradient": "from-teal-600 via-sky-600 to-blue-800",
-    "officialUrl": "https://www.metocan.co.jp/news/detail.html?id=233",
-    "source": "Tokyo Metro / Metro Commerce Official"
+    "officialUrl": "https://www.tetsudo.com/event/61547/",
+    "source": "Tokyo Metro & Metro Commerce (tetsudo.com)"
   },
   {
     "id": "tobu-museum-mitate-line-stamp-rally",
@@ -38,14 +38,14 @@
     "reward": "Mitate Line Commemorative Sticker & Postcard (Tobu Museum Reception)",
     "rewardJa": "すみだ鉄道見立て線 特製記念ステッカー＆ポストカード（東武博物館受付にて進呈）",
     "bannerGradient": "from-blue-700 via-sky-600 to-indigo-800",
-    "officialUrl": "https://www.tobu-museum.or.jp/",
-    "source": "Tobu Railway & Museum Official"
+    "officialUrl": "https://sumida-artfest.jp/programs/177/",
+    "source": "Tobu Railway & Sumida Art Festival"
   },
   {
     "id": "three-venue-letterpress-stamp-rally",
     "title": "Three-Venue Letterpress & Printing Heritage Stamp Rally",
     "titleJa": "活版印刷 三館スタンプラリー",
-    "organizer": "Tokyo Printing & Book Arts Heritage Consortium",
+    "organizer": "市谷の杜 本と活字館 (大日本印刷 / DNP)",
     "description": "Collect unique letterpress embossed seal stamps across Tokyo's historic printing ateliers, paper workshops, and bookstore districts in Ichigaya, Jimbocho, and Kanda.",
     "validFrom": "2026-07-14",
     "validUntil": "2026-10-25",
@@ -57,8 +57,8 @@
     "reward": "Original Letterpress Printed Washi Bookmark (Awarded at any participating venue)",
     "rewardJa": "特製活版印刷オリジナルしおり（各館にてプレゼント）",
     "bannerGradient": "from-amber-700 via-stone-700 to-emerald-800",
-    "officialUrl": "https://www.morisawa.co.jp/",
-    "source": "Tokyo Printing & Book Arts Consortium"
+    "officialUrl": "https://ichigaya-letterpress.jp/",
+    "source": "市谷の杜 本と活字館 Official"
   },
   {
     "id": "pokemon-stamp-rally-2026-jr-east",
@@ -79,8 +79,8 @@
     "reward": "Stage 1 Commemorative Clear File & Certificate (Tokyo Station JR East Travel Service Center)",
     "rewardJa": "ステージ1 達成記念オリジナルクリアファイル＆認定証（東京駅JR East Travel Service Center）",
     "bannerGradient": "from-amber-600 via-rose-600 to-indigo-700",
-    "officialUrl": "https://www.jreast.co.jp/pokemon-rally/",
-    "source": "JR East Japan Railway Official"
+    "officialUrl": "https://media.jreast.co.jp/articles/6387",
+    "source": "JR East Japan Railway (JRE Media)"
   },
   {
     "id": "tokyo-tourist-information-center-tama-stamp-rally",
@@ -100,8 +100,8 @@
     "reward": "Tama Regional Charm Commemorative Pin Badge & Novelty Goods",
     "rewardJa": "多摩の魅力発信 オリジナル記念ピンズ＆ノベルティ",
     "bannerGradient": "from-teal-700 via-emerald-600 to-cyan-800",
-    "officialUrl": "https://www.gotokyo.org/",
-    "source": "Tokyo Tourism Information Official"
+    "officialUrl": "https://www.gotokyo.org/jp/plan/tourist-info-center/index.html",
+    "source": "Tokyo Tourism Information (GO TOKYO)"
   },
   {
     "id": "saikyo-line-40th-anniversary-station-character-stamp-rally",
@@ -120,8 +120,8 @@
     "reward": "Saikyō Line 40th Anniversary Station Character Sticker Sheet & Keyring",
     "rewardJa": "埼京線40周年記念 駅キャラステッカー＆オリジナルキーホルダー",
     "bannerGradient": "from-green-700 via-emerald-600 to-slate-800",
-    "officialUrl": "https://www.jreast.co.jp/",
-    "source": "JR East Saikyo Line Operations"
+    "officialUrl": "https://media.jreast.co.jp/articles/5170",
+    "source": "JR East Omiya Branch (JRE Media)"
   },
   {
     "id": "detective-conan-stamp-rally-2025",
@@ -141,13 +141,13 @@
     "reward": "Original Detective Pin Badge & Commemorative Smartphone Wallpaper",
     "rewardJa": "特製ピンバッジ＆オリジナル壁紙",
     "bannerGradient": "from-blue-700 via-indigo-600 to-purple-800",
-    "officialUrl": "https://www.tetsudo.com/event/",
-    "source": "Japan Railway Event Portal"
+    "officialUrl": "https://media.jreast.co.jp/articles/6282",
+    "source": "JR East Japan Railway (JRE Media)"
   },
   {
     "id": "jr-east-train-stamp-rally-2025",
-    "title": "JR EAST Train Stamp Rally 2025",
-    "titleJa": "JR東日本 トレインスタンプラリー2025",
+    "title": "JR EAST Legend Train Stamp Rally",
+    "titleJa": "JR東日本 レジェンドトレインスタンプラリー",
     "organizer": "JR East (東日本旅客鉄道)",
     "description": "Winter railway heritage rally celebrating famous Shinkansen and limited express rolling stock across Tokyo, Ueno, Tabata, and Yokohama stations.",
     "validFrom": "2025-01-10",
@@ -162,8 +162,8 @@
     "reward": "Train Stamp Rally Commemorative Rolling Stock Card & Pass Case",
     "rewardJa": "トレインスタンプラリー オリジナル記念トレインカード＆パスケース",
     "bannerGradient": "from-slate-700 via-red-800 to-amber-700",
-    "officialUrl": "https://www.jreast.co.jp/",
-    "source": "JR East Official Campaign"
+    "officialUrl": "https://media.jreast.co.jp/articles/5575",
+    "source": "JR East Official (JRE Media)"
   },
   {
     "id": "南国市を巡ってまちの魅力を発見シャモ番長となんこく旅スタンプラリーを開催地域通貨ジモッペイでミュージアムから南国市のまち",
@@ -239,8 +239,8 @@
     "reward": "として公式LINEアカウントを友だち登録していただいた方全員に、全49施設の現地で使用できる「サレモン100円購入クーポン」をプレゼントいたします（※在庫がなくなり次第終了）",
     "rewardJa": "として公式LINEアカウントを友だち登録していただいた方全員に、全49施設の現地で使用できる「サレモン100円購入クーポン」をプレゼントいたします（※在庫がなくなり次第終了）",
     "bannerGradient": "from-red-700 via-rose-600 to-pink-800",
-    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000001.000171228.html",
-    "source": "PR TIMES / Nagano Onsen Association"
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000006.000176443.html",
+    "source": "信州湯ノ道 実行委員会 Press Release (PR TIMES)"
   },
   {
     "id": "京急-横浜鶴見クイズラリー",
@@ -470,24 +470,5 @@
     "bannerGradient": "from-red-700 via-rose-600 to-pink-800",
     "officialUrl": "https://www.tetsudo.com/event/61481/",
     "source": "Tetsudo.com / JR East Suica Official"
-  },
-  {
-    "id": "東京メトロ-メトロコマース創立20周年スタンプラリー",
-    "title": "コマースは、「メトロコマース創立20周年スタンプラリー」を開催 Commemorative Stamp Rally",
-    "titleJa": "東京メトロ メトロコマース創立20周年スタンプラリー",
-    "organizer": "コマースは、「メトロコマース創立20周年スタンプラリー」を開催",
-    "description": "Official commemorative stamp rally organized by コマースは、「メトロコマース創立20周年スタンプラリー」を開催. Collect stamps across participating stations and venues between 2026-10-11 and 2026-12-31 to claim exclusive collector rewards.",
-    "validFrom": "2026-10-11",
-    "validUntil": "2026-12-31",
-    "stampIds": [
-      "eki-metro-tokyo",
-      "eki-metro-shinjuku",
-      "eki-metro-ueno"
-    ],
-    "reward": "、先着300人にオリジナル缶バッジをプレゼント",
-    "rewardJa": "、先着300人にオリジナル缶バッジをプレゼント",
-    "bannerGradient": "from-indigo-600 via-blue-600 to-cyan-800",
-    "officialUrl": "https://prtimes.jp/topics/keywords/%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97%E3%83%A9%E3%83%AA%E3%83%BC",
-    "source": "コマースは、「メトロコマース創立20周年スタンプラリー」を開催 Press Release"
   }
 ]
