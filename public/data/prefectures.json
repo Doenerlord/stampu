@@ -4,22 +4,22 @@
     "name": "Hokkaido",
     "name_ja": "北海道",
     "region": "Hokkaido",
-    "stampCount": 444,
+    "stampCount": 544,
     "categories": {
       "castle": 5,
-      "eki": 18,
+      "eki": 213,
       "michinoeki": 128,
       "highway": 34,
       "tower": 6,
       "anime": 2,
       "temple_shrine": 3,
-      "onsen": 15,
+      "onsen": 14,
       "airport": 9,
       "ferry": 3,
       "lighthouse": 9,
       "nature": 22,
-      "museum": 84,
-      "shop": 26,
+      "museum": 82,
+      "shop": 3,
       "tourist_info": 7,
       "garden": 4
     },
@@ -36,10 +36,10 @@
     "name": "Akita",
     "name_ja": "秋田県",
     "region": "Tohoku",
-    "stampCount": 104,
+    "stampCount": 127,
     "categories": {
       "castle": 3,
-      "eki": 3,
+      "eki": 49,
       "michinoeki": 34,
       "highway": 8,
       "anime": 1,
@@ -47,10 +47,10 @@
       "airport": 1,
       "lighthouse": 1,
       "garden": 1,
-      "museum": 18,
-      "tourist_info": 2,
-      "shop": 24,
-      "nature": 4
+      "museum": 16,
+      "shop": 4,
+      "nature": 4,
+      "tourist_info": 1
     },
     "bounds": {
       "minLon": 139.7695,
@@ -65,10 +65,10 @@
     "name": "Aomori",
     "name_ja": "青森県",
     "region": "Tohoku",
-    "stampCount": 122,
+    "stampCount": 139,
     "categories": {
       "castle": 3,
-      "eki": 23,
+      "eki": 58,
       "michinoeki": 28,
       "highway": 3,
       "onsen": 5,
@@ -76,8 +76,8 @@
       "ferry": 1,
       "lighthouse": 4,
       "nature": 8,
-      "shop": 22,
       "tourist_info": 4,
+      "shop": 4,
       "museum": 19
     },
     "bounds": {
@@ -93,10 +93,10 @@
     "name": "Fukushima",
     "name_ja": "福島県",
     "region": "Tohoku",
-    "stampCount": 155,
+    "stampCount": 185,
     "categories": {
       "castle": 5,
-      "eki": 8,
+      "eki": 71,
       "michinoeki": 37,
       "highway": 24,
       "anime": 1,
@@ -106,9 +106,9 @@
       "nature": 9,
       "tower": 1,
       "onsen": 1,
-      "shop": 33,
-      "tourist_info": 8,
-      "museum": 24
+      "tourist_info": 7,
+      "shop": 2,
+      "museum": 23
     },
     "bounds": {
       "minLon": 139.4048,
@@ -123,16 +123,16 @@
     "name": "Iwate",
     "name_ja": "岩手県",
     "region": "Tohoku",
-    "stampCount": 129,
+    "stampCount": 150,
     "categories": {
       "castle": 2,
-      "eki": 31,
+      "eki": 74,
       "michinoeki": 39,
       "highway": 7,
       "airport": 1,
       "lighthouse": 2,
       "nature": 7,
-      "shop": 24,
+      "shop": 2,
       "museum": 14,
       "tourist_info": 1,
       "onsen": 1
@@ -150,19 +150,19 @@
     "name": "Miyagi",
     "name_ja": "宮城県",
     "region": "Tohoku",
-    "stampCount": 150,
+    "stampCount": 175,
     "categories": {
       "castle": 3,
-      "eki": 11,
+      "eki": 58,
       "michinoeki": 19,
       "highway": 46,
       "temple_shrine": 1,
       "onsen": 3,
       "airport": 1,
       "lighthouse": 1,
-      "shop": 35,
-      "museum": 21,
+      "shop": 18,
       "tourist_info": 4,
+      "museum": 16,
       "nature": 5
     },
     "bounds": {
@@ -178,7 +178,7 @@
     "name": "Yamagata",
     "name_ja": "山形県",
     "region": "Tohoku",
-    "stampCount": 112,
+    "stampCount": 120,
     "categories": {
       "castle": 3,
       "michinoeki": 24,
@@ -187,9 +187,10 @@
       "onsen": 5,
       "airport": 1,
       "museum": 21,
-      "tourist_info": 6,
-      "shop": 39,
-      "nature": 6
+      "eki": 50,
+      "shop": 1,
+      "nature": 6,
+      "tourist_info": 2
     },
     "bounds": {
       "minLon": 139.5088,
@@ -204,10 +205,10 @@
     "name": "Chiba",
     "name_ja": "千葉県",
     "region": "Kanto",
-    "stampCount": 219,
+    "stampCount": 230,
     "categories": {
       "castle": 3,
-      "eki": 104,
+      "eki": 143,
       "michinoeki": 29,
       "highway": 8,
       "tower": 2,
@@ -216,8 +217,8 @@
       "airport": 1,
       "lighthouse": 2,
       "museum": 18,
-      "shop": 29,
-      "tourist_info": 6,
+      "shop": 5,
+      "tourist_info": 2,
       "nature": 2
     },
     "bounds": {
@@ -233,17 +234,17 @@
     "name": "Gunma",
     "name_ja": "群馬県",
     "region": "Kanto",
-    "stampCount": 162,
+    "stampCount": 169,
     "categories": {
       "castle": 5,
-      "eki": 16,
+      "eki": 45,
       "michinoeki": 34,
       "highway": 25,
       "anime": 1,
       "temple_shrine": 3,
       "onsen": 20,
       "nature": 12,
-      "shop": 37,
+      "shop": 15,
       "museum": 7,
       "tourist_info": 2
     },
@@ -260,7 +261,7 @@
     "name": "Ibaraki",
     "name_ja": "茨城県",
     "region": "Kanto",
-    "stampCount": 114,
+    "stampCount": 137,
     "categories": {
       "castle": 4,
       "michinoeki": 16,
@@ -269,11 +270,11 @@
       "ferry": 1,
       "anime": 1,
       "garden": 1,
-      "eki": 14,
+      "eki": 55,
       "tower": 4,
-      "shop": 21,
-      "tourist_info": 6,
-      "museum": 16,
+      "museum": 15,
+      "tourist_info": 4,
+      "shop": 6,
       "nature": 2
     },
     "bounds": {
@@ -289,10 +290,10 @@
     "name": "Kanagawa",
     "name_ja": "神奈川県",
     "region": "Kanto",
-    "stampCount": 252,
+    "stampCount": 273,
     "categories": {
       "castle": 3,
-      "eki": 131,
+      "eki": 176,
       "michinoeki": 6,
       "highway": 12,
       "tower": 2,
@@ -304,8 +305,8 @@
       "nature": 7,
       "museum": 15,
       "garden": 2,
-      "shop": 27,
-      "tourist_info": 15
+      "shop": 9,
+      "tourist_info": 9
     },
     "bounds": {
       "minLon": 138.9096,
@@ -320,18 +321,18 @@
     "name": "Saitama",
     "name_ja": "埼玉県",
     "region": "Kanto",
-    "stampCount": 208,
+    "stampCount": 215,
     "categories": {
       "castle": 5,
-      "eki": 66,
+      "eki": 108,
       "michinoeki": 21,
       "highway": 9,
       "tower": 1,
       "anime": 10,
       "temple_shrine": 39,
-      "shop": 31,
-      "tourist_info": 11,
-      "museum": 13,
+      "shop": 2,
+      "tourist_info": 6,
+      "museum": 12,
       "nature": 2
     },
     "bounds": {
@@ -347,10 +348,10 @@
     "name": "Tochigi",
     "name_ja": "栃木県",
     "region": "Kanto",
-    "stampCount": 132,
+    "stampCount": 136,
     "categories": {
       "castle": 2,
-      "eki": 23,
+      "eki": 51,
       "michinoeki": 25,
       "highway": 9,
       "temple_shrine": 6,
@@ -358,7 +359,7 @@
       "tower": 1,
       "onsen": 3,
       "museum": 18,
-      "shop": 35,
+      "shop": 11,
       "tourist_info": 2
     },
     "bounds": {
@@ -374,10 +375,10 @@
     "name": "Tokyo",
     "name_ja": "東京都",
     "region": "Kanto",
-    "stampCount": 648,
+    "stampCount": 657,
     "categories": {
       "castle": 4,
-      "eki": 462,
+      "eki": 488,
       "michinoeki": 1,
       "highway": 18,
       "tower": 9,
@@ -388,8 +389,8 @@
       "nature": 7,
       "museum": 47,
       "garden": 22,
-      "shop": 22,
-      "tourist_info": 26,
+      "shop": 14,
+      "tourist_info": 17,
       "onsen": 4
     },
     "bounds": {
@@ -405,10 +406,10 @@
     "name": "Aichi",
     "name_ja": "愛知県",
     "region": "Chubu",
-    "stampCount": 132,
+    "stampCount": 144,
     "categories": {
       "castle": 8,
-      "eki": 51,
+      "eki": 69,
       "michinoeki": 19,
       "highway": 12,
       "tower": 3,
@@ -416,9 +417,9 @@
       "airport": 1,
       "ferry": 1,
       "lighthouse": 1,
-      "museum": 16,
+      "museum": 13,
       "shop": 4,
-      "tourist_info": 7,
+      "tourist_info": 4,
       "garden": 5
     },
     "bounds": {
@@ -434,16 +435,16 @@
     "name": "Fukui",
     "name_ja": "福井県",
     "region": "Chubu",
-    "stampCount": 97,
+    "stampCount": 104,
     "categories": {
       "castle": 6,
-      "eki": 21,
+      "eki": 39,
       "michinoeki": 20,
       "highway": 8,
       "tower": 1,
       "temple_shrine": 3,
       "garden": 1,
-      "tourist_info": 23,
+      "tourist_info": 12,
       "onsen": 4,
       "museum": 6,
       "nature": 4
@@ -461,16 +462,16 @@
     "name": "Gifu",
     "name_ja": "岐阜県",
     "region": "Chubu",
-    "stampCount": 119,
+    "stampCount": 142,
     "categories": {
       "castle": 6,
-      "eki": 18,
+      "eki": 42,
       "michinoeki": 57,
       "highway": 13,
       "anime": 4,
       "temple_shrine": 4,
       "onsen": 6,
-      "museum": 6,
+      "museum": 5,
       "nature": 4,
       "tourist_info": 1
     },
@@ -487,10 +488,10 @@
     "name": "Ishikawa",
     "name_ja": "石川県",
     "region": "Chubu",
-    "stampCount": 125,
+    "stampCount": 148,
     "categories": {
       "castle": 3,
-      "eki": 23,
+      "eki": 59,
       "michinoeki": 26,
       "highway": 13,
       "temple_shrine": 3,
@@ -500,8 +501,8 @@
       "nature": 7,
       "museum": 8,
       "garden": 1,
-      "shop": 18,
-      "tourist_info": 5
+      "shop": 8,
+      "tourist_info": 2
     },
     "bounds": {
       "minLon": 136.2444,
@@ -516,10 +517,10 @@
     "name": "Nagano",
     "name_ja": "長野県",
     "region": "Chubu",
-    "stampCount": 149,
+    "stampCount": 231,
     "categories": {
       "castle": 7,
-      "eki": 19,
+      "eki": 101,
       "michinoeki": 54,
       "highway": 26,
       "anime": 1,
@@ -544,10 +545,10 @@
     "name": "Niigata",
     "name_ja": "新潟県",
     "region": "Chubu",
-    "stampCount": 141,
+    "stampCount": 193,
     "categories": {
       "castle": 5,
-      "eki": 11,
+      "eki": 96,
       "michinoeki": 41,
       "highway": 21,
       "temple_shrine": 4,
@@ -555,9 +556,8 @@
       "ferry": 2,
       "lighthouse": 1,
       "nature": 5,
-      "shop": 36,
-      "museum": 13,
-      "tourist_info": 1
+      "shop": 4,
+      "museum": 13
     },
     "bounds": {
       "minLon": 137.499,
@@ -572,20 +572,20 @@
     "name": "Shizuoka",
     "name_ja": "静岡県",
     "region": "Chubu",
-    "stampCount": 161,
+    "stampCount": 214,
     "categories": {
       "castle": 7,
-      "eki": 33,
+      "eki": 94,
       "michinoeki": 27,
       "highway": 50,
       "anime": 2,
       "temple_shrine": 5,
       "airport": 1,
       "lighthouse": 3,
-      "tourist_info": 9,
       "onsen": 9,
       "museum": 9,
-      "nature": 6
+      "nature": 6,
+      "tourist_info": 1
     },
     "bounds": {
       "minLon": 137.3701,
@@ -600,17 +600,17 @@
     "name": "Toyama",
     "name_ja": "富山県",
     "region": "Chubu",
-    "stampCount": 91,
+    "stampCount": 126,
     "categories": {
       "castle": 3,
-      "eki": 8,
+      "eki": 61,
       "michinoeki": 16,
       "highway": 10,
       "tower": 1,
       "temple_shrine": 4,
       "onsen": 3,
       "museum": 12,
-      "shop": 26,
+      "shop": 8,
       "tourist_info": 2,
       "nature": 6
     },
@@ -627,7 +627,7 @@
     "name": "Yamanashi",
     "name_ja": "山梨県",
     "region": "Chubu",
-    "stampCount": 105,
+    "stampCount": 107,
     "categories": {
       "castle": 4,
       "michinoeki": 23,
@@ -635,8 +635,8 @@
       "anime": 2,
       "temple_shrine": 1,
       "nature": 6,
-      "tourist_info": 29,
-      "eki": 5,
+      "tourist_info": 7,
+      "eki": 29,
       "museum": 7
     },
     "bounds": {
@@ -652,10 +652,10 @@
     "name": "Hyogo",
     "name_ja": "兵庫県",
     "region": "Kansai",
-    "stampCount": 212,
+    "stampCount": 317,
     "categories": {
       "castle": 8,
-      "eki": 87,
+      "eki": 201,
       "michinoeki": 36,
       "highway": 27,
       "tower": 2,
@@ -663,9 +663,9 @@
       "onsen": 14,
       "airport": 2,
       "ferry": 2,
-      "tourist_info": 6,
-      "museum": 12,
-      "nature": 5
+      "museum": 8,
+      "nature": 5,
+      "tourist_info": 1
     },
     "bounds": {
       "minLon": 134.218,
@@ -680,10 +680,10 @@
     "name": "Kyoto",
     "name_ja": "京都府",
     "region": "Kansai",
-    "stampCount": 125,
+    "stampCount": 190,
     "categories": {
       "castle": 3,
-      "eki": 50,
+      "eki": 118,
       "michinoeki": 18,
       "highway": 1,
       "tower": 1,
@@ -691,9 +691,9 @@
       "anime": 3,
       "ferry": 1,
       "lighthouse": 1,
-      "museum": 5,
+      "museum": 3,
       "shop": 4,
-      "tourist_info": 6,
+      "tourist_info": 5,
       "nature": 6
     },
     "bounds": {
@@ -709,10 +709,10 @@
     "name": "Mie",
     "name_ja": "三重県",
     "region": "Kansai",
-    "stampCount": 87,
+    "stampCount": 109,
     "categories": {
       "castle": 6,
-      "eki": 28,
+      "eki": 55,
       "michinoeki": 18,
       "highway": 6,
       "anime": 1,
@@ -720,7 +720,7 @@
       "lighthouse": 4,
       "nature": 2,
       "museum": 9,
-      "tourist_info": 6
+      "tourist_info": 1
     },
     "bounds": {
       "minLon": 135.9535,
@@ -735,16 +735,15 @@
     "name": "Nara",
     "name_ja": "奈良県",
     "region": "Kansai",
-    "stampCount": 68,
+    "stampCount": 86,
     "categories": {
       "castle": 5,
-      "eki": 19,
+      "eki": 40,
       "michinoeki": 17,
       "temple_shrine": 11,
       "museum": 4,
       "onsen": 5,
       "garden": 1,
-      "tourist_info": 3,
       "nature": 3
     },
     "bounds": {
@@ -760,10 +759,10 @@
     "name": "Osaka",
     "name_ja": "大阪府",
     "region": "Kansai",
-    "stampCount": 274,
+    "stampCount": 358,
     "categories": {
       "castle": 5,
-      "eki": 216,
+      "eki": 305,
       "michinoeki": 10,
       "highway": 3,
       "tower": 4,
@@ -772,8 +771,8 @@
       "ferry": 2,
       "museum": 4,
       "shop": 2,
-      "onsen": 2,
-      "tourist_info": 8,
+      "onsen": 1,
+      "tourist_info": 4,
       "garden": 6,
       "nature": 2
     },
@@ -790,10 +789,10 @@
     "name": "Shiga",
     "name_ja": "滋賀県",
     "region": "Kansai",
-    "stampCount": 83,
+    "stampCount": 137,
     "categories": {
       "castle": 7,
-      "eki": 10,
+      "eki": 68,
       "michinoeki": 20,
       "highway": 20,
       "temple_shrine": 8,
@@ -801,7 +800,7 @@
       "onsen": 3,
       "museum": 4,
       "nature": 4,
-      "tourist_info": 6
+      "tourist_info": 2
     },
     "bounds": {
       "minLon": 135.805,
@@ -816,10 +815,10 @@
     "name": "Wakayama",
     "name_ja": "和歌山県",
     "region": "Kansai",
-    "stampCount": 100,
+    "stampCount": 117,
     "categories": {
       "castle": 2,
-      "eki": 20,
+      "eki": 40,
       "michinoeki": 36,
       "highway": 2,
       "temple_shrine": 10,
@@ -829,7 +828,7 @@
       "lighthouse": 1,
       "nature": 8,
       "museum": 3,
-      "tourist_info": 4
+      "tourist_info": 1
     },
     "bounds": {
       "minLon": 135.1006,
@@ -844,10 +843,10 @@
     "name": "Hiroshima",
     "name_ja": "広島県",
     "region": "Chugoku",
-    "stampCount": 135,
+    "stampCount": 172,
     "categories": {
       "castle": 5,
-      "eki": 13,
+      "eki": 51,
       "michinoeki": 21,
       "highway": 22,
       "anime": 2,
@@ -859,7 +858,7 @@
       "garden": 2,
       "tower": 1,
       "nature": 4,
-      "tourist_info": 4
+      "tourist_info": 3
     },
     "bounds": {
       "minLon": 132.2258,
@@ -874,17 +873,17 @@
     "name": "Okayama",
     "name_ja": "岡山県",
     "region": "Chugoku",
-    "stampCount": 82,
+    "stampCount": 113,
     "categories": {
       "castle": 5,
-      "eki": 12,
+      "eki": 47,
       "michinoeki": 17,
       "highway": 14,
       "temple_shrine": 3,
       "airport": 1,
       "garden": 1,
-      "museum": 19,
-      "tourist_info": 4,
+      "museum": 18,
+      "tourist_info": 1,
       "nature": 3,
       "onsen": 3
     },
@@ -901,7 +900,7 @@
     "name": "Shimane",
     "name_ja": "島根県",
     "region": "Chugoku",
-    "stampCount": 68,
+    "stampCount": 89,
     "categories": {
       "castle": 4,
       "michinoeki": 30,
@@ -910,9 +909,9 @@
       "airport": 2,
       "ferry": 1,
       "lighthouse": 2,
-      "museum": 12,
-      "eki": 1,
-      "tourist_info": 2,
+      "museum": 10,
+      "eki": 25,
+      "tourist_info": 1,
       "nature": 3
     },
     "bounds": {
@@ -928,7 +927,7 @@
     "name": "Tottori",
     "name_ja": "鳥取県",
     "region": "Chugoku",
-    "stampCount": 59,
+    "stampCount": 66,
     "categories": {
       "castle": 3,
       "michinoeki": 17,
@@ -938,9 +937,9 @@
       "onsen": 6,
       "airport": 2,
       "nature": 5,
-      "eki": 5,
-      "museum": 14,
-      "tourist_info": 2
+      "eki": 14,
+      "museum": 13,
+      "tourist_info": 1
     },
     "bounds": {
       "minLon": 133.1377,
@@ -955,10 +954,10 @@
     "name": "Yamaguchi",
     "name_ja": "山口県",
     "region": "Chugoku",
-    "stampCount": 73,
+    "stampCount": 90,
     "categories": {
       "castle": 3,
-      "eki": 8,
+      "eki": 29,
       "michinoeki": 24,
       "highway": 12,
       "tower": 1,
@@ -967,9 +966,9 @@
       "airport": 1,
       "lighthouse": 1,
       "onsen": 5,
-      "museum": 4,
+      "museum": 3,
       "nature": 5,
-      "tourist_info": 4
+      "tourist_info": 1
     },
     "bounds": {
       "minLon": 130.8305,
@@ -984,10 +983,10 @@
     "name": "Ehime",
     "name_ja": "愛媛県",
     "region": "Shikoku",
-    "stampCount": 92,
+    "stampCount": 107,
     "categories": {
       "castle": 7,
-      "eki": 2,
+      "eki": 19,
       "michinoeki": 28,
       "highway": 6,
       "temple_shrine": 27,
@@ -997,7 +996,6 @@
       "lighthouse": 1,
       "museum": 5,
       "garden": 1,
-      "tourist_info": 2,
       "nature": 3
     },
     "bounds": {
@@ -1013,10 +1011,10 @@
     "name": "Kagawa",
     "name_ja": "香川県",
     "region": "Shikoku",
-    "stampCount": 79,
+    "stampCount": 94,
     "categories": {
       "castle": 3,
-      "eki": 4,
+      "eki": 21,
       "michinoeki": 18,
       "highway": 6,
       "tower": 1,
@@ -1028,7 +1026,7 @@
       "nature": 4,
       "museum": 4,
       "garden": 2,
-      "tourist_info": 3
+      "tourist_info": 1
     },
     "bounds": {
       "minLon": 133.5699,
@@ -1043,7 +1041,7 @@
     "name": "Kochi",
     "name_ja": "高知県",
     "region": "Shikoku",
-    "stampCount": 93,
+    "stampCount": 104,
     "categories": {
       "castle": 2,
       "michinoeki": 26,
@@ -1052,8 +1050,8 @@
       "airport": 1,
       "lighthouse": 2,
       "nature": 7,
-      "eki": 26,
-      "museum": 8,
+      "eki": 38,
+      "museum": 7,
       "garden": 1,
       "tourist_info": 1
     },
@@ -1070,7 +1068,7 @@
     "name": "Tokushima",
     "name_ja": "徳島県",
     "region": "Shikoku",
-    "stampCount": 65,
+    "stampCount": 78,
     "categories": {
       "castle": 3,
       "michinoeki": 18,
@@ -1078,9 +1076,9 @@
       "onsen": 2,
       "airport": 1,
       "museum": 5,
-      "eki": 2,
+      "eki": 16,
       "nature": 5,
-      "tourist_info": 2
+      "tourist_info": 1
     },
     "bounds": {
       "minLon": 133.7382,
@@ -1095,10 +1093,10 @@
     "name": "Fukuoka",
     "name_ja": "福岡県",
     "region": "Kyushu & Okinawa",
-    "stampCount": 91,
+    "stampCount": 151,
     "categories": {
       "castle": 5,
-      "eki": 26,
+      "eki": 92,
       "michinoeki": 17,
       "highway": 12,
       "tower": 2,
@@ -1106,10 +1104,10 @@
       "temple_shrine": 4,
       "airport": 2,
       "lighthouse": 2,
-      "museum": 7,
+      "museum": 4,
       "garden": 3,
       "nature": 5,
-      "tourist_info": 5
+      "tourist_info": 2
     },
     "bounds": {
       "minLon": 130.2891,
@@ -1124,10 +1122,10 @@
     "name": "Kagoshima",
     "name_ja": "鹿児島県",
     "region": "Kyushu & Okinawa",
-    "stampCount": 76,
+    "stampCount": 107,
     "categories": {
       "castle": 3,
-      "eki": 10,
+      "eki": 45,
       "michinoeki": 23,
       "temple_shrine": 4,
       "onsen": 11,
@@ -1137,8 +1135,7 @@
       "nature": 6,
       "garden": 1,
       "tower": 1,
-      "museum": 3,
-      "tourist_info": 2
+      "museum": 1
     },
     "bounds": {
       "minLon": 128.2015,
@@ -1153,10 +1150,10 @@
     "name": "Kumamoto",
     "name_ja": "熊本県",
     "region": "Kyushu & Okinawa",
-    "stampCount": 85,
+    "stampCount": 113,
     "categories": {
       "castle": 5,
-      "eki": 7,
+      "eki": 36,
       "michinoeki": 36,
       "highway": 8,
       "temple_shrine": 1,
@@ -1166,8 +1163,7 @@
       "tower": 1,
       "museum": 3,
       "garden": 2,
-      "nature": 8,
-      "tourist_info": 1
+      "nature": 8
     },
     "bounds": {
       "minLon": 130.1192,
@@ -1182,7 +1178,7 @@
     "name": "Miyazaki",
     "name_ja": "宮崎県",
     "region": "Kyushu & Okinawa",
-    "stampCount": 38,
+    "stampCount": 56,
     "categories": {
       "castle": 3,
       "michinoeki": 18,
@@ -1190,7 +1186,8 @@
       "airport": 1,
       "lighthouse": 1,
       "nature": 6,
-      "museum": 5,
+      "eki": 20,
+      "museum": 3,
       "tourist_info": 1
     },
     "bounds": {
@@ -1206,10 +1203,10 @@
     "name": "Nagasaki",
     "name_ja": "長崎県",
     "region": "Kyushu & Okinawa",
-    "stampCount": 60,
+    "stampCount": 75,
     "categories": {
       "castle": 5,
-      "eki": 4,
+      "eki": 23,
       "michinoeki": 12,
       "highway": 6,
       "anime": 1,
@@ -1219,9 +1216,8 @@
       "lighthouse": 2,
       "nature": 6,
       "tower": 1,
-      "museum": 10,
-      "garden": 2,
-      "tourist_info": 2
+      "museum": 8,
+      "garden": 2
     },
     "bounds": {
       "minLon": 128.7251,
@@ -1236,10 +1232,10 @@
     "name": "Oita",
     "name_ja": "大分県",
     "region": "Kyushu & Okinawa",
-    "stampCount": 73,
+    "stampCount": 92,
     "categories": {
       "castle": 6,
-      "eki": 1,
+      "eki": 23,
       "michinoeki": 25,
       "highway": 2,
       "tower": 1,
@@ -1249,9 +1245,9 @@
       "ferry": 1,
       "lighthouse": 1,
       "nature": 8,
-      "museum": 8,
+      "museum": 7,
       "garden": 1,
-      "tourist_info": 3
+      "tourist_info": 1
     },
     "bounds": {
       "minLon": 131.0917,
@@ -1266,10 +1262,10 @@
     "name": "Okinawa",
     "name_ja": "沖縄県",
     "region": "Kyushu & Okinawa",
-    "stampCount": 60,
+    "stampCount": 77,
     "categories": {
       "castle": 5,
-      "eki": 8,
+      "eki": 27,
       "michinoeki": 10,
       "highway": 4,
       "temple_shrine": 1,
@@ -1277,7 +1273,7 @@
       "ferry": 3,
       "lighthouse": 1,
       "nature": 9,
-      "museum": 9,
+      "museum": 7,
       "garden": 1,
       "tourist_info": 3
     },
@@ -1294,18 +1290,17 @@
     "name": "Saga",
     "name_ja": "佐賀県",
     "region": "Kyushu & Okinawa",
-    "stampCount": 42,
+    "stampCount": 54,
     "categories": {
       "castle": 5,
-      "eki": 3,
+      "eki": 19,
       "michinoeki": 11,
       "highway": 4,
       "temple_shrine": 2,
       "onsen": 6,
-      "museum": 5,
+      "museum": 3,
       "garden": 1,
-      "nature": 3,
-      "tourist_info": 2
+      "nature": 3
     },
     "bounds": {
       "minLon": 129.8583,
