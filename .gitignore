@@ -28,3 +28,10 @@ dist-ssr
 venv/
 __pycache__/
 *.pyc
+
+# Android
+*.apk
+*.aab
+android/.gradle
+android/app/build
+
