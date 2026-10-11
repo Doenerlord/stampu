@@ -148,5 +148,296 @@
     "reward": "Train Stamp Rally Commemorative Rolling Stock Card & Pass Case",
     "rewardJa": "トレインスタンプラリー オリジナル記念トレインカード＆パスケース",
     "bannerGradient": "from-slate-700 via-red-800 to-amber-700"
+  },
+  {
+    "id": "南国市を巡ってまちの魅力を発見シャモ番長となんこく旅スタンプラリーを開催地域通貨ジモッペイでミュージアムから南国市のまち",
+    "title": "高知信用金庫 Commemorative Stamp Rally",
+    "titleJa": "南国市を巡って、まちの魅力を発見！「シャモ番長となんこく旅スタンプラリー」を開催！地域通貨「ジモッペイ」で、ミュージアムから南国市のまちへ",
+    "organizer": "高知信用金庫",
+    "description": "Official commemorative stamp rally organized by 高知信用金庫. Collect stamps across participating stations and venues between 2026-10-09 and 2027-01-31 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-09",
+    "validUntil": "2027-01-31",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "します",
+    "rewardJa": "します",
+    "bannerGradient": "from-emerald-600 via-teal-600 to-sky-800"
+  },
+  {
+    "id": "映画bang-dream-ave-mujica-prima-aurora公開記念-池袋と秋葉原をめぐるデジタルスタンプラ",
+    "title": "BanG Dream! Ave Mujica Ikebukuro & Akihabara Digital Stamp Rally",
+    "titleJa": "映画「BanG Dream! Ave Mujica prima aurora」公開記念 池袋と秋葉原をめぐるデジタルスタンプラリーを開催",
+    "organizer": "株式会社ブシロード",
+    "description": "Official commemorative stamp rally organized by 株式会社ブシロード. Collect stamps across participating stations and venues between 2026-10-16 and 2026-11-01 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-16",
+    "validUntil": "2026-11-01",
+    "stampIds": [
+      "eki-metro-akihabara",
+      "eki-metro-suehirocho",
+      "eki-yamanote-akihabara",
+      "event-pokemon-akihabara"
+    ],
+    "reward": "デジタルスタンプをすべて集め、アンケートにご回答いただいた方に、オリジナルステッカー2枚セットをプレゼント",
+    "rewardJa": "デジタルスタンプをすべて集め、アンケートにご回答いただいた方に、オリジナルステッカー2枚セットをプレゼント",
+    "bannerGradient": "from-purple-700 via-fuchsia-600 to-pink-800"
+  },
+  {
+    "id": "jaf滋賀石榑トンネルでつながる東近江市いなべ市を巡るトナリマチドライブスタンプラリーに協力",
+    "title": "JAF Commemorative Stamp Rally",
+    "titleJa": "【JAF滋賀】石榑トンネルでつながる東近江市・いなべ市を巡る「トナリマチドライブスタンプラリー」に協力",
+    "organizer": "JAF",
+    "description": "Official commemorative stamp rally organized by JAF. Collect stamps across participating stations and venues between 2026-10-01 and 2026-12-27 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-01",
+    "validUntil": "2026-12-27",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "一例",
+    "rewardJa": "一例",
+    "bannerGradient": "from-amber-600 via-yellow-600 to-lime-700"
+  },
+  {
+    "id": "10月10日-銭湯の日スタート長野県全域49施設へ拡大信州の温泉銭湯サウナが参加するデジタルスタンプラリー湯ノ道2026",
+    "title": "信州湯ノ道　実行委員会 Commemorative Stamp Rally",
+    "titleJa": "【10月10日 銭湯の日スタート！長野県全域・49施設へ拡大】信州の温泉・銭湯・サウナが参加するデジタルスタンプラリー『湯ノ道2026 湯怪万来 湯めぐりスタンプラリー in 信州』開幕",
+    "organizer": "信州湯ノ道　実行委員会",
+    "description": "Official commemorative stamp rally organized by 信州湯ノ道　実行委員会. Collect stamps across participating stations and venues between 2026-10-10 and 2026-12-12 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-10",
+    "validUntil": "2026-12-12",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "として公式LINEアカウントを友だち登録していただいた方全員に、全49施設の現地で使用できる「サレモン100円購入クーポン」をプレゼントいたします（※在庫がなくなり次第終了）",
+    "rewardJa": "として公式LINEアカウントを友だち登録していただいた方全員に、全49施設の現地で使用できる「サレモン100円購入クーポン」をプレゼントいたします（※在庫がなくなり次第終了）",
+    "bannerGradient": "from-red-700 via-rose-600 to-pink-800"
+  },
+  {
+    "id": "京急-横浜鶴見クイズラリー",
+    "title": "Railway Authority Commemorative Stamp Rally",
+    "titleJa": "京急 横浜鶴見クイズラリー",
+    "organizer": "Railway Authority",
+    "description": "Official commemorative stamp rally organized by Railway Authority. Collect stamps across participating stations and venues between 2026-10-16 and 2026-12-20 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-16",
+    "validUntil": "2026-12-20",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "。また、リーフレット掲載のクイズラリー挑戦で、けいきゅんぬいぐるみ、京急ストア商品券3,000円分、鶴見4駅駅名キーホルダーセットなどが賞品の抽選に応募可",
+    "rewardJa": "。また、リーフレット掲載のクイズラリー挑戦で、けいきゅんぬいぐるみ、京急ストア商品券3,000円分、鶴見4駅駅名キーホルダーセットなどが賞品の抽選に応募可",
+    "bannerGradient": "from-indigo-600 via-blue-600 to-cyan-800"
+  },
+  {
+    "id": "札幌市-市電沿線お買いものラリー2026-第1弾-開催",
+    "title": "Railway Authority Commemorative Stamp Rally",
+    "titleJa": "札幌市 市電沿線お買いものラリー2026 第1弾 開催",
+    "organizer": "Railway Authority",
+    "description": "Official commemorative stamp rally organized by Railway Authority. Collect stamps across participating stations and venues between 2026-10-14 and 2026-11-30 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-14",
+    "validUntil": "2026-11-30",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "特製記念トレーディングカード・ステッカー",
+    "rewardJa": "特製記念トレーディングカード・ステッカー",
+    "bannerGradient": "from-rose-600 via-orange-500 to-amber-700"
+  },
+  {
+    "id": "第16回-関東民鉄スタンプラリー",
+    "title": "16th Kanto Private Railway Stamp Rally",
+    "titleJa": "第16回 関東民鉄スタンプラリー",
+    "organizer": "#ひたちなか海浜鉄道",
+    "description": "Official commemorative stamp rally organized by #ひたちなか海浜鉄道. Collect stamps across participating stations and venues between 2026-10-01 and 2027-02-14 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-01",
+    "validUntil": "2027-02-14",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "は、3駅達成がエリア別デザインのクリアファイル（台湾のみ認定証も進呈）、国内エリア内全駅達成がキーホルダー（全員）および鉄道グッズの抽選応募権、39駅達成がトートバッグ（全員）および西武「52席の至福」招待または関東鉄道・上毛電気鉄道（いずれか）の車両運転体験抽選応募権、台湾全駅達成がグッズ詰め合わせ（全員）",
+    "rewardJa": "は、3駅達成がエリア別デザインのクリアファイル（台湾のみ認定証も進呈）、国内エリア内全駅達成がキーホルダー（全員）および鉄道グッズの抽選応募権、39駅達成がトートバッグ（全員）および西武「52席の至福」招待または関東鉄道・上毛電気鉄道（いずれか）の車両運転体験抽選応募権、台湾全駅達成がグッズ詰め合わせ（全員）",
+    "bannerGradient": "from-emerald-600 via-teal-600 to-sky-800"
+  },
+  {
+    "id": "大阪メトロ-駅番号20をめぐるスタンプラリー",
+    "title": "は、「Osaka Metro Groupフェスティバル2026」の一環として、「メトフェススタンプラリー ～今里筋線開業20周年記念 駅番号20をめぐってコレクション～」を開催 Commemorative Stamp Rally",
+    "titleJa": "大阪メトロ 駅番号20をめぐるスタンプラリー",
+    "organizer": "は、「Osaka Metro Groupフェスティバル2026」の一環として、「メトフェススタンプラリー ～今里筋線開業20周年記念 駅番号20をめぐってコレクション～」を開催",
+    "description": "Official commemorative stamp rally organized by は、「Osaka Metro Groupフェスティバル2026」の一環として、「メトフェススタンプラリー ～今里筋線開業20周年記念 駅番号20をめぐってコレクション～」を開催. Collect stamps across participating stations and venues between 2026-10-09 and 2026-12-20 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-09",
+    "validUntil": "2026-12-20",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "をプレゼント",
+    "rewardJa": "をプレゼント",
+    "bannerGradient": "from-purple-700 via-fuchsia-600 to-pink-800"
+  },
+  {
+    "id": "上毛電気鉄道-100周年沿線スタンプラリー",
+    "title": "Railway Authority Commemorative Stamp Rally",
+    "titleJa": "上毛電気鉄道 100周年沿線スタンプラリー",
+    "organizer": "Railway Authority",
+    "description": "Official commemorative stamp rally organized by Railway Authority. Collect stamps across participating stations and venues between 2026-10-11 and 2026-12-31 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-11",
+    "validUntil": "2026-12-31",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "、4個収集で缶バッジ、全6個収集でキーホルダーをプレゼント",
+    "rewardJa": "、4個収集で缶バッジ、全6個収集でキーホルダーをプレゼント",
+    "bannerGradient": "from-amber-600 via-yellow-600 to-lime-700"
+  },
+  {
+    "id": "宇都宮線-宇都宮黒磯間-開業140周年記念エキタグスタンプラリー",
+    "title": "東日本栃木事業本部は、「宇都宮線（宇都宮～黒磯間）140周年エキタグスタンプラリー」を開催 Commemorative Stamp Rally",
+    "titleJa": "宇都宮線 宇都宮～黒磯間 開業140周年記念エキタグスタンプラリー",
+    "organizer": "東日本栃木事業本部は、「宇都宮線（宇都宮～黒磯間）140周年エキタグスタンプラリー」を開催",
+    "description": "Official commemorative stamp rally organized by 東日本栃木事業本部は、「宇都宮線（宇都宮～黒磯間）140周年エキタグスタンプラリー」を開催. Collect stamps across participating stations and venues between 2026-10-01 and 2027-01-31 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-01",
+    "validUntil": "2027-01-31",
+    "stampIds": [
+      "eki-shinkansen-tsuruga",
+      "eki-shinkansen-utsunomiya"
+    ],
+    "reward": "。",
+    "rewardJa": "。",
+    "bannerGradient": "from-red-700 via-rose-600 to-pink-800"
+  },
+  {
+    "id": "田沢湖線-全線開通60周年記念スタンプラリー",
+    "title": "東日本は、「田沢湖線全線開通60周年記念スタンプラリー」を開催 Commemorative Stamp Rally",
+    "titleJa": "田沢湖線 全線開通60周年記念スタンプラリー",
+    "organizer": "東日本は、「田沢湖線全線開通60周年記念スタンプラリー」を開催",
+    "description": "Official commemorative stamp rally organized by 東日本は、「田沢湖線全線開通60周年記念スタンプラリー」を開催. Collect stamps across participating stations and venues between 2026-10-20 and 2026-12-20 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-20",
+    "validUntil": "2026-12-20",
+    "stampIds": [
+      "eki-shinkansen-tsuruga",
+      "eki-shinkansen-morioka",
+      "shop-ekitabi-morioka",
+      "shop-jr-akita",
+      "shop-jr-omagari"
+    ],
+    "reward": "。配布箇所は、大曲駅2階改札、駅たびコンシェルジュ盛岡",
+    "rewardJa": "。配布箇所は、大曲駅2階改札、駅たびコンシェルジュ盛岡",
+    "bannerGradient": "from-indigo-600 via-blue-600 to-cyan-800"
+  },
+  {
+    "id": "京急-けいきゅんスタンプラリー",
+    "title": "Railway Authority Commemorative Stamp Rally",
+    "titleJa": "京急 けいきゅんスタンプラリー",
+    "organizer": "Railway Authority",
+    "description": "Official commemorative stamp rally organized by Railway Authority. Collect stamps across participating stations and venues between 2026-10-03 and 2026-11-23 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-03",
+    "validUntil": "2026-11-23",
+    "stampIds": [
+      "eki-shinkansen-tsuruga",
+      "museum-keikyu-railway"
+    ],
+    "reward": "。配布数は先着2,000個",
+    "rewardJa": "。配布数は先着2,000個",
+    "bannerGradient": "from-rose-600 via-orange-500 to-amber-700"
+  },
+  {
+    "id": "京阪近鉄-酒蔵めぐりスタンプラリー2026",
+    "title": "Railway Authority Commemorative Stamp Rally",
+    "titleJa": "京阪・近鉄 酒蔵めぐりスタンプラリー2026",
+    "organizer": "Railway Authority",
+    "description": "Official commemorative stamp rally organized by Railway Authority. Collect stamps across participating stations and venues between 2026-10-01 and 2027-03-31 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-01",
+    "validUntil": "2027-03-31",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "の抽選に応募可",
+    "rewardJa": "の抽選に応募可",
+    "bannerGradient": "from-emerald-600 via-teal-600 to-sky-800"
+  },
+  {
+    "id": "若桜鉄道-トレインスタンプ-デジタルスタンプラリー第3弾",
+    "title": "Railway Authority Commemorative Stamp Rally",
+    "titleJa": "若桜鉄道 トレインスタンプ デジタルスタンプラリー第3弾",
+    "organizer": "Railway Authority",
+    "description": "Official commemorative stamp rally organized by Railway Authority. Collect stamps across participating stations and venues between 2026-10-02 and 2027-03-14 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-02",
+    "validUntil": "2027-03-14",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "（当選数）は、オリジナルG-SHOCK（各回3人）、若桜鉄道オリジナルカシオコレクション（SLデザイン、DLデザインの2種類、いずれも各回5人）、3000形鉄道コレクション（各回5人）、若桜鉄道オリジナルグッズ（各回25人）",
+    "rewardJa": "（当選数）は、オリジナルG-SHOCK（各回3人）、若桜鉄道オリジナルカシオコレクション（SLデザイン、DLデザインの2種類、いずれも各回5人）、3000形鉄道コレクション（各回5人）、若桜鉄道オリジナルグッズ（各回25人）",
+    "bannerGradient": "from-purple-700 via-fuchsia-600 to-pink-800"
+  },
+  {
+    "id": "西九州新幹線-かもメンスタンプラリー",
+    "title": "九州長崎支社は、西九州新幹線開業4周年記念イベント「GO WEST 4」の開催にあわせ、「かもメン」スタンプラリーを開催 Commemorative Stamp Rally",
+    "titleJa": "西九州新幹線 かもメンスタンプラリー",
+    "organizer": "九州長崎支社は、西九州新幹線開業4周年記念イベント「GO WEST 4」の開催にあわせ、「かもメン」スタンプラリーを開催",
+    "description": "Official commemorative stamp rally organized by 九州長崎支社は、西九州新幹線開業4周年記念イベント「GO WEST 4」の開催にあわせ、「かもメン」スタンプラリーを開催. Collect stamps across participating stations and venues between 2026-10-04 and 2027-01-31 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-04",
+    "validUntil": "2027-01-31",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "。",
+    "rewardJa": "。",
+    "bannerGradient": "from-amber-600 via-yellow-600 to-lime-700"
+  },
+  {
+    "id": "suicaのペンギン-デジタルスタンプラリー",
+    "title": "東日本は、「Suicaのペンギン デジタルスタンプラリー」を開催 Commemorative Stamp Rally",
+    "titleJa": "Suicaのペンギン デジタルスタンプラリー",
+    "organizer": "東日本は、「Suicaのペンギン デジタルスタンプラリー」を開催",
+    "description": "Official commemorative stamp rally organized by 東日本は、「Suicaのペンギン デジタルスタンプラリー」を開催. Collect stamps across participating stations and venues between 2026-10-01 and 2026-12-25 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-01",
+    "validUntil": "2026-12-25",
+    "stampIds": [
+      "eki-shinkansen-tsuruga",
+      "eki-oimachi",
+      "eki-yamanote-takanawagateway",
+      "shop-waters-takeshiba"
+    ],
+    "reward": "。特典は、3箇所達成がSuicaのペンギンに会えるグリーティング参加権が賞品のスクラッチ、5か所達成がオリジナル壁紙、10か所達成がペンギンステッカーの引換チケット（先着順）、20か所達成がアクリルスタンドの引換チケット（先着順）",
+    "rewardJa": "。特典は、3箇所達成がSuicaのペンギンに会えるグリーティング参加権が賞品のスクラッチ、5か所達成がオリジナル壁紙、10か所達成がペンギンステッカーの引換チケット（先着順）、20か所達成がアクリルスタンドの引換チケット（先着順）",
+    "bannerGradient": "from-red-700 via-rose-600 to-pink-800"
+  },
+  {
+    "id": "東京メトロ-メトロコマース創立20周年スタンプラリー",
+    "title": "コマースは、「メトロコマース創立20周年スタンプラリー」を開催 Commemorative Stamp Rally",
+    "titleJa": "東京メトロ メトロコマース創立20周年スタンプラリー",
+    "organizer": "コマースは、「メトロコマース創立20周年スタンプラリー」を開催",
+    "description": "Official commemorative stamp rally organized by コマースは、「メトロコマース創立20周年スタンプラリー」を開催. Collect stamps across participating stations and venues between 2026-10-11 and 2026-12-31 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-11",
+    "validUntil": "2026-12-31",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "、先着300人にオリジナル缶バッジをプレゼント",
+    "rewardJa": "、先着300人にオリジナル缶バッジをプレゼント",
+    "bannerGradient": "from-indigo-600 via-blue-600 to-cyan-800"
   }
 ]

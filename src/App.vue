@@ -62,7 +62,7 @@ onMounted(async () => {
     const [stampsRes, prefsRes, ralliesRes] = await Promise.all([
       fetch('/data/stamps.json'),
       fetch('/data/prefectures.json'),
-      fetch('/data/rallies.json'),
+      fetch('/data/rallies.json', { cache: 'no-cache' }),
     ]);
     if (stampsRes.ok) {
       allStamps.value = await stampsRes.json();
