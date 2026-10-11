@@ -59,13 +59,26 @@ function requestUserLocation() {
 onMounted(async () => {
   initMonetTheming();
   try {
+    const baseUrl = (import.meta.env.BASE_URL || '/').endsWith('/')
+      ? (import.meta.env.BASE_URL || '/')
+      : `${import.meta.env.BASE_URL}/`;
+
     const [stampsRes, prefsRes, ralliesRes] = await Promise.all([
-      fetch('/data/stamps.json'),
-      fetch('/data/prefectures.json'),
-      fetch('/data/rallies.json', { cache: 'no-cache' }),
+      fetch(`${baseUrl}data/stamps.json`),
+      fetch(`${baseUrl}data/prefectures.json`),
+      fetch(`${baseUrl}data/rallies.json`, { cache: 'no-cache' }),
     ]);
     if (stampsRes.ok) {
-      allStamps.value = await stampsRes.json();
+      const loaded: Stamp[] = await stampsRes.json();
+      const prefix = (import.meta.env.BASE_URL || '/').replace(/\/$/, '');
+      if (prefix) {
+        loaded.forEach((s) => {
+          if (s.imageUrl && s.imageUrl.startsWith('/') && !s.imageUrl.startsWith(prefix)) {
+            s.imageUrl = `${prefix}${s.imageUrl}`;
+          }
+        });
+      }
+      allStamps.value = loaded;
     }
     if (prefsRes.ok) {
       prefectures.value = await prefsRes.json();
