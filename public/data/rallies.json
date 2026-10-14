@@ -470,5 +470,43 @@
     "bannerGradient": "from-red-700 via-rose-600 to-pink-800",
     "officialUrl": "https://www.tetsudo.com/event/61481/",
     "source": "Tetsudo.com / JR East Suica Official"
+  },
+  {
+    "id": "初開催長崎街道シュガーロード沿線8市の銘菓や文化スポットを巡るシュガーロード周遊スタンプラリー開催のお知らせ",
+    "title": "飯塚市役所 Commemorative Stamp Rally",
+    "titleJa": "【初開催】長崎街道「シュガーロード」沿線8市の銘菓や文化スポットを巡る「シュガーロード周遊スタンプラリー」開催のお知らせ",
+    "organizer": "飯塚市役所",
+    "description": "Official commemorative stamp rally organized by 飯塚市役所. Collect stamps across participating stations and venues between 2026-10-01 and 2026-12-28 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-01",
+    "validUntil": "2026-12-28",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "賞品",
+    "rewardJa": "賞品",
+    "bannerGradient": "from-indigo-600 via-blue-600 to-cyan-800",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000039.000113234.html",
+    "source": "PR TIMES (飯塚市役所)"
+  },
+  {
+    "id": "八王子エリア-重ね捺しスタンプラリー",
+    "title": "東日本八王子事業本部は、「懐かしの推しに会いに捺しに行こう！重ね捺しスタンプラリー」を開催 Commemorative Stamp Rally",
+    "titleJa": "八王子エリア 重ね捺しスタンプラリー",
+    "organizer": "東日本八王子事業本部は、「懐かしの推しに会いに捺しに行こう！重ね捺しスタンプラリー」を開催",
+    "description": "Official commemorative stamp rally organized by 東日本八王子事業本部は、「懐かしの推しに会いに捺しに行こう！重ね捺しスタンプラリー」を開催. Collect stamps across participating stations and venues between 2026-11-06 and 2026-12-06 to claim exclusive collector rewards.",
+    "validFrom": "2026-11-06",
+    "validUntil": "2026-12-06",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "をプレゼント",
+    "rewardJa": "をプレゼント",
+    "bannerGradient": "from-rose-600 via-orange-500 to-amber-700",
+    "officialUrl": "https://www.tetsudo.com/event/62018/",
+    "source": "Tetsudo.com (東日本八王子事業本部は、「懐かしの推しに会いに捺しに行こう！重ね捺しスタンプラリー」を開催)"
   }
 ]
