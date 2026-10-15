@@ -508,5 +508,63 @@
     "bannerGradient": "from-rose-600 via-orange-500 to-amber-700",
     "officialUrl": "https://www.tetsudo.com/event/62018/",
     "source": "Tetsudo.com (東日本八王子事業本部は、「懐かしの推しに会いに捺しに行こう！重ね捺しスタンプラリー」を開催)"
+  },
+  {
+    "id": "福岡県東峰村新米5kgが40名様に当たる第2回-道の駅3駅周遊デジタルスタンプラリー開催",
+    "title": "筑後地区観光協議会 Commemorative Stamp Rally",
+    "titleJa": "【福岡県東峰村】新米5kgが40名様に当たる！「第2回 道の駅3駅周遊！デジタルスタンプラリー」開催！",
+    "organizer": "筑後地区観光協議会",
+    "description": "Official commemorative stamp rally organized by 筑後地区観光協議会. Collect stamps across participating stations and venues between 2026-10-15 and 2026-12-31 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-15",
+    "validUntil": "2026-12-31",
+    "stampIds": [
+      "michi-michi-1068",
+      "michi-michi-1070",
+      "michi-michi-1072",
+      "michi-michi-1127"
+    ],
+    "reward": "！ご当選の際には、ぜひ山盛りの炊きたてご飯をお腹いっぱいお楽しみください",
+    "rewardJa": "！ご当選の際には、ぜひ山盛りの炊きたてご飯をお腹いっぱいお楽しみください",
+    "bannerGradient": "from-emerald-600 via-teal-600 to-sky-800",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000684.000041975.html",
+    "source": "PR TIMES (筑後地区観光協議会)"
+  },
+  {
+    "id": "ご縁を結ぶよりみち旅-ハイウェイスタンプラリー開催",
+    "title": "株式会社ネクスコ東日本エリアトラクト Commemorative Stamp Rally",
+    "titleJa": "『ご縁を結ぶ、よりみち旅 ハイウェイスタンプラリー』開催！",
+    "organizer": "株式会社ネクスコ東日本エリアトラクト",
+    "description": "Official commemorative stamp rally organized by 株式会社ネクスコ東日本エリアトラクト. Collect stamps across participating stations and venues between 2026-10-15 and 2026-12-31 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-15",
+    "validUntil": "2026-12-31",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "がグレードアップします",
+    "rewardJa": "がグレードアップします",
+    "bannerGradient": "from-purple-700 via-fuchsia-600 to-pink-800",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000157.000025223.html",
+    "source": "PR TIMES (株式会社ネクスコ東日本エリアトラクト)"
+  },
+  {
+    "id": "jaf新潟jaf新潟支部会員優待施設自治体連絡会を1029木に開催ビジネスマッチングも兼ねたスタンプラリー体験会も実施し",
+    "title": "JAF Commemorative Stamp Rally",
+    "titleJa": "【JAF新潟】「JAF新潟支部会員優待施設・自治体連絡会」を10/29（木）に開催。ビジネスマッチングも兼ねたスタンプラリー体験会も実施します。",
+    "organizer": "JAF",
+    "description": "Official commemorative stamp rally organized by JAF. Collect stamps across participating stations and venues between 2026-10-15 and 2026-12-31 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-15",
+    "validUntil": "2026-12-31",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "オリジナル記念ステッカー・記念品",
+    "rewardJa": "オリジナル記念ステッカー・記念品",
+    "bannerGradient": "from-amber-600 via-yellow-600 to-lime-700",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000007718.000010088.html",
+    "source": "PR TIMES (JAF)"
   }
 ]
