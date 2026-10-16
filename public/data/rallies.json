@@ -566,5 +566,100 @@
     "bannerGradient": "from-amber-600 via-yellow-600 to-lime-700",
     "officialUrl": "https://prtimes.jp/main/html/rd/p/000007718.000010088.html",
     "source": "PR TIMES (JAF)"
+  },
+  {
+    "id": "10月25日シティホール橿原醍醐-仮装コンテストやスタンプラリーで楽しむハロウィンパーティーを開催",
+    "title": "株式会社ベルコ Commemorative Stamp Rally",
+    "titleJa": "10月25日シティホール橿原醍醐　仮装コンテストやスタンプラリーで楽しむ「ハロウィンパーティー」を開催",
+    "organizer": "株式会社ベルコ",
+    "description": "Official commemorative stamp rally organized by 株式会社ベルコ. Collect stamps across participating stations and venues between 2026-10-16 and 2026-12-31 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-16",
+    "validUntil": "2026-12-31",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "を進呈します",
+    "rewardJa": "を進呈します",
+    "bannerGradient": "from-red-700 via-rose-600 to-pink-800",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000337.000084326.html",
+    "source": "PR TIMES (株式会社ベルコ)"
+  },
+  {
+    "id": "jaf山口巡るほど豪華賞品へのチャンスが広がる防府周南ドライブスタンプラリー-実る近旅開催中",
+    "title": "JAF Commemorative Stamp Rally",
+    "titleJa": "【JAF山口】巡るほど、豪華賞品へのチャンスが広がる！「防府×周南ドライブスタンプラリー ＃実る近旅！」開催中",
+    "organizer": "JAF",
+    "description": "Official commemorative stamp rally organized by JAF. Collect stamps across participating stations and venues between 2026-10-01 and 2026-12-31 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-01",
+    "validUntil": "2026-12-31",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "に出会えるチャンスが広がります",
+    "rewardJa": "に出会えるチャンスが広がります",
+    "bannerGradient": "from-indigo-600 via-blue-600 to-cyan-800",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000007743.000010088.html",
+    "source": "PR TIMES (JAF)"
+  },
+  {
+    "id": "jaf広島日本の魅力を凝縮した広島宮島岩国の欲張り旅へ-広島宮島岩国地方お出かけスタンプラリーに協力",
+    "title": "JAF Commemorative Stamp Rally",
+    "titleJa": "【JAF広島】日本の魅力を凝縮した広島・宮島・岩国の欲張り旅へ 「広島・宮島・岩国地方お出かけスタンプラリー」に協力！",
+    "organizer": "JAF",
+    "description": "Official commemorative stamp rally organized by JAF. Collect stamps across participating stations and venues between 2026-10-15 and 2027-02-28 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-15",
+    "validUntil": "2027-02-28",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "広島・宮島・岩国魅力詰め合わせセット、三島のあなごめし・かきめしセット、三次ワイン、　あたらしもみじセット、かっぱえびせん匠海2種",
+    "rewardJa": "広島・宮島・岩国魅力詰め合わせセット、三島のあなごめし・かきめしセット、三次ワイン、　あたらしもみじセット、かっぱえびせん匠海2種",
+    "bannerGradient": "from-rose-600 via-orange-500 to-amber-700",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000007760.000010088.html",
+    "source": "PR TIMES (JAF)"
+  },
+  {
+    "id": "jaf広島宮島を眺めながらめぐる小さなごほうび散策-宮島対岸リゾートエリア周遊スタンプラリーに協力",
+    "title": "JAF Commemorative Stamp Rally",
+    "titleJa": "【JAF広島】宮島を眺めながらめぐる小さなごほうび散策　　　　 「宮島対岸リゾートエリア周遊スタンプラリー」に協力！",
+    "organizer": "JAF",
+    "description": "Official commemorative stamp rally organized by JAF. Collect stamps across participating stations and venues between 2026-10-18 and 2026-12-20 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-18",
+    "validUntil": "2026-12-20",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "A賞…スタンプを4個以上取得で応募可",
+    "rewardJa": "A賞…スタンプを4個以上取得で応募可",
+    "bannerGradient": "from-emerald-600 via-teal-600 to-sky-800",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000007761.000010088.html",
+    "source": "PR TIMES (JAF)"
+  },
+  {
+    "id": "成城コルティ開業20周年イベントを11月開催500円分クーポンがもらえるスタンプラリーやユニクロのレシートキャンペーン限",
+    "title": "株式会社小田急ＳＣディベロップメント Commemorative Stamp Rally",
+    "titleJa": "【成城コルティ】開業20周年イベントを11月開催！500円分クーポンがもらえるスタンプラリーやユニクロのレシートキャンペーン、限定メニュー、成城大学5団体のステージなどを展開",
+    "organizer": "株式会社小田急ＳＣディベロップメント",
+    "description": "Official commemorative stamp rally organized by 株式会社小田急ＳＣディベロップメント. Collect stamps across participating stations and venues between 2026-11-01 and 2026-11-30 to claim exclusive collector rewards.",
+    "validFrom": "2026-11-01",
+    "validUntil": "2026-11-30",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "を受けることができます",
+    "rewardJa": "を受けることができます",
+    "bannerGradient": "from-purple-700 via-fuchsia-600 to-pink-800",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000307.000063373.html",
+    "source": "PR TIMES (株式会社小田急ＳＣディベロップメント)"
   }
 ]
