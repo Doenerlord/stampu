@@ -661,5 +661,43 @@
     "bannerGradient": "from-purple-700 via-fuchsia-600 to-pink-800",
     "officialUrl": "https://prtimes.jp/main/html/rd/p/000000307.000063373.html",
     "source": "PR TIMES (株式会社小田急ＳＣディベロップメント)"
+  },
+  {
+    "id": "祝100周年-富士急行明治ミルクチョコレートミルチがもらえるチョコっとスタンプラリー開催100周年記念オリジナルスリーブ",
+    "title": "富士急行 Commemorative Stamp Rally",
+    "titleJa": "祝100周年　富士急行×「明治ミルクチョコレート」ミルチがもらえる「チョコっとスタンプラリー」開催！100周年記念オリジナルスリーブ＆限定クリアファイルが登場",
+    "organizer": "富士急行",
+    "description": "Official commemorative stamp rally organized by 富士急行. Collect stamps across participating stations and venues between 2026-11-21 and 2026-11-29 to claim exclusive collector rewards.",
+    "validFrom": "2026-11-21",
+    "validUntil": "2026-11-29",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "。最初に訪れた駅では、このキャンペーンのために制作された「100周年記念オリジナルスリーブ」もお渡しします",
+    "rewardJa": "。最初に訪れた駅では、このキャンペーンのために制作された「100周年記念オリジナルスリーブ」もお渡しします",
+    "bannerGradient": "from-amber-600 via-yellow-600 to-lime-700",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000002092.000001110.html",
+    "source": "PR TIMES (富士急行)"
+  },
+  {
+    "id": "富士山麓電気鉄道-チョコっとスタンプラリー",
+    "title": "Railway Authority Commemorative Stamp Rally",
+    "titleJa": "富士山麓電気鉄道 チョコっとスタンプラリー",
+    "organizer": "Railway Authority",
+    "description": "Official commemorative stamp rally organized by Railway Authority. Collect stamps across participating stations and venues between 2026-11-21 and 2026-11-29 to claim exclusive collector rewards.",
+    "validFrom": "2026-11-21",
+    "validUntil": "2026-11-29",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "。期間中は、河口湖駅前のモ1号車内を特別開放",
+    "rewardJa": "。期間中は、河口湖駅前のモ1号車内を特別開放",
+    "bannerGradient": "from-red-700 via-rose-600 to-pink-800",
+    "officialUrl": "https://www.tetsudo.com/event/62095/",
+    "source": "Tetsudo.com (Railway Authority)"
   }
 ]
