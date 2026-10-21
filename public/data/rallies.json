@@ -699,5 +699,82 @@
     "bannerGradient": "from-red-700 via-rose-600 to-pink-800",
     "officialUrl": "https://www.tetsudo.com/event/62095/",
     "source": "Tetsudo.com (Railway Authority)"
+  },
+  {
+    "id": "jaf長崎熊本世界遺産をめぐって復興を応援南島原天草-フェリーでめぐる世界遺産ドライブスタンプラリー開催中",
+    "title": "JAF Commemorative Stamp Rally",
+    "titleJa": "【JAF長崎・熊本】世界遺産をめぐって復興を応援！南島原×天草 フェリーでめぐる世界遺産ドライブスタンプラリー開催中",
+    "organizer": "JAF",
+    "description": "Official commemorative stamp rally organized by JAF. Collect stamps across participating stations and venues between 2026-10-01 and 2026-12-29 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-01",
+    "validUntil": "2026-12-29",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "特産品（5,000円相当）",
+    "rewardJa": "特産品（5,000円相当）",
+    "bannerGradient": "from-indigo-600 via-blue-600 to-cyan-800",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000007747.000010088.html",
+    "source": "PR TIMES (JAF)"
+  },
+  {
+    "id": "下田郷さつまいもスイーツスタンプラリー2026開催",
+    "title": "三条市 Commemorative Stamp Rally",
+    "titleJa": "下田郷さつまいもスイーツスタンプラリー2026開催",
+    "organizer": "三条市",
+    "description": "Official commemorative stamp rally organized by 三条市. Collect stamps across participating stations and venues between 2026-10-21 and 2026-12-31 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-21",
+    "validUntil": "2026-12-31",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "するほか、抽選２人に嵐渓荘もしくはFIELD SUITE SPAのペア宿泊券が当たります",
+    "rewardJa": "するほか、抽選２人に嵐渓荘もしくはFIELD SUITE SPAのペア宿泊券が当たります",
+    "bannerGradient": "from-rose-600 via-orange-500 to-amber-700",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000207.000082466.html",
+    "source": "PR TIMES (三条市)"
+  },
+  {
+    "id": "にゃんにゃん３姉妹と行く-宮城仙南山形置賜福島県北スイーツ温泉ぽかぽかスタンプラリー-１月31日まで開催中",
+    "title": "山形県 Commemorative Stamp Rally",
+    "titleJa": "にゃんにゃん３姉妹と行く！ 宮城仙南・山形置賜・福島県北スイーツ＆温泉ぽかぽかスタンプラリー １月31日まで開催中！",
+    "organizer": "山形県",
+    "description": "Official commemorative stamp rally organized by 山形県. Collect stamps across participating stations and venues between 2026-10-21 and 2026-12-31 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-21",
+    "validUntil": "2026-12-31",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "や、スイーツが大好きな南東北３地域のイメージキャラクター「にゃんにゃん３姉妹」のオリジナルグッズが合計146名様に当たります",
+    "rewardJa": "や、スイーツが大好きな南東北３地域のイメージキャラクター「にゃんにゃん３姉妹」のオリジナルグッズが合計146名様に当たります",
+    "bannerGradient": "from-emerald-600 via-teal-600 to-sky-800",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000143.000160322.html",
+    "source": "PR TIMES (山形県)"
+  },
+  {
+    "id": "秩父鉄道で巡る秋の沿線旅とふかや花園アウトレット長瀞紅葉まつりと連動した周遊企画を11月より開催-秩父路遊々フリーきっぷ",
+    "title": "三菱地所・サイモン株式会社 Commemorative Stamp Rally",
+    "titleJa": "【秩父鉄道で巡る秋の沿線旅とふかや花園アウトレット】長瀞紅葉まつりと連動した周遊企画を11月より開催 「秩父路遊々フリーきっぷ」特典や沿線回遊スタンプラリーを初実施",
+    "organizer": "三菱地所・サイモン株式会社",
+    "description": "Official commemorative stamp rally organized by 三菱地所・サイモン株式会社. Collect stamps across participating stations and venues between 2026-11-02 and 2027-03-31 to claim exclusive collector rewards.",
+    "validFrom": "2026-11-02",
+    "validUntil": "2027-03-31",
+    "stampIds": [
+      "eki-shinkansen-kumagaya",
+      "museum--40256d8e",
+      "nature--3b898fad",
+      "eki-jr-hanazono"
+    ],
+    "reward": "および沿線回遊スタンプラリーを初開催します",
+    "rewardJa": "および沿線回遊スタンプラリーを初開催します",
+    "bannerGradient": "from-purple-700 via-fuchsia-600 to-pink-800",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000798.000009047.html",
+    "source": "PR TIMES (三菱地所・サイモン株式会社)"
   }
 ]
