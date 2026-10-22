@@ -776,5 +776,81 @@
     "bannerGradient": "from-purple-700 via-fuchsia-600 to-pink-800",
     "officialUrl": "https://prtimes.jp/main/html/rd/p/000000798.000009047.html",
     "source": "PR TIMES (三菱地所・サイモン株式会社)"
+  },
+  {
+    "id": "指宿市南九州市枕崎市をぐるっと満喫指宿枕崎線沿線デジタルスタンプラリーを開催します",
+    "title": "九州旅客鉄道株式会社 Commemorative Stamp Rally",
+    "titleJa": "指宿市・南九州市・枕崎市をぐるっと満喫！「指宿枕崎線沿線デジタルスタンプラリー」を開催します！",
+    "organizer": "九州旅客鉄道株式会社",
+    "description": "Official commemorative stamp rally organized by 九州旅客鉄道株式会社. Collect stamps across participating stations and venues between 2026-10-22 and 2026-12-31 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-22",
+    "validUntil": "2026-12-31",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "に応募（沿線３市特産品等詰め合わせ）",
+    "rewardJa": "に応募（沿線３市特産品等詰め合わせ）",
+    "bannerGradient": "from-amber-600 via-yellow-600 to-lime-700",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000001435.000037933.html",
+    "source": "PR TIMES (九州旅客鉄道株式会社)"
+  },
+  {
+    "id": "wanpassで愛犬と茨城県内20スポットを巡る愛犬と巡る-スタンプラリーinいばらきを10月24日より開催",
+    "title": "ペッツオーライ Commemorative Stamp Rally",
+    "titleJa": "Wan!Passで愛犬と茨城県内20スポットを巡る「愛犬と巡る スタンプラリーinいばらき」を10月24日より開催！",
+    "organizer": "ペッツオーライ",
+    "description": "Official commemorative stamp rally organized by ペッツオーライ. Collect stamps across participating stations and venues between 2026-10-24 and 2026-12-13 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-24",
+    "validUntil": "2026-12-13",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "オリジナル記念ステッカー・記念品",
+    "rewardJa": "オリジナル記念ステッカー・記念品",
+    "bannerGradient": "from-red-700 via-rose-600 to-pink-800",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000066.000078906.html",
+    "source": "PR TIMES (ペッツオーライ)"
+  },
+  {
+    "id": "jaf島根スマホで簡単参加抽選で奥出雲和牛が当たる出雲の國斐伊川サミット-ドライブスタンプラリー開催",
+    "title": "JAF Commemorative Stamp Rally",
+    "titleJa": "【JAF島根】スマホで簡単参加！抽選で奥出雲和牛が当たる！出雲の國・斐伊川サミット ドライブスタンプラリー開催",
+    "organizer": "JAF",
+    "description": "Official commemorative stamp rally organized by JAF. Collect stamps across participating stations and venues between 2026-10-22 and 2026-12-31 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-22",
+    "validUntil": "2026-12-31",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "に応募ができます",
+    "rewardJa": "に応募ができます",
+    "bannerGradient": "from-indigo-600 via-blue-600 to-cyan-800",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000007799.000010088.html",
+    "source": "PR TIMES (JAF)"
+  },
+  {
+    "id": "jaf群馬人気企画長野群馬栃木を巡る全長320kmの日本ロマンチック街道ドライブスタンプラリー開催に協力",
+    "title": "JAF Commemorative Stamp Rally",
+    "titleJa": "【JAF群馬】人気企画！長野・群馬・栃木を巡る全長320kmの「日本ロマンチック街道ドライブスタンプラリー」開催に協力",
+    "organizer": "JAF",
+    "description": "Official commemorative stamp rally organized by JAF. Collect stamps across participating stations and venues between 2026-10-20 and 2027-01-20 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-20",
+    "validUntil": "2027-01-20",
+    "stampIds": [
+      "np-nikko",
+      "np-oze",
+      "np-joshinetsu-kogen"
+    ],
+    "reward": "として、地域の特産品や宿泊助成券などが抽選で当たります",
+    "rewardJa": "として、地域の特産品や宿泊助成券などが抽選で当たります",
+    "bannerGradient": "from-rose-600 via-orange-500 to-amber-700",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000007776.000010088.html",
+    "source": "PR TIMES (JAF)"
   }
 ]
