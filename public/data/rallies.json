@@ -966,5 +966,24 @@
     "bannerGradient": "from-rose-600 via-orange-500 to-amber-700",
     "officialUrl": "https://prtimes.jp/main/html/rd/p/000009824.000014827.html",
     "source": "PR TIMES (株式会社ブシロード)"
+  },
+  {
+    "id": "映画白鳥とコウモリのロケ地を巡るとこなめ観光協会ろかとらべる-デジタルスタンプラリー実証実験を開始",
+    "title": "合同会社Local Bridge Commemorative Stamp Rally",
+    "titleJa": "映画『白鳥とコウモリ』のロケ地を巡る！とこなめ観光協会×ろかとらべる デジタルスタンプラリー実証実験を開始",
+    "organizer": "合同会社Local Bridge",
+    "description": "Official commemorative stamp rally organized by 合同会社Local Bridge. Collect stamps across participating stations and venues between 2026-10-24 and 2026-12-31 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-24",
+    "validUntil": "2026-12-31",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "が当たるプレゼントキャンペーンを実施いたします",
+    "rewardJa": "が当たるプレゼントキャンペーンを実施いたします",
+    "bannerGradient": "from-emerald-600 via-teal-600 to-sky-800",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000015.000175630.html",
+    "source": "PR TIMES (合同会社Local Bridge)"
   }
 ]
