@@ -985,5 +985,101 @@
     "bannerGradient": "from-emerald-600 via-teal-600 to-sky-800",
     "officialUrl": "https://prtimes.jp/main/html/rd/p/000000015.000175630.html",
     "source": "PR TIMES (合同会社Local Bridge)"
+  },
+  {
+    "id": "カオスゼロナイトメア-1stアニバーサリー記念-pop-up-store-in-あみあみが開催新商品の先行販売やスタンプ",
+    "title": "大網株式会社 Commemorative Stamp Rally",
+    "titleJa": "『カオスゼロナイトメア 1stアニバーサリー記念　POP UP STORE in あみあみ』が開催。新商品の先行販売やスタンプラリーを実施予定。",
+    "organizer": "大網株式会社",
+    "description": "Official commemorative stamp rally organized by 大網株式会社. Collect stamps across participating stations and venues between 2026-10-23 and 2026-11-08 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-23",
+    "validUntil": "2026-11-08",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "。",
+    "rewardJa": "。",
+    "bannerGradient": "from-purple-700 via-fuchsia-600 to-pink-800",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000003913.000025615.html",
+    "source": "PR TIMES (大網株式会社)"
+  },
+  {
+    "id": "nexco東日本千曲市の高速道路で行こう千曲市よってこスタンプラリーにデジタルスタンプラリーシステムを提供",
+    "title": "SUSHI TOP MARKETING株式会社 Commemorative Stamp Rally",
+    "titleJa": "NEXCO東日本・千曲市の「高速道路で行こう！千曲市よってこスタンプラリー」にデジタルスタンプラリーシステムを提供",
+    "organizer": "SUSHI TOP MARKETING株式会社",
+    "description": "Official commemorative stamp rally organized by SUSHI TOP MARKETING株式会社. Collect stamps across participating stations and venues between 2026-10-26 and 2026-12-31 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-26",
+    "validUntil": "2026-12-31",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "応募期間：2026年10月30日（金）〜2027年2月7日（日）",
+    "rewardJa": "応募期間：2026年10月30日（金）〜2027年2月7日（日）",
+    "bannerGradient": "from-amber-600 via-yellow-600 to-lime-700",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000186.000092249.html",
+    "source": "PR TIMES (SUSHI TOP MARKETING株式会社)"
+  },
+  {
+    "id": "愛知県西尾市城下町の歴史と茶の湯文化が育んだ西尾の和菓子の魅力を発信市内19店舗が挑む新名物ばら小町の一斉販売デジタルス",
+    "title": "西尾市役所 Commemorative Stamp Rally",
+    "titleJa": "【愛知県西尾市】城下町の歴史と茶の湯文化が育んだ「西尾の和菓子」の魅力を発信！市内19店舗が挑む新名物「ばら小町」の一斉販売＆デジタルスタンプラリーがスタート",
+    "organizer": "西尾市役所",
+    "description": "Official commemorative stamp rally organized by 西尾市役所. Collect stamps across participating stations and venues between 2026-10-26 and 2026-12-31 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-26",
+    "validUntil": "2026-12-31",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "オリジナル記念ステッカー・記念品",
+    "rewardJa": "オリジナル記念ステッカー・記念品",
+    "bannerGradient": "from-red-700 via-rose-600 to-pink-800",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000178.000101477.html",
+    "source": "PR TIMES (西尾市役所)"
+  },
+  {
+    "id": "横浜の農の魅力が詰まった賞品が当たるよこはま農めぐりスタンプラリーを開催します",
+    "title": "横浜市 Commemorative Stamp Rally",
+    "titleJa": "横浜の「農」の魅力が詰まった賞品が当たる！「よこはま農めぐりスタンプラリー」を開催します！",
+    "organizer": "横浜市",
+    "description": "Official commemorative stamp rally organized by 横浜市. Collect stamps across participating stations and venues between 2026-10-26 and 2026-12-31 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-26",
+    "validUntil": "2026-12-31",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "をプレゼントします！",
+    "rewardJa": "をプレゼントします！",
+    "bannerGradient": "from-indigo-600 via-blue-600 to-cyan-800",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000002034.000013670.html",
+    "source": "PR TIMES (横浜市)"
+  },
+  {
+    "id": "歴史水辺緑グルメで巡るまち-浜松町芝大門竹芝芝浦-周遊スタンプラリー2026年10月31日土より開催",
+    "title": "野村不動産ホールディングス株式会社 Commemorative Stamp Rally",
+    "titleJa": "歴史×水辺×緑×グルメで巡るまち　浜松町芝大門・竹芝・芝浦　周遊スタンプラリー2026年10月31日（土）より開催",
+    "organizer": "野村不動産ホールディングス株式会社",
+    "description": "Official commemorative stamp rally organized by 野村不動産ホールディングス株式会社. Collect stamps across participating stations and venues between 2026-10-31 and 2027-02-28 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-31",
+    "validUntil": "2027-02-28",
+    "stampIds": [
+      "castle-100-021",
+      "eki-yamanote-hamamatucho",
+      "tower-tokyo",
+      "garden-kyu-shiba-rikyu"
+    ],
+    "reward": "や地域のオリジナルノベルティ等があたる抽選に参加することができます",
+    "rewardJa": "や地域のオリジナルノベルティ等があたる抽選に参加することができます",
+    "bannerGradient": "from-rose-600 via-orange-500 to-amber-700",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000001026.000025694.html",
+    "source": "PR TIMES (野村不動産ホールディングス株式会社)"
   }
 ]
