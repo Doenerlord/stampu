@@ -1081,5 +1081,24 @@
     "bannerGradient": "from-rose-600 via-orange-500 to-amber-700",
     "officialUrl": "https://prtimes.jp/main/html/rd/p/000001026.000025694.html",
     "source": "PR TIMES (野村不動産ホールディングス株式会社)"
+  },
+  {
+    "id": "豪華景品があたるチャンス大分県臼杵市の4つの宝をめぐるデジタルスタンプラリー企画時をつなぐ臼杵の宝が開催",
+    "title": "株式会社アコースティガイド・ジャパン Commemorative Stamp Rally",
+    "titleJa": "豪華景品があたるチャンス！大分県臼杵市の4つの宝をめぐるデジタルスタンプラリー企画『時をつなぐ臼杵の宝』が開催",
+    "organizer": "株式会社アコースティガイド・ジャパン",
+    "description": "Official commemorative stamp rally organized by 株式会社アコースティガイド・ジャパン. Collect stamps across participating stations and venues between 2026-11-01 and 2027-01-31 to claim exclusive collector rewards.",
+    "validFrom": "2026-11-01",
+    "validUntil": "2027-01-31",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "が当たる抽選に応募できます",
+    "rewardJa": "が当たる抽選に応募できます",
+    "bannerGradient": "from-emerald-600 via-teal-600 to-sky-800",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000008.000174237.html",
+    "source": "PR TIMES (株式会社アコースティガイド・ジャパン)"
   }
 ]
