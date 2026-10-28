@@ -1100,5 +1100,62 @@
     "bannerGradient": "from-emerald-600 via-teal-600 to-sky-800",
     "officialUrl": "https://prtimes.jp/main/html/rd/p/000000008.000174237.html",
     "source": "PR TIMES (株式会社アコースティガイド・ジャパン)"
+  },
+  {
+    "id": "三重の歴史と文化を訪ねる城郭めぐりスタンプラリーに波切城跡が新登場全8城のスタンプをコンプリートして応募すると三重の豪華",
+    "title": "公益社団法人　三重県観光連盟 Commemorative Stamp Rally",
+    "titleJa": "三重の歴史と文化を訪ねる「城郭めぐりスタンプラリー」に波切城跡が新登場！全8城のスタンプをコンプリートして応募すると、三重の豪華特産品が当たるチャンス。",
+    "organizer": "公益社団法人　三重県観光連盟",
+    "description": "Official commemorative stamp rally organized by 公益社団法人　三重県観光連盟. Collect stamps across participating stations and venues between 2026-10-28 and 2026-12-31 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-28",
+    "validUntil": "2026-12-31",
+    "stampIds": [
+      "castle-100-047",
+      "castle-zoku-154",
+      "lighthouse-daiosaki"
+    ],
+    "reward": "オリジナル記念ステッカー・記念品",
+    "rewardJa": "オリジナル記念ステッカー・記念品",
+    "bannerGradient": "from-purple-700 via-fuchsia-600 to-pink-800",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000012.000121276.html",
+    "source": "PR TIMES (公益社団法人　三重県観光連盟)"
+  },
+  {
+    "id": "yamada-homesしろたんおうち探しスタンプラリーオリジナルノベルティプレゼントキャンペーン",
+    "title": "株式会社 ヤマダホールディングス Commemorative Stamp Rally",
+    "titleJa": "YAMADA HOMES×しろたん『おうち探しスタンプラリー』オリジナルノベルティプレゼントキャンペーン",
+    "organizer": "株式会社 ヤマダホールディングス",
+    "description": "Official commemorative stamp rally organized by 株式会社 ヤマダホールディングス. Collect stamps across participating stations and venues between 2026-11-01 and 2027-01-31 to claim exclusive collector rewards.",
+    "validFrom": "2026-11-01",
+    "validUntil": "2027-01-31",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "キャンペーン」を、2026年11月1日（日）より全国のヤマダホームズ店舗※にて開催いたします",
+    "rewardJa": "キャンペーン」を、2026年11月1日（日）より全国のヤマダホームズ店舗※にて開催いたします",
+    "bannerGradient": "from-amber-600 via-yellow-600 to-lime-700",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000001200.000082557.html",
+    "source": "PR TIMES (株式会社 ヤマダホールディングス)"
+  },
+  {
+    "id": "jaf福島-色づく秋走る喜び二本松の魅力を巡る秋のにほんまつドライブスタンプラリー2026開催中",
+    "title": "JAF Commemorative Stamp Rally",
+    "titleJa": "【JAF福島】 色づく秋、走る喜び。二本松の魅力を巡る『秋のにほんまつドライブスタンプラリー2026』開催中！",
+    "organizer": "JAF",
+    "description": "Official commemorative stamp rally organized by JAF. Collect stamps across participating stations and venues between 2026-09-19 and 2026-12-13 to claim exclusive collector rewards.",
+    "validFrom": "2026-09-19",
+    "validUntil": "2026-12-13",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "を手に入れよう！",
+    "rewardJa": "を手に入れよう！",
+    "bannerGradient": "from-red-700 via-rose-600 to-pink-800",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000007828.000010088.html",
+    "source": "PR TIMES (JAF)"
   }
 ]
