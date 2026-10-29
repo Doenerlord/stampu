@@ -1157,5 +1157,121 @@
     "bannerGradient": "from-red-700 via-rose-600 to-pink-800",
     "officialUrl": "https://prtimes.jp/main/html/rd/p/000007828.000010088.html",
     "source": "PR TIMES (JAF)"
+  },
+  {
+    "id": "過去最大規模で開催中の島根東西２市町出雲津和野のご当地あんこ菓子スタンプラリー日本あんこ協会が成功祈願で出雲大社を正式参",
+    "title": "日本あんこ協会 Commemorative Stamp Rally",
+    "titleJa": "過去最大規模で開催中の島根東西２市町（出雲・津和野）のご当地あんこ菓子スタンプラリー。日本あんこ協会が成功祈願で出雲大社を正式参拝致しました",
+    "organizer": "日本あんこ協会",
+    "description": "Official commemorative stamp rally organized by 日本あんこ協会. Collect stamps across participating stations and venues between 2026-10-01 and 2026-11-30 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-01",
+    "validUntil": "2026-11-30",
+    "stampIds": [
+      "temple-izumo-taisha-grand-shrine",
+      "shop-tokaimura-temmaya"
+    ],
+    "reward": "オリジナル記念ステッカー・記念品",
+    "rewardJa": "オリジナル記念ステッカー・記念品",
+    "bannerGradient": "from-indigo-600 via-blue-600 to-cyan-800",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000043.000039158.html",
+    "source": "PR TIMES (日本あんこ協会)"
+  },
+  {
+    "id": "浅草上野-歴史をめぐる街かどデジタルスタンプラリーを開催します",
+    "title": "東京メトロ Commemorative Stamp Rally",
+    "titleJa": "浅草～上野 歴史をめぐる「街かどデジタルスタンプラリー」を開催します！",
+    "organizer": "東京メトロ",
+    "description": "Official commemorative stamp rally organized by 東京メトロ. Collect stamps across participating stations and venues between 2026-11-01 and 2026-11-30 to claim exclusive collector rewards.",
+    "validFrom": "2026-11-01",
+    "validUntil": "2026-11-30",
+    "stampIds": [
+      "eki-metro-asakusa",
+      "eki-metro-inaricho",
+      "eki-metro-tawaramachi",
+      "eki-metro-ueno",
+      "eki-yamanote-ueno",
+      "event-pokemon-ueno"
+    ],
+    "reward": "をプレゼントいたします",
+    "rewardJa": "をプレゼントいたします",
+    "bannerGradient": "from-rose-600 via-orange-500 to-amber-700",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000001534.000020053.html",
+    "source": "PR TIMES (東京メトロ)"
+  },
+  {
+    "id": "福岡県大刀洗町第２弾-大刀洗lineスタンプラリーグルメ巡り開催",
+    "title": "筑後地区観光協議会 Commemorative Stamp Rally",
+    "titleJa": "【福岡県大刀洗町】第２弾　大刀洗LINEスタンプラリー（グルメ巡り）開催！",
+    "organizer": "筑後地区観光協議会",
+    "description": "Official commemorative stamp rally organized by 筑後地区観光協議会. Collect stamps across participating stations and venues between 2026-10-29 and 2026-12-31 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-29",
+    "validUntil": "2026-12-31",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "します",
+    "rewardJa": "します",
+    "bannerGradient": "from-emerald-600 via-teal-600 to-sky-800",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000686.000041975.html",
+    "source": "PR TIMES (筑後地区観光協議会)"
+  },
+  {
+    "id": "jaf三重四日市あすなろう鉄道沿線スポットを巡るスタンプラリーの開催にjaf三重支部が協力します",
+    "title": "JAF Commemorative Stamp Rally",
+    "titleJa": "【JAF三重】四日市あすなろう鉄道沿線スポットを巡るスタンプラリーの開催にJAF三重支部が協力します",
+    "organizer": "JAF",
+    "description": "Official commemorative stamp rally organized by JAF. Collect stamps across participating stations and venues between 2026-11-01 and 2027-01-31 to claim exclusive collector rewards.",
+    "validFrom": "2026-11-01",
+    "validUntil": "2027-01-31",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "に応募できます",
+    "rewardJa": "に応募できます",
+    "bannerGradient": "from-purple-700 via-fuchsia-600 to-pink-800",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000007755.000010088.html",
+    "source": "PR TIMES (JAF)"
+  },
+  {
+    "id": "東京メトロ-街かどデジタルスタンプラリー",
+    "title": "は、「浅草～上野 歴史をめぐる『街かどデジタルスタンプラリー』」を開催 Commemorative Stamp Rally",
+    "titleJa": "東京メトロ 街かどデジタルスタンプラリー",
+    "organizer": "は、「浅草～上野 歴史をめぐる『街かどデジタルスタンプラリー』」を開催",
+    "description": "Official commemorative stamp rally organized by は、「浅草～上野 歴史をめぐる『街かどデジタルスタンプラリー』」を開催. Collect stamps across participating stations and venues between 2026-10-29 and 2026-12-31 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-29",
+    "validUntil": "2026-12-31",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "。引換箇所は、文庫屋「大関」浅草店",
+    "rewardJa": "。引換箇所は、文庫屋「大関」浅草店",
+    "bannerGradient": "from-amber-600 via-yellow-600 to-lime-700",
+    "officialUrl": "https://www.tetsudo.com/event/62328/",
+    "source": "Tetsudo.com (は、「浅草～上野 歴史をめぐる『街かどデジタルスタンプラリー』」を開催)"
+  },
+  {
+    "id": "秩父鉄道-沿線回遊スタンプラリー",
+    "title": "Railway Authority Commemorative Stamp Rally",
+    "titleJa": "秩父鉄道 沿線回遊スタンプラリー",
+    "organizer": "Railway Authority",
+    "description": "Official commemorative stamp rally organized by Railway Authority. Collect stamps across participating stations and venues between 2026-11-02 and 2027-03-31 to claim exclusive collector rewards.",
+    "validFrom": "2026-11-02",
+    "validUntil": "2027-03-31",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "（イメージ）",
+    "rewardJa": "（イメージ）",
+    "bannerGradient": "from-red-700 via-rose-600 to-pink-800",
+    "officialUrl": "https://www.tetsudo.com/event/62289/",
+    "source": "Tetsudo.com (Railway Authority)"
   }
 ]
