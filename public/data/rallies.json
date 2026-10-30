@@ -1273,5 +1273,62 @@
     "bannerGradient": "from-red-700 via-rose-600 to-pink-800",
     "officialUrl": "https://www.tetsudo.com/event/62289/",
     "source": "Tetsudo.com (Railway Authority)"
+  },
+  {
+    "id": "東京都町田市町田わくわくスタンプラリー2026がスタートします",
+    "title": "町田市 Commemorative Stamp Rally",
+    "titleJa": "【東京都町田市】「町田わくわくスタンプラリー2026」がスタートします",
+    "organizer": "町田市",
+    "description": "Official commemorative stamp rally organized by 町田市. Collect stamps across participating stations and venues between 2026-11-01 and 2026-12-31 to claim exclusive collector rewards.",
+    "validFrom": "2026-11-01",
+    "validUntil": "2026-12-31",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "が当たります",
+    "rewardJa": "が当たります",
+    "bannerGradient": "from-indigo-600 via-blue-600 to-cyan-800",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000947.000052170.html",
+    "source": "PR TIMES (町田市)"
+  },
+  {
+    "id": "jaf宮城宮城岩手の金の歴史を巡るみちのくgold浪漫スタンプラリー開催中",
+    "title": "JAF Commemorative Stamp Rally",
+    "titleJa": "【JAF宮城】宮城・岩手の“金”の歴史を巡る『みちのくGOLD浪漫スタンプラリー』開催中！",
+    "organizer": "JAF",
+    "description": "Official commemorative stamp rally organized by JAF. Collect stamps across participating stations and venues between 2026-10-09 and 2027-01-06 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-09",
+    "validUntil": "2027-01-06",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "の詳細はこちら",
+    "rewardJa": "の詳細はこちら",
+    "bannerGradient": "from-rose-600 via-orange-500 to-amber-700",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000007768.000010088.html",
+    "source": "PR TIMES (JAF)"
+  },
+  {
+    "id": "江ノ島電鉄-1000形とたどるエキタグラリー",
+    "title": "Railway Authority Commemorative Stamp Rally",
+    "titleJa": "江ノ島電鉄 1000形とたどるエキタグラリー",
+    "organizer": "Railway Authority",
+    "description": "Official commemorative stamp rally organized by Railway Authority. Collect stamps across participating stations and venues between 2026-10-31 and 2027-01-11 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-31",
+    "validUntil": "2027-01-11",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "。また、江ノ島駅窓口にて、江ノ電1日乗車券「のりおりくん」とコンプリートスタンプの提示で、限定グッズをプレゼント",
+    "rewardJa": "。また、江ノ島駅窓口にて、江ノ電1日乗車券「のりおりくん」とコンプリートスタンプの提示で、限定グッズをプレゼント",
+    "bannerGradient": "from-emerald-600 via-teal-600 to-sky-800",
+    "officialUrl": "https://www.tetsudo.com/event/62318/",
+    "source": "Tetsudo.com (Railway Authority)"
   }
 ]
