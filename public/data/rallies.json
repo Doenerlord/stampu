@@ -1368,5 +1368,24 @@
     "bannerGradient": "from-amber-600 via-yellow-600 to-lime-700",
     "officialUrl": "https://prtimes.jp/main/html/rd/p/000000004.000088995.html",
     "source": "PR TIMES (星野物産株式会社)"
+  },
+  {
+    "id": "特急あずさ-60周年記念-エキタグラリー",
+    "title": "東日本は、「『特急あずさ60周年記念』エキタグスタンプラリー」を開催 Commemorative Stamp Rally",
+    "titleJa": "特急あずさ 60周年記念 エキタグラリー",
+    "organizer": "東日本は、「『特急あずさ60周年記念』エキタグスタンプラリー」を開催",
+    "description": "Official commemorative stamp rally organized by 東日本は、「『特急あずさ60周年記念』エキタグスタンプラリー」を開催. Collect stamps across participating stations and venues between 2026-12-01 and 2027-02-28 to claim exclusive collector rewards.",
+    "validFrom": "2026-12-01",
+    "validUntil": "2027-02-28",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "のほか、スクラッチ抽選に参加可",
+    "rewardJa": "のほか、スクラッチ抽選に参加可",
+    "bannerGradient": "from-red-700 via-rose-600 to-pink-800",
+    "officialUrl": "https://www.tetsudo.com/event/62327/",
+    "source": "Tetsudo.com (東日本は、「『特急あずさ60周年記念』エキタグスタンプラリー」を開催)"
   }
 ]
