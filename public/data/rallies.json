@@ -1330,5 +1330,43 @@
     "bannerGradient": "from-emerald-600 via-teal-600 to-sky-800",
     "officialUrl": "https://www.tetsudo.com/event/62318/",
     "source": "Tetsudo.com (Railway Authority)"
+  },
+  {
+    "id": "参加無料2028年大河ドラマジョン万放送に向けて-高知県幡多地区6市町村を巡るデジタルスタンプラリーhataventur",
+    "title": "ジョン万EXPO推進協議会 Commemorative Stamp Rally",
+    "titleJa": "【参加無料】2028年大河ドラマ「ジョン万」放送に向けて　高知県幡多地区6市町村を巡るデジタルスタンプラリー「HATAVENTURE！」を開催",
+    "organizer": "ジョン万EXPO推進協議会",
+    "description": "Official commemorative stamp rally organized by ジョン万EXPO推進協議会. Collect stamps across participating stations and venues between 2026-11-01 and 2027-01-31 to claim exclusive collector rewards.",
+    "validFrom": "2026-11-01",
+    "validUntil": "2027-01-31",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "が抽選で当たります",
+    "rewardJa": "が抽選で当たります",
+    "bannerGradient": "from-purple-700 via-fuchsia-600 to-pink-800",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000001.000193206.html",
+    "source": "PR TIMES (ジョン万EXPO推進協議会)"
+  },
+  {
+    "id": "群馬県産小麦の魅力を再発見ぐんまけんはこむぎけん-パンスタンプラリー2026",
+    "title": "星野物産株式会社 Commemorative Stamp Rally",
+    "titleJa": "群馬県産小麦の魅力を再発見！「ぐんまけんはこむぎけん　パンスタンプラリー2026」",
+    "organizer": "星野物産株式会社",
+    "description": "Official commemorative stamp rally organized by 星野物産株式会社. Collect stamps across participating stations and venues between 2026-11-01 and 2027-01-31 to claim exclusive collector rewards.",
+    "validFrom": "2026-11-01",
+    "validUntil": "2027-01-31",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "※数量に限りがあります10店舗　オリジナルグッズへの抽選に参加30店舗　オリジナルグッズ、群馬県産小麦粉使用のお菓子詰め合わせへの抽選に参加32店舗　オリジナルグッズ、群馬県産小麦粉使用のお菓子詰め合わせへの抽選に参加",
+    "rewardJa": "※数量に限りがあります10店舗　オリジナルグッズへの抽選に参加30店舗　オリジナルグッズ、群馬県産小麦粉使用のお菓子詰め合わせへの抽選に参加32店舗　オリジナルグッズ、群馬県産小麦粉使用のお菓子詰め合わせへの抽選に参加",
+    "bannerGradient": "from-amber-600 via-yellow-600 to-lime-700",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000004.000088995.html",
+    "source": "PR TIMES (星野物産株式会社)"
   }
 ]
