@@ -1387,5 +1387,47 @@
     "bannerGradient": "from-red-700 via-rose-600 to-pink-800",
     "officialUrl": "https://www.tetsudo.com/event/62327/",
     "source": "Tetsudo.com (東日本は、「『特急あずさ60周年記念』エキタグスタンプラリー」を開催)"
+  },
+  {
+    "id": "東京多摩地域秋の夜を彩る紅葉ライトアップが小平や立川で開催-蔵開きやスタンプラリーなど各地で多彩なイベント開催",
+    "title": "多摩観光推進協議会 Commemorative Stamp Rally",
+    "titleJa": "【東京・多摩地域】秋の夜を彩る紅葉ライトアップが小平や立川で開催！　蔵開きやスタンプラリーなど各地で多彩なイベント開催",
+    "organizer": "多摩観光推進協議会",
+    "description": "Official commemorative stamp rally organized by 多摩観光推進協議会. Collect stamps across participating stations and venues between 2026-11-28 and 2026-12-13 to claim exclusive collector rewards.",
+    "validFrom": "2026-11-28",
+    "validUntil": "2026-12-13",
+    "stampIds": [
+      "eki-shinkansen-kurume",
+      "eki-tachikawa",
+      "garden--1e55b70f"
+    ],
+    "reward": "をもらえます",
+    "rewardJa": "をもらえます",
+    "bannerGradient": "from-indigo-600 via-blue-600 to-cyan-800",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000024.000132649.html",
+    "source": "PR TIMES (多摩観光推進協議会)"
+  },
+  {
+    "id": "私鉄10社スタンプラリー",
+    "title": "、東急電鉄、京成電鉄、小田急電鉄、京浜急行電鉄、西武鉄道、京王電鉄の10社は、「私鉄10社スタンプラリー」を開催 Commemorative Stamp Rally",
+    "titleJa": "私鉄10社スタンプラリー",
+    "organizer": "、東急電鉄、京成電鉄、小田急電鉄、京浜急行電鉄、西武鉄道、京王電鉄の10社は、「私鉄10社スタンプラリー」を開催",
+    "description": "Official commemorative stamp rally organized by 、東急電鉄、京成電鉄、小田急電鉄、京浜急行電鉄、西武鉄道、京王電鉄の10社は、「私鉄10社スタンプラリー」を開催. Collect stamps across participating stations and venues between 2026-11-11 and 2027-01-24 to claim exclusive collector rewards.",
+    "validFrom": "2026-11-11",
+    "validUntil": "2027-01-24",
+    "stampIds": [
+      "eki-shinkansen-tsuruga",
+      "eki-yokohama",
+      "eki-om-tamagawa",
+      "eki-metro-ginza",
+      "eki-metro-honancho",
+      "shop-jre-ono",
+      "eki-jr-ooka"
+    ],
+    "reward": "」計10種類）をプレゼント",
+    "rewardJa": "」計10種類）をプレゼント",
+    "bannerGradient": "from-rose-600 via-orange-500 to-amber-700",
+    "officialUrl": "https://www.tetsudo.com/event/62367/",
+    "source": "Tetsudo.com (、東急電鉄、京成電鉄、小田急電鉄、京浜急行電鉄、西武鉄道、京王電鉄の10社は、「私鉄10社スタンプラリー」を開催)"
   }
 ]
