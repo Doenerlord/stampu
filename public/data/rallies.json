@@ -1429,5 +1429,42 @@
     "bannerGradient": "from-rose-600 via-orange-500 to-amber-700",
     "officialUrl": "https://www.tetsudo.com/event/62367/",
     "source": "Tetsudo.com (、東急電鉄、京成電鉄、小田急電鉄、京浜急行電鉄、西武鉄道、京王電鉄の10社は、「私鉄10社スタンプラリー」を開催)"
+  },
+  {
+    "id": "埼玉県途中下車をしながらお酒とグルメ観光を楽しもう埼玉の酒-電車旅スタンプラリーを開催します",
+    "title": "埼玉県 Commemorative Stamp Rally",
+    "titleJa": "【埼玉県】途中下車をしながら、お酒とグルメ、観光を楽しもう！「埼玉の酒 電車旅。スタンプラリー」を開催します",
+    "organizer": "埼玉県",
+    "description": "Official commemorative stamp rally organized by 埼玉県. Collect stamps across participating stations and venues between 2026-11-06 and 2026-12-31 to claim exclusive collector rewards.",
+    "validFrom": "2026-11-06",
+    "validUntil": "2026-12-31",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "オリジナル記念ステッカー・記念品",
+    "rewardJa": "オリジナル記念ステッカー・記念品",
+    "bannerGradient": "from-emerald-600 via-teal-600 to-sky-800",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000001114.000104306.html",
+    "source": "PR TIMES (埼玉県)"
+  },
+  {
+    "id": "区境を越えて身も心もあたたまる湯巡りへ城東五区銭湯スタンプラリー202612月1日火より開催",
+    "title": "公衆浴場業生活衛生同業組合城東五区連合会 Commemorative Stamp Rally",
+    "titleJa": "区境を越えて身も心もあたたまる湯巡りへ！「城東五区銭湯スタンプラリー2026」12月1日(火)より開催！",
+    "organizer": "公衆浴場業生活衛生同業組合城東五区連合会",
+    "description": "Official commemorative stamp rally organized by 公衆浴場業生活衛生同業組合城東五区連合会. Collect stamps across participating stations and venues between 2026-12-01 and 2027-01-31 to claim exclusive collector rewards.",
+    "validFrom": "2026-12-01",
+    "validUntil": "2027-01-31",
+    "stampIds": [
+      "onsen-sumida-koganeyu",
+      "shop-shiroishi-dolphin"
+    ],
+    "reward": "！",
+    "rewardJa": "！",
+    "bannerGradient": "from-purple-700 via-fuchsia-600 to-pink-800",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000003.000189341.html",
+    "source": "PR TIMES (公衆浴場業生活衛生同業組合城東五区連合会)"
   }
 ]
