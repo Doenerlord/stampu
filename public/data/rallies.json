@@ -1532,5 +1532,23 @@
     "bannerGradient": "from-indigo-600 via-blue-600 to-cyan-800",
     "officialUrl": "https://prtimes.jp/main/html/rd/p/000001340.000060318.html",
     "source": "PR TIMES (株式会社ワン・パブリッシング)"
+  },
+  {
+    "id": "そうペンとぐるっとお出かけスタンプラリーを開催相鉄バス",
+    "title": "相鉄グループ Commemorative Stamp Rally",
+    "titleJa": "「そうペンとぐるっと！お出かけスタンプラリー」を開催【相鉄バス】",
+    "organizer": "相鉄グループ",
+    "description": "Official commemorative stamp rally organized by 相鉄グループ. Collect stamps across participating stations and venues between 2026-12-01 and 2027-01-31 to claim exclusive collector rewards.",
+    "validFrom": "2026-12-01",
+    "validUntil": "2027-01-31",
+    "stampIds": [
+      "eki-yokohama",
+      "shrine-ichinomiya-20"
+    ],
+    "reward": "します",
+    "rewardJa": "します",
+    "bannerGradient": "from-rose-600 via-orange-500 to-amber-700",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000069.000136108.html",
+    "source": "PR TIMES (相鉄グループ)"
   }
 ]
