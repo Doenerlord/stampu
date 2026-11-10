@@ -1466,5 +1466,71 @@
     "bannerGradient": "from-purple-700 via-fuchsia-600 to-pink-800",
     "officialUrl": "https://prtimes.jp/main/html/rd/p/000000003.000189341.html",
     "source": "PR TIMES (公衆浴場業生活衛生同業組合城東五区連合会)"
+  },
+  {
+    "id": "神戸の山に出かけようスタンプラリー2026",
+    "title": "㈱BSR Commemorative Stamp Rally",
+    "titleJa": "「神戸の山に出かけよう」スタンプラリー2026",
+    "organizer": "㈱BSR",
+    "description": "Official commemorative stamp rally organized by ㈱BSR. Collect stamps across participating stations and venues between 2026-11-10 and 2026-12-31 to claim exclusive collector rewards.",
+    "validFrom": "2026-11-10",
+    "validUntil": "2026-12-31",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "がもらえる人気のイベントです",
+    "rewardJa": "がもらえる人気のイベントです",
+    "bannerGradient": "from-amber-600 via-yellow-600 to-lime-700",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000017.000113623.html",
+    "source": "PR TIMES (㈱BSR)"
+  },
+  {
+    "id": "サンリオキャラクターズの体験型展示イベントホテルフローリア-トーキョー開催記念-東京メトロデジタルスタンプラリーの開催が",
+    "title": "Hotel Floria Tokyo 広報事務局 Commemorative Stamp Rally",
+    "titleJa": "サンリオキャラクターズの体験型展示イベント『ホテルフローリア トーキョー』開催記念 東京メトロデジタルスタンプラリーの開催が決定！",
+    "organizer": "Hotel Floria Tokyo 広報事務局",
+    "description": "Official commemorative stamp rally organized by Hotel Floria Tokyo 広報事務局. Collect stamps across participating stations and venues between 2026-11-12 and 2027-01-22 to claim exclusive collector rewards.",
+    "validFrom": "2026-11-12",
+    "validUntil": "2027-01-22",
+    "stampIds": [
+      "eki-metro-ginza",
+      "eki-metro-higashiginza",
+      "eki-metro-higashiikebukuro",
+      "eki-metro-ikebukuro",
+      "eki-metro-kiba",
+      "eki-metro-shibuya",
+      "eki-metro-shinjuku",
+      "eki-metro-shinjukusanchome",
+      "eki-metro-shinkiba",
+      "eki-metro-tokyo",
+      "eki-metro-ueno",
+      "eki-metro-yurakucho"
+    ],
+    "reward": "！",
+    "rewardJa": "！",
+    "bannerGradient": "from-red-700 via-rose-600 to-pink-800",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000020.000184384.html",
+    "source": "PR TIMES (Hotel Floria Tokyo 広報事務局)"
+  },
+  {
+    "id": "俳優中沢元紀の人気連載をガイドブック化日々燦々発売記念イベント決定-限定グッズをもらえるスタンプラリーも開催",
+    "title": "株式会社ワン・パブリッシング Commemorative Stamp Rally",
+    "titleJa": "俳優・中沢元紀の人気連載をガイドブック化！『日々燦々』発売記念イベント決定！ 限定グッズをもらえるスタンプラリーも開催！",
+    "organizer": "株式会社ワン・パブリッシング",
+    "description": "Official commemorative stamp rally organized by 株式会社ワン・パブリッシング. Collect stamps across participating stations and venues between 2026-10-07 and 2026-11-11 to claim exclusive collector rewards.",
+    "validFrom": "2026-10-07",
+    "validUntil": "2026-11-11",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "。さらに抽選で、中沢さんが旅の道中で作成したカップと箸置き（応募方法はスタンプラリーカードに記載）を各1名ずつにプレゼントします",
+    "rewardJa": "。さらに抽選で、中沢さんが旅の道中で作成したカップと箸置き（応募方法はスタンプラリーカードに記載）を各1名ずつにプレゼントします",
+    "bannerGradient": "from-indigo-600 via-blue-600 to-cyan-800",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000001340.000060318.html",
+    "source": "PR TIMES (株式会社ワン・パブリッシング)"
   }
 ]
