@@ -1550,5 +1550,62 @@
     "bannerGradient": "from-rose-600 via-orange-500 to-amber-700",
     "officialUrl": "https://prtimes.jp/main/html/rd/p/000000069.000136108.html",
     "source": "PR TIMES (相鉄グループ)"
+  },
+  {
+    "id": "埼玉県冬のぽかぽか埼玉観光-湯ったり日帰り埼玉スタンプラリーを実施します",
+    "title": "埼玉県 Commemorative Stamp Rally",
+    "titleJa": "【埼玉県】冬のぽかぽか埼玉観光 「湯ったり日帰り埼玉」スタンプラリーを実施します！",
+    "organizer": "埼玉県",
+    "description": "Official commemorative stamp rally organized by 埼玉県. Collect stamps across participating stations and venues between 2026-11-12 and 2026-12-31 to claim exclusive collector rewards.",
+    "validFrom": "2026-11-12",
+    "validUntil": "2026-12-31",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "します",
+    "rewardJa": "します",
+    "bannerGradient": "from-emerald-600 via-teal-600 to-sky-800",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000001118.000104306.html",
+    "source": "PR TIMES (埼玉県)"
+  },
+  {
+    "id": "埼玉県埼玉県文化アプリぶんたまスタンプラリープレゼント応募の受付を開始します",
+    "title": "埼玉県 Commemorative Stamp Rally",
+    "titleJa": "【埼玉県】埼玉県文化アプリ「ぶんたま」スタンプラリープレゼント応募の受付を開始します！",
+    "organizer": "埼玉県",
+    "description": "Official commemorative stamp rally organized by 埼玉県. Collect stamps across participating stations and venues between 2026-11-12 and 2026-12-31 to claim exclusive collector rewards.",
+    "validFrom": "2026-11-12",
+    "validUntil": "2026-12-31",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "が当たるスタンプラリーを実施しており、令和8年11月11日（水曜日）からプレゼントの応募受付を開始します",
+    "rewardJa": "が当たるスタンプラリーを実施しており、令和8年11月11日（水曜日）からプレゼントの応募受付を開始します",
+    "bannerGradient": "from-purple-700 via-fuchsia-600 to-pink-800",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000001117.000104306.html",
+    "source": "PR TIMES (埼玉県)"
+  },
+  {
+    "id": "島根県益田市益田市日本遺産デジタルスタンプラリーにnft技術を提供",
+    "title": "SUSHI TOP MARKETING株式会社 Commemorative Stamp Rally",
+    "titleJa": "島根県益田市「益田市日本遺産デジタルスタンプラリー」にNFT技術を提供",
+    "organizer": "SUSHI TOP MARKETING株式会社",
+    "description": "Official commemorative stamp rally organized by SUSHI TOP MARKETING株式会社. Collect stamps across participating stations and venues between 2026-11-15 and 2027-02-14 to claim exclusive collector rewards.",
+    "validFrom": "2026-11-15",
+    "validUntil": "2027-02-14",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "取得したスタンプの数により、萩・石見空港〜羽田空港往復ペアチケット、柴犬グッズ、日本遺産「中世益田」グッズに応募できます（それぞれ抽選）",
+    "rewardJa": "取得したスタンプの数により、萩・石見空港〜羽田空港往復ペアチケット、柴犬グッズ、日本遺産「中世益田」グッズに応募できます（それぞれ抽選）",
+    "bannerGradient": "from-amber-600 via-yellow-600 to-lime-700",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000190.000092249.html",
+    "source": "PR TIMES (SUSHI TOP MARKETING株式会社)"
   }
 ]
