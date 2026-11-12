@@ -1607,5 +1607,25 @@
     "bannerGradient": "from-amber-600 via-yellow-600 to-lime-700",
     "officialUrl": "https://prtimes.jp/main/html/rd/p/000000190.000092249.html",
     "source": "PR TIMES (SUSHI TOP MARKETING株式会社)"
+  },
+  {
+    "id": "常磐線-田端土浦間開業130周年記念-エキタグスタンプラリー",
+    "title": "東日本は、常磐線田端～土浦間開業130周年を記念して、「記憶を辿るエキタグスタンプラリー 〜つなぐ、つながる常磐線〜」を開催 Commemorative Stamp Rally",
+    "titleJa": "常磐線 田端～土浦間開業130周年記念 エキタグスタンプラリー",
+    "organizer": "東日本は、常磐線田端～土浦間開業130周年を記念して、「記憶を辿るエキタグスタンプラリー 〜つなぐ、つながる常磐線〜」を開催",
+    "description": "Official commemorative stamp rally organized by 東日本は、常磐線田端～土浦間開業130周年を記念して、「記憶を辿るエキタグスタンプラリー 〜つなぐ、つながる常磐線〜」を開催. Collect stamps across participating stations and venues between 2026-12-11 and 2027-03-28 to claim exclusive collector rewards.",
+    "validFrom": "2026-12-11",
+    "validUntil": "2027-03-28",
+    "stampIds": [
+      "eki-shinkansen-tsuruga",
+      "eki-yamanote-tabata",
+      "shop-jr-tsuchiura",
+      "shop-jr-matsudo"
+    ],
+    "reward": "。",
+    "rewardJa": "。",
+    "bannerGradient": "from-red-700 via-rose-600 to-pink-800",
+    "officialUrl": "https://www.tetsudo.com/event/62480/",
+    "source": "Tetsudo.com (東日本は、常磐線田端～土浦間開業130周年を記念して、「記憶を辿るエキタグスタンプラリー 〜つなぐ、つながる常磐線〜」を開催)"
   }
 ]
