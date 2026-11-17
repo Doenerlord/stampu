@@ -1627,5 +1627,43 @@
     "bannerGradient": "from-red-700 via-rose-600 to-pink-800",
     "officialUrl": "https://www.tetsudo.com/event/62480/",
     "source": "Tetsudo.com (東日本は、常磐線田端～土浦間開業130周年を記念して、「記憶を辿るエキタグスタンプラリー 〜つなぐ、つながる常磐線〜」を開催)"
+  },
+  {
+    "id": "福岡県広川町特産品が当たるデジタルスタンプラリー秋の広川トレジャーハント5つのデジタルキースタンプを集めに広川のスポット",
+    "title": "筑後地区観光協議会 Commemorative Stamp Rally",
+    "titleJa": "【福岡県広川町】特産品が当たる！デジタルスタンプラリー「秋の広川トレジャーハント～5つのデジタルキースタンプを集めに広川のスポットを巡ろう！～」を11月17日より開催",
+    "organizer": "筑後地区観光協議会",
+    "description": "Official commemorative stamp rally organized by 筑後地区観光協議会. Collect stamps across participating stations and venues between 2026-11-17 and 2026-12-16 to claim exclusive collector rewards.",
+    "validFrom": "2026-11-17",
+    "validUntil": "2026-12-16",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "オリジナル記念ステッカー・記念品",
+    "rewardJa": "オリジナル記念ステッカー・記念品",
+    "bannerGradient": "from-indigo-600 via-blue-600 to-cyan-800",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000704.000041975.html",
+    "source": "PR TIMES (筑後地区観光協議会)"
+  },
+  {
+    "id": "学生エンジニアの技術発信などを可視化発信スタンプラリーをfindy-studentにて提供開始",
+    "title": "ファインディ Commemorative Stamp Rally",
+    "titleJa": "学生エンジニアの技術発信などを可視化。「発信スタンプラリー」を「Findy Student」にて提供開始！",
+    "organizer": "ファインディ",
+    "description": "Official commemorative stamp rally organized by ファインディ. Collect stamps across participating stations and venues between 2026-11-17 and 2026-12-31 to claim exclusive collector rewards.",
+    "validFrom": "2026-11-17",
+    "validUntil": "2026-12-31",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "オリジナル記念ステッカー・記念品",
+    "rewardJa": "オリジナル記念ステッカー・記念品",
+    "bannerGradient": "from-rose-600 via-orange-500 to-amber-700",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000287.000045379.html",
+    "source": "PR TIMES (ファインディ)"
   }
 ]
