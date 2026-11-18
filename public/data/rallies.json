@@ -1665,5 +1665,24 @@
     "bannerGradient": "from-rose-600 via-orange-500 to-amber-700",
     "officialUrl": "https://prtimes.jp/main/html/rd/p/000000287.000045379.html",
     "source": "PR TIMES (ファインディ)"
+  },
+  {
+    "id": "cabinでととのうtsubakiで味わう札幌の2つのホテルを巡るサウナグルメ-スタンプラリーを開催",
+    "title": "株式会社ケン・ホテル＆リゾートホールディングス Commemorative Stamp Rally",
+    "titleJa": "CABINで「ととのう」、TSUBAKIで「味わう」札幌の2つのホテルを巡る「サウナ×グルメ スタンプラリー」を開催",
+    "organizer": "株式会社ケン・ホテル＆リゾートホールディングス",
+    "description": "Official commemorative stamp rally organized by 株式会社ケン・ホテル＆リゾートホールディングス. Collect stamps across participating stations and venues between 2026-11-29 and 2027-03-31 to claim exclusive collector rewards.",
+    "validFrom": "2026-11-29",
+    "validUntil": "2027-03-31",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "をご利用いただけます",
+    "rewardJa": "をご利用いただけます",
+    "bannerGradient": "from-emerald-600 via-teal-600 to-sky-800",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000146.000012186.html",
+    "source": "PR TIMES (株式会社ケン・ホテル＆リゾートホールディングス)"
   }
 ]
