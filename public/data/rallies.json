@@ -1684,5 +1684,43 @@
     "bannerGradient": "from-emerald-600 via-teal-600 to-sky-800",
     "officialUrl": "https://prtimes.jp/main/html/rd/p/000000146.000012186.html",
     "source": "PR TIMES (株式会社ケン・ホテル＆リゾートホールディングス)"
+  },
+  {
+    "id": "東京クリスマスマーケット2026-公式lineから参加2会場を巡るスタンプラリークリスマスマグで乾杯を開催",
+    "title": "株式会社ビー・エフ・シー Commemorative Stamp Rally",
+    "titleJa": "東京クリスマスマーケット2026　公式LINEから参加！2会場を巡るスタンプラリー「クリスマスマグで乾杯！」を開催",
+    "organizer": "株式会社ビー・エフ・シー",
+    "description": "Official commemorative stamp rally organized by 株式会社ビー・エフ・シー. Collect stamps across participating stations and venues between 2026-11-20 and 2026-12-25 to claim exclusive collector rewards.",
+    "validFrom": "2026-11-20",
+    "validUntil": "2026-12-25",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "！",
+    "rewardJa": "！",
+    "bannerGradient": "from-purple-700 via-fuchsia-600 to-pink-800",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000098.000047941.html",
+    "source": "PR TIMES (株式会社ビー・エフ・シー)"
+  },
+  {
+    "id": "jr東伊豆急行伊豆箱根鉄道-ゆるキャンエキタグラリー",
+    "title": "東日本は、「『ゆるキャン△』×エキタグラリー～100年変わらない伊豆の魅力を感じる旅～」を開催 Commemorative Stamp Rally",
+    "titleJa": "JR東・伊豆急行・伊豆箱根鉄道 ゆるキャン・エキタグラリー",
+    "organizer": "東日本は、「『ゆるキャン△』×エキタグラリー～100年変わらない伊豆の魅力を感じる旅～」を開催",
+    "description": "Official commemorative stamp rally organized by 東日本は、「『ゆるキャン△』×エキタグラリー～100年変わらない伊豆の魅力を感じる旅～」を開催. Collect stamps across participating stations and venues between 2027-01-07 and 2027-03-31 to claim exclusive collector rewards.",
+    "validFrom": "2027-01-07",
+    "validUntil": "2027-03-31",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "、首都圏エリア1箇所と伊豆半島エリア全8個の収集で、録り下ろしボイスおよび待ち受け画像、全スタンプ獲得およびアンケート回答でアクリルジオラマ（抽選300人）をプレゼント",
+    "rewardJa": "、首都圏エリア1箇所と伊豆半島エリア全8個の収集で、録り下ろしボイスおよび待ち受け画像、全スタンプ獲得およびアンケート回答でアクリルジオラマ（抽選300人）をプレゼント",
+    "bannerGradient": "from-amber-600 via-yellow-600 to-lime-700",
+    "officialUrl": "https://www.tetsudo.com/event/62557/",
+    "source": "Tetsudo.com (東日本は、「『ゆるキャン△』×エキタグラリー～100年変わらない伊豆の魅力を感じる旅～」を開催)"
   }
 ]
