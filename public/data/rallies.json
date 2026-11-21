@@ -1722,5 +1722,42 @@
     "bannerGradient": "from-amber-600 via-yellow-600 to-lime-700",
     "officialUrl": "https://www.tetsudo.com/event/62557/",
     "source": "Tetsudo.com (東日本は、「『ゆるキャン△』×エキタグラリー～100年変わらない伊豆の魅力を感じる旅～」を開催)"
+  },
+  {
+    "id": "加茂遺跡-弥生のムラ-スタンプラリーを開催-兵庫県川西市",
+    "title": "川西市 Commemorative Stamp Rally",
+    "titleJa": "加茂遺跡 弥生のムラ スタンプラリーを開催 / 兵庫県川西市",
+    "organizer": "川西市",
+    "description": "Official commemorative stamp rally organized by 川西市. Collect stamps across participating stations and venues between 2026-11-21 and 2026-12-31 to claim exclusive collector rewards.",
+    "validFrom": "2026-11-21",
+    "validUntil": "2026-12-31",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "プレゼント、参加費無料",
+    "rewardJa": "プレゼント、参加費無料",
+    "bannerGradient": "from-red-700 via-rose-600 to-pink-800",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000546.000098199.html",
+    "source": "PR TIMES (川西市)"
+  },
+  {
+    "id": "広島電鉄-広島冬さんぽ-デジタルスタンプラリー",
+    "title": "Railway Authority Commemorative Stamp Rally",
+    "titleJa": "広島電鉄 広島冬さんぽ デジタルスタンプラリー",
+    "organizer": "Railway Authority",
+    "description": "Official commemorative stamp rally organized by Railway Authority. Collect stamps across participating stations and venues between 2026-11-23 and 2027-01-11 to claim exclusive collector rewards.",
+    "validFrom": "2026-11-23",
+    "validUntil": "2027-01-11",
+    "stampIds": [
+      "eki-shinkansen-tsuruga",
+      "eki-shinkansen-hiroshima"
+    ],
+    "reward": "の抽選（当選計17人）に応募可",
+    "rewardJa": "の抽選（当選計17人）に応募可",
+    "bannerGradient": "from-indigo-600 via-blue-600 to-cyan-800",
+    "officialUrl": "https://www.tetsudo.com/event/62579/",
+    "source": "Tetsudo.com (Railway Authority)"
   }
 ]
