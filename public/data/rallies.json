@@ -1759,5 +1759,43 @@
     "bannerGradient": "from-indigo-600 via-blue-600 to-cyan-800",
     "officialUrl": "https://www.tetsudo.com/event/62579/",
     "source": "Tetsudo.com (Railway Authority)"
+  },
+  {
+    "id": "わかやま麺旅book岩出市紀の川市が完成スマホで集める麺旅スタンプラリーを開催2026年12月1日火2027年2月28日",
+    "title": "和歌山県公式 Commemorative Stamp Rally",
+    "titleJa": "『わかやま麺旅BOOK［岩出市＆紀の川市］』が完成、「スマホで集める！【麺旅】スタンプラリーを開催」（2026年12月1日（火）～2027年2月28日（日））",
+    "organizer": "和歌山県公式",
+    "description": "Official commemorative stamp rally organized by 和歌山県公式. Collect stamps across participating stations and venues between 2026-12-01 and 2027-02-28 to claim exclusive collector rewards.",
+    "validFrom": "2026-12-01",
+    "validUntil": "2027-02-28",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "オリジナル記念ステッカー・記念品",
+    "rewardJa": "オリジナル記念ステッカー・記念品",
+    "bannerGradient": "from-rose-600 via-orange-500 to-amber-700",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000125.000182609.html",
+    "source": "PR TIMES (和歌山県公式)"
+  },
+  {
+    "id": "アプリ不要スマホのブラウザで参加metaiqrとgpsで来場を確認するデジタルスタンプラリーstamp-rally-ai",
+    "title": "合同会社MetAI Commemorative Stamp Rally",
+    "titleJa": "アプリ不要、スマホのブラウザで参加。MetAI、QRとGPSで来場を確認するデジタルスタンプラリー「Stamp Rally AI」を公開。新春・春のイベントに向けて、自治体・商店街との実証を募集",
+    "organizer": "合同会社MetAI",
+    "description": "Official commemorative stamp rally organized by 合同会社MetAI. Collect stamps across participating stations and venues between 2026-11-24 and 2026-12-31 to claim exclusive collector rewards.",
+    "validFrom": "2026-11-24",
+    "validUntil": "2026-12-31",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "と交換します",
+    "rewardJa": "と交換します",
+    "bannerGradient": "from-emerald-600 via-teal-600 to-sky-800",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000020.000126494.html",
+    "source": "PR TIMES (合同会社MetAI)"
   }
 ]
