@@ -1797,5 +1797,44 @@
     "bannerGradient": "from-emerald-600 via-teal-600 to-sky-800",
     "officialUrl": "https://prtimes.jp/main/html/rd/p/000000020.000126494.html",
     "source": "PR TIMES (合同会社MetAI)"
+  },
+  {
+    "id": "スタンプラリー達成後の楽しみがさらに広がるオリジナルフォトフレーム機能が新登場stanlly-plusスタンリープラス",
+    "title": "株式会社PKBソリューション Commemorative Stamp Rally",
+    "titleJa": "スタンプラリー達成後の楽しみがさらに広がる！【オリジナルフォトフレーム機能】が新登場｜Stanlly plus(スタンリープラス)",
+    "organizer": "株式会社PKBソリューション",
+    "description": "Official commemorative stamp rally organized by 株式会社PKBソリューション. Collect stamps across participating stations and venues between 2026-11-25 and 2026-12-31 to claim exclusive collector rewards.",
+    "validFrom": "2026-11-25",
+    "validUntil": "2026-12-31",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "提供方法として「フォトフレーム機能」を追加しました",
+    "rewardJa": "提供方法として「フォトフレーム機能」を追加しました",
+    "bannerGradient": "from-purple-700 via-fuchsia-600 to-pink-800",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000184.000057725.html",
+    "source": "PR TIMES (株式会社PKBソリューション)"
+  },
+  {
+    "id": "淡海のいろと連携した滋賀県-駅めぐりスタンプラリーもういーかい-いろよーかいの実施について",
+    "title": "JR西日本 Commemorative Stamp Rally",
+    "titleJa": "「淡海のいろ®」と連携した滋賀県 駅めぐりスタンプラリー「もういーかい　いろよーかい」の実施について",
+    "organizer": "JR西日本",
+    "description": "Official commemorative stamp rally organized by JR西日本. Collect stamps across participating stations and venues between 2026-12-01 and 2027-01-06 to claim exclusive collector rewards.",
+    "validFrom": "2026-12-01",
+    "validUntil": "2027-01-06",
+    "stampIds": [
+      "eki-jr-hikone",
+      "eki-jr-ogotoonsen",
+      "eki-jr-omiimazu",
+      "eki-jr-nagahama"
+    ],
+    "reward": "オリジナル記念ステッカー・記念品",
+    "rewardJa": "オリジナル記念ステッカー・記念品",
+    "bannerGradient": "from-amber-600 via-yellow-600 to-lime-700",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000002474.000095753.html",
+    "source": "PR TIMES (JR西日本)"
   }
 ]
