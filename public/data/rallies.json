@@ -1836,5 +1836,24 @@
     "bannerGradient": "from-amber-600 via-yellow-600 to-lime-700",
     "officialUrl": "https://prtimes.jp/main/html/rd/p/000002474.000095753.html",
     "source": "PR TIMES (JR西日本)"
+  },
+  {
+    "id": "jaf神奈川初開催のスタンプラリーでペットツーリズムを支援秋めく景色を眺めながらカフェやドッグランを巡るペット連れに人気",
+    "title": "JAF Commemorative Stamp Rally",
+    "titleJa": "【JAF神奈川】初開催のスタンプラリーでペットツーリズムを支援。秋めく景色を眺めながらカフェやドッグランを巡る、ペット連れに人気の足柄エリアで開催",
+    "organizer": "JAF",
+    "description": "Official commemorative stamp rally organized by JAF. Collect stamps across participating stations and venues between 2026-11-21 and 2027-02-21 to claim exclusive collector rewards.",
+    "validFrom": "2026-11-21",
+    "validUntil": "2027-02-21",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "します",
+    "rewardJa": "します",
+    "bannerGradient": "from-red-700 via-rose-600 to-pink-800",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000007863.000010088.html",
+    "source": "PR TIMES (JAF)"
   }
 ]
