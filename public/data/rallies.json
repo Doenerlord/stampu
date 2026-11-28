@@ -1855,5 +1855,24 @@
     "bannerGradient": "from-red-700 via-rose-600 to-pink-800",
     "officialUrl": "https://prtimes.jp/main/html/rd/p/000007863.000010088.html",
     "source": "PR TIMES (JAF)"
+  },
+  {
+    "id": "魔法の姉妹ルルットリリィ魔法の天使クリィミーマミコラボスタンプラリー12月4日金より京都ポルタゼスト御池にて期間限定で開",
+    "title": "バンダイナムコフィルムワークス Commemorative Stamp Rally",
+    "titleJa": "『魔法の姉妹ルルットリリィ』×『魔法の天使クリィミーマミ』コラボスタンプラリー12月4日（金）より京都ポルタ・ゼスト御池にて期間限定で開催！スタンプを集めて、参加特典のオリジナルノベルティをゲット！",
+    "organizer": "バンダイナムコフィルムワークス",
+    "description": "Official commemorative stamp rally organized by バンダイナムコフィルムワークス. Collect stamps across participating stations and venues between 2026-12-04 and 2026-12-25 to claim exclusive collector rewards.",
+    "validFrom": "2026-12-04",
+    "validUntil": "2026-12-25",
+    "stampIds": [
+      "eki-metro-tokyo",
+      "eki-metro-shinjuku",
+      "eki-metro-ueno"
+    ],
+    "reward": "いたします",
+    "rewardJa": "いたします",
+    "bannerGradient": "from-indigo-600 via-blue-600 to-cyan-800",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000734.000029654.html",
+    "source": "PR TIMES (バンダイナムコフィルムワークス)"
   }
 ]
